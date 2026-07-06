@@ -1,0 +1,25 @@
+# 파이썬
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 자격증명·비밀 (토큰/키는 절대 커밋 금지 — SOURCES.md 참고)
+.env
+*.token
+
+# Bloomberg 터미널 스크린샷 — 재배포 제한(ToS)으로 공개 리포에서 제외 (로컬엔 유지)
+# 이름 기반이라 하위 어느 폴더에 있든(블로그 이미지 포함) 전부 제외됨
+bloomberg.png
+bloomberg_image.png
+
+# 로컬 도구 설정(머신 경로·권한) — 공개 불필요
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 주의: data/ 와 charts/*.png 는 산출물이지만 재현 대상이라 '커밋 유지'한다.
+#       용량이 문제되면 대용량 CSV만 선별 제외할 것.

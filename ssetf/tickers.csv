@@ -1,0 +1,22 @@
+Ticker,Exchange,Underlying,ProductName,Leverage,Currency,ListingDate,YahooName,File,Note
+7747.HK,HKEX,Samsung Electronics,CSOP Samsung Electronics Daily (2x) Leveraged Product,2x,HKD,2025-05-28,XL2CSOPSMSN,data/7747_HK.csv,HKD counter (dual with 9747)
+9747.HK,HKEX,Samsung Electronics,CSOP Samsung Electronics Daily (2x) Leveraged Product,2x,USD,2025-05-28,XL2CSOPSMSN-U,data/9747_HK.csv,USD counter (dual with 7747)
+7709.HK,HKEX,SK Hynix,CSOP SK Hynix Daily (2x) Leveraged Product,2x,HKD,2025-10-16,XL2CSOPHYNIX,data/7709_HK.csv,HKD counter only - no USD counter exists
+7347.HK,HKEX,Samsung Electronics,CSOP Samsung Electronics Daily (-2x) Inverse Product,-2x,HKD,2025-05-28,XI2CSOPSMSN,data/7347_HK_hkex.csv,인버스 HKD counter (dual with 9347); SK하이닉스는 인버스 없음
+9347.HK,HKEX,Samsung Electronics,CSOP Samsung Electronics Daily (-2x) Inverse Product,-2x,USD,2025-05-28,XI2CSOPSMSN-U,data/9347_HK_hkex.csv,인버스 USD counter; getchartdata2 데이터 2026-06-08까지만
+HNX3.L,LSE,SK Hynix,Leverage Shares 3x Long SK Hynix ETP,3x,USD,2026-06-12,Leverage Shares 3x Long SK Hynix,data/HNX3_L.csv,USD line (GBP line = 3HNX); Yahoo data starts 2026-06-22
+SMG3.L,LSE,Samsung Electronics,Leverage Shares 3x Long Samsung Electronics ETP,3x,USD,2026-06-12,Leverage Shares 3x Long Samsung,data/SMG3_L.csv,USD line (GBP line = 3SMG); Yahoo data starts 2026-06-22
+0193W0.KS,KRX,Samsung Electronics,KODEX 삼성전자단일종목레버리지,2x,KRW,,KODEX,data/0193W0_KS.csv,
+0195R0.KS,KRX,Samsung Electronics,TIGER 삼성전자단일종목레버리지,2x,KRW,,TIGER,data/0195R0_KS.csv,
+0194M0.KS,KRX,Samsung Electronics,ACE 삼성전자단일종목레버리지,2x,KRW,,ACE,data/0194M0_KS.csv,
+0192M0.KS,KRX,Samsung Electronics,RISE 삼성전자단일종목레버리지,2x,KRW,,RISE,data/0192M0_KS.csv,
+0193K0.KS,KRX,Samsung Electronics,PLUS 삼성전자단일종목레버리지,2x,KRW,,PLUS,data/0193K0_KS.csv,
+0194N0.KS,KRX,Samsung Electronics,KIWOOM 삼성전자선물단일종목레버리지,2x,KRW,,KIWOOM(futures),data/0194N0_KS.csv,futures-based
+0198B0.KS,KRX,Samsung Electronics,1Q 삼성전자선물단일종목레버리지,2x,KRW,,1Q(futures),data/0198B0_KS.csv,futures-based
+0193T0.KS,KRX,SK Hynix,KODEX SK하이닉스단일종목레버리지,2x,KRW,,KODEX,data/0193T0_KS.csv,
+0195S0.KS,KRX,SK Hynix,TIGER SK하이닉스단일종목레버리지,2x,KRW,,TIGER,data/0195S0_KS.csv,
+0194T0.KS,KRX,SK Hynix,ACE SK하이닉스단일종목레버리지,2x,KRW,,ACE,data/0194T0_KS.csv,
+0192L0.KS,KRX,SK Hynix,RISE SK하이닉스단일종목레버리지,2x,KRW,,RISE,data/0192L0_KS.csv,
+0197W0.KS,KRX,SK Hynix,SOL SK하이닉스단일종목레버리지,2x,KRW,,SOL,data/0197W0_KS.csv,
+0194R0.KS,KRX,SK Hynix,KIWOOM SK하이닉스선물단일종목레버리지,2x,KRW,,KIWOOM(futures),data/0194R0_KS.csv,futures-based
+0198D0.KS,KRX,SK Hynix,1Q SK하이닉스선물단일종목레버리지,2x,KRW,,1Q(futures),data/0198D0_KS.csv,futures-based

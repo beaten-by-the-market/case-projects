@@ -1,0 +1,14 @@
+# 삼성·하이닉스 레버리지 데이터 수집 — 파이썬 의존성
+# 검증 환경: Python 3.13.7 (Windows 11). 아래 버전으로 재현 확인됨.
+#   pip install -r requirements.txt
+
+pandas>=2.2,<3          # 모든 수집·통합 스크립트
+requests>=2.32,<3       # HTTP (모든 수집 스크립트)
+lxml>=5                 # naver_fx.py 의 pandas.read_html 표 파싱
+matplotlib>=3.9,<4      # charts/*.py 차트 생성
+
+# ── 외부 의존(수동 설치) ─────────────────────────────────────────────
+# krx_history.py 는 로컬 레포 krx-data-api 가 필요하다(PyPI 아님).
+#   레포:  C:\Users\Peter\github\krx-data-api  (pip install -e . 로 설치)
+#   인증:  같은 레포의 .env 에 KRX_ID / KRX_PW
+# 이게 없으면 KRX 수집만 안 되고 나머지(HKEX/LSE/CSOP/SEIBRO/FX)는 정상 동작.
