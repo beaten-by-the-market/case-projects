@@ -1,0 +1,9 @@
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

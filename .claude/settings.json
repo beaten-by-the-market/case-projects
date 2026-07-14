@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Read(//c/Users/Peter/github/us_comparison/**)",
+      "Read(//c/Users/Peter/github/us_comparison/nyse/**)"
+    ]
+  }
+}

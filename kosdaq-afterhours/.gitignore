@@ -1,0 +1,23 @@
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 자격증명 (CHECK 인증은 check-api-krx-dl 레포의 .env에서 읽는다 — HANDOFF.md §7)
+.env
+
+# CHECK API 원본 수집물 (~265MB). daily_krx.csv 는 131MB로 GitHub 파일 한도(100MB) 초과.
+# collect.py 로 재생성 가능하므로 커밋하지 않는다. 파생 산출물(ineligible_days·left_censored·
+# master·spac소멸합병상장.xlsx)과 체크포인트(.done)는 작아서 커밋 유지.
+data/daily_krx.csv
+data/daily_nxt.csv
+data/gongsi.csv
+data/ohlc_kosdaq.csv
+
+# 로컬 도구 설정
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

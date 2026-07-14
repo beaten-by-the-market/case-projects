@@ -1,0 +1,46 @@
+Rule 7.34.
+Trading Sessions
+Sessions
+. The Exchange will have two trading sessions each day the Exchange is open for business unless otherwise determined by the Exchange:
+Early Trading Session
+. Only UTP Securities are eligible to trade in the Early Trading Session. The Early Trading Session will begin at 7:00 a.m. and conclude at the commencement of the Core Trading Session. The Exchange will begin accepting orders in all securities 30 minutes before the Early Trading Session begins.
+Core Trading Session
+. All securities traded on the Exchange are eligible to trade in the Core Trading Session.
+For UTP Securities, the Core Trading Session will begin for each security at 9:30 a.m. and end at the conclusion of Core Trading Hours.
+For Exchange-listed securities, the Core Trading Session will begin for each security with the Core Open Auction, which can take place during Core Trading Hours only, and will end for each security at the later of the conclusion of Core Trading Hours or, if a Closing Auction is conducted, the conclusion of the Closing Auction. Except as provided for in Rules 7.35B(a)(1) and (2) and (j)(2), all order instructions must be entered by the end of Core Trading Hours and bids and offers represented orally by a Floor broker must be represented at the point of sale by the end of Core Trading Hours.
+Order Designation
+.
+Unless otherwise specified in paragraph (c) of this Rule, an order in a UTP Security entered before or during the Early or Core Trading Session will be deemed designated for the Early Trading Session and the Core Trading Session. All orders in Exchange-listed securities are deemed designated for the Core Trading Session only.
+For member organizations that communicate with the Exchange using Pillar phase I protocols, an order without a time-in-force designation will be deemed designated with a day time-in-force modifier.
+Orders Permitted in Each Session
+.
+Early Trading Session. Unless otherwise specified in paragraphs (c)(1)(A) - (D), orders and modifiers defined in Rule 7.31 are eligible to participate in the Early Trading Session.
+Pegged Orders, Last Sale Peg Orders, and D Orders are not eligible to participate in the Early Trading Session. Non-Displayed Primary Pegged Orders entered before the Core Trading Session will be rejected. Primary Pegged Orders, Last Sale Peg Orders, and D Orders entered before the Core Trading Session will be accepted but will not be eligible to trade until the Core Trading Session begins.
+Non-Displayed Limit Orders, MPL Orders, Last Sale Peg Orders, and Limit Orders designated IOC in UTP Securities will be rejected if entered before the Early Trading Session begins.
+Market Orders and Auction-Only Orders in UTP Securities entered before the Core Trading Session begins will be routed to the primary listing market on arrival. Any order routed directly to the primary listing market on arrival will be cancelled if that market is not accepting orders.
+Non-Displayed Limit Orders, MPL Orders, Last Sale Peg Orders, Limit Orders designated IOC, RPIs, CCOs, and proposed Floor broker cross transactions pursuant to Rule 76.10 in Auction-Eligible Securities will be rejected if entered before the Core Trading Session begins.
+Core Trading Session. Unless otherwise specified in paragraphs (c)(2)(A) - (B), all orders and modifiers defined in Rule 7.31 are eligible to participate in the Core Trading Session.
+Market Orders in UTP Securities will be routed to the primary listing market until the first opening print of any size on the primary listing market or 10:00 a.m., whichever is earlier.
+Auction-Only Orders in UTP Securities will be accepted and routed directly to the primary listing market.
+Customer Disclosures
+. No member organization may accept an order from a non-member organization for execution in the Early Trading Session without disclosing to such non-member organization that:
+Limit Orders are the only orders that are eligible for execution during the Early Trading Sessions;
+An order must be designated specifically for trading in the Early Trading Session to be eligible for trading in the Early Trading Session; and
+Extended hours trading involves material trading risks, including the possibility of lower liquidity, high volatility, changing prices, unlinked markets, an exaggerated effect from news announcements, wider spreads and any other relevant risk. The absence of an updated underlying index value or intraday indicative value is an additional trading risk in extended hours for Exchange Traded Products.
+The disclosures required pursuant to this subparagraph (d)(3) may take the following form or such other form as provides substantially similar information:
+Risk of Lower Liquidity. Liquidity refers to the ability of market participants to buy and sell securities. Generally, the more orders that are available in a market, the greater the liquidity. Liquidity is important because with greater liquidity it is easier for investors to buy or sell securities, and as a result, investors are more likely to pay or receive a competitive price for securities purchased or sold. There may be lower liquidity in extended hours trading as compared to regular market hours. As a result, your order may only be partially executed, or not at all.
+Risk of Higher Volatility. Volatility refers to the changes in price that securities undergo when trading. Generally, the higher the volatility of a security, the greater its price swings. There may be greater volatility in extended hours trading than in regular market hours. As a result, your order may only be partially executed, or not at all, or you may receive an inferior price in extended hours trading than you would during regular market hours.
+Risk of Changing Prices. The prices of securities traded in extended hours trading may not reflect the prices either at the end of regular market hours, or upon the opening of the next morning. As a result, you may receive an inferior price in extended hours trading than you would during regular market hours.
+Risk of Unlinked Markets. Depending on the extended hours trading system or the time of day, the prices displayed on a particular extended hours system may not reflect the prices in other concurrently operating extended hours trading systems dealing in the same securities. Accordingly, you may receive an inferior price in one extended hours trading system than you would in another extended hours trading system.
+Risk of News Announcements. Normally, issuers make news announcements that may affect the price of their securities after regular market hours. Similarly, important financial information is frequently announced outside of regular market hours. In extended hours trading, these announcements may occur during trading, and if combined with lower liquidity and higher volatility, may cause an exaggerated and unsustainable effect on the price of a security.
+Risk of Wider Spreads. The spread refers to the difference in price between what you can buy a security for and what you can sell it for. Lower liquidity and higher volatility in extended hours trading may result in wider than normal spreads for a particular security.
+Risk of Lack of Calculation or Dissemination of Underlying Index Value or Intraday Indicative Value (
+"IIV"
+). For certain Exchange Traded Products, an updated underlying index value or IIV may not be calculated or publicly disseminated in extended trading hours. Since the underlying index value and IIV are not calculated or widely disseminated during the Early Trading Session, an investor who is unable to calculate implied values for certain Exchange Traded Products in those sessions may be at a disadvantage to market professionals.
+Trades on the Exchange executed and reported outside of the Core Trading Session are designated as .T trades.
+Adopted:
+December 30, 2015 (NYSE-2015-67).
+Amended:
+March 26, 2018 (NYSE-2017-36); February 15, 2019 (NYSE-2018-52); March 8, 2019 (NYSE-2019-08); May 28, 2019 (NYSE-2019-29); May 29, 2019 (NYSE-2019-05); June 20, 2019 (NYSE-2019-22); August 4, 2022 (NYSE-2022-04); December 4, 2024 (NYSE-2024-67).
+Copyright 2026, NYSE Group, Inc. All rights reserved.
+The NYSE Content is reproduced by permission of NYSE Group, Inc., under a non-exclusive license agreement. NYSE accepts no responsibility for the accuracy or currentness or otherwise of the reproduction of the NYSE Content contained herein.

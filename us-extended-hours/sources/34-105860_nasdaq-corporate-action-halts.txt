@@ -1,0 +1,908 @@
+[Federal Register Volume 91, Number 132 (Monday, July 13, 2026)]
+[Notices]
+[Pages 42990-42996]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2026-14014]
+
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[Release No. 34-105860; File No. SR-NASDAQ-2026-057]
+
+
+Self-Regulatory Organizations; The Nasdaq Stock Market LLC; 
+Notice of Filing and Immediate Effectiveness of Proposed Rule Change To 
+Amend Rule 4120 Regarding Regulatory Halts for Corporate Actions and 
+Issuer-Related Events
+
+July 8, 2026.
+    Pursuant to Section 19(b)(1) of the Securities Exchange Act of 1934 
+(``Act''),\1\ and Rule 19b-4 thereunder,\2\ notice is hereby given that 
+on June 29, 2026, The Nasdaq Stock Market LLC (``Nasdaq'' or 
+``Exchange'') filed with the Securities and Exchange Commission 
+(``Commission'') the proposed rule change as described in Items I and 
+II below, which Items have been prepared by the Exchange. The 
+Commission is publishing this notice to solicit comments on the 
+proposed rule change from interested persons.
+---------------------------------------------------------------------------
+
+    \1\ 15 U.S.C. 78s(b)(1).
+    \2\ 17 CFR 240.19b-4.
+---------------------------------------------------------------------------
+
+I. Self-Regulatory Organization's Statement of the Terms of Substance 
+of the Proposed Rule Change
+
+    The Exchange proposes to amend Rule 4120 (Limit Up-Limit Down Plan 
+and Trading Halts) to set forth specific requirements for halting and 
+resuming trading in a security that is subject to certain corporate 
+actions, as described below. The text of the proposed rule change is 
+available on the Exchange's website at https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings, and at the 
+principal office of the Exchange.
+
+II. Self-Regulatory Organization's Statement of the Purpose of, and 
+Statutory Basis for, the Proposed Rule Change
+
+    In its filing with the Commission, the Exchange included statements 
+concerning the purpose of and basis for the proposed rule change and 
+discussed any comments it received on the proposed rule change. The 
+text of these statements may be examined at the places specified in 
+Item IV below. The Exchange has prepared summaries, set forth in 
+sections A, B, and C below, of the most significant aspects of such 
+statements.
+
+A. Self-Regulatory Organization's Statement of the Purpose of, and 
+Statutory Basis for, the Proposed Rule Change
+
+1. Purpose
+    In conjunction with plans for operating 23 hours a day, 5 days a 
+week (``23/5 Trading''),\3\ the Exchange proposes to amend Rule 4120 to 
+set forth specific requirements for halting trading in a security for 
+which Nasdaq is the primary listing market that is subject to certain 
+issuer-related corporate actions and for resuming trading in that 
+security using the Nasdaq Halt Cross.\4\ The Exchange believes that the 
+proposed rules will expand on the framework already in place with 
+respect to the Exchange's authority to declare a mandatory regulatory 
+halt in advance of a reverse stock split, thereby providing greater 
+transparency and clarity with respect to the situations in which 
+trading certain securities subject to issuer-related corporate actions 
+will be halted and the process through which that halt will be 
+implemented and terminated.
+---------------------------------------------------------------------------
+
+    \3\ See Securities Exchange Act Release No. 105199 (April 10, 
+2026), 91 FR 20222 (April 15, 2026) (SR-NASDAQ-2025-109) (``Nasdaq 
+23-5 Approval Order'').
+    \4\ The ``Nasdaq Halt Cross'' is the process for determining the 
+price at which Eligible Interest shall be executed at the open of 
+trading for a halted security and for executing that Eligible 
+Interest. See Rule 4753(a)(4). ``Eligible Interest'' shall mean any 
+quotation or any order that has been entered into the system and 
+designated with a time-in-force that would allow the order to be in 
+force at the time of the Halt Cross. See Nasdaq Rule 4753(a)(5).
+---------------------------------------------------------------------------
+
+    The Exchange understands that the other Primary Listing Exchanges 
+plan to implement substantially identical versions of this rule to 
+ensure consistent treatment of corporate actions across the market.
+Background
+    In 2023, the Commission approved the Exchange's filing establishing 
+the Exchange's authority to declare a mandatory regulatory halt in a 
+security for which the Exchange is the Primary Listing Market when that 
+security is subject to a reverse stock split.\5\ Specifically, the 
+Exchange proposed halting such a security before the end of the Post-
+Market Hours on the day immediately before the effective date of a 
+reverse stock split, with trading to resume with a Nasdaq Halt Cross at 
+9:00 a.m. Eastern Time (``ET'')--instead of 4:00 a.m. ET--on the next 
+trading day.
+
+[[Page 42991]]
+
+The Exchange noted that because it processes reverse stock splits 
+overnight, having the security reopen for trading at 4:00 a.m. raised 
+the ``potential for errors resulting in a material effect on the market 
+resulting from market participants' processing of the reverse stock 
+split, including incorrect adjustment or entry of orders.'' \6\ The 
+Exchange explained that this concern could be rectified by imposing a 
+trading halt, ``which would prohibit pre-market trading immediately 
+after a reverse stock split and open trading in such securities'' at 
+9:00 a.m. instead of 4:00 a.m.\7\ The Exchange further noted that 
+imposing such a trading halt and deferring the opening of the security 
+until 9:00 a.m. would ``allow for Nasdaq and market participants to 
+better detect any errors or problems with orders for the security 
+resulting from the reverse stock split before trading in the security 
+begins and thereby avoid any material effect on the market.'' \8\ In 
+approving the proposal, the Commission noted that the proposal was 
+``designed to promote fair and orderly trading on the Exchange by 
+reducing the potential for order entry or other system-related errors 
+associated with a reverse stock split in a security for which Nasdaq is 
+the Primary Listing Market.'' \9\
+---------------------------------------------------------------------------
+
+    \5\ See Securities Exchange Act Release No. 98878 (Nov. 7, 
+2023), 88 FR 78081 (Nov. 14, 2023) (SR-NASDAQ-2023-036) (Notice of 
+Filing of Amendment No. 1 and Order Granting Accelerated Approval of 
+Proposed Change, as Modified by Amendment No. 1, Relating to Nasdaq 
+Rules 4120 and 4753) (``Reverse Stock Split Approval Order'').
+    \6\ See Reverse Stock Split Approval Order, supra note 5, 88 FR 
+at 78081.
+    \7\ Id. at 78082.
+    \8\ Id. at 78082.
+    \9\ Id. at 78084.
+---------------------------------------------------------------------------
+
+    With the launch of 23/5 Trading later this year, the concerns that 
+led the Exchange to adopt a regulatory halt framework for reverse stock 
+splits will likewise arise with respect to a broader set of corporate 
+actions. Under the current market structure, the Exchange processes 
+these corporate action-related changes and updates for listed 
+securities during overnight hours, when the Exchange is closed to 
+trading. Other market participants, including broker-dealers, likewise 
+use that overnight period to process corporate action-related 
+information and adjust quotes, orders, and related instructions 
+accordingly.
+    Under 23/5 Trading, however, Nasdaq's non-trading window will be 
+reduced to a one-hour pause.\10\ Consequently, Nasdaq will no longer 
+have a substantial non-trading window during which it can process such 
+corporate actions without potentially impacting ongoing trading. These 
+corporate actions require coordinated updates across Exchange and 
+market participant systems--including adjustments to orders, quotes, 
+and related instructions--to ensure orderly trading and accurate 
+pricing and execution in the affected security. With only a one-hour 
+pause between trading days, neither the Exchange nor other market 
+participants would have sufficient time to process and incorporate 
+corporate action-related information--such as adjustments to systems, 
+orders, quotes, and related instructions--without the risk that trading 
+could occur in the affected security based on incomplete or 
+inconsistent information. In short, the continued trading of securities 
+undergoing such corporate actions could potentially result in price 
+dislocations, investor confusion, erroneous executions, and general 
+operational risk.
+---------------------------------------------------------------------------
+
+    \10\ The Exchange's 23/5 Trading operations will include a one-
+hour pause between 8:00 p.m. and 9:00 p.m. Eastern Time, as 
+discussed in the Nasdaq 23/5 Approval Order. That pause, however, is 
+primarily intended to accommodate systems and other maintenance 
+activities, rather than to provide a window for the coordinated 
+processing of the more complex issuer-related corporate actions as 
+proposed herein. See Nasdaq 23/5 Approval Order, supra note 3.
+---------------------------------------------------------------------------
+
+    To address these concerns, the Exchange proposes to build on the 
+framework established under Rule 4120(a)(15) for reverse stock splits 
+by extending that rule's mandatory regulatory halt requirement to 
+additional corporate actions that, much like reverse stock splits, 
+require a clearly defined and transparent pause in trading to permit 
+coordinated processing. As proposed, under 23/5 Trading, if a security 
+is affected by any of the corporate actions enumerated in the proposal, 
+the Exchange would implement a mandatory regulatory halt \11\ in that 
+security before the start of the Night Session at 9:00 p.m. Eastern 
+Time (``ET''), and trading would resume with a Nasdaq Halt Cross at 
+8:00 a.m. ET.\12\ The Exchange believes these changes would provide 
+important operational safeguards by ensuring that both the Exchange and 
+market participants have adequate time to process such corporate 
+actions in a nearly continuous trading environment, thereby preserving 
+a protection that has historically been implicit in a market structure 
+with limited trading hours.
+---------------------------------------------------------------------------
+
+    \11\ Notification of the declaration and termination of the 
+proposed regulatory halt would be provided in accordance with 
+Exchange Rule 4120.
+    \12\ As described below, the Exchange also proposes a conforming 
+change to move the time for the Nasdaq Halt Cross that reopens 
+trading after a reverse stock split regulatory halt to 8:00 a.m. ET, 
+from the current time of 9:00 a.m. ET.
+---------------------------------------------------------------------------
+
+Proposed Rule Change
+    Implicit in Rule 4120(a)(15) is the recognition that certain 
+corporate actions--such as reverse stock splits--require a clearly 
+defined and transparent pause in trading to permit their coordinated 
+processing and thereby avoid the risks associated with concurrent 
+trading in the affected security while that processing is underway. The 
+same principle applies to the categories of corporate actions addressed 
+in this proposal, particularly in the context of nearly continuous 
+trading.
+    In the context of 23/5 Trading, the Exchange has determined--based 
+on discussions both internal and with industry participants, including 
+the other Primary Listing Markets--that, similar to reverse stock 
+splits, certain other corporate actions require a clearly defined and 
+transparent pause in trading to facilitate their coordinated processing 
+by the Exchange and other market participants before orderly trading 
+may resume in the affected security.
+    Specifically, the Exchange believes that the following issuer-
+related corporate actions are analogous to reverse stock splits with 
+respect to processing requirements and thus warrant analogous treatment 
+with respect to their categorization and regulatory response: (1) 
+changes in trading symbol; (2) changes in CUSIP number; (3) stock 
+dividends equal to at least 25% of the Nasdaq Official Closing Price; 
+\13\ (4) stock splits (including forward and reverse stock splits); (5) 
+De-SPAC transactions; (6) spin-off transactions; (7) security-type 
+changes; (8) mergers or similar mandatory exchanges of shares; and (9) 
+any other corporate action or issuer-related event not enumerated 
+above, for which the Exchange determines that a regulatory halt is 
+appropriate for the maintenance of fair and orderly markets, the 
+protection of investors, or otherwise in the public interest, as 
+described below. Like reverse stock splits, these corporate actions all 
+involve non-discretionary changes to core security characteristics that 
+require synchronized updates across Exchange and market participant 
+systems.
+---------------------------------------------------------------------------
+
+    \13\ The Nasdaq Closing Cross price is the Nasdaq Official 
+Closing Price for NMS stocks that participate in the Nasdaq Closing 
+Cross.
+---------------------------------------------------------------------------
+
+    Accordingly, the Exchange proposes to amend Rule 4120(a)(15) and 
+make certain conforming changes to incorporate such corporate actions 
+into the regulatory framework established for corporate actions 
+consisting of reverse stock splits as follows. First, the Exchange 
+proposes to amend Rule 4120(a)(15) to extend the current reverse
+
+[[Page 42992]]
+
+stock split regulatory halt framework \14\ to the categories of other 
+corporate actions discussed above that, in addition to reverse stock 
+splits, would be subject to the mandatory hat regulatory requirements 
+of that rule.
+---------------------------------------------------------------------------
+
+    \14\ To extend the framework under Rule 4120(a)(15) to the 
+categories of corporate actions described in this proposal, the 
+Exchange further proposes to amend Rule 4120(a) to delete, from 
+subparagraph (15) of the rule, the words ``before the end of the 
+Post-Market Hours on the day immediately before the market effective 
+date of a reverse stock split'' and substitute therefor the words 
+``that is the subject of an issuer corporate action or other issuer-
+related event referenced in subparagraph (A) hereof after the end of 
+Post-Market Hours and before 9 p.m. ET on the day immediately 
+preceding the market effective date of such issuer corporate action 
+or issuer-related event. A security subject to an issuer corporate 
+action or issuer-related event Regulatory Halt pursuant to Rule 
+4120(a)(15) will resume trading pursuant to the Nasdaq Cross Halt 
+mechanism under Rule 4753 at 8:00 a.m. ET on the market effective 
+date of such corporate action or issuer-related event.'' The 
+Exchange further proposes to provide, in a new subparagraph (A) to 
+Rule 4120(a)(15) that ``[f]or purposes of this rule, the following 
+shall be deemed corporate actions or issuer-related events subject 
+to the mandatory Regulatory Halt provisions of Rule 4120(a)(15).'' 
+The Exchange believes that the proposed changes are appropriate 
+because they would bring the proposed categories of corporate 
+actions within the established regulatory halt framework governing 
+reverse stock splits and enhance clarity and transparency with 
+respect to both the implementation of the regulatory halt and the 
+resumption of trading in the affected security. As discussed below, 
+the proposed changes with respect to the timing for implementation 
+of the regulatory halt as well as its termination are conforming in 
+nature.
+---------------------------------------------------------------------------
+
+    The Exchange then proposes to amend Rule 4120(a)(15) to enumerate, 
+in a new subparagraph (A) thereof, the nine categories of corporate 
+actions discussed above that would be subject to a mandatory regulatory 
+halt under Rule 4120(a)(15). As proposed, the nine categories of 
+enumerated corporate actions subject to a mandatory regulatory halt 
+would consist of the following corporate actions: (1) trading symbol 
+changes; \15\ (2) changes in CUSIP; \16\ (3) dividends equal to at 
+least 25% of the Nasdaq Official Closing Price (``NOCP''); \17\ (4) 
+forward (and reverse) stock splits; \18\ (5) De-SPAC transactions; \19\ 
+(6) spin-off transactions; \20\ (7) security-type changes; \21\ (8) 
+mergers/mandatory exchanges; \22\ and (9) other corporate actions or 
+issuer-related events not specifically enumerated in (1)-(8) above as 
+more particularly described below.\23\
+---------------------------------------------------------------------------
+
+    \15\ As proposed, Rule 4120(a)(15)(A)(1) would define changes to 
+any ``Trading Symbol'' as ``a change in the issuer's trading 
+symbol.'' See proposed Rule 4120(a)(15)(A)(1).
+    \16\ As proposed, Rule 4120(a)(15)(A)(2) would define changes in 
+``CUSIP'' as ``[a] change in the issuer's Committee on Uniform 
+Securities Identification Procedures (``CUSIP'').'' See proposed 
+Rule 4120(a)(15)(A)(2).
+    \17\ As proposed, Rule 4120(a)(15)(A)(3) would define 
+``Dividend'' transactions as ``[s]tock dividends, whether payable in 
+cash, stock, or another security of the issuer (or a subsidiary or 
+other affiliate of the issuer), or any combination thereof, other 
+than stock splits or similar adjustments described in paragraph (4), 
+where Nasdaq determines that such dividend has an aggregate value 
+per share that is equal to at least 25% of the Nasdaq Official 
+Closing Price (``NOCP'') of the affected security on the date 
+immediately preceding the ex-date of such dividend; provided, 
+however, that if no such NOCP is available, Nasdaq shall use the 
+most recent available NOCP for such shares (or other securities).'' 
+See proposed Rule 4120(a)(15)(A)(3).
+    \18\ As proposed, Rule 4120(a)(15)(A)(4) would define ``Forward, 
+Reverse Stock Splits'' as ``[a]ny stock split or similar adjustment 
+that affects the number of outstanding shares of an issuer or 
+changes the relative equity ownership of holders of such shares, 
+including any forward or reverse stock split, subdivision, 
+reclassification, or combination of shares, or any similar 
+transaction that has the effect of adjusting the number of 
+outstanding shares or the relative equity ownership of holders, 
+whether effected pursuant to a fixed or variable exchange ratio or 
+otherwise, and whether occurring as a stand-alone action or in 
+conjunction with any other corporate action or issuer-related 
+event.'' See proposed Rule 4120(a)(15)(A)(4).
+    \19\ As proposed, Rule 4120(a)(15)(A)(5) would define a ``De-
+SPAC'' transaction as ``[a]ny De-SPAC transaction, as that term is 
+defined in Item 1601(a) of Regulation S-K.'' See proposed Rule 
+4120(a)(15)(A)(5).
+    \20\ As proposed, Rule 4120(a)(15)(A)(6) would define a ``Spin-
+off'' transaction as ``[a]ny transaction in which an issuer 
+distributes to its security holders, on a pro rata basis, (i) equity 
+securities of a subsidiary or other business that is separated into 
+a new or existing standalone issuer or (ii) any different class of 
+securities.'' See proposed Rule 4120(a)(15)(A)(6).
+    \21\ As proposed, Rule 4120(a)(15)(A)(7) would define a 
+``Security Type Change'' as ``[a]ny change in the form, type, class, 
+or designation of a listed security, including, without limitation, 
+(i) American Depositary Receipts or American Depositary Shares 
+(``ADR''/``ADS'') to ordinary shares (and ordinary shares to ADR/
+ADS); (ii) conversions between ordinary shares and common stock (in 
+either direction); and (iii) similar transactions.'' See proposed 
+Rule 4120(a)(15)(A)(7).
+    \22\ As proposed, Rule 4120(a)(15)(A)(8) would define a 
+``Merger/Mandatory Exchange'' as ``[a]ny merger, consolidation, 
+statutory share exchange, or similar business combination or 
+corporate action that results in the affected security being 
+mandatorily exchanged, converted, redeemed, or cancelled for cash, 
+securities, or other consideration (including an exchange into 
+securities of a successor issuer); provided, however, that this 
+paragraph (8) does not include transactions that solely effect a 
+change in the issuer's (company) name without a mandatory exchange 
+of the affected security.'' See proposed Rule 4120(a)(15)(A)(8).
+    \23\ As proposed, Rule 4120(a)(15)(A)(9) would define any 
+``Other Corporate Action or Issuer-Related Event'' as ``[a]ny other 
+corporate action or issuer-related event not enumerated in (1)-(8) 
+above for which the Exchange determines, based on the totality of 
+the circumstances and any information available to it, including 
+without limitation information obtained from the issuer, that a 
+Regulatory Halt is necessary or appropriate for the maintenance of 
+fair and orderly markets, the protection of investors, or otherwise 
+in the public interest.'' See proposed Rule 4120(a)(15)(A)(9).
+---------------------------------------------------------------------------
+
+    Specifically, proposed Rule 4120(a)(15)(A)(9) would require the 
+Exchange to declare a regulatory halt for any other corporate action or 
+issuer-related event not enumerated in (1)-(8) above for which the 
+Exchange determines, based on the totality of the circumstances and any 
+information available to it, including, without limitation, information 
+obtained from the issuer, that a regulatory halt is necessary or 
+appropriate for the maintenance of fair and orderly markets, the 
+protection of investors, or otherwise in the public interest.
+    This residual provision is designed to capture issuer-related 
+corporate actions that, while not enumerated in Rule 4120(a)(15)(A)(1)-
+(8), raise operational or market integrity concerns comparable to those 
+actions. Once the Exchange determines that such a corporate action 
+warrants a regulatory halt based on its application of the standards in 
+Rule 4120(a)(15)(A)(9),\24\ implementation of the regulatory halt would 
+be required. Accordingly, the provision is intended to promote 
+consistent regulatory treatment across comparable corporate actions and 
+to preserve transparency and uniformity in the application of the 
+proposed framework in a 23/5 Trading environment.
+---------------------------------------------------------------------------
+
+    \24\ Such determination would be made by the Exchange's senior 
+trading and regulatory officials in advance of the corporate action 
+effective date.
+---------------------------------------------------------------------------
+
+Timing of Corporate Action Regulatory Halts
+    The Exchange proposes that, under 23/5 Trading, the mandatory 
+regulatory halts described above in proposed Rule 4120(a)(15) would be 
+implemented after the conclusion of the Post-Market Hours session and 
+before the start of the Night Session at 9:00 p.m. ET.\25\ This timing 
+differs from the Exchange's current process for reverse stock split 
+regulatory halts, pursuant to which the Exchange implements the 
+mandatory regulatory halt at 7:50 p.m. ET, before the end of the Post-
+Market Hours session, on the day immediately preceding the market 
+effective date of the reverse stock split. That approach has been 
+feasible in the reverse stock split context. This proposal, however, 
+would extend the mandatory regulatory halt framework beyond reverse 
+stock splits to a broader set of corporate actions that, although 
+differing in form, share the need for coordinated systems and 
+reference-data updates before trading may resume in an orderly manner. 
+Because some of those actions may involve entirely new symbols or 
+CUSIPs that would not yet exist at 7:50 p.m. ET on the prior trading 
+day, the Exchange does not believe that the current reverse stock split 
+timing can practicably be applied across the full set of covered 
+corporate actions. The Exchange therefore believes that it
+
+[[Page 42993]]
+
+is reasonable, in the context of 23/5 Trading, to adopt a single, 
+uniform implementation time for all halts under proposed Rule 
+4120(a)(15)--after the end of Post-Market Hours and before the 
+beginning of the Night Session at 9:00 p.m. ET--which would facilitate 
+consistent treatment of covered corporate actions and enable the halts 
+to be implemented through an automated process.\26\ This timing would 
+apply to each of the corporate actions addressed in this filing, as 
+well as to the Exchange's existing reverse stock split regulatory halt. 
+The proposed change to the timing for the implementation of the reverse 
+stock split regulatory halt is therefore conforming in nature, as it is 
+intended only to align that halt with the trading session structure 
+under 23/5 Trading.
+---------------------------------------------------------------------------
+
+    \25\ See Exchange proposed Rule 4120(a)(15).
+    \26\ See Exchange proposed Rule 4120(a)(15). Shifting the 
+implementation time for such regulatory halts from 7:50 p.m. to 
+before 9:00 p.m. would not have a material effect on market 
+participants. The Exchange notes that market participants, including 
+alternative trading systems (``ATSs''), would have advance notice of 
+the types of issuer corporate actions addressed in this proposal 
+through Nasdaq's existing issuer notification, market notice, and 
+public dissemination mechanisms. Under Nasdaq's existing listing and 
+related rules and procedures, listed issuers are required in various 
+circumstances to provide Nasdaq advance notice of corporate actions 
+and to publicly disclose such events before they become effective. 
+In addition, Nasdaq's established corporate action processing and 
+market notification procedures generally result in the Exchange 
+receiving notice of, and disseminating information concerning, other 
+covered corporate actions sufficiently in advance of their 
+effectiveness to support the orderly implementation of the proposed 
+halt process. Accordingly, the Exchange believes that ATSs and other 
+market participants would have adequate advance awareness of the 
+types of corporate actions addressed by this proposal to make 
+informed business decisions with respect to the affected securities, 
+and that proposed Rule 4120(a)(15) thus provides a transparent and 
+appropriate mechanism for addressing such corporate actions in a 23/
+5 Trading environment.
+---------------------------------------------------------------------------
+
+Resumption of Trading After Corporate Action-Related Regulatory Halts
+    The Exchange proposes that under 23/5 Trading, trading in a 
+security halted pursuant to proposed Rule 4120(a)(15) would resume at 
+8:00 a.m. ET \27\ with a Nasdaq Halt Cross,\28\ in advance of the 
+Nasdaq Opening Cross at 9:30 a.m. ET.\29\ This is similar to the 
+Exchange's current process with respect to reverse stock split 
+regulatory halts, except that the proposal would move the resumption 
+time from 9:00 a.m. ET to 8:00 a.m. ET.
+---------------------------------------------------------------------------
+
+    \27\ See proposed Exchange Rule 4120(a)(15). See also Exchange 
+Rule 4120(c)(7) (providing that, for Nasdaq-listed securities that 
+are the subject of a trading halt or pause initiated pursuant to 
+Rule 4120(a)(1), (4), (5), (6), (7), (11), (14), or (15), the Nasdaq 
+Halt Cross shall occur at the time specified by Nasdaq pursuant to 
+Rule 4120, and that, prior to terminating the halt in any such 
+security, there will be a five-minute ``Initial Display Only 
+Period'' during which market participants may enter quotations and 
+orders in that security into Nasdaq systems). Because the proposal 
+would incorporate the proposed categories of corporate actions into 
+Exchange Rule 4120(a)(15), the Exchange is not proposing to amend 
+this provision.
+    \28\ See Exchange Rule 4753(b). The Exchange is proposing to 
+amend Rule 4120(a)(15) to incorporate the proposed categories of 
+corporate actions. Rule 4120(a)(15) is already included among the 
+enumerated provisions subject to the Nasdaq Halt Cross under Rule 
+4753(b). Accordingly, the Exchange is not proposing to amend Rule 
+4753(b). As a result, any regulatory halt implemented pursuant to 
+proposed Rule 4120(a)(15), as amended, would resume trading through 
+the Nasdaq Halt Cross.
+    \29\ See proposed Exchange Rule 4120(a)(15).
+---------------------------------------------------------------------------
+
+    In supporting its reverse stock split-related proposal, the 
+Exchange explained that reopening the security at 9:00 a.m. ET, which 
+is after the end of pre-market trading, ``is appropriate . . . because 
+it gives the Exchange an opportunity to review its order book and root 
+out any orders in a security that has undergone a reverse stock split, 
+that have not correctly adjusted to the security's new stock price.'' 
+\30\
+---------------------------------------------------------------------------
+
+    \30\ See Reverse Stock Split Approval Order, supra note 5, 88 FR 
+at 78083.
+---------------------------------------------------------------------------
+
+    Since the reverse stock split regulatory halt was introduced in 
+2023, the Exchange has determined that it would be preferable to reopen 
+from a reverse stock split halt at 8:00 a.m. ET instead of 9:00 a.m. 
+ET. That alteration would provide for an additional hour of liquidity 
+formation and price discovery before the 9:30 a.m. ET Nasdaq Opening 
+Cross, while still being consistent with the rationales cited above for 
+reopening trading at a ``unique'' time. Specifically, the Exchange 
+believes that resuming trading in the affected securities at 8:00 a.m. 
+ET is appropriate because the proposed pause in trading provides a 
+sufficient and transparent interval for the Exchange and market 
+participants to complete the processing of such corporate actions and 
+the earlier resumption of trading would provide the affected securities 
+with additional price discovery and liquidity formation opportunities 
+before participating in the Nasdaq Opening Cross at 9:30 a.m. ET.
+    Consistent with that rationale, the Exchange proposes that the 
+securities subject to the mandatory regulatory halts addressed in this 
+filing, including reverse stock splits, would reopen at 8:00 a.m. 
+ET.\31\ To effectuate this change, the Exchange proposes to amend the 
+reopening time for securities subject to a reverse stock split-related 
+regulatory halt to 8:00 a.m. ET (from 9:00 a.m. ET) and to apply that 
+same reopening time (8:00 a.m. ET) to the additional corporate action-
+related regulatory halts covered under proposed Rule 4120(a)(15). This 
+proposed change is based on the Exchange's experience with reverse 
+stock splits and is designed to promote uniformity and transparency 
+with respect to the resumption of trading in securities subject to a 
+corporate action-related regulatory halt under proposed Rule 
+4120(a)(15).
+---------------------------------------------------------------------------
+
+    \31\ See proposed Rule 4120(a)(15).
+---------------------------------------------------------------------------
+
+    In sum, the corporate actions addressed in this proposal raise 
+operational and market integrity concerns in a 23/5 Trading environment 
+that mirror the concerns addressed by the Commission in approving the 
+Exchange's Reverse Stock Split Proposal. Under 23/5 Trading, Nasdaq 
+will no longer have a substantial non-trading window during which it 
+and other market participants can process these corporate actions 
+before trading resumes. With only one hour between trading days, 
+neither the Exchange nor other market participants would have 
+sufficient time to process and incorporate corporate action-related 
+information, resulting in a risk of price dislocations, investor 
+confusion, erroneous executions, and broader operational issues. The 
+Exchange believes that extending its reverse stock split regulatory 
+framework to the additional corporate actions described herein would 
+appropriately preserve, in a 23/5 Trading environment, the safeguard 
+implicit in the current market structure--specifically, the overnight 
+pause in trading that allows for coordinated processing and related 
+systems and reference-data updates. Accordingly, the proposal would 
+promote fair and orderly trading, mitigate operational risk, and help 
+ensure that trading resumes only after those updates have been 
+completed.
+Implementation
+    The Exchange understands that the other Primary Listing Exchanges 
+plan to implement substantially identical versions of this rule to 
+ensure consistent treatment of corporate actions across the market. The 
+Exchange proposes that the changes in this proposal and in the other 
+Primary Listing Exchanges' similar filings would become operative at 
+the commencement of 23/5 Trading.
+2. Statutory Basis
+    The Exchange believes that its proposal is consistent with Section 
+6(b) of the Act,\32\ in general, and furthers the objectives of Section 
+6(b)(5) of the Act,\33\ in particular, in that it is designed to 
+promote just and equitable principles of trade, to remove impediments 
+to and perfect the mechanism of a free and open market and a national 
+market
+
+[[Page 42994]]
+
+system, and, in general, to protect investors and the public interest. 
+The Exchange believes that the proposed rules will provide greater 
+transparency and clarity with respect to the situations in which 
+trading will be halted due to certain corporate actions and the process 
+through which that halt will be implemented and terminated, as 
+discussed below.
+---------------------------------------------------------------------------
+
+    \32\ 15 U.S.C. 78f(b).
+    \33\ 15 U.S.C. 78f(b)(5).
+---------------------------------------------------------------------------
+
+    The Exchange believes that extending the reverse stock split 
+regulatory halt framework to the additional, analogous corporate 
+actions addressed in this proposal would promote free and open markets, 
+protect investors, and serve the public interest by helping to ensure 
+fair and orderly markets. Specifically, the proposal would preserve and 
+apply an established, transparent framework for pausing and resuming 
+trading in securities subject to reverse stock splits to certain 
+corporate actions with analogous processing requirements, so that 
+trading in an affected security does not occur before the corporate 
+action has been processed and the related systems and reference-data 
+updates have been completed and applied across the market.
+    With respect to the specific categories of corporate actions 
+addressed in this proposal, the Exchange believes that it is reasonable 
+and appropriate to extend the regulatory halt framework applicable to 
+reverse stock splits to certain categories of corporate actions with 
+analogous processing requirements, as more specifically described 
+above. Like reverse stock splits, these corporate actions all involve 
+non-discretionary changes to core security characteristics that require 
+synchronized updates across Exchange and market participant systems.
+    Under the current market structure, an overnight pause in trading 
+has historically provided a defined non-trading window during which the 
+Exchange and other market participants have sufficient time to process 
+such corporate actions in an orderly and coordinated manner prior to 
+the resumption of trading. But in the 23/5 Trading environment, with 
+only one hour of non-trading time between trading days, there is a 
+substantial chance that trading in an impacted security could occur 
+based on incomplete, inconsistent, or partially updated information, 
+giving rise to pricing anomalies, investor confusion, erroneous 
+executions, and heightened operational risk. The Exchange believes the 
+proposed approach promotes fair and orderly markets by helping to 
+ensure that trading resumes only once systems and reference data 
+concerning these corporate actions have been fully and consistently 
+updated across the marketplace.
+    With respect to the mandatory regulatory halts specifically 
+enumerated in proposed Rule 4120(a)(15)(A)(1)-(8), if the corporate 
+action falls within the categories enumerated in the rule, Nasdaq will 
+not have discretion about whether to declare a trading halt in the 
+affected security.
+    In addition, proposed Rule 4120(a)(15)(A)(9) is intended to operate 
+as a residual provision covering issuer-related corporate actions not 
+enumerated in Rule 4120(a)(15)(A)(1)-(8) that nonetheless raise 
+operational or market-integrity concerns comparable to those presented 
+by the enumerated actions. Under that provision, when the Exchange 
+determines, based on the totality of the circumstances and the 
+information available to it, including information obtained from the 
+issuer, that it is necessary or appropriate for the maintenance of fair 
+and orderly markets, the protection of investors, or otherwise in the 
+public interest, it would be required to declare a regulatory halt in 
+that security. Once the Exchange makes that determination, the 
+regulatory halt would be mandatory, thereby avoiding ad hoc treatment 
+once the applicable standard has been met. In that respect, proposed 
+Rule 4120(a)(15)(A)(9) serves as a narrow residual mechanism designed 
+to promote consistent regulatory treatment across comparable corporate 
+actions and to preserve transparency and uniformity in the application 
+of proposed Rule 4120(a)(15) in a 23/5 Trading environment by requiring 
+the Exchange to declare a regulatory halt in such cases. The Exchange 
+therefore believes that it is reasonable and appropriate to extend its 
+authority to declare a regulatory halt in this instance. The Exchange 
+notes that its rules provide the Exchange with authority to implement a 
+regulatory halt.\34\
+---------------------------------------------------------------------------
+
+    \34\ See, e.g., Exchange Rule 4120(a)(10)(A) (providing that 
+``[t]he Exchange may pause trading during the Night Session at such 
+other times [other than as provided in Rule 4120(a)(10)] as the 
+Exchange in the exercise of its regulatory functions may determine 
+is appropriate''); Exchange Rule 4120(a)(5)(C) (providing, in part, 
+that ``Nasdaq may halt trading in a security listed on Nasdaq when 
+Nasdaq requests from the issuer information relating to: . . . any 
+other information necessary to protect investors and the public 
+interest''); and Exchange Rule 4120(a)(6) (providing, in part, that 
+Nasdaq ``may halt trading in a security listed on Nasdaq when . . . 
+extraordinary market activity in the security is occurring . . .''). 
+See also Securities Exchange Act Release No. 95069 (June 8, 2022), 
+87 FR 36018 (June 14, 2022) (SR-NASDAQ-2022-017) (approving, among 
+other things, the Exchange's authority to implement a regulatory 
+halt when necessary to maintain a fair and orderly market in the 
+face of national, regional, or localized disruptions); future 
+Exchange Rule 4120(b)(1).
+---------------------------------------------------------------------------
+
+    In all cases under proposed Rule 4120(a)(15), a mandatory 
+regulatory halt in the affected security would be implemented after the 
+conclusion of the Post-Market Hours session and before the start of the 
+Night Session at 9:00 p.m. ET on the date immediately preceding the 
+market effective date of the corporate action.
+    The Exchange also believes it is reasonable and appropriate to use 
+the Nasdaq Halt Cross process under Rule 4753 to reopen trading in a 
+security that is subject to a regulatory halt pursuant to this proposal 
+because it is consistent with the process that Nasdaq currently uses to 
+reopen a security after a reverse stock split regulatory halt, and the 
+operational complexity and processing demands associated with such 
+corporate actions are comparable to those involved regarding reverse 
+stock splits. Furthermore, using the Nasdaq Halt Cross process to 
+reopen trading after regulatory halts addressed in this proposal is 
+consistent with the process that is typically used by Nasdaq when 
+reopening a security that has been halted under Rule 4120. Applying a 
+uniform, previously approved framework enhances transparency and 
+predictability for issuers, investors, and market participants.
+    The Exchange believes that resuming trading in the corporate 
+action-impacted securities addressed in this proposal at 8:00 a.m. ET 
+would promote fair and orderly markets, protect investors, and serve 
+the public interest by providing the Exchange and market participants 
+sufficient time to process the relevant corporate actions correctly. 
+The Exchange further believes that resuming trading in the affected 
+securities through a Nasdaq Halt Cross at 8:00 a.m. ET, rather than at 
+9:30 a.m. ET through a Nasdaq Opening Cross, would provide a more 
+focused reopening window and a better opportunity to identify and 
+address potential order-entry or processing issues before the broader 
+market opening, when thousands of other securities are undergoing their 
+opening process.
+    The Exchange's proposal to make conforming changes to its existing 
+reverse stock split regulatory halt structure to harmonize the halt 
+time and reopening time with the times proposed in this filing is 
+reasonable and would promote transparency and predictability for 
+issuers, investors, and market participants. As described above, the 
+current practice of implementing a mandatory regulatory halt for a 
+security undergoing a reverse stock split at 7:50 p.m. ET has been 
+feasible in the reverse stock split context, but this proposal would 
+extend the mandatory regulatory
+
+[[Page 42995]]
+
+halt framework beyond reverse stock splits to a broader set of 
+corporate actions that, although differing in form, share the need for 
+coordinated systems and reference-data updates before trading may 
+resume in an orderly manner. Because some of those actions may involve 
+entirely new symbols or CUSIPs that would not yet exist at 7:50 p.m. ET 
+on the prior trading day, the Exchange does not believe that the 
+current reverse stock split timing can practicably be applied across 
+the full set of covered corporate actions. The Exchange therefore 
+believes that it is reasonable, in the context of 23/5 Trading, to 
+adopt a single, uniform implementation time for all halts under 
+proposed Rule 4120(a)(15)--after the end of Post-Market Hours and 
+before the start of the Night Session at 9:00 p.m. ET--which would 
+facilitate consistent treatment of comparable corporate actions, 
+enhance transparency and predictability for issuers, investors, and 
+market participants, and support the orderly and automated 
+implementation of such halts.
+    The Exchange also believes that the proposal is consistent with 
+Section 6(b)(5) of the Act because the Exchange's existing issuer 
+notification, market notice, and public dissemination mechanisms 
+generally provide market participants with advance awareness of the 
+types of corporate actions addressed herein, thereby supporting the 
+orderly implementation of the proposed halt process and helping to 
+protect investors and the public interest.\35\
+---------------------------------------------------------------------------
+
+    \35\ See supra note 26 and accompanying text.
+---------------------------------------------------------------------------
+
+    Similarly, the Exchange believes its proposal to move the reopening 
+time for a symbol after a reverse stock split regulatory halt to 8:00 
+a.m. ET from 9:00 a.m. ET would remove impediments to and perfect the 
+mechanism of a free and open market and a national market system by 
+creating uniformity in the reopening times for securities after a 
+corporate action regulatory halt. As discussed above, the Exchange 
+believes that the proposed duration of the regulatory halt is 
+appropriate to permit full processing of the proposed corporate actions 
+and resuming trading in the security at an earlier time, as proposed, 
+would provide the security with opportunities for enhancing price 
+discovery and liquidity before participating in the Nasdaq Opening 
+Cross at 9:30 a.m. ET.
+    The Exchange notes that these timing harmonization changes are 
+purely conforming and that, by aligning the reverse stock split 
+provisions with the corporate action-related halts described in this 
+filing, the proposal promotes a consistent and harmonized rule 
+structure, enhances transparency and predictability for issuers, 
+investors, and market participants, and reduces the potential for 
+confusion.
+    Overall, establishing mandatory trading halts for securities that 
+are subject to the corporate actions addressed in this filing and 
+resuming trading thereafter promotes fair and orderly markets and the 
+protection of investors, because it allows the Exchange to protect the 
+broader interests of the national market system and addresses potential 
+concerns that system errors may affect immediate trading in those 
+securities. The Exchange believes that with the advent of 23/5 Trading, 
+the proposed rules will help the Exchange reduce the potential for 
+errors that could have a material effect on the market as a result of 
+the challenge of processing such corporate actions with only a one-hour 
+non-trading window between trading days. As discussed above, in a 23/5 
+Trading environment, the Exchange will no longer have an overnight 
+trading pause during which it can process corporate actions of the type 
+addressed in this proposal. By extending the existing reverse stock 
+split regulatory halt framework to those categories of corporate 
+actions, the proposal is designed to preserve the safeguards currently 
+afforded by that overnight pause.
+    For these reasons, the Exchange believes that the proposed rule 
+change is designed to remove impediments to and perfect the mechanism 
+of a free and open market and a national market system by mitigating 
+operational and market integrity risks that would otherwise arise in a 
+nearly continuous trading environment. By helping to ensure that 
+trading resumes only after corporate action processing has been 
+completed in an orderly and coordinated manner, the proposed rule 
+change promotes just and equitable principles of trade and protects 
+investors and the public interest, consistent with Sections 6(b) and 
+6(b)(5) of the Act.
+
+B. Self-Regulatory Organization's Statement on Burden on Competition
+
+    The Exchange believes the proposal will not impose a burden on 
+intermarket competition that is not necessary or appropriate in 
+furtherance of the purposes of the Act because the proposed rule change 
+is designed to protect investors and facilitate a fair and orderly 
+market, which are both important purposes of the Act. To the extent 
+that there is any impact on intermarket competition, it is incidental 
+to these objectives.
+    Rather, the proposed changes will promote competition by ensuring 
+that trading in corporate action-affected securities resumes only when 
+the Exchange has processed corporate actions in a coordinated manner 
+across Exchange and market participants' systems, consistent with its 
+obligations as a primary listing market, thereby avoiding concurrent 
+trading and potential confusion with respect to the affected securities 
+while such corporate action processing is underway. In addition, the 
+Exchange believes that the proposal does not impose any burden on 
+competition because it applies equally to all issuers and market 
+participants. The proposal builds on an established, uniform, and 
+transparent framework governing the timing of trading halts and 
+resumptions in trading in connection with certain corporate actions and 
+is designed to address operational and market-integrity concerns, 
+rather than competitive considerations. In substance, the proposal 
+preserves an operational safeguard implicit in the current market 
+structure and adapts that safeguard to a nearly continuous trading 
+environment by extending the well-established reverse stock split 
+framework to analogous corporate actions. By helping to ensure that 
+trading resumes only after systems and reference data have been updated 
+in a coordinated manner, the proposal promotes fair and orderly markets 
+and enhances, rather than burdens, competition.
+    The Exchange does not believe that the proposed rule change imposes 
+a burden on intra-market competition because the provisions apply to 
+all market participants and issuers equally. In addition, information 
+regarding the halting and resumption of trading will be disseminated 
+using several freely accessible sources to ensure the widespread 
+availability of that information.
+
+C. Self-Regulatory Organization's Statement on Comments on the Proposed 
+Rule Change Received From Members, Participants, or Others
+
+    No written comments were either solicited or received.
+
+III. Date of Effectiveness of the Proposed Rule Change and Timing for 
+Commission Action
+
+    The Exchange has filed the proposed rule change pursuant to Section 
+19(b)(3)(A) of the Act \36\ and Rule 19b-
+
+[[Page 42996]]
+
+4(f)(6) \37\ thereunder. Because the foregoing proposed rule change 
+does not: (i) significantly affect the protection of investors or the 
+public interest; (ii) impose any significant burden on competition; or 
+(iii) become operative for 30 days from the date on which it was filed, 
+or such shorter time as the Commission may designate, it has become 
+effective pursuant to Section 19(b)(3)(A) of the Act \38\ and Rule 19b-
+4(f)(6) \39\ thereunder.
+---------------------------------------------------------------------------
+
+    \36\ 15 U.S.C. 78s(b)(3)(A).
+    \37\ 17 CFR 240.19b-4(f)(6).
+    \38\ 15 U.S.C. 78s(b)(3)(A).
+    \39\ 17 CFR 240.19b-4(f)(6). In addition, Rule 19b-4(f)(6)(iii) 
+requires the Exchange to give the Commission written notice of its 
+intent to file the proposed rule change, along with a brief 
+description and text of the proposed rule change, at least five 
+business days prior to the date of filing of the proposed rule 
+change, or such shorter time as designated by the Commission. The 
+Exchange has satisfied this requirement.
+---------------------------------------------------------------------------
+
+    At any time within 60 days of the filing of the proposed rule 
+change, the Commission summarily may temporarily suspend such rule 
+change if it appears to the Commission that such action is necessary or 
+appropriate in the public interest, for the protection of investors, or 
+otherwise in furtherance of the purposes of the Act. If the Commission 
+takes such action, the Commission will institute proceedings under 
+Section 19(b)(2)(B) \40\ of the Act to determine whether the proposed 
+rule change should be approved or disapproved.
+---------------------------------------------------------------------------
+
+    \40\ 15 U.S.C. 78s(b)(2)(B).
+---------------------------------------------------------------------------
+
+IV. Solicitation of Comments
+
+    Interested persons are invited to submit written data, views and 
+arguments concerning the foregoing, including whether the proposed rule 
+change is consistent with the Act. Comments may be submitted by any of 
+the following methods:
+
+Electronic Comments
+
+     Use the Commission's internet comment form (https://www.sec.gov/rules/sro.shtml); or
+     Send an email to [email&#160;protected]. Please include 
+file number SR-NASDAQ-2026-057 on the subject line.
+
+Paper Comments
+
+     Send paper comments in triplicate to Secretary, Securities 
+and Exchange Commission, 100 F Street NE, Washington, DC 20549-1090.
+
+All submissions should refer to file number SR-NASDAQ-2026-057. This 
+file number should be included on the subject line if email is used. To 
+help the Commission process and review your comments more efficiently, 
+please use only one method. The Commission will post all comments on 
+the Commission's internet website (https://www.sec.gov/rules/sro.shtml). Copies of the filing will be available for inspection and 
+copying at the principal office of the Exchange. Do not include 
+personal identifiable information in submissions; you should submit 
+only information that you wish to make available publicly. We may 
+redact in part or withhold entirely from publication submitted material 
+that is obscene or subject to copyright protection. All submissions 
+should refer to file number SR-NASDAQ-2026-057 and should be submitted 
+on or before August 3, 2026.
+
+    For the Commission, by the Division of Trading and Markets, 
+pursuant to delegated authority.\41\
+---------------------------------------------------------------------------
+
+    \41\ 17 CFR 200.30-3(a)(12).
+---------------------------------------------------------------------------
+
+Sherry R. Haywood,
+Assistant Secretary.
+[FR Doc. 2026-14014 Filed 7-10-26; 8:45 am]
+BILLING CODE 8011-01-P

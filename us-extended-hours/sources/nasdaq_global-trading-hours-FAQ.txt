@@ -1,0 +1,108 @@
+nasdaq.com/24-hour-trading-hub 1
+Nasdaq global trading hours
+Frequently Asked Questions
+What are global trading hours?
+To meet rising demand for U.S. equities across the globe, Nasdaq is engaging with regulators to offer nearly continuous trading 23 
+hours a day, 5 days a week, on the Nasdaq Stock Market. This expanded trading schedule will include a new trading session from 
+9 p.m. to 4 a.m. ET, together with Nasdaq’s current extended trading hours from 4 a.m. to 9:30 a.m. ET and 4 p.m. to 8 p.m. ET, 
+enabling issuers to more efficiently attract capital from across the globe while enabling investors to broaden access and expand 
+wealth-building opportunities.
+The U.S. trading hours, from 9:30 a.m. - 4:00 p.m. ET and marked by the Opening and Closing Crosses, will continue to set the 
+prices to drive investor transparency across all hours of market operation.
+What changes can I expect as an investor?
+Subject to SEC approval, Nasdaq will introduce a new trading session on the Nasdaq Stock Market from 9 p.m. to 4 a.m. ET. 
+Trading will commence at 9 p.m. ET on Sunday evening and conclude at 8 p.m. ET on Friday evening with a 1-hour industry-wide 
+trading pause from 8 p.m. to 9 p.m. ET daily to allow for processing and transition to the next trade date.
+When will the new session be available on Nasdaq?
+The industry’s transition to a 23-hour trading day is currently expected to occur on Sunday, December 6, 2026, pending SIP 
+readiness as well as any applicable SEC rule changes. 
+How will the existing Nasdaq Stock Market trading hours be impacted?
+Currently the Nasdaq stock market operates from 4:00 a.m. to 8:00 p.m. ET. There will be no substantive change to current 
+functionality or operations during this time frame.
+Will other Nasdaq exchanges support the adjusted operating schedule?
+No, Nasdaq Texas (NTX) and PSX equity exchanges will continue to operate on their current schedules; NTX: 7 a.m. to 7 p.m. ET 
+and PSX: 8 a.m. to 5 p.m. ET. Nasdaq options exchanges will also continue to operate on their current schedules.
+How will trade date and settlement be affected?
+ թ 9:00 p.m. to Midnight: Trades will be reported with the next calendar day’s trade date. 
+ թ Midnight to 8:00 p.m.: Trades will be reported with the current day’s trade date.
+Settlement terms will be based on trade date as they are today.
+nasdaq.com/24-hour-trading-hub 2
+Will Nasdaq be available for trading on US exchange holidays?
+Yes, if a holiday falls between Monday and Thursday, trading will commence at 9 p.m. ET on the holiday evening. For example, if 
+Monday is a US exchange holiday, trading will begin at 9 p.m. ET on Monday and continue until 8 p.m. ET on Tuesday.
+Order Handling from 9 p.m. – 4 a.m. ET
+How will Members participate?
+In order to participate, members will need to order new ports for order entry between 9 p.m. to 4 a.m. ET. There will be no changes 
+to current operations between 4:00 a.m. and 8:00 p.m. ET. The following protocols will be available between 9 p.m. and 4 a.m. ET; 
+OUCH 5, Core FIX, and FIX.
+What happens to open orders at 4 a.m. ET?
+All orders entered between 9 p.m. and 4 a.m. ET that are outstanding in the system at 4 a.m. ET will be cancelled at that time. 
+Orders can be re-entered at 4 a.m. ET in the subsequent session.
+Will order routing be available?
+Yes, routable orders will be accepted between 9 p.m. and 4 a.m. ET.
+What order types will be available?
+All order types that are permitted to trade 4 a.m. - 9:30 a.m. ET will be accepted 9 p.m. - 4 a.m. ET.
+The following order types will not be available before 4 a.m. ET:
+ թ Supplemental
+ թ Market Peg
+ թ Market Maker Peg
+ թ Market On Open
+ թ Limit on Open
+ թ Opening Imbalance Only
+ թ Market on Close
+ թ Limit on Close
+ թ Imbalance-Only
+Market Protections from 9 p.m.-4 a.m. ET
+Will Equities Risk Checks be available?
+Yes, Nasdaq will offer Equities Risk Checks through both API and WorkX.
+What market protections will be in place?
+Subject to SEC approval, Exchanges will reject orders that exceed static price bands. Listing markets will calculate the static price 
+bands that will be disseminated by the SIP.
+nasdaq.com/24-hour-trading-hub 3
+What reference price will be used for the bands?
+Subject to SEC approval, the proposed bands will be based on the listing market’s adjusted Official Closing Price (“OCP”) and the 
+adjusted last Round Lot sale prior to 7:45 p.m. ET
+How will bands be calculated?
+Subject to SEC approval, the proposed upper band value will be 20% higher than the greater of the reference prices while the lower 
+band value will be 20% lower than the lesser of the reference prices. Band values will be a minimum of $3.00 from the reference 
+price or $1.00 for stocks with an OCP <$1.00.
+How will corporate actions and dividends be handled?
+Pending SEC approval, certain corporate actions and dividends will be effective when trading commences at 9 p.m. ET. Certain 
+corporate actions and distributions as described in the rule will be halted before 9 p.m. ET on the day immediately preceding the 
+effective date and resumed at 8 a.m. ET on the effective date. Nasdaq will send a Trade Halt Code of ‘M1’ to denote Corporate 
+Action.
+Corporate Actions and Distributions that would remain halted until 8 a.m. ET:
+ թ Symbol and/or CUSIP Change
+ թ Dividends equal to or greater than 25% of the prior Nasdaq Official Closing Price
+ թ Forward and Reverse Splits
+ թ De-SPACs
+ թ Spin-offs
+ թ Security type change (e.g. preferred to common)
+ թ Merger/Mandatory exchange
+ թ Any other corporate action/event where the Exchange determines a halt is necessary for fair/orderly markets, investor 
+protection, or the public interest
+Market Data
+How will market data be affected?
+Trading activity between 9 p.m. and 4 a.m. ET will be disseminated on separate ITCH market data feed. Additionally, Nasdaq 
+is introducing new “Plus” versions of its flagship market data products, designed to deliver broader coverage today and scale 
+naturally over time as trading hours expand. These products will incorporate data from additional Nasdaq owned exchanges, 
+specifically Nasdaq PSX and Nasdaq Texas, and are designed to support the future 23 hour trading environment. All products are 
+pending SEC review.
+What products are included in Nasdaq Plus Suite?
+Nasdaq Last Sale Plus
+Nasdaq Last Sale Plus has delivered consolidated trade reporting since 2010. It provides continuous last sale reporting across 
+Nasdaq sessions and markets, supporting analytics, surveillance, and downstream systems that require uninterrupted trade data 
+throughout the coming 23-hour trading day.
+nasdaq.com/24-hour-trading-hub 4
+Nasdaq Basic (BBO) Plus
+Nasdaq Basic Plus delivers best bid and offer visibility across all trading hours, allowing clients to maintain a consistent BBO view 
+as markets operate nearly around the clock. Clients can access both a consolidated view across Nasdaq’s exchanges and deeper 
+order level insights when needed.
+Nasdaq TotalView® Plus
+Nasdaq TotalView Plus delivers depth of book data across the 23-hour trading day by integrating:
+ թ Nasdaq US and Global Session Depth
+ թ Nasdaq PSX depth
+ թ Nasdaq Texas depth
+All order book data is delivered through a single, consolidated connection, simplifying consumption for trading and display 
+applications.
+© Copyright 2026. All rights reserved. Nasdaq is a registered trademark of Nasdaq, Inc. 0953-26

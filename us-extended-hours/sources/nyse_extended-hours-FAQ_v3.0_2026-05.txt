@@ -1,0 +1,235 @@
+ 
+ 
+New York Stock Exchange        Extended-Hours FAQs | v 3.0 |May 2026  1 
+ 
+© 2026 Intercontinental Exchange, Inc. 
+ 
+ 
+Extended-Hours Trading  
+Frequently Asked Questions 
+Updated May 2026 
+ 
+General 
+ 
+ Q: What will be the operating hours for NYSE Arca’s extended-hours trading? 
+ 
+A: Pending SEC approval, NYSE Arca will operate nearly continuously, offering trading 23 hours a day 
+from 9:00 PM1 through 8:00 PM, five days a week. The 1-hour break will ensure proper trade clearance, 
+system maintenance, processing of securities operations, and the transition to the next trade date. The 
+most recent rule filing can be found here.  
+ 
+Q: What is changing with extended-hours trading? 
+ 
+A: Pending SEC approval, NYSE Arca will introduce a new fourth trading session, the Overnight 
+Session, which will begin at 9:00 PM and end at 4:00 AM the following day. The existing Early Session 
+will open as it currently does at 4:00AM with the Early Open Auction. The new Overnight Session will 
+not have an opening auction. Orders routed to the Overnight Session will have a new TradingSessionID 
+value. 
+ 
+Q: Will other NYSE Group exchanges offer additional extended-hours trading? 
+ 
+A: At this time, the plan is for all other NYSE Group equities exchanges to continue to operate within 
+their current trading hours. 
+ 
+Q: Will options be available for extended-hours trading?  
+ 
+A: NYSE has filed for extended trading hours in Options.  Please see the filing for more information.   
+ 
+Q: When will the new extended-hours trading be available on NYSE Arca? 
+ 
+A: Subject to SEC approvals, the availability of the Securities Information Processors (SIPs), and the 
+implementation of the Depository Trust and Clearing Corporation’s (DTCC) modernization efforts, 
+NYSE Arca is targeting December 6, 2026 to launch extended-hours trading. Additional details will be 
+shared via Trader Update . 
+ 
+ 
+ 
+ 
+1 All times in this document refer to Eastern Time. 
+  
+New York Stock Exchange        Extended-Hours FAQs | v 3.0 | May 2026   2 
+ 
+© 2026 Intercontinental Exchange, Inc. 
+ 
+Q: Who will be able to trade on NYSE Arca during the new extended hours? 
+ 
+A: US Broker/Dealers who are members of NYSE Arca will be the only entities allowed to trade during 
+the extended hours. All other firms will need to establish a relationship with an NYSE Arca member to 
+trade. A list of NYSE Arca members can be found here. 
+ 
+Q: Will there be testing opportunities before extended-hours trading goes live? 
+ 
+A: Testing information will be announced via Trader Update closer to the implementation date.   
+ 
+Trading Hours and Support 
+ 
+Q: How will NYSE Arca’s trading sessions change?  
+ 
+A: Pending SEC approval, NYSE Arca will operate four sessions, with an Overnight Session beginning 
+at 9:00 PM on Sunday through Thursday evenings. The current timing of the Early, Core and Late 
+Sessions will not change. The result will be nearly continuous trading 23 hours per day, from 9:00 PM 
+through 8:00 PM the following day. See table for current and future times. 
+ 
+Current Sessions Trading Hours 
+Early 4:00 AM - 9:30 AM 
+Core 9:30 AM - 4:00 PM 
+Late 4:00 PM - 8:00 PM 
+Future Sessions  
+Overnight 9:00 PM - 4:00 AM 
+Early  4:00 AM - 9:30 AM 
+Core 9:30 AM - 4:00 PM 
+Late 4:00 PM - 8:00 PM 
+ 
+Q: What trade date will be assigned to trades executed during the Overnight Session? 
+ 
+A: Trades executed in the Overnight Session after 9:00 PM and before 12:00 AM (midnight) will carry 
+the trade date of the following calendar day. Trades executed between 12:00 AM and 4:00 AM in the 
+Overnight Session will carry the trade date of the same calendar day.   
+ 
+Q: When will trades clear and settle? 
+ 
+A: Trades in the Overnight Session after 9:00 PM and before 12:00 AM (midnight) will be sent to DTCC 
+with a ‘Clearing Date’ of the next calendar date, for settlement one day thereafter.   
+ 
+ 
+ 
+ 
+ 
+  
+New York Stock Exchange        Extended-Hours FAQs | v 3.0 | May 2026   3 
+ 
+© 2026 Intercontinental Exchange, Inc. 
+ 
+Example: 
+ 
+Session Trade 
+Time 
+Calendar 
+Date 
+Trade 
+Date 
+Clearing 
+Date 
+Regular-Way 
+Settlement 
+Date 
+Late 4:00 PM - 8:00 PM 11/23/2026 11/23/2026 11/23/2026 11/24/2026 
+Overnight 9:00 PM - 11:59 PM 11/23/2026 11/24/2026 11/24/2026 11/25/2026 
+Overnight 12:00 AM - 4:00  AM 11/24/2026 11/24/2026 11/24/2026 11/25/2026 
+ 
+Q: Will extended-hours trading be available on holidays? 
+ 
+A: Yes. If a US exchange holiday falls between Monday and Friday, NYSE Arca will conclude its Late 
+Session trading (abbreviated in some cases) the evening before the holiday and the next Overnight 
+Session will begin at 9:00 PM the evening of the holiday. 
+ 
+Examples: 
+ 
+Standard Late Session: New Year’s Day falling on a Thursday - Late Session operates through 
+8:00 PM on Wednesday, December 31 and trading resumes when the Overnight Session starts at 
+9:00 PM on Thursday, January 1.   
+Abbreviated Late Session:  July 4th falling on a Thursday - Late Session operates through 5:00 
+PM on Wednesday and trading resumes when the Overnight Session starts at 9:00 PM on 
+Thursday, July 4th.  
+ 
+Trading During the Overnight Session  
+ 
+Q: Will firms need to do anything different to connect for Overnight Session trading?  
+ 
+A: Firms will use their existing NYSE Pillar Gateway connections but will need to send a new 
+TradingSessionID value.  
+ 
+Q: Will trade support hours be available during extended-hours trading? 
+ 
+A: NYSE Trading Operations’ live hotline and email support will be available from 9:00 PM Sunday to 
+8:00 PM Friday. The existing hotline support contact number and email address will be used.  
+ 
+Q: How will trades in the Overnight Session on the last day of the month be counted for trading tiers?  
+ 
+A: Trades in the Overnight Session on the last calendar day of the month will be included in the 
+following month’s trading tiers, as ‘Trade Date’ will reflect the first day of the next month.   
+ 
+Q: Will NYSE Arca route to other markets during the Overnight Session? 
+ 
+A: Yes. NYSE Arca will continue to route to away markets that are operational during the Overnight 
+Session. The NYSE Arca Broker Dealer (Arca Securities) will continue to apply credit limits and price 
+checks. No additional thresholds will be implemented for the Overnight Session.    
+  
+New York Stock Exchange        Extended-Hours FAQs | v 3.0 | May 2026   4 
+ 
+© 2026 Intercontinental Exchange, Inc. 
+ 
+Q: What checks are applied by the Exchange to orders during the Overnight Session? 
+ 
+A: NYSE Arca will continue to apply the Limit Order price protection checks, which are not adjusted for 
+early or late sessions. Note: There is an option within the NYSE Pillar Risk Controls for firms to adjust 
+to double-wide percentages (20% / 10% / 6%) in the Overnight, Early, or Late Trading Sessions.  In 
+addition, Entering Firms and Clearing Firms will have access to a new risk control that would prohibit 
+orders from executing during the Overnight Session. 
+ 
+Q: Will Clearly Erroneous Executions (CEE) policies and rules apply in the Overnight Session? 
+ 
+A: The current CEE rules for non-Core Session trading hours will apply in the Overnight Session in the 
+same way as in the Early and Late Sessions..  
+ 
+Q: Will Limit Up/Limit Down (LULD) price bands apply in the Overnight Session? 
+ 
+A: Currently, LULD rules apply only during the Core Session, but market participants and exchanges 
+are discussing a possible extension of industry-wide LULD-like volatility controls that could eventually 
+apply during the Overnight Session.  
+ 
+Q: Will the 9:00 PM trading session begin with an auction? 
+ 
+A: The Overnight Session will not begin with an auction. At 9:00 PM the session will begin continuous 
+trading.  The first auction will be the existing Early Open Auction to begin the Early Session.  
+ 
+Q: When will NYSE Arca start accepting orders for the Overnight Session? 
+ 
+A: 8:59 PM.  
+ 
+Q: Will orders sent during extended hours need a new session identifier? 
+ 
+A: Yes, NYSE Arca will introduce a new TradingSessionID for orders sent to the Overnight Session. The 
+TradingSessionID for all other sessions will remain the same. 
+ 
+ 
+Sale Conditions, Corporate Actions 
+ 
+Q: Will NYSE Arca still publish the NYSE Arca Official Closing Price (OCP)? 
+ 
+A: Yes. NYSE Arca will continue to publish the OCP following the Core Closing Auction at 4:00 PM with 
+a sale condition of ‘M’. 
+ 
+Q: What sale conditions will be used in the Overnight Session? 
+ 
+A:  Trades executed during the Overnight, Early and Late Sessions will use the ‘T’ sale condition and 
+will not be Last Sale eligible. 
+  
+New York Stock Exchange        Extended-Hours FAQs | v 3.0 | May 2026   5 
+ 
+© 2026 Intercontinental Exchange, Inc. 
+ 
+Q: Will extended hours trading count toward the consolidated volume? 
+ 
+A: Yes.  
+ 
+Q: How will firms be notified about corporate actions before the Overnight Session begins? 
+ 
+A: Corporate actions and adjusted closing prices will be provided to the SIP for dissemination in their 
+start of day Symbol Reference Data message (available on CQS and CTS outputs) and CTA Symbol 
+File. 
+ 
+Additionally, NYSE Group currently provides advanced notification of corporate actions in its Corporate 
+Actions Data Products as the Exchange becomes aware of them. 
+ 
+Q: How are decisions being made regarding the handling of Corporate Actions? 
+ 
+A:  The listing exchanges (NYSE, Nasdaq, and Cboe) are working together, in consultation with SIFMA, 
+to identify complex Corporate Actions that will be halted in the Overnight Trading Session.  Those 
+exchanges are working on harmonized rule Amendments to this effect.   
+ 
+Q: Where can additional information about extended-hours trading be found? 
+ 
+A: For the most up to date information, visit https://www.nyse.com/extended-hours-trading 
+ 
+ 
