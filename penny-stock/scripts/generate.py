@@ -30,7 +30,7 @@ UNI = str(DATA / "target_universe.csv")
 OUT = str(DATA / "dashboard_data.json")
 
 # 수집 기간(스냅샷). 운영 시 최신 매매거래일까지로 갱신.
-START, END = "20260401", "20260721"
+START, END = "20260401", "20260813"
 
 
 def retry(fn, *a, **k):
