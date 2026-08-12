@@ -1,0 +1,725 @@
+<title>관리종목 조기경보 — 지정·상폐 D-day 모니터</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --bg:#f5f6f9; --surface:#ffffff; --surface-2:#eef1f6; --ink:#18202e; --ink-soft:#5a6678;
+  --line:#dbe0ea; --line-strong:#c3cbd9;
+  --accent:#345fd6; --accent-soft:#e6ecfb;
+  --safe:#158a5e; --appr:#c47d00; --desig:#dd5a34; --risk:#cf2f4c; --confirmed:#94162f;
+  --safe-bg:#e2f3ea; --appr-bg:#faefd6; --desig-bg:#fbe6dd; --risk-bg:#fbe0e6;
+  --mono:'SF Mono','Cascadia Code','Consolas',ui-monospace,monospace;
+  --sans:-apple-system,'Segoe UI','Malgun Gothic','Apple SD Gothic Neo','Pretendard',system-ui,sans-serif;
+  --shadow:0 1px 2px rgba(20,30,50,.06),0 4px 16px rgba(20,30,50,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0d1320; --surface:#151d2c; --surface-2:#1c2637; --ink:#e6eaf2; --ink-soft:#93a0b5;
+    --line:#273245; --line-strong:#35455e;
+    --accent:#6791f5; --accent-soft:#1c2b4a;
+    --safe:#3cbb84; --appr:#e0a531; --desig:#f0764c; --risk:#f0546f; --confirmed:#e0637d;
+    --safe-bg:#122a20; --appr-bg:#2c2410; --desig-bg:#2e1a12; --risk-bg:#2e141b;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.28);
+  }
+}
+:root[data-theme="light"]{
+  --bg:#f5f6f9; --surface:#ffffff; --surface-2:#eef1f6; --ink:#18202e; --ink-soft:#5a6678;
+  --line:#dbe0ea; --line-strong:#c3cbd9; --accent:#345fd6; --accent-soft:#e6ecfb;
+  --safe:#158a5e; --appr:#c47d00; --desig:#dd5a34; --risk:#cf2f4c; --confirmed:#94162f;
+  --safe-bg:#e2f3ea; --appr-bg:#faefd6; --desig-bg:#fbe6dd; --risk-bg:#fbe0e6;
+  --shadow:0 1px 2px rgba(20,30,50,.06),0 4px 16px rgba(20,30,50,.05);
+}
+:root[data-theme="dark"]{
+  --bg:#0d1320; --surface:#151d2c; --surface-2:#1c2637; --ink:#e6eaf2; --ink-soft:#93a0b5;
+  --line:#273245; --line-strong:#35455e; --accent:#6791f5; --accent-soft:#1c2b4a;
+  --safe:#3cbb84; --appr:#e0a531; --desig:#f0764c; --risk:#f0546f; --confirmed:#e0637d;
+  --safe-bg:#122a20; --appr-bg:#2c2410; --desig-bg:#2e1a12; --risk-bg:#2e141b;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.28);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px 64px}
+h1,h2,h3{margin:0;text-wrap:balance}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--ink-soft)}
+
+/* header */
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line);margin-bottom:22px}
+.hbar{max-width:1200px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;gap:16px}
+.brand{display:flex;flex-direction:column;gap:2px}
+.brand .kquote{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.brand h1{font-size:19px;font-weight:680;letter-spacing:-.01em}
+.hbar .spacer{flex:1}
+.asof{font-family:var(--mono);font-size:12px;color:var(--ink-soft);text-align:right;line-height:1.35}
+.asof b{color:var(--ink);font-weight:600}
+.tglbtn{border:1px solid var(--line-strong);background:var(--surface);color:var(--ink-soft);
+  width:34px;height:34px;border-radius:9px;cursor:pointer;font-size:15px;display:grid;place-items:center}
+.tglbtn:hover{color:var(--ink);border-color:var(--accent)}
+
+/* disclaimer */
+.disc{display:flex;gap:10px;align-items:flex-start;background:var(--appr-bg);
+  border:1px solid color-mix(in srgb,var(--appr) 35%,transparent);border-radius:10px;
+  padding:10px 14px;margin-bottom:22px;font-size:12.5px;color:var(--ink)}
+.disc svg{flex:none;margin-top:1px}
+.disc b{color:var(--appr)}
+
+/* market tabs (big) */
+.mkttabs{display:flex;gap:6px;margin:0 0 20px;background:var(--surface);border:1px solid var(--line);
+  border-radius:13px;padding:6px;box-shadow:var(--shadow)}
+.mkttabs button{flex:1;border:0;background:transparent;color:var(--ink-soft);font-family:inherit;
+  font-size:15px;font-weight:660;padding:13px 12px;border-radius:9px;cursor:pointer;letter-spacing:-.01em;
+  transition:background .12s,color .12s;display:flex;align-items:center;justify-content:center;gap:2px}
+.mkttabs button.on{background:var(--accent);color:#fff}
+.mkttabs button:not(.on):hover{background:var(--surface-2);color:var(--ink)}
+.mkttabs .mc{font-family:var(--mono);font-size:12.5px;opacity:.72;font-weight:500}
+.desigdate{font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);margin-top:3px;white-space:nowrap}
+.src{font-size:8.5px;color:var(--accent);border:1px solid currentColor;border-radius:3px;padding:0 3px;margin-left:3px;letter-spacing:.03em}
+
+/* kpi */
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;
+  box-shadow:var(--shadow);position:relative;overflow:hidden}
+.kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--c,var(--accent))}
+.kpi .lab{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+.kpi .big{font-family:var(--mono);font-size:30px;font-weight:600;letter-spacing:-.02em;line-height:1.1;margin-top:6px}
+.kpi .sub{font-size:12px;color:var(--ink-soft);margin-top:3px}
+
+/* funnel */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+.panel-h{padding:13px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px}
+.panel-h h2{font-size:13px;font-weight:660;letter-spacing:.02em}
+.panel-h .hint{font-size:11.5px;color:var(--ink-soft);margin-left:auto}
+.grid2{display:grid;grid-template-columns:1fr 320px;gap:14px;margin-bottom:14px}
+.funnel{display:flex;padding:16px;gap:8px;align-items:stretch}
+.stage{flex:1;border-radius:10px;padding:12px 12px;background:var(--surface-2);position:relative;
+  display:flex;flex-direction:column;gap:4px;min-width:0;cursor:pointer;border:1.5px solid transparent;
+  transition:border-color .12s,background .12s}
+.stage:hover{border-color:color-mix(in srgb,var(--c) 45%,transparent)}
+.stage:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.stage.on{border-color:var(--c);background:color-mix(in srgb,var(--c) 12%,var(--surface))}
+.stage.on .sname{color:var(--c)}
+.stage .fx{position:absolute;top:9px;right:10px;font-size:10px;color:var(--c);opacity:0;font-weight:700}
+.stage.on .fx{opacity:1}
+.stage .sname{font-size:11.5px;font-weight:600;color:var(--ink-soft);display:flex;align-items:center;gap:6px}
+.stage .dot{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.stage .sval{font-family:var(--mono);font-size:24px;font-weight:600;color:var(--ink)}
+.stage .arrow{position:absolute;right:-11px;top:50%;transform:translateY(-50%);z-index:2;color:var(--line-strong)}
+
+/* reconcile */
+.recon{padding:14px 16px;display:flex;flex-direction:column;gap:14px}
+.recon .rrow .rlab{font-size:12px;font-weight:600;margin-bottom:6px;display:flex;justify-content:space-between}
+.rbar{display:flex;height:22px;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+.rbar span{display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:11px;color:#fff}
+.rbar .m{background:var(--safe)} .rbar .e{background:var(--appr)}
+.recon .leg{font-size:11px;color:var(--ink-soft);display:flex;gap:14px;flex-wrap:wrap}
+.recon .leg i{width:9px;height:9px;border-radius:2px;display:inline-block;margin-right:4px;vertical-align:middle}
+
+/* 사유·단계 매트릭스 */
+.matrix{padding:12px 14px;overflow-x:auto}
+.mrow{display:grid;grid-template-columns:98px repeat(4,1fr) 1.3fr;gap:8px;align-items:stretch;min-width:640px}
+.mrow+.mrow{margin-top:8px}
+.mhead{margin-bottom:0}
+.mhead .mh{font-size:10.5px;letter-spacing:.02em;text-transform:uppercase;color:var(--ink-soft);font-weight:600;text-align:center;align-self:end;padding-bottom:3px}
+.mrl{display:flex;align-items:center;font-size:13.5px;font-weight:680;color:var(--ink)}
+.mcell{background:var(--surface-2);border:1.5px solid transparent;border-radius:9px;padding:9px 6px;cursor:pointer;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;transition:border-color .12s,background .12s;min-width:0}
+.mcell:hover{border-color:color-mix(in srgb,var(--mc) 50%,transparent)}
+.mcell.on{border-color:var(--mc);background:color-mix(in srgb,var(--mc) 13%,var(--surface))}
+.mcell .mv{font-family:var(--mono);font-size:23px;font-weight:600;color:var(--mc);line-height:1}
+.msplit{display:flex;flex-direction:column;gap:6px}
+.mcell.sm{flex-direction:row;justify-content:space-between;padding:0 10px;flex:1;gap:8px}
+.mcell.sm span{font-size:11px;color:var(--ink-soft);font-weight:600}
+.mcell.sm b{font-family:var(--mono);font-size:15px;font-weight:600;color:var(--mc)}
+
+/* controls */
+.controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:12px 16px;border-bottom:1px solid var(--line)}
+.seg{display:inline-flex;background:var(--surface-2);border-radius:9px;padding:3px;gap:2px}
+.seg button{border:0;background:transparent;color:var(--ink-soft);font-family:inherit;font-size:12.5px;
+  font-weight:560;padding:6px 12px;border-radius:7px;cursor:pointer}
+.seg button.on{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+.controls .cnt{margin-left:auto;font-size:12px;color:var(--ink-soft);font-family:var(--mono)}
+.belowbtn{border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);font-family:inherit;
+  font-size:12.5px;font-weight:640;padding:6px 12px;border-radius:8px;cursor:pointer;white-space:nowrap}
+.belowbtn:hover{background:color-mix(in srgb,var(--accent) 22%,var(--surface))}
+.belowbtn.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.search{border:1px solid var(--line-strong);background:var(--surface);border-radius:8px;padding:6px 10px;
+  font-family:inherit;font-size:13px;color:var(--ink);width:160px}
+.search::placeholder{color:var(--ink-soft)}
+
+/* table */
+.tblwrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px}
+thead th{position:sticky;top:0;background:var(--surface);text-align:left;font-size:11px;letter-spacing:.04em;
+  text-transform:uppercase;color:var(--ink-soft);font-weight:600;padding:9px 12px;border-bottom:1px solid var(--line-strong);white-space:nowrap;cursor:pointer;user-select:none}
+thead th.r{text-align:right} thead th .car{opacity:.5;font-size:9px}
+tbody td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:middle;white-space:nowrap}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:var(--surface-2)}
+td.r{text-align:right}
+.nm{font-weight:580}
+.code{font-family:var(--mono);font-size:11px;color:var(--ink-soft)}
+.mkt{font-size:10.5px;padding:1px 6px;border-radius:5px;background:var(--surface-2);color:var(--ink-soft);border:1px solid var(--line)}
+.mkt.kospi{background:#dceffa;color:#2a7ab5;border-color:#c2e3f5}
+.mkt.kosdaq{background:#e6f6d9;color:#5a9e2f;border-color:#d3edbf}
+@media (prefers-color-scheme:dark){
+  .mkt.kospi{background:#16324a;color:#8ec8f2;border-color:#254c69}
+  .mkt.kosdaq{background:#20351a;color:#a3d768;border-color:#34532b}
+}
+:root[data-theme="light"] .mkt.kospi{background:#dceffa;color:#2a7ab5;border-color:#c2e3f5}
+:root[data-theme="light"] .mkt.kosdaq{background:#e6f6d9;color:#5a9e2f;border-color:#d3edbf}
+:root[data-theme="dark"] .mkt.kospi{background:#16324a;color:#8ec8f2;border-color:#254c69}
+:root[data-theme="dark"] .mkt.kosdaq{background:#20351a;color:#a3d768;border-color:#34532b}
+.pill{font-size:11px;font-weight:640;padding:2px 9px;border-radius:20px;display:inline-block}
+.pill.approaching{background:var(--appr-bg);color:var(--appr)}
+.pill.designated{background:var(--desig-bg);color:var(--desig)}
+.pill.release_pending{background:var(--safe-bg);color:var(--safe)}
+.pill.delisting_risk{background:var(--risk-bg);color:var(--risk)}
+.pill.delisting_confirmed{background:var(--risk-bg);color:var(--confirmed)}
+.pill.below{background:var(--surface-2);color:var(--ink-soft);border:1px solid var(--line)}
+.badge{font-size:10px;font-weight:600;padding:1px 6px;border-radius:5px;margin-left:5px}
+.badge.off{background:var(--accent-soft);color:var(--accent)}
+.badge.est{background:var(--surface-2);color:var(--ink-soft);border:1px solid var(--line)}
+/* dday */
+.dday{font-family:var(--mono);font-weight:600;font-size:13px}
+.dday.crit{color:var(--risk)} .dday.warn{color:var(--appr)} .dday.ok{color:var(--ink-soft)}
+/* progress */
+.prog{display:flex;align-items:center;gap:8px;min-width:150px}
+.ptrack{flex:1;height:7px;border-radius:4px;background:var(--surface-2);overflow:hidden;min-width:70px}
+.pfill{height:100%;border-radius:4px}
+.pnum{font-family:var(--mono);font-size:11px;color:var(--ink-soft);white-space:nowrap}
+.reasontag{font-size:11px;color:var(--ink-soft)}
+.reasontag b{color:var(--ink);font-weight:600}
+/* 병합 행(종목당 1행, 시총·주가 나란히) */
+td.stcell{min-width:150px;vertical-align:middle}
+.rcell{vertical-align:middle}
+.rcell:hover{background:var(--surface-2)}
+.rc{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.rc-none{color:var(--ink-soft);font-size:12px;opacity:.7}
+.rc-dday{font-size:12px}
+.rc-prog{display:flex;align-items:center;gap:6px}
+.rc-prog .ptrack{width:48px}
+.rc-val{font-size:12px}
+.rc-dg{font-family:var(--mono);font-size:10.5px;color:var(--ink-soft)}
+
+/* drilldown */
+.dd-empty{padding:40px 16px;text-align:center;color:var(--ink-soft);font-size:13px}
+/* 인라인 종목상세(행 아래 펼침) */
+tr.detail-row>td{padding:0;background:var(--surface-2);border-bottom:2px solid var(--accent)}
+.inline-dd{padding:2px 14px 16px}
+#tb tr.expanded{background:var(--surface-2)}
+#tb tr.expanded>td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
+#tb tr.expanded .nm{color:var(--accent)}
+.chart-wrap{position:relative}
+.chart-tip{position:absolute;z-index:5;pointer-events:none;background:var(--surface);border:1px solid var(--line-strong);
+  border-radius:8px;padding:8px 10px;box-shadow:var(--shadow);font-size:12px;min-width:158px}
+.chart-tip[hidden]{display:none}
+.chart-tip .tt-d{font-family:var(--mono);font-weight:600;font-size:11.5px;margin-bottom:5px;color:var(--ink)}
+.chart-tip .tt-r{display:flex;justify-content:space-between;gap:14px;line-height:1.65}
+.chart-tip .tt-r>span{color:var(--ink-soft)}
+.chart-tip .tt-r b{font-family:var(--mono);font-weight:600}
+.chart-tip .tt-r.mut b{color:var(--ink-soft);font-weight:500}
+.chart-tip .tt-r b.bad{color:var(--risk)}
+.dd-head{padding:14px 16px;display:flex;align-items:baseline;gap:10px;border-bottom:1px solid var(--line)}
+.dd-head .nm{font-size:16px;font-weight:660}
+.dd-body{padding:14px 16px}
+canvas{width:100%;display:block}
+.dd-legend{display:flex;gap:16px;font-size:11.5px;color:var(--ink-soft);margin-top:8px;flex-wrap:wrap}
+.dd-legend i{width:16px;height:2px;display:inline-block;vertical-align:middle;margin-right:5px}
+
+/* 규정 원문 모달 */
+.modal{position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;padding:18px}
+.modal[hidden]{display:none}
+.modal-bg{position:absolute;inset:0;background:rgba(8,12,22,.55);backdrop-filter:blur(2px)}
+.modal-panel{position:relative;background:var(--surface);border:1px solid var(--line-strong);border-radius:14px;
+  width:min(760px,100%);max-height:86vh;display:flex;flex-direction:column;box-shadow:0 24px 70px rgba(0,0,0,.45)}
+.modal-head{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line)}
+.modal-head h2{font-size:16px;font-weight:680}
+.modal-x{margin-left:auto;border:0;background:var(--surface-2);color:var(--ink-soft);width:30px;height:30px;
+  border-radius:8px;cursor:pointer;font-size:13px}
+.modal-x:hover{color:var(--ink)}
+.modal-body{overflow-y:auto;padding:6px 18px 16px}
+.reg-art{padding:15px 0;border-bottom:1px solid var(--line)}
+.reg-art:last-child{border-bottom:0}
+.reg-art h3{font-size:13.5px;font-weight:700;color:var(--accent);margin:0 0 9px;font-family:var(--mono);letter-spacing:-.01em}
+.reg-art p{font-size:13px;line-height:1.7;margin:0 0 6px;color:var(--ink)}
+.reg-art p.sub{padding-left:15px;position:relative}
+.reg-art p.rev{font-size:11px;color:var(--ink-soft);margin-top:-2px}
+.modal-foot{padding:10px 18px;border-top:1px solid var(--line);font-size:11px;color:var(--ink-soft);line-height:1.5}
+.dd-legend i.mk{width:0;border-left:2px dashed var(--desig);height:12px;display:inline-block;vertical-align:middle;margin-right:6px}
+.acttbl{margin-top:16px}
+.acttbl .actcap{font-size:11px;font-weight:600;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.05em;margin-bottom:7px}
+.acttbl table{width:100%;font-size:12px;border-collapse:collapse}
+.acttbl th{font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);font-weight:600;text-align:left;padding:6px 10px;border-bottom:1px solid var(--line-strong);white-space:nowrap}
+.acttbl td{padding:6px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+.acttbl th.r,.acttbl td.r{text-align:right}
+
+footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink-soft);line-height:1.6}
+@media(max-width:860px){.kpis{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}
+  .funnel{flex-wrap:wrap}.stage{min-width:120px;flex:1 1 40%}.stage .arrow{display:none}}
+</style>
+
+<header>
+  <div class="hbar">
+    <div class="brand">
+      <span class="kquote">Beaten by the Market · 관리종목 조기경보</span>
+      <h1>지정·상장폐지 D-day 모니터</h1>
+    </div>
+    <span class="spacer"></span>
+    <div class="asof num">기준일 <b id="asof">—</b><br>유니버스 <b id="uni">—</b>종목</div>
+    <button class="tglbtn" id="regbtn" aria-label="규정 원문" title="규정 원문">📖</button>
+    <button class="tglbtn" id="tgl" aria-label="테마 전환">◐</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="mkttabs" id="mkttabs">
+    <button data-m="all" class="on">전체 시장 <span class="mc" id="mc-all"></span></button>
+    <button data-m="KOSPI">유가 · KOSPI <span class="mc" id="mc-KOSPI"></span></button>
+    <button data-m="KOSDAQ">코스닥 · KOSDAQ <span class="mc" id="mc-KOSDAQ"></span></button>
+  </div>
+
+  <div class="disc">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1.5 15 14H1L8 1.5Z" stroke="var(--appr)" stroke-width="1.3" stroke-linejoin="round"/><path d="M8 6v3.2" stroke="var(--appr)" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="11.4" r=".9" fill="var(--appr)"/></svg>
+    <div><b>비공식 추정치</b> — 공개 규정·공개 시장데이터로 산출했으며 KRX 공식 판정이 아닙니다.
+      개정 카운팅 시작일(2026.5.13) 미확정으로 <b>임박·예측에 오차</b>가 있습니다. 투자판단의 근거로 사용하지 마세요.
+      D-day는 <b>연속 지속 가정 하의 최단 잔여 거래일</b>이며, 기준을 회복/이탈하면 리셋됩니다.</div>
+  </div>
+
+  <div class="panel" style="margin-bottom:14px">
+    <div class="panel-h"><h2>사유·단계별 현황</h2><span class="hint">칸을 클릭하면 아래 목록이 그 조건으로 필터됩니다 · 다시 클릭 해제</span></div>
+    <div class="matrix" id="matrix"></div>
+  </div>
+
+  <div class="panel" style="margin-bottom:14px">
+    <div class="panel-h"><h2>내 추정 vs KRX 공식</h2></div>
+    <div class="recon" id="recon"></div>
+  </div>
+
+  <div class="panel">
+    <div class="controls">
+      <input class="search" id="q" placeholder="종목명·코드 검색">
+      <button class="belowbtn" id="belowToggle" title="현재 기준 미달이나 아직 임박 전(연속 20일 미만)인 종목 포함">미달 종목 포함</button>
+      <span class="cnt" id="cnt"></span>
+    </div>
+    <div class="tblwrap">
+      <table>
+        <thead><tr>
+          <th>종목</th>
+          <th>시가총액 미달</th>
+          <th>주가 미달 (동전주)</th>
+        </tr></thead>
+        <tbody id="tb"></tbody>
+      </table>
+    </div>
+  </div>
+
+
+  <footer>
+    산출 파이프라인: KRX 전종목시세(일별 종가·시가총액) · KIND 상장종목현황(보통주권+외국주권+DR 대상) ·
+    예탁결제원 권리일정(병합·감자). 판정 규칙: 시총 미달(KOSPI 500억/KOSDAQ 300억)·주가 미달(1,000원) 연속 30거래일 지정,
+    연속 45거래일 회복 해제, 주가미달 상폐(가·나·다). <span id="genat"></span>
+  </footer>
+</div>
+
+<div class="modal" id="regModal" hidden>
+  <div class="modal-bg" id="regBg"></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-label="규정 원문">
+    <div class="modal-head">
+      <h2>규정 원문</h2>
+      <div class="seg" id="regTabs"><button data-m="KOSPI">유가</button><button data-m="KOSDAQ">코스닥</button></div>
+      <button class="modal-x" id="regClose" aria-label="닫기">✕</button>
+    </div>
+    <div class="modal-body" id="regBody"></div>
+    <div class="modal-foot">공개 규정 발췌·요약이며 일부 조문은 축약했습니다. 정확한 최신 조문은 KRX 상장규정 원문을 확인하세요.</div>
+  </div>
+</div>
+
+<script>
+const DATA = __DATA__;
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const won=v=>v==null?'—':v>=1e12?(v/1e12).toFixed(2)+'조':v>=1e8?(v/1e8).toFixed(0)+'억':v.toLocaleString();
+const REASON={mktcap:'시총',price:'주가'};
+const STATE={below:'미달',approaching:'임박',designated:'지정',release_pending:'해제임박',delisting_risk:'상폐위험',delisting_confirmed:'상폐확정'};
+const SEV={below:'ink-soft',approaching:'appr',designated:'desig',release_pending:'safe',delisting_risk:'risk',delisting_confirmed:'confirmed'};
+
+// header
+$('#asof').textContent=fmtD(DATA.meta.as_of);
+$('#uni').textContent=DATA.meta.universe_count.toLocaleString();
+$('#genat').textContent='생성 '+DATA.meta.generated_at.slice(0,16).replace('T',' ')+' · 캐시 '+DATA.meta.cache.trading_days+'거래일.';
+function fmtD(s){return s?s.slice(0,4)+'.'+s.slice(4,6)+'.'+s.slice(6,8):'—';}
+
+// pick primary D-day per row
+function dday(r){const c=r.countdown;
+  if(r.state==='approaching'||r.state==='below')return{n:c.to_designation,lab:'지정'};
+  if(r.state==='delisting_risk'||r.state==='delisting_confirmed')return{n:c.to_delisting,lab:'상폐'};
+  if(r.state==='release_pending')return{n:c.to_release,lab:'해제'};
+  if(r.state==='designated'){
+    if(c.to_release!=null)return{n:c.to_release,lab:'해제'};
+    if(c.to_delisting!=null)return{n:c.to_delisting,lab:'상폐'};  // 지정=회복창 진행(90일 내 회복 못하면 상폐)
+  }
+  return{n:null,lab:''};}
+
+// KPI
+const offOK=DATA.meta.official_available!==false;
+const DSTATES=['designated','release_pending','delisting_risk','delisting_confirmed'];
+let curMkt='all',curCell=null,curSort='dday',curDir=1,sel=null,showBelow=false;
+function marketRows(){return curMkt==='all'?DATA.rows:DATA.rows.filter(r=>r.market===curMkt);}
+function desigDate(r){return r.kind_design_date||r.official_design_date||r.estimated_effective||null;}
+['all','KOSPI','KOSDAQ'].forEach(mk=>{const n=mk==='all'?DATA.rows.length:DATA.rows.filter(r=>r.market===mk).length;
+  const el=document.getElementById('mc-'+mk);if(el)el.textContent=n;});
+
+// 사유·단계 매트릭스
+const DES=['designated','delisting_risk','delisting_confirmed'];
+const BELOWSTATES=['below','approaching','designated','delisting_risk','delisting_confirmed'];
+function catMatch(r,reason,cat){
+  if(r.reason!==reason)return false;const s=r.state;
+  if(cat==='below')return BELOWSTATES.includes(s);
+  if(cat==='approaching')return s==='approaching';
+  if(cat==='d5')return s==='approaching'&&r.countdown.to_designation!=null&&r.countdown.to_designation<=5;
+  if(cat==='designated')return DES.includes(s);
+  if(cat==='release')return s==='release_pending';
+  if(cat==='delist')return s==='delisting_risk'||s==='delisting_confirmed';
+  return false;
+}
+const CATS=[{cat:'below',lab:'현재 미달',c:'var(--ink-soft)'},{cat:'approaching',lab:'지정 임박 (D-10)',c:'var(--appr)'},
+  {cat:'d5',lab:'임박 D-5',c:'var(--appr)'},{cat:'designated',lab:'지정',c:'var(--desig)'}];
+const MREASONS=[{r:'mktcap',lab:'시총 미달'},{r:'price',lab:'동전주'}];
+const catLab={below:'현재 미달',approaching:'지정 임박(D-10)',d5:'임박 D-5',designated:'지정',release:'해제임박',delist:'상폐위험'};
+function cellActive(r,c){return curCell&&curCell.reason===r&&curCell.cat===c;}
+function renderMatrix(){
+  const R=marketRows();const cnt=(rn,cat)=>R.filter(x=>catMatch(x,rn,cat)).length;
+  const head=`<div class="mrow mhead"><div class="mrl"></div>${CATS.map(c=>`<div class="mh">${c.lab}</div>`).join('')}<div class="mh">해제임박 / 상폐위험</div></div>`;
+  const body=MREASONS.map(m=>{
+    const cells=CATS.map(c=>`<div class="mcell ${cellActive(m.r,c.cat)?'on':''}" data-r="${m.r}" data-c="${c.cat}" style="--mc:${c.c}"><div class="mv">${cnt(m.r,c.cat)}</div></div>`).join('');
+    const split=`<div class="msplit">
+      <div class="mcell sm ${cellActive(m.r,'release')?'on':''}" data-r="${m.r}" data-c="release" style="--mc:var(--safe)"><span>해제임박</span><b>${cnt(m.r,'release')}</b></div>
+      <div class="mcell sm ${cellActive(m.r,'delist')?'on':''}" data-r="${m.r}" data-c="delist" style="--mc:var(--risk)"><span>상폐위험</span><b>${cnt(m.r,'delist')}</b></div></div>`;
+    return `<div class="mrow"><div class="mrl">${m.lab}</div>${cells}${split}</div>`;
+  }).join('');
+  $('#matrix').innerHTML=head+body;
+}
+$('#matrix').addEventListener('click',e=>{const c=e.target.closest('.mcell');if(!c)return;
+  const r=c.dataset.r,cat=c.dataset.c;
+  curCell=(curCell&&curCell.reason===r&&curCell.cat===cat)?null:{reason:r,cat};
+  renderMatrix();render();
+  if(curCell)$('.panel .controls').scrollIntoView({behavior:'smooth',block:'nearest'});});
+
+// reconcile (시장 필터 rows에서 계산)
+function renderReconcile(){
+  const R=marketRows();
+  function bar(lab,rn){
+    const d=R.filter(r=>r.reason===rn&&DSTATES.includes(r.state));
+    const matched=d.filter(r=>r.official).length,est=d.length-matched;
+    const tot=Math.max(matched+est,1);
+    return `<div class="rrow"><div class="rlab"><span>${lab}</span><span class="num muted">${offOK?'공식 '+matched:'추정 '+d.length}</span></div>
+      <div class="rbar"><span class="m" style="width:${matched/tot*100}%">${matched||''}</span><span class="e" style="width:${est/tot*100}%">${est||''}</span></div></div>`;
+  }
+  if(offOK){
+    $('#recon').innerHTML=bar('시가총액 미달','mktcap')+bar('주가 미달','price')+
+      `<div class="leg"><span><i style="background:var(--safe)"></i>공식과 일치</span><span><i style="background:var(--appr)"></i>내 추정만(임박·미도래)</span></div>`;
+  }else{
+    const cd=R.filter(r=>r.reason==='mktcap'&&DSTATES.includes(r.state)).length;
+    const pd=R.filter(r=>r.reason==='price'&&DSTATES.includes(r.state)).length;
+    $('#recon').innerHTML=`<div class="dd-empty" style="padding:20px 4px">KRX 공식 현황 서버 지연으로 대조 일시 불가.<br><span class="muted">추정 지정: 시총 ${cd} · 주가 ${pd}종목</span></div>`;
+  }
+}
+
+// table
+$('#q').addEventListener('input',render);
+$('#belowToggle').textContent=`현재기준 미달 종목 전체 조회 (${new Set(DATA.rows.map(r=>r.code)).size})`;
+$('#belowToggle').addEventListener('click',()=>{showBelow=!showBelow;$('#belowToggle').classList.toggle('on',showBelow);curCell=null;renderMatrix();render();});
+function rowsView(){
+  let rs=marketRows().slice();
+  if(curCell)rs=rs.filter(r=>catMatch(r,curCell.reason,curCell.cat));
+  else if(!showBelow)rs=rs.filter(r=>r.state!=='below');
+  const q=$('#q').value.trim();
+  if(q)rs=rs.filter(r=>r.name.includes(q)||r.code.includes(q));
+  return rs;
+}
+function reasonCell(r,reason){
+  if(!r)return `<span class="rc-none">기준 이상</span>`;
+  const d=dday(r);const sev=SEV[r.state];const pct=Math.min(r.streak/r.target*100,100);
+  const dcls=d.n==null?'ok':d.n<=5?'crit':d.n<=15?'warn':'ok';
+  const isP=reason==='price';
+  const val=isP?(r.value==null?'—':r.value.toLocaleString()+'원'):won(r.value);
+  const badge=r.official?'<span class="badge off">공식</span>':'';
+  const dg=desigDate(r);
+  const dgt=(DSTATES.includes(r.state)&&dg)?`<span class="rc-dg">지정 ${fmtD(dg)}${r.kind_design_date?'<span class="src">KIND</span>':''}</span>`:'';
+  return `<div class="rc"><span class="pill ${r.state}">${STATE[r.state]}</span>${badge}`+
+    `<span class="rc-dday dday ${dcls}">${d.n==null?'':'D-'+d.n+' '+d.lab}</span>`+
+    `<div class="rc-prog"><div class="ptrack"><div class="pfill" style="width:${pct}%;background:var(--${sev})"></div></div><span class="pnum">${r.streak}/${r.target}</span></div>`+
+    `<span class="rc-val num">${val} <span style="color:${r.gap_pct<0?'var(--risk)':'var(--ink-soft)'}">${r.gap_pct==null?'':r.gap_pct+'%'}</span></span>${dgt}</div>`;
+}
+function render(){
+  const matched=rowsView();
+  const codes=[],seen=new Set();
+  matched.forEach(r=>{if(!seen.has(r.code)){seen.add(r.code);codes.push(r.code);}});
+  const all=marketRows();
+  const stocks=codes.map(code=>{
+    const rr=all.filter(r=>r.code===code);
+    const mk=rr.find(r=>r.reason==='mktcap')||null, pr=rr.find(r=>r.reason==='price')||null;
+    const dds=rr.map(r=>dday(r).n).filter(n=>n!=null);
+    return {code,name:rr[0].name,market:rr[0].market,mk,pr,urg:dds.length?Math.min(...dds):9999};
+  });
+  stocks.sort((a,b)=>(a.urg-b.urg)||a.name.localeCompare(b.name));
+  const filt=curCell?`${curCell.reason==='mktcap'?'시총':'동전주'}·${catLab[curCell.cat]} · `:'';
+  $('#cnt').textContent=filt+stocks.length+'종목';
+  $('#tb').innerHTML=stocks.map(s=>`<tr data-code="${s.code}">
+    <td class="stcell"><span class="nm">${s.name}</span> <span class="code">${s.code}</span> <span class="mkt ${s.market==='KOSPI'?'kospi':'kosdaq'}">${s.market}</span></td>
+    <td class="rcell" data-reason="mktcap">${reasonCell(s.mk,'mktcap')}</td>
+    <td class="rcell" data-reason="price">${reasonCell(s.pr,'price')}</td>
+  </tr>`).join('');
+  $$('#tb tr').forEach(tr=>{
+    const code=tr.dataset.code;
+    tr.querySelectorAll('.rcell').forEach(td=>{if(td.querySelector('.rc'))td.addEventListener('click',()=>openDetail(tr,code,td.dataset.reason));});
+    const st=tr.querySelector('.stcell');st.style.cursor='pointer';
+    st.addEventListener('click',()=>openDetail(tr,code,tr.querySelector('.rcell[data-reason="mktcap"] .rc')?'mktcap':'price'));
+  });
+  sel=null;
+}
+function renderAll(){renderMatrix();renderReconcile();render();}
+$('#mkttabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  $$('#mkttabs button').forEach(x=>x.classList.toggle('on',x===b));curMkt=b.dataset.m;curCell=null;renderAll();});
+renderAll();
+
+// 인라인 종목상세 (행 아래 펼침)
+function detailBody(s,row,code,reason){
+  if(!s)return `<div class="inline-dd"><div class="dd-empty" style="padding:24px">시계열 데이터가 없습니다.</div></div>`;
+  const useMkt=reason==='mktcap';
+  const dg=(DSTATES.includes(row.state))?desigDate(row):null;
+  const cst=row.count_start_date||null;
+  const acts=s.actions||[];
+  const legend=`<div class="dd-legend">
+    <span><i style="background:var(--accent)"></i>${useMkt?'시가총액':'종가'}</span>
+    <span><i style="background:var(--risk)"></i>기준선</span>
+    ${cst?'<span><i class="mk" style="border-left-color:var(--appr)"></i>미달 시작</span>':''}
+    ${dg?'<span><i class="mk" style="border-left-color:var(--desig)"></i>지정일</span>':''}
+    ${acts.length?'<span><i class="mk" style="border-left-color:#9061f9"></i>병합·감자</span>':''}</div>`;
+  const tbl=acts.length?`<div class="acttbl"><div class="actcap">주식병합·자본감소 변경상장 (편법 회복 감시 · 규정 제54조13호 나·다)</div>
+    <div class="tblwrap"><table><thead><tr><th>KRX 상장일</th><th>KRX 사유</th><th>KSD 발행일</th><th>KSD 상장일</th><th>KSD 사유</th><th class="r">KSD 비율</th></tr></thead>
+    <tbody>${acts.map(a=>`<tr><td class="num">${fmtD(a.krx_list_date)}</td><td>${a.krx_reason||'—'}</td><td class="num">${a.ksd_issue_date?fmtD(a.ksd_issue_date):'—'}</td><td class="num">${a.ksd_list_date?fmtD(a.ksd_list_date):'—'}</td><td>${a.ksd_reason||'—'}</td><td class="r num">${a.ksd_ratio?a.ksd_ratio+' : 1':'—'}</td></tr>`).join('')}</tbody></table></div></div>`:'';
+  const ta=useMkt?mktThrArr(s.market,s.dates):null;
+  const thrLabel=useMkt?(ta?[...new Set(ta)].map(won).join(' → '):won(row.threshold)):row.threshold.toLocaleString()+'원';
+  return `<div class="inline-dd"><div class="dd-head"><span class="nm">${s.name}</span><span class="code">${code}</span><span class="mkt ${s.market==='KOSPI'?'kospi':'kosdaq'}">${s.market}</span>
+    <span class="muted" style="margin-left:auto;font-size:12px">${useMkt?'시가총액':'종가'} · 기준선 ${thrLabel}</span></div>
+    <div class="dd-body"><div class="chart-wrap"><canvas id="cv" height="240"></canvas><div class="chart-tip" id="chartTip" hidden></div></div>${legend}${tbl}</div></div>`;
+}
+function drawIfPossible(code,reason){
+  const s=DATA.series[code];if(!s||!$('#cv'))return;
+  const row=DATA.rows.find(r=>r.code===code&&r.reason===reason)||DATA.rows.find(r=>r.code===code);
+  const useMkt=reason==='mktcap';
+  const thr=useMkt?(mktThrArr(s.market,s.dates)||row.threshold):row.threshold;
+  drawChart(s,useMkt?s.mktcap:s.close,thr,(DSTATES.includes(row.state))?desigDate(row):null,row.count_start_date||null,s.actions||[]);
+}
+function openDetail(tr,code,reason){
+  const cur=document.querySelector('#tb tr.detail-row');
+  const same=cur&&cur.dataset.k===code+'|'+reason;
+  if(cur)cur.remove();
+  $$('#tb tr.expanded').forEach(t=>t.classList.remove('expanded'));
+  if(same){sel=null;return;}
+  sel={code,reason};
+  const s=DATA.series[code];
+  const row=DATA.rows.find(r=>r.code===code&&r.reason===reason)||DATA.rows.find(r=>r.code===code);
+  const dr=document.createElement('tr');dr.className='detail-row';dr.dataset.k=code+'|'+reason;
+  const td=document.createElement('td');td.colSpan=3;td.innerHTML=detailBody(s,row,code,reason);
+  dr.appendChild(td);tr.classList.add('expanded');tr.after(dr);
+  drawIfPossible(code,reason);
+  const cv=$('#cv');if(cv){cv.addEventListener('mousemove',chartHover);cv.addEventListener('mouseleave',chartLeave);}
+  dr.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function fmtShort(d){return d?d.slice(4,6)+'/'+d.slice(6,8):'';}
+function schedLookup(sc,d){let t=null;for(const e of sc){if(d>=e[0])t=e[1];}return t;}
+function mktThrArr(market,dates){const sc=(DATA.meta.rule&&DATA.meta.rule.mktcap_schedule||{})[market];if(!sc)return null;return dates.map(d=>schedLookup(sc,d));}
+function drawChart(s,vals,thr,desigDate,countStart,actions){
+  const cv=$('#cv');const dpr=Math.min(devicePixelRatio||1,2);
+  const W=cv.clientWidth,H=260;cv.width=W*dpr;cv.height=H*dpr;const g=cv.getContext('2d');g.scale(dpr,dpr);
+  const cs=getComputedStyle(document.documentElement);
+  const col=n=>cs.getPropertyValue(n).trim();
+  const pad={l:56,r:14,t:14,b:24};
+  const thrArr=Array.isArray(thr)?thr:null;
+  const thrVals=thrArr?thrArr.filter(v=>v!=null):[thr];
+  const ys=vals.filter(v=>v!=null);
+  const lo=Math.min(...ys,...thrVals),hi=Math.max(...ys,...thrVals);const pd=(hi-lo)*.12||1;
+  const y0=lo-pd,y1=hi+pd;
+  const X=i=>pad.l+(W-pad.l-pad.r)*(i/(vals.length-1));
+  const Y=v=>pad.t+(H-pad.t-pad.b)*(1-(v-y0)/(y1-y0));
+  g.clearRect(0,0,W,H);
+  // grid
+  g.strokeStyle=col('--line');g.lineWidth=1;g.fillStyle=col('--ink-soft');g.font='11px '+col('--mono');g.textAlign='right';
+  for(let k=0;k<=4;k++){const val=y0+(y1-y0)*k/4;const y=Y(val);g.globalAlpha=.5;g.beginPath();g.moveTo(pad.l,y);g.lineTo(W-pad.r,y);g.stroke();g.globalAlpha=1;
+    g.fillText(val>=1e8?(val/1e8).toFixed(0)+'억':Math.round(val).toLocaleString(),pad.l-8,y+3);}
+  // threshold — 시기별이면 계단식(step)
+  g.strokeStyle=col('--risk');g.setLineDash([5,4]);g.lineWidth=1.4;g.beginPath();
+  if(thrArr){
+    for(let i=0;i<thrArr.length;i++){const x=X(i),y=Y(thrArr[i]);if(i===0)g.moveTo(x,y);else{g.lineTo(x,Y(thrArr[i-1]));g.lineTo(x,y);}}
+    // 계단 변화 지점에 새 기준값 표기
+    for(let i=1;i<thrArr.length;i++){if(thrArr[i]!==thrArr[i-1]){const x=X(i),y=Y(thrArr[i]);g.setLineDash([]);g.fillStyle=col('--risk');g.font='9px '+col('--mono');g.textAlign='left';g.fillText((thrArr[i]/1e8).toFixed(0)+'억',x+3,y-3);g.setLineDash([5,4]);}}
+  }else{g.moveTo(pad.l,Y(thr));g.lineTo(W-pad.r,Y(thr));}
+  g.stroke();g.setLineDash([]);
+  // area+line
+  let started=false;g.beginPath();
+  vals.forEach((v,i)=>{if(v==null)return;const x=X(i),y=Y(v);if(!started){g.moveTo(x,y);started=true;}else g.lineTo(x,y);});
+  const grad=g.createLinearGradient(0,pad.t,0,H-pad.b);
+  grad.addColorStop(0,col('--accent')+'44');grad.addColorStop(1,col('--accent')+'05');
+  g.lineTo(X(vals.length-1),H-pad.b);g.lineTo(X(0),H-pad.b);g.closePath();g.fillStyle=grad;g.fill();
+  started=false;g.beginPath();vals.forEach((v,i)=>{if(v==null)return;const x=X(i),y=Y(v);if(!started){g.moveTo(x,y);started=true;}else g.lineTo(x,y);});
+  g.strokeStyle=col('--accent');g.lineWidth=2;g.stroke();
+  // endpoint
+  const li=vals.length-1;g.fillStyle=col('--accent');g.beginPath();g.arc(X(li),Y(vals[li]),3.2,0,7);g.fill();
+  // x축 눈금(5) + 날짜
+  const nt=5;g.font='10px '+col('--mono');
+  for(let k=0;k<nt;k++){
+    const i=Math.round((vals.length-1)*k/(nt-1));const x=X(i);
+    g.strokeStyle=col('--line');g.globalAlpha=.3;g.beginPath();g.moveTo(x,pad.t);g.lineTo(x,H-pad.b);g.stroke();g.globalAlpha=1;
+    g.fillStyle=col('--ink-soft');g.textAlign=k===0?'left':(k===nt-1?'right':'center');
+    g.fillText(fmtShort(s.dates[i]),k===0?pad.l:(k===nt-1?W-pad.r:x),H-8);
+  }
+  const inRange=d=>d>=s.dates[0]&&d<=s.dates[s.dates.length-1];
+  function vmark(dateStr,color,label,yoff,snapFuture){
+    if(!dateStr||!inRange(dateStr))return;
+    let i=s.dates.findIndex(d=>d>=dateStr);if(i<0)i=vals.length-1;
+    const x=X(i);
+    g.strokeStyle=color;g.setLineDash([4,3]);g.lineWidth=1.5;
+    g.beginPath();g.moveTo(x,pad.t);g.lineTo(x,H-pad.b);g.stroke();g.setLineDash([]);
+    g.fillStyle=color;g.font='10px '+col('--mono');
+    const right=i>vals.length*0.72;g.textAlign=right?'right':'left';
+    g.fillText(label+' '+fmtShort(s.dates[i]),right?x-4:x+4,pad.t+yoff);
+  }
+  // 미달 시작(카운트 시작) → 지정일 순으로, 라벨 y 어긋나게
+  vmark(countStart,col('--appr'),'미달시작',10);
+  vmark(desigDate,col('--desig'),'지정',22);
+  // 병합·감자 변경상장(KRX 상장일)
+  (actions||[]).forEach(a=>{
+    if(!inRange(a.krx_list_date))return;
+    let ai=s.dates.findIndex(d=>d>=a.krx_list_date);if(ai<0)return;
+    const ax=X(ai);
+    g.strokeStyle='#9061f9';g.setLineDash([2,2]);g.lineWidth=1.3;g.globalAlpha=.92;
+    g.beginPath();g.moveTo(ax,pad.t);g.lineTo(ax,H-pad.b);g.stroke();g.setLineDash([]);g.globalAlpha=1;
+    g.fillStyle='#9061f9';g.textAlign='center';g.font='9px '+col('--mono');
+    g.fillText((a.krx_reason&&a.krx_reason.includes('감자')?'감자':'병합'),ax,H-pad.b-4);
+  });
+  CHART={s,vals,pad,W,H,X,Y,redraw:()=>drawChart(s,vals,thr,desigDate,countStart,actions)};
+}
+let CHART=null;
+function chartHover(e){
+  if(!CHART)return;
+  const cv=$('#cv');const rect=cv.getBoundingClientRect();
+  const {pad,W,vals,X,Y,s}=CHART;
+  let i=Math.round((e.clientX-rect.left-pad.l)/(W-pad.l-pad.r)*(vals.length-1));
+  i=Math.max(0,Math.min(vals.length-1,i));
+  CHART.redraw();
+  const g=cv.getContext('2d');const col=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const x=X(i);
+  g.save();g.strokeStyle=col('--ink-soft');g.globalAlpha=.45;g.lineWidth=1;g.setLineDash([3,3]);
+  g.beginPath();g.moveTo(x,pad.t);g.lineTo(x,CHART.H-24);g.stroke();g.setLineDash([]);g.globalAlpha=1;
+  const v=vals[i];if(v!=null){g.fillStyle=col('--accent');g.beginPath();g.arc(x,Y(v),4,0,7);g.fill();g.lineWidth=2;g.strokeStyle=col('--surface');g.stroke();}
+  g.restore();
+  const tip=$('#chartTip');if(!tip)return;
+  const mc=s.mktcap?s.mktcap[i]:null, cl=s.close?s.close[i]:null;
+  const mthr=mktThrArr(s.market,s.dates);const mt=mthr?mthr[i]:null;
+  const bM=mc!=null&&mt!=null&&mc<mt, bP=cl!=null&&cl<1000;
+  tip.innerHTML=`<div class="tt-d">${fmtD(s.dates[i])}</div>
+    <div class="tt-r"><span>시가총액</span><b class="${bM?'bad':''}">${mc==null?'—':won(mc)}</b></div>
+    <div class="tt-r mut"><span>시총 기준</span><b>${mt?won(mt):'—'}</b></div>
+    <div class="tt-r"><span>종가</span><b class="${bP?'bad':''}">${cl==null?'—':cl.toLocaleString()+'원'}</b></div>
+    <div class="tt-r mut"><span>주가 기준</span><b>1,000원</b></div>`;
+  tip.hidden=false;
+  const wrap=tip.parentElement.getBoundingClientRect();
+  const cx=e.clientX-wrap.left, cy=e.clientY-wrap.top;
+  let px=cx+14;if(px+tip.offsetWidth>wrap.width)px=cx-tip.offsetWidth-14;
+  let py=cy-tip.offsetHeight-6;if(py<2)py=cy+16;
+  tip.style.left=Math.max(2,px)+'px';tip.style.top=py+'px';
+}
+function chartLeave(){const tip=$('#chartTip');if(tip)tip.hidden=true;if(CHART)CHART.redraw();}
+
+// ===== 규정 원문 모달 =====
+const REG={
+KOSDAQ:[
+ {art:'제53조 (관리종목 지정)',body:[
+  '① 거래소는 보통주식 상장법인이 다음 각 호의 어느 하나에 해당하는 경우 해당 보통주식을 관리종목으로 지정한다.',
+  '  5. 시가총액 미달: 보통주식의 시가총액이 300억원 미만인 상태가 연속하여 30일(해당 종목의 매매거래일을 기준으로 한다) 동안 계속되는 경우. 다만, 천재지변, 그 밖에 시장상황의 급격한 변동 등으로 거래소가 시장관리를 위하여 필요하다고 인정하는 경우에는 지정하지 않을 수 있다.',
+  '@〈개정 2025.7.9, 2026.5.13〉',
+  '  5의2. 주가 미달: 보통주식의 종가가 1,000원 미만인 상태가 연속하여 30일 동안 계속되는 경우. 이 경우 전 호의 단서를 준용한다.',
+  '@〈신설 2026.5.13〉',
+ ]},
+ {art:'세칙 제51조 (시가총액·주가 미달 적용방법)',body:[
+  '① 제53조제1항제5호(시가총액 미달) 및 제5호의2(주가 미달) 사유는 종가가 없는 경우 해당 종목의 당일 기준가격을 기준으로 적용한다.',
+  '② 관리종목으로 지정된 후 별표10에 따른 지정 해제사유 발생이 불가능한 것으로 확정된 경우에는 그 확정된 시점에 상장폐지 사유가 발생한 것으로 본다.',
+  '@〈전문개정 2026.7.1〉',
+  '· 지정일 = 요건 충족 해당일의 익일(다음 매매거래일). 해제 = 기준 이상인 날이 연속 45매매거래일 계속되면 그 다음날(별표10).',
+ ]},
+ {art:'제54조 (상장폐지)',body:[
+  '  12. 시가총액 미달: 시가총액 미달로 제53조제1항제5호에 따라 지정된 후 90일(매매거래일 기준) 동안 시가총액이 다음 각 목의 어느 하나라도 충족하지 못하는 경우. (제5호 단서 준용)',
+  '  가. 300억원 이상인 상태가 10일 이상 계속될 것',
+  '  나. 300억원 이상인 일수가 30일 이상일 것',
+  '@〈개정 2025.7.9〉',
+  '  13. 주가 미달: 다음 각 목의 어느 하나. (제5호 단서 준용)',
+  '  가. 제5호의2에 따라 지정된 후 90일 이내에 종가가 1,000원 이상인 상태가 연속하여 45일 이상 계속되지 못하는 경우',
+  '  나. 지정 후 90일 이내에 주식병합·감자에 따른 변경상장을 완료했고, 지정일부터 과거 1년 이내에도 병합·감자 변경상장이 있었던 경우',
+  '  다. 지정 후 90일 이내에 병합·감자 변경상장을 1회 이상 완료했고 총 비율이 10대 1을 초과하는 경우',
+  '@〈신설 2026.5.13〉',
+ ]},
+ {art:'제67조 (외국주식등의 관리종목 지정)',body:[
+  '① 외국주식등의 관리종목 지정에 관하여는 보통주식에 관한 제53조를 준용한다.',
+  '  1. 자본잠식 사유: 무액면주식을 발행한 경우 적용하지 않는다.',
+  '  2. 시가총액 미달: 외국주식예탁증권(DR)을 상장한 경우 상장된 DR의 수를 기준으로 산정한다.',
+  '@〈개정 2022.12.7〉',
+ ]},
+ {art:'부칙 (경과조치)',body:[
+  '제1조(시행일) 2026년 7월 1일부터 시행. 다만 제56조제1항제17호의2 개정규정은 2026.6.1 시행.',
+  '제2조(시가총액 미달 적용례) 시가총액 미달 기준을 기간별로 적용한다.',
+  '  · 2026.1.1~6.30: 150억원 (종전)   · 2026.7.1~12.31: 200억원   · 2027.1.1~: 300억원(본칙)',
+  '  · 일수 산정은 적용기간별 기준으로 미달 여부를 판단하여 연속 산정. 기존 지정은 개정규정 지정으로 승계.',
+  '제3조(주가 미달 적용례) 주가 미달 일수는 시행(2026.7.1) 이후 최초로 종가 1,000원 미만인 날부터 산정. 시행일 이전 병합·감자 변경상장은 제54조13호 나목의 "과거 1년 이내"에 해당하지 않는 것으로 본다.',
+ ]},
+],
+KOSPI:[
+ {art:'제47조 (관리종목 지정)',body:[
+  '① … 9. 시가총액 미달: 보통주권의 상장시가총액이 500억원 미달인 상태가 30일(매매거래일 기준) 동안 계속되는 경우.',
+  '@〈개정 2025.7.9, 2026.5.13〉',
+  '  9의2. 주가 미달: 보통주식의 종가가 1,000원 미만인 상태가 30일 동안 계속되는 경우.',
+  '@〈신설 2026.5.13〉',
+ ]},
+ {art:'제48조 (상장폐지)',body:[
+  '  9. 시가총액 미달: 제47조제1항제9호에 따라 지정된 후 90일(매매거래일 기준) 동안 보통주권의 상장시가총액이 500억원 이상인 상태가 45일 이상 계속되지 못하는 경우.',
+  '  9의2. 주가 미달: 코스닥 제54조13호와 같은 취지(지정 후 90일 이내 종가 1,000원 이상 45일 연속 회복 실패 / 반복 병합·감자 / 총 비율 10:1 초과). 유가·코스닥 동일 적용.',
+ ]},
+ {art:'제67조 준용',body:[
+  '· 외국주권·외국주식예탁증권(DR)의 관리종목 지정은 보통주권 규정을 준용한다. DR은 상장된 DR 수를 기준으로 시가총액을 산정한다.',
+ ]},
+ {art:'부칙 (경과조치)',body:[
+  '제1조(시행일) 2026년 7월 1일부터 시행. 다만 제48조제2항제1호의2 개정규정은 2026.6.1 시행.',
+  '제4조(시가총액 미달 특례·경과조치) 시가총액 기준을 기간별로 적용한다.',
+  '  · 2026.1.1~6.30: 200억원   · 2026.7.1~12.31: 300억원   · 2027.1.1~: 500억원(본칙)',
+  '  · 종전 규정에 따라 시가총액 미달로 지정된 법인은 개정규정 지정으로 보고, 종전 산정 일수는 개정규정 일수로 본다.',
+  '제3조(주가 미달 적용례) 주가 미달 일수는 시행(2026.7.1) 이후 최초 1,000원 미만일부터. 시행일 이전 병합·감자 변경상장은 "과거 1년" 이력에서 제외.',
+ ]},
+],
+};
+let regMkt='KOSDAQ';
+function renderReg(){
+  $$('#regTabs button').forEach(b=>b.classList.toggle('on',b.dataset.m===regMkt));
+  $('#regBody').innerHTML=REG[regMkt].map(a=>{
+    const ps=a.body.map(t=>{
+      if(t[0]==='@')return `<p class="rev">${t.slice(1)}</p>`;
+      const sub=t.startsWith('  ')||t.startsWith('·')||t.startsWith('  ·');
+      return `<p class="${sub?'sub':''}">${t.trim()}</p>`;
+    }).join('');
+    return `<div class="reg-art"><h3>${a.art}</h3>${ps}</div>`;
+  }).join('');
+}
+function openReg(m){regMkt=(m==='KOSPI'||m==='KOSDAQ')?m:'KOSDAQ';$('#regModal').hidden=false;renderReg();}
+function closeReg(){$('#regModal').hidden=true;}
+$('#regbtn').addEventListener('click',()=>openReg(curMkt));
+$('#regClose').addEventListener('click',closeReg);
+$('#regBg').addEventListener('click',closeReg);
+$('#regTabs').addEventListener('click',e=>{const b=e.target.closest('button');if(b){regMkt=b.dataset.m;renderReg();}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#regModal').hidden)closeReg();});
+
+// theme
+const tgl=$('#tgl');
+tgl.addEventListener('click',()=>{const cur=document.documentElement.getAttribute('data-theme');
+  const nx=cur==='dark'?'light':cur==='light'?'dark':(matchMedia('(prefers-color-scheme:dark)').matches?'light':'dark');
+  document.documentElement.setAttribute('data-theme',nx);if(sel)drawIfPossible(sel.code,sel.reason);});
+</script>
