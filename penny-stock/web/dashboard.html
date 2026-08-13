@@ -53,6 +53,10 @@ header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 8
 .hbar .spacer{flex:1}
 .asof{font-family:var(--mono);font-size:12px;color:var(--ink-soft);text-align:right;line-height:1.35}
 .asof b{color:var(--ink);font-weight:600}
+.collectbox{display:flex;flex-direction:column;gap:5px;align-items:flex-end}
+.collect{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:12.5px;font-weight:660;
+  background:var(--accent-soft);border:1px solid var(--accent);color:var(--accent);padding:4px 11px;border-radius:999px;white-space:nowrap}
+.collect b{color:var(--accent);font-weight:760}
 .tglbtn{border:1px solid var(--line-strong);background:var(--surface);color:var(--ink-soft);
   width:34px;height:34px;border-radius:9px;cursor:pointer;font-size:15px;display:grid;place-items:center}
 .tglbtn:hover{color:var(--ink);border-color:var(--accent)}
@@ -273,7 +277,10 @@ footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);font-si
       <h1>지정·상장폐지 D-day 모니터</h1>
     </div>
     <span class="spacer"></span>
-    <div class="asof num">기준일 <b id="asof">—</b><br>유니버스 <b id="uni">—</b>종목</div>
+    <div class="collectbox">
+      <span class="collect">🕒 데이터 수집시점 <b id="genat2">—</b></span>
+      <div class="asof num">기준일(종가) <b id="asof">—</b> · 유니버스 <b id="uni">—</b>종목</div>
+    </div>
     <button class="tglbtn" id="regbtn" aria-label="규정 원문" title="규정 원문">📖</button>
     <button class="tglbtn" id="tgl" aria-label="테마 전환">◐</button>
   </div>
@@ -357,6 +364,7 @@ const SEV={below:'ink-soft',approaching:'appr',designated:'desig',release_pendin
 // header
 $('#asof').textContent=fmtD(DATA.meta.as_of);
 $('#uni').textContent=DATA.meta.universe_count.toLocaleString();
+$('#genat2').textContent=DATA.meta.generated_at.slice(0,16).replace('T',' ');
 $('#genat').textContent='생성 '+DATA.meta.generated_at.slice(0,16).replace('T',' ')+' · 캐시 '+DATA.meta.cache.trading_days+'거래일.';
 function fmtD(s){return s?s.slice(0,4)+'.'+s.slice(4,6)+'.'+s.slice(6,8):'—';}
 
