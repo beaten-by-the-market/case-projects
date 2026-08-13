@@ -9,12 +9,15 @@
 사용:
   python scripts/generate.py                # 캐시가 있으면 그대로, 데이터만 재생성
   python scripts/generate.py --refresh      # 스냅샷·유니버스까지 새로 수집 후 재생성
+  python scripts/generate.py --refresh 20260901   # 종료일을 특정 날짜로 고정(선택)
+종료일(END)은 기본 '오늘'이며, update_cache가 실제 최신 매매거래일까지만 증분 수집한다.
 결과: data/dashboard_data.json (프론트가 embed). 이후 web/build.py로 배포본 생성.
 """
 from __future__ import annotations
 
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
@@ -29,8 +32,20 @@ CACHE = str(DATA / "snapshots.csv")
 UNI = str(DATA / "target_universe.csv")
 OUT = str(DATA / "dashboard_data.json")
 
-# 수집 기간(스냅샷). 운영 시 최신 매매거래일까지로 갱신.
-START, END = "20260401", "20260813"
+# 스냅샷 수집 시작일(90거래일 이상 이력 확보를 위한 역사 앵커). 종료일은 실행 시 자동 산정.
+START = "20260401"
+
+
+def resolve_end(argv=()):
+    """수집 종료일(YYYYMMDD). 인자로 8자리 날짜를 주면 그 값, 없으면 오늘.
+
+    실제 수집은 update_cache가 [START, end] 안의 '실제 매매거래일'만 증분 수집하므로,
+    오늘로 잡아도 아직 종가가 없는 당일/휴장일은 저절로 빠진다.
+    """
+    for a in argv:
+        if a.isdigit() and len(a) == 8:
+            return a
+    return datetime.now().strftime("%Y%m%d")
 
 
 def retry(fn, *a, **k):
@@ -97,12 +112,13 @@ def build_actions(rows):
     return actions
 
 
-def main(refresh=False):
+def main(refresh=False, end=None):
+    end = end or resolve_end()
     if refresh:
-        print("스냅샷 증분 수집…")
-        ds.update_cache(START, END, CACHE)
+        print(f"스냅샷 증분 수집 (…~{end}, 실제 최신 매매거래일까지)…")
+        ds.update_cache(START, end, CACHE)
         print("유니버스 갱신…")
-        scr.build_target_universe(END, save_csv=UNI)
+        scr.build_target_universe(end, save_csv=UNI)
 
     cache = ds.load_cache(CACHE)
     uni = scr.target_codes(scr.load_target_universe(UNI))
@@ -124,4 +140,4 @@ def main(refresh=False):
 
 
 if __name__ == "__main__":
-    main(refresh="--refresh" in sys.argv)
+    main(refresh="--refresh" in sys.argv, end=resolve_end(sys.argv[1:]))
