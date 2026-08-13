@@ -143,6 +143,13 @@ header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 8
   font-size:12.5px;font-weight:640;padding:6px 12px;border-radius:8px;cursor:pointer;white-space:nowrap}
 .belowbtn:hover{background:color-mix(in srgb,var(--accent) 22%,var(--surface))}
 .belowbtn.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.dlwrap{display:flex;gap:6px}
+.dlbtn{border:1px solid var(--safe,#1a9d6a);background:color-mix(in srgb,var(--safe,#1a9d6a) 12%,var(--surface));
+  color:var(--safe,#1a9d6a);font-family:inherit;font-size:12.5px;font-weight:640;padding:6px 12px;border-radius:8px;
+  cursor:pointer;white-space:nowrap;display:inline-flex;align-items:center;gap:5px}
+.dlbtn:hover{background:color-mix(in srgb,var(--safe,#1a9d6a) 22%,var(--surface))}
+.dlbtn:active{transform:translateY(1px)}
+.dlbtn .dc{font-family:var(--mono);opacity:.8;font-weight:500}
 .search{border:1px solid var(--line-strong);background:var(--surface);border-radius:8px;padding:6px 10px;
   font-family:inherit;font-size:13px;color:var(--ink);width:160px}
 .search::placeholder{color:var(--ink-soft)}
@@ -300,6 +307,10 @@ footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);font-si
     <div class="controls">
       <input class="search" id="q" placeholder="종목명·코드 검색">
       <button class="belowbtn" id="belowToggle" title="현재 기준 미달이나 아직 임박 전(연속 20일 미만)인 종목 포함">미달 종목 포함</button>
+      <span class="dlwrap">
+        <button class="dlbtn" id="dlKOSPI" title="유가(KOSPI) 종목을 엑셀로 다운로드 — 총괄시트 + 종목별 시트">⬇ 유가 <span class="dc">엑셀</span></button>
+        <button class="dlbtn" id="dlKOSDAQ" title="코스닥(KOSDAQ) 종목을 엑셀로 다운로드 — 총괄시트 + 종목별 시트">⬇ 코스닥 <span class="dc">엑셀</span></button>
+      </span>
       <span class="cnt" id="cnt"></span>
     </div>
     <div class="tblwrap">
@@ -722,4 +733,185 @@ const tgl=$('#tgl');
 tgl.addEventListener('click',()=>{const cur=document.documentElement.getAttribute('data-theme');
   const nx=cur==='dark'?'light':cur==='light'?'dark':(matchMedia('(prefers-color-scheme:dark)').matches?'light':'dark');
   document.documentElement.setAttribute('data-theme',nx);if(sel)drawIfPossible(sel.code,sel.reason);});
+
+// ===== Excel(.xlsx) 내보내기 — 외부 라이브러리 없이 순수 JS (ZIP store + OOXML) =====
+const XLSX=(function(){
+  const enc=new TextEncoder();
+  const CRC=(()=>{const t=new Uint32Array(256);for(let n=0;n<256;n++){let c=n;for(let k=0;k<8;k++)c=(c&1)?(0xEDB88320^(c>>>1)):(c>>>1);t[n]=c>>>0;}return t;})();
+  function crc32(u8){let c=0xFFFFFFFF;for(let i=0;i<u8.length;i++)c=CRC[(c^u8[i])&0xFF]^(c>>>8);return (c^0xFFFFFFFF)>>>0;}
+  function zipStore(files){
+    const chunks=[],central=[];let offset=0;
+    for(const f of files){
+      const nameB=enc.encode(f.name),data=f.bytes,crc=crc32(data);
+      const lh=new DataView(new ArrayBuffer(30));
+      lh.setUint32(0,0x04034b50,true);lh.setUint16(4,20,true);lh.setUint16(6,0x0800,true);
+      lh.setUint16(8,0,true);lh.setUint16(10,0,true);lh.setUint16(12,0,true);
+      lh.setUint32(14,crc,true);lh.setUint32(18,data.length,true);lh.setUint32(22,data.length,true);
+      lh.setUint16(26,nameB.length,true);lh.setUint16(28,0,true);
+      chunks.push(new Uint8Array(lh.buffer),nameB,data);
+      const ch=new DataView(new ArrayBuffer(46));
+      ch.setUint32(0,0x02014b50,true);ch.setUint16(4,20,true);ch.setUint16(6,20,true);ch.setUint16(8,0x0800,true);
+      ch.setUint16(10,0,true);ch.setUint16(12,0,true);ch.setUint16(14,0,true);
+      ch.setUint32(16,crc,true);ch.setUint32(20,data.length,true);ch.setUint32(24,data.length,true);
+      ch.setUint16(28,nameB.length,true);ch.setUint16(30,0,true);ch.setUint16(32,0,true);
+      ch.setUint16(34,0,true);ch.setUint16(36,0,true);ch.setUint32(38,0,true);ch.setUint32(42,offset,true);
+      central.push({head:new Uint8Array(ch.buffer),name:nameB});
+      offset+=30+nameB.length+data.length;
+    }
+    const cdStart=offset;let cdSize=0;
+    for(const c of central){chunks.push(c.head,c.name);cdSize+=c.head.length+c.name.length;}
+    const eocd=new DataView(new ArrayBuffer(22));
+    eocd.setUint32(0,0x06054b50,true);eocd.setUint16(8,central.length,true);eocd.setUint16(10,central.length,true);
+    eocd.setUint32(12,cdSize,true);eocd.setUint32(16,cdStart,true);
+    chunks.push(new Uint8Array(eocd.buffer));
+    let total=0;for(const c of chunks)total+=c.length;
+    const out=new Uint8Array(total);let p=0;for(const c of chunks){out.set(c,p);p+=c.length;}
+    return out;
+  }
+  const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  function colName(i){let s='';i++;while(i>0){i--;s=String.fromCharCode(65+i%26)+s;i=Math.floor(i/26);}return s;}
+  function cellXml(ref,c){
+    if(c==null||c.v==null||c.v===''){return c&&c.s?`<c r="${ref}" s="${c.s}"/>`:`<c r="${ref}"/>`;}
+    const s=c.s?` s="${c.s}"`:'';
+    if(c.t==='n')return `<c r="${ref}"${s}><v>${c.v}</v></c>`;
+    return `<c r="${ref}"${s} t="inlineStr"><is><t xml:space="preserve">${esc(c.v)}</t></is></c>`;
+  }
+  function sheetXml(sh){
+    const rowsXml=sh.rows.map((row,ri)=>`<row r="${ri+1}">${row.map((c,ci)=>cellXml(colName(ci)+(ri+1),c)).join('')}</row>`).join('');
+    const cols=sh.cols?`<cols>${sh.cols.map((w,i)=>`<col min="${i+1}" max="${i+1}" width="${w}" customWidth="1"/>`).join('')}</cols>`:'';
+    const views=sh.freeze?`<sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/><selection pane="bottomLeft" activeCell="A2" sqref="A2"/></sheetView></sheetViews>`:'';
+    const links=(sh.links&&sh.links.length)?`<hyperlinks>${sh.links.map(l=>`<hyperlink ref="${l.ref}" location="${esc(l.loc)}"${l.disp?` display="${esc(l.disp)}"`:''}/>`).join('')}</hyperlinks>`:'';
+    return `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">${views}${cols}<sheetData>${rowsXml}</sheetData>${links}</worksheet>`;
+  }
+  const STYLES=`<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+<numFmts count="1"><numFmt numFmtId="164" formatCode="#,##0"/></numFmts>
+<fonts count="4"><font><sz val="11"/><name val="맑은 고딕"/></font><font><b/><sz val="11"/><name val="맑은 고딕"/></font><font><sz val="11"/><color rgb="FF1155CC"/><u/><name val="맑은 고딕"/></font><font><sz val="11"/><color rgb="FFC0392B"/><name val="맑은 고딕"/></font></fonts>
+<fills count="3"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill><fill><patternFill patternType="solid"><fgColor rgb="FFEEF2F7"/></patternFill></fill></fills>
+<borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders>
+<cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs>
+<cellXfs count="7"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyFont="1" applyFill="1"/><xf numFmtId="0" fontId="2" fillId="0" borderId="0" xfId="0" applyFont="1"/><xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/><xf numFmtId="0" fontId="3" fillId="0" borderId="0" xfId="0" applyFont="1"/><xf numFmtId="0" fontId="1" fillId="0" borderId="0" xfId="0" applyFont="1"/><xf numFmtId="164" fontId="3" fillId="0" borderId="0" xfId="0" applyNumberFormat="1" applyFont="1"/></cellXfs>
+<cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles>
+</styleSheet>`;
+  const S={def:0,head:1,link:2,num:3,danger:4,title:5,dangerNum:6};
+  function build(sheets){
+    const files=[];
+    const ov=sheets.map((s,i)=>`<Override PartName="/xl/worksheets/sheet${i+1}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>`).join('');
+    files.push({name:'[Content_Types].xml',bytes:enc.encode(`<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>${ov}</Types>`)});
+    files.push({name:'_rels/.rels',bytes:enc.encode(`<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>`)});
+    const st=sheets.map((s,i)=>`<sheet name="${esc(s.name)}" sheetId="${i+1}" r:id="rId${i+1}"/>`).join('');
+    files.push({name:'xl/workbook.xml',bytes:enc.encode(`<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets>${st}</sheets></workbook>`)});
+    const rels=sheets.map((s,i)=>`<Relationship Id="rId${i+1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet${i+1}.xml"/>`).join('');
+    files.push({name:'xl/_rels/workbook.xml.rels',bytes:enc.encode(`<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">${rels}<Relationship Id="rId${sheets.length+1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>`)});
+    files.push({name:'xl/styles.xml',bytes:enc.encode(STYLES)});
+    sheets.forEach((s,i)=>files.push({name:`xl/worksheets/sheet${i+1}.xml`,bytes:enc.encode(sheetXml(s))}));
+    return zipStore(files);
+  }
+  return {build,S,n:(v,s)=>({v,t:'n',s:s||0}),t:(v,s)=>({v,t:'s',s:s||0})};
+})();
+function xlsxISO(s){return s?s.slice(0,4)+'-'+s.slice(4,6)+'-'+s.slice(6,8):'';}
+function sheetNameFor(code){return String(code).slice(0,31).replace(/[\\\/\?\*\[\]:]/g,'_');}
+function buildMarketWorkbook(market){
+  const S=XLSX.S;
+  const rows=DATA.rows.filter(r=>r.market===market);
+  const codes=[],seen=new Set();
+  rows.forEach(r=>{if(!seen.has(r.code)){seen.add(r.code);codes.push(r.code);}});
+  const stocks=codes.map(code=>{
+    const rr=rows.filter(r=>r.code===code);
+    const mk=rr.find(r=>r.reason==='mktcap')||null,pr=rr.find(r=>r.reason==='price')||null;
+    const dds=rr.map(r=>dday(r).n).filter(n=>n!=null);
+    return {code,name:rr[0].name,mk,pr,urg:dds.length?Math.min(...dds):9999};
+  });
+  stocks.sort((a,b)=>(a.urg-b.urg)||a.name.localeCompare(b.name));
+  const sheets=[];
+  const H=['종목명','코드','사유','시총 상태','현재 시총(원)','시총 기준(원)','시총 괴리%','시총 지정일','주가 상태','현재 종가(원)','주가 기준(원)','주가 괴리%','주가 지정일','최단 D-day','구분'];
+  const sumRows=[H.map(h=>XLSX.t(h,S.head))];
+  const links=[];
+  const dg=r=>(r&&DSTATES.includes(r.state))?xlsxISO(desigDate(r)):'—';
+  stocks.forEach((s,idx)=>{
+    const cap=s.mk,prc=s.pr;
+    const reasons=[cap?'시총':null,prc?'주가':null].filter(Boolean).join('+');
+    const dds=[cap,prc].filter(Boolean).map(x=>dday(x)).filter(a=>a.n!=null).sort((a,b)=>a.n-b.n);
+    const dd=dds[0]||{n:null,lab:''};
+    sumRows.push([
+      XLSX.t(s.name,S.link),XLSX.t(s.code),XLSX.t(reasons),
+      XLSX.t(cap?STATE[cap.state]:'—'),
+      (cap&&cap.value!=null)?XLSX.n(cap.value,S.num):XLSX.t('—'),
+      (cap&&cap.threshold!=null)?XLSX.n(cap.threshold,S.num):XLSX.t('—'),
+      (cap&&cap.gap_pct!=null)?XLSX.n(cap.gap_pct):XLSX.t('—'),
+      XLSX.t(dg(cap)),
+      XLSX.t(prc?STATE[prc.state]:'—'),
+      (prc&&prc.value!=null)?XLSX.n(prc.value,S.num):XLSX.t('—'),
+      (prc&&prc.threshold!=null)?XLSX.n(prc.threshold,S.num):XLSX.t('—'),
+      (prc&&prc.gap_pct!=null)?XLSX.n(prc.gap_pct):XLSX.t('—'),
+      XLSX.t(dg(prc)),
+      dd.n!=null?XLSX.n(dd.n):XLSX.t('—'),
+      XLSX.t(dd.lab||'—'),
+    ]);
+    links.push({ref:'A'+(idx+2),loc:`'${sheetNameFor(s.code)}'!A1`,disp:s.name});
+  });
+  sheets.push({name:'총괄',cols:[16,9,8,10,15,15,9,12,10,13,13,9,12,9,7],freeze:true,rows:sumRows,links});
+  const pcs=(DATA.meta.rule&&DATA.meta.rule.price_count_start)||'20260701';
+  stocks.forEach(s=>{
+    const ser=DATA.series[s.code];
+    const rx=[];
+    rx.push([XLSX.t(s.name,S.title),XLSX.t(s.code),XLSX.t(s.market)]);
+    const metaLine=[s.mk,s.pr].filter(Boolean).map(x=>`${REASON[x.reason]} ${STATE[x.state]}${DSTATES.includes(x.state)?' · 지정 '+xlsxISO(desigDate(x)):''}${dday(x).n!=null?' · D-'+dday(x).n+' '+dday(x).lab:''}`).join('    ');
+    rx.push([XLSX.t(metaLine||'—')]);
+    rx.push([XLSX.t('← 총괄 시트로',S.link)]);
+    rx.push([]);
+    const backLinks=[{ref:'A3',loc:`'총괄'!A1`,disp:'← 총괄 시트로'}];
+    if(ser){
+      const thr=mktThrArr(s.market,ser.dates);
+      rx.push(['일자','종가(원)','시가총액(원)','시총 기준(원)','시총 미달','주가 미달'].map(h=>XLSX.t(h,S.head)));
+      ser.dates.forEach((d,i)=>{
+        const close=ser.close[i],cap=ser.mktcap[i],t=thr?thr[i]:null;
+        const capBelow=(cap!=null&&t!=null&&cap<t);
+        const prBelow=(close!=null&&close<1000&&d>=pcs);
+        rx.push([
+          XLSX.t(xlsxISO(d)),
+          close!=null?XLSX.n(close,prBelow?S.dangerNum:S.num):XLSX.t('—'),
+          cap!=null?XLSX.n(cap,capBelow?S.dangerNum:S.num):XLSX.t('—'),
+          t!=null?XLSX.n(t,S.num):XLSX.t('—'),
+          XLSX.t(capBelow?'미달':'',S.danger),
+          XLSX.t(prBelow?'미달':'',S.danger),
+        ]);
+      });
+      if(ser.actions&&ser.actions.length){
+        rx.push([]);
+        rx.push([XLSX.t('주식병합·자본감소 변경상장 (규정 제54조13호 나·다 감시)',S.title)]);
+        rx.push(['KRX 상장일','KRX 사유','KSD 발행일','KSD 상장일','KSD 사유','KSD 비율'].map(h=>XLSX.t(h,S.head)));
+        ser.actions.forEach(a=>rx.push([
+          XLSX.t(xlsxISO(a.krx_list_date)),XLSX.t(a.krx_reason||'—'),
+          XLSX.t(a.ksd_issue_date?xlsxISO(a.ksd_issue_date):'—'),XLSX.t(a.ksd_list_date?xlsxISO(a.ksd_list_date):'—'),
+          XLSX.t(a.ksd_reason||'—'),XLSX.t(a.ksd_ratio?a.ksd_ratio+' : 1':'—'),
+        ]));
+      }
+    }else{ rx.push([XLSX.t('시계열 데이터 없음')]); }
+    sheets.push({name:sheetNameFor(s.code),cols:[12,11,15,15,9,9],rows:rx,links:backLinks});
+  });
+  return XLSX.build(sheets);
+}
+function downloadMarketXlsx(market,label){
+  const bytes=buildMarketWorkbook(market);
+  const blob=new Blob([bytes],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download=`${label}_관리종목_${(DATA.meta.as_of||'')}.xlsx`;
+  document.body.appendChild(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href),2000);
+}
+(function(){
+  const nUniq=m=>new Set(DATA.rows.filter(r=>r.market===m).map(r=>r.code)).size;
+  const wire=(id,mk,lab)=>{const b=$('#'+id);if(!b)return;const n=nUniq(mk);
+    b.querySelector('.dc').textContent='엑셀 ('+n+')';
+    if(!n){b.disabled=true;b.style.opacity=.45;b.style.cursor='not-allowed';return;}
+    b.addEventListener('click',()=>{b.disabled=true;const o=b.querySelector('.dc').textContent;b.querySelector('.dc').textContent='생성 중…';
+      setTimeout(()=>{try{downloadMarketXlsx(mk,lab);}catch(e){alert('엑셀 생성 오류: '+e.message);}b.querySelector('.dc').textContent=o;b.disabled=false;},20);});};
+  wire('dlKOSPI','KOSPI','유가');wire('dlKOSDAQ','KOSDAQ','코스닥');
+})();
 </script>
