@@ -116,6 +116,9 @@ header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 8
 .rbar{display:flex;height:22px;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
 .rbar span{display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:11px;color:#fff}
 .rbar .m{background:var(--safe)} .rbar .e{background:var(--appr)}
+.rbar span[data-kind]{cursor:pointer;transition:filter .12s}
+.rbar span[data-kind]:hover{filter:brightness(1.12)}
+.rbar span.on{box-shadow:inset 0 0 0 2px var(--ink);font-weight:700}
 .recon .leg{font-size:11px;color:var(--ink-soft);display:flex;gap:14px;flex-wrap:wrap}
 .recon .leg i{width:9px;height:9px;border-radius:2px;display:inline-block;margin-right:4px;vertical-align:middle}
 
@@ -382,7 +385,7 @@ function dday(r){const c=r.countdown;
 // KPI
 const offOK=DATA.meta.official_available!==false;
 const DSTATES=['designated','release_pending','delisting_risk','delisting_confirmed'];
-let curMkt='all',curCell=null,curSort='dday',curDir=1,sel=null,showBelow=false;
+let curMkt='all',curCell=null,curRecon=null,curSort='dday',curDir=1,sel=null,showBelow=false;
 function marketRows(){return curMkt==='all'?DATA.rows:DATA.rows.filter(r=>r.market===curMkt);}
 function desigDate(r){return r.kind_design_date||r.official_design_date||r.estimated_effective||null;}
 ['all','KOSPI','KOSDAQ'].forEach(mk=>{const n=mk==='all'?DATA.rows.length:DATA.rows.filter(r=>r.market===mk).length;
@@ -420,37 +423,45 @@ function renderMatrix(){
 }
 $('#matrix').addEventListener('click',e=>{const c=e.target.closest('.mcell');if(!c)return;
   const r=c.dataset.r,cat=c.dataset.c;
-  curCell=(curCell&&curCell.reason===r&&curCell.cat===cat)?null:{reason:r,cat};
-  renderMatrix();render();
+  curCell=(curCell&&curCell.reason===r&&curCell.cat===cat)?null:{reason:r,cat};curRecon=null;
+  renderMatrix();renderReconcile();render();
   if(curCell)$('.panel .controls').scrollIntoView({behavior:'smooth',block:'nearest'});});
 
 // reconcile (시장 필터 rows에서 계산)
 function renderReconcile(){
   const R=marketRows();
+  const act=(rn,k)=>curRecon&&curRecon.reason===rn&&curRecon.kind===k?' on':'';
   function bar(lab,rn){
     const d=R.filter(r=>r.reason===rn&&DSTATES.includes(r.state));
     const matched=d.filter(r=>r.official).length,est=d.length-matched;
     const tot=Math.max(matched+est,1);
     return `<div class="rrow"><div class="rlab"><span>${lab}</span><span class="num muted">${offOK?'공식 '+matched:'추정 '+d.length}</span></div>
-      <div class="rbar"><span class="m" style="width:${matched/tot*100}%">${matched||''}</span><span class="e" style="width:${est/tot*100}%">${est||''}</span></div></div>`;
+      <div class="rbar"><span class="m${act(rn,'matched')}" data-rn="${rn}" data-kind="matched" title="공식과 일치한 ${matched}종목 보기" style="width:${matched/tot*100}%">${matched||''}</span><span class="e${act(rn,'est')}" data-rn="${rn}" data-kind="est" title="내 추정만(공식 미지정) ${est}종목 보기" style="width:${est/tot*100}%">${est||''}</span></div></div>`;
   }
   if(offOK){
     $('#recon').innerHTML=bar('시가총액 미달','mktcap')+bar('주가 미달','price')+
-      `<div class="leg"><span><i style="background:var(--safe)"></i>공식과 일치</span><span><i style="background:var(--appr)"></i>내 추정만(임박·미도래)</span></div>`;
+      `<div class="leg"><span><i style="background:var(--safe)"></i>공식과 일치</span><span><i style="background:var(--appr)"></i>내 추정만(임박·미도래)</span><span class="muted" style="margin-left:auto">막대를 클릭하면 그 종목만 필터</span></div>`;
   }else{
     const cd=R.filter(r=>r.reason==='mktcap'&&DSTATES.includes(r.state)).length;
     const pd=R.filter(r=>r.reason==='price'&&DSTATES.includes(r.state)).length;
     $('#recon').innerHTML=`<div class="dd-empty" style="padding:20px 4px">KRX 공식 현황 서버 지연으로 대조 일시 불가.<br><span class="muted">추정 지정: 시총 ${cd} · 주가 ${pd}종목</span></div>`;
   }
 }
+$('#recon').addEventListener('click',e=>{const s=e.target.closest('span[data-kind]');if(!s)return;
+  if((s.textContent||'').trim()==='')return;                 // 0건 세그먼트는 무시
+  const rn=s.dataset.rn,kind=s.dataset.kind;
+  curRecon=(curRecon&&curRecon.reason===rn&&curRecon.kind===kind)?null:{reason:rn,kind};
+  curCell=null;renderMatrix();renderReconcile();render();
+  if(curRecon)$('.panel .controls').scrollIntoView({behavior:'smooth',block:'nearest'});});
 
 // table
 $('#q').addEventListener('input',render);
 $('#belowToggle').textContent=`현재기준 미달 종목 전체 조회 (${new Set(DATA.rows.map(r=>r.code)).size})`;
-$('#belowToggle').addEventListener('click',()=>{showBelow=!showBelow;$('#belowToggle').classList.toggle('on',showBelow);curCell=null;renderMatrix();render();});
+$('#belowToggle').addEventListener('click',()=>{showBelow=!showBelow;$('#belowToggle').classList.toggle('on',showBelow);curCell=null;curRecon=null;renderMatrix();renderReconcile();render();});
 function rowsView(){
   let rs=marketRows().slice();
-  if(curCell)rs=rs.filter(r=>catMatch(r,curCell.reason,curCell.cat));
+  if(curRecon)rs=rs.filter(r=>r.reason===curRecon.reason&&DSTATES.includes(r.state)&&(curRecon.kind==='matched'?r.official:!r.official));
+  else if(curCell)rs=rs.filter(r=>catMatch(r,curCell.reason,curCell.cat));
   else if(!showBelow)rs=rs.filter(r=>r.state!=='below');
   const q=$('#q').value.trim();
   if(q)rs=rs.filter(r=>r.name.includes(q)||r.code.includes(q));
@@ -482,7 +493,7 @@ function render(){
     return {code,name:rr[0].name,market:rr[0].market,mk,pr,urg:dds.length?Math.min(...dds):9999};
   });
   stocks.sort((a,b)=>(a.urg-b.urg)||a.name.localeCompare(b.name));
-  const filt=curCell?`${curCell.reason==='mktcap'?'시총':'동전주'}·${catLab[curCell.cat]} · `:'';
+  const filt=curRecon?`${curRecon.reason==='mktcap'?'시총':'동전주'}·${curRecon.kind==='est'?'내 추정만(공식 미지정)':'공식 일치'} · `:(curCell?`${curCell.reason==='mktcap'?'시총':'동전주'}·${catLab[curCell.cat]} · `:'');
   $('#cnt').textContent=filt+stocks.length+'종목';
   $('#tb').innerHTML=stocks.map(s=>`<tr data-code="${s.code}">
     <td class="stcell"><span class="nm">${s.name}</span> <span class="code">${s.code}</span> <span class="mkt ${s.market==='KOSPI'?'kospi':'kosdaq'}">${s.market}</span></td>
@@ -499,7 +510,7 @@ function render(){
 }
 function renderAll(){renderMatrix();renderReconcile();render();}
 $('#mkttabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
-  $$('#mkttabs button').forEach(x=>x.classList.toggle('on',x===b));curMkt=b.dataset.m;curCell=null;renderAll();});
+  $$('#mkttabs button').forEach(x=>x.classList.toggle('on',x===b));curMkt=b.dataset.m;curCell=null;curRecon=null;renderAll();});
 renderAll();
 
 // 인라인 종목상세 (행 아래 펼침)
