@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# krx-query — 자격증명·조회 산출물 (거래소 내부 DB)
+**/credentials_local.py
+krx-query/offhour_impact_*.txt
