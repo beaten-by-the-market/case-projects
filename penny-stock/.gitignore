@@ -4,6 +4,7 @@ __pycache__/
 # krx-query — 자격증명·조회 산출물 (거래소 내부 DB)
 **/credentials_local.py
 krx-query/offhour_impact_*.txt
+krx-query/results/
 
 # proposal — D-테스트베드 제안서. 신청자 개인 연락처(휴대폰·이메일)가 본문과
 # hwpx 에 들어 있어 공개 저장소에 올리지 않는다. 로컬에만 둔다.

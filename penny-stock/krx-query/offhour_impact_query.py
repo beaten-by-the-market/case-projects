@@ -13,9 +13,10 @@
          · 거래대금 · 거래량 · 체결건수
          · 체결가격 목록 (체결 단위 전건 + 가격별 집계)
    [2] 같은 날 **하루 전체**의 거래대금 · 거래량 (보드별 분해 포함)
-   [3] **다음 거래일(= 관리종목 지정 효력일)의 시가**,
+   [3] **지정 효력일(사유발생일의 다음 거래일) 이후 첫 거래일의 시가**,
        그리고 [1]의 체결가격 각각을 그 시가와 대비한 **수익률 목록**
-       (수익률 = 익일시가 / 체결가 - 1  → 시간외 매수자의 익일 시가 청산 손익)
+       (수익률 = 첫 거래일 시가 / 체결가 - 1  → 시간외 매수자가 실제로 팔 수 있는
+        첫 가격 기준 손익. 유가증권시장은 지정일 매매거래정지가 걸려 T+2 가 되기도 한다)
 
   ── 데이터 원천 (거래소 내부 Oracle) ─────────────────────────────────────────
    USSV.VWSV_SPOT_TRD3       현물 체결 통합뷰 (TRD_TM = HHMMSSXXX, BRD_ID = 보드)
@@ -62,6 +63,9 @@ DB_DSN      = "DBMMXP"          # TNS alias 또는 host:port/service
 OFFHR_START_TM   = "154000000"  # 시간외 시작 15:40:00.000 (HHMMSSXXX)
 INCLUDE_END_MIN  = False        # False(기본) 공시시각 '직전'까지 (18:35 → 18:34:59.999)
                                 # True       공시 '분' 을 통째로 포함 (18:35:59.999 까지)
+LOOKAHEAD_BZ_DAYS = 10          # 사유발생일 다음 영업일부터 몇 일을 훑어 '첫 거래일' 을 찾을지.
+                                # 유가증권시장은 관리종목 신규지정일에 매매거래를 정지해
+                                # 지정일 시가가 없다 → 재개 첫날 시가로 수익률을 낸다.
 
 # ── 출력 ─────────────────────────────────────────────────────────────────────
 MAX_TICK_LINES   = 0            # 리포트에 찍을 체결 최대 줄수. 0 = 제한 없음
@@ -148,12 +152,29 @@ SELECT TRD_DD, AGG_BAS_TP_CD, MKT_ID,
  ORDER BY DECODE(AGG_BAS_TP_CD, '0', 1, '9', 2, 3)
 """
 
-# [3] 다음 거래일 (= 관리종목 지정 효력일)
-SQL_NEXT_BZ_DD = f"""
-SELECT MIN(BZ_DD)
-  FROM {TBL_BZ_DD}
- WHERE CALND_ID = 'EXCH'
-   AND BZ_DD    > :dd
+# [3] 사유발생일 다음 영업일부터 N일 (첫날 = 관리종목 지정 효력일)
+#     유가증권시장은 관리종목 신규지정일에 매매거래를 정지하므로 그날 시가가 없다.
+#     → 실제로 거래가 이뤄진 첫 날까지 훑어야 시간외 매수자의 청산가격이 나온다.
+SQL_NEXT_BZ_DDS = f"""
+SELECT BZ_DD
+  FROM (SELECT BZ_DD
+          FROM {TBL_BZ_DD}
+         WHERE CALND_ID = 'EXCH'
+           AND BZ_DD    > :dd
+         ORDER BY BZ_DD)
+ WHERE ROWNUM <= :n
+"""
+
+# [3] 사유발생일 이후 구간의 일별 시세 (거래정지 여부 판별 + 첫 거래일 시가)
+SQL_BYDD_RANGE = f"""
+SELECT TRD_DD, AGG_BAS_TP_CD, MKT_ID,
+       TDD_OPNPRC, TDD_HGPRC, TDD_LWPRC, TDD_CLSPRC, PREVDD_CLSPRC,
+       ACC_TRDCNT, ACC_TRDVOL, ACC_TRDVAL, MKTCAP, LST_AGG_TM
+  FROM {TBL_BYDD}
+ WHERE ISU_CD  = :isu
+   AND TRD_DD  > :dd
+   AND TRD_DD <= :dd_end
+ ORDER BY TRD_DD, DECODE(AGG_BAS_TP_CD, '0', 1, '9', 2, 3)
 """
 
 # [3] 시가 폴백 — 일별 테이블에 시가가 없으면 정규장 첫 체결가
@@ -316,29 +337,45 @@ def probe_one(cur, t):
     bydd = q(cur, SQL_BYDD, dd=dd, isu=isu)
     out["bydd"] = bydd[0] if bydd else None
 
-    # ── [3] 익일(= 지정 효력일) 시가 ─────────────────────────────────────────
-    cur.execute(SQL_NEXT_BZ_DD, dict(dd=dd))
-    row = cur.fetchone()
-    nxt = row[0] if row else None
-    out["next_dd"] = nxt
-    out["next_bydd"] = out["next_open"] = out["next_open_src"] = None
+    # ── [3] 지정 효력일 이후 — 첫 '거래된' 날의 시가 ─────────────────────────
+    #     유가증권시장은 관리종목 신규지정일 하루를 매매거래정지한다. 그 경우
+    #     지정일에는 시가가 없고, 시간외 매수자가 실제로 팔 수 있는 첫 가격은
+    #     거래재개일 시가다. 코스닥은 정지하지 않아 대개 지정일 = 첫 거래일.
+    cur.execute(SQL_NEXT_BZ_DDS, dict(dd=dd, n=LOOKAHEAD_BZ_DAYS))
+    bzds = [r0[0] for r0 in cur.fetchall()]
+    out["next_bz_days"] = bzds
+    out["next_dd"] = bzds[0] if bzds else None          # 지정 효력일
 
-    if nxt:
-        nb = q(cur, SQL_BYDD, dd=nxt, isu=isu)
-        if nb:
-            out["next_bydd"] = nb[0]
-            op = num(nb[0].get("TDD_OPNPRC"))
-            if op:
-                out["next_open"] = op
-                out["next_open_src"] = "TBMD_BYDD_ISU_TRDPRC.TDD_OPNPRC (당일시가)"
-        if out["next_open"] is None:
-            ft = q(cur, SQL_FIRST_REGUL_TRD, dd=nxt, isu=isu)
+    rows = q(cur, SQL_BYDD_RANGE, isu=isu, dd=dd, dd_end=bzds[-1]) if bzds else []
+    bydd_by_dd = OrderedDict()
+    for r0 in rows:                                     # DECODE 정렬로 '0' 이 먼저
+        bydd_by_dd.setdefault(r0["TRD_DD"], r0)
+    out["after_days"] = [
+        dict(dd=d,
+             row=bydd_by_dd.get(d),
+             vol=num((bydd_by_dd.get(d) or {}).get("ACC_TRDVOL"), 0.0) or 0.0,
+             opn=num((bydd_by_dd.get(d) or {}).get("TDD_OPNPRC")))
+        for d in bzds
+    ]
+    out["next_bydd"] = out["after_days"][0]["row"] if out["after_days"] else None
+
+    out["open_dd"] = out["open_price"] = out["open_src"] = None
+    out["halt_days"] = 0                                # 지정 효력일부터 거래 없던 영업일 수
+    for k, d0 in enumerate(out["after_days"]):
+        if d0["vol"] <= 0:
+            continue
+        op0, src0 = d0["opn"], "TBMD_BYDD_ISU_TRDPRC.TDD_OPNPRC (당일시가)"
+        if not op0:                                     # 시가 결측이면 정규장 첫 체결로 폴백
+            ft = q(cur, SQL_FIRST_REGUL_TRD, dd=d0["dd"], isu=isu)
             if ft:
-                out["next_open"] = num(ft[0]["TRD_PRC"])
-                out["next_open_src"] = f"정규장 첫 체결 {fmt_tm(ft[0]['TRD_TM'])}"
+                op0, src0 = num(ft[0]["TRD_PRC"]), f"정규장 첫 체결 {fmt_tm(ft[0]['TRD_TM'])}"
+        if op0:
+            out["open_dd"], out["open_price"], out["open_src"] = d0["dd"], op0, src0
+            out["halt_days"] = k
+            break
 
     # ── 수익률 ───────────────────────────────────────────────────────────────
-    op = out["next_open"]
+    op = out["open_price"]
     for x in ticks:
         x["RET"] = (op / x["PRC"] - 1.0) * 100.0 if (op and x["PRC"]) else None
     for k, b in by_prc.items():
@@ -421,7 +458,8 @@ def render_one(o, idx, total):
         add(f"        거래대금      {R(i(b.get('ACC_TRDVAL')), 20)} 원")
         add(f"        체결건수      {R(i(b.get('ACC_TRDCNT')), 20)} 건")
         add(f"        시가총액      {R(i(b.get('MKTCAP')), 20)} 원"
-            f"   (최종집계 {fmt_tm(b.get('LST_AGG_TM'))})")
+            + (f"   (최종집계 {fmt_tm(b.get('LST_AGG_TM'))})"
+               if str(b.get("LST_AGG_TM") or "").isdigit() else ""))
     else:
         add("    · 일별 집계 테이블에 행 없음")
 
@@ -447,33 +485,58 @@ def render_one(o, idx, total):
 
     # ── [3] ─────────────────────────────────────────────────────────────────
     add("")
-    add(f"[3] 다음 거래일 {fmt_dd(o['next_dd'])} 시가 대비 수익률   (= 관리종목 지정 효력일)")
-    if o["next_open"] is None:
-        add("    · 익일 시가를 찾지 못함 (거래정지·데이터 미적재 등)")
+    add(f"[3] 지정 효력일 {fmt_dd(o['next_dd'])} 이후 첫 거래일 시가 대비 수익률")
+    if o["after_days"]:
+        add("    · 지정 효력일 이후 거래 상황")
+        add("      " + L("영업일", 13) + L("구분", 30) + R("시가", 12) + R("종가", 12)
+            + R("거래량", 16) + R("거래대금", 20))
+        show = max(5, o["halt_days"] + 2)
+        for k, d0 in enumerate(o["after_days"][:show]):
+            row0 = d0["row"] or {}
+            tag = []
+            if k == 0:
+                tag.append("지정 효력일")
+            if d0["row"] is None:
+                tag.append("자료없음")
+            elif d0["vol"] <= 0:
+                tag.append("매매거래정지")
+            if d0["dd"] == o["open_dd"]:
+                tag.append("★첫 거래일")
+            add("      " + L(fmt_dd(d0["dd"]), 13) + L(" · ".join(tag), 30)
+                + R(p(row0.get("TDD_OPNPRC")), 12) + R(p(row0.get("TDD_CLSPRC")), 12)
+                + R(i(row0.get("ACC_TRDVOL")), 16) + R(i(row0.get("ACC_TRDVAL")), 20))
+    if o["open_price"] is None:
+        add(f"    · 이후 {len(o['after_days'])}영업일 안에 거래된 날이 없어 시가를 찾지 못함"
+            f" (장기 거래정지 등 — LOOKAHEAD_BZ_DAYS 를 늘려 볼 것)")
     else:
-        nb = o["next_bydd"] or {}
-        add(f"    · 시가 {p(o['next_open'])} 원   [{o['next_open_src']}]")
+        nb = (o["after_days"][o["halt_days"]]["row"] if o["after_days"] else None) or {}
+        if o["halt_days"]:
+            add(f"    · ⚠ 지정 효력일 {fmt_dd(o['next_dd'])} 은 거래 없음(매매거래정지)."
+                f" {o['halt_days']}영업일 뒤 {fmt_dd(o['open_dd'])} 이 첫 거래일"
+                f"  →  수익률 기준일은 T+{o['halt_days'] + 1}")
+        add(f"    · 기준 시가 {p(o['open_price'])} 원  ({fmt_dd(o['open_dd'])})"
+            f"   [{o['open_src']}]")
         if nb:
-            add(f"      (익일 고가 {p(nb.get('TDD_HGPRC'))} / 저가 {p(nb.get('TDD_LWPRC'))}"
+            add(f"      (그날 고가 {p(nb.get('TDD_HGPRC'))} / 저가 {p(nb.get('TDD_LWPRC'))}"
                 f" / 종가 {p(nb.get('TDD_CLSPRC'))} / 거래량 {i(nb.get('ACC_TRDVOL'))})")
         cls = num((o["bydd"] or {}).get("TDD_CLSPRC"))
         if cls:
-            add(f"      당일 종가 {p(cls)} → 익일 시가 {p(o['next_open'])} :"
-                f" {pct((o['next_open'] / cls - 1) * 100)}")
+            add(f"      사유발생일 종가 {p(cls)} → 기준 시가 {p(o['open_price'])} :"
+                f" {pct((o['open_price'] / cls - 1) * 100)}")
         add(f"    · 시간외 평균단가 대비   일반매매 VWAP {p(o['offhr_main_vwap'])}"
             f" → {pct(o['offhr_main_vwap_ret'])}"
             f"   /   전 보드 VWAP {p(o['offhr_vwap'])} → {pct(o['offhr_vwap_ret'])}")
 
         if o["offhr_by_prc"]:
             add("")
-            add("    · 체결가격별 수익률 목록   (수익률 = 익일시가 / 체결가 - 1)")
+            add("    · 체결가격별 수익률 목록   (수익률 = 첫 거래일 시가 / 체결가 - 1)")
             add("      " + R("체결가", 14) + R("체결건수", 12) + R("체결수량", 16)
                 + R("체결대금", 20) + R("수익률", 14))
             for k, v in o["offhr_by_prc"].items():
                 add("      " + R(p(k), 14) + R(i(v["cnt"]), 12) + R(i(v["vol"]), 16)
                     + R(i(v["val"]), 20) + R(pct(v["ret"]), 14))
             loss_val = sum(v["val"] for v in o["offhr_by_prc"].values() if (v["ret"] or 0) < 0)
-            add(f"      → 시간외 매수 전량을 익일 시가에 청산 시 평가손익 {i(o['offhr_pnl'])} 원"
+            add(f"      → 시간외 매수 전량을 첫 거래일 시가에 청산 시 평가손익 {i(o['offhr_pnl'])} 원"
                 f"   (손실 구간 체결대금 {i(loss_val)} 원)")
 
         if o["ticks"]:
@@ -500,7 +563,8 @@ def render_summary(results):
     add("")
     add(L("사유발생일", 13) + L("공시", 7) + L("시장", 10) + L("종목명", 18) + L("단축", 8)
         + L("사유", 19) + R("시간외거래대금", 18) + R("시간외거래량", 15)
-        + R("당일거래대금", 20) + R("비중%", 9) + R("익일시가", 11) + R("VWAP수익률", 13))
+        + R("당일거래대금", 20) + R("비중%", 9) + R("기준일", 8) + R("기준시가", 11)
+        + R("VWAP수익률", 13))
     tot_off_val = tot_off_vol = tot_day_val = tot_pnl = 0.0
     for o in results:
         a = o["offhr_all"]
@@ -515,13 +579,14 @@ def render_summary(results):
             + L(o["nm"], 18) + L(o["srt"], 8) + L(o["rsn"], 19)
             + R(i(a["val"]), 18) + R(i(a["vol"]), 15) + R(i(day_val), 20)
             + R(f"{share:.2f}" if share is not None else "-", 9)
-            + R(p(o["next_open"]), 11) + R(pct(o["offhr_vwap_ret"]), 13))
+            + R(f"T+{o['halt_days'] + 1}" if o["open_price"] else "-", 8)
+            + R(p(o["open_price"]), 11) + R(pct(o["offhr_vwap_ret"]), 13))
     add("")
     add(f"  대상 {len(results)}건")
     add(f"  시간외(15:40~공시) 총 거래대금 {i(tot_off_val)} 원 · 총 거래량 {i(tot_off_vol)} 주")
     add(f"  당일 총 거래대금 {i(tot_day_val)} 원 · 시간외 비중"
         f" {(tot_off_val / tot_day_val * 100) if tot_day_val else 0:.2f}%")
-    add(f"  익일 시가 청산 가정 총 평가손익 {i(tot_pnl)} 원")
+    add(f"  첫 거래일 시가 청산 가정 총 평가손익 {i(tot_pnl)} 원")
 
     for key, label in (("mkt", "시장별"), ("rsn", "사유별")):
         add("")
@@ -539,7 +604,7 @@ def render_summary(results):
             add("    " + L(k, 20) + R(f"{v['n']}건", 8)
                 + "   거래량 " + R(i(v["vol"]), 15) + " 주"
                 + "   거래대금 " + R(i(v["val"]), 18) + " 원"
-                + "   익일시가 청산 평가손익 " + R(i(v["pnl"]), 18) + f" 원 ({v['pnl_n']}건 산출)")
+                + "   첫거래일시가 청산 평가손익 " + R(i(v["pnl"]), 18) + f" 원 ({v['pnl_n']}건 산출)")
     add("")
     return "\n".join(out)
 
@@ -548,7 +613,7 @@ def render_tickfile(results):
     out = ["\t".join([
         "사유발생일", "공시시각", "시장", "단축코드", "표준코드", "종목명", "사유", "유형",
         "체결시각", "보드ID", "보드명", "세션ID", "체결유형코드", "정규시간외구분코드",
-        "체결가", "체결수량", "체결대금", "익일거래일", "익일시가", "수익률(%)",
+        "체결가", "체결수량", "체결대금", "지정효력일", "정지영업일수", "기준거래일", "기준시가", "수익률(%)",
     ])]
     for o in results:
         for x in o["ticks"]:
@@ -558,8 +623,9 @@ def render_tickfile(results):
                 str(x.get("SESS_ID") or ""), str(x.get("TRD_TP_CD") or ""),
                 str(x.get("REGUL_OFFHR_TP_CD") or ""),
                 f"{x['PRC']:g}", f"{x['VOL']:.0f}", f"{x['VAL']:.0f}",
-                str(o["next_dd"] or ""),
-                (f"{o['next_open']:g}" if o["next_open"] else ""),
+                str(o["next_dd"] or ""), str(o["halt_days"]),
+                str(o["open_dd"] or ""),
+                (f"{o['open_price']:g}" if o["open_price"] else ""),
                 (f"{x['RET']:.4f}" if x["RET"] is not None else ""),
             ]))
     return "\n".join(out)
@@ -622,7 +688,9 @@ def main():
         "  ※ 정규장 종료(종가 확정) 15:30 → 시간외종가매매 15:40~16:00 (보드 G3) →",
         "     시간외단일가매매 16:00~18:00 (보드 G4). 공시가 그 뒤에 나가면, 그 사이의 체결은",
         "     '관리종목 지정 사실이 공표되지 않은 상태에서 이뤄진 거래' 다.",
-        "  ※ 수익률 = 익일(지정 효력일) 시가 / 체결가 - 1   (시간외 매수 → 익일 시가 청산 가정)",
+        "  ※ 수익률 = 첫 거래일 시가 / 체결가 - 1   (시간외 매수 → 그 시가에 청산 가정).",
+        "     유가증권시장은 관리종목 신규지정일 하루를 매매거래정지하므로 지정일 시가가 없다.",
+        "     그 경우 거래재개 첫날 시가를 기준으로 삼고, 요약표 '기준일' 에 T+2 처럼 표시한다.",
         "  ※ 거래대금은 체결 원장에서 SUM(체결가 × 체결수량) 으로 산출.",
         "",
     ]
