@@ -582,11 +582,28 @@ def render_summary(results):
             + R(f"T+{o['halt_days'] + 1}" if o["open_price"] else "-", 8)
             + R(p(o["open_price"]), 11) + R(pct(o["offhr_vwap_ret"]), 13))
     add("")
-    add(f"  대상 {len(results)}건")
+    add(f"  대상 {len(results)}건 (공시 건수 기준)")
     add(f"  시간외(15:40~공시) 총 거래대금 {i(tot_off_val)} 원 · 총 거래량 {i(tot_off_vol)} 주")
     add(f"  당일 총 거래대금 {i(tot_day_val)} 원 · 시간외 비중"
         f" {(tot_off_val / tot_day_val * 100) if tot_day_val else 0:.2f}%")
     add(f"  첫 거래일 시가 청산 가정 총 평가손익 {i(tot_pnl)} 원")
+
+    # 같은 (종목, 사유발생일) 에 공시가 2건 이상이면(사유추가 등) 위 합계에 같은 체결이
+    # 두 번 들어간다. 공시시각이 가장 늦은 = 구간이 가장 넓은 한 건만 남겨 중복을 뺀다.
+    uniq = OrderedDict()
+    for o in results:
+        k = (o["dd"], o["srt"])
+        if k not in uniq or o["tm"] > uniq[k]["tm"]:
+            uniq[k] = o
+    if len(uniq) != len(results):
+        u_val = sum(o["offhr_all"]["val"] for o in uniq.values())
+        u_vol = sum(o["offhr_all"]["vol"] for o in uniq.values())
+        u_pnl = sum(o["offhr_pnl"] or 0.0 for o in uniq.values())
+        add("")
+        add(f"  ※ 공시 {len(results)}건 중 같은 (종목, 사유발생일) 재공시가 있어 위 합계엔"
+            f" 중복이 섞여 있다. 고유 {len(uniq)}건 기준:")
+        add(f"     시간외 총 거래대금 {i(u_val)} 원 · 총 거래량 {i(u_vol)} 주"
+            f" · 총 평가손익 {i(u_pnl)} 원")
 
     for key, label in (("mkt", "시장별"), ("rsn", "사유별")):
         add("")
