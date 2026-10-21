@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" width="1000" height="540" font-family="'Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','Noto Sans KR',sans-serif" role="img" aria-labelledby="ttl dsc">
+<title id="ttl">주식수와 연말 종가의 단위 맞추기: 현대ADM 2024년</title>
+<desc id="dsc">스냅샷 상태일 2024년 7월 1일의 담보는 7,623,641주인데 11월 28일 1:1 무상증자로 1주가 2주가 되었고, 연말 종가 1,677원은 무상증자 뒤 가격이다. 환산하지 않으면 담보가치 127.8억 원으로 대출 180억 원보다 작아 기준 주가 2,597원이 연말 종가보다 높게 나온다. 배수 2를 곱하면 담보가치 255.7억 원, 기준 주가 1,299원, 하락 여유 29%이다.</desc>
+<rect width="1000" height="540" fill="#ffffff"/>
+
+<text x="28" y="32" font-size="15" font-weight="700" fill="#0b0b0b">주식수와 연말 종가의 단위 맞추기: 현대ADM 2024년</text>
+<text x="28" y="55" font-size="12.5" fill="#52514e">패널 주식수는 스냅샷 보고서의 수량이고 연말 종가는 그 해 마지막 매매거래일 가격이다. 그 사이 무상증자가 있으면 단위가 다르다.</text>
+
+<!-- 시간선 -->
+<line x1="80" y1="130" x2="930" y2="130" stroke="#8a8984" stroke-width="2"/>
+<circle cx="120" cy="130" r="7" fill="#2a78d6"/>
+<text x="100" y="104" font-size="13" font-weight="700" fill="#0b0b0b">2024-07-01 스냅샷 상태일</text>
+<text x="100" y="158" font-size="12.5" fill="#0b0b0b">담보 7,623,641주 (<tspan font-family="Consolas,monospace">collateral_shares_live</tspan>)</text>
+<text x="100" y="176" font-size="12" fill="#52514e">무상증자 전 단위</text>
+
+<path d="M746,121 L755,130 L746,139 L737,130 z" fill="#eb6834"/>
+<text x="746" y="104" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle">2024-11-28 무상증자 1:1</text>
+<text x="746" y="158" font-size="12.5" fill="#0b0b0b" text-anchor="middle">1주 → 2주, <tspan font-family="Consolas,monospace">unit_factor</tspan> = 2</text>
+
+<circle cx="880" cy="130" r="7" fill="#0b0b0b"/>
+<text x="930" y="200" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="end">2024-12-30 마지막 매매거래일</text>
+<text x="930" y="218" font-size="12.5" fill="#0b0b0b" text-anchor="end">종가 1,677원 (<tspan font-family="Consolas,monospace">close_yearend</tspan>, 무상증자 뒤 단위)</text>
+<line x1="880" y1="138" x2="880" y2="184" stroke="#8a8984" stroke-width="1" stroke-dasharray="3 3"/>
+
+<!-- 환산하지 않으면 -->
+<rect x="28" y="246" width="460" height="230" rx="8" fill="#fbfaf7" stroke="#e0ddd0"/>
+<rect x="28" y="246" width="460" height="6" rx="3" fill="#eb6834"/>
+<text x="46" y="278" font-size="14" font-weight="700" fill="#0b0b0b">환산하지 않으면 <tspan font-weight="400" fill="#52514e">(단위가 어긋남)</tspan></text>
+<g font-size="13" fill="#0b0b0b">
+  <text x="46" y="310">담보가치 = 7,623,641주 × 1,677원 = 127.8억 원</text>
+  <text x="46" y="336">대출 ÷ 담보가치 = 180억 ÷ 127.8억 = 141%</text>
+  <text x="46" y="362">1주당 대출 = 180억 원 ÷ 7,623,641주 = 2,361원</text>
+  <text x="46" y="388">기준 주가 = 2,361원 × 110% = 2,597원</text>
+  <text x="46" y="414">연말 종가 1,677원 &lt; 기준 주가 2,597원</text>
+</g>
+<text x="46" y="446" font-size="12.5" font-weight="700" fill="#0b0b0b">→ 이미 마진콜 아래에 있는 것처럼 보인다</text>
+
+<!-- 환산하면 -->
+<rect x="512" y="246" width="460" height="230" rx="8" fill="#fbfaf7" stroke="#e0ddd0"/>
+<rect x="512" y="246" width="460" height="6" rx="3" fill="#2a78d6"/>
+<text x="530" y="278" font-size="14" font-weight="700" fill="#0b0b0b">환산하면 <tspan font-weight="400" fill="#52514e">(<tspan font-family="Consolas,monospace">unit_factor</tspan> = 2)</tspan></text>
+<g font-size="13" fill="#0b0b0b">
+  <text x="530" y="310">연말 단위 담보 = 7,623,641주 × 2 = 15,247,282주</text>
+  <text x="530" y="336">담보가치 = 15,247,282주 × 1,677원 = 255.7억 원</text>
+  <text x="530" y="362">대출 ÷ 담보가치 = 180억 ÷ 255.7억 = 70%</text>
+  <text x="530" y="388">1주당 대출 = 180억 원 ÷ 15,247,282주 = 1,181원</text>
+  <text x="530" y="414">기준 주가 = 1,181원 × 110% = 1,299원</text>
+</g>
+<text x="530" y="446" font-size="12.5" font-weight="700" fill="#0b0b0b">→ 하락 여유 = 1,677 ÷ 1,299 − 1 = 29%</text>
+
+<text x="28" y="508" font-size="12" fill="#52514e">대출 180억 원(<tspan font-family="Consolas,monospace">loan_krw_live</tspan>) · 담보유지비율 110%(<tspan font-family="Consolas,monospace">kep_pct_wavg</tspan>). 담보를 준 현대바이오사이언스의 2024 사업보고서 주석도</text>
+<text x="28" y="526" font-size="12" fill="#52514e">연말 담보를 15,247,282주로 적었다(질권이 무상 신주까지 미쳤다).</text>
+</svg>

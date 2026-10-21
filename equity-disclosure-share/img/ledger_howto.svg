@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 766" width="1000" height="766" font-family="'Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','Noto Sans KR',sans-serif" role="img" aria-labelledby="ttl dsc">
+<title id="ttl">대장에서 각주의 근거를 찾는 순서</title>
+<desc id="dsc">원고 각주의 「대장 1-4」 표시에서 출발해, 대장 화면에서 ① 탭 고르기 ② 번호 줄 누르기 ③ 설명 상자 읽기 ④ 행 누르기 ⑤ DART 원문 열기 순서로 근거를 확인한다.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d9480f"/></marker>
+</defs>
+<rect width="1000" height="766" fill="#ffffff"/>
+
+<!-- 원고 각주 -->
+<rect x="12" y="12" width="976" height="86" rx="8" fill="#f7f6f1" stroke="#e0ddd0"/>
+<text x="28" y="33" font-size="12" font-weight="700" fill="#7a6a2a">원고의 각주 (§1 생존 편의)</text>
+<text x="28" y="60" font-size="13.5" fill="#222">… 살아 있는 담보를 가진 기업-연도 9,422개 가운데 554개(172개 기업, 담보 63억 주)가 이 경우이다(</text>
+<rect x="28" y="69" width="60" height="21" rx="4" fill="#ffe58a"/>
+<text x="33" y="84" font-size="13.5" font-weight="700" fill="#222">대장 1-4</text>
+<text x="90" y="84" font-size="13.5" fill="#222">). 예컨대 한진해운은 … 2016년 10월 보고서(<tspan fill="#1a5fb4" text-decoration="underline">20161011000365</tspan>)에서 최대주주 대한항공은 한진해운 주식 81,496,169주를 질권으로 …</text>
+
+<!-- 대장 화면 -->
+<rect x="282" y="112" width="706" height="642" rx="8" fill="#fafafa" stroke="#cfcfcf"/>
+<path d="M282 138 V120 a8 8 0 0 1 8 -8 H980 a8 8 0 0 1 8 8 V138 Z" fill="#e9e9e9"/>
+<circle cx="298" cy="125" r="4.5" fill="#c9c9c9"/><circle cx="312" cy="125" r="4.5" fill="#c9c9c9"/><circle cx="326" cy="125" r="4.5" fill="#c9c9c9"/>
+<rect x="342" y="117" width="430" height="16" rx="8" fill="#ffffff"/>
+<text x="354" y="129" font-size="11" fill="#555">gap_review.html (같은 폴더에 gap_review_data.js)</text>
+<rect x="283" y="138" width="704" height="88" fill="#ffffff"/>
+<line x1="283" y1="226" x2="987" y2="226" stroke="#e3e3e3"/>
+<text x="296" y="160" font-size="14" font-weight="700" fill="#222">원고 대조 대장: 벤더 연말 단면 대조와 판정 근거</text>
+<rect x="296" y="170" width="196" height="24" rx="6" fill="#333333"/>
+<text x="394" y="186.5" font-size="12" font-weight="700" text-anchor="middle" fill="#ffffff">§1 벤더 자료를 쓰지 않는 이유</text>
+<rect x="498" y="170" width="124" height="24" rx="6" fill="#f4f4f4" stroke="#bbbbbb"/>
+<text x="560" y="186.5" font-size="12" text-anchor="middle" fill="#222">§2~§6 판정 근거</text>
+<rect x="628" y="170" width="160" height="24" rx="6" fill="#f4f4f4" stroke="#bbbbbb"/>
+<text x="708" y="186.5" font-size="12" text-anchor="middle" fill="#222">〈표 5〉 조정 단계별 근거</text>
+<rect x="296" y="201" width="250" height="20" rx="5" fill="#ffffff" stroke="#bbbbbb"/>
+<text x="304" y="215" font-size="11" fill="#999">검색: 종목, 주주, 상대방, 계약종류 …</text>
+<rect x="552" y="201" width="86" height="20" rx="5" fill="#ffffff" stroke="#bbbbbb"/>
+<text x="560" y="215" font-size="11" fill="#333">연도 전체 ▾</text>
+
+<!-- 분류 표 -->
+<rect x="296" y="238" width="678" height="166" rx="6" fill="#ffffff" stroke="#e3e3e3"/>
+<text x="308" y="258" font-size="13" font-weight="700" fill="#222">논문 §1: 벤더 자료를 분석에 쓰지 않은 이유, 분류별 근거 행</text>
+<g font-size="11.5" fill="#666">
+  <text x="308" y="280">번호</text><text x="352" y="280">분류</text>
+  <text x="690" y="280" text-anchor="end">행·건</text><text x="740" y="280" text-anchor="end">종목</text>
+  <text x="816" y="280" text-anchor="end">기업-연도</text><text x="962" y="280" text-anchor="end">원고</text>
+</g>
+<line x1="304" y1="287" x2="966" y2="287" stroke="#e3e3e3"/>
+<rect x="304" y="290" width="662" height="22" fill="#f6f6f6"/>
+<text x="352" y="305" font-size="12" font-weight="700" fill="#222">첫째. 조회 시점의 상장 종목만 수록: 생존 편의·커버리지 공백</text>
+<g font-size="12" fill="#222">
+  <text x="308" y="331">1-3</text><text x="368" y="331">E1 상장폐지 종목: 벤더 유니버스에 없음</text>
+  <text x="690" y="331" text-anchor="end">3,012</text><text x="740" y="331" text-anchor="end">182</text><text x="816" y="331" text-anchor="end">1,130</text>
+  <text x="962" y="331" text-anchor="end" fill="#1e8449" font-weight="700">182종목 ✓</text>
+  <line x1="304" y1="340" x2="966" y2="340" stroke="#eeeeee"/>
+  <rect x="304" y="341" width="662" height="27" fill="#fff3c4"/>
+  <text x="308" y="359" font-weight="700">1-4</text><text x="384" y="359">그중 그해 연말 패널 안</text>
+  <text x="690" y="359" text-anchor="end">1,831</text><text x="740" y="359" text-anchor="end">172</text><text x="816" y="359" text-anchor="end">554</text>
+  <text x="962" y="359" text-anchor="end" fill="#1e8449" font-weight="700">554기업-연도 ✓</text>
+  <text x="308" y="387">1-5</text><text x="368" y="387">E2 상장 중인 종목이 통째로 없음</text>
+  <text x="690" y="387" text-anchor="end">496</text><text x="740" y="387" text-anchor="end">55</text><text x="816" y="387" text-anchor="end">230</text>
+  <text x="962" y="387" text-anchor="end" fill="#1e8449" font-weight="700">496건 ✓</text>
+</g>
+
+<!-- 설명 상자 -->
+<rect x="296" y="414" width="678" height="100" rx="6" fill="#ffffff" stroke="#e3e3e3"/>
+<rect x="296" y="414" width="4" height="100" fill="#3b7dd8"/>
+<text x="308" y="434" font-size="13" font-weight="700" fill="#222">§1 분류 1-4 그중 그해 연말 패널 안</text>
+<text x="308" y="454" font-size="11.5" fill="#666">이 줄을 가리키는 원고 각주 (원고 그대로)</text>
+<text x="308" y="476" font-size="12.5" fill="#222"><tspan fill="#1a5fb4" font-weight="700">▾ 각주</tspan> … 554개(172개 기업, 담보 63억 주)가 이 경우이다(대장 <tspan font-weight="700">1-4</tspan>). 예컨대 한진해운은 …</text>
+<text x="308" y="498" font-size="12.5" fill="#222">2016년 10월 보고서(<tspan fill="#1a5fb4" text-decoration="underline">20161011000365</tspan> <tspan fill="#d9480f" font-weight="700" font-size="15">⌕</tspan>)에서 최대주주 대한항공은 한진해운 주식 81,496,169주를 …</text>
+
+<!-- 근거 행 표 -->
+<rect x="296" y="524" width="678" height="222" rx="6" fill="#ffffff" stroke="#e3e3e3"/>
+<rect x="297" y="525" width="676" height="25" fill="#f1f1f1"/>
+<g font-size="11.5" font-weight="700" fill="#333">
+  <text x="308" y="541">연도</text><text x="352" y="541">종목</text><text x="430" y="541">주주</text><text x="536" y="541">상대방</text>
+  <text x="716" y="541" text-anchor="end">담보주식수</text><text x="732" y="541">판정 근거</text>
+</g>
+<rect x="297" y="550" width="676" height="30" fill="#fff8d6"/>
+<g font-size="12" fill="#222">
+  <text x="308" y="570">2016</text><text x="352" y="570">한진해운</text><text x="430" y="570">(주)대한항공</text><text x="536" y="570">한국외환은행</text>
+  <text x="716" y="570" text-anchor="end">476,436</text><text x="732" y="570">상장폐지 종목, 벤더 유니버스 밖</text>
+</g>
+<rect x="306" y="588" width="658" height="44" rx="6" fill="#fffbe6" stroke="#e6d98a"/>
+<text x="318" y="605" font-size="12" font-weight="700" fill="#6b5b00">왜 이 행이 이 분류에 있나</text>
+<text x="318" y="623" font-size="11.5" fill="#333">2016년 연말 스냅샷 보고서에 살아 있는 담보인데, 한진해운은 벤더 자료에 한 행도 없다(2017년 상장폐지).</text>
+<rect x="306" y="640" width="658" height="98" rx="6" fill="#ffffff" stroke="#e3e3e3"/>
+<g font-size="11.5">
+  <text x="318" y="662" fill="#666">벤더(DG) 기재</text><text x="430" y="662" fill="#222">없음 (종목 자체가 벤더 자료에 없음)</text>
+  <text x="318" y="684" fill="#666">본 연구 기재</text><text x="430" y="684" fill="#222">(주)대한항공 → 한국외환은행, 보유주식의 질권설정 476,436주</text>
+  <text x="318" y="706" fill="#666">판정</text><text x="430" y="706" fill="#222">2016년 말 존속 (최대주주 그룹 스냅샷 행)</text>
+  <text x="318" y="728" fill="#666">근거 공시</text><text x="430" y="728" fill="#1a5fb4" text-decoration="underline">20161011000365</text>
+</g>
+<rect x="540" y="715" width="96" height="19" rx="4" fill="none" stroke="#d9480f" stroke-width="1.4"/>
+<text x="547" y="728" font-size="11.5" fill="#1a5fb4" text-decoration="underline">DART 원문 열기</text>
+
+<!-- 읽는 순서 -->
+<g font-size="12" fill="#444">
+  <circle cx="24" cy="155" r="10" fill="#d9480f"/><text x="24" y="159.5" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="42" y="160" font-size="13.5" font-weight="700" fill="#222">탭 고르기</text>
+  <text x="42" y="180">번호에 점이 있으면 §2~§6, 없으면 §1</text>
+  <rect x="40" y="190" width="220" height="66" rx="6" fill="#f5f5f5"/>
+  <text x="50" y="208" font-weight="700" fill="#222">1-4</text><text x="90" y="208" font-size="12">§1 탭 · 「첫째」 한계의 4번째</text>
+  <text x="50" y="228" font-weight="700" fill="#222">2-9</text><text x="90" y="228" font-size="12">§1 탭 · 「둘째」 한계의 9번째</text>
+  <text x="50" y="248" font-weight="700" fill="#222">2.3-5</text><text x="90" y="248" font-size="12">§2~§6 탭 · 원고 §2.3의 5번째</text>
+
+  <circle cx="24" cy="347" r="10" fill="#d9480f"/><text x="24" y="351.5" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="42" y="352" font-size="13.5" font-weight="700" fill="#222">번호(1-4) 줄 누르기</text>
+  <text x="42" y="372">아래 표에 그 근거 행만 남는다</text>
+  <text x="42" y="391">원고 칸 초록 ✓ = 원고 수치와 계산 일치</text>
+  <text x="42" y="408" font-size="11" fill="#777">(빨강은 불일치, 판정이 옳다는 보증은 아님)</text>
+
+  <circle cx="24" cy="435" r="10" fill="#d9480f"/><text x="24" y="439.5" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="42" y="440" font-size="13.5" font-weight="700" fill="#222">설명 상자 읽기</text>
+  <text x="42" y="460">그 번호를 단 원고 각주가 그대로 뜬다</text>
+  <text x="42" y="479"><tspan fill="#d9480f" font-weight="700">⌕</tspan> 를 누르면 그 사례 행만 남는다</text>
+
+  <circle cx="24" cy="555" r="10" fill="#d9480f"/><text x="24" y="559.5" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="42" y="560" font-size="13.5" font-weight="700" fill="#222">행 누르기</text>
+  <text x="42" y="580">벤더가 적은 값 · 본 연구가 적은 값 ·</text>
+  <text x="42" y="599">판정 사유와 근거가 펼쳐진다</text>
+
+  <circle cx="24" cy="707" r="10" fill="#d9480f"/><text x="24" y="711.5" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="42" y="712" font-size="13.5" font-weight="700" fill="#222">DART 원문 열기</text>
+  <text x="42" y="732">접수번호를 누르면 원문이 열린다</text>
+</g>
+<g fill="none" stroke="#d9480f" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#ah)">
+  <path d="M262 155 C 280 155, 278 182, 293 182"/>
+  <path d="M262 347 C 282 347, 282 355, 301 355"/>
+  <path d="M262 435 C 280 435, 278 445, 293 445"/>
+  <path d="M262 555 C 280 555, 282 565, 294 565"/>
+  <path d="M262 707 C 284 707, 286 724, 303 724"/>
+</g>
+</svg>
