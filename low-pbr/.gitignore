@@ -1,0 +1,25 @@
+# 자격증명 — 게이트웨이 키·CA·DART 키 (.env.example 만 커밋)
+.env
+.secrets/
+
+# 게이트웨이 노트북 원본에 API 키가 박혀 있어 커밋하지 않는다
+source/CHECK_API_Colab_게이트웨이.ipynb
+
+# 원본 응답 캐시 (재수집 가능, 용량 큼)
+data/raw/
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+
+# 실행 로그
+logs/
+
+# CHECK(KOSCOM) 원천 데이터 — 공개 레포에 재배포하지 않는다. scripts/s03·s05·s06 으로 다시 만든다.
+# 웹페이지는 site/data.js(가공값)만 읽으므로 이 파일들이 없어도 동작한다.
+data/interim/mktcap_daily.csv
+data/interim/mktcap_round.csv
+data/interim/equity_hist*.csv
+data/interim/comp_basic*.csv
+data/final/replica_firm_round.csv
