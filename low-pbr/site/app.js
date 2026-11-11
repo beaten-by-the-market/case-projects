@@ -114,7 +114,8 @@
       <li>KIND 공시 제목 "(PBR 개선 계획 제출 기업)"으로 찾은 10.22 까지 제출사 <b>${plans.length}사</b>(유가 ${plans.filter((p) => p.market === "KOSPI").length}·코스닥 ${plans.filter((p) => p.market === "KOSDAQ").length}) = 보도자료 62사(34·28).
         그중 공표된 <b>${pubPlans.length}사</b> = 보도자료 "공표 제외 불가 10·5".</li>
       <li>결산월이 12월이 아닌 회사(기신정기 3월·세원정공 6월 등)는 "기준일 전 마지막 정기보고서" 규칙에 따라 11월 회차에 <b>사업보고서</b>가 쓰인다 — KIND 값과 일치.</li>
-      <li>시가총액·주가 미달로 8월에 관리종목이 된 SUN&L·한국전자홀딩스 등도 공표됐다 — 이 사유의 관리종목은 모집단에서 빼지 않았다.</li>
+      <li>시가총액·주가 미달로 8월에 관리종목이 된 SUN&L·한국전자홀딩스 등도 공표됐다 — 이 사유의 관리종목은 모집단에서 빼지 않았다. 대신 거래정지 회사는 뺀다.</li>
+      <li>업종은 KRX 지수 사이트의 GICS 산업분류를 회차마다 그날 기준으로 받아 썼다 — 업종별 기준 PBR 22개가 모두 보도자료와 같다.</li>
     </ul>
     <details class="more"><summary>수집·판정 진행 상황</summary>
       <div class="tbl-wrap"><table class="list"><thead><tr><th>단계</th><th>원천</th><th class="c">상태</th><th>내용</th><th>갱신</th></tr></thead><tbody>${
@@ -128,12 +129,12 @@
   const uni = Object.fromEntries((D.universe || []).map((u) => [u.round, u]));
   $("#p1").innerHTML = `<h2>단계 1 · 모집단 — 누구의 PBR 을 계산하나</h2>` + three(
     `<p>기준일(10.22) 현재 상장된 주권 가운데 외국기업·스팩·투자회사·리츠 등 특수회사와 관리종목·환기종목·실질심사 중인 회사를 뺀다.</p>
-     <p><b>실측:</b> 시가총액·주가 미달(2026년 신설 요건)로 지정된 관리종목은 빼지 않았다 — 그런 회사가 공표 목록에 있다.</p>`,
+     <p><b>실측:</b> 시가총액·주가 미달(2026년 신설 요건)로 지정된 관리종목은 빼지 않았다 — 그런 회사가 공표 목록에 있다.</p><p><b>실측:</b> 기준일 전 20거래일 내내 거래정지(가격 불변)인 회사는 뺀다 — 2026.11 유가 7·코스닥 2사, 이것으로 779·1,652 가 맞는다.</p>`,
     "지침 해설(김앤장 2026.9.14) · KIND 상장종목현황(기준일 스냅샷) · KIND 관리종목",
     card("상장 주권(10.22)", pair(U.listed.KOSPI ?? "–", U.listed.KOSDAQ ?? "–"), "KIND 스냅샷, 스팩·외국·리츠 이미 제외") +
     card("관리종목 제외", `−${pair(exC.KOSPI, exC.KOSDAQ)}`, "시총·주가 미달 단독 사유는 남김") +
-    card("재현 모집단", pair((U.listed.KOSPI ?? 0) - exC.KOSPI, (U.listed.KOSDAQ ?? 0) - exC.KOSDAQ), "") +
-    card("보도자료", "779·1,652", `남은 차이 ${(U.listed.KOSPI ?? 0) - exC.KOSPI - 779}·${(U.listed.KOSDAQ ?? 0) - exC.KOSDAQ - 1652} — 거래정지·실질심사 등 확인 중`),
+    card("관리종목 제외 후", pair((U.listed.KOSPI ?? 0) - exC.KOSPI, (U.listed.KOSDAQ ?? 0) - exC.KOSDAQ), "여기서 거래정지 사를 더 뺀다") +
+    card("보도자료", "779·1,652", `거래정지 제외 후 재현 ${univRep.KOSPI}·${univRep.KOSDAQ}`),
     `<h3>빠진 회사 (${U.excluded.length})</h3>
      <div class="tbl-wrap"><table class="list"><thead><tr><th>회사</th><th>지정일</th><th>지정사유</th></tr></thead><tbody>${
        U.excluded.map((x) => `<tr class="click" data-code="${x.code}"><td>${mk(x.market)}${esc(x.name)}</td><td>${esc(x.date)}</td><td class="reason">${esc(x.reason)}</td></tr>`).join("")}</tbody></table></div>
@@ -222,8 +223,8 @@
     `<p>시장(유가/코스닥) × GICS 11개 업종 안에서 PBR 하위 <b>25%(유가)</b>·<b>10%(코스닥)</b> 이내면 그 회차의 저PBR.</p>
      <p>업종 소속사가 유가 4사·코스닥 10사 미만이면 PBR 최저 1사. 업종미분류는 시장 전체가 비교집단.</p>
      <p class="small">점 하나 = 회사 하나(2026.11 PBR). 주황 = 기준선 이하, 진한 테두리 = KIND 공표사. 점선 = 보도자료 기준 PBR, 실선 = 재현 기준선.</p>`,
-    "지침 해설 · 보도자료 붙임1 · 업종: CHECK WICS 를 GICS 로 근사 + KIND 151사 GICS 로 덮어씀",
-    card("기준 PBR 일치", rep ? `${cutOk}/22` : W, "시장×업종") + card("업종 분류 원천", "WICS→GICS", "GICS 종목 매핑은 공개 데이터에 없음"),
+    "지침 해설 · 보도자료 붙임1 · 업종: KRX 지수 사이트 GICS 산업분류(회차별), 목록에 없는 회사만 CHECK WICS 로 보완",
+    card("기준 PBR 일치", rep ? `${cutOk}/22` : W, "시장×업종") + card("업종 분류 원천", "KRX GICS", "지수 사이트 · 회차마다 그날 분류"),
     `<div class="dots" style="margin-top:12px">${secRows.map(dotPanel).join("")}</div>
      <details class="more"><summary>업종 표 (보도자료 붙임1 vs 재현)</summary><div class="tbl-wrap"><table class="list"><thead><tr><th>시장</th><th>업종</th><th class="num">기준 PBR</th><th class="num">산정대상</th><th class="num">선정</th><th class="num">제외</th><th class="num">공표</th>
        <th class="num">재현 기준</th><th class="num">재현 대상</th><th class="num">재현 선정</th><th class="num">재현 제외</th><th class="num">재현 공표</th></tr></thead><tbody>${

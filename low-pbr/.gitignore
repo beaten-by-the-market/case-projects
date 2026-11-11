@@ -23,3 +23,6 @@ data/interim/mktcap_round.csv
 data/interim/equity_hist*.csv
 data/interim/comp_basic*.csv
 data/final/replica_firm_round.csv
+
+# GICS(MSCI·S&P) 종목별 매핑 — KRX 지수 사이트에서 다시 받는다(s11)
+data/interim/gics_krx.csv

@@ -101,9 +101,25 @@ def main():
     mc = {(r.round, r.code): r.mktcap_avg for r in mc.itertuples() if pd.notna(r.mktcap_avg)}
     eqt = equity_table(args.equity)
     gics = load_gics()
+    krx_gics, krx_rounds = {}, set()
+    if (INTER / "gics_krx.csv").exists():
+        for gr in pd.read_csv(INTER / "gics_krx.csv", dtype=str).itertuples():
+            krx_gics[(gr.round, gr.code)] = gr.sector
+            krx_rounds.add(gr.round)
+        print(f"GICS: KRX 지수 사이트 분류 {len(krx_rounds)}개 회차 사용")
     conn = get_conn()
     fil = periodic_filings(conn)
     excl26 = admin_excluded(args.excl, snap[snap["round"] == "2026.11"])
+    # 거래정지 제외 (2026-11-11 실측): 20거래일 구간 내내 종가가 한 번도 안 변한 종목 = 거래정지로 본다.
+    # 2026.11 회차에 유가 7·코스닥 2사 → 모집단이 보도자료 779·1,652 와 맞는다 (docs/03).
+    halted = defaultdict(set)
+    if (INTER / "mktcap_daily.csv").exists():
+        cal = [r["date"] for r in csv.DictReader(open(INTER / "calendar.csv", encoding="utf-8"))]
+        dly = pd.read_csv(INTER / "mktcap_daily.csv", dtype={"code": str, "date": str}, usecols=["code", "date", "close"])
+        for r in rounds:
+            i = cal.index(r["base_date"])
+            w = dly[dly.date.isin(cal[i - 19: i + 1])].groupby("code").close.agg(["size", "nunique"])
+            halted[r["round"]] = set(w[(w["size"] >= 15) & (w["nunique"] == 1)].index)
 
     rows = []
     for r in rounds:
@@ -111,19 +127,29 @@ def main():
         for x in s.itertuples():
             if r["round"] == "2026.11" and x.code in excl26:
                 continue
+            if x.code in halted[r["round"]]:
+                continue
             f = choose_filing(fil.get(x.code, []), r["base_date"])
             yymm = int(f[3].strftime("%Y%m")) if f else None
             eq_k = eqt.get((x.code, yymm)) if yymm else None
             m = mc.get((r["round"], x.code))
             pbr = trunc2(m / (eq_k * 1000)) if (m and eq_k and eq_k > 0) else None
-            # 업종미분류: 기준일 달의 2개월 전 1일 이후 상장한 코스닥 회사 — GICS 가 아직 없다.
-            # 2026.11 회차: 8.1 이후 코스닥 상장 16사 = 보도자료 업종미분류 16 (docs/03). 유가 같은 기간 1사는 분할 재상장이라 제외.
+            # 업종 (A3, 2026-11-11 갱신)
+            #  ① 기준일 달 2개월 전 1일 이후 상장한 코스닥사 = 업종미분류 (2026.11: 8.1 이후 16사 = 보도자료 16)
+            #  ② 그 회차 기준일의 KRX GICS 분류 (index.krx.co.kr, s11)
+            #  ③ KRX 지수 사이트 목록에 없는 예전 상장사(14사, 2026.11) = WICS 세부 산업 근사로 보완
             y, mo = int(r["base_date"][:4]), int(r["base_date"][4:6]) - 2
             if mo <= 0:
                 y, mo = y - 1, mo + 12
             fresh = x.market == "KOSDAQ" and str(x.list_date) >= f"{y}-{mo:02d}-01"
+            if fresh:
+                g_here = "업종미분류"
+            elif (r["round"], x.code) in krx_gics:
+                g_here = krx_gics[(r["round"], x.code)]
+            else:
+                g_here = gics.get(x.code, "") or "업종미분류"
             rows.append({"round": r["round"], "seq": int(r["seq"]), "market": x.market, "code": x.code,
-                         "name": x.corp_name, "gics": "업종미분류" if fresh else (gics.get(x.code, "") or "업종미분류"),
+                         "name": x.corp_name, "gics": g_here,
                          "mktcap_avg": m, "equity_k": eq_k, "rcept_no": f[0] if f else "",
                          "report_nm": f[4] if f else "", "period": yymm, "pbr": pbr})
     df = pd.DataFrame(rows)
