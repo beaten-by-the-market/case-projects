@@ -2,7 +2,7 @@
 
 대상: 회차별 순자산 근거 보고서(_rules.choose_filing) — 기업 목록은 --targets CSV(stock_code 열) 또는 --set
   --set kind     KIND 저PBR 공표 151사 + PBR 개선계획 제출 62사
-  --set scope    data/interim/capture_scope.csv (s06 이 만드는 하위 약 20%, ~400사)
+  --set scope    data/interim/capture_scope.csv (하위 약 20%, ~400사 — 목록 생성은 아직 미구현, docs/01 §3)
 
 한 보고서에 대해
   1) 원문    OpenDART document.xml → pr_filing_xml  (이미 있으면 건너뜀. ipo_db 이관분 포함)
