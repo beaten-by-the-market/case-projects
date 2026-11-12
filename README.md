@@ -27,3 +27,10 @@ NASDAQ 거래정지 데이터로 검증한다. → [00-SUMMARY.md](us-extended-h
 이르는 종목을 규정대로 판정하고 무료 정적 HTML 대시보드로 시각화한다. KRX 공식 지정 14종목
 지정일과 14/14 일치. 판정 엔진은 `krx-data-api`를 import해 재사용하고 이 폴더는 데이터·프론트만
 둔다. → [penny-stock/README.md](penny-stock/README.md)
+
+### [agm-comparison/](agm-comparison/) — 주총 안건 데이터 기계판독성 한·미 비교 (DART vs SEC)
+DART 주주총회소집공고 XML 원문에서 표준 코드를 전수 추출했다. 안건유형 코드 `AASSOCNOTE="L0-0-2-N-0"` 의
+N 이 증권발행공시규정 제3-15조 ③항 호 번호와 같음을 **20개 호 전부 실물로 확인**했다(드문 7·16·17호는 공고 1.2만 건 스캔).
+코드는 안건 '유형' 단위라 의안 수·후보자·금액은 태그 없는 텍스트이고, 가장 먼저 나오는 거래소 소집결의·주총결과는
+금감원 코드가 없는 HTML 이다. SEC 정기주총 서식(DEF 14A·8-K 5.07 등)에는 안건 유형 코드 자체가 없다.
+→ [README](agm-comparison/README.md) · [결론](agm-comparison/docs/00-결론정리.md)
