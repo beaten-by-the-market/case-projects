@@ -180,7 +180,10 @@ def main():
             y, mo = int(r["base_date"][:4]), int(r["base_date"][4:6]) - 2
             if mo <= 0:
                 y, mo = y - 1, mo + 12
-            fresh = x.market == "KOSDAQ" and str(x.list_date) >= f"{y}-{mo:02d}-01"
+            # 스냅샷 상장일은 지금 KIND 값이라, 뒤에 유가로 옮긴 회사(파라다이스·포스코DX 등)는 이전상장일(기준일보다 뒤)이 들어 있다.
+            # 기준일보다 뒤 날짜는 그 회차의 신규 상장이 아니므로 제외한다 (엑셀 재현본이 DataGuide 상장일로 찾아낸 차이, 2026-11-12).
+            ld = str(x.list_date)
+            fresh = x.market == "KOSDAQ" and f"{y}-{mo:02d}-01" <= ld <= f"{r['base_date'][:4]}-{r['base_date'][4:6]}-{r['base_date'][6:]}"
             if fresh:
                 g_here = "업종미분류"
             elif (r["round"], x.code) in krx_gics:
