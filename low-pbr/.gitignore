@@ -26,3 +26,12 @@ data/final/replica_firm_round.csv
 
 # GICS(MSCI·S&P) 종목별 매핑 — KRX 지수 사이트에서 다시 받는다(s11)
 data/interim/gics_krx.csv
+
+# 엑셀 재현본용 업종 시트(GICS 매핑 포함) — s12 로 다시 만든다
+data/interim/excel_gics.csv
+
+# DataGuide 6(FnGuide) 값 — 구독자만 다시 받을 수 있다. s15 로 data/raw/dataguide 에서 다시 만든다.
+data/interim/dg_*.csv
+data/final/replica_firm_round_dg.csv
+# 엑셀 재현본(DataGuide 시트 포함) — s16 으로 다시 만든다. DataGuide 구독자 사이에서만 공유
+data/excel/

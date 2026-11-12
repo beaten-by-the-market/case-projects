@@ -8,11 +8,14 @@
   --equity con_parent(기본, A2 확정: 지배지분, 연결 없으면 별도) | con_total | sep_total
   --cut    floor(기본, A4: 순위 ≤ floor(N×p), 최소 1) | ceil | round
   --excl   nomcap(기본: 시총·주가 미달 단독 사유가 아닌 관리종목 제외) | none | admin
+  --src    check(기본: CHECK 시세·재무) | dg (DataGuide 6 — s15 출력. 자본·시가총액을 DataGuide 값으로 쓰고,
+           2026.11 앞 12개 회차는 그 기준일 DataGuide 관리종목·거래정지로 산정 제외(G2안). 2026.11 은 KIND 관리종목 목록)
 
 출력
   data/final/replica_firm_round.csv   회차 × 기업: 시가총액·자본·근거보고서·PBR·업종·순위·컷·해당여부
   data/final/replica_selection.csv    2026.11 기업별 판정 (선정·면제불가·면제·공표) + KIND 대조 열
   data/final/replica_sector.csv       시장 × 업종 재현값 vs 보도자료 붙임1
+  --src dg 이면 파일 이름 끝에 _dg 가 붙는다 (replica_firm_round_dg.csv 등)
 """
 import argparse
 import csv
@@ -59,6 +62,35 @@ def load_gics() -> dict[str, str]:
     return g
 
 
+def equity_table_dg(kind: str) -> dict[tuple[str, int], float]:
+    """DataGuide 자본 (s15 dg_equity.csv). 연결 값이 없으면 개별 자본총계 (A2)."""
+    eq = pd.read_csv(INTER / "dg_equity.csv", dtype={"code": str})
+    res = {}
+    for r in eq.itertuples():
+        v = getattr(r, kind)
+        if kind != "sep_total" and v != v:
+            v = r.sep_total
+        if v == v:
+            res[(r.code, int(r.yymm))] = float(v)
+    return res
+
+
+def dg_excluded(last_round: str) -> dict[str, set[str]]:
+    """회차 → 산정 제외 종목 (G2안, docs/04 §3). 마지막 회차는 KIND 관리종목 목록(admin_excluded)을 쓰므로 비운다.
+    관리종목: 사유에 시가총액·주가·동전주·거래실적·거래량(종류주식 요건 제외)이 있거나 빈칸(2026 동전주 지정)이면 남긴다.
+    거래정지: 사유에 주식 병합·분할 또는 시가총액·주가가 있으면 남긴다."""
+    st = pd.read_csv(INTER / "dg_status.csv", dtype=str)
+    r, hr = st["관리종목지정사유"].fillna(""), st["거래정지사유"].fillna("")
+    keep_adm = (r.str.contains("시가총액|주가|동전주|거래실적|거래량") & ~r.str.contains("종류주식")) | (r == "")
+    adm = (st["관리종목여부"] == "관리") & ~keep_adm
+    hal = (st["거래정지여부"] == "정지") & ~hr.str.contains("병합|분할|시가총액|주가")
+    out = defaultdict(set)
+    for rd, code in zip(st.base_date[adm | hal], st.code[adm | hal]):
+        out[rd].add(code)
+    out[last_round] = set()
+    return out
+
+
 def equity_table(kind: str) -> dict[tuple[str, int], float]:
     """(종목코드, 결산년월) → 자본(천원).
     con_parent(기본, 확정 2026-11-10): 연결 지배기업 소유주지분, 그 기간 연결이 없으면 별도 자본총계 —
@@ -93,13 +125,17 @@ def main():
     ap.add_argument("--equity", default="con_parent")
     ap.add_argument("--cut", default="floor")
     ap.add_argument("--excl", default="nomcap")
+    ap.add_argument("--src", default="check", choices=["check", "dg"])
     args = ap.parse_args()
+    dg = args.src == "dg"
+    sfx = "_dg" if dg else ""
 
     rounds = load_rounds()
     snap = pd.read_csv(INTER / "universe_snap.csv", dtype=str)
-    mc = pd.read_csv(INTER / "mktcap_round.csv", dtype={"code": str, "round": str})
+    mc = pd.read_csv(INTER / ("dg_mcap_round.csv" if dg else "mktcap_round.csv"), dtype={"code": str, "round": str})
     mc = {(r.round, r.code): r.mktcap_avg for r in mc.itertuples() if pd.notna(r.mktcap_avg)}
-    eqt = equity_table(args.equity)
+    eqt = equity_table_dg(args.equity) if dg else equity_table(args.equity)
+    dgx = dg_excluded(rounds[-1]["base_date"]) if dg else defaultdict(set)
     gics = load_gics()
     krx_gics, krx_rounds = {}, set()
     if (INTER / "gics_krx.csv").exists():
@@ -112,13 +148,16 @@ def main():
     excl26 = admin_excluded(args.excl, snap[snap["round"] == "2026.11"])
     # 거래정지 제외 (2026-11-11 실측): 20거래일 구간 내내 종가가 한 번도 안 변한 종목 = 거래정지로 본다.
     # 2026.11 회차에 유가 7·코스닥 2사 → 모집단이 보도자료 779·1,652 와 맞는다 (docs/03).
+    # --src dg 는 종가 대신 DataGuide 일간 시가총액이 20일 내내 같은지로 본다.
     halted = defaultdict(set)
-    if (INTER / "mktcap_daily.csv").exists():
+    dly_path = INTER / ("dg_mcap_window.csv" if dg else "mktcap_daily.csv")
+    if dly_path.exists():
         cal = [r["date"] for r in csv.DictReader(open(INTER / "calendar.csv", encoding="utf-8"))]
-        dly = pd.read_csv(INTER / "mktcap_daily.csv", dtype={"code": str, "date": str}, usecols=["code", "date", "close"])
+        dly = pd.read_csv(dly_path, dtype={"code": str, "date": str})
+        px = "mktcap_mn" if dg else "close"
         for r in rounds:
             i = cal.index(r["base_date"])
-            w = dly[dly.date.isin(cal[i - 19: i + 1])].groupby("code").close.agg(["size", "nunique"])
+            w = dly[dly.date.isin(cal[i - 19: i + 1])].groupby("code")[px].agg(["size", "nunique"])
             halted[r["round"]] = set(w[(w["size"] >= 15) & (w["nunique"] == 1)].index)
 
     rows = []
@@ -127,7 +166,7 @@ def main():
         for x in s.itertuples():
             if r["round"] == "2026.11" and x.code in excl26:
                 continue
-            if x.code in halted[r["round"]]:
+            if x.code in halted[r["round"]] or x.code in dgx[r["base_date"]]:
                 continue
             f = choose_filing(fil.get(x.code, []), r["base_date"])
             yymm = int(f[3].strftime("%Y%m")) if f else None
@@ -179,7 +218,7 @@ def main():
         un = grp[grp.gics == "업종미분류"]
         df.loc[un.index, "cut"] = cut
         df.loc[un.index, "low"] = un.pbr <= cut
-    df.to_csv(FINAL / "replica_firm_round.csv", index=False, encoding="utf-8-sig")
+    df.to_csv(FINAL / f"replica_firm_round{sfx}.csv", index=False, encoding="utf-8-sig")
 
     # 선정 (R10·R11) · 면제 불가 (R14)
     last = df[df["round"] == "2026.11"]
@@ -222,7 +261,7 @@ def main():
     sd["kind_pbr"] = sd.corp5.map(kind.set_index("corp5").pbr)
     sd["match"] = sd.apply(lambda r: "일치" if r.published and r.in_kind else
                            ("재현에만" if r.published else ("KIND에만" if r.in_kind else "")), axis=1)
-    sd.to_csv(FINAL / "replica_selection.csv", index=False, encoding="utf-8-sig")
+    sd.to_csv(FINAL / f"replica_selection{sfx}.csv", index=False, encoding="utf-8-sig")
 
     # 요약
     press = pd.read_csv(FINAL / "press_sector.csv")
@@ -236,10 +275,10 @@ def main():
                     "press_sel": p.n_sel.iloc[0] if len(p) else None, "n_exempt": int(s2.exempt.sum()),
                     "press_exempt": p.n_exempt.iloc[0] if len(p) else None, "n_pub": int(s2.published.sum()),
                     "press_pub": p.n_pub.iloc[0] if len(p) else None})
-    pd.DataFrame(sec).to_csv(FINAL / "replica_sector.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(sec).to_csv(FINAL / f"replica_sector{sfx}.csv", index=False, encoding="utf-8-sig")
 
     tot = lambda col: sd.groupby("market")[col].sum().to_dict()
-    print(f"[{args.equity}·{args.cut}·{args.excl}] 모집단 {last.groupby('market').size().to_dict()} (목표 779/1652) · "
+    print(f"[{args.src}·{args.equity}·{args.cut}·{args.excl}] 모집단 {last.groupby('market').size().to_dict()} (목표 779/1652) · "
           f"PBR 없음 {int(last.pbr.isna().sum())}")
     print(f"  선정 {tot('selected')} (115/70) · 면제 {tot('exempt')} (19/15) · 공표 {tot('published')} (96/55)")
     print(f"  KIND 대조: {sd.match.value_counts().to_dict()}")

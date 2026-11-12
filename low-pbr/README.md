@@ -74,6 +74,7 @@ PBR은 **회사 가치(시가총액) ÷ 장부상 자본**이다. 1보다 작을
 | `docs/01-재현사양.md` | 규칙(R1~R14)·가정(A1~A7)·단계·최종 대조 방법 | ✅ |
 | `docs/02-데이터저장.md` | MySQL `dart_periodic` 설계, 기존 수집분 재사용 | ✅ |
 | `docs/03-검증기록.md` | 날짜별로 확인한 사실 | ✅ |
+| `docs/04-데이터가이드-명세.md` | 엑셀(DataGuide 6) 재현본 — 받을 아이템·옵션, 붙일 시트, 계산 규칙 | ✅ |
 | `docs/img/pipeline.png` · `.svg` | 위 "한눈에 보기" 도식 (`scripts/make_pipeline_diagram.py` 로 생성) | ✅ |
 | `sql/dart_periodic.sql` | 정기보고서 원문 DB 스키마 | ✅ |
 | `scripts/` | 단계별 스크립트 `sNN_*.py` + 공용 `_gw.py`(게이트웨이)·`_db.py`(MySQL)·`_rules.py` | ✅ |
@@ -100,6 +101,18 @@ python scripts/s06_select.py        # PBR·업종 컷·선정·면제 → 보도
 python scripts/s07_dart_docs.py     # 근거 보고서 원문·목차·재무상태표 값            [OpenDART·DART]
 .venv/Scripts/python scripts/s08_capture.py   # 자본총계 행 캡처 (Playwright)
 python scripts/s09_site.py          # 웹페이지
+```
+
+엑셀(DataGuide 6) 재현본에 붙일 시트는 따로 만든다 (`docs/04-데이터가이드-명세.md`).
+
+```powershell
+python scripts/s12_excel_gics.py      # 업종 시트: 회차 × 종목 KRX GICS (+ WICS 보완값)   → data/interim/excel_gics.csv (git 제외)
+python scripts/s13_excel_filings.py   # 기준보고서 시트: 회차 × 종목 DART 기준 보고서    → data/final/excel_dart_filings.csv
+python scripts/s14_excel_codes.py     # 종목 시트: DataGuide 에 넣을 보통주·우선주 코드  → data/final/excel_codes.csv
+# DataGuide 에서 받은 원본(data/raw/dataguide: DG_시총·DG_자본_회계기준·DG_상태_기준일) 이 있어야 아래가 돈다
+python scripts/s15_dataguide.py       # DataGuide 원본 → 계산용 CSV                        → data/interim/dg_*.csv (git 제외)
+python scripts/s06_select.py --src dg # DataGuide 값으로 선정 (자본·시총·과거 12회차 관리종목·거래정지) → data/final/replica_*_dg.csv
+python scripts/s16_excel_book.py      # 엑셀 통합문서: DataGuide 시트(원래 틀, A1 Refresh 가능) + 고정 시트 → data/excel/ (git 제외)
 ```
 
 - CHECK 호출은 **순차로만**(게이트웨이 뒤 KOSCOM 이 IP 단위 동시 연결을 막는다). 두 CHECK 스크립트를 동시에 돌리지 않는다.
