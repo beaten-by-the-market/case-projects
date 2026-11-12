@@ -1,0 +1,10 @@
+# 자격증명
+.env
+.secrets/
+
+# 원본 응답 캐시 (재수집 가능)
+data/raw/
+
+__pycache__/
+*.py[cod]
+logs/
