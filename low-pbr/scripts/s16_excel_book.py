@@ -7,6 +7,7 @@
 
 DataGuide 값과 GICS 매핑이 들어 있어 data/excel/ 은 git 에서 제외한다. DataGuide 구독자 사이에서만 공유한다.
 실행: python scripts/s16_excel_book.py        (엑셀이 켜져 있으면 그 엑셀을, 아니면 새 엑셀을 쓴다)
+     통합문서에 계산_ 시트(Claude for Excel)가 있으면 멈춘다. 덮어쓰려면 --force.
 """
 import subprocess
 import sys
@@ -125,6 +126,11 @@ def write_static():
 
 
 def main():
+    # 통합문서를 새로 쓰므로, Claude for Excel로 만든 계산_ 시트가 있으면 지우지 않도록 멈춘다.
+    if BOOK.exists() and "--force" not in sys.argv:
+        calc = [n for n in load_workbook(BOOK, read_only=True).sheetnames if n.startswith("계산_")]
+        if calc:
+            sys.exit(f"{BOOK} 에 계산 시트 {calc} 가 있다. 다시 만들면 지워진다 — 먼저 다른 이름으로 저장하거나 --force.")
     write_static()
     ps1 = Path(__file__).with_suffix(".ps1")
     r = subprocess.run(["powershell.exe", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", str(ps1),
