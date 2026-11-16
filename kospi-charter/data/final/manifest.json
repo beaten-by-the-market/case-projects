@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T13:53:52",
+ "generated_at": "2026-11-16T14:30:29",
  "as_of": "2026-11-16",
  "window": [
   "2025-11-16",
@@ -71,6 +71,7 @@
   "charter_images": 3186,
   "charter_ocr_docs": 165,
   "charter_pdf_docs": 31,
+  "charter_llm_docs": 181,
   "agm_notices": 247,
   "agm_notices_with_charter_amend": 146,
   "agm_notice_errors": 0,

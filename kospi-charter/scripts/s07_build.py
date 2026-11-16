@@ -24,7 +24,8 @@ ADD_COLS = ["rcept_no_new", "fiscal_year", "settle_month", "report_period", "mar
 CH_COLS = ["charter_status", "charter_title", "charter_att_date", "charter_rcpNo", "charter_dcmNo", "charter_url",
            "charter_viewer_url", "charter_content_type", "charter_text_chars", "charter_n_images", "n_charter_att",
            "charter_dir", "charter_txt", "charter_img_dir", "charter_meta", "charter_ocr_txt", "charter_ocr_chars",
-           "charter_pdf_txt", "charter_n_pdfs", "charter_pdf_chars", "charter_fulltext_txt"]
+           "charter_pdf_txt", "charter_n_pdfs", "charter_pdf_chars", "charter_llm_txt", "charter_llm_chars",
+           "charter_fulltext_txt"]
 AGM_COLS = ["orig_rcept_no", "orig_rcept_dt", "agm_count", "agm_charter_amend_count", "agm_rcept_nos", "agm_kinds",
             "agm_charter_amend_rcept_nos", "agm_charter_amend_txt", "agm_charter_amend_dart_url", "agm_errors"]
 LIST_COLS = {"agm_rcept_nos", "agm_kinds", "agm_charter_amend_rcept_nos", "agm_charter_amend_txt",
@@ -76,11 +77,21 @@ def load_pdf() -> dict:
             for k, v in read_json(f).items() if v.get("pdf_txt") and (ROOT / v["pdf_txt"]).exists()}
 
 
+def load_llm() -> dict:
+    """s04d(Opus 전사) 결과 — 정관 폴더 → {llm_txt, chars, errors}. 없으면 빈 dict."""
+    f = INTERIM / "s04d_llm.json"
+    if not f.exists():
+        return {}
+    return {k: {"llm_txt": v["llm_txt"], "chars": v.get("total_chars"), "errors": v.get("errors", 0)}
+            for k, v in read_json(f).items() if v.get("llm_txt") and (ROOT / v["llm_txt"]).exists()}
+
+
 def add_charter(rows):
     per_row = read_json(INTERIM / "s04_charter.json")
     docs = read_json(INTERIM / "s04_docs.json")
     ocr = load_ocr()
     pdf = load_pdf()
+    llm = load_llm()
     for d in docs.values():                  # s04 첫 실행 때 'empty' 로 남은 PDF 첨부 정관 → 'pdf' (s04c 가 받았다)
         if d.get("folder") in pdf:
             d["content_type"] = "pdf"
@@ -108,9 +119,12 @@ def add_charter(rows):
                          charter_ocr_chars=ocr.get(d["folder"], {}).get("chars"),
                          charter_pdf_txt=pdf.get(d["folder"], {}).get("pdf_txt"),
                          charter_n_pdfs=pdf.get(d["folder"], {}).get("n_pdfs"),
-                         charter_pdf_chars=pdf.get(d["folder"], {}).get("chars"))
-                # 정관 전문을 읽을 파일 하나: 스캔 → OCR, PDF → PDF 글, 그 밖 → charter.txt
-                x["charter_fulltext_txt"] = x["charter_ocr_txt"] or x["charter_pdf_txt"] or x["charter_txt"]
+                         charter_pdf_chars=pdf.get(d["folder"], {}).get("chars"),
+                         charter_llm_txt=llm.get(d["folder"], {}).get("llm_txt"),
+                         charter_llm_chars=llm.get(d["folder"], {}).get("chars"))
+                # 정관 전문을 읽을 파일 하나: Opus 전사(실패 쪽 없을 때) → Windows OCR → PDF 글 → charter.txt
+                llm_ok = x["charter_llm_txt"] if llm.get(d["folder"], {}).get("errors", 1) == 0 else None
+                x["charter_fulltext_txt"] = llm_ok or x["charter_ocr_txt"] or x["charter_pdf_txt"] or x["charter_txt"]
         out.append(x)
     return out, docs
 
@@ -172,7 +186,7 @@ def write_xlsx(path: Path, rows: list[dict], cols: list[str]):
     ws.append(cols)
     link = Font(color="0563C1", underline="single")
     web_cols = {"dart_url", "charter_url", "charter_viewer_url", "agm_charter_amend_dart_url"}
-    local_cols = {"charter_dir", "charter_txt", "charter_img_dir", "charter_meta", "charter_ocr_txt", "charter_pdf_txt",
+    local_cols = {"charter_dir", "charter_txt", "charter_img_dir", "charter_meta", "charter_ocr_txt", "charter_pdf_txt", "charter_llm_txt",
                   "charter_fulltext_txt", "agm_charter_amend_txt"}
     for i, r in enumerate(rows, start=2):
         for j, c in enumerate(cols, start=1):
@@ -248,6 +262,7 @@ def main():
             "charter_images": sum(d["n_images"] or 0 for d in drows),
             "charter_ocr_docs": sum(bool(x.get("charter_ocr_txt")) for x in kc),
             "charter_pdf_docs": sum(bool(x.get("charter_pdf_txt")) for x in kc),
+            "charter_llm_docs": sum(bool(x.get("charter_llm_txt")) for x in kc),
             "agm_notices": len(notices),
             "agm_notices_with_charter_amend": sum(bool(n["has_charter_amend"]) for n in notices),
             "agm_notice_errors": sum(bool(n["error"]) for n in notices),

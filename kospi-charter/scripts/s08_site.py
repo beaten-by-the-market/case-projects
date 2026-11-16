@@ -37,7 +37,8 @@ BASE = ["corp_code", "corp_name", "stock_code", "corp_cls", "report_nm", "rcept_
 CHARTER = ["charter_status", "charter_title", "charter_att_date", "charter_rcpNo", "charter_dcmNo", "charter_url",
            "charter_viewer_url", "charter_content_type", "charter_text_chars", "charter_n_images", "n_charter_att",
            "charter_dir", "charter_txt", "charter_img_dir", "charter_meta", "charter_ocr_txt", "charter_ocr_chars",
-           "charter_pdf_txt", "charter_n_pdfs", "charter_pdf_chars", "charter_fulltext_txt"]
+           "charter_pdf_txt", "charter_n_pdfs", "charter_pdf_chars", "charter_llm_txt", "charter_llm_chars",
+           "charter_fulltext_txt"]
 AGM = ["orig_rcept_no", "orig_rcept_dt", "agm_count", "agm_charter_amend_count", "agm_rcept_nos", "agm_kinds",
        "agm_charter_amend_rcept_nos", "agm_charter_amend_txt", "agm_charter_amend_dart_url", "agm_errors"]
 TABLES = {

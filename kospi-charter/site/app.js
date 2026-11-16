@@ -214,12 +214,14 @@
           h: (r) => (r.charter_url ? ext(r.charter_url, esc(r.charter_title || "정관"), `정관 URL (${AOI}), DART 첨부`) + (r.charter_status && r.charter_status !== "ok" ? ` ${stB(r.charter_status)}` : "") : stB(r.charter_status)) },
         { k: "charter_content_type", t: "종류", c: "c", h: (r) => ctB(r.charter_content_type) },
         { k: "charter_text_chars", t: "글자 수", c: "num", title: "정관 본문 글자 수 — 스캔은 글자 인식(OCR), PDF 는 PDF 글 기준",
-          v: (r) => r.charter_ocr_chars ?? r.charter_pdf_chars ?? r.charter_text_chars,
-          h: (r) => (r.charter_ocr_chars != null ? `${num(r.charter_ocr_chars)} <span class="small">OCR</span>`
+          v: (r) => r.charter_llm_chars ?? r.charter_ocr_chars ?? r.charter_pdf_chars ?? r.charter_text_chars,
+          h: (r) => (r.charter_llm_chars != null ? `${num(r.charter_llm_chars)} <span class="small">Opus</span>`
+            : r.charter_ocr_chars != null ? `${num(r.charter_ocr_chars)} <span class="small">OCR</span>`
             : r.charter_pdf_chars != null ? `${num(r.charter_pdf_chars)} <span class="small">PDF</span>` : num(r.charter_text_chars)) },
         { k: "charter_n_images", t: "이미지", c: "num" },
         { k: "charter_txt", t: "원문 파일", c: "c", need: ["charter_txt", "charter_img_dir"], title: "정관 txt · 글자 인식(OCR) txt · 이미지 폴더(로컬)",
-          h: (r) => (r.charter_txt || r.charter_img_dir ? [r.charter_txt && loc(r.charter_txt, "txt"), r.charter_ocr_txt && loc(r.charter_ocr_txt, "OCR"),
+          h: (r) => (r.charter_txt || r.charter_img_dir ? [r.charter_txt && loc(r.charter_txt, "txt"), r.charter_llm_txt && loc(r.charter_llm_txt, "Opus"),
+            r.charter_ocr_txt && loc(r.charter_ocr_txt, "OCR"),
             r.charter_pdf_txt && loc(r.charter_pdf_txt, "PDF글"), pdfLinks(r, true),
             !IS_PAGES && r.charter_img_dir && loc(r.charter_img_dir, "img/")].filter(Boolean).join(" · ") : NA) },
         { k: "agm_count", t: "소집공고", need: ["agm_count", "agm_rcept_nos"], v: agmN, h: agmChips, title: "기간 안 소집공고 수 · 칩 = 각 공고 DART (주황 = 정관변경 안건)" },
@@ -610,15 +612,19 @@
       ["정관 URL", r.charter_url ? ext(r.charter_url, esc(r.charter_url), `정관 URL (${AOI})`) : "", { wide: true }],
       ["원문 viewer", r.charter_viewer_url ? ext(r.charter_viewer_url, esc(r.charter_viewer_url)) : "", { wide: true }],
       ["종류", ctB(r.charter_content_type)], ["글자 수 · 이미지", r.charter_content_type ? [`본문 ${num(r.charter_text_chars)}자`, `이미지 ${num(r.charter_n_images)}장`,
+        r.charter_llm_chars != null ? `Opus 전사 ${num(r.charter_llm_chars)}자` : "",
         r.charter_ocr_chars != null ? `글자 인식 ${num(r.charter_ocr_chars)}자` : "",
         r.charter_pdf_chars != null ? `PDF ${num(r.charter_n_pdfs)}개 · ${num(r.charter_pdf_chars)}자` : ""].filter(Boolean).join(" · ") : ""],
       r.charter_pdf_txt ? ["PDF 원문", pdfLinks(r, false), { wide: true }] : null,
-      ["로컬 파일", [r.charter_txt && loc(r.charter_txt, "charter.txt"), r.charter_ocr_txt && loc(r.charter_ocr_txt, "charter_ocr.txt"),
+      ["로컬 파일", [r.charter_txt && loc(r.charter_txt, "charter.txt"), r.charter_llm_txt && loc(r.charter_llm_txt, "charter_llm.txt"),
+        r.charter_ocr_txt && loc(r.charter_ocr_txt, "charter_ocr.txt"),
         r.charter_pdf_txt && loc(r.charter_pdf_txt, "charter_pdf.txt"),
         !IS_PAGES && r.charter_img_dir && loc(r.charter_img_dir, "img/"), r.charter_meta && loc(r.charter_meta, "meta.json"),
         !IS_PAGES && base && loc(base, "폴더")].filter(Boolean).join(" · "), { wide: true }],
     ]), AOI);
     if (r.charter_txt) h += sec("정관 본문 미리보기", `<div class="pvbox" data-path="${esc(r.charter_txt)}"></div>`, "charter.txt");
+    if (r.charter_llm_txt) h += sec("Opus 전사 본문 미리보기", `<div class="pvbox" data-path="${esc(r.charter_llm_txt)}"></div>`,
+      `charter_llm.txt · ${fmtN(r.charter_llm_chars)}자 · Claude Opus 5.5 가 스캔 이미지를 직접 읽어 옮긴 글`);
     if (r.charter_ocr_txt) h += sec("글자 인식(OCR) 본문 미리보기", `<div class="pvbox" data-path="${esc(r.charter_ocr_txt)}"></div>`,
       `charter_ocr.txt · ${fmtN(r.charter_ocr_chars)}자 · 스캔 이미지를 기계로 읽은 글자라 틀린 곳이 있을 수 있습니다`);
     if (r.charter_pdf_txt) h += sec("PDF 정관 글 미리보기", `<div class="pvbox" data-path="${esc(r.charter_pdf_txt)}"></div>`,

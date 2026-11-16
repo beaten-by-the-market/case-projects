@@ -1,0 +1,40 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "546bc14471a27690",
+ "image": {
+  "long_edge": 2576,
+  "max_pixels": 3600000,
+  "gray": true,
+  "jpeg_quality": 85
+ },
+ "pages": [
+  {
+   "custom_id": "p02637",
+   "file": "img/001.jpg",
+   "page": null,
+   "sha256": "b7e53d14fd393298eb862d9f9a0ac1996800f9ffcc845a99ec42cc5a78c3a4fe",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 864,
+   "output_tokens": 34,
+   "chars": 26,
+   "batch": "msgbatch_01WaTnpW2WLAwZtVoW7PQ4zL"
+  },
+  {
+   "custom_id": "p02638",
+   "file": "img/002.jpg",
+   "page": null,
+   "sha256": "94cbd614efdbbfa24905bb8ff106430ee6d728f475d22d4942a87f3b08093200",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 836,
+   "output_tokens": 459,
+   "chars": 332,
+   "batch": "msgbatch_01WaTnpW2WLAwZtVoW7PQ4zL"
+  }
+ ],
+ "total_chars": 358,
+ "n_errors": 0,
+ "created_at": "2026-11-16T14:30:28"
+}

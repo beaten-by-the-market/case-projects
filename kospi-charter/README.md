@@ -14,7 +14,8 @@ OpenDART 에서 **최근 1년(2025-11-16 ~ 2026-11-16) 사업보고서 최종본
 |---|---|
 | 사업보고서 최종본, 회사별 1건 | **3,349사** — 코스피 825 · 코스닥 1,784 · 코넥스 107 · 기타 633 |
 | `[첨부정정]` → `rcept_no_new` | 86건 |
-| 코스피 정관 원문 | **825/825** — 텍스트 629 · 스캔 이미지 164(글자 인식) · PDF 31 · 혼합 1 |
+| 코스피 정관 원문 | **825/825** — 텍스트 629 · 스캔 이미지 164 · PDF 31 · 혼합 1 |
+| 스캔 쪽 Opus 전사 | **3,225쪽 / 181개 정관, 실패 0** (Claude Opus 5.5 · Batches API · 약 $51) |
 | 원본 제출일 이후 소집공고 | **247건**, 그중 '정관의 변경' 절 **146건** (해당 회사 134사) |
 
 자세한 건수와 확인한 사실은 [docs/03-검증기록.md](docs/03-검증기록.md), `data/final/manifest.json`.
@@ -54,6 +55,7 @@ OpenDART 에서 **최근 1년(2025-11-16 ~ 2026-11-16) 사업보고서 최종본
   사업보고서 직후 열리는 정기주총은 대개 `agm_count` 에 들어가지 않는다.
 * 스캔 이미지 정관(`charter_content_type=image`)은 Windows 내장 OCR 로 글자를 옮긴 `charter_ocr.txt` 를 함께 둔다(`charter_ocr_txt`).
   기계 인식이라 틀린 글자가 있다 — 선명한 장은 약 99%, 작은 스캔은 80~93% (docs/01 R5-7). 인용할 때는 이미지와 대조한다.
+* 스캔 쪽(이미지 3,185장 + PDF 스캔 40쪽)은 **Claude Opus 5.5 가 직접 읽어 옮긴 글**(`charter_llm_txt`)을 함께 둔다 — Windows OCR 이 틀리던 작은 스캔·원문자도 바로 읽는다(docs/01 R5-9).
 * 정관이 PDF 파일로 첨부된 경우(31사)는 PDF 를 받아 글자층을 뽑고, 글자층 없는 쪽만 글자 인식했다(`charter_pdf_txt`).
   종류와 상관없이 정관 전문은 `charter_fulltext_txt` 하나로 읽을 수 있다.
 * 스캔 이미지 파일은 git 에 올리지 않는다(약 600MB). PDF 원본(31개 약 17MB)은 올린다. 웹페이지는 이 컴퓨터에 파일이 없으면 DART 원본 이미지 주소로 바로 띄운다(GitHub Pages 포함).
@@ -75,6 +77,7 @@ cp .env.example .env                     # DART_API_KEY 넣기
 | 3 | `scripts/s03_dart_main.py` | `rcept_no_new` + 첨부문서 목록 (`--prewarm` 은 s02 없이 화면 캐시만 미리) | DART 웹 |
 | 4 | `scripts/s04_charter.py` | 정관 원문 내려받기·정리 (`--limit N` 파일럿) | DART 웹 |
 | 4b | `scripts/s04b_charter_ocr.py` | 스캔 정관 글자 인식 → `charter_ocr.txt` (Windows 전용, 네트워크 없음) | Windows OCR |
+| 4d | `scripts/s04d_charter_llm_ocr.py` | 스캔 쪽 전부를 Claude Opus 5.5 로 전사 (Batches API · `.env` 의 `ANTHROPIC_API_KEY`, 비용 발생) | Anthropic API |
 | 4c | `scripts/s04c_charter_pdf.py` | PDF 로 첨부된 정관 → PDF 받기·글자 뽑기 → `charter_pdf.txt` | DART 웹 |
 | 5 | `scripts/s05_agm_list.py` | 주주총회소집공고 최종본 목록 · 행별 기간 | OpenDART |
 | 6 | `scripts/s06_agm_xml.py` | 소집공고 XML 저장 → 정관의 변경 절 txt | OpenDART |

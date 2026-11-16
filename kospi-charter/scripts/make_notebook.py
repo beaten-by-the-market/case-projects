@@ -24,6 +24,7 @@ cells = [
 | s04 | 코스피 행의 정관 원문(텍스트·스캔 이미지) 내려받기·정리 | DART `viewer.do`·`download.do` |
 | s04b | 스캔 이미지 정관 글자 인식(OCR) → `charter_ocr.txt` | Windows 내장 OCR (네트워크 없음) |
 | s04c | PDF 로 첨부된 정관 → PDF 받기·글자 뽑기 → `charter_pdf.txt` | DART `download.do` · PyMuPDF |
+| s04d | 스캔 쪽 전부를 Claude Opus 5.5 로 전사 → `charter_llm.txt` (비용 발생, 기본은 정리만) | Anthropic Message Batches API |
 | s05 | 코스피 행마다 원본 제출일 ~ 기준일 주주총회소집공고(최종본) 목록 | OpenDART `list.json` (E006) |
 | s06 | 소집공고 XML 원문 저장 → '정관의 변경' 절 찾기·txt 저장 | OpenDART `document.xml` |
 | s07 | 결과물(JSON·CSV·XLSX) 만들기 | — |
@@ -148,6 +149,19 @@ print("글자 인식 문서", len(ocr), "· 장", sum(v["pages"] for v in ocr.va
 s04c_charter_pdf.main()
 pdfi = C.read_json(C.INTERIM / "s04c_pdf.json")
 print("PDF 정관", len(pdfi), "· 쪽", sum(v["pages"] for v in pdfi.values()), "(글자 인식", sum(v["ocr_pages"] for v in pdfi.values()), ") · 글자", sum(v["total_chars"] for v in pdfi.values()))"""),
+
+    md("""## 4d. 스캔 쪽 Opus 전사 (s04d)
+
+스캔 이미지와 PDF 스캔 쪽을 Claude Opus 5.5 가 직접 읽어 `charter_llm.txt` 로 옮긴다(Message Batches API).
+**요청을 보내면 비용이 든다** — 아래 `RUN_LLM_SUBMIT` 이 False 면 이미 받은 결과만 정리한다. 키는 `.env` 의 `ANTHROPIC_API_KEY`.
+배치를 새로 보냈다면 끝난 뒤(보통 1시간 안) `collect` 를 다시 돌린다. 규칙은 docs/01 R5-9."""),
+    code("""import s04d_charter_llm_ocr as s04d
+RUN_LLM_SUBMIT = False          # True: 결과가 없는 쪽을 배치로 보낸다 (비용 발생)
+if RUN_LLM_SUBMIT:
+    s04d.cmd_submit()
+s04d.organize()                 # 받은 결과 → charter_llm.txt (네트워크 없음)
+llm = C.read_json(C.INTERIM / "s04d_llm.json") if (C.INTERIM / "s04d_llm.json").exists() else {}
+print("Opus 전사 문서", len(llm), "· 쪽", sum(v["pages"] for v in llm.values()), "· 글자", sum(v["total_chars"] for v in llm.values()), "· 실패 쪽", sum(v["errors"] for v in llm.values()))"""),
 
     md("""## 5. 주주총회 소집공고 목록 (s05)
 

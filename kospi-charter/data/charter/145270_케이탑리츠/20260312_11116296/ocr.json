@@ -8,7 +8,7 @@
   "os": "Windows 10.0.26200"
  },
  "lang": "ko",
- "created_at": "2026-11-16T13:53:50",
+ "created_at": "2026-11-16T14:30:27",
  "settings": {
   "preprocess": "grayscale → resize long side to 3000px (LANCZOS, upscale ≤ 4.5x) → autocontrast(cutoff=1%) → Gray8 SoftwareBitmap",
   "long_side": 3000,
@@ -60,7 +60,7 @@
    "sha256": "b5738ae01668eb8021fb2d7b758f9eab38547b422f09dd2abbc00c11af70d68b",
    "lines": 2,
    "chars": 31,
-   "seconds": 0.194,
+   "seconds": 0.249,
    "circled": 0
   },
   {
@@ -68,7 +68,7 @@
    "sha256": "d68026dc45bc2c7a963f26872b011d53e0932c785e7d196b91c39d8bd4b9d7ea",
    "lines": 27,
    "chars": 480,
-   "seconds": 0.446,
+   "seconds": 0.503,
    "circled": 0
   },
   {
@@ -76,7 +76,7 @@
    "sha256": "2c8a2fe8d994e2defa2dcadc65a8dd90faefbcdfe423511c13af38138423b1dc",
    "lines": 28,
    "chars": 678,
-   "seconds": 0.538,
+   "seconds": 0.618,
    "circled": 2
   },
   {
@@ -84,7 +84,7 @@
    "sha256": "9b4225c5cde20b942a1e99be61c3961c0ad8fa5872f5548e6a3ff9057764a4d6",
    "lines": 29,
    "chars": 785,
-   "seconds": 0.523,
+   "seconds": 0.588,
    "circled": 8
   },
   {
@@ -92,7 +92,7 @@
    "sha256": "09da0324979989edacf470669db3f968a8872c571cbcdf2fafb5e40e9daaf2ac",
    "lines": 29,
    "chars": 823,
-   "seconds": 0.516,
+   "seconds": 0.526,
    "circled": 6
   },
   {
@@ -100,7 +100,7 @@
    "sha256": "aa42c65eb8834ede3a38d5aa7249ef191615192aaf6cc91f9343ea8cdcc0c1d6",
    "lines": 30,
    "chars": 768,
-   "seconds": 0.509,
+   "seconds": 0.498,
    "circled": 7
   },
   {
@@ -108,7 +108,7 @@
    "sha256": "f5b5ed9afa36fa388ec932569d66367cf01da3aa7143347e09c4cc2eb72867f6",
    "lines": 28,
    "chars": 617,
-   "seconds": 0.467,
+   "seconds": 0.431,
    "circled": 9
   },
   {
@@ -116,7 +116,7 @@
    "sha256": "b025fafda3b18bb3364eea7526c93b4ec8d1a41ce4cd123f24ec56462cba4804",
    "lines": 29,
    "chars": 761,
-   "seconds": 0.57,
+   "seconds": 0.528,
    "circled": 6
   },
   {
@@ -124,7 +124,7 @@
    "sha256": "f62c290b7b4ac0aeeebe8adfc0ec82292e4443fdd5e302873b9e5cfb963c0f9d",
    "lines": 29,
    "chars": 693,
-   "seconds": 0.501,
+   "seconds": 0.457,
    "circled": 7
   },
   {
@@ -132,7 +132,7 @@
    "sha256": "7106d8348ea73ed2b5951124a0ac24e61da4effdab7c4fc0e37c7759bf1450f2",
    "lines": 29,
    "chars": 715,
-   "seconds": 0.484,
+   "seconds": 0.452,
    "circled": 8
   },
   {
@@ -140,7 +140,7 @@
    "sha256": "430c509eefda3e67102241e237a3a148d9ef2e1c14a7a48717304d2720376a27",
    "lines": 27,
    "chars": 635,
-   "seconds": 0.465,
+   "seconds": 0.426,
    "circled": 9
   },
   {
@@ -148,7 +148,7 @@
    "sha256": "06172ef7ef4b0d0758d81b0d06f35919ce4cfb7e5e7ef9230478f80cac8d4718",
    "lines": 28,
    "chars": 622,
-   "seconds": 0.459,
+   "seconds": 0.423,
    "circled": 10
   },
   {
@@ -156,7 +156,7 @@
    "sha256": "0569b8cf8b955bca0b8dbb895a3ec8d1a452b396005d46b9ed936089b50f0006",
    "lines": 29,
    "chars": 646,
-   "seconds": 0.473,
+   "seconds": 0.442,
    "circled": 9
   },
   {
@@ -164,7 +164,7 @@
    "sha256": "a7687d19e1d3adbc7823e7340b5f2b2a8c66a632029799b3abe02c27916706be",
    "lines": 28,
    "chars": 657,
-   "seconds": 0.468,
+   "seconds": 0.441,
    "circled": 7
   },
   {
@@ -172,7 +172,7 @@
    "sha256": "24220cc2dda0e48e1d348ce508ea62ad6f4217755b11ee74de1bbc89883b8aca",
    "lines": 29,
    "chars": 613,
-   "seconds": 0.455,
+   "seconds": 0.433,
    "circled": 5
   },
   {
@@ -180,7 +180,7 @@
    "sha256": "1165b22116e118f85489cef59aa222f70822661ca14deb9e488d70b5173b51db",
    "lines": 28,
    "chars": 759,
-   "seconds": 0.528,
+   "seconds": 0.49,
    "circled": 6
   },
   {
@@ -188,7 +188,7 @@
    "sha256": "daa018d69e2b766340411a356f54682874992c3fea80cb15b08e55aac5420b15",
    "lines": 29,
    "chars": 701,
-   "seconds": 0.495,
+   "seconds": 0.475,
    "circled": 11
   },
   {
@@ -196,7 +196,7 @@
    "sha256": "15d7b8f986ee6667c36ab6f1b43cfbcf85c35eeff6de64c0f5abccfa52414433",
    "lines": 27,
    "chars": 542,
-   "seconds": 0.397,
+   "seconds": 0.376,
    "circled": 5
   },
   {
@@ -204,7 +204,7 @@
    "sha256": "23c6846d47a27506041c3257f2028fc00e2626725803900ae690b3efa8e9ed10",
    "lines": 28,
    "chars": 510,
-   "seconds": 0.361,
+   "seconds": 0.342,
    "circled": 3
   },
   {
@@ -212,7 +212,7 @@
    "sha256": "49ac6d573f845754c153a903bc0ec133a529881ebf7d6f77cd75d2a34e936f08",
    "lines": 26,
    "chars": 591,
-   "seconds": 0.383,
+   "seconds": 0.356,
    "circled": 3
   },
   {
@@ -228,7 +228,7 @@
    "sha256": "24b88947f69f6dcc1a3b34804630dabbd3dcadb6cba9fdbb3a824ad34e9ec081",
    "lines": 15,
    "chars": 159,
-   "seconds": 0.174,
+   "seconds": 0.164,
    "circled": 0
   }
  ],
@@ -240,5 +240,5 @@
   }
  ],
  "unplaced_images": [],
- "doc_seconds": 3.3
+ "doc_seconds": 3.21
 }
