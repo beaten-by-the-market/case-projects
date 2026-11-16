@@ -1,0 +1,24 @@
+{
+ "corp_code": "00104999",
+ "corp_name": "윌비스",
+ "stock_code": "008600",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001672",
+ "dcmNo": "11169527",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001672&dcmNo=11169527",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001672&dcmNo=11169527&eleId=1&offset=594&length=25994&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13811,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/008600_윌비스/20260323_11169527",
+ "fetched_at": "2026-11-16T12:32:23",
+ "used_by_rcept_no": [
+  "20260702000587"
+ ]
+}

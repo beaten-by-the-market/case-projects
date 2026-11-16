@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260630000284",
+ "corp_code": "01210677",
+ "corp_name": "씨케이솔루션",
+ "stock_code": "480370",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260630",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000284",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1298,
+ "charter_amend_txt": "data/agm/480370_씨케이솔루션/20260630_20260630000284/정관의변경.txt",
+ "main_xml": "20260630000284.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260630000284.xml",
+   "bytes": 67032,
+   "sha256": "9ac3e8fc837b12a49d2274a76dd6a5a4eef27e0b2311a797ea8afde3f943a357"
+  }
+ ],
+ "folder": "data/agm/480370_씨케이솔루션/20260630_20260630000284",
+ "fetched_at": "2026-11-16T13:00:49"
+}

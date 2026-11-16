@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260730000332",
+ "corp_code": "00936787",
+ "corp_name": "애경케미칼",
+ "stock_code": "161000",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260730",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000332",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260730000332.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260730000332.xml",
+   "bytes": 120596,
+   "sha256": "06ced75cf7a2dd8706d4260ee8117fd691ee60ea3b96c20bf3f42b777be5e4c1"
+  }
+ ],
+ "folder": "data/agm/161000_애경케미칼/20260730_20260730000332",
+ "fetched_at": "2026-11-16T13:01:22"
+}

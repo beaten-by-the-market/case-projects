@@ -1,0 +1,185 @@
+{
+ "corp_code": "00112332",
+ "corp_name": "미래에셋생명",
+ "stock_code": "085620",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001664",
+ "dcmNo": "11144767",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001664&dcmNo=11144767",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001664&dcmNo=11144767&eleId=1&offset=599&length=2320&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 16,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "정관_1.jpg",
+   "alt": "이미지: 정관_1",
+   "bytes": 251247,
+   "sha256": "d846e3692e9b21920a9efe2a356964b3e33fa8af4e42a5f99321eaf59ba46ad5",
+   "width": 3253,
+   "height": 4599
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "정관_2.jpg",
+   "alt": "이미지: 정관_2",
+   "bytes": 282341,
+   "sha256": "b694c761bdebcc90af4e54579230364bc3865627c3e8144ab5bbaf8d811b3de5",
+   "width": 2133,
+   "height": 3014
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "정관_3.jpg",
+   "alt": "이미지: 정관_3",
+   "bytes": 283204,
+   "sha256": "218c43bd31347b335e2dbc8a19040610ff4cbbb8c82852666396e4325e10181e",
+   "width": 1554,
+   "height": 2194
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "정관_4.jpg",
+   "alt": "이미지: 정관_4",
+   "bytes": 275290,
+   "sha256": "89fb484a38b0d3d27cb7ac669e60b74fef1ce2304525481918ff2d319497fdbb",
+   "width": 1554,
+   "height": 2194
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "정관_5.jpg",
+   "alt": "이미지: 정관_5",
+   "bytes": 272312,
+   "sha256": "49c6dd5ec1c520e0de379731329b8a5f1e09c83be289c18df13ce64d8025a1d5",
+   "width": 1727,
+   "height": 2439
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "정관_6.jpg",
+   "alt": "이미지: 정관_6",
+   "bytes": 287084,
+   "sha256": "4c01f2d742875c28198196dc9d59ae8a041fbf8723eaaa5c699411bae861e8be",
+   "width": 1727,
+   "height": 2439
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "정관_7.jpg",
+   "alt": "이미지: 정관_7",
+   "bytes": 299405,
+   "sha256": "899bcb45434e3f5b296d8690ef3a95146e5348a0b37e61c0a52b17d6b3a47380",
+   "width": 1919,
+   "height": 2711
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "정관_8.jpg",
+   "alt": "이미지: 정관_8",
+   "bytes": 263064,
+   "sha256": "a40ce09c97b0381c93b2f897a6f9573cf54ef22fc8d4a16de246e66d3194b26d",
+   "width": 1919,
+   "height": 2711
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "정관_9.jpg",
+   "alt": "이미지: 정관_9",
+   "bytes": 293422,
+   "sha256": "7319f3f6c7bd7fcc35de3354c035b60747fd8299fb1e4933c45be7f61018b389",
+   "width": 1919,
+   "height": 2711
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "정관_10.jpg",
+   "alt": "이미지: 정관_10",
+   "bytes": 306635,
+   "sha256": "f886b2bba7aea4726714c9380e42933748520800ac9d8d138d0dd42b75deade8",
+   "width": 2133,
+   "height": 3014
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "정관_11.jpg",
+   "alt": "이미지: 정관_11",
+   "bytes": 272064,
+   "sha256": "dda6e197059e6dc41061020984167883024a8a5536fee4714b0190b0659b3bb0",
+   "width": 1554,
+   "height": 2194
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "정관_12.jpg",
+   "alt": "이미지: 정관_12",
+   "bytes": 295184,
+   "sha256": "78e9d0d37ac1e207f9b8b2528a5ca4e924c736142a07fcef7917f57bc4ddddab",
+   "width": 1919,
+   "height": 2711
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "정관_13.jpg",
+   "alt": "이미지: 정관_13",
+   "bytes": 283683,
+   "sha256": "5ba8bbfbc3845aae6d8ee6c2b9a0479ac57453261478cf6d0933530bb0ff607e",
+   "width": 1919,
+   "height": 2711
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "정관_14.jpg",
+   "alt": "이미지: 정관_14",
+   "bytes": 294415,
+   "sha256": "d8338fc61b4d222f2fee38a6b1cd132b6167238ab626dacdd7cb66711d0fc6a7",
+   "width": 2927,
+   "height": 4138
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "정관_15.jpg",
+   "alt": "이미지: 정관_15",
+   "bytes": 286874,
+   "sha256": "2932d07ad9d3f81c88110096eee5037ce94e62629967df917053490490c82574",
+   "width": 1919,
+   "height": 2711
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144767&flNm=%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "정관_16.jpg",
+   "alt": "이미지: 정관_16",
+   "bytes": 299309,
+   "sha256": "5b658bd1eedb534d5fc28ce56fd65b1f6b586e37a5885725b2fb1bd55c887db9",
+   "width": 3615,
+   "height": 5111
+  }
+ ],
+ "folder": "data/charter/085620_미래에셋생명/20260318_11144767",
+ "fetched_at": "2026-11-16T13:22:16",
+ "used_by_rcept_no": [
+  "20260721001043"
+ ]
+}

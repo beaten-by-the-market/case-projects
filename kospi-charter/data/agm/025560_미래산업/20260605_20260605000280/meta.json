@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260605000280",
+ "corp_code": "00197759",
+ "corp_name": "미래산업",
+ "stock_code": "025560",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260605",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000280",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1804,
+ "charter_amend_txt": "data/agm/025560_미래산업/20260605_20260605000280/정관의변경.txt",
+ "main_xml": "20260605000280.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260605000280.xml",
+   "bytes": 48773,
+   "sha256": "ad7facb0870696c91a73dc41604663c90a993ea2284cb7dfd1209cfd5059cedb"
+  }
+ ],
+ "folder": "data/agm/025560_미래산업/20260605_20260605000280",
+ "fetched_at": "2026-11-16T13:00:34"
+}

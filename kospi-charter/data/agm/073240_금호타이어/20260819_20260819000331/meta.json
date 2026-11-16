@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260819000331",
+ "corp_code": "00481454",
+ "corp_name": "금호타이어",
+ "stock_code": "073240",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260819",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000331",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260819000331.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260819000331.xml",
+   "bytes": 64826,
+   "sha256": "b43f0062e04d8521979af942df2f105253a92f3eae592e84981cea8d1b361448"
+  }
+ ],
+ "folder": "data/agm/073240_금호타이어/20260819_20260819000331",
+ "fetched_at": "2026-11-16T13:01:34"
+}

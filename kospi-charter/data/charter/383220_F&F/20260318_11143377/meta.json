@@ -1,0 +1,24 @@
+{
+ "corp_code": "01568413",
+ "corp_name": "F&F",
+ "stock_code": "383220",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001512",
+ "dcmNo": "11143377",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001512&dcmNo=11143377",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001512&dcmNo=11143377&eleId=1&offset=596&length=20861&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11930,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/383220_F&F/20260318_11143377",
+ "fetched_at": "2026-11-16T13:41:31",
+ "used_by_rcept_no": [
+  "20260318001512"
+ ]
+}

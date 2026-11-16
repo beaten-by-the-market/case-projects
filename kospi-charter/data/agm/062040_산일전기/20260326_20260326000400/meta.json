@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260326000400",
+ "corp_code": "00366438",
+ "corp_name": "산일전기",
+ "stock_code": "062040",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260326",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326000400",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1805,
+ "charter_amend_txt": "data/agm/062040_산일전기/20260326_20260326000400/정관의변경.txt",
+ "main_xml": "20260326000400.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260326000400.xml",
+   "bytes": 1191096,
+   "sha256": "eabd2eca5d7ff2a56992433c1e1483faf027bfc0cc614b9c5c39057c5d31c1e6"
+  }
+ ],
+ "folder": "data/agm/062040_산일전기/20260326_20260326000400",
+ "fetched_at": "2026-11-16T12:59:56"
+}

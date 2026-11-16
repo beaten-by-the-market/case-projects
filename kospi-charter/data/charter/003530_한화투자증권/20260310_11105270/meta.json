@@ -1,0 +1,24 @@
+{
+ "corp_code": "00148610",
+ "corp_name": "한화투자증권",
+ "stock_code": "003530",
+ "att_title": "2026.03.10 정관",
+ "att_date": "20260310",
+ "rcpNo": "20260310002967",
+ "dcmNo": "11105270",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002967&dcmNo=11105270",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002967&dcmNo=11105270&eleId=1&offset=597&length=27390&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 16063,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/003530_한화투자증권/20260310_11105270",
+ "fetched_at": "2026-11-16T12:22:52",
+ "used_by_rcept_no": [
+  "20260310002967"
+ ]
+}

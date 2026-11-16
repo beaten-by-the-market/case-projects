@@ -1,0 +1,37 @@
+{
+ "corp_code": "01060814",
+ "corp_name": "삼양패키징",
+ "stock_code": "272550",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313001090",
+ "dcmNo": "11121562",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001090&dcmNo=11121562",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313001090&dcmNo=11121562&eleId=1&offset=596&length=291&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 20,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/272550_삼양패키징/20260313_11121562",
+ "fetched_at": "2026-11-16T13:37:39",
+ "used_by_rcept_no": [
+  "20260313001090"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11121562&flNm=%EC%82%BC%EC%96%91%ED%8C%A8%ED%82%A4%EC%A7%95+%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "삼양패키징 정관.pdf",
+   "bytes": 852601,
+   "sha256": "9bed2444bcfe24a3c12d8f2b7987c6b33373e91141afddd4c5ea7de74bdfb21a",
+   "pages": 1,
+   "text_pages": 1,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

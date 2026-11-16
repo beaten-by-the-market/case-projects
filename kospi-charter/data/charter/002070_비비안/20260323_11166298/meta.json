@@ -1,0 +1,37 @@
+{
+ "corp_code": "00107677",
+ "corp_name": "비비안",
+ "stock_code": "002070",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001209",
+ "dcmNo": "11166298",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001209&dcmNo=11166298",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001209&dcmNo=11166298&eleId=1&offset=594&length=306&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 28,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/002070_비비안/20260323_11166298",
+ "fetched_at": "2026-11-16T12:18:16",
+ "used_by_rcept_no": [
+  "20260323001209"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166298&flNm=%EB%B9%84%EB%B9%84%EC%95%88_%EC%A0%95%EA%B4%80%28%EB%82%A0%EC%9D%B8%EB%B3%B8%29.pdf",
+   "flNm": "비비안_정관(날인본).pdf",
+   "bytes": 3748705,
+   "sha256": "ec7ecab12a6379da763cb5c155a328751cc8a8035bd798c06146346901e8971b",
+   "pages": 23,
+   "text_pages": 0,
+   "ocr_pages": 23
+  }
+ ],
+ "n_pdfs": 1
+}

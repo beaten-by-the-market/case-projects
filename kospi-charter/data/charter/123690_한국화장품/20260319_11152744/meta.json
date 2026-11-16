@@ -1,0 +1,24 @@
+{
+ "corp_code": "00823429",
+ "corp_name": "한국화장품",
+ "stock_code": "123690",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001261",
+ "dcmNo": "11152744",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001261&dcmNo=11152744",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001261&dcmNo=11152744&eleId=1&offset=596&length=18182&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10420,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/123690_한국화장품/20260319_11152744",
+ "fetched_at": "2026-11-16T13:28:35",
+ "used_by_rcept_no": [
+  "20260319001261"
+ ]
+}

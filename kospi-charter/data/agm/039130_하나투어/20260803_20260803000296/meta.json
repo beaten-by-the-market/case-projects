@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260803000296",
+ "corp_code": "00269940",
+ "corp_name": "하나투어",
+ "stock_code": "039130",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260803",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803000296",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3121,
+ "charter_amend_txt": "data/agm/039130_하나투어/20260803_20260803000296/정관의변경.txt",
+ "main_xml": "20260803000296.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260803000296.xml",
+   "bytes": 114710,
+   "sha256": "de1a9769f59258f0e438551a4583e9e6bfd8176a98a1616f95096e5b70d633ed"
+  }
+ ],
+ "folder": "data/agm/039130_하나투어/20260803_20260803000296",
+ "fetched_at": "2026-11-16T13:01:23"
+}

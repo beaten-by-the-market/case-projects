@@ -1,0 +1,24 @@
+{
+ "corp_code": "00104388",
+ "corp_name": "국도화학",
+ "stock_code": "007690",
+ "att_title": "2026.03.05 정관",
+ "att_date": "20260305",
+ "rcpNo": "20260305001586",
+ "dcmNo": "11095059",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001586&dcmNo=11095059",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260305001586&dcmNo=11095059&eleId=1&offset=596&length=14485&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9280,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/007690_국도화학/20260305_11095059",
+ "fetched_at": "2026-11-16T12:31:43",
+ "used_by_rcept_no": [
+  "20260305001586"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00123143",
+ "corp_name": "보령",
+ "stock_code": "003850",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001392",
+ "dcmNo": "11167399",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001392&dcmNo=11167399",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001392&dcmNo=11167399&eleId=1&offset=593&length=24603&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10845,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/003850_보령/20260323_11167399",
+ "fetched_at": "2026-11-16T12:24:26",
+ "used_by_rcept_no": [
+  "20260709000536"
+ ]
+}

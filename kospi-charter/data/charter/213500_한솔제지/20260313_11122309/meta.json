@@ -1,0 +1,24 @@
+{
+ "corp_code": "01060744",
+ "corp_name": "한솔제지",
+ "stock_code": "213500",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313001261",
+ "dcmNo": "11122309",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001261&dcmNo=11122309",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313001261&dcmNo=11122309&eleId=1&offset=592&length=21871&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13232,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/213500_한솔제지/20260313_11122309",
+ "fetched_at": "2026-11-16T13:33:43",
+ "used_by_rcept_no": [
+  "20260316000945"
+ ]
+}

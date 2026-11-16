@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260319000749",
+ "corp_code": "00133858",
+ "corp_name": "세방전지",
+ "stock_code": "004490",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000749",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 9226,
+ "charter_amend_txt": "data/agm/004490_세방전지/20260319_20260319000749/정관의변경.txt",
+ "main_xml": "20260319000749.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260319000749.xml",
+   "bytes": 191440,
+   "sha256": "75b48fcf32f9d10c73db4ca6ac2626600c1e7020c4643ea6a34de748d4d92208"
+  }
+ ],
+ "folder": "data/agm/004490_세방전지/20260319_20260319000749",
+ "fetched_at": "2026-11-16T12:59:36"
+}

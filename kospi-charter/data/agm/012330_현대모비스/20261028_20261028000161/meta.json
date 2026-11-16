@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261028000161",
+ "corp_code": "00164788",
+ "corp_name": "현대모비스",
+ "stock_code": "012330",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261028",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000161",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261028000161.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261028000161.xml",
+   "bytes": 178418,
+   "sha256": "de52b9707c87d97ce4b30def5ca3c684905c751c01c2eaeceb8ff441b2de85a7"
+  }
+ ],
+ "folder": "data/agm/012330_현대모비스/20261028_20261028000161",
+ "fetched_at": "2026-11-16T13:01:58"
+}

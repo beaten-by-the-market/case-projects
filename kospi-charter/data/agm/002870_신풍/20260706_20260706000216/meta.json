@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260706000216",
+ "corp_code": "00137368",
+ "corp_name": "신풍",
+ "stock_code": "002870",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260706",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000216",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 626,
+ "charter_amend_txt": "data/agm/002870_신풍/20260706_20260706000216/정관의변경.txt",
+ "main_xml": "20260706000216.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260706000216.xml",
+   "bytes": 36272,
+   "sha256": "001eabb6e59dba0d1ba27a7eefdf68f3c26c1f08912cf39c0aa780bae072b227"
+  }
+ ],
+ "folder": "data/agm/002870_신풍/20260706_20260706000216",
+ "fetched_at": "2026-11-16T13:00:50"
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "00145190",
+ "corp_name": "유화증권",
+ "stock_code": "003460",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311004334",
+ "dcmNo": "11110367",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004334&dcmNo=11110367",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004334&dcmNo=11110367&eleId=1&offset=595&length=320&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 38,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/003460_유화증권/20260311_11110367",
+ "fetched_at": "2026-11-16T12:22:30",
+ "used_by_rcept_no": [
+  "20260311004334"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110367&flNm=0101+%EC%A0%95%EA%B4%80+%2820250326%29.pdf",
+   "flNm": "0101 정관 (20250326).pdf",
+   "bytes": 226385,
+   "sha256": "4595f924168b7d7711bff459cf15c980793e2ecacf0ea23a965e6328bbc60fc5",
+   "pages": 17,
+   "text_pages": 17,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

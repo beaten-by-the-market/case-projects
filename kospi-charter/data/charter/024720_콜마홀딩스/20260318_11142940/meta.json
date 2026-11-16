@@ -1,0 +1,24 @@
+{
+ "corp_code": "00203290",
+ "corp_name": "콜마홀딩스",
+ "stock_code": "024720",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001455",
+ "dcmNo": "11142940",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001455&dcmNo=11142940",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001455&dcmNo=11142940&eleId=1&offset=596&length=23661&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14379,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/024720_콜마홀딩스/20260318_11142940",
+ "fetched_at": "2026-11-16T13:09:21",
+ "used_by_rcept_no": [
+  "20260318001455"
+ ]
+}

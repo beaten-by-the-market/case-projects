@@ -1,0 +1,24 @@
+{
+ "corp_code": "00164706",
+ "corp_name": "현대약품",
+ "stock_code": "004310",
+ "att_title": "2026.02.13 정관",
+ "att_date": "20260213",
+ "rcpNo": "20260213002543",
+ "dcmNo": "11027161",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260213002543&dcmNo=11027161",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260213002543&dcmNo=11027161&eleId=1&offset=592&length=21767&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13848,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/004310_현대약품/20260213_11027161",
+ "fetched_at": "2026-11-16T12:25:19",
+ "used_by_rcept_no": [
+  "20260213002543"
+ ]
+}

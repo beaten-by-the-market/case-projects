@@ -1,0 +1,24 @@
+{
+ "corp_code": "00168401",
+ "corp_name": "금비",
+ "stock_code": "008870",
+ "att_title": "2025.12.15 정관",
+ "att_date": "20251215",
+ "rcpNo": "20251215000379",
+ "dcmNo": "10924444",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251215000379&dcmNo=10924444",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20251215000379&dcmNo=10924444&eleId=1&offset=595&length=15418&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 6847,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/008870_금비/20251215_10924444",
+ "fetched_at": "2026-11-16T12:32:31",
+ "used_by_rcept_no": [
+  "20251215000379"
+ ]
+}

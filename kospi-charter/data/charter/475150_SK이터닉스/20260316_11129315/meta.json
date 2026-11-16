@@ -1,0 +1,145 @@
+{
+ "corp_code": "01817081",
+ "corp_name": "SK이터닉스",
+ "stock_code": "475150",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001520",
+ "dcmNo": "11129315",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001520&dcmNo=11129315",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001520&dcmNo=11129315&eleId=1&offset=599&length=1982&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 12,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129315&flNm=%EC%A0%95%EA%B4%80_240304_001.jpg",
+   "flNm": "정관_240304_001.jpg",
+   "alt": "이미지: 정관_240304_001",
+   "bytes": 22906,
+   "sha256": "91a061abc5315a52fe5efa34c8847c822f262c74d278ef050c8a288c342d2002",
+   "width": 593,
+   "height": 842
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129315&flNm=%EC%A0%95%EA%B4%80_240304_002.jpg",
+   "flNm": "정관_240304_002.jpg",
+   "alt": "이미지: 정관_240304_002",
+   "bytes": 141677,
+   "sha256": "50df11fdff8b0d315c99ee5a0e865e3ac6bb9cacfc3f007e873054f75a8d7abe",
+   "width": 591,
+   "height": 843
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129315&flNm=%EC%A0%95%EA%B4%80_240304_003.jpg",
+   "flNm": "정관_240304_003.jpg",
+   "alt": "이미지: 정관_240304_003",
+   "bytes": 181367,
+   "sha256": "7dc67016787d004dd1e2dd6888664d348647c3b0dfd96d28f89678e48ea24904",
+   "width": 596,
+   "height": 842
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129315&flNm=%EC%A0%95%EA%B4%80_240304_004.jpg",
+   "flNm": "정관_240304_004.jpg",
+   "alt": "이미지: 정관_240304_004",
+   "bytes": 242238,
+   "sha256": "bda79f2e14f398a01f47c9a8308dd6ef5ff7ade68867aaaec112ade024ad5f01",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129315&flNm=%EC%A0%95%EA%B4%80_240304_005.jpg",
+   "flNm": "정관_240304_005.jpg",
+   "alt": "이미지: 정관_240304_005",
+   "bytes": 265918,
+   "sha256": "b09df9236b902c1b6e75f07ce703235e5dca8123e2dda3baff4c471191d4fcce",
+   "width": 593,
+   "height": 843
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129315&flNm=%EC%A0%95%EA%B4%80_240304_006.jpg",
+   "flNm": "정관_240304_006.jpg",
+   "alt": "이미지: 정관_240304_006",
+   "bytes": 244062,
+   "sha256": "e906d30019497b80b6db22af65637c07d230fb2711f1c4a25265a41283589774",
+   "width": 592,
+   "height": 825
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129315&flNm=%EC%A0%95%EA%B4%80_240304_007.jpg",
+   "flNm": "정관_240304_007.jpg",
+   "alt": "이미지: 정관_240304_007",
+   "bytes": 243915,
+   "sha256": "c77e69d7d2968ae0919f8f44c2a35f777d32c193b86430bf2c745da5ebcbdeb8",
+   "width": 594,
+   "height": 830
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129315&flNm=%EC%A0%95%EA%B4%80_240304_008.jpg",
+   "flNm": "정관_240304_008.jpg",
+   "alt": "이미지: 정관_240304_008",
+   "bytes": 195958,
+   "sha256": "453d9efc7a5560c9be182e34006b611bb248d549c883ee5955076d5d4818d1a1",
+   "width": 595,
+   "height": 839
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129315&flNm=%EC%A0%95%EA%B4%80_240304_009.jpg",
+   "flNm": "정관_240304_009.jpg",
+   "alt": "이미지: 정관_240304_009",
+   "bytes": 257100,
+   "sha256": "f8915d208853ddba492576ca51d2230ffce9e99df3735b4edcda3df910c4b3c2",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129315&flNm=%EC%A0%95%EA%B4%80_240304_010.jpg",
+   "flNm": "정관_240304_010.jpg",
+   "alt": "이미지: 정관_240304_010",
+   "bytes": 173982,
+   "sha256": "afa0f48317eb3121246087aa7b9f16315898bfb250f93f199fb4b929c32a2f66",
+   "width": 592,
+   "height": 839
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129315&flNm=%EC%A0%95%EA%B4%80_240304_011.jpg",
+   "flNm": "정관_240304_011.jpg",
+   "alt": "이미지: 정관_240304_011",
+   "bytes": 191115,
+   "sha256": "82d97d48040c11292bb689aa5d1f6e67ff753800230f710d7fba11b2114b09ef",
+   "width": 597,
+   "height": 840
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129315&flNm=%EC%A0%95%EA%B4%80_240304_012.jpg",
+   "flNm": "정관_240304_012.jpg",
+   "alt": "이미지: 정관_240304_012",
+   "bytes": 187486,
+   "sha256": "4ffe20f8525b1e96b95efc3c35bda7684b293c1566829ab150caf2f97241c388",
+   "width": 583,
+   "height": 819
+  }
+ ],
+ "folder": "data/charter/475150_SK이터닉스/20260316_11129315",
+ "fetched_at": "2026-11-16T13:43:32",
+ "used_by_rcept_no": [
+  "20260316001520"
+ ]
+}

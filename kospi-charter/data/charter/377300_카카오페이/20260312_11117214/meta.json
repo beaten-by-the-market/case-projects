@@ -1,0 +1,24 @@
+{
+ "corp_code": "01244601",
+ "corp_name": "카카오페이",
+ "stock_code": "377300",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312001366",
+ "dcmNo": "11117214",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001366&dcmNo=11117214",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001366&dcmNo=11117214&eleId=1&offset=596&length=22343&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12530,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/377300_카카오페이/20260312_11117214",
+ "fetched_at": "2026-11-16T13:40:40",
+ "used_by_rcept_no": [
+  "20260312001366"
+ ]
+}

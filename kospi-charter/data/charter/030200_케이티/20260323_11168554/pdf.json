@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168554&flNm=2025%EB%85%84%EB%8F%84+kt+%EC%A0%95%EA%B4%80_%EA%B5%AD%EB%AC%B8.pdf",
+   "flNm": "2025년도 kt 정관_국문.pdf",
+   "bytes": 394845,
+   "sha256": "53bf365478a6ba72d353bab6bb0a96d726eca3d407c7db84a75200e8ba2f6d42",
+   "pages": 30,
+   "text_pages": 29,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 13937,
+ "pages": 30,
+ "text_pages": 29,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T13:47:55",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

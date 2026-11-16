@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260515001673",
+ "corp_code": "00557508",
+ "corp_name": "GKL",
+ "stock_code": "114090",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260515",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515001673",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260515001673.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260515001673.xml",
+   "bytes": 93915,
+   "sha256": "d59682c6619c08b60fbdb6db1f1fd90eb9ddfd7f900836a6bea0400ef35ee934"
+  }
+ ],
+ "folder": "data/agm/114090_GKL/20260515_20260515001673",
+ "fetched_at": "2026-11-16T13:00:25"
+}

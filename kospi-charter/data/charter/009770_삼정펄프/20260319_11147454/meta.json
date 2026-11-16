@@ -1,0 +1,24 @@
+{
+ "corp_code": "00128227",
+ "corp_name": "삼정펄프",
+ "stock_code": "009770",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000474",
+ "dcmNo": "11147454",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000474&dcmNo=11147454",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000474&dcmNo=11147454&eleId=1&offset=596&length=20911&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10911,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/009770_삼정펄프/20260319_11147454",
+ "fetched_at": "2026-11-16T12:34:26",
+ "used_by_rcept_no": [
+  "20260319000474"
+ ]
+}

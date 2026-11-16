@@ -1,0 +1,24 @@
+{
+ "corp_code": "00141626",
+ "corp_name": "오리엔트바이오",
+ "stock_code": "002630",
+ "att_title": "2026.06.19 정관",
+ "att_date": "20260619",
+ "rcpNo": "20260619000593",
+ "dcmNo": "11440455",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000593&dcmNo=11440455",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260619000593&dcmNo=11440455&eleId=1&offset=600&length=28586&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12623,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/002630_오리엔트바이오/20260619_11440455",
+ "fetched_at": "2026-11-16T12:20:05",
+ "used_by_rcept_no": [
+  "20260619000626"
+ ]
+}

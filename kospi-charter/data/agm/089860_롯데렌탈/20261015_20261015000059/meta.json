@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261015000059",
+ "corp_code": "00545716",
+ "corp_name": "롯데렌탈",
+ "stock_code": "089860",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261015",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000059",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261015000059.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261015000059.xml",
+   "bytes": 134193,
+   "sha256": "8f7222c1dc7d5a1c37c16f9d6beb0eaecb1510f111bbbc031c2f5253c7831e94"
+  }
+ ],
+ "folder": "data/agm/089860_롯데렌탈/20261015_20261015000059",
+ "fetched_at": "2026-11-16T13:01:54"
+}

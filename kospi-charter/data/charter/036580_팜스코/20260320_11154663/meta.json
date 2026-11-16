@@ -1,0 +1,24 @@
+{
+ "corp_code": "00260408",
+ "corp_name": "팜스코",
+ "stock_code": "036580",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000233",
+ "dcmNo": "11154663",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000233&dcmNo=11154663",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000233&dcmNo=11154663&eleId=1&offset=594&length=69410&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11349,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/036580_팜스코/20260320_11154663",
+ "fetched_at": "2026-11-16T13:14:01",
+ "used_by_rcept_no": [
+  "20260320000233"
+ ]
+}

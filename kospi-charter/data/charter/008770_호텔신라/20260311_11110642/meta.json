@@ -1,0 +1,24 @@
+{
+ "corp_code": "00165680",
+ "corp_name": "호텔신라",
+ "stock_code": "008770",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311004398",
+ "dcmNo": "11110642",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004398&dcmNo=11110642",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004398&dcmNo=11110642&eleId=1&offset=595&length=28183&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11134,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/008770_호텔신라/20260311_11110642",
+ "fetched_at": "2026-11-16T12:32:29",
+ "used_by_rcept_no": [
+  "20260311004398"
+ ]
+}

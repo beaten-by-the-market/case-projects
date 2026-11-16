@@ -1,0 +1,24 @@
+{
+ "corp_code": "00442835",
+ "corp_name": "메타랩스",
+ "stock_code": "090370",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000871",
+ "dcmNo": "11149883",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000871&dcmNo=11149883",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000871&dcmNo=11149883&eleId=1&offset=595&length=35612&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 17446,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/090370_메타랩스/20260319_11149883",
+ "fetched_at": "2026-11-16T13:24:07",
+ "used_by_rcept_no": [
+  "20260319000871"
+ ]
+}

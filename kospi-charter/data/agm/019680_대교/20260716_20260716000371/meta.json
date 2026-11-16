@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260716000371",
+ "corp_code": "00108913",
+ "corp_name": "대교",
+ "stock_code": "019680",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260716",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000371",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 507,
+ "charter_amend_txt": "data/agm/019680_대교/20260716_20260716000371/정관의변경.txt",
+ "main_xml": "20260716000371.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260716000371.xml",
+   "bytes": 61541,
+   "sha256": "0fdcf978b864a1092ca9983fb55fa69afca86d3c72a2ab0001904207fc0763e1"
+  }
+ ],
+ "folder": "data/agm/019680_대교/20260716_20260716000371",
+ "fetched_at": "2026-11-16T13:00:59"
+}

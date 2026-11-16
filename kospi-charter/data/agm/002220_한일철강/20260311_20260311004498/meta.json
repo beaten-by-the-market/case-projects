@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260311004498",
+ "corp_code": "00163196",
+ "corp_name": "한일철강",
+ "stock_code": "002220",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260311",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004498",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2001,
+ "charter_amend_txt": "data/agm/002220_한일철강/20260311_20260311004498/정관의변경.txt",
+ "main_xml": "20260311004498.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260311004498.xml",
+   "bytes": 1320551,
+   "sha256": "090a54dea069b5228d24a4adf24620696f569b58c9a5097779b2e7466384ec85"
+  }
+ ],
+ "folder": "data/agm/002220_한일철강/20260311_20260311004498",
+ "fetched_at": "2026-11-16T12:59:17"
+}

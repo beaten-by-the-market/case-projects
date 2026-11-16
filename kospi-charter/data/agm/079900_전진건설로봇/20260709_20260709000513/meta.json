@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260709000513",
+ "corp_code": "00372129",
+ "corp_name": "전진건설로봇",
+ "stock_code": "079900",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260709",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000513",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260709000513.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260709000513.xml",
+   "bytes": 45675,
+   "sha256": "e7a0dfbe7cf85ee42a7c601f8c7904fd38f87eeb42960cadaa042220d2937a75"
+  }
+ ],
+ "folder": "data/agm/079900_전진건설로봇/20260709_20260709000513",
+ "fetched_at": "2026-11-16T13:00:55"
+}

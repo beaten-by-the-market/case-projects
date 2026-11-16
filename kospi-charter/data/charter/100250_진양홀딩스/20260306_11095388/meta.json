@@ -1,0 +1,24 @@
+{
+ "corp_code": "00646732",
+ "corp_name": "진양홀딩스",
+ "stock_code": "100250",
+ "att_title": "2026.03.06 정관",
+ "att_date": "20260306",
+ "rcpNo": "20260305001671",
+ "dcmNo": "11095388",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001671&dcmNo=11095388",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260305001671&dcmNo=11095388&eleId=1&offset=596&length=17063&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10487,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/100250_진양홀딩스/20260306_11095388",
+ "fetched_at": "2026-11-16T13:26:07",
+ "used_by_rcept_no": [
+  "20260312001025"
+ ]
+}

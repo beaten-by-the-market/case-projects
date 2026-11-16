@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260716000710",
+ "corp_code": "00141626",
+ "corp_name": "오리엔트바이오",
+ "stock_code": "002630",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260716",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000710",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 606,
+ "charter_amend_txt": "data/agm/002630_오리엔트바이오/20260716_20260716000710/정관의변경.txt",
+ "main_xml": "20260716000710.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260716000710.xml",
+   "bytes": 68180,
+   "sha256": "637674363917d54bb77614d8341dc300523e3be16cecc6374685194bdca6265a"
+  }
+ ],
+ "folder": "data/agm/002630_오리엔트바이오/20260716_20260716000710",
+ "fetched_at": "2026-11-16T13:01:17"
+}

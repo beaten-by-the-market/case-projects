@@ -1,0 +1,115 @@
+{
+ "corp_code": "00194947",
+ "corp_name": "한전산업",
+ "stock_code": "130660",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000705",
+ "dcmNo": "11148718",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000705&dcmNo=11148718",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000705&dcmNo=11148718&eleId=1&offset=594&length=1559&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 9,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148718&flNm=11100%28%EC%A0%95%EA%B4%80%29_35%EC%B0%A8_1.jpg",
+   "flNm": "11100(정관)_35차_1.jpg",
+   "alt": "이미지: 11100(정관)_35차_1",
+   "bytes": 135778,
+   "sha256": "d7ae638931318c2fec7e5396552ba3a30c2f7a46a9e59c5d0ac279d041ee6b86",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148718&flNm=11100%28%EC%A0%95%EA%B4%80%29_35%EC%B0%A8_2.jpg",
+   "flNm": "11100(정관)_35차_2.jpg",
+   "alt": "이미지: 11100(정관)_35차_2",
+   "bytes": 152242,
+   "sha256": "bf25a227a11bf693b35e3da3f8f8b5fa403ad51d7eb3ccf7f650e5801484445d",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148718&flNm=11100%28%EC%A0%95%EA%B4%80%29_35%EC%B0%A8_3.jpg",
+   "flNm": "11100(정관)_35차_3.jpg",
+   "alt": "이미지: 11100(정관)_35차_3",
+   "bytes": 151845,
+   "sha256": "b39dea913040fcca9dd0aaa8d1ccab2942f7472021870184874212abf920f4b8",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148718&flNm=11100%28%EC%A0%95%EA%B4%80%29_35%EC%B0%A8_4.jpg",
+   "flNm": "11100(정관)_35차_4.jpg",
+   "alt": "이미지: 11100(정관)_35차_4",
+   "bytes": 150835,
+   "sha256": "be330616b79ba290c1d393727c38aa3d985bc6eb337fda2a6739fadbe85383ce",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148718&flNm=11100%28%EC%A0%95%EA%B4%80%29_35%EC%B0%A8_5.jpg",
+   "flNm": "11100(정관)_35차_5.jpg",
+   "alt": "이미지: 11100(정관)_35차_5",
+   "bytes": 146602,
+   "sha256": "0eb6d2ef878603e75874ecb2723e618e1d1625080111d49f9943d6b615f39db3",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148718&flNm=11100%28%EC%A0%95%EA%B4%80%29_35%EC%B0%A8_6.jpg",
+   "flNm": "11100(정관)_35차_6.jpg",
+   "alt": "이미지: 11100(정관)_35차_6",
+   "bytes": 147378,
+   "sha256": "28dec8ecdd4a3a8fbd071781c7250f2a4745a165dfb3197a4f6e42ea878ed3bf",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148718&flNm=11100%28%EC%A0%95%EA%B4%80%29_35%EC%B0%A8_7.jpg",
+   "flNm": "11100(정관)_35차_7.jpg",
+   "alt": "이미지: 11100(정관)_35차_7",
+   "bytes": 121799,
+   "sha256": "d08ed56ebbc8929fedb3470bc2a094e91fd7a186ec3c946ac7eff54b64ff9885",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148718&flNm=11100%28%EC%A0%95%EA%B4%80%29_35%EC%B0%A8_8.jpg",
+   "flNm": "11100(정관)_35차_8.jpg",
+   "alt": "이미지: 11100(정관)_35차_8",
+   "bytes": 170773,
+   "sha256": "8a5a10c0aa5ea5db68ae078d020bed387475a0e35db2165d98e2b382996ee0cc",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148718&flNm=11100%28%EC%A0%95%EA%B4%80%29_35%EC%B0%A8_9.jpg",
+   "flNm": "11100(정관)_35차_9.jpg",
+   "alt": "이미지: 11100(정관)_35차_9",
+   "bytes": 126775,
+   "sha256": "b3391356510e66f06cf6ae4dfe34ed668491c18324e7ca8cd26a46b671527cc3",
+   "width": 793,
+   "height": 1122
+  }
+ ],
+ "folder": "data/charter/130660_한전산업/20260319_11148718",
+ "fetched_at": "2026-11-16T13:28:55",
+ "used_by_rcept_no": [
+  "20260319000705"
+ ]
+}

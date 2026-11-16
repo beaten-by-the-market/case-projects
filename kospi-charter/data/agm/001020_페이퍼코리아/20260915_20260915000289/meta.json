@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260915000289",
+ "corp_code": "00134723",
+ "corp_name": "페이퍼코리아",
+ "stock_code": "001020",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260915",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000289",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260915000289.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260915000289.xml",
+   "bytes": 49441,
+   "sha256": "4b873c88deef18c886379a9b8c2e214d4f722deb98949c74791c889f34e66ef5"
+  }
+ ],
+ "folder": "data/agm/001020_페이퍼코리아/20260915_20260915000289",
+ "fetched_at": "2026-11-16T13:01:42"
+}

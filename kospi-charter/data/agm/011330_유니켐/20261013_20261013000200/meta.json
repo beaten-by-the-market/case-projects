@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261013000200",
+ "corp_code": "00137207",
+ "corp_name": "유니켐",
+ "stock_code": "011330",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261013",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000200",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 438,
+ "charter_amend_txt": "data/agm/011330_유니켐/20261013_20261013000200/정관의변경.txt",
+ "main_xml": "20261013000200.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261013000200.xml",
+   "bytes": 68329,
+   "sha256": "7f1263a93505d8965705f80263fe189a882a8303b65cd5708b6c0000a11ced99"
+  }
+ ],
+ "folder": "data/agm/011330_유니켐/20261013_20261013000200",
+ "fetched_at": "2026-11-16T13:01:51"
+}

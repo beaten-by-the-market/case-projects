@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260605000585",
+ "corp_code": "00117337",
+ "corp_name": "동양",
+ "stock_code": "001520",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260605",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000585",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 218,
+ "charter_amend_txt": "data/agm/001520_동양/20260605_20260605000585/정관의변경.txt",
+ "main_xml": "20260605000585.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260605000585.xml",
+   "bytes": 66388,
+   "sha256": "a087d1476048cac7ea18beee5c3fe419eca0bb1df48cc86f0bf29391aefec942"
+  }
+ ],
+ "folder": "data/agm/001520_동양/20260605_20260605000585",
+ "fetched_at": "2026-11-16T13:00:35"
+}

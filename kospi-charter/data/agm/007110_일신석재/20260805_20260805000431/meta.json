@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260805000431",
+ "corp_code": "00146296",
+ "corp_name": "일신석재",
+ "stock_code": "007110",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260805",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000431",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 535,
+ "charter_amend_txt": "data/agm/007110_일신석재/20260805_20260805000431/정관의변경.txt",
+ "main_xml": "20260805000431.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260805000431.xml",
+   "bytes": 38763,
+   "sha256": "0ed43f3e4b5db884516b48e6d6d70360e6ecb2693ef090d5969ae1d38a1dfe3d"
+  }
+ ],
+ "folder": "data/agm/007110_일신석재/20260805_20260805000431",
+ "fetched_at": "2026-11-16T13:01:24"
+}

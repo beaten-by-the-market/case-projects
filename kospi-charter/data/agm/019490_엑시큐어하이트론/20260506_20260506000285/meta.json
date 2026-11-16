@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260506000285",
+ "corp_code": "00156150",
+ "corp_name": "엑시큐어하이트론",
+ "stock_code": "019490",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260506",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000285",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260506000285.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260506000285.xml",
+   "bytes": 49381,
+   "sha256": "88763259cd370924fbf88795345fb35b2c9253c4f370ff24359e24b3a5c2bba5"
+  }
+ ],
+ "folder": "data/agm/019490_엑시큐어하이트론/20260506_20260506000285",
+ "fetched_at": "2026-11-16T13:00:19"
+}

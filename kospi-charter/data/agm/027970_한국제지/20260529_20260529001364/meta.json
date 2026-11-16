@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260529001364",
+ "corp_code": "00133706",
+ "corp_name": "한국제지",
+ "stock_code": "027970",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260529",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001364",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 198,
+ "charter_amend_txt": "data/agm/027970_한국제지/20260529_20260529001364/정관의변경.txt",
+ "main_xml": "20260529001364.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260529001364.xml",
+   "bytes": 39424,
+   "sha256": "df41e35a47c6cd91e06d3a9ecdfb3b97003f451ad6d7d076a928a17a18cdc951"
+  }
+ ],
+ "folder": "data/agm/027970_한국제지/20260529_20260529001364",
+ "fetched_at": "2026-11-16T13:00:31"
+}

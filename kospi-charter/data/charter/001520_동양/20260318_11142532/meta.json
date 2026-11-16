@@ -1,0 +1,24 @@
+{
+ "corp_code": "00117337",
+ "corp_name": "동양",
+ "stock_code": "001520",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001406",
+ "dcmNo": "11142532",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001406&dcmNo=11142532",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001406&dcmNo=11142532&eleId=1&offset=593&length=68065&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 20273,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/001520_동양/20260318_11142532",
+ "fetched_at": "2026-11-16T12:16:55",
+ "used_by_rcept_no": [
+  "20260318001406"
+ ]
+}

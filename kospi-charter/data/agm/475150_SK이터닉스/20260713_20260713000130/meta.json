@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260713000130",
+ "corp_code": "01817081",
+ "corp_name": "SK이터닉스",
+ "stock_code": "475150",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260713",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000130",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260713000130.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260713000130.xml",
+   "bytes": 87062,
+   "sha256": "40203a190aba1c60f98f9b7b5ae4b67324bd64c890e13a52c53004594051969e"
+  }
+ ],
+ "folder": "data/agm/475150_SK이터닉스/20260713_20260713000130",
+ "fetched_at": "2026-11-16T13:00:56"
+}

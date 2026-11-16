@@ -1,0 +1,24 @@
+{
+ "corp_code": "00111689",
+ "corp_name": "아진전자부품",
+ "stock_code": "009320",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001496",
+ "dcmNo": "11168085",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001496&dcmNo=11168085",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001496&dcmNo=11168085&eleId=1&offset=597&length=16118&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9843,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/009320_아진전자부품/20260323_11168085",
+ "fetched_at": "2026-11-16T12:33:28",
+ "used_by_rcept_no": [
+  "20260323001496"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00136624",
+ "corp_name": "신영와코루",
+ "stock_code": "005800",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312001122",
+ "dcmNo": "11116047",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001122&dcmNo=11116047",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001122&dcmNo=11116047&eleId=1&offset=596&length=13734&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 6748,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/005800_신영와코루/20260312_11116047",
+ "fetched_at": "2026-11-16T12:27:49",
+ "used_by_rcept_no": [
+  "20260312001122"
+ ]
+}

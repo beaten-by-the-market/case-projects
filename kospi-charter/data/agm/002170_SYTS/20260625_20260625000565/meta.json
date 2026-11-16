@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260625000565",
+ "corp_code": "00127042",
+ "corp_name": "SYTS",
+ "stock_code": "002170",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260625",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625000565",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 536,
+ "charter_amend_txt": "data/agm/002170_SYTS/20260625_20260625000565/정관의변경.txt",
+ "main_xml": "20260625000565.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260625000565.xml",
+   "bytes": 44974,
+   "sha256": "e077c6c3c548fef86ad65fffa30e20d8af041d0594d5a52cff13ec43c020e2c3"
+  }
+ ],
+ "folder": "data/agm/002170_SYTS/20260625_20260625000565",
+ "fetched_at": "2026-11-16T13:00:48"
+}

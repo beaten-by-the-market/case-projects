@@ -1,0 +1,24 @@
+{
+ "corp_code": "00854997",
+ "corp_name": "에스디바이오센서",
+ "stock_code": "137310",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001064",
+ "dcmNo": "11139854",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001064&dcmNo=11139854",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001064&dcmNo=11139854&eleId=1&offset=601&length=26027&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12135,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/137310_에스디바이오센서/20260318_11139854",
+ "fetched_at": "2026-11-16T13:29:05",
+ "used_by_rcept_no": [
+  "20260318001064"
+ ]
+}

@@ -1,0 +1,285 @@
+{
+ "corp_code": "00113526",
+ "corp_name": "대한항공",
+ "stock_code": "003490",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001125",
+ "dcmNo": "11140186",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001125&dcmNo=11140186",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001125&dcmNo=11140186&eleId=1&offset=595&length=4201&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 26,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_1.jpg",
+   "flNm": "대한항공 정관_page_1.jpg",
+   "alt": "이미지: 대한항공 정관_page_1",
+   "bytes": 206148,
+   "sha256": "b95d2883de61e8f25bd87b2af052fd2c6fcf8486bef56eb73db27b5eb144d123",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_2.jpg",
+   "flNm": "대한항공 정관_page_2.jpg",
+   "alt": "이미지: 대한항공 정관_page_2",
+   "bytes": 157959,
+   "sha256": "5d3a9cbf74973e9658bfabe08d2947db6c7dbfc0a88a8384b1c7741b2b23825d",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_3.jpg",
+   "flNm": "대한항공 정관_page_3.jpg",
+   "alt": "이미지: 대한항공 정관_page_3",
+   "bytes": 243538,
+   "sha256": "3e377dadf3a452ca3d7ed83f7eaab2b99acddc953bd2d33dbd6221e9eeda6aac",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_4.jpg",
+   "flNm": "대한항공 정관_page_4.jpg",
+   "alt": "이미지: 대한항공 정관_page_4",
+   "bytes": 184665,
+   "sha256": "c49dc6fdf0e40924b836d67b5f66f1eb298f0181419386fb2379d2a184da8e7b",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_5.jpg",
+   "flNm": "대한항공 정관_page_5.jpg",
+   "alt": "이미지: 대한항공 정관_page_5",
+   "bytes": 149639,
+   "sha256": "ecb06a62f0d453cd0c6aff970e2abfc0e25a733efffb6af428a0d7fafcef57b6",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_6.jpg",
+   "flNm": "대한항공 정관_page_6.jpg",
+   "alt": "이미지: 대한항공 정관_page_6",
+   "bytes": 141154,
+   "sha256": "4dfbba2627c645f75952223db6a6abda8793b31c9ccec6c07b92e1025fe3691b",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_7.jpg",
+   "flNm": "대한항공 정관_page_7.jpg",
+   "alt": "이미지: 대한항공 정관_page_7",
+   "bytes": 122545,
+   "sha256": "2af6de5cd924c2cc3619cdf44e9f890d3ebb13b05cb1c4bfee9c471e77359e0f",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_8.jpg",
+   "flNm": "대한항공 정관_page_8.jpg",
+   "alt": "이미지: 대한항공 정관_page_8",
+   "bytes": 125788,
+   "sha256": "19c4b03a643e374c452f74d7a6fbf572e014420cbd1f41c8216c00f4eb1d7793",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_9.jpg",
+   "flNm": "대한항공 정관_page_9.jpg",
+   "alt": "이미지: 대한항공 정관_page_9",
+   "bytes": 144000,
+   "sha256": "b4360c88d513b6832d4a4c19ce2c5f20176af122437b01a1fecb7976e96fd35b",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_10.jpg",
+   "flNm": "대한항공 정관_page_10.jpg",
+   "alt": "이미지: 대한항공 정관_page_10",
+   "bytes": 273110,
+   "sha256": "9faac7784b7bf3be4d62ae0e840dfee295ac9900b33378f56da91f1cd54b4b8e",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_11.jpg",
+   "flNm": "대한항공 정관_page_11.jpg",
+   "alt": "이미지: 대한항공 정관_page_11",
+   "bytes": 119897,
+   "sha256": "ac8641087a94bc8219cc8b234def96a3e0f184f808de44b9139c9a98c09531a6",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_12.jpg",
+   "flNm": "대한항공 정관_page_12.jpg",
+   "alt": "이미지: 대한항공 정관_page_12",
+   "bytes": 281711,
+   "sha256": "85f73a8d3b41f4646ccb0134b09c5eed72715e2306bb78677f06fa621ef220b2",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_13.jpg",
+   "flNm": "대한항공 정관_page_13.jpg",
+   "alt": "이미지: 대한항공 정관_page_13",
+   "bytes": 284644,
+   "sha256": "6f65c02102b853c1b614602719e9876f3564ed30865b5cf95f92cdf8a84aed96",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_14.jpg",
+   "flNm": "대한항공 정관_page_14.jpg",
+   "alt": "이미지: 대한항공 정관_page_14",
+   "bytes": 122810,
+   "sha256": "fc0fe34ed7722051d2a255170b489b74451a2acbdab40ff7b3c4242e949be465",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_15.jpg",
+   "flNm": "대한항공 정관_page_15.jpg",
+   "alt": "이미지: 대한항공 정관_page_15",
+   "bytes": 127069,
+   "sha256": "b39d42ec5145198f4c82eff18b84fe75feb238c0f0d0f36fe63b74cf095f0d9b",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_16.jpg",
+   "flNm": "대한항공 정관_page_16.jpg",
+   "alt": "이미지: 대한항공 정관_page_16",
+   "bytes": 120434,
+   "sha256": "606f7bba3bd67787f9564e8e10486e8e9bffc89be42538d1b35c9af08bd69bf0",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_17.jpg",
+   "flNm": "대한항공 정관_page_17.jpg",
+   "alt": "이미지: 대한항공 정관_page_17",
+   "bytes": 147301,
+   "sha256": "60cb19a6032b2a9a2dd152b5ca23bf8d1965e196583710b71d3a17caff11bb44",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_18.jpg",
+   "flNm": "대한항공 정관_page_18.jpg",
+   "alt": "이미지: 대한항공 정관_page_18",
+   "bytes": 306318,
+   "sha256": "ce2905c302263d43dba0ecd52dc2a89005830c6e45ae898cb399dfa33dd5b236",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_19.jpg",
+   "flNm": "대한항공 정관_page_19.jpg",
+   "alt": "이미지: 대한항공 정관_page_19",
+   "bytes": 137453,
+   "sha256": "7faccb68bd36f9c101398e365f83801b63bcd1d9429171b9f61967dda361e6ea",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_20.jpg",
+   "flNm": "대한항공 정관_page_20.jpg",
+   "alt": "이미지: 대한항공 정관_page_20",
+   "bytes": 266349,
+   "sha256": "1595ee493f4b241b27ad0afaf1882475aedff7276717b357a9f6b6ecf9d1e922",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_21.jpg",
+   "flNm": "대한항공 정관_page_21.jpg",
+   "alt": "이미지: 대한항공 정관_page_21",
+   "bytes": 260927,
+   "sha256": "be94f5de141dc323b9ee550008c88b5cb33839869120d1b91d891715e137f10f",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_22.jpg",
+   "flNm": "대한항공 정관_page_22.jpg",
+   "alt": "이미지: 대한항공 정관_page_22",
+   "bytes": 269629,
+   "sha256": "cd1a39c6ce8796c11a65ceb5acdda02c5ffea9b445d7477ee05d07b699287d7c",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_23.jpg",
+   "flNm": "대한항공 정관_page_23.jpg",
+   "alt": "이미지: 대한항공 정관_page_23",
+   "bytes": 209360,
+   "sha256": "e1e1a43223c597f00c6ea37410c4c371af7a27cf35454e5493a72dd2cb48c385",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/024.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_24.jpg",
+   "flNm": "대한항공 정관_page_24.jpg",
+   "alt": "이미지: 대한항공 정관_page_24",
+   "bytes": 141544,
+   "sha256": "d90c38500958df755defcee21fdc55eda222679115061b51c86d8d7604b6b5e8",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/025.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_25.jpg",
+   "flNm": "대한항공 정관_page_25.jpg",
+   "alt": "이미지: 대한항공 정관_page_25",
+   "bytes": 183388,
+   "sha256": "e4dd2780f890e2bff4580f64fc3f02cf93390b403e4562b73c0334b2d973e114",
+   "width": 1032,
+   "height": 1458
+  },
+  {
+   "file": "img/026.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140186&flNm=%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80_page_26.jpg",
+   "flNm": "대한항공 정관_page_26.jpg",
+   "alt": "이미지: 대한항공 정관_page_26",
+   "bytes": 61608,
+   "sha256": "ab9b55f36e82ba6e885d7985edfb2091e57f0c14c1b159b8136d18cac7cd6428",
+   "width": 1032,
+   "height": 1458
+  }
+ ],
+ "folder": "data/charter/003490_대한항공/20260318_11140186",
+ "fetched_at": "2026-11-16T12:22:49",
+ "used_by_rcept_no": [
+  "20260318001125"
+ ]
+}

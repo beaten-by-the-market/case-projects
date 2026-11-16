@@ -1,0 +1,24 @@
+{
+ "corp_code": "00124780",
+ "corp_name": "사조씨푸드",
+ "stock_code": "014710",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000763",
+ "dcmNo": "11133326",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000763&dcmNo=11133326",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000763&dcmNo=11133326&eleId=1&offset=598&length=20390&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10705,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/014710_사조씨푸드/20260317_11133326",
+ "fetched_at": "2026-11-16T13:03:21",
+ "used_by_rcept_no": [
+  "20260317000763"
+ ]
+}

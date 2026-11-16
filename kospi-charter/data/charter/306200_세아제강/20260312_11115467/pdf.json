@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11115467&flNm=gr0-0201-00-03%28%EC%A0%95%EA%B4%80%29.pdf",
+   "flNm": "gr0-0201-00-03(정관).pdf",
+   "bytes": 355984,
+   "sha256": "6cecfe409285f16815cbc27560299605412c0a477ebad4af5945359d59024471",
+   "pages": 18,
+   "text_pages": 17,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 9859,
+ "pages": 18,
+ "text_pages": 17,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T13:48:02",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

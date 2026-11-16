@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260825000210",
+ "corp_code": "00148610",
+ "corp_name": "한화투자증권",
+ "stock_code": "003530",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260825",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000210",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260825000210.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260825000210.xml",
+   "bytes": 200159,
+   "sha256": "709323da4c17a5917790f9b485a9b5a382f89eb36a2e2826919ea4f6144f83ca"
+  }
+ ],
+ "folder": "data/agm/003530_한화투자증권/20260825_20260825000210",
+ "fetched_at": "2026-11-16T13:01:38"
+}

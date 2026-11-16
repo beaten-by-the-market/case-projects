@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260313001369",
+ "corp_code": "00173102",
+ "corp_name": "모나리자",
+ "stock_code": "012690",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260313",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001369",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1351,
+ "charter_amend_txt": "data/agm/012690_모나리자/20260313_20260313001369/정관의변경.txt",
+ "main_xml": "20260313001369.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260313001369.xml",
+   "bytes": 172738,
+   "sha256": "b1d047f321f41e22a67ba2a8648e85db53fd5316168f9c720add9ddc8971fb51"
+  }
+ ],
+ "folder": "data/agm/012690_모나리자/20260313_20260313001369",
+ "fetched_at": "2026-11-16T12:59:18"
+}

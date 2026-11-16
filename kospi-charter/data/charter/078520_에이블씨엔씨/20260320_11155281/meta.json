@@ -1,0 +1,24 @@
+{
+ "corp_code": "00400857",
+ "corp_name": "에이블씨엔씨",
+ "stock_code": "078520",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000406",
+ "dcmNo": "11155281",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000406&dcmNo=11155281",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000406&dcmNo=11155281&eleId=1&offset=594&length=21463&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12728,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/078520_에이블씨엔씨/20260320_11155281",
+ "fetched_at": "2026-11-16T13:19:39",
+ "used_by_rcept_no": [
+  "20260320000406"
+ ]
+}

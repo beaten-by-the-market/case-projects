@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260805000162",
+ "corp_code": "00167208",
+ "corp_name": "흥아해운",
+ "stock_code": "003280",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260805",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000162",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 260,
+ "charter_amend_txt": "data/agm/003280_흥아해운/20260805_20260805000162/정관의변경.txt",
+ "main_xml": "20260805000162.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260805000162.xml",
+   "bytes": 47715,
+   "sha256": "73c93f25bb04e4bfab8e72281bbb6458ecc19684ce1b9a91097f4013dc57d805"
+  }
+ ],
+ "folder": "data/agm/003280_흥아해운/20260805_20260805000162",
+ "fetched_at": "2026-11-16T13:01:24"
+}

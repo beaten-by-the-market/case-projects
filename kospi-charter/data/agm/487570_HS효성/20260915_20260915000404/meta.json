@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260915000404",
+ "corp_code": "01854763",
+ "corp_name": "HS효성",
+ "stock_code": "487570",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260915",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000404",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260915000404.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260915000404.xml",
+   "bytes": 97876,
+   "sha256": "815a91dff01822b15027c56103e0a3d5fa814f80ac2f9d712a855b2cd3783d5b"
+  }
+ ],
+ "folder": "data/agm/487570_HS효성/20260915_20260915000404",
+ "fetched_at": "2026-11-16T13:01:44"
+}

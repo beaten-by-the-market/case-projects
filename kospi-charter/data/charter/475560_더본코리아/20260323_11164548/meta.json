@@ -1,0 +1,225 @@
+{
+ "corp_code": "00968607",
+ "corp_name": "더본코리아",
+ "stock_code": "475560",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000930",
+ "dcmNo": "11164548",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000930&dcmNo=11164548",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000930&dcmNo=11164548&eleId=1&offset=596&length=3797&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 20,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_01.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_01.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_01",
+   "bytes": 234360,
+   "sha256": "f1a3792c31dd05cfb25d74f7afdc0ca27608d7ba56e98c99281a8c2082637592",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_02.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_02.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_02",
+   "bytes": 248594,
+   "sha256": "7be182827c8814f92008008a8e12369b6a3a537e4a55ddc8b76456a0d3f47b63",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_03.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_03.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_03",
+   "bytes": 280001,
+   "sha256": "8663cd291a74defbd4bf58d242328a4edb3793abd2b75aba5cb19c550cb8a1f1",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_04.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_04.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_04",
+   "bytes": 97074,
+   "sha256": "0c39cf321a2ea8dd14da018cceee7371ef6e9091d88d04a6ba0bd7e43063fcea",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_05.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_05.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_05",
+   "bytes": 119566,
+   "sha256": "61e452ef4d25e6e42ffd80844713cfd71322d8873b4dc4b5cff9dc43fe6b642c",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_06.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_06.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_06",
+   "bytes": 128112,
+   "sha256": "f2e0189d699e9e83e9897e7b55dfffa77c9a9167d40d5a9fd8db77215b5823d1",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_07.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_07.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_07",
+   "bytes": 123251,
+   "sha256": "689361610bf703ae174fbad62f274a4bc476232bbcd32cfa3039ed4dc84f6b0b",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_08.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_08.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_08",
+   "bytes": 117537,
+   "sha256": "c482ae6366dbddba3364c23dad9001d39a396ef60302e6bf1861334532c9e32c",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_09.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_09.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_09",
+   "bytes": 108720,
+   "sha256": "3a7d628c863f073b12b783b2632339a8b56597bdc05831804e43d30bf0eb8958",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_10.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_10.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_10",
+   "bytes": 116225,
+   "sha256": "5895411b1e8eb72385f833009e60977dcf0aa41a2f6b2d9824c910037c20d18e",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_11.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_11.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_11",
+   "bytes": 103611,
+   "sha256": "585fd7c5c6770bcbc84b24d4acfd5d08070fa5720e70b436d86b0b194115b177",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_12.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_12.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_12",
+   "bytes": 113958,
+   "sha256": "7d6bbf16df12cfe23075aecb5ed903a66d087f3fa84cae7d4942f0ae195dbc22",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_13.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_13.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_13",
+   "bytes": 300764,
+   "sha256": "bd1ebe4b83913508f15a94c3b69b02b2b79cd6d4abb225b3c615c0c2d63aa14c",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_14.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_14.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_14",
+   "bytes": 102287,
+   "sha256": "674613a8aeefc4e7475773412a64ab1dc87fc5c277ec9ea9980035b3011866ed",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_15.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_15.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_15",
+   "bytes": 104895,
+   "sha256": "347e2305ec31a8bf1f08039def0b8f9edc31345081415868aee05a7394fc1d67",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_16.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_16.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_16",
+   "bytes": 90349,
+   "sha256": "a916246070c589e31035d75d7a21ce07ebc14ac5ad683ee001c935bd5a83fcd2",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_17.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_17.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_17",
+   "bytes": 120977,
+   "sha256": "f040d6431055ad5dfac73aa2e7a896e6835d1e693463e0759c4089f699ef4ce4",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_18.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_18.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_18",
+   "bytes": 94420,
+   "sha256": "b219477c7a3c7191eb0631785ef76e114a14ba3763d35954a405cf56173af646",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_19.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_19.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_19",
+   "bytes": 102689,
+   "sha256": "ec3a911022f04eff12343d7d8f18edf292133859729dfeb501a6e50618db6db0",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164548&flNm=%EB%8D%94%EB%B3%B8%EC%BD%94%EB%A6%AC%EC%95%84_%EC%A0%95%EA%B4%80%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29_%EC%8B%9C%ED%96%89%EC%9D%BC240329_20.jpg",
+   "flNm": "더본코리아_정관(원본대조필)_시행일240329_20.jpg",
+   "alt": "이미지: 더본코리아_정관(원본대조필)_시행일240329_20",
+   "bytes": 93892,
+   "sha256": "a5fbf80e5a9fe6e87087afc8860727c25a0200353557c1bdd455dc1777fda7d4",
+   "width": 794,
+   "height": 1123
+  }
+ ],
+ "folder": "data/charter/475560_더본코리아/20260323_11164548",
+ "fetched_at": "2026-11-16T13:43:55",
+ "used_by_rcept_no": [
+  "20260323000930"
+ ]
+}

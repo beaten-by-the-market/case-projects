@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261008000436",
+ "corp_code": "00480455",
+ "corp_name": "STX엔진",
+ "stock_code": "077970",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261008",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000436",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261008000436.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261008000436.xml",
+   "bytes": 73829,
+   "sha256": "24cd5a82e44d1bc8a9e8585c742bd21682fad3fb23176965b82c04719f38c576"
+  }
+ ],
+ "folder": "data/agm/077970_STX엔진/20261008_20261008000436",
+ "fetched_at": "2026-11-16T13:01:50"
+}

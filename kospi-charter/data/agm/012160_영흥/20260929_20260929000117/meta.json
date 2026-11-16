@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260929000117",
+ "corp_code": "00141477",
+ "corp_name": "영흥",
+ "stock_code": "012160",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260929",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000117",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260929000117.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260929000117.xml",
+   "bytes": 68955,
+   "sha256": "8be62fda4dc3bd1de6fdef900fb07df7fb8ed7e6259f33a051bfaaf87d3af1be"
+  }
+ ],
+ "folder": "data/agm/012160_영흥/20260929_20260929000117",
+ "fetched_at": "2026-11-16T13:01:47"
+}

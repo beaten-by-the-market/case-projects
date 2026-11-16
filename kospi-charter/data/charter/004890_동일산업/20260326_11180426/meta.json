@@ -1,0 +1,25 @@
+{
+ "corp_code": "00172936",
+ "corp_name": "동일산업",
+ "stock_code": "004890",
+ "att_title": "2026.03.26 [정정] 정관",
+ "att_date": "20260326",
+ "rcpNo": "20260326000328",
+ "dcmNo": "11180426",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326000328&dcmNo=11180426",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260326000328&dcmNo=11180426&eleId=1&offset=644&length=3088&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260326000328&dcmNo=11180426&eleId=2&offset=3762&length=25128&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "text",
+ "text_chars": 11279,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/004890_동일산업/20260326_11180426",
+ "fetched_at": "2026-11-16T12:26:07",
+ "used_by_rcept_no": [
+  "20260326000328"
+ ]
+}

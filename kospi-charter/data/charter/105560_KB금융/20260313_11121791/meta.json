@@ -1,0 +1,24 @@
+{
+ "corp_code": "00688996",
+ "corp_name": "KB금융",
+ "stock_code": "105560",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313001191",
+ "dcmNo": "11121791",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001191&dcmNo=11121791",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313001191&dcmNo=11121791&eleId=1&offset=594&length=42587&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 18708,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/105560_KB금융/20260313_11121791",
+ "fetched_at": "2026-11-16T13:27:23",
+ "used_by_rcept_no": [
+  "20260619000667"
+ ]
+}

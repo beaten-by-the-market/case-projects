@@ -1,0 +1,239 @@
+{
+ "engine": {
+  "name": "Windows.Media.Ocr (Windows built-in OCR)",
+  "package": "winocr 0.0.15",
+  "winrt": "winrt-Windows.Media.Ocr 4!10.0.28000.2705",
+  "opencv": "5.0.0.93",
+  "pillow": "12.1.0",
+  "os": "Windows 10.0.26200"
+ },
+ "lang": "ko",
+ "created_at": "2026-11-16T13:22:33",
+ "settings": {
+  "preprocess": "grayscale → resize long side to 3000px (LANCZOS, upscale ≤ 4.5x) → autocontrast(cutoff=1%) → Gray8 SoftwareBitmap",
+  "long_side": 3000,
+  "max_upscale": 4.5,
+  "autocontrast_cutoff": 1,
+  "row_merge": "OCR lines overlapping vertically ≥ 0.5 of the smaller height are one row, words left→right",
+  "word_join": "engine words joined by one space (no re-spacing)",
+  "circled_numbers": "ring found at row start (or right after '제N조(…)') by HoughCircles + ink coverage {'min_r': 0.34, 'max_r': 0.62, 'hough_param2': 14, 'min_cover': 0.86, 'min_outer_white': 0.7, 'fill': (0.05, 0.8)}; garbled token ('0','㉣','@','(2)'…) removed; row-start circled jamo ㉠-㉭, lone '@'/'Ø'/'(7' also taken as a marker; digit inside ring read by OCR of ring interiors [(0.72, True, 48), (0.72, False, 64), (0.72, False, 48)] (vote); number = consistent read (1 or prev+1..prev+3) else prev+1; reset at each article row '제N조('",
+  "ring_params": {
+   "min_r": 0.34,
+   "max_r": 0.62,
+   "hough_param2": 14,
+   "min_cover": 0.86,
+   "min_outer_white": 0.7,
+   "fill": [
+    0.05,
+    0.8
+   ]
+  },
+  "digit_tiles": [
+   [
+    0.72,
+    true,
+    48
+   ],
+   [
+    0.72,
+    false,
+    64
+   ],
+   [
+    0.72,
+    false,
+    48
+   ]
+  ],
+  "text_fixes": [
+   "date dots: YYYY.MMDD / YYYY.MDD(unambiguous) / YYYYM.DD / YYYYMM.DD → YYYY.M.D",
+   "'•' between Hangul → '·'",
+   "row-start 재/저/지/체/케/졔/져 + N조|장 → 제",
+   "term fixes (ㅊ read as ㅈ etc.): 사재→사채, 종회→총회, 발행주식종수→발행주식총수, 액면종액→액면총액, 서을특별시→서울특별시, 대자대조표→대차대조표, 견우→경우, 개경→개정, 성약→청약, 절자→절차, 저분→처분, 저음→처음, 주식?수선택권→주식매수선택권"
+  ],
+  "workers": 3
+ },
+ "content_type": "image",
+ "pages": [
+  {
+   "file": "img/001.jpg",
+   "sha256": "ced5713df539ddb97856f8578e765de1fc3dc32f1ccd819c52283ac35fe360b7",
+   "lines": 2,
+   "chars": 12,
+   "seconds": 0.107,
+   "circled": 0
+  },
+  {
+   "file": "img/002.jpg",
+   "sha256": "bc10f0315dbc754db6b6e8e26111fc6e258ad7f1a0b8715beccc92751ad29914",
+   "lines": 3,
+   "chars": 38,
+   "seconds": 0.604,
+   "circled": 0
+  },
+  {
+   "file": "img/003.jpg",
+   "sha256": "7b2c8145dbc81532b7337fe9ef75c46b28da9b55a44e4371b01a7e933e67754e",
+   "lines": 44,
+   "chars": 536,
+   "seconds": 0.333,
+   "circled": 0
+  },
+  {
+   "file": "img/004.jpg",
+   "sha256": "07032c6cea5f580cdee326e957e174c3c419665946cf6af4a8a9435377921ced",
+   "lines": 39,
+   "chars": 541,
+   "seconds": 0.347,
+   "circled": 0
+  },
+  {
+   "file": "img/005.jpg",
+   "sha256": "09a0efeb3800853d090a4e02ff3a51f3f692c4ec21624cde6cb0dee987f2b7c5",
+   "lines": 36,
+   "chars": 839,
+   "seconds": 0.492,
+   "circled": 1
+  },
+  {
+   "file": "img/006.jpg",
+   "sha256": "cd3fdf6af3bc9745c7fa0bcc9e6bcf7c0463b16fb7d7cf0b6633ef0fc0207e07",
+   "lines": 38,
+   "chars": 1071,
+   "seconds": 0.593,
+   "circled": 12
+  },
+  {
+   "file": "img/007.jpg",
+   "sha256": "4325f38a79ca0c34246c124c4ebdd7b24f6a8cc270daad28b8d0696032c9b40a",
+   "lines": 39,
+   "chars": 1053,
+   "seconds": 0.553,
+   "circled": 7
+  },
+  {
+   "file": "img/008.jpg",
+   "sha256": "87528ddaa29b83f72f66322db9c7848afce5388d975c940c72a6007355bbb068",
+   "lines": 39,
+   "chars": 1132,
+   "seconds": 0.585,
+   "circled": 4
+  },
+  {
+   "file": "img/009.jpg",
+   "sha256": "2ff9bb6b92984b83aec1a6adad103eecab88dec2259c1b5d34917beb65b77226",
+   "lines": 38,
+   "chars": 1125,
+   "seconds": 0.595,
+   "circled": 7
+  },
+  {
+   "file": "img/010.jpg",
+   "sha256": "3e414360160b261e5ccee7250e21f9e3c53fd5061886dd3c4cf28e70863351cf",
+   "lines": 39,
+   "chars": 1086,
+   "seconds": 0.654,
+   "circled": 8
+  },
+  {
+   "file": "img/011.jpg",
+   "sha256": "db9445de1b74cf12a4b12220b30c1d331c4e46b0d2317fe13a41b143711bd9f7",
+   "lines": 34,
+   "chars": 971,
+   "seconds": 0.611,
+   "circled": 10
+  },
+  {
+   "file": "img/012.jpg",
+   "sha256": "27a702a28047ba518807f3e7a08d8b496bcced882abba6cddffb3948b98bb09b",
+   "lines": 39,
+   "chars": 1052,
+   "seconds": 0.711,
+   "circled": 9
+  },
+  {
+   "file": "img/013.jpg",
+   "sha256": "682a0f2a989ae36cd10860adeee1231deed49d79dde12a618e9899f1e11061f3",
+   "lines": 32,
+   "chars": 850,
+   "seconds": 0.55,
+   "circled": 7
+  },
+  {
+   "file": "img/014.jpg",
+   "sha256": "4527e7cccddb5e3aaab7915efaecaafb95a64f5f1ca75fd400bd010f61c5991b",
+   "lines": 34,
+   "chars": 963,
+   "seconds": 0.586,
+   "circled": 5
+  },
+  {
+   "file": "img/015.jpg",
+   "sha256": "3f73dbcda38b3be4c19ab4aa1494447b98b5acf97d125e4e71fe37ec6c692f0a",
+   "lines": 36,
+   "chars": 1014,
+   "seconds": 0.632,
+   "circled": 9
+  },
+  {
+   "file": "img/016.jpg",
+   "sha256": "c71df18d5fbdc77d6e25e3b72069b9d083ff7b649c4a51364f9cef8643e30546",
+   "lines": 37,
+   "chars": 969,
+   "seconds": 0.533,
+   "circled": 12
+  },
+  {
+   "file": "img/017.jpg",
+   "sha256": "d5925484145471cca3f1b9e5a3c9e7bfc8ab490aa076880090c284e1bbf2e31e",
+   "lines": 35,
+   "chars": 960,
+   "seconds": 0.58,
+   "circled": 6
+  },
+  {
+   "file": "img/018.jpg",
+   "sha256": "d14d37a7e6ed03b4e96fe97337db58c7286805c2ed413242c3e04a1732480590",
+   "lines": 37,
+   "chars": 914,
+   "seconds": 0.566,
+   "circled": 6
+  },
+  {
+   "file": "img/019.jpg",
+   "sha256": "4924bedbea08e169f60e0fa3b9f4e3ed76597d8a2534030ac1309302fa223c39",
+   "lines": 28,
+   "chars": 647,
+   "seconds": 0.442,
+   "circled": 4
+  },
+  {
+   "file": "img/020.jpg",
+   "sha256": "768d42c6bd002cbc91985f53b0647324aa35f7c2da28c896b3a7b2b2b2c6ac2f",
+   "lines": 24,
+   "chars": 459,
+   "seconds": 0.323,
+   "circled": 2
+  },
+  {
+   "file": "img/021.jpg",
+   "sha256": "eaebc0e2771a6df97f9162d438db5a530e7e7467fd07a5133b027bcbe100bb1e",
+   "lines": 21,
+   "chars": 383,
+   "seconds": 0.25,
+   "circled": 0
+  },
+  {
+   "file": "img/022.jpg",
+   "sha256": "adcaf8b8d4b07033b9221109dd6a9412cd0c6e033269a684d15e0a642b29bc45",
+   "lines": 0,
+   "chars": 0,
+   "seconds": 0.119,
+   "circled": 0
+  }
+ ],
+ "total_chars": 16615,
+ "errors": [],
+ "unplaced_images": [],
+ "doc_seconds": 3.69
+}

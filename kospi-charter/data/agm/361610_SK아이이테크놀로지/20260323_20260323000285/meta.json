@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323000285",
+ "corp_code": "01386916",
+ "corp_name": "SK아이이테크놀로지",
+ "stock_code": "361610",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000285",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 9654,
+ "charter_amend_txt": "data/agm/361610_SK아이이테크놀로지/20260323_20260323000285/정관의변경.txt",
+ "main_xml": "20260323000285.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323000285.xml",
+   "bytes": 403706,
+   "sha256": "c44885d970415515cde0da18678790529da2fd672f2a4a32ed7e05ebfde71cac"
+  }
+ ],
+ "folder": "data/agm/361610_SK아이이테크놀로지/20260323_20260323000285",
+ "fetched_at": "2026-11-16T12:59:46"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260821000348",
+ "corp_code": "00210856",
+ "corp_name": "코아스",
+ "stock_code": "071950",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260821",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000348",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 712,
+ "charter_amend_txt": "data/agm/071950_코아스/20260821_20260821000348/정관의변경.txt",
+ "main_xml": "20260821000348.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260821000348.xml",
+   "bytes": 75951,
+   "sha256": "e8833dd5dd5aa8ac8bdf22d18da546cdc445c81d4fa23265f95f4780839be5b3"
+  }
+ ],
+ "folder": "data/agm/071950_코아스/20260821_20260821000348",
+ "fetched_at": "2026-11-16T13:01:35"
+}

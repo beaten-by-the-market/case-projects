@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260821000474",
+ "corp_code": "00131832",
+ "corp_name": "SK디스커버리",
+ "stock_code": "006120",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260821",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000474",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260821000474.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260821000474.xml",
+   "bytes": 131204,
+   "sha256": "2a8e4abdaa17ba0efdedd46bb20dcb690c7101f44c2a865f7735ff2c54711b61"
+  }
+ ],
+ "folder": "data/agm/006120_SK디스커버리/20260821_20260821000474",
+ "fetched_at": "2026-11-16T13:01:36"
+}

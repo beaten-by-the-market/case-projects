@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260716000410",
+ "corp_code": "00119672",
+ "corp_name": "두올",
+ "stock_code": "016740",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260716",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000410",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3923,
+ "charter_amend_txt": "data/agm/016740_두올/20260716_20260716000410/정관의변경.txt",
+ "main_xml": "20260716000410.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260716000410.xml",
+   "bytes": 84025,
+   "sha256": "603768134dcccb1911667da0319fdab8868ec7422e120fdb929d5a29c4f4a4be"
+  }
+ ],
+ "folder": "data/agm/016740_두올/20260716_20260716000410",
+ "fetched_at": "2026-11-16T13:01:15"
+}

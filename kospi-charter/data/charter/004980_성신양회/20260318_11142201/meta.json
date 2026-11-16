@@ -1,0 +1,225 @@
+{
+ "corp_code": "00132804",
+ "corp_name": "성신양회",
+ "stock_code": "004980",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001369",
+ "dcmNo": "11142201",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001369&dcmNo=11142201",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001369&dcmNo=11142201&eleId=1&offset=595&length=3526&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 20,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0001.jpg",
+   "flNm": "1-2)제60기 정관_page-0001.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0001",
+   "bytes": 107545,
+   "sha256": "f7a311ecf4733333e130888ca3f57ba4f5e74408262a3d3cae45f88bec0198cd",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0002.jpg",
+   "flNm": "1-2)제60기 정관_page-0002.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0002",
+   "bytes": 34947,
+   "sha256": "a2261cb6f746f9f9dfb87dfab5d683c6fa07b53f4f73f4ea9c9775841005d1fb",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0003.jpg",
+   "flNm": "1-2)제60기 정관_page-0003.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0003",
+   "bytes": 157331,
+   "sha256": "9b3ead4e86a428ce682b7c40dd48013761ebc2ccd537e8004fc1cdb1e5003fb1",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0004.jpg",
+   "flNm": "1-2)제60기 정관_page-0004.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0004",
+   "bytes": 182731,
+   "sha256": "b85ee2277efd539c94a90e26b17a133fac60e3f28cd1de94d6c32877f9c65015",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0005.jpg",
+   "flNm": "1-2)제60기 정관_page-0005.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0005",
+   "bytes": 285646,
+   "sha256": "eaacc14403dfccfef6e1d4d5a549bd07034a0900a44d9d696f398fc4aa822b43",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0006.jpg",
+   "flNm": "1-2)제60기 정관_page-0006.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0006",
+   "bytes": 245855,
+   "sha256": "20a12c73d37d627503b8861c67bff4dc56369331b09b9a97dd9143ae22746733",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0007.jpg",
+   "flNm": "1-2)제60기 정관_page-0007.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0007",
+   "bytes": 302089,
+   "sha256": "6b30bf0f98cb3e49b5961f0a0bc0f8f14c7a650b05e23c68e4ec3bd4e604d303",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0008.jpg",
+   "flNm": "1-2)제60기 정관_page-0008.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0008",
+   "bytes": 242440,
+   "sha256": "47fb2f46a91a9bb87cc964451130d8e3e1c64419fd8bc987338f3aab6d2aa5ca",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0009.jpg",
+   "flNm": "1-2)제60기 정관_page-0009.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0009",
+   "bytes": 279234,
+   "sha256": "6fd05b484ed3ff1598dbc586f9adbf0dd140c049f2a0ce9992d181a7c79304da",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0010.jpg",
+   "flNm": "1-2)제60기 정관_page-0010.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0010",
+   "bytes": 202489,
+   "sha256": "d0e85d0379636a5ffb2441fd37b62b9bc3f4ec0ec796b50b6057548c01acd6ca",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0011.jpg",
+   "flNm": "1-2)제60기 정관_page-0011.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0011",
+   "bytes": 222626,
+   "sha256": "da965803a3176ec2cccb46e88f5f995a7341c8ae52723572c5a9a486fc1cf84f",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0012.jpg",
+   "flNm": "1-2)제60기 정관_page-0012.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0012",
+   "bytes": 253935,
+   "sha256": "e7988cdd92d70c543bb18847ef8211e5147e285780e6b56c6b54e9c9327d7e8d",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0013.jpg",
+   "flNm": "1-2)제60기 정관_page-0013.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0013",
+   "bytes": 238719,
+   "sha256": "fd6640d15024afe48fc47507b0e54aeacedbd06fb7ce8cf1f7eb01bb59285c64",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0014.jpg",
+   "flNm": "1-2)제60기 정관_page-0014.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0014",
+   "bytes": 245952,
+   "sha256": "3dd62a081a79a80930d4fca983ca108ff94407af59f5932f0150008858a9bb24",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0015.jpg",
+   "flNm": "1-2)제60기 정관_page-0015.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0015",
+   "bytes": 215265,
+   "sha256": "50ad6d831b510d1aaca7afe00caedb0323b7ff4d866d03acc793453daa960125",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0016.jpg",
+   "flNm": "1-2)제60기 정관_page-0016.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0016",
+   "bytes": 277207,
+   "sha256": "ca22a01dee3607cbc80fb540806d4ae34cef0d577b96b76ed7e440d5ee10fc15",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0017.jpg",
+   "flNm": "1-2)제60기 정관_page-0017.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0017",
+   "bytes": 191476,
+   "sha256": "a61e8b073daffee1c0dec13695140bd411b05275346a705785815a7cadc20911",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0018.jpg",
+   "flNm": "1-2)제60기 정관_page-0018.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0018",
+   "bytes": 171781,
+   "sha256": "823cf5272515d2d6691b463a85878f74cb2119c12c3c18c32bcdc98e73da7441",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0019.jpg",
+   "flNm": "1-2)제60기 정관_page-0019.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0019",
+   "bytes": 229803,
+   "sha256": "082b7781b44a18b2a4199aeabe9990b38af1fc0b54f390f13c700209f12879e8",
+   "width": 1240,
+   "height": 1755
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142201&flNm=1-2%29%EC%A0%9C60%EA%B8%B0+%EC%A0%95%EA%B4%80_page-0020.jpg",
+   "flNm": "1-2)제60기 정관_page-0020.jpg",
+   "alt": "이미지: 1-2)제60기 정관_page-0020",
+   "bytes": 304326,
+   "sha256": "44bf38b560bb690fe607de5f4a331682c85c2d04e0a732e6bc9c902becf8d6ac",
+   "width": 1240,
+   "height": 1755
+  }
+ ],
+ "folder": "data/charter/004980_성신양회/20260318_11142201",
+ "fetched_at": "2026-11-16T12:26:27",
+ "used_by_rcept_no": [
+  "20260318001369"
+ ]
+}

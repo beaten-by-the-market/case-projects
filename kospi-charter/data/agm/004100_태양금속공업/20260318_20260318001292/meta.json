@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260318001292",
+ "corp_code": "00153755",
+ "corp_name": "태양금속공업",
+ "stock_code": "004100",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260318",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001292",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2243,
+ "charter_amend_txt": "data/agm/004100_태양금속공업/20260318_20260318001292/정관의변경.txt",
+ "main_xml": "20260318001292.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260318001292.xml",
+   "bytes": 168604,
+   "sha256": "bafb2fe36a2c9e49ffb457473fdf764d7d3d0dc5f98d1b5f31c08f512dac5a1d"
+  }
+ ],
+ "folder": "data/agm/004100_태양금속공업/20260318_20260318001292",
+ "fetched_at": "2026-11-16T12:59:31"
+}

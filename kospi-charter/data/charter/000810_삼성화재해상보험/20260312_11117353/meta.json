@@ -1,0 +1,205 @@
+{
+ "corp_code": "00139214",
+ "corp_name": "삼성화재해상보험",
+ "stock_code": "000810",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312001399",
+ "dcmNo": "11117353",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001399&dcmNo=11117353",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001399&dcmNo=11117353&eleId=1&offset=600&length=2936&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 18,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "정관_2025_페이지_01.jpg",
+   "alt": "이미지: 정관_2025_페이지_01",
+   "bytes": 57735,
+   "sha256": "8990372456147f7fe5aabd3ff1fefe84dae5d0f20d47382740ae6576d934bada",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "정관_2025_페이지_02.jpg",
+   "alt": "이미지: 정관_2025_페이지_02",
+   "bytes": 209652,
+   "sha256": "45f7f3a2c8157aec15592a2856e0dafddbdd3132c6ec1520ca9c1d65772db8f5",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "정관_2025_페이지_03.jpg",
+   "alt": "이미지: 정관_2025_페이지_03",
+   "bytes": 285307,
+   "sha256": "d778d429436cbbc8a55f0cc10fdffd854535af03f9aa44ae1836d455859bd936",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "정관_2025_페이지_04.jpg",
+   "alt": "이미지: 정관_2025_페이지_04",
+   "bytes": 283943,
+   "sha256": "90638adddacbdcdc80c88343072491bf18ccb2fef9a31120055cf99ac4e84d49",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "정관_2025_페이지_05.jpg",
+   "alt": "이미지: 정관_2025_페이지_05",
+   "bytes": 303723,
+   "sha256": "a7e032f3d847165142aa5d8085872c25cb3f75dbf8cbf6bdfef1d2c9b610a526",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "정관_2025_페이지_06.jpg",
+   "alt": "이미지: 정관_2025_페이지_06",
+   "bytes": 232327,
+   "sha256": "cfcfc74570017895549e28dc142fa62bd2c8bf23c1bac4629ef7291fff800940",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "정관_2025_페이지_07.jpg",
+   "alt": "이미지: 정관_2025_페이지_07",
+   "bytes": 267987,
+   "sha256": "addb18064f7f2e5ef5b5717c7b9f63f51583f2042ecc739e32b64b19448c0702",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "정관_2025_페이지_08.jpg",
+   "alt": "이미지: 정관_2025_페이지_08",
+   "bytes": 269772,
+   "sha256": "57888b68e80060574b90a2f796c57bd82979437d86378237e4a7d74e23e63330",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "정관_2025_페이지_09.jpg",
+   "alt": "이미지: 정관_2025_페이지_09",
+   "bytes": 253801,
+   "sha256": "d0f5626c00a684e0a6841bf6588c49ba2a90ec68f86eff5b117b0608735fc873",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "정관_2025_페이지_10.jpg",
+   "alt": "이미지: 정관_2025_페이지_10",
+   "bytes": 277800,
+   "sha256": "f0b881721ada2c477fdb5b5c548a4903ec9ff5e2849627255c4c0128cdb4b1fa",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "정관_2025_페이지_11.jpg",
+   "alt": "이미지: 정관_2025_페이지_11",
+   "bytes": 293622,
+   "sha256": "09023f38fc757a8098425e229f71c40e8f0c390acb627b4142d8843e6e4a0ee0",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "정관_2025_페이지_12.jpg",
+   "alt": "이미지: 정관_2025_페이지_12",
+   "bytes": 302087,
+   "sha256": "73b81ca641b157913aaacb4217ea9a8453bac359b664ea3e13d3bf71aa705562",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "정관_2025_페이지_13.jpg",
+   "alt": "이미지: 정관_2025_페이지_13",
+   "bytes": 266362,
+   "sha256": "92367318ba740bee16915325156a9b4a38b75064f73d433285195964357ab731",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "정관_2025_페이지_14.jpg",
+   "alt": "이미지: 정관_2025_페이지_14",
+   "bytes": 252896,
+   "sha256": "028a6673bd14efdd4b07139a3e47cf9a918d33a5ba8e14e034979486deb80c26",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_15.jpg",
+   "flNm": "정관_2025_페이지_15.jpg",
+   "alt": "이미지: 정관_2025_페이지_15",
+   "bytes": 191580,
+   "sha256": "d86a462c2bb204b5b2e365e3650bcc51d814c840592e3d77056ab3c600a65a27",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_16.jpg",
+   "flNm": "정관_2025_페이지_16.jpg",
+   "alt": "이미지: 정관_2025_페이지_16",
+   "bytes": 148468,
+   "sha256": "2c767f6c46b6cb80cf84f6575f09c4a13e79150b9a171cb010f2732e5466a0d9",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_17.jpg",
+   "flNm": "정관_2025_페이지_17.jpg",
+   "alt": "이미지: 정관_2025_페이지_17",
+   "bytes": 138790,
+   "sha256": "2bfed3929039656b4371fe3f3cc9bb10aa07df22959fc18203fbc33e5f581c06",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117353&flNm=%EC%A0%95%EA%B4%80_2025_%ED%8E%98%EC%9D%B4%EC%A7%80_18.jpg",
+   "flNm": "정관_2025_페이지_18.jpg",
+   "alt": "이미지: 정관_2025_페이지_18",
+   "bytes": 88806,
+   "sha256": "b33a154f083d8690c93879282172054f8375d191a0a75d0819b4cffe978a4b11",
+   "width": 1654,
+   "height": 2339
+  }
+ ],
+ "folder": "data/charter/000810_삼성화재해상보험/20260312_11117353",
+ "fetched_at": "2026-11-16T12:13:33",
+ "used_by_rcept_no": [
+  "20260313001226"
+ ]
+}

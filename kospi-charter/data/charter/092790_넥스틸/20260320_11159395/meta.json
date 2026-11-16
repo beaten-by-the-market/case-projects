@@ -1,0 +1,24 @@
+{
+ "corp_code": "00220613",
+ "corp_name": "넥스틸",
+ "stock_code": "092790",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001261",
+ "dcmNo": "11159395",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001261&dcmNo=11159395",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001261&dcmNo=11159395&eleId=1&offset=596&length=20518&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12893,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/092790_넥스틸/20260320_11159395",
+ "fetched_at": "2026-11-16T13:24:45",
+ "used_by_rcept_no": [
+  "20260414002511"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00134477",
+ "corp_name": "SNT다이내믹스",
+ "stock_code": "003570",
+ "att_title": "2026.02.19 정관",
+ "att_date": "20260219",
+ "rcpNo": "20260219002133",
+ "dcmNo": "11030992",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260219002133&dcmNo=11030992",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260219002133&dcmNo=11030992&eleId=1&offset=600&length=24579&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11500,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/003570_SNT다이내믹스/20260219_11030992",
+ "fetched_at": "2026-11-16T12:24:00",
+ "used_by_rcept_no": [
+  "20260219002133"
+ ]
+}

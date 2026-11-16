@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261112000385",
+ "corp_code": "00106623",
+ "corp_name": "현대위아",
+ "stock_code": "011210",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261112",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000385",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261112000385.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261112000385.xml",
+   "bytes": 152471,
+   "sha256": "9a9f1bebdaffe4ac2b4b2e2698c537bd758cfb6530cbca30830862e03e3a6515"
+  }
+ ],
+ "folder": "data/agm/011210_현대위아/20261112_20261112000385",
+ "fetched_at": "2026-11-16T13:02:18"
+}

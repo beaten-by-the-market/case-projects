@@ -1,0 +1,385 @@
+{
+ "corp_code": "00160588",
+ "corp_name": "한화",
+ "stock_code": "000880",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001426",
+ "dcmNo": "11142707",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001426&dcmNo=11142707",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001426&dcmNo=11142707&eleId=1&offset=593&length=5627&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 36,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page1.jpg",
+   "flNm": "㈜한화 정관_page1.jpg",
+   "alt": "이미지: ㈜한화 정관_page1",
+   "bytes": 193392,
+   "sha256": "1f8c44fbafffe1a0a37fe6bc769a34df1d703e7992824415936565ac170da826",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page2.jpg",
+   "flNm": "㈜한화 정관_page2.jpg",
+   "alt": "이미지: ㈜한화 정관_page2",
+   "bytes": 196979,
+   "sha256": "8d36db66ef56cc06f70eb4fcd1477696886da11835f42022c6894cf28225ec5d",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page3.jpg",
+   "flNm": "㈜한화 정관_page3.jpg",
+   "alt": "이미지: ㈜한화 정관_page3",
+   "bytes": 177004,
+   "sha256": "986817b84dc577ac4e80eb4ab0c0dd474bfc738bd4f09e88a88475d3bc9495a1",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page4.jpg",
+   "flNm": "㈜한화 정관_page4.jpg",
+   "alt": "이미지: ㈜한화 정관_page4",
+   "bytes": 217719,
+   "sha256": "f938f3eb2ded51dfde779f2ee19ecdd06ad3f926373f27deee725278949108f8",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page5.jpg",
+   "flNm": "㈜한화 정관_page5.jpg",
+   "alt": "이미지: ㈜한화 정관_page5",
+   "bytes": 158493,
+   "sha256": "50f6f81415d8cb48cab1be8a9f9c1b970b85fcd4863d73b4a4ba4b66e27b0e4d",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page6.jpg",
+   "flNm": "㈜한화 정관_page6.jpg",
+   "alt": "이미지: ㈜한화 정관_page6",
+   "bytes": 192117,
+   "sha256": "62d53286914a55c7e0f81b57df46edca7a29654a0da93f1a70b95eeef7e2f961",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page7.jpg",
+   "flNm": "㈜한화 정관_page7.jpg",
+   "alt": "이미지: ㈜한화 정관_page7",
+   "bytes": 162768,
+   "sha256": "29b5342c8f11dc4ad289cc3bae2b09715ead64e46b8837656bcf1338eec1e8b6",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page8.jpg",
+   "flNm": "㈜한화 정관_page8.jpg",
+   "alt": "이미지: ㈜한화 정관_page8",
+   "bytes": 74263,
+   "sha256": "d355c25a4e3aca6a5c85e6de8a80f622e8cbb40f4d23fe84e41983e7aad749b7",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page9.jpg",
+   "flNm": "㈜한화 정관_page9.jpg",
+   "alt": "이미지: ㈜한화 정관_page9",
+   "bytes": 202240,
+   "sha256": "aaa21d66004d628e53f3d9c5f19aa5dc0b05b989eb2f963029ce96af8172b129",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page10.jpg",
+   "flNm": "㈜한화 정관_page10.jpg",
+   "alt": "이미지: ㈜한화 정관_page10",
+   "bytes": 225532,
+   "sha256": "b8fdd32cd4d4d2cb01dc836568ba47832e0c634c2f5f6f57b99f749421f09bee",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page11.jpg",
+   "flNm": "㈜한화 정관_page11.jpg",
+   "alt": "이미지: ㈜한화 정관_page11",
+   "bytes": 221303,
+   "sha256": "fbef764f829a4ca42f12bc2e73ac30c503c658ddceab69a675cab5743aacb4e6",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page12.jpg",
+   "flNm": "㈜한화 정관_page12.jpg",
+   "alt": "이미지: ㈜한화 정관_page12",
+   "bytes": 251877,
+   "sha256": "1fc1f25a688a2bcb01a325ff3c64eb833a97193ddc553ad3045542cd8639a43c",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page13.jpg",
+   "flNm": "㈜한화 정관_page13.jpg",
+   "alt": "이미지: ㈜한화 정관_page13",
+   "bytes": 262901,
+   "sha256": "4df2583410fc0765632c3c536b1cfbd56a18c08f8d8297d38316742445f500da",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page14.jpg",
+   "flNm": "㈜한화 정관_page14.jpg",
+   "alt": "이미지: ㈜한화 정관_page14",
+   "bytes": 252862,
+   "sha256": "b9a66b0a8fc4234ab93a1151f0bf13e4ed7dac628aba11e04e28440269c38693",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page15.jpg",
+   "flNm": "㈜한화 정관_page15.jpg",
+   "alt": "이미지: ㈜한화 정관_page15",
+   "bytes": 225171,
+   "sha256": "024e0a2893a810b1bbc551253db4719990d51e45e58bef7cde3dc43215835893",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page16.jpg",
+   "flNm": "㈜한화 정관_page16.jpg",
+   "alt": "이미지: ㈜한화 정관_page16",
+   "bytes": 197482,
+   "sha256": "7a10186cd8142336afc26abe5ffe116524320631501ffc91eeb9e6201d69219c",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page17.jpg",
+   "flNm": "㈜한화 정관_page17.jpg",
+   "alt": "이미지: ㈜한화 정관_page17",
+   "bytes": 50982,
+   "sha256": "f6ae4930d595bdbbed1fbd55c0e9882f13bdc1d7492c523411b2f960cde1a288",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page18.jpg",
+   "flNm": "㈜한화 정관_page18.jpg",
+   "alt": "이미지: ㈜한화 정관_page18",
+   "bytes": 225623,
+   "sha256": "3df1d7e5dc8811354d4d2e02ceff8b67229e1592bf0d6951f459e95ae5af5bbb",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page19.jpg",
+   "flNm": "㈜한화 정관_page19.jpg",
+   "alt": "이미지: ㈜한화 정관_page19",
+   "bytes": 127434,
+   "sha256": "5fe1dff38bd0b10ae57fd12500bf1d0ea51bcb4871ef77dedad93deb5d095e2c",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page20.jpg",
+   "flNm": "㈜한화 정관_page20.jpg",
+   "alt": "이미지: ㈜한화 정관_page20",
+   "bytes": 178153,
+   "sha256": "f91b0c401d91a6c1109d19ecbe9830596eaa9237c528dfc6fc5193a56137f454",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page21.jpg",
+   "flNm": "㈜한화 정관_page21.jpg",
+   "alt": "이미지: ㈜한화 정관_page21",
+   "bytes": 173075,
+   "sha256": "ea919ee7dbb94505570549a6027a2a59a74d0984b65a8125b0e4bbe41711bc70",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page22.jpg",
+   "flNm": "㈜한화 정관_page22.jpg",
+   "alt": "이미지: ㈜한화 정관_page22",
+   "bytes": 112608,
+   "sha256": "4ae89bbd54aac49ef5248044534431ffc32acd0b80effd0bbab102984fd8bed8",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page23.jpg",
+   "flNm": "㈜한화 정관_page23.jpg",
+   "alt": "이미지: ㈜한화 정관_page23",
+   "bytes": 177793,
+   "sha256": "874d469c2b06ef7a6ef2de8899911b2985881a4686ac4705b0853e009618fdc9",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/024.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page24.jpg",
+   "flNm": "㈜한화 정관_page24.jpg",
+   "alt": "이미지: ㈜한화 정관_page24",
+   "bytes": 186809,
+   "sha256": "5a4c3eb9de3258316975e82a03aa061558a55309d76690beb32ee3951cd66d1f",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/025.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page25.jpg",
+   "flNm": "㈜한화 정관_page25.jpg",
+   "alt": "이미지: ㈜한화 정관_page25",
+   "bytes": 206178,
+   "sha256": "180e241a7ef718ed55eafdde8d306aa76cfb61af24f94473cd0e497f3b9fd6d4",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/026.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page26.jpg",
+   "flNm": "㈜한화 정관_page26.jpg",
+   "alt": "이미지: ㈜한화 정관_page26",
+   "bytes": 105249,
+   "sha256": "a6f11ea67256d0c022aa1df85f07f0886231238f98746b7f2ebb86629f9fb9ca",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/027.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page27.jpg",
+   "flNm": "㈜한화 정관_page27.jpg",
+   "alt": "이미지: ㈜한화 정관_page27",
+   "bytes": 245373,
+   "sha256": "fc8d177c05af7d4f0f24affb3ad114dd8fff7f7ffee8e4a990922d22e83dfa7e",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/028.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page28.jpg",
+   "flNm": "㈜한화 정관_page28.jpg",
+   "alt": "이미지: ㈜한화 정관_page28",
+   "bytes": 217102,
+   "sha256": "a8c50198776a419fdc630580765c3fc3d51eae2068664e448fdf6fd4671ec046",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/029.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page29.jpg",
+   "flNm": "㈜한화 정관_page29.jpg",
+   "alt": "이미지: ㈜한화 정관_page29",
+   "bytes": 200333,
+   "sha256": "c31061125d91eec0bdae23f1dd1b797d188a185b6f7c0a44a7efc0c13c30e764",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/030.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page30.jpg",
+   "flNm": "㈜한화 정관_page30.jpg",
+   "alt": "이미지: ㈜한화 정관_page30",
+   "bytes": 147301,
+   "sha256": "86b8a90f05945d47327734d84de32946eed257a2918fab7ebd7920aad687d237",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/031.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page31.jpg",
+   "flNm": "㈜한화 정관_page31.jpg",
+   "alt": "이미지: ㈜한화 정관_page31",
+   "bytes": 188204,
+   "sha256": "e42e3e44bd24cf584e952d9ced3d5ea7232de4523236fea2234dde7ba3b40f5d",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/032.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page32.jpg",
+   "flNm": "㈜한화 정관_page32.jpg",
+   "alt": "이미지: ㈜한화 정관_page32",
+   "bytes": 94261,
+   "sha256": "a23d77d23f6e83bf4f4b47da2365282726bb80f9845bcc8e95caa0dc74f70811",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/033.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page33.jpg",
+   "flNm": "㈜한화 정관_page33.jpg",
+   "alt": "이미지: ㈜한화 정관_page33",
+   "bytes": 202398,
+   "sha256": "dbcd8a6fcf7d4909eb3003be630d517b6ff473fb7372980e1a67da9d29ff7802",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/034.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page34.jpg",
+   "flNm": "㈜한화 정관_page34.jpg",
+   "alt": "이미지: ㈜한화 정관_page34",
+   "bytes": 235185,
+   "sha256": "1e29744e7a0e5ab422af1242ab375d3f6a931ce174489a885db9029e75011e93",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/035.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page35.jpg",
+   "flNm": "㈜한화 정관_page35.jpg",
+   "alt": "이미지: ㈜한화 정관_page35",
+   "bytes": 226815,
+   "sha256": "79710fd4492bd75bfcd232a07acbdba267d6cc91a09b3e049d959554a2cb438f",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/036.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142707&flNm=%E3%88%9C%ED%95%9C%ED%99%94+%EC%A0%95%EA%B4%80_page36.jpg",
+   "flNm": "㈜한화 정관_page36.jpg",
+   "alt": "이미지: ㈜한화 정관_page36",
+   "bytes": 80238,
+   "sha256": "c26678f2b304148a5acd10776f8ff216668ddae3f98df28bcbe5f94e83c13fef",
+   "width": 992,
+   "height": 1403
+  }
+ ],
+ "folder": "data/charter/000880_한화/20260318_11142707",
+ "fetched_at": "2026-11-16T12:13:56",
+ "used_by_rcept_no": [
+  "20260331003871"
+ ]
+}

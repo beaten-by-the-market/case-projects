@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260506000718",
+ "corp_code": "00159193",
+ "corp_name": "한국전력공사",
+ "stock_code": "015760",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260506",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000718",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260506000718.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260506000718.xml",
+   "bytes": 130198,
+   "sha256": "0915358231e386ea37ffba0d8ca5835acfcbc08741f9adf9669c5206b63b22c2"
+  }
+ ],
+ "folder": "data/agm/015760_한국전력공사/20260506_20260506000718",
+ "fetched_at": "2026-11-16T13:00:20"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260713000151",
+ "corp_code": "00203582",
+ "corp_name": "한솔홈데코",
+ "stock_code": "025750",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260713",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000151",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260713000151.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260713000151.xml",
+   "bytes": 82188,
+   "sha256": "d7b2591dd43ed25e5e9e3b3aed0906e00319900c69552d9e7e8fcb630b9c1225"
+  }
+ ],
+ "folder": "data/agm/025750_한솔홈데코/20260713_20260713000151",
+ "fetched_at": "2026-11-16T13:00:57"
+}

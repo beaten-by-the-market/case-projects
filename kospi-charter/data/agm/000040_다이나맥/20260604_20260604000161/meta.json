@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260604000161",
+ "corp_code": "00112378",
+ "corp_name": "다이나맥",
+ "stock_code": "000040",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260604",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604000161",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 257,
+ "charter_amend_txt": "data/agm/000040_다이나맥/20260604_20260604000161/정관의변경.txt",
+ "main_xml": "20260604000161.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260604000161.xml",
+   "bytes": 48138,
+   "sha256": "45967180c731e152ef8e68e95cd7b7823c1be8789c500bcb5cc3f12e42549b1f"
+  }
+ ],
+ "folder": "data/agm/000040_다이나맥/20260604_20260604000161",
+ "fetched_at": "2026-11-16T13:00:32"
+}

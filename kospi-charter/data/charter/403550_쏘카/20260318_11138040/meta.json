@@ -1,0 +1,205 @@
+{
+ "corp_code": "01026157",
+ "corp_name": "쏘카",
+ "stock_code": "403550",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000788",
+ "dcmNo": "11138040",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000788&dcmNo=11138040",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000788&dcmNo=11138040&eleId=1&offset=593&length=3404&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 18,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0001.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0001.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0001",
+   "bytes": 63115,
+   "sha256": "287b07f2e13edd872d7615f053296eb8177c4d63d91b24467e0cd913c44c21ae",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0002.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0002.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0002",
+   "bytes": 279225,
+   "sha256": "b552cb132ca9b805ad14097448f751de63e4da707c081411f3cc2bd4d88fd042",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0003.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0003.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0003",
+   "bytes": 167701,
+   "sha256": "d2011555c5af5799e738f818eab645f8cf88d312ae1f0f98f01c32dde0ecdca5",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0004.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0004.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0004",
+   "bytes": 244075,
+   "sha256": "4b8fb45f4ffeb384ac4c9f993fc8ce7ea2984d8c3aa88c75cc7f63bea083512b",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0005.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0005.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0005",
+   "bytes": 263025,
+   "sha256": "12c2ad277eec4bd03624802e0d19eb8a6e65df4851a1350cfaf5579ef5eee463",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0006.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0006.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0006",
+   "bytes": 214390,
+   "sha256": "918e2eaa5e3d585b0af222f2fbf4fd13dec50c3ad69df08ed18a21b4bd46a03b",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0007.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0007.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0007",
+   "bytes": 252901,
+   "sha256": "f7c12a5d8ead9916e10904cbfb947f848a4b68721b1761b480397460c041e347",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0008.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0008.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0008",
+   "bytes": 195471,
+   "sha256": "7c0f6447afbbcb029eccb4825b055aa2b21ee79b2e637941edc3f8a1d2175a2f",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0009.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0009.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0009",
+   "bytes": 201941,
+   "sha256": "c93d2bc318c5fb29fc74dd1992f4edb076032948c8d21b1b0317f31230537d5a",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0010.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0010.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0010",
+   "bytes": 177253,
+   "sha256": "a495737bac02612b668422d86192ca1b3d320d2a25b849f9a5d294afbeb2e915",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0011.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0011.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0011",
+   "bytes": 192476,
+   "sha256": "913eda8d41088c59c84b5fb1261c4d0901aa37b8a3fd04faf545b7981aa5cd90",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0012.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0012.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0012",
+   "bytes": 190819,
+   "sha256": "dabb01d122bcc77b30893e71d331aceaba38023979ed34c02e9c80d9a4dd89c6",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0013.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0013.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0013",
+   "bytes": 254888,
+   "sha256": "93da5841e03414dc4a51f04f235ffc603e7f48209a9793c728ceb60befb022c1",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0014.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0014.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0014",
+   "bytes": 206353,
+   "sha256": "f02fc7ef652e929dc072ef8b54a5af84dd54313429092f4f50ed1b95f9e99992",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0015.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0015.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0015",
+   "bytes": 193817,
+   "sha256": "7c7d36c06e9bd6306af35f8078271642554a47033887f1a058fd9050d0db3e59",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0016.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0016.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0016",
+   "bytes": 174220,
+   "sha256": "495dc4a5a4fa2e378a530835e8af32dc8e2ea2539c65180b1e1f83f8beaaed95",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0017.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0017.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0017",
+   "bytes": 156738,
+   "sha256": "2bff061e648b5567fddaddffebeba042bfa924f92f525ce2bbbe0f5b8bec74b6",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0018.jpg",
+   "flNm": "쏘카_정관_20250326_개정_page-0018.jpg",
+   "alt": "이미지: 쏘카_정관_20250326_개정_page-0018",
+   "bytes": 146497,
+   "sha256": "7ab07b6cc5ea969434272cfaeb2ad8c1699dfbc22008bf125da7239229308572",
+   "width": 1241,
+   "height": 1755
+  }
+ ],
+ "folder": "data/charter/403550_쏘카/20260318_11138040",
+ "fetched_at": "2026-11-16T13:42:00",
+ "used_by_rcept_no": [
+  "20260318000788"
+ ]
+}

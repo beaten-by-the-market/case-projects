@@ -1,0 +1,24 @@
+{
+ "corp_code": "00303217",
+ "corp_name": "우진플라임",
+ "stock_code": "049800",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001147",
+ "dcmNo": "11165878",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001147&dcmNo=11165878",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001147&dcmNo=11165878&eleId=1&offset=593&length=23690&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15038,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/049800_우진플라임/20260323_11165878",
+ "fetched_at": "2026-11-16T13:15:33",
+ "used_by_rcept_no": [
+  "20260604000634"
+ ]
+}

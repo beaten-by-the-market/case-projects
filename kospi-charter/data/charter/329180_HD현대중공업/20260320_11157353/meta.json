@@ -1,0 +1,24 @@
+{
+ "corp_code": "01390344",
+ "corp_name": "HD현대중공업",
+ "stock_code": "329180",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000859",
+ "dcmNo": "11157353",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000859&dcmNo=11157353",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000859&dcmNo=11157353&eleId=1&offset=600&length=27866&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15636,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/329180_HD현대중공업/20260320_11157353",
+ "fetched_at": "2026-11-16T13:39:16",
+ "used_by_rcept_no": [
+  "20260320000859"
+ ]
+}

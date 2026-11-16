@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260320000878",
+ "corp_code": "00124780",
+ "corp_name": "사조씨푸드",
+ "stock_code": "014710",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260320",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000878",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2565,
+ "charter_amend_txt": "data/agm/014710_사조씨푸드/20260320_20260320000878/정관의변경.txt",
+ "main_xml": "20260320000878.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260320000878.xml",
+   "bytes": 166562,
+   "sha256": "b199c170c2aebda4f1712b216e8149c328c7316b3759f34d07604dafbf4f678b"
+  }
+ ],
+ "folder": "data/agm/014710_사조씨푸드/20260320_20260320000878",
+ "fetched_at": "2026-11-16T12:59:43"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00118521",
+ "corp_name": "진원생명과학",
+ "stock_code": "011000",
+ "att_title": "2026.04.07 정관",
+ "att_date": "20260407",
+ "rcpNo": "20260407003512",
+ "dcmNo": "11279423",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407003512&dcmNo=11279423",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260407003512&dcmNo=11279423&eleId=1&offset=597&length=27445&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12752,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/011000_진원생명과학/20260407_11279423",
+ "fetched_at": "2026-11-16T12:36:02",
+ "used_by_rcept_no": [
+  "20260407003512"
+ ]
+}

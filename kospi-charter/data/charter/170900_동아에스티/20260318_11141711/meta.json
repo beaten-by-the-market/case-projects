@@ -1,0 +1,135 @@
+{
+ "corp_code": "00956930",
+ "corp_name": "동아에스티",
+ "stock_code": "170900",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001313",
+ "dcmNo": "11141711",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001313&dcmNo=11141711",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001313&dcmNo=11141711&eleId=1&offset=596&length=1626&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 11,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141711&flNm=%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "정관_1.jpg",
+   "alt": "이미지: 정관_1",
+   "bytes": 237255,
+   "sha256": "f37f20648c373dd3bee40671d536bc05b9933ab6008c59f43b52560c020dc5c2",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141711&flNm=%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "정관_2.jpg",
+   "alt": "이미지: 정관_2",
+   "bytes": 297374,
+   "sha256": "fd9139917604d0cc1dab307510b6a9636e67ee7c64dfa7819c21a90a1bb0e96c",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141711&flNm=%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "정관_3.jpg",
+   "alt": "이미지: 정관_3",
+   "bytes": 269328,
+   "sha256": "46b8d8065b13444f4d755318b1af88681ee155a6889ec377f2728669c0a28f0b",
+   "width": 1807,
+   "height": 2554
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141711&flNm=%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "정관_4.jpg",
+   "alt": "이미지: 정관_4",
+   "bytes": 293628,
+   "sha256": "8fe639f77298f10e43b9b349c692347394a83e7a1d1b37cd3d691814fe994311",
+   "width": 1807,
+   "height": 2554
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141711&flNm=%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "정관_5.jpg",
+   "alt": "이미지: 정관_5",
+   "bytes": 295272,
+   "sha256": "c4445f7d25dd1886d1e533ac686ff9b1772aaee9ed29013334fad0051f7c5f17",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141711&flNm=%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "정관_6.jpg",
+   "alt": "이미지: 정관_6",
+   "bytes": 270532,
+   "sha256": "4430b056418e1e0efe036737b8bcda9dea9dbe904c0c9188855fca0090d907ff",
+   "width": 1807,
+   "height": 2554
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141711&flNm=%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "정관_7.jpg",
+   "alt": "이미지: 정관_7",
+   "bytes": 281760,
+   "sha256": "3bf309b181c34c598208b72949a6a0f259263b973d368999c053e4e7d626c05f",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141711&flNm=%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "정관_8.jpg",
+   "alt": "이미지: 정관_8",
+   "bytes": 280906,
+   "sha256": "aa089caec8059520272fe52c616d57c5a86cb904efc997ca72dd3dc5a5e7cd73",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141711&flNm=%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "정관_9.jpg",
+   "alt": "이미지: 정관_9",
+   "bytes": 274163,
+   "sha256": "9abe69fa3d5bbcd872b2e91743c70e2344c1a2609155b8d5e0bb9185f41fc487",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141711&flNm=%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "정관_10.jpg",
+   "alt": "이미지: 정관_10",
+   "bytes": 273352,
+   "sha256": "3e83223b84b2ea74d999dc05d70d8cf6f6ef2cd96a8d39d22e7d57ad1bbc489e",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141711&flNm=%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "정관_11.jpg",
+   "alt": "이미지: 정관_11",
+   "bytes": 247410,
+   "sha256": "a4477e1a55c82c3afd2288dfc477b6e962cc6e7e00aea8185a9acebda7e023fb",
+   "width": 2480,
+   "height": 3507
+  }
+ ],
+ "folder": "data/charter/170900_동아에스티/20260318_11141711",
+ "fetched_at": "2026-11-16T13:31:17",
+ "used_by_rcept_no": [
+  "20260318001313"
+ ]
+}

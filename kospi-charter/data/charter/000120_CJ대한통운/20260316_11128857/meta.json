@@ -1,0 +1,37 @@
+{
+ "corp_code": "00113410",
+ "corp_name": "CJ대한통운",
+ "stock_code": "000120",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001417",
+ "dcmNo": "11128857",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001417&dcmNo=11128857",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001417&dcmNo=11128857&eleId=1&offset=598&length=304&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 26,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/000120_CJ대한통운/20260316_11128857",
+ "fetched_at": "2026-11-16T12:11:44",
+ "used_by_rcept_no": [
+  "20260316001417"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128857&flNm=%EC%94%A8%EC%A0%9C%EC%9D%B4%EB%8C%80%ED%95%9C%ED%86%B5%EC%9A%B4_%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "씨제이대한통운_정관.pdf",
+   "bytes": 589601,
+   "sha256": "b071446e181d0d10caeb3c8a6b4f3c254b2c604e8512816bbf20a68050de46ab",
+   "pages": 15,
+   "text_pages": 14,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

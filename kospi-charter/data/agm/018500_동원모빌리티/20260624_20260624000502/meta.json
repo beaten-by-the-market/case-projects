@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260624000502",
+ "corp_code": "00118008",
+ "corp_name": "동원모빌리티",
+ "stock_code": "018500",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260624",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000502",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3293,
+ "charter_amend_txt": "data/agm/018500_동원모빌리티/20260624_20260624000502/정관의변경.txt",
+ "main_xml": "20260624000502.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260624000502.xml",
+   "bytes": 206442,
+   "sha256": "4bcee3ad5787e6514b48304d6b8de2e3352e13d8a650353680d87c18484208e5"
+  }
+ ],
+ "folder": "data/agm/018500_동원모빌리티/20260624_20260624000502",
+ "fetched_at": "2026-11-16T13:00:47"
+}

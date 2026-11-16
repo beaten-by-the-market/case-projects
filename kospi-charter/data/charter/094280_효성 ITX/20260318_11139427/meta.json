@@ -1,0 +1,24 @@
+{
+ "corp_code": "00414850",
+ "corp_name": "효성 ITX",
+ "stock_code": "094280",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001001",
+ "dcmNo": "11139427",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001001&dcmNo=11139427",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001001&dcmNo=11139427&eleId=1&offset=598&length=15632&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9126,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/094280_효성 ITX/20260318_11139427",
+ "fetched_at": "2026-11-16T13:25:02",
+ "used_by_rcept_no": [
+  "20260318001001"
+ ]
+}

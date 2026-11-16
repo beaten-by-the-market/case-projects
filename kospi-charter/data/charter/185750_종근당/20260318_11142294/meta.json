@@ -1,0 +1,195 @@
+{
+ "corp_code": "00992871",
+ "corp_name": "종근당",
+ "stock_code": "185750",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001376",
+ "dcmNo": "11142294",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001376&dcmNo=11142294",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001376&dcmNo=11142294&eleId=1&offset=596&length=2611&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 17,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_01.jpg",
+   "flNm": "종근당 정관_01.jpg",
+   "alt": "이미지: 종근당 정관_01",
+   "bytes": 46305,
+   "sha256": "c1b12d061fd807f3b293a073c43a0e800ce1018160fc53282339551399439b9c",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_02.jpg",
+   "flNm": "종근당 정관_02.jpg",
+   "alt": "이미지: 종근당 정관_02",
+   "bytes": 159737,
+   "sha256": "94fcfcb493b0e880e1d7ec57ddefd3d6030dbdc2aece6d3e38621d7413f3efe2",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_03.jpg",
+   "flNm": "종근당 정관_03.jpg",
+   "alt": "이미지: 종근당 정관_03",
+   "bytes": 251951,
+   "sha256": "ea8bcc655d783ac57ceebd0bf95b4806074b6138cf491ffa449db3320af1978f",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_04.jpg",
+   "flNm": "종근당 정관_04.jpg",
+   "alt": "이미지: 종근당 정관_04",
+   "bytes": 285394,
+   "sha256": "4cd8dacc9b068eeec35ba10eab8b9f6a1aac31f8a57740121cc6a616b88d64ee",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_05.jpg",
+   "flNm": "종근당 정관_05.jpg",
+   "alt": "이미지: 종근당 정관_05",
+   "bytes": 226807,
+   "sha256": "5352718c28de5ab1a25797a800ca2d66d100de525b67adc62fcac41a982a206d",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_06.jpg",
+   "flNm": "종근당 정관_06.jpg",
+   "alt": "이미지: 종근당 정관_06",
+   "bytes": 272890,
+   "sha256": "b53d6435c442368dffe9eabe264cb9e4d31a0cbf58ccb980de16f01247a3649a",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_07.jpg",
+   "flNm": "종근당 정관_07.jpg",
+   "alt": "이미지: 종근당 정관_07",
+   "bytes": 213783,
+   "sha256": "28ceea39b0418aef72b1e5f60d107f9dc45241bff960eefec5089cbe689c7d8f",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_08.jpg",
+   "flNm": "종근당 정관_08.jpg",
+   "alt": "이미지: 종근당 정관_08",
+   "bytes": 234976,
+   "sha256": "e22ef7535deca95b7e3a2019c8ebe9de59ab76030445d41fa4866273180bfefa",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_09.jpg",
+   "flNm": "종근당 정관_09.jpg",
+   "alt": "이미지: 종근당 정관_09",
+   "bytes": 213360,
+   "sha256": "c1f62ae8f6f5a67179c76636995da791d1dff79384afa8bc255d1556efa5cf6a",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "종근당 정관_10.jpg",
+   "alt": "이미지: 종근당 정관_10",
+   "bytes": 214445,
+   "sha256": "b99fa0793e9e1eef82b97594ef3b9a20adfaa69556661aa295602351e4b67832",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "종근당 정관_11.jpg",
+   "alt": "이미지: 종근당 정관_11",
+   "bytes": 216551,
+   "sha256": "23cf05536456a7bd7ff04c44a0c76771b975ab958b29520d15d30ae37d44adbf",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "종근당 정관_12.jpg",
+   "alt": "이미지: 종근당 정관_12",
+   "bytes": 215563,
+   "sha256": "fc57fd5304b2933bff5a067970a995e150e1c07d2866e3771ad0d4284b89bbb4",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "종근당 정관_13.jpg",
+   "alt": "이미지: 종근당 정관_13",
+   "bytes": 197525,
+   "sha256": "fa68e3385c8fa5a55ee6a057ba8091ae8db37e4f65f9d79784428e45f503143e",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "종근당 정관_14.jpg",
+   "alt": "이미지: 종근당 정관_14",
+   "bytes": 194230,
+   "sha256": "2ecbe83b1fd9d36dc257aeee3649cf43e4450e8a76a57f787e584af5d19bfb17",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "종근당 정관_15.jpg",
+   "alt": "이미지: 종근당 정관_15",
+   "bytes": 194980,
+   "sha256": "f93baeafa9a502e6a77b3acf207b9af65cb9c6c2b1142b68789d3ece5aa58417",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "종근당 정관_16.jpg",
+   "alt": "이미지: 종근당 정관_16",
+   "bytes": 128847,
+   "sha256": "6a4cee7918ecb1bb24ad4c7070e26562687a7f088a58e1486ce06d1317cfdace",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142294&flNm=%EC%A2%85%EA%B7%BC%EB%8B%B9+%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "종근당 정관_17.jpg",
+   "alt": "이미지: 종근당 정관_17",
+   "bytes": 83060,
+   "sha256": "7e7b24a182c8a2bc64d6ca4f5fee94a4d8f12c0f83195965a2b9c63c1e16fae4",
+   "width": 1191,
+   "height": 1684
+  }
+ ],
+ "folder": "data/charter/185750_종근당/20260318_11142294",
+ "fetched_at": "2026-11-16T13:33:05",
+ "used_by_rcept_no": [
+  "20260318001376"
+ ]
+}

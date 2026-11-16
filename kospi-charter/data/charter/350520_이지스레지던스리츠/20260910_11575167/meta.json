@@ -1,0 +1,24 @@
+{
+ "corp_code": "01436628",
+ "corp_name": "이지스레지던스리츠",
+ "stock_code": "350520",
+ "att_title": "2026.09.10 정관",
+ "att_date": "20260910",
+ "rcpNo": "20260910000505",
+ "dcmNo": "11575167",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000505&dcmNo=11575167",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260910000505&dcmNo=11575167&eleId=1&offset=611&length=28425&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 17020,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/350520_이지스레지던스리츠/20260910_11575167",
+ "fetched_at": "2026-11-16T13:39:44",
+ "used_by_rcept_no": [
+  "20260911000326"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00105961",
+ "corp_name": "LG이노텍",
+ "stock_code": "011070",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312001270",
+ "dcmNo": "11116777",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001270&dcmNo=11116777",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001270&dcmNo=11116777&eleId=1&offset=596&length=18386&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9811,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/011070_LG이노텍/20260312_11116777",
+ "fetched_at": "2026-11-16T12:36:04",
+ "used_by_rcept_no": [
+  "20260312001270"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00127200",
+ "corp_name": "삼영전자공업",
+ "stock_code": "005680",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001319",
+ "dcmNo": "11153182",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001319&dcmNo=11153182",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001319&dcmNo=11153182&eleId=1&offset=597&length=11028&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 6215,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/005680_삼영전자공업/20260319_11153182",
+ "fetched_at": "2026-11-16T12:27:08",
+ "used_by_rcept_no": [
+  "20260319001319"
+ ]
+}

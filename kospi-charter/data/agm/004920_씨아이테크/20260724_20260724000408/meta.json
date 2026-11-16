@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260724000408",
+ "corp_code": "00127158",
+ "corp_name": "씨아이테크",
+ "stock_code": "004920",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260724",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000408",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 606,
+ "charter_amend_txt": "data/agm/004920_씨아이테크/20260724_20260724000408/정관의변경.txt",
+ "main_xml": "20260724000408.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260724000408.xml",
+   "bytes": 66779,
+   "sha256": "6968ab865a1ca073d8b0330effa4aa49fd31acc274c58e7122c946596b62c5a7"
+  }
+ ],
+ "folder": "data/agm/004920_씨아이테크/20260724_20260724000408",
+ "fetched_at": "2026-11-16T13:01:20"
+}

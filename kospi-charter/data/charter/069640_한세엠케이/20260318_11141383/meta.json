@@ -1,0 +1,24 @@
+{
+ "corp_code": "00357360",
+ "corp_name": "한세엠케이",
+ "stock_code": "069640",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001269",
+ "dcmNo": "11141383",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001269&dcmNo=11141383",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001269&dcmNo=11141383&eleId=1&offset=598&length=18689&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10905,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/069640_한세엠케이/20260318_11141383",
+ "fetched_at": "2026-11-16T13:18:29",
+ "used_by_rcept_no": [
+  "20260318001269"
+ ]
+}

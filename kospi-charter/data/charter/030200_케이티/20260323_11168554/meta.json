@@ -1,0 +1,37 @@
+{
+ "corp_code": "00190321",
+ "corp_name": "케이티",
+ "stock_code": "030200",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001553",
+ "dcmNo": "11168554",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001553&dcmNo=11168554",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001553&dcmNo=11168554&eleId=1&offset=595&length=314&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 32,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/030200_케이티/20260323_11168554",
+ "fetched_at": "2026-11-16T13:10:51",
+ "used_by_rcept_no": [
+  "20260323001553"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168554&flNm=2025%EB%85%84%EB%8F%84+kt+%EC%A0%95%EA%B4%80_%EA%B5%AD%EB%AC%B8.pdf",
+   "flNm": "2025년도 kt 정관_국문.pdf",
+   "bytes": 394845,
+   "sha256": "53bf365478a6ba72d353bab6bb0a96d726eca3d407c7db84a75200e8ba2f6d42",
+   "pages": 30,
+   "text_pages": 29,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "00136776",
+ "corp_name": "차AI헬스케어",
+ "stock_code": "025620",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001268",
+ "dcmNo": "11152797",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001268&dcmNo=11152797",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001268&dcmNo=11152797&eleId=1&offset=600&length=336&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 50,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/025620_차AI헬스케어/20260319_11152797",
+ "fetched_at": "2026-11-16T13:09:35",
+ "used_by_rcept_no": [
+  "20260319001268"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152797&flNm=%EC%A0%95%EA%B4%80+251027+%EC%B0%A8%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4%ED%97%AC%EC%8A%A4%EC%BC%80%EC%96%B4+%EC%A0%95%EA%B4%80+2.0.pdf",
+   "flNm": "정관 251027 차에이아이헬스케어 정관 2.0.pdf",
+   "bytes": 314110,
+   "sha256": "f05c39cc720470ee85727b2c4cc0ffd4e691e691ef1b22d3bc7d3a60e4bdea6f",
+   "pages": 17,
+   "text_pages": 16,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

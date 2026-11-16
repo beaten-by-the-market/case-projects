@@ -1,0 +1,245 @@
+{
+ "corp_code": "00172185",
+ "corp_name": "남성",
+ "stock_code": "004270",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001336",
+ "dcmNo": "11159870",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001336&dcmNo=11159870",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001336&dcmNo=11159870&eleId=1&offset=593&length=3767&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 22,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_01.jpg",
+   "flNm": "8. (주)남성 정관(62기)_01.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_01",
+   "bytes": 40573,
+   "sha256": "f6d8cf0cad594016ba2764a490b03356116ae8d5aeb893181b3e570151791318",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_02.jpg",
+   "flNm": "8. (주)남성 정관(62기)_02.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_02",
+   "bytes": 241465,
+   "sha256": "d565c10456f4e42494d7642cef5bdbfae61fde2e5d39315e8a305ef662d6cf25",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_03.jpg",
+   "flNm": "8. (주)남성 정관(62기)_03.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_03",
+   "bytes": 206898,
+   "sha256": "cdf418cca6eab38813e9914404e05d3c6ed192770dd7a9c6d29c8871e1f00402",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_04.jpg",
+   "flNm": "8. (주)남성 정관(62기)_04.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_04",
+   "bytes": 119557,
+   "sha256": "44a65f018f0d9be1c56a3033ac805c8fe4a0c668167cadfc8ce729286436965e",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_05.jpg",
+   "flNm": "8. (주)남성 정관(62기)_05.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_05",
+   "bytes": 134116,
+   "sha256": "06b46d12bc169c30184f79d064cf60851c42286718ee1d702fb9e076625a8de2",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_06.jpg",
+   "flNm": "8. (주)남성 정관(62기)_06.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_06",
+   "bytes": 126951,
+   "sha256": "76d1fb20373318d6260939f699857b25f8e4db41b9876511a3a9bd9886206b01",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_07.jpg",
+   "flNm": "8. (주)남성 정관(62기)_07.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_07",
+   "bytes": 270184,
+   "sha256": "d332467855fe748eb4ed46f8a502705525d836ac568fba9fddb76d90ba93017d",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_08.jpg",
+   "flNm": "8. (주)남성 정관(62기)_08.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_08",
+   "bytes": 284615,
+   "sha256": "99e923758677deac5e5e928cb68305c245ed5dd2d1bf66e91d05e13f74ddde8c",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_09.jpg",
+   "flNm": "8. (주)남성 정관(62기)_09.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_09",
+   "bytes": 128500,
+   "sha256": "c845f9100a78f54be07a8c818e4b7aa9c38ce1e23c714f58dd663089c8ff0982",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_10.jpg",
+   "flNm": "8. (주)남성 정관(62기)_10.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_10",
+   "bytes": 128581,
+   "sha256": "0f88d01f27ed1a21c93245d4620cc0e9f0b1997d08db249f026a5facafdb914b",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_11.jpg",
+   "flNm": "8. (주)남성 정관(62기)_11.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_11",
+   "bytes": 281234,
+   "sha256": "935145692243e8b322d652c08fde293d0bb8d9bfcc8579195b369d2c976aed17",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_12.jpg",
+   "flNm": "8. (주)남성 정관(62기)_12.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_12",
+   "bytes": 254131,
+   "sha256": "bfbd0a7b428a1b11716e3633795e7bd7e9a9ad2dbd38f6251aa60e32828de021",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_13.jpg",
+   "flNm": "8. (주)남성 정관(62기)_13.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_13",
+   "bytes": 230178,
+   "sha256": "d9c2109a9aa0e0032025755e0a18beeadcd5a5b8dd1d041fecded1d8961aa987",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_14.jpg",
+   "flNm": "8. (주)남성 정관(62기)_14.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_14",
+   "bytes": 236151,
+   "sha256": "31ca561355ebf8aeddd59727cf6078e099f5ee27ee12f9e23690f8c1c2d3d7f9",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_15.jpg",
+   "flNm": "8. (주)남성 정관(62기)_15.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_15",
+   "bytes": 242185,
+   "sha256": "c74bf892690a2e081b55b587bf6e939e3fb9c244d2b954bf26353aac10b66842",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_16.jpg",
+   "flNm": "8. (주)남성 정관(62기)_16.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_16",
+   "bytes": 299306,
+   "sha256": "20e697e14f227a4aa88003801c8c50c6f00b596fc0444690fe9bfdbe416e044f",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_17.jpg",
+   "flNm": "8. (주)남성 정관(62기)_17.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_17",
+   "bytes": 243381,
+   "sha256": "13c47dbdd7808a6c8bf446556978bc74345196cf5da3fcc2ea5c469f746d76ca",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_18.jpg",
+   "flNm": "8. (주)남성 정관(62기)_18.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_18",
+   "bytes": 280963,
+   "sha256": "fa7a18047063066feb962cce1be2978d709932113cc58a2fc9e91cdcbb7d17c3",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_19.jpg",
+   "flNm": "8. (주)남성 정관(62기)_19.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_19",
+   "bytes": 219664,
+   "sha256": "5f9d0e7e43f4d98ca6380104d0437d363b886ad0b078cc1c4bfafd420ad78374",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_20.jpg",
+   "flNm": "8. (주)남성 정관(62기)_20.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_20",
+   "bytes": 243895,
+   "sha256": "bac8430428ff874cdefd0476124d76b2e59a73d2e149b18e976ec4572a6c8791",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_21.jpg",
+   "flNm": "8. (주)남성 정관(62기)_21.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_21",
+   "bytes": 242296,
+   "sha256": "e84dc7410c17fac10b9ca0e4c1e66bef7c5790478de5e26523e9b938cb42271e",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159870&flNm=8.+%28%EC%A3%BC%29%EB%82%A8%EC%84%B1+%EC%A0%95%EA%B4%80%2862%EA%B8%B0%29_22.jpg",
+   "flNm": "8. (주)남성 정관(62기)_22.jpg",
+   "alt": "이미지: 8. (주)남성 정관(62기)_22",
+   "bytes": 62037,
+   "sha256": "a291e3df2869d35a7cad7c1a15d3ddf6f75330ce80224b1a01e92ad58461baba",
+   "width": 793,
+   "height": 1122
+  }
+ ],
+ "folder": "data/charter/004270_남성/20260320_11159870",
+ "fetched_at": "2026-11-16T12:25:18",
+ "used_by_rcept_no": [
+  "20260320001336"
+ ]
+}

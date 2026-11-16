@@ -1,0 +1,24 @@
+{
+ "corp_code": "00120571",
+ "corp_name": "롯데칠성음료",
+ "stock_code": "005300",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311004566",
+ "dcmNo": "11111303",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004566&dcmNo=11111303",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004566&dcmNo=11111303&eleId=1&offset=594&length=16843&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10712,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/005300_롯데칠성음료/20260311_11111303",
+ "fetched_at": "2026-11-16T12:26:40",
+ "used_by_rcept_no": [
+  "20260311004566"
+ ]
+}

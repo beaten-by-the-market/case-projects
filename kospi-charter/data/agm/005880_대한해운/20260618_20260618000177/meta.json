@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260618000177",
+ "corp_code": "00113535",
+ "corp_name": "대한해운",
+ "stock_code": "005880",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260618",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618000177",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260618000177.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260618000177.xml",
+   "bytes": 66656,
+   "sha256": "4cfb8b9698672038d836e11126eac29a8ba8f39ab7fe56a044d7c6ae7207e0b9"
+  }
+ ],
+ "folder": "data/agm/005880_대한해운/20260618_20260618000177",
+ "fetched_at": "2026-11-16T13:00:43"
+}

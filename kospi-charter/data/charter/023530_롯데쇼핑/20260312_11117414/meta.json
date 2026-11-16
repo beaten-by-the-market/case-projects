@@ -1,0 +1,24 @@
+{
+ "corp_code": "00120526",
+ "corp_name": "롯데쇼핑",
+ "stock_code": "023530",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312001405",
+ "dcmNo": "11117414",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001405&dcmNo=11117414",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001405&dcmNo=11117414&eleId=1&offset=593&length=29166&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11142,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/023530_롯데쇼핑/20260312_11117414",
+ "fetched_at": "2026-11-16T13:08:46",
+ "used_by_rcept_no": [
+  "20260312001405"
+ ]
+}

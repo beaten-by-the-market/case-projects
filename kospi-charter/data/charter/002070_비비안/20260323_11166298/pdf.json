@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166298&flNm=%EB%B9%84%EB%B9%84%EC%95%88_%EC%A0%95%EA%B4%80%28%EB%82%A0%EC%9D%B8%EB%B3%B8%29.pdf",
+   "flNm": "비비안_정관(날인본).pdf",
+   "bytes": 3748705,
+   "sha256": "ec7ecab12a6379da763cb5c155a328751cc8a8035bd798c06146346901e8971b",
+   "pages": 23,
+   "text_pages": 0,
+   "ocr_pages": 23
+  }
+ ],
+ "total_chars": 14031,
+ "pages": 23,
+ "text_pages": 0,
+ "ocr_pages": 23,
+ "created_at": "2026-11-16T13:47:34",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

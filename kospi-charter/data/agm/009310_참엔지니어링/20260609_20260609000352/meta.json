@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260609000352",
+ "corp_code": "00153621",
+ "corp_name": "참엔지니어링",
+ "stock_code": "009310",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260609",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609000352",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 304,
+ "charter_amend_txt": "data/agm/009310_참엔지니어링/20260609_20260609000352/정관의변경.txt",
+ "main_xml": "20260609000352.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260609000352.xml",
+   "bytes": 44543,
+   "sha256": "073e8ac7b6aa9b8f06f42a47897edc8d66c09396602aebf82b667e1679780acb"
+  }
+ ],
+ "folder": "data/agm/009310_참엔지니어링/20260609_20260609000352",
+ "fetched_at": "2026-11-16T13:00:36"
+}

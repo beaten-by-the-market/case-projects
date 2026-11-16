@@ -1,0 +1,24 @@
+{
+ "corp_code": "01721809",
+ "corp_name": "현대그린푸드",
+ "stock_code": "453340",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001009",
+ "dcmNo": "11126723",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001009&dcmNo=11126723",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001009&dcmNo=11126723&eleId=1&offset=599&length=21176&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11767,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/453340_현대그린푸드/20260316_11126723",
+ "fetched_at": "2026-11-16T13:42:46",
+ "used_by_rcept_no": [
+  "20260316001009"
+ ]
+}

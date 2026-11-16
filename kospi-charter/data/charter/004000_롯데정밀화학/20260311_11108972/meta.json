@@ -1,0 +1,175 @@
+{
+ "corp_code": "00157681",
+ "corp_name": "롯데정밀화학",
+ "stock_code": "004000",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311004005",
+ "dcmNo": "11108972",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004005&dcmNo=11108972",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004005&dcmNo=11108972&eleId=1&offset=597&length=2279&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 15,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%281%29.jpg",
+   "flNm": "정관 (1).jpg",
+   "alt": "이미지: 정관 (1)",
+   "bytes": 218795,
+   "sha256": "807d07d81ee148d8b17931bc3a067bf8b4f4aee3cc79b4bee3ebe7bfc7587cbb",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%282%29.jpg",
+   "flNm": "정관 (2).jpg",
+   "alt": "이미지: 정관 (2)",
+   "bytes": 251517,
+   "sha256": "f59e6f23c0ddd95d1fac40d4bb5eede3b8bb87db787ac88ab2574e17ccb07dc1",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%283%29.jpg",
+   "flNm": "정관 (3).jpg",
+   "alt": "이미지: 정관 (3)",
+   "bytes": 301168,
+   "sha256": "73678902a63fbbf1638347a885571d8ecf73e3766e03b45b13bc28406f8780a6",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%284%29.jpg",
+   "flNm": "정관 (4).jpg",
+   "alt": "이미지: 정관 (4)",
+   "bytes": 272123,
+   "sha256": "fdd76befac53e697e3e81d0ffa1f71decd2b00571de8ebd68ad721dcd2734a97",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%285%29.jpg",
+   "flNm": "정관 (5).jpg",
+   "alt": "이미지: 정관 (5)",
+   "bytes": 285454,
+   "sha256": "660da9467e4dcd9e6c47a0fbadba3ecb7be168e3a59b6db98ff0dac943f97138",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%286%29.jpg",
+   "flNm": "정관 (6).jpg",
+   "alt": "이미지: 정관 (6)",
+   "bytes": 272775,
+   "sha256": "c0ce356bc9bcb48bf598bd5d142e34b8ab59972984ee006427ca955e6a310b20",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%287%29.jpg",
+   "flNm": "정관 (7).jpg",
+   "alt": "이미지: 정관 (7)",
+   "bytes": 260236,
+   "sha256": "9e9b593b72a294ca7e2f0418d2872075d470069291a3762641c06b891a09b9af",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%288%29.jpg",
+   "flNm": "정관 (8).jpg",
+   "alt": "이미지: 정관 (8)",
+   "bytes": 287323,
+   "sha256": "82d961114aefc90e1b606597a0b7bbf5950f183d96256dffb22d8d5e4c583203",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%289%29.jpg",
+   "flNm": "정관 (9).jpg",
+   "alt": "이미지: 정관 (9)",
+   "bytes": 278239,
+   "sha256": "d18283332928156f05ed720edb37e188c5a3e15498ca393e900e426aa16a4b8f",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%2810%29.jpg",
+   "flNm": "정관 (10).jpg",
+   "alt": "이미지: 정관 (10)",
+   "bytes": 256307,
+   "sha256": "24f3dbdd81b19975e945fcdaf0e6ed4c8960b78ba5ef2569c9b0f8bc50331d61",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%2811%29.jpg",
+   "flNm": "정관 (11).jpg",
+   "alt": "이미지: 정관 (11)",
+   "bytes": 268084,
+   "sha256": "481ecbd546f62ce773abe931cb070a712f465ed11ccf59ae633893da2194a7a0",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%2812%29.jpg",
+   "flNm": "정관 (12).jpg",
+   "alt": "이미지: 정관 (12)",
+   "bytes": 261147,
+   "sha256": "ff3fb724ca3ca23bc7d57910a18a51f7f5a0f6e264d048616168ba81eda9be8e",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%2813%29.jpg",
+   "flNm": "정관 (13).jpg",
+   "alt": "이미지: 정관 (13)",
+   "bytes": 302781,
+   "sha256": "fb1cef8b41d4ee7c6284b5cb922581e1c0e7a0017ebbe4babd01cd1d2afbc521",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%2814%29.jpg",
+   "flNm": "정관 (14).jpg",
+   "alt": "이미지: 정관 (14)",
+   "bytes": 275464,
+   "sha256": "723c2ccaffdf74c406b647ec6e3967a4a0521dd1759dae40184da0be6996a2ab",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11108972&flNm=%EC%A0%95%EA%B4%80+%2815%29.jpg",
+   "flNm": "정관 (15).jpg",
+   "alt": "이미지: 정관 (15)",
+   "bytes": 287188,
+   "sha256": "0b344ed6a8f401d20fa26cd6c57ea96cd5fb1671a2899a4a138c47c38475aa81",
+   "width": 2480,
+   "height": 3507
+  }
+ ],
+ "folder": "data/charter/004000_롯데정밀화학/20260311_11108972",
+ "fetched_at": "2026-11-16T12:24:40",
+ "used_by_rcept_no": [
+  "20260814002211"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260507000124",
+ "corp_code": "00106881",
+ "corp_name": "인디에프",
+ "stock_code": "014990",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260507",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000124",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 576,
+ "charter_amend_txt": "data/agm/014990_인디에프/20260507_20260507000124/정관의변경.txt",
+ "main_xml": "20260507000124.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260507000124.xml",
+   "bytes": 35352,
+   "sha256": "4d18e14fd1b33a6b1fdff62fc6bd11181f62080d89cba23467a796e734ee7c4a"
+  }
+ ],
+ "folder": "data/agm/014990_인디에프/20260507_20260507000124",
+ "fetched_at": "2026-11-16T13:00:20"
+}

@@ -34,3 +34,11 @@ N 이 증권발행공시규정 제3-15조 ③항 호 번호와 같음을 **20개
 코드는 안건 '유형' 단위라 의안 수·후보자·금액은 태그 없는 텍스트이고, 가장 먼저 나오는 거래소 소집결의·주총결과는
 금감원 코드가 없는 HTML 이다. SEC 정기주총 서식(DEF 14A·8-K 5.07 등)에는 안건 유형 코드 자체가 없다.
 → [README](agm-comparison/README.md) · [결론](agm-comparison/docs/00-결론정리.md)
+
+### [kospi-charter/](kospi-charter/) — 최근 1년 사업보고서 목록 + 코스피 정관 원문 + 정관변경 주총
+OpenDART 에서 최근 1년 **사업보고서 최종본**(`last_reprt_at=Y`)을 회사마다 1건씩 받아(3,349사), `[첨부정정]` 은 DART `family` 첫 옵션으로
+본문 접수번호(`rcept_no_new`)를 붙이고 사업연도·결산월·소속시장(KIND 기준일 현재 목록)을 더한다.
+코스피 825사마다 첨부문서 목록(OpenDartReader `attach_docs()` 와 같은 `#att`)에서 정관 URL 을 찾아 원문을 회사·문서별 폴더에 정리한다 —
+텍스트 629 · 스캔 이미지 164(Windows OCR 로 글자 인식) · PDF 31(글자층 추출). 사업보고서 원본 제출일 이후 접수된 주주총회 소집공고 247건의
+XML 을 받아 '정관의 변경' 절(146건)을 txt 로 따로 저장해 링크한다. 결과는 data.krx.co.kr 디자인을 빌린 정적 웹페이지로 본다.
+마스터 노트북 하나로 재현된다. → [README](kospi-charter/README.md) · [수집사양](kospi-charter/docs/01-수집사양.md)

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00260383",
+ "corp_name": "대한유화",
+ "stock_code": "006650",
+ "att_title": "2026.03.05 정관",
+ "att_date": "20260305",
+ "rcpNo": "20260305001191",
+ "dcmNo": "11093668",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001191&dcmNo=11093668",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260305001191&dcmNo=11093668&eleId=1&offset=595&length=18563&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10921,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/006650_대한유화/20260305_11093668",
+ "fetched_at": "2026-11-16T12:29:31",
+ "used_by_rcept_no": [
+  "20260305001191"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323000922",
+ "corp_code": "00158316",
+ "corp_name": "NICE",
+ "stock_code": "034310",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000922",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2893,
+ "charter_amend_txt": "data/agm/034310_NICE/20260323_20260323000922/정관의변경.txt",
+ "main_xml": "20260323000922.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323000922.xml",
+   "bytes": 512449,
+   "sha256": "73e5da22426ebdf073b8243cc0d38c3000b490d66e3c67160533bc1a593a1cb9"
+  }
+ ],
+ "folder": "data/agm/034310_NICE/20260323_20260323000922",
+ "fetched_at": "2026-11-16T12:59:47"
+}

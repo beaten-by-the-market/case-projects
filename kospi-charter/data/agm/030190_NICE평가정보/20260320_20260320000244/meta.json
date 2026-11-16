@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260320000244",
+ "corp_code": "00158325",
+ "corp_name": "NICE평가정보",
+ "stock_code": "030190",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260320",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000244",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 19011,
+ "charter_amend_txt": "data/agm/030190_NICE평가정보/20260320_20260320000244/정관의변경.txt",
+ "main_xml": "20260320000244.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260320000244.xml",
+   "bytes": 418969,
+   "sha256": "406a920a514e2159a689fdc92a599e4f919175b5ebd9427f76e5e831274a1257"
+  }
+ ],
+ "folder": "data/agm/030190_NICE평가정보/20260320_20260320000244",
+ "fetched_at": "2026-11-16T12:59:42"
+}

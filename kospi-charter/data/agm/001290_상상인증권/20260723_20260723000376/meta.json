@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260723000376",
+ "corp_code": "00112059",
+ "corp_name": "상상인증권",
+ "stock_code": "001290",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260723",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000376",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 307,
+ "charter_amend_txt": "data/agm/001290_상상인증권/20260723_20260723000376/정관의변경.txt",
+ "main_xml": "20260723000376.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260723000376.xml",
+   "bytes": 62749,
+   "sha256": "e3aa0ae2ec46a470c14730d4a132005e10b3364e2e2a51dfbb65d0e91888f3d4"
+  }
+ ],
+ "folder": "data/agm/001290_상상인증권/20260723_20260723000376",
+ "fetched_at": "2026-11-16T13:01:19"
+}

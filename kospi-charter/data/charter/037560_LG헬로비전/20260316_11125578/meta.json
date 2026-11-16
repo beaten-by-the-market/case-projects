@@ -1,0 +1,37 @@
+{
+ "corp_code": "00222532",
+ "corp_name": "LG헬로비전",
+ "stock_code": "037560",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316000756",
+ "dcmNo": "11125578",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000756&dcmNo=11125578",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000756&dcmNo=11125578&eleId=1&offset=597&length=338&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 58,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/037560_LG헬로비전/20260316_11125578",
+ "fetched_at": "2026-11-16T13:14:05",
+ "used_by_rcept_no": [
+  "20260316000756"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125578&flNm=%E2%98%85%EC%A0%95%EA%B4%80_lg%ED%97%AC%EB%A1%9C%EB%B9%84%EC%A0%84%28%EA%B0%9C%EC%A0%95+24.03.21%29_%EB%B0%B0%ED%8F%AC%EC%9A%A9.pdf",
+   "flNm": "★정관_lg헬로비전(개정 24.03.21)_배포용.pdf",
+   "bytes": 743730,
+   "sha256": "9026aa7b3615f9694dce6738ec10730d8b12e69653aa20459f1068a99f435f40",
+   "pages": 24,
+   "text_pages": 24,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

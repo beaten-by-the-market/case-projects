@@ -1,0 +1,24 @@
+{
+ "corp_code": "00102751",
+ "corp_name": "고려산업",
+ "stock_code": "002140",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311003408",
+ "dcmNo": "11106783",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003408&dcmNo=11106783",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311003408&dcmNo=11106783&eleId=1&offset=596&length=15440&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9672,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/002140_고려산업/20260311_11106783",
+ "fetched_at": "2026-11-16T12:18:20",
+ "used_by_rcept_no": [
+  "20260311003408"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "00153621",
+ "corp_name": "참엔지니어링",
+ "stock_code": "009310",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001238",
+ "dcmNo": "11141127",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001238&dcmNo=11141127",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001238&dcmNo=11141127&eleId=1&offset=597&length=308&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 28,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/009310_참엔지니어링/20260318_11141127",
+ "fetched_at": "2026-11-16T12:33:26",
+ "used_by_rcept_no": [
+  "20260318001238"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141127&flNm=%EC%B0%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%28%EC%A3%BC%29+%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "참엔지니어링(주) 정관.pdf",
+   "bytes": 258972,
+   "sha256": "dda4b449fddaf4cb3120b83708bcab6cb435a9e0cc5784987f855550114a20e5",
+   "pages": 20,
+   "text_pages": 20,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

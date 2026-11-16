@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260310002892",
+ "corp_code": "00435312",
+ "corp_name": "하이스틸",
+ "stock_code": "071090",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260310",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002892",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2075,
+ "charter_amend_txt": "data/agm/071090_하이스틸/20260310_20260310002892/정관의변경.txt",
+ "main_xml": "20260310002892.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260310002892.xml",
+   "bytes": 792537,
+   "sha256": "f58fa306a95bf19aad0ac53a0aa2d2727997d5729dc0220b19afb3fd86398b40"
+  }
+ ],
+ "folder": "data/agm/071090_하이스틸/20260310_20260310002892",
+ "fetched_at": "2026-11-16T12:59:15"
+}

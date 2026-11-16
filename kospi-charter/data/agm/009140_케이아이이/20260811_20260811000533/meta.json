@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260811000533",
+ "corp_code": "00102140",
+ "corp_name": "케이아이이",
+ "stock_code": "009140",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260811",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000533",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1207,
+ "charter_amend_txt": "data/agm/009140_케이아이이/20260811_20260811000533/정관의변경.txt",
+ "main_xml": "20260811000533.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260811000533.xml",
+   "bytes": 41185,
+   "sha256": "75951c19c39ce477afcf6097e8d42ff9d4930fde2dfb91f9882ae0ed4ec917da"
+  }
+ ],
+ "folder": "data/agm/009140_케이아이이/20260811_20260811000533",
+ "fetched_at": "2026-11-16T13:01:27"
+}

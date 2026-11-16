@@ -1,0 +1,37 @@
+{
+ "corp_code": "00121969",
+ "corp_name": "에쓰씨엔지니어링",
+ "stock_code": "023960",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000864",
+ "dcmNo": "11138508",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000864&dcmNo=11138508",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000864&dcmNo=11138508&eleId=1&offset=599&length=344&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 60,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/023960_에쓰씨엔지니어링/20260318_11138508",
+ "fetched_at": "2026-11-16T13:09:13",
+ "used_by_rcept_no": [
+  "20260319000744"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138508&flNm=sc%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80+%282026.02.05+%EA%B0%9C%EC%A0%95%29.pdf",
+   "flNm": "sc엔지니어링주식회사 정관 (2026.02.05 개정).pdf",
+   "bytes": 323137,
+   "sha256": "d1f83513f7773a91d63cca6d287b31abfd50f751eb5043285839cca59fce4d30",
+   "pages": 17,
+   "text_pages": 16,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260623000292",
+ "corp_code": "01576102",
+ "corp_name": "미래에셋글로벌리츠",
+ "stock_code": "396690",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260623",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000292",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260623000292.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260623000292.xml",
+   "bytes": 96301,
+   "sha256": "0ba799c1aca8f6fb7b10330ea4dee13ff55c88827d211d970012f052069b6dc1"
+  }
+ ],
+ "folder": "data/agm/396690_미래에셋글로벌리츠/20260623_20260623000292",
+ "fetched_at": "2026-11-16T13:00:46"
+}

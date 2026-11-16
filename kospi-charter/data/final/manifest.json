@@ -1,0 +1,91 @@
+{
+ "generated_at": "2026-11-16T13:53:52",
+ "as_of": "2026-11-16",
+ "window": [
+  "2025-11-16",
+  "2026-11-16"
+ ],
+ "fetched": {
+  "dart_main": [
+   "2026-11-16T11:51:39",
+   "2026-11-16T12:10:07"
+  ],
+  "charter_docs": [
+   "2026-11-16T12:10:57",
+   "2026-11-16T13:44:36"
+  ],
+  "agm_xml": [
+   "2026-11-16T12:59:15",
+   "2026-11-16T13:02:18"
+  ]
+ },
+ "source": {
+  "list": "OpenDART list.json pblntf_detail_ty=A001 last_reprt_at=Y",
+  "market": "KIND listed_issue_status — 기준일 현재 상장 목록 한 번 (제출 당시 아님)",
+  "rcept_no_new": "DART main.do <select id=family> 첫 옵션 ([첨부정정] 행만)",
+  "charter": "DART main.do <select id=att> (OpenDartReader.attach_docs 규칙) → viewer.do",
+  "agm": "OpenDART list.json E006 last_reprt_at=Y, 접수일 ∈ [원본 최초 접수일, 기준일] → document.xml, TITLE@AASSOCNOTE=L0-0-2-2-0(정관의 변경)"
+ },
+ "counts": {
+  "annual_reports": 3349,
+  "market": {
+   "코스닥": 1784,
+   "코스피": 825,
+   "기타": 633,
+   "코넥스": 107
+  },
+  "amend_tag": {
+   "(없음)": 2666,
+   "[기재정정]": 536,
+   "[첨부추가]": 61,
+   "[첨부정정]": 86
+  },
+  "fiscal_year": {
+   "2025": 3284,
+   "2026": 65
+  },
+  "settle_month": {
+   "2": 3,
+   "3": 26,
+   "4": 4,
+   "5": 4,
+   "6": 23,
+   "7": 3,
+   "8": 3,
+   "9": 5,
+   "11": 2,
+   "12": 3276
+  },
+  "rcept_no_new_changed": 86,
+  "kospi_rows": 825,
+  "kospi_charter_status": {
+   "ok": 825
+  },
+  "charter_docs": 825,
+  "charter_content_type": {
+   "text": 629,
+   "image": 164,
+   "pdf": 31,
+   "mixed": 1
+  },
+  "charter_images": 3186,
+  "charter_ocr_docs": 165,
+  "charter_pdf_docs": 31,
+  "agm_notices": 247,
+  "agm_notices_with_charter_amend": 146,
+  "agm_notice_errors": 0,
+  "kospi_rows_agm_count": {
+   "0": 619,
+   "1": 177,
+   "2": 21,
+   "3": 5,
+   "4": 2,
+   "5": 1
+  },
+  "kospi_rows_agm_charter_amend_count": {
+   "0": 691,
+   "1": 122,
+   "2": 12
+  }
+ }
+}

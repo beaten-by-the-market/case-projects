@@ -1,0 +1,38 @@
+{
+ "corp_code": "00111722",
+ "corp_name": "미래에셋증권",
+ "stock_code": "006800",
+ "att_title": "2026.03.17 [정정] 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000237",
+ "dcmNo": "11131063",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000237&dcmNo=11131063",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000237&dcmNo=11131063&eleId=1&offset=643&length=3012&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000237&dcmNo=11131063&eleId=2&offset=3685&length=312&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "pdf",
+ "text_chars": 137,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/006800_미래에셋증권/20260317_11131063",
+ "fetched_at": "2026-11-16T12:29:46",
+ "used_by_rcept_no": [
+  "20260515002972"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11131063&flNm=%EC%A0%95%EA%B4%80%282026.03.16%29.pdf",
+   "flNm": "정관(2026.03.16).pdf",
+   "bytes": 687983,
+   "sha256": "5821a32214cf50698ded51f147b9ad6b57733db6cc3ca04f2a2e0038d942eba2",
+   "pages": 28,
+   "text_pages": 28,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

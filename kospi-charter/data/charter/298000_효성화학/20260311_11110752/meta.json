@@ -1,0 +1,24 @@
+{
+ "corp_code": "01316236",
+ "corp_name": "효성화학",
+ "stock_code": "298000",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311004423",
+ "dcmNo": "11110752",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004423&dcmNo=11110752",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004423&dcmNo=11110752&eleId=1&offset=592&length=19696&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11064,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/298000_효성화학/20260311_11110752",
+ "fetched_at": "2026-11-16T13:38:37",
+ "used_by_rcept_no": [
+  "20260311004423"
+ ]
+}

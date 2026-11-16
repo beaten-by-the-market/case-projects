@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260325000347",
+ "corp_code": "00684802",
+ "corp_name": "에이플러스에셋",
+ "stock_code": "244920",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260325",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260325000347",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 9405,
+ "charter_amend_txt": "data/agm/244920_에이플러스에셋/20260325_20260325000347/정관의변경.txt",
+ "main_xml": "20260325000347.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260325000347.xml",
+   "bytes": 216869,
+   "sha256": "10b8efaf5803bd3f1322be834556ea536915290b266b31e378271e091eb7fb33"
+  }
+ ],
+ "folder": "data/agm/244920_에이플러스에셋/20260325_20260325000347",
+ "fetched_at": "2026-11-16T12:59:55"
+}

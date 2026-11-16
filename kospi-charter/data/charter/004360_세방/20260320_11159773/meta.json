@@ -1,0 +1,24 @@
+{
+ "corp_code": "00133812",
+ "corp_name": "세방",
+ "stock_code": "004360",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001327",
+ "dcmNo": "11159773",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001327&dcmNo=11159773",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001327&dcmNo=11159773&eleId=1&offset=594&length=29362&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15036,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/004360_세방/20260320_11159773",
+ "fetched_at": "2026-11-16T12:25:21",
+ "used_by_rcept_no": [
+  "20260731000640"
+ ]
+}

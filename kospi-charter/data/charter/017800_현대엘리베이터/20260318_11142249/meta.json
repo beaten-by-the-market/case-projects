@@ -1,0 +1,235 @@
+{
+ "corp_code": "00164724",
+ "corp_name": "현대엘리베이터",
+ "stock_code": "017800",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001372",
+ "dcmNo": "11142249",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001372&dcmNo=11142249",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001372&dcmNo=11142249&eleId=1&offset=598&length=3863&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 21,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_01.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_01",
+   "bytes": 182203,
+   "sha256": "6ab706266af5b8e873a3446359b08d3c6674dafd01b63ac030c0df75c0611e7f",
+   "width": 2686,
+   "height": 3797
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_02.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_02",
+   "bytes": 206624,
+   "sha256": "8f961d01b142f4d517ccfb2109534847757d67294310f0848e3fbbadb138bae4",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_03.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_03",
+   "bytes": 301878,
+   "sha256": "4ab45d92a2e14e438a729efe03033790387edcb3e833f6a17c49b2cbfcdc2b40",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_04.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_04",
+   "bytes": 255699,
+   "sha256": "5271b31cdca94f94113ea2c8648903efb1c05c42b3f1b0a1712265bf6ce57d94",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_05.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_05",
+   "bytes": 258678,
+   "sha256": "c8e1b5ac24bdfc121a71529a7a8a1937f6adb0bfa2ce23b45c38c12c5205c0da",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_06.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_06",
+   "bytes": 233243,
+   "sha256": "8209696dd9ba9f1fc857660187c4e2545b3d6e9502677ec312da454b0b12c520",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_07.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_07",
+   "bytes": 235411,
+   "sha256": "875eb583c0d157881b2a143ab8a7a770f27bd4f1dbf75d1ad18a59b9855f5f2b",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_08.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_08",
+   "bytes": 306941,
+   "sha256": "6c4ffe173637399d41880e3ee15dbff428b701acfb57eab370e291ad56a476c8",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_09.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_09",
+   "bytes": 255681,
+   "sha256": "fc20712492ad1214a6128354e19ad7b6c6eee15bbf7a84b798a5a06f37406d5b",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_10.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_10",
+   "bytes": 232859,
+   "sha256": "ac4c480609edc55780b46c465234eb104af93cfc633cfc2612a91ff4ad53632a",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_11.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_11",
+   "bytes": 299576,
+   "sha256": "edb4bb579e6dff8c0f7f9ebaf0592b81ec0fc6002e36574363a331cb85268483",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_12.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_12",
+   "bytes": 255044,
+   "sha256": "1d5ae11ffa06665c23f3c9aad720e0ca0def2124b46a9c39593c94fd6924b7a2",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_13.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_13",
+   "bytes": 266780,
+   "sha256": "a1a20378e7838204883bfd4558a94e57321004f656d874fbf9ffc5bbb862c693",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_14.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_14",
+   "bytes": 303678,
+   "sha256": "1d9bfe8a71eab0aa81d4dbdfdea6345e345c70cfee884d004526742f79a500f6",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_15.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_15.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_15",
+   "bytes": 224402,
+   "sha256": "b2e47edae140fc97657cf39781d76199a565e62b720bb39765d11681dd755dcc",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_16.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_16.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_16",
+   "bytes": 287685,
+   "sha256": "73a94626a7bc944127d197440b5dd4279c77df91ff679deec3125091636c5c92",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_17.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_17.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_17",
+   "bytes": 290721,
+   "sha256": "43b8b7c217518d2ea628917f82a92010a8d18dab05245211a24c0ddd27be6858",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_18.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_18.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_18",
+   "bytes": 272026,
+   "sha256": "8b625ef86b5926972f4ca6de8d6f09ecb183bfcd46c648c338760c0f2e3204c2",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_19.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_19.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_19",
+   "bytes": 196723,
+   "sha256": "8ac91bc11e83adfe5821ba2c631040aff8cfc1ab2e619aae35098b1be28b4388",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_20.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_20.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_20",
+   "bytes": 195245,
+   "sha256": "adfec59bade39fad5e20d55c793b861b75901738a9301acc36dfda6af82b9d64",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142249&flNm=%ED%98%84%EB%8C%80%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0+%EC%A0%95%EA%B4%80%28250326%29_%ED%8E%98%EC%9D%B4%EC%A7%80_21.jpg",
+   "flNm": "현대엘리베이터 정관(250326)_페이지_21.jpg",
+   "alt": "이미지: 현대엘리베이터 정관(250326)_페이지_21",
+   "bytes": 140969,
+   "sha256": "a769a26643f17efca983d9a889a947db709605abdcc0604f193f98faa09c95ea",
+   "width": 1653,
+   "height": 2337
+  }
+ ],
+ "folder": "data/charter/017800_현대엘리베이터/20260318_11142249",
+ "fetched_at": "2026-11-16T13:05:35",
+ "used_by_rcept_no": [
+  "20260318001372"
+ ]
+}

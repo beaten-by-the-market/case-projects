@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260910000563",
+ "corp_code": "00124540",
+ "corp_name": "대우건설",
+ "stock_code": "047040",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260910",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000563",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260910000563.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260910000563.xml",
+   "bytes": 77476,
+   "sha256": "c93b34c34f79f2262e774fce7903a255a952a7c03d0dd9a6be428edaac6aeaab"
+  }
+ ],
+ "folder": "data/agm/047040_대우건설/20260910_20260910000563",
+ "fetched_at": "2026-11-16T13:01:41"
+}

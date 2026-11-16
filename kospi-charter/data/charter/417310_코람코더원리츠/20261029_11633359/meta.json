@@ -1,0 +1,24 @@
+{
+ "corp_code": "01180118",
+ "corp_name": "코람코더원리츠",
+ "stock_code": "417310",
+ "att_title": "2026.10.29 정관",
+ "att_date": "20261029",
+ "rcpNo": "20261029000393",
+ "dcmNo": "11633359",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000393&dcmNo=11633359",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20261029000393&dcmNo=11633359&eleId=1&offset=607&length=27251&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 16339,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/417310_코람코더원리츠/20261029_11633359",
+ "fetched_at": "2026-11-16T13:42:04",
+ "used_by_rcept_no": [
+  "20261029000393"
+ ]
+}

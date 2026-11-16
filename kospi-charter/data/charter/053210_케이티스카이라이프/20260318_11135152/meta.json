@@ -1,0 +1,37 @@
+{
+ "corp_code": "00349097",
+ "corp_name": "케이티스카이라이프",
+ "stock_code": "053210",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000272",
+ "dcmNo": "11135152",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000272&dcmNo=11135152",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000272&dcmNo=11135152&eleId=1&offset=600&length=346&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 68,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/053210_케이티스카이라이프/20260318_11135152",
+ "fetched_at": "2026-11-16T13:16:08",
+ "used_by_rcept_no": [
+  "20260318001593"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135152&flNm=%EC%A0%95%EA%B4%80%2820250326%EA%B0%9C%EC%A0%95%29_%EC%BC%80%EC%9D%B4%ED%8B%B0%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%94%84.pdf",
+   "flNm": "정관(20250326개정)_케이티스카이라이프.pdf",
+   "bytes": 545238,
+   "sha256": "73af4e3c3cc79dda269708a634425f0c95102cab1d5f01391087f4231f3cb6cb",
+   "pages": 21,
+   "text_pages": 21,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

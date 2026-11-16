@@ -1,0 +1,37 @@
+{
+ "corp_code": "00148920",
+ "corp_name": "조광페인트",
+ "stock_code": "004910",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001092",
+ "dcmNo": "11165499",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001092&dcmNo=11165499",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001092&dcmNo=11165499&eleId=1&offset=596&length=308&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 30,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/004910_조광페인트/20260323_11165499",
+ "fetched_at": "2026-11-16T12:26:09",
+ "used_by_rcept_no": [
+  "20260323001645"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11165499&flNm=%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29_2025%EB%85%84.pdf",
+   "flNm": "정관(개정)_2025년.pdf",
+   "bytes": 591236,
+   "sha256": "06ce4f248a6d072020c2ce1b0726590350c9c7c39b18be801387ac1858f58ac7",
+   "pages": 21,
+   "text_pages": 19,
+   "ocr_pages": 2
+  }
+ ],
+ "n_pdfs": 1
+}

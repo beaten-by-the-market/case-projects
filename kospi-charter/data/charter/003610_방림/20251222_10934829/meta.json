@@ -1,0 +1,24 @@
+{
+ "corp_code": "00122348",
+ "corp_name": "방림",
+ "stock_code": "003610",
+ "att_title": "2025.12.22 정관",
+ "att_date": "20251222",
+ "rcpNo": "20251222000124",
+ "dcmNo": "10934829",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251222000124&dcmNo=10934829",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20251222000124&dcmNo=10934829&eleId=1&offset=593&length=19190&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12075,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/003610_방림/20251222_10934829",
+ "fetched_at": "2026-11-16T12:24:04",
+ "used_by_rcept_no": [
+  "20251222000124"
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "corp_code": "00133706",
+ "corp_name": "한국제지",
+ "stock_code": "027970",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001240",
+ "dcmNo": "11141147",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001240&dcmNo=11141147",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001240&dcmNo=11141147&eleId=1&offset=596&length=2810&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 18,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "(한국제지)정관_1.jpg",
+   "alt": "이미지: (한국제지)정관_1",
+   "bytes": 18268,
+   "sha256": "cd4016daa441335db65f449ae1af1bc3839601f4a74e70ed73ad3adfed23a661",
+   "width": 570,
+   "height": 819
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "(한국제지)정관_2.jpg",
+   "alt": "이미지: (한국제지)정관_2",
+   "bytes": 90034,
+   "sha256": "d4bbf830c79b63ab3fcae3dd984745aee1b6cdc4e8da54721cb8af3af73fe338",
+   "width": 572,
+   "height": 818
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "(한국제지)정관_3.jpg",
+   "alt": "이미지: (한국제지)정관_3",
+   "bytes": 126205,
+   "sha256": "0e7db6176da5c72f6ec044d428477962af250a5f520c7ff657f59dcd4f931aa9",
+   "width": 570,
+   "height": 818
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "(한국제지)정관_4.jpg",
+   "alt": "이미지: (한국제지)정관_4",
+   "bytes": 183801,
+   "sha256": "fefe63f8d7a25ce679520c93415623d50743387a5d8137728092b162452f59d7",
+   "width": 572,
+   "height": 812
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "(한국제지)정관_5.jpg",
+   "alt": "이미지: (한국제지)정관_5",
+   "bytes": 181431,
+   "sha256": "58fc0c6b8cc09970174eb9f1c38caadc312dddf1c99c280c55d81352fb1771e2",
+   "width": 571,
+   "height": 813
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "(한국제지)정관_6.jpg",
+   "alt": "이미지: (한국제지)정관_6",
+   "bytes": 258300,
+   "sha256": "db69f9aa02b52b077b634967de384fd8067898fbaa63a217eb9911fb6bec9266",
+   "width": 570,
+   "height": 820
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "(한국제지)정관_7.jpg",
+   "alt": "이미지: (한국제지)정관_7",
+   "bytes": 250420,
+   "sha256": "360d39e1f40f30c30360d84469b77546b09345a9166c801bbe539616d2b82db0",
+   "width": 571,
+   "height": 819
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "(한국제지)정관_8.jpg",
+   "alt": "이미지: (한국제지)정관_8",
+   "bytes": 211183,
+   "sha256": "5ade83f00d4f9c6e83512a2ba4a92df8ff01a63becac4e1110f8c21d0428b8c5",
+   "width": 573,
+   "height": 816
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "(한국제지)정관_9.jpg",
+   "alt": "이미지: (한국제지)정관_9",
+   "bytes": 237656,
+   "sha256": "1d0b87ffc9ad0038c689afaa252e41ab800d2939d163bfebde93d0128b857d9d",
+   "width": 571,
+   "height": 814
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "(한국제지)정관_10.jpg",
+   "alt": "이미지: (한국제지)정관_10",
+   "bytes": 169825,
+   "sha256": "348b3e8a969670258da03e0df5b16551f92c89574cbdef4f3b7d4180a5c7393b",
+   "width": 571,
+   "height": 817
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "(한국제지)정관_11.jpg",
+   "alt": "이미지: (한국제지)정관_11",
+   "bytes": 172626,
+   "sha256": "7c047b7384b716419d4464368e62dbc9fd260f4ed589013939f10fa60b332e0f",
+   "width": 571,
+   "height": 815
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "(한국제지)정관_12.jpg",
+   "alt": "이미지: (한국제지)정관_12",
+   "bytes": 180106,
+   "sha256": "b3248e8fb4fb0e651718c5eebfc37cfdcb298a7574773a37b576914efd60485a",
+   "width": 571,
+   "height": 818
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "(한국제지)정관_13.jpg",
+   "alt": "이미지: (한국제지)정관_13",
+   "bytes": 188328,
+   "sha256": "4921e64e15d1a23edb030a8c0233305683c021467db5f12525ceaf2d77c4be4a",
+   "width": 568,
+   "height": 816
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "(한국제지)정관_14.jpg",
+   "alt": "이미지: (한국제지)정관_14",
+   "bytes": 186884,
+   "sha256": "a5b46d1b5589ad1e0b55542c6855e37dd1b47857b3b57ad600ce588be5698559",
+   "width": 570,
+   "height": 814
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "(한국제지)정관_15.jpg",
+   "alt": "이미지: (한국제지)정관_15",
+   "bytes": 215504,
+   "sha256": "90c1a2773709f42a42d192050ab9c79d2a0581511848394e8e4cc23deec03388",
+   "width": 569,
+   "height": 814
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "(한국제지)정관_16.jpg",
+   "alt": "이미지: (한국제지)정관_16",
+   "bytes": 210715,
+   "sha256": "1ad1be92072a1eb8d90b4013438a4e05e1fde31d4edb74afeaa9507b6bc46c6d",
+   "width": 571,
+   "height": 815
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "(한국제지)정관_17.jpg",
+   "alt": "이미지: (한국제지)정관_17",
+   "bytes": 150820,
+   "sha256": "3aa56aa1ab548ceec7328b64a91ce2e5a3ccea758660fe90adbc760c76fc0577",
+   "width": 569,
+   "height": 815
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141147&flNm=%28%ED%95%9C%EA%B5%AD%EC%A0%9C%EC%A7%80%29%EC%A0%95%EA%B4%80_18.jpg",
+   "flNm": "(한국제지)정관_18.jpg",
+   "alt": "이미지: (한국제지)정관_18",
+   "bytes": 80362,
+   "sha256": "5c7b45f26b78ce2e02a40dc5748f301fe8be3cca118069d00c9053d4ec503a98",
+   "width": 567,
+   "height": 811
+  }
+ ],
+ "folder": "data/charter/027970_한국제지/20260318_11141147",
+ "fetched_at": "2026-11-16T13:10:20",
+ "used_by_rcept_no": [
+  "20260318001240"
+ ]
+}

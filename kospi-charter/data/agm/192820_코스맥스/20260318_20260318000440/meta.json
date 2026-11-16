@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260318000440",
+ "corp_code": "01009789",
+ "corp_name": "코스맥스",
+ "stock_code": "192820",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260318",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000440",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2682,
+ "charter_amend_txt": "data/agm/192820_코스맥스/20260318_20260318000440/정관의변경.txt",
+ "main_xml": "20260318000440.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260318000440.xml",
+   "bytes": 138810,
+   "sha256": "4ae627efc4c615f68d49c98048b8d9fdafe24202708a1ef9d4ac28f26c6bca0d"
+  }
+ ],
+ "folder": "data/agm/192820_코스맥스/20260318_20260318000440",
+ "fetched_at": "2026-11-16T12:59:23"
+}

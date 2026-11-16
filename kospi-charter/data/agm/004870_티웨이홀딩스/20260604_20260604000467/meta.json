@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260604000467",
+ "corp_code": "00109514",
+ "corp_name": "티웨이홀딩스",
+ "stock_code": "004870",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260604",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604000467",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260604000467.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260604000467.xml",
+   "bytes": 34953,
+   "sha256": "800e45711bf521daba878f217bc47634d20ae9cd3542e6d8476d13ccc43d6904"
+  }
+ ],
+ "folder": "data/agm/004870_티웨이홀딩스/20260604_20260604000467",
+ "fetched_at": "2026-11-16T13:00:33"
+}

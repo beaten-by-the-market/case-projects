@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260710000246",
+ "corp_code": "00107066",
+ "corp_name": "남광토건",
+ "stock_code": "001260",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260710",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000246",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260710000246.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260710000246.xml",
+   "bytes": 46269,
+   "sha256": "188a088ca73b9536b781e32ae49ac13762202085e7963e7f0bffef6df2656747"
+  }
+ ],
+ "folder": "data/agm/001260_남광토건/20260710_20260710000246",
+ "fetched_at": "2026-11-16T13:00:56"
+}

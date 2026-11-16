@@ -1,0 +1,24 @@
+{
+ "corp_code": "01210677",
+ "corp_name": "씨케이솔루션",
+ "stock_code": "480370",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001407",
+ "dcmNo": "11160434",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001407&dcmNo=11160434",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001407&dcmNo=11160434&eleId=1&offset=599&length=20418&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12204,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/480370_씨케이솔루션/20260320_11160434",
+ "fetched_at": "2026-11-16T13:43:57",
+ "used_by_rcept_no": [
+  "20260320001407"
+ ]
+}

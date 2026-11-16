@@ -1,0 +1,37 @@
+{
+ "corp_code": "00169048",
+ "corp_name": "HLB글로벌",
+ "stock_code": "003580",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001016",
+ "dcmNo": "11139502",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001016&dcmNo=11139502",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001016&dcmNo=11139502&eleId=1&offset=599&length=354&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 72,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/003580_HLB글로벌/20260318_11139502",
+ "fetched_at": "2026-11-16T12:24:02",
+ "used_by_rcept_no": [
+  "20260318001016"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139502&flNm=20220223+%EC%A0%95%EA%B4%80%28%EC%97%90%EC%9D%B4%EC%B9%98%EC%97%98%EB%B9%84%EA%B8%80%EB%A1%9C%EB%B2%8C%29_f_20220329+%ED%99%95%EC%9D%B8.pdf",
+   "flNm": "20220223 정관(에이치엘비글로벌)_f_20220329 확인.pdf",
+   "bytes": 246653,
+   "sha256": "207faadd769420476ea5db24ff635b34b4178f1100a8f06c364275201e96e35e",
+   "pages": 19,
+   "text_pages": 18,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

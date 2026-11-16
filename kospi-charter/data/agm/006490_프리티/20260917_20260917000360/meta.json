@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260917000360",
+ "corp_code": "00122825",
+ "corp_name": "프리티",
+ "stock_code": "006490",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260917",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000360",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260917000360.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260917000360.xml",
+   "bytes": 82334,
+   "sha256": "bb99bda5a0663d034bfa11df107f0631a521797c8e21dd24fdafedef5d6cbb37"
+  }
+ ],
+ "folder": "data/agm/006490_프리티/20260917_20260917000360",
+ "fetched_at": "2026-11-16T13:01:45"
+}

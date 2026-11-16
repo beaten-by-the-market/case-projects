@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260819000308",
+ "corp_code": "00353878",
+ "corp_name": "다스코",
+ "stock_code": "058730",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260819",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000308",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2458,
+ "charter_amend_txt": "data/agm/058730_다스코/20260819_20260819000308/정관의변경.txt",
+ "main_xml": "20260819000308.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260819000308.xml",
+   "bytes": 134939,
+   "sha256": "255cf6aec8e0ddb5d2e4b8be4f72d72a77803a413243a91816169889713bef4a"
+  }
+ ],
+ "folder": "data/agm/058730_다스코/20260819_20260819000308",
+ "fetched_at": "2026-11-16T13:01:33"
+}

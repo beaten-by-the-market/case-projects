@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260514000096",
+ "corp_code": "00124027",
+ "corp_name": "부산산업",
+ "stock_code": "011390",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260514",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514000096",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260514000096.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260514000096.xml",
+   "bytes": 34401,
+   "sha256": "f60059b7939eeb52aec8f374bb2d2a291affbb367476d5256fec5ce71a8953ff"
+  }
+ ],
+ "folder": "data/agm/011390_부산산업/20260514_20260514000096",
+ "fetched_at": "2026-11-16T13:00:25"
+}

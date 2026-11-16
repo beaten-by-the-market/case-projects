@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261110000360",
+ "corp_code": "00302926",
+ "corp_name": "현대로템",
+ "stock_code": "064350",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261110",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000360",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261110000360.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261110000360.xml",
+   "bytes": 84134,
+   "sha256": "e37c969a1c1b7e7095050f5ad095bd1d068283991178d1d9ba931dc8ef369e35"
+  }
+ ],
+ "folder": "data/agm/064350_현대로템/20261110_20261110000360",
+ "fetched_at": "2026-11-16T13:02:16"
+}

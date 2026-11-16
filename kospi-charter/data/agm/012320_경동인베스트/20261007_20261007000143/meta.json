@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261007000143",
+ "corp_code": "00143527",
+ "corp_name": "경동인베스트",
+ "stock_code": "012320",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261007",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000143",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261007000143.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261007000143.xml",
+   "bytes": 95196,
+   "sha256": "ea6194b28db3ba90ab8157f21b2d281ed2ee17ff682af85b3a5db9dd7fb9c485"
+  }
+ ],
+ "folder": "data/agm/012320_경동인베스트/20261007_20261007000143",
+ "fetched_at": "2026-11-16T13:01:49"
+}

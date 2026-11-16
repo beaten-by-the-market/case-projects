@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260811000423",
+ "corp_code": "00261285",
+ "corp_name": "한국가스공사",
+ "stock_code": "036460",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260811",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000423",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260811000423.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260811000423.xml",
+   "bytes": 125437,
+   "sha256": "27ee22b33959c9a0aa3801761a98cd171a74c938a248ff52298e50740534fd3f"
+  }
+ ],
+ "folder": "data/agm/036460_한국가스공사/20260811_20260811000423",
+ "fetched_at": "2026-11-16T13:01:27"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323000597",
+ "corp_code": "00112679",
+ "corp_name": "대창단조",
+ "stock_code": "015230",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000597",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 5093,
+ "charter_amend_txt": "data/agm/015230_대창단조/20260323_20260323000597/정관의변경.txt",
+ "main_xml": "20260323000597.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323000597.xml",
+   "bytes": 190043,
+   "sha256": "ee3fd350184535de7613f51aa16a8fd45c7c6d3911b6315759002549c7c49ac2"
+  }
+ ],
+ "folder": "data/agm/015230_대창단조/20260323_20260323000597",
+ "fetched_at": "2026-11-16T12:59:47"
+}

@@ -1,0 +1,235 @@
+{
+ "corp_code": "00261443",
+ "corp_name": "NC",
+ "stock_code": "036570",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001448",
+ "dcmNo": "11142889",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001448&dcmNo=11142889",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001448&dcmNo=11142889&eleId=1&offset=596&length=3527&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 21,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_01.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_01",
+   "bytes": 187782,
+   "sha256": "c857cf985fc4303485da7ad32ecafca96796811558a5bab1073060536e4d7c81",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_02.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_02",
+   "bytes": 218970,
+   "sha256": "8bc90874857038e491f4b9c27bdf0b58d5bb4e37d99e7b66cbddf451255ad9d6",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_03.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_03",
+   "bytes": 231323,
+   "sha256": "877a010ce98db58231852bac20d364e37b69ca5698793daec8d3487a8124d930",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_04.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_04",
+   "bytes": 298168,
+   "sha256": "552f0f3008562cf88d16b16adbd5c07ddb95ed847cf2e456655d7a5a0dd11aff",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_05.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_05",
+   "bytes": 303705,
+   "sha256": "1672950192e12bb147fc8f8749dba23d03fced4f23296bbaf9d46a0aef7d548c",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_06.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_06",
+   "bytes": 266967,
+   "sha256": "a37639f7a369c72ba5386ede42d142c05175ef8566d07e58bf6ff54a379addd9",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_07.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_07",
+   "bytes": 252162,
+   "sha256": "6b757fb91ab07a6271b1fffac2669de0ced9dec9a7cb975b78687f39f323d6b6",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_08.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_08",
+   "bytes": 295709,
+   "sha256": "d055ba6ffc66cb79bc690fe92fe2d509cd9f2799c9f1e104d296a2d6d73b9c06",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_09.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_09",
+   "bytes": 285231,
+   "sha256": "81fced961aba617c4147bf0101f5b83e23e35025fb8c68b66dbd26fa2c3112e8",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_10.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_10",
+   "bytes": 253305,
+   "sha256": "5285a0da36fca1b2d8daade7e49759196694a792099bf750919507cc38b94b76",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_11.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_11",
+   "bytes": 249524,
+   "sha256": "7b9e14facd5043bee1215cc0fe13322ec50406d5136498fad07ad7867de622ef",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_12.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_12",
+   "bytes": 244155,
+   "sha256": "f54c05bfa1c1f781914e640d89bed442d079bb3deff82066be696e9aa1e4ef56",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_13.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_13",
+   "bytes": 251923,
+   "sha256": "3685eca8e0c869ea65048846109649a4134f92dbf990aa15c7e1ed67021a84d5",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_14.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_14",
+   "bytes": 240954,
+   "sha256": "cf3a994f6636b9bfa2fa3f4965a4995db761b48aa980b3f82efb4b9656616fab",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_15.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_15.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_15",
+   "bytes": 307116,
+   "sha256": "e758fa2ff96be26c094bcd13b1246cd0339047c3f48f1363729f387b460da2eb",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_16.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_16.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_16",
+   "bytes": 239308,
+   "sha256": "903964f67be13d773f773e370eb7bb384f5320112080c238dac5acdc96c5d68c",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_17.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_17.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_17",
+   "bytes": 273354,
+   "sha256": "028ef0ccc24bc97fb0bd11ec133b17b90ef3815961de5a1e76eb249f344a44d2",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_18.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_18.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_18",
+   "bytes": 225134,
+   "sha256": "518e56ced3be02c51503aa970d14c6f43e0c80804672edfceaf2f63805ba84c4",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_19.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_19.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_19",
+   "bytes": 161092,
+   "sha256": "3ac6cb4b636d40836165a8b8e99be4a5291d08be4d4b68c8a3c36991efd7b2f9",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_20.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_20.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_20",
+   "bytes": 187639,
+   "sha256": "7cd9c46d3ec0eb71338e83c0d9d06583a99a47c5871d89523261042f3d46df00",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142889&flNm=%28%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8%29+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_21.jpg",
+   "flNm": "(엔씨소프트) 정관_페이지_21.jpg",
+   "alt": "이미지: (엔씨소프트) 정관_페이지_21",
+   "bytes": 74062,
+   "sha256": "95225cc89c1424329e1963c12ec3aaa99bb9f841913fc2a3941c485eaa145f38",
+   "width": 1654,
+   "height": 2339
+  }
+ ],
+ "folder": "data/charter/036570_NC/20260318_11142889",
+ "fetched_at": "2026-11-16T13:13:59",
+ "used_by_rcept_no": [
+  "20260318001448"
+ ]
+}

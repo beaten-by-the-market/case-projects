@@ -1,0 +1,225 @@
+{
+ "corp_code": "01428203",
+ "corp_name": "케이씨씨글라스",
+ "stock_code": "344820",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000948",
+ "dcmNo": "11150429",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000948&dcmNo=11150429",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000948&dcmNo=11150429&eleId=1&offset=598&length=3326&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 20,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "kcc글라스 정관_페이지_01.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_01",
+   "bytes": 48220,
+   "sha256": "8b4be295b197f7f6d1fba5b4bf40fff0dae938b0035fab82bd8a9bea444121d9",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "kcc글라스 정관_페이지_02.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_02",
+   "bytes": 55478,
+   "sha256": "4944a83563499d290468b1ea5973ad12398d6cbc7d02097b71f8fc819ce6fd9d",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "kcc글라스 정관_페이지_03.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_03",
+   "bytes": 162318,
+   "sha256": "23b8e20d12e9857007fd2754b95641de43f251866f77ee7d90c5a39e25155574",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "kcc글라스 정관_페이지_04.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_04",
+   "bytes": 177441,
+   "sha256": "e6ec78847592837357c34aa5de0c8aa082cf3eca51a583313041814e3dbd97d2",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "kcc글라스 정관_페이지_05.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_05",
+   "bytes": 261894,
+   "sha256": "3b9b66a8c66e6f23dd08db79f15f32b14d9fcceaaa12420b4ddd378382e21fbe",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "kcc글라스 정관_페이지_06.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_06",
+   "bytes": 302512,
+   "sha256": "8e05f6275e78bbe234c9fefd9557c3779a4c119dc2e0deea22e4504b04866d9d",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "kcc글라스 정관_페이지_07.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_07",
+   "bytes": 216615,
+   "sha256": "69a529685a0bbfafa48fa15ed19fddb7075f6bf0e2c932f429962f158a8e25c8",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "kcc글라스 정관_페이지_08.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_08",
+   "bytes": 243690,
+   "sha256": "47392947fee39e64403d3df771da58b22247d7247f07180124431b30c27cb508",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "kcc글라스 정관_페이지_09.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_09",
+   "bytes": 289277,
+   "sha256": "ca13ee41a4c1cea2c2026187c1f68a4ab82434b5cd59dc70755aff541e841f8c",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "kcc글라스 정관_페이지_10.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_10",
+   "bytes": 304050,
+   "sha256": "7091d9d3e197d4b74a0fd1c7b6f719c3ead897cbeea989070dcb7e757dcb903e",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "kcc글라스 정관_페이지_11.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_11",
+   "bytes": 227253,
+   "sha256": "63c752256a61effcbe29b85e88bc1b7e0e21d77ad52420b4db16cb367ffe39bd",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "kcc글라스 정관_페이지_12.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_12",
+   "bytes": 214236,
+   "sha256": "0d276521656e79ffd60d11cc64c38667589c1646376886c861c7455ee518c7b6",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "kcc글라스 정관_페이지_13.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_13",
+   "bytes": 217154,
+   "sha256": "bf92f4a4b8fdb8c72a22bb70f7c16f1468e7f64b76f0576c135ba8dee1631775",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "kcc글라스 정관_페이지_14.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_14",
+   "bytes": 237833,
+   "sha256": "122135d354c2ee6d369cada698287af86faeb9b425ed7f0e0ba007cbddddaba4",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_15.jpg",
+   "flNm": "kcc글라스 정관_페이지_15.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_15",
+   "bytes": 267366,
+   "sha256": "785a61f3598e4748ac7ad791bae44c301731aa0b3f4266bc310c2b02905140f7",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_16.jpg",
+   "flNm": "kcc글라스 정관_페이지_16.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_16",
+   "bytes": 300718,
+   "sha256": "d206e03aee0bf4793ae200e5c867b12957f9cc01e649d430105dd158f9c04f7d",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_17.jpg",
+   "flNm": "kcc글라스 정관_페이지_17.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_17",
+   "bytes": 246878,
+   "sha256": "230c74fcd5228bd2542577b0c8c6245a39e2d10c47a81928f4d636ae1ebaaab6",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_18.jpg",
+   "flNm": "kcc글라스 정관_페이지_18.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_18",
+   "bytes": 210979,
+   "sha256": "79eb7ee366e1cfa3e7eb82df3c9ac0cff7a58d40f6f84b196c9fb7986448143a",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_19.jpg",
+   "flNm": "kcc글라스 정관_페이지_19.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_19",
+   "bytes": 147728,
+   "sha256": "e31930ed50acb08b4737cd68f86703469a28324adef66c5755ce55e9041d6d7e",
+   "width": 1537,
+   "height": 2128
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150429&flNm=kcc%EA%B8%80%EB%9D%BC%EC%8A%A4+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_20.jpg",
+   "flNm": "kcc글라스 정관_페이지_20.jpg",
+   "alt": "이미지: kcc글라스 정관_페이지_20",
+   "bytes": 64593,
+   "sha256": "ad7d1cfbc02dee430de5946e95ab1ee030bca229c3f2adcd7a41817b63608e81",
+   "width": 1537,
+   "height": 2128
+  }
+ ],
+ "folder": "data/charter/344820_케이씨씨글라스/20260319_11150429",
+ "fetched_at": "2026-11-16T13:39:40",
+ "used_by_rcept_no": [
+  "20260319000948"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00105101",
+ "corp_name": "INVENI",
+ "stock_code": "015360",
+ "att_title": "2026.03.10 정관",
+ "att_date": "20260310",
+ "rcpNo": "20260310002563",
+ "dcmNo": "11103720",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002563&dcmNo=11103720",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002563&dcmNo=11103720&eleId=1&offset=597&length=16560&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 8127,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/015360_INVENI/20260310_11103720",
+ "fetched_at": "2026-11-16T13:03:50",
+ "used_by_rcept_no": [
+  "20260605000111"
+ ]
+}

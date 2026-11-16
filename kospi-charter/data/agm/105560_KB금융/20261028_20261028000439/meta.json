@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261028000439",
+ "corp_code": "00688996",
+ "corp_name": "KB금융",
+ "stock_code": "105560",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261028",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000439",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261028000439.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261028000439.xml",
+   "bytes": 129391,
+   "sha256": "03d3adbb5e48ac504ed172fefd803bb309b17a60237c4e186f069536df70c386"
+  }
+ ],
+ "folder": "data/agm/105560_KB금융/20261028_20261028000439",
+ "fetched_at": "2026-11-16T13:01:59"
+}

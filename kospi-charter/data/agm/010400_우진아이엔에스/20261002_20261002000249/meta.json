@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261002000249",
+ "corp_code": "00143262",
+ "corp_name": "우진아이엔에스",
+ "stock_code": "010400",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261002",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000249",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 392,
+ "charter_amend_txt": "data/agm/010400_우진아이엔에스/20261002_20261002000249/정관의변경.txt",
+ "main_xml": "20261002000249.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261002000249.xml",
+   "bytes": 65869,
+   "sha256": "15c2ccdc2822fbfc18266791cc5c51416fe6b35d8260506866733025030a2aea"
+  }
+ ],
+ "folder": "data/agm/010400_우진아이엔에스/20261002_20261002000249",
+ "fetched_at": "2026-11-16T13:01:48"
+}

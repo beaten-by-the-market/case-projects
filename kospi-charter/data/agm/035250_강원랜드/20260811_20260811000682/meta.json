@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260811000682",
+ "corp_code": "00255619",
+ "corp_name": "강원랜드",
+ "stock_code": "035250",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260811",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000682",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1096,
+ "charter_amend_txt": "data/agm/035250_강원랜드/20260811_20260811000682/정관의변경.txt",
+ "main_xml": "20260811000682.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260811000682.xml",
+   "bytes": 121957,
+   "sha256": "251d6b4b6f7c51a0e462aeccbed33d0651419bba0cc118ce9117f7b7a9ac1dd1"
+  }
+ ],
+ "folder": "data/agm/035250_강원랜드/20260811_20260811000682",
+ "fetched_at": "2026-11-16T13:01:28"
+}

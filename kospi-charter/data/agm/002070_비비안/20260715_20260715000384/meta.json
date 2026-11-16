@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260715000384",
+ "corp_code": "00107677",
+ "corp_name": "비비안",
+ "stock_code": "002070",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260715",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715000384",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 704,
+ "charter_amend_txt": "data/agm/002070_비비안/20260715_20260715000384/정관의변경.txt",
+ "main_xml": "20260715000384.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260715000384.xml",
+   "bytes": 48208,
+   "sha256": "56797448147081cc242b19e99c0dbca29e31a919530f13d9a71e8bf20e37abc3"
+  }
+ ],
+ "folder": "data/agm/002070_비비안/20260715_20260715000384",
+ "fetched_at": "2026-11-16T13:00:59"
+}

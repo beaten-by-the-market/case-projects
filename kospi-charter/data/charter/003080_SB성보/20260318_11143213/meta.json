@@ -1,0 +1,195 @@
+{
+ "corp_code": "00132725",
+ "corp_name": "SB성보",
+ "stock_code": "003080",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001484",
+ "dcmNo": "11143213",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001484&dcmNo=11143213",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001484&dcmNo=11143213&eleId=1&offset=596&length=3121&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 17,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0001.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0001.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0001",
+   "bytes": 135082,
+   "sha256": "bd1cb9ff7debcbc881343729baf65206acdb82ab27550627b6f97592733878e4",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0002.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0002.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0002",
+   "bytes": 133904,
+   "sha256": "7090311bef9fb0209ef11c80741faecc1f34f3188f651570860905cd37039b49",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0003.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0003.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0003",
+   "bytes": 209744,
+   "sha256": "3d7ec40ab53b8ec045f0f6894b4af38499e2855ac638a1fed00d00b046b05f25",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0004.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0004.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0004",
+   "bytes": 246677,
+   "sha256": "b9769578889275a8037d3a3ae432157dd177131d7bfd8749e5bb21cac98a585e",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0005.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0005.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0005",
+   "bytes": 252344,
+   "sha256": "bd7cea3448d6c6ee52d3fe2c3b6fefc803fe6fce9baf7ca948fe04f012ff07e7",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0006.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0006.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0006",
+   "bytes": 157589,
+   "sha256": "62714704cfbc866db8d1b6dafc674507cef8f54c4fd199a86f4aef8f5a9719bb",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0007.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0007.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0007",
+   "bytes": 223482,
+   "sha256": "df887946f49ef068e7549df61e0fc51b037538b9ed77d848855dec7adb799bf3",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0008.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0008.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0008",
+   "bytes": 182786,
+   "sha256": "30f17e3d2de9c58d7bc269ac289355f5fa1f4daa4af8019a663d06b7c27d5ee2",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0009.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0009.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0009",
+   "bytes": 162438,
+   "sha256": "d89d7dbeafe9d96b480fa066dfc813bdfc520304bc417ff5749c70e03d72f11e",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0010.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0010.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0010",
+   "bytes": 165495,
+   "sha256": "dbe1a25a25e36e730b303550d7709619c03c0e4be748ac9eaf94f5604a9e6232",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0011.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0011.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0011",
+   "bytes": 179361,
+   "sha256": "ea5e3427c3d61511c8f4bc886ff0f897b781514be43d48b3b3aad1f85fe6494e",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0012.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0012.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0012",
+   "bytes": 153476,
+   "sha256": "6221ae80bae67f046b124537de9e61f85e8441ed2f9491fcfe59132888b4e2bd",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0013.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0013.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0013",
+   "bytes": 228885,
+   "sha256": "462d8b1c87dd60db7e8e01a32512b131072bbb8f6c47e6cda74d24fb5fab374f",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0014.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0014.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0014",
+   "bytes": 196685,
+   "sha256": "060bd4e933a2074621e7154165eedb5791786c165aee71c5dde3083c7408b01c",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0015.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0015.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0015",
+   "bytes": 180404,
+   "sha256": "0f0b496d5555014ed3af1bf67457ba6ba6c1c05eda5f4cc55da2fbe9570b55f3",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0016.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0016.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0016",
+   "bytes": 200453,
+   "sha256": "4bf4fb5edef1d561456717f7ba30e5e0443fdc753b1336962126cb920e7e5f61",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143213&flNm=%EC%97%90%EC%8A%A4%EB%B9%84%EC%84%B1%EB%B3%B4+%EC%A0%95%EA%B4%80%282025%29_page-0017.jpg",
+   "flNm": "에스비성보 정관(2025)_page-0017.jpg",
+   "alt": "이미지: 에스비성보 정관(2025)_page-0017",
+   "bytes": 242675,
+   "sha256": "ece3b9b4a931215b4c27fd7693050cff6aeb80cab97e9a93b6b29c3500f90ef6",
+   "width": 1240,
+   "height": 1753
+  }
+ ],
+ "folder": "data/charter/003080_SB성보/20260318_11143213",
+ "fetched_at": "2026-11-16T12:22:01",
+ "used_by_rcept_no": [
+  "20260318001484"
+ ]
+}

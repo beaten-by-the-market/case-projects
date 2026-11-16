@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260728000437",
+ "corp_code": "00138792",
+ "corp_name": "아시아나항공",
+ "stock_code": "020560",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260728",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000437",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260728000437.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260728000437.xml",
+   "bytes": 215029,
+   "sha256": "d34760ae4b4469341c690df3512c81c1b2332a54cd2198019f5fd3dfaca42472"
+  }
+ ],
+ "folder": "data/agm/020560_아시아나항공/20260728_20260728000437",
+ "fetched_at": "2026-11-16T13:01:21"
+}

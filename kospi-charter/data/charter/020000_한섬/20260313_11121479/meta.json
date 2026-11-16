@@ -1,0 +1,24 @@
+{
+ "corp_code": "00188089",
+ "corp_name": "한섬",
+ "stock_code": "020000",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313001074",
+ "dcmNo": "11121479",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001074&dcmNo=11121479",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313001074&dcmNo=11121479&eleId=1&offset=593&length=14618&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9237,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/020000_한섬/20260313_11121479",
+ "fetched_at": "2026-11-16T13:07:43",
+ "used_by_rcept_no": [
+  "20260313001074"
+ ]
+}

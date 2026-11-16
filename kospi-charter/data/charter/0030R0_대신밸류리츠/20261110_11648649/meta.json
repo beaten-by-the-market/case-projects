@@ -1,0 +1,24 @@
+{
+ "corp_code": "01885222",
+ "corp_name": "대신밸류리츠",
+ "stock_code": "0030R0",
+ "att_title": "2026.11.10 정관",
+ "att_date": "20261110",
+ "rcpNo": "20261110000451",
+ "dcmNo": "11648649",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000451&dcmNo=11648649",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20261110000451&dcmNo=11648649&eleId=1&offset=610&length=46592&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 19883,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/0030R0_대신밸류리츠/20261110_11648649",
+ "fetched_at": "2026-11-16T12:22:04",
+ "used_by_rcept_no": [
+  "20261110000451"
+ ]
+}

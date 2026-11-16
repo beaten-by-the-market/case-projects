@@ -1,0 +1,24 @@
+{
+ "corp_code": "00103662",
+ "corp_name": "광명전기",
+ "stock_code": "017040",
+ "att_title": "2026.04.07 정관",
+ "att_date": "20260407",
+ "rcpNo": "20260407003303",
+ "dcmNo": "11278659",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407003303&dcmNo=11278659",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260407003303&dcmNo=11278659&eleId=1&offset=595&length=24507&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11784,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/017040_광명전기/20260407_11278659",
+ "fetched_at": "2026-11-16T13:04:57",
+ "used_by_rcept_no": [
+  "20260407003303"
+ ]
+}

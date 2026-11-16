@@ -1,0 +1,24 @@
+{
+ "corp_code": "00166227",
+ "corp_name": "화승인더스트리",
+ "stock_code": "006060",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312000403",
+ "dcmNo": "11112984",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000403&dcmNo=11112984",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000403&dcmNo=11112984&eleId=1&offset=598&length=17691&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11036,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/006060_화승인더스트리/20260312_11112984",
+ "fetched_at": "2026-11-16T12:28:37",
+ "used_by_rcept_no": [
+  "20260312000403"
+ ]
+}

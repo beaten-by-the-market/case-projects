@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260622000006",
+ "corp_code": "00194947",
+ "corp_name": "한전산업",
+ "stock_code": "130660",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260622",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260622000006",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260622000006.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260622000006.xml",
+   "bytes": 87040,
+   "sha256": "146a70a8860f3089883fec819e5c73d0074045bd08f711ba463196a56f31adf7"
+  }
+ ],
+ "folder": "data/agm/130660_한전산업/20260622_20260622000006",
+ "fetched_at": "2026-11-16T13:00:44"
+}

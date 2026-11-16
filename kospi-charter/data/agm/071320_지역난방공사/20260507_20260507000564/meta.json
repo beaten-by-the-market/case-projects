@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260507000564",
+ "corp_code": "00159698",
+ "corp_name": "지역난방공사",
+ "stock_code": "071320",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260507",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000564",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260507000564.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260507000564.xml",
+   "bytes": 57681,
+   "sha256": "d3a979d94f005719598d23e4ee5ffa85f02995bf068cff3f4d437656c4b759ad"
+  }
+ ],
+ "folder": "data/agm/071320_지역난방공사/20260507_20260507000564",
+ "fetched_at": "2026-11-16T13:00:21"
+}

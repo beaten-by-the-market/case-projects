@@ -1,0 +1,24 @@
+{
+ "corp_code": "00141307",
+ "corp_name": "영풍",
+ "stock_code": "000670",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000753",
+ "dcmNo": "11133261",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000753&dcmNo=11133261",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000753&dcmNo=11133261&eleId=1&offset=593&length=20111&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9557,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/000670_영풍/20260317_11133261",
+ "fetched_at": "2026-11-16T12:13:15",
+ "used_by_rcept_no": [
+  "20260317000753"
+ ]
+}

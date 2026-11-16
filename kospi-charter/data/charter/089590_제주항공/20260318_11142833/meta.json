@@ -1,0 +1,235 @@
+{
+ "corp_code": "00555874",
+ "corp_name": "제주항공",
+ "stock_code": "089590",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001439",
+ "dcmNo": "11142833",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001439&dcmNo=11142833",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001439&dcmNo=11142833&eleId=1&offset=595&length=3656&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 21,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_1.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_1.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_1",
+   "bytes": 34591,
+   "sha256": "e40b636b6134a914d23b0d227ca68a524295a6000bf81b852a7d3a94f8bb99d6",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_2.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_2.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_2",
+   "bytes": 110592,
+   "sha256": "92ccb5d47e7d9ca703363d4fe0d13ce95bc7badbf0a959df77139d7a9b8f6347",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_3.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_3.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_3",
+   "bytes": 209955,
+   "sha256": "31b9712e45070a4373678acf960dc08cd368dcaf1699d40927233d38cd4a36f1",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_4.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_4.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_4",
+   "bytes": 194781,
+   "sha256": "acb0a2195235232d1103c4e1fa5a945d0b4c9dcbf348069448bf470ad4e8e81f",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_5.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_5.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_5",
+   "bytes": 87409,
+   "sha256": "bbf462f8e4c9eae3b94d48e7623f237c69bfa9aa76d0788d6c310b72183fdaa4",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_6.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_6.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_6",
+   "bytes": 111852,
+   "sha256": "804de6ba953b777e505323f3d4e84f1736958a430b8fa163832454fe6ae76eb5",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_7.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_7.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_7",
+   "bytes": 114125,
+   "sha256": "750acaa749ca5eac5a5bde2ec680c9c4763281b5eecdf46ee38d12435099bd88",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_8.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_8.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_8",
+   "bytes": 270224,
+   "sha256": "ba73eff45732ce8dac88ce171a7889e89ccfb89cb51745a4262845cb372684f4",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_9.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_9.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_9",
+   "bytes": 102979,
+   "sha256": "12fb5df294632214936a09081cf0d4bfa86d16c20771c9ba9f119ae6d50357f6",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_10.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_10.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_10",
+   "bytes": 102849,
+   "sha256": "609d65c6093af1f6b4834eb20cc1d42bf0f50e1df1119cf7760a5dc81fd4ad36",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_11.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_11.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_11",
+   "bytes": 271626,
+   "sha256": "23acac463238f9f855f21aeedc9bca2dbd5bbbd0d751f66d17c2340a63e5e721",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_12.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_12.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_12",
+   "bytes": 273174,
+   "sha256": "976c6893650821005b93753df3290558f6c2692e1e0bdfcf318e4dcaed13700a",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_13.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_13.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_13",
+   "bytes": 283244,
+   "sha256": "350dedd286a68e186ffde0894d29d339ffffd4dce2f2c997be0610d06711948d",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_14.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_14.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_14",
+   "bytes": 304276,
+   "sha256": "1f41c8b70fcca236a07ee5c57f58afb4583772bb39c57a3fb340d6ea22cb6441",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_15.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_15.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_15",
+   "bytes": 96699,
+   "sha256": "8441a91b263c18a421a17dcd72d8f34524ec8d2b1918396bf99134aa58fd53d8",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_16.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_16.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_16",
+   "bytes": 294294,
+   "sha256": "05c9ff954eff6e17cbf6cfc4c85612cffba84bf4bf652c8d6932703584baafac",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_17.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_17.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_17",
+   "bytes": 88529,
+   "sha256": "3fdfdbbefd00dcbaeae9b7603cced3625746a80183be5a1d099dc1b9c562e1a0",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_18.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_18.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_18",
+   "bytes": 192688,
+   "sha256": "8a01ac92f49929f02c4d0df5adbf68c663532b548d719c56a77de37cc6dce481",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_19.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_19.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_19",
+   "bytes": 149642,
+   "sha256": "5156c48332ae1547d112e58e3f6781352ca453404b06bf65a4d6bf8918b780e1",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_20.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_20.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_20",
+   "bytes": 191471,
+   "sha256": "c71a9d705dd21cb307733352ce8a18db81cf781b885fc19df3fb9369322ea701",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142833&flNm=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5+%EC%A0%95%EA%B4%80+%2818%EC%B0%A8+%EA%B0%9C%EC%A0%95%29_21.jpg",
+   "flNm": "제주항공 정관 (18차 개정)_21.jpg",
+   "alt": "이미지: 제주항공 정관 (18차 개정)_21",
+   "bytes": 98841,
+   "sha256": "5b38871ea169d62b96b11ea6c518b9922618c8a8b1db386c23d656e8b6c36aeb",
+   "width": 793,
+   "height": 1122
+  }
+ ],
+ "folder": "data/charter/089590_제주항공/20260318_11142833",
+ "fetched_at": "2026-11-16T13:23:59",
+ "used_by_rcept_no": [
+  "20260515002339"
+ ]
+}

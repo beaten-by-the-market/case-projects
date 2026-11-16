@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260707000282",
+ "corp_code": "00269241",
+ "corp_name": "주연테크",
+ "stock_code": "044380",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260707",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707000282",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3618,
+ "charter_amend_txt": "data/agm/044380_주연테크/20260707_20260707000282/정관의변경.txt",
+ "main_xml": "20260707000282.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260707000282.xml",
+   "bytes": 61777,
+   "sha256": "2ff393ab9bba89f13de21e488990328857707b52426a87aa75753c0a6c656d74"
+  }
+ ],
+ "folder": "data/agm/044380_주연테크/20260707_20260707000282",
+ "fetched_at": "2026-11-16T13:00:51"
+}

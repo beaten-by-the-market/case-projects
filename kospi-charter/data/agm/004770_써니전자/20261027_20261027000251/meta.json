@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261027000251",
+ "corp_code": "00138057",
+ "corp_name": "써니전자",
+ "stock_code": "004770",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261027",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000251",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261027000251.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261027000251.xml",
+   "bytes": 57680,
+   "sha256": "f5e03ebbcb1bb6aeb21ec53e38af948d483ecd073edab6669865fc13ff62c3fe"
+  }
+ ],
+ "folder": "data/agm/004770_써니전자/20261027_20261027000251",
+ "fetched_at": "2026-11-16T13:01:58"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260318000726",
+ "corp_code": "00123541",
+ "corp_name": "보해양조",
+ "stock_code": "000890",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260318",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000726",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 5495,
+ "charter_amend_txt": "data/agm/000890_보해양조/20260318_20260318000726/정관의변경.txt",
+ "main_xml": "20260318000726.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260318000726.xml",
+   "bytes": 251416,
+   "sha256": "1f44b9b369a89638bc8be3678976097cb12c938c41b5c751da3114a34bdd231b"
+  }
+ ],
+ "folder": "data/agm/000890_보해양조/20260318_20260318000726",
+ "fetched_at": "2026-11-16T12:59:25"
+}

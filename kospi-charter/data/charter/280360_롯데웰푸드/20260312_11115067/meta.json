@@ -1,0 +1,24 @@
+{
+ "corp_code": "01258507",
+ "corp_name": "롯데웰푸드",
+ "stock_code": "280360",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312000907",
+ "dcmNo": "11115067",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000907&dcmNo=11115067",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000907&dcmNo=11115067&eleId=1&offset=596&length=20358&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12315,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/280360_롯데웰푸드/20260312_11115067",
+ "fetched_at": "2026-11-16T13:37:45",
+ "used_by_rcept_no": [
+  "20260312000907"
+ ]
+}

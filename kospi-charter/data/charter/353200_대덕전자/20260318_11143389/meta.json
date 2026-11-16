@@ -1,0 +1,24 @@
+{
+ "corp_code": "01478712",
+ "corp_name": "대덕전자",
+ "stock_code": "353200",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001514",
+ "dcmNo": "11143389",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001514&dcmNo=11143389",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001514&dcmNo=11143389&eleId=1&offset=595&length=14936&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 8927,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/353200_대덕전자/20260318_11143389",
+ "fetched_at": "2026-11-16T13:39:48",
+ "used_by_rcept_no": [
+  "20260318001514"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260320001373",
+ "corp_code": "00158149",
+ "corp_name": "한국쉘석유",
+ "stock_code": "002960",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001373",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2806,
+ "charter_amend_txt": "data/agm/002960_한국쉘석유/20260323_20260320001373/정관의변경.txt",
+ "main_xml": "20260320001373.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260320001373.xml",
+   "bytes": 174306,
+   "sha256": "ead1935f267c81b14dc3997f26ed432d8202ef9e88bc6676757dd3fe5e6db302"
+  }
+ ],
+ "folder": "data/agm/002960_한국쉘석유/20260323_20260320001373",
+ "fetched_at": "2026-11-16T12:59:45"
+}

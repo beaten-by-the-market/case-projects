@@ -1,0 +1,24 @@
+{
+ "corp_code": "00140779",
+ "corp_name": "영보화학",
+ "stock_code": "014440",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311004373",
+ "dcmNo": "11110493",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004373&dcmNo=11110493",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004373&dcmNo=11110493&eleId=1&offset=595&length=23417&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12591,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/014440_영보화학/20260311_11110493",
+ "fetched_at": "2026-11-16T13:03:04",
+ "used_by_rcept_no": [
+  "20260311004373"
+ ]
+}

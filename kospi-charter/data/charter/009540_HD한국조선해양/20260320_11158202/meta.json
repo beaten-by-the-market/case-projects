@@ -1,0 +1,24 @@
+{
+ "corp_code": "00164830",
+ "corp_name": "HD한국조선해양",
+ "stock_code": "009540",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001032",
+ "dcmNo": "11158202",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001032&dcmNo=11158202",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001032&dcmNo=11158202&eleId=1&offset=601&length=56250&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 18082,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/009540_HD한국조선해양/20260320_11158202",
+ "fetched_at": "2026-11-16T12:34:03",
+ "used_by_rcept_no": [
+  "20260320001032"
+ ]
+}

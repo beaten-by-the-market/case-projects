@@ -1,0 +1,23 @@
+# 자격증명 (.env.example 만 커밋)
+.env
+
+# 원본 응답 캐시 — OpenDART 목록 페이지·KIND 스냅샷·DART 화면. 스크립트로 다시 받는다
+data/raw/
+
+# 정관 스캔 이미지 — 용량이 커서 커밋하지 않는다. s04 로 다시 받는다 (meta.json 에 sha256 기록)
+data/charter/**/img/
+
+# PDF 로 첨부된 정관 원본(data/charter/**/pdf/, 31개 약 17MB)은 커밋한다 — 이미지와 달리 작다
+
+# 소집공고 XML 원문 — 용량이 커서 커밋하지 않는다. s06 으로 다시 받는다 (meta.json 에 sha256 기록).
+# 추출한 정관의변경.txt·meta.json 은 커밋한다
+data/agm/**/*.xml
+
+# 파이썬·노트북
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# 실행 로그
+logs/*.log

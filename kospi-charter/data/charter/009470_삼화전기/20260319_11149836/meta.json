@@ -1,0 +1,24 @@
+{
+ "corp_code": "00129271",
+ "corp_name": "삼화전기",
+ "stock_code": "009470",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000867",
+ "dcmNo": "11149836",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000867&dcmNo=11149836",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000867&dcmNo=11149836&eleId=1&offset=596&length=52731&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 8513,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/009470_삼화전기/20260319_11149836",
+ "fetched_at": "2026-11-16T12:34:01",
+ "used_by_rcept_no": [
+  "20260319000867"
+ ]
+}

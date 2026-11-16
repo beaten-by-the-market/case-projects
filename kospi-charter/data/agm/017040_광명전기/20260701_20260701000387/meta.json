@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260701000387",
+ "corp_code": "00103662",
+ "corp_name": "광명전기",
+ "stock_code": "017040",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260701",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000387",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260701000387.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260701000387.xml",
+   "bytes": 751341,
+   "sha256": "e52be65be0c483b0166bcb32f954bd305bbbd16b33548c1a526c3350e2ae12c5"
+  }
+ ],
+ "folder": "data/agm/017040_광명전기/20260701_20260701000387",
+ "fetched_at": "2026-11-16T13:00:50"
+}

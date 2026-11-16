@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261106000113",
+ "corp_code": "01390344",
+ "corp_name": "HD현대중공업",
+ "stock_code": "329180",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261106",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000113",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261106000113.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261106000113.xml",
+   "bytes": 89157,
+   "sha256": "1456c30c4ed85216c6a8ad83f628c04f3d0f16bf6442848526b447c11aa1da22"
+  }
+ ],
+ "folder": "data/agm/329180_HD현대중공업/20261106_20261106000113",
+ "fetched_at": "2026-11-16T13:02:15"
+}

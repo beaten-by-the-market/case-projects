@@ -1,0 +1,37 @@
+{
+ "corp_code": "00115694",
+ "corp_name": "DB증권",
+ "stock_code": "016610",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000876",
+ "dcmNo": "11138576",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000876&dcmNo=11138576",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000876&dcmNo=11138576&eleId=1&offset=592&length=308&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 30,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/016610_DB증권/20260318_11138576",
+ "fetched_at": "2026-11-16T13:04:21",
+ "used_by_rcept_no": [
+  "20260318000876"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138576&flNm=%EC%A0%95%EA%B4%80%2820250325%29.pdf",
+   "flNm": "정관(20250325).pdf",
+   "bytes": 740811,
+   "sha256": "ac07c1e5ad83fa0af0f2b9ca01e553a83b859ba33e89f997d1bfbfef4813cfe4",
+   "pages": 25,
+   "text_pages": 25,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

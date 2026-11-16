@@ -1,0 +1,165 @@
+{
+ "corp_code": "00112998",
+ "corp_name": "서울보증보험",
+ "stock_code": "031210",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000639",
+ "dcmNo": "11162948",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000639&dcmNo=11162948",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000639&dcmNo=11162948&eleId=1&offset=599&length=2247&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 14,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_1-14.jpg",
+   "flNm": "정관_1-14.jpg",
+   "alt": "이미지: 정관_1-14",
+   "bytes": 224736,
+   "sha256": "09f3cb45e1c90e78caf6558464c25b6f0872ee5ecdfd50a50ef276ce9f0b2aa8",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_2-14.jpg",
+   "flNm": "정관_2-14.jpg",
+   "alt": "이미지: 정관_2-14",
+   "bytes": 265724,
+   "sha256": "c5c1b2311ad25e96c11efe924077f2f387a01785bfc758a3b8fbbab2311d8692",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_3-14.jpg",
+   "flNm": "정관_3-14.jpg",
+   "alt": "이미지: 정관_3-14",
+   "bytes": 270614,
+   "sha256": "6da980e557875c5c7db64edaacdbf448ea30db1883a3dac14f231ce1faec9627",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_4-14.jpg",
+   "flNm": "정관_4-14.jpg",
+   "alt": "이미지: 정관_4-14",
+   "bytes": 277791,
+   "sha256": "7b2611bb8dee2cc58c57b32c0011a8d066b44580f4a2f82d653d6f0a56a43c31",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_5-14.jpg",
+   "flNm": "정관_5-14.jpg",
+   "alt": "이미지: 정관_5-14",
+   "bytes": 251048,
+   "sha256": "689fdd46652b2ba1fc2c9c4a3457ab2e7fc0617be5c4b5968b7422adfc08b60b",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_6-14.jpg",
+   "flNm": "정관_6-14.jpg",
+   "alt": "이미지: 정관_6-14",
+   "bytes": 251063,
+   "sha256": "d89c831b30b0bb3a4069db53acd943f1ddd4ab1f532a04fff13eb5cb86df539c",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_7-14.jpg",
+   "flNm": "정관_7-14.jpg",
+   "alt": "이미지: 정관_7-14",
+   "bytes": 256557,
+   "sha256": "fa54f463069fb119c362430ba85f8a330c1261e56cb79ee27d332304d30c63ac",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_8-14.jpg",
+   "flNm": "정관_8-14.jpg",
+   "alt": "이미지: 정관_8-14",
+   "bytes": 247964,
+   "sha256": "8c0818630d02e6e64be9556b3ac10bcc12d22e14701575fddb7829a8de45fc42",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_9-14.jpg",
+   "flNm": "정관_9-14.jpg",
+   "alt": "이미지: 정관_9-14",
+   "bytes": 254053,
+   "sha256": "aff1edf106b2a1f83cd14f5bfb6f6fbdfa0abc31149287fc0148fdf10ce38bea",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_10-14.jpg",
+   "flNm": "정관_10-14.jpg",
+   "alt": "이미지: 정관_10-14",
+   "bytes": 267522,
+   "sha256": "462352e8cc7f259a1f2413a0382f3ec1e6c41ea571799edabccd7b2fa6c129f3",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_11-14.jpg",
+   "flNm": "정관_11-14.jpg",
+   "alt": "이미지: 정관_11-14",
+   "bytes": 229212,
+   "sha256": "d164635e3104b790e469213dd0e80c043aee1f647362228ad936caf2ea684d7c",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_12-14.jpg",
+   "flNm": "정관_12-14.jpg",
+   "alt": "이미지: 정관_12-14",
+   "bytes": 288430,
+   "sha256": "d3671cdf68b221702c585e6ad6edc10db022c623a26e96bacf17bb68dc84c3c7",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_13-14.jpg",
+   "flNm": "정관_13-14.jpg",
+   "alt": "이미지: 정관_13-14",
+   "bytes": 275210,
+   "sha256": "ffb1645d69da6c8dc95840115467e1d5de600867f53fbbe21e7b6ad2b1ab4642",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162948&flNm=%EC%A0%95%EA%B4%80_14-14.jpg",
+   "flNm": "정관_14-14.jpg",
+   "alt": "이미지: 정관_14-14",
+   "bytes": 144951,
+   "sha256": "4bbc42ccb266f6045fe77e6f87387f908fc218fe53dca7c7ed6327bfa14ffb0e",
+   "width": 2480,
+   "height": 3508
+  }
+ ],
+ "folder": "data/charter/031210_서울보증보험/20260323_11162948",
+ "fetched_at": "2026-11-16T13:11:06",
+ "used_by_rcept_no": [
+  "20260323000639"
+ ]
+}

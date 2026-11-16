@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260722000302",
+ "corp_code": "00753643",
+ "corp_name": "주성코퍼레이션",
+ "stock_code": "109070",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260722",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000302",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 769,
+ "charter_amend_txt": "data/agm/109070_주성코퍼레이션/20260722_20260722000302/정관의변경.txt",
+ "main_xml": "20260722000302.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260722000302.xml",
+   "bytes": 128234,
+   "sha256": "2b721630ce6101fd367255883e9216ebc4d2ccee68c2d4ed3099c7da8903c25c"
+  }
+ ],
+ "folder": "data/agm/109070_주성코퍼레이션/20260722_20260722000302",
+ "fetched_at": "2026-11-16T13:01:18"
+}

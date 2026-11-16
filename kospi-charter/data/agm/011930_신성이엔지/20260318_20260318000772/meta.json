@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260318000772",
+ "corp_code": "00136271",
+ "corp_name": "신성이엔지",
+ "stock_code": "011930",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260318",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000772",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1968,
+ "charter_amend_txt": "data/agm/011930_신성이엔지/20260318_20260318000772/정관의변경.txt",
+ "main_xml": "20260318000772.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260318000772.xml",
+   "bytes": 86357,
+   "sha256": "7461ad881571ab925f2750f294140722e0854a4cc38ca1b47ea4a736dd3bdfc8"
+  }
+ ],
+ "folder": "data/agm/011930_신성이엔지/20260318_20260318000772",
+ "fetched_at": "2026-11-16T12:59:26"
+}

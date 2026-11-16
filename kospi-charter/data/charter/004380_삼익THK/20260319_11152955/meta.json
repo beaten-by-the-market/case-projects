@@ -1,0 +1,24 @@
+{
+ "corp_code": "00127802",
+ "corp_name": "삼익THK",
+ "stock_code": "004380",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001288",
+ "dcmNo": "11152955",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001288&dcmNo=11152955",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001288&dcmNo=11152955&eleId=1&offset=597&length=18296&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11521,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/004380_삼익THK/20260319_11152955",
+ "fetched_at": "2026-11-16T12:25:25",
+ "used_by_rcept_no": [
+  "20260319001288"
+ ]
+}

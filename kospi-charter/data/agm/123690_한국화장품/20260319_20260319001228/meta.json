@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260319001228",
+ "corp_code": "00823429",
+ "corp_name": "한국화장품",
+ "stock_code": "123690",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001228",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2351,
+ "charter_amend_txt": "data/agm/123690_한국화장품/20260319_20260319001228/정관의변경.txt",
+ "main_xml": "20260319001228.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260319001228.xml",
+   "bytes": 55948,
+   "sha256": "1062059b79226dff8227865801e4369e4da3f776029df421410a2fb278ad72cb"
+  }
+ ],
+ "folder": "data/agm/123690_한국화장품/20260319_20260319001228",
+ "fetched_at": "2026-11-16T12:59:39"
+}

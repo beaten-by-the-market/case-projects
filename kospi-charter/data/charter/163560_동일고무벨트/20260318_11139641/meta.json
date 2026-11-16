@@ -1,0 +1,45 @@
+{
+ "corp_code": "00939687",
+ "corp_name": "동일고무벨트",
+ "stock_code": "163560",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001036",
+ "dcmNo": "11139641",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001036&dcmNo=11139641",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001036&dcmNo=11139641&eleId=1&offset=597&length=14468&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "mixed",
+ "text_chars": 8746,
+ "n_images": 2,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139641&flNm=%EC%A0%95%EA%B4%80.jpg",
+   "flNm": "정관.jpg",
+   "alt": "이미지: 정관",
+   "bytes": 12730,
+   "sha256": "b7e53d14fd393298eb862d9f9a0ac1996800f9ffcc845a99ec42cc5a78c3a4fe",
+   "width": 438,
+   "height": 621
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139641&flNm=%EB%B3%84%ED%91%9C.jpg",
+   "flNm": "별표.jpg",
+   "alt": "이미지: 별표",
+   "bytes": 31284,
+   "sha256": "94cbd614efdbbfa24905bb8ff106430ee6d728f475d22d4942a87f3b08093200",
+   "width": 461,
+   "height": 534
+  }
+ ],
+ "folder": "data/charter/163560_동일고무벨트/20260318_11139641",
+ "fetched_at": "2026-11-16T13:31:08",
+ "used_by_rcept_no": [
+  "20260318001036"
+ ]
+}

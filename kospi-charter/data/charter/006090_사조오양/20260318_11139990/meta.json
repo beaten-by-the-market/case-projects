@@ -1,0 +1,24 @@
+{
+ "corp_code": "00141875",
+ "corp_name": "사조오양",
+ "stock_code": "006090",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001080",
+ "dcmNo": "11139990",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001080&dcmNo=11139990",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001080&dcmNo=11139990&eleId=1&offset=595&length=17348&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10869,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/006090_사조오양/20260318_11139990",
+ "fetched_at": "2026-11-16T12:28:39",
+ "used_by_rcept_no": [
+  "20260318001080"
+ ]
+}

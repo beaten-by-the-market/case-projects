@@ -1,0 +1,24 @@
+{
+ "corp_code": "01316254",
+ "corp_name": "HS효성첨단소재",
+ "stock_code": "298050",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312001146",
+ "dcmNo": "11116156",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001146&dcmNo=11116156",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001146&dcmNo=11116156&eleId=1&offset=604&length=17367&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11086,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/298050_HS효성첨단소재/20260312_11116156",
+ "fetched_at": "2026-11-16T13:38:43",
+ "used_by_rcept_no": [
+  "20260312001146"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323000516",
+ "corp_code": "00160418",
+ "corp_name": "한국무브넥스",
+ "stock_code": "010100",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000516",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1489,
+ "charter_amend_txt": "data/agm/010100_한국무브넥스/20260323_20260323000516/정관의변경.txt",
+ "main_xml": "20260323000516.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323000516.xml",
+   "bytes": 91318,
+   "sha256": "44dc7cc27dd0d27e44a85aa67fd72fa392478d8f4a2472e0eb87196955c4f62e"
+  }
+ ],
+ "folder": "data/agm/010100_한국무브넥스/20260323_20260323000516",
+ "fetched_at": "2026-11-16T12:59:46"
+}

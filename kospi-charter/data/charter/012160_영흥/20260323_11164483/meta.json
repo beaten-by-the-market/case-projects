@@ -1,0 +1,37 @@
+{
+ "corp_code": "00141477",
+ "corp_name": "영흥",
+ "stock_code": "012160",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000923",
+ "dcmNo": "11164483",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000923&dcmNo=11164483",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000923&dcmNo=11164483&eleId=1&offset=593&length=290&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 10,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/012160_영흥/20260323_11164483",
+ "fetched_at": "2026-11-16T12:37:39",
+ "used_by_rcept_no": [
+  "20260323000923"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164483&flNm=%EC%A0%95+%EA%B4%80.pdf",
+   "flNm": "정 관.pdf",
+   "bytes": 147603,
+   "sha256": "4a8a5b4bc91dc59f76cc5c478681d3fb4c9304b2feda94f2aad4552b6badffd2",
+   "pages": 22,
+   "text_pages": 21,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

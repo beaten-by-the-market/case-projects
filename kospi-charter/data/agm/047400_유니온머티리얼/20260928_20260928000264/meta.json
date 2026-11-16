@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260928000264",
+ "corp_code": "00369833",
+ "corp_name": "유니온머티리얼",
+ "stock_code": "047400",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260928",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928000264",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 273,
+ "charter_amend_txt": "data/agm/047400_유니온머티리얼/20260928_20260928000264/정관의변경.txt",
+ "main_xml": "20260928000264.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260928000264.xml",
+   "bytes": 47739,
+   "sha256": "390ce23f0e799e152dd9ea920b76e3901ab5cb9d82a3f28ceda852832b7b093a"
+  }
+ ],
+ "folder": "data/agm/047400_유니온머티리얼/20260928_20260928000264",
+ "fetched_at": "2026-11-16T13:01:46"
+}

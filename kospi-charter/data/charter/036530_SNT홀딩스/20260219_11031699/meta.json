@@ -1,0 +1,24 @@
+{
+ "corp_code": "00225159",
+ "corp_name": "SNT홀딩스",
+ "stock_code": "036530",
+ "att_title": "2026.02.19 정관",
+ "att_date": "20260219",
+ "rcpNo": "20260219002462",
+ "dcmNo": "11031699",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260219002462&dcmNo=11031699",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260219002462&dcmNo=11031699&eleId=1&offset=597&length=18655&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11786,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/036530_SNT홀딩스/20260219_11031699",
+ "fetched_at": "2026-11-16T13:12:50",
+ "used_by_rcept_no": [
+  "20260402003712"
+ ]
+}

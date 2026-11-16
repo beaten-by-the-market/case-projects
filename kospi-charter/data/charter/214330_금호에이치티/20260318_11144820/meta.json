@@ -1,0 +1,24 @@
+{
+ "corp_code": "00105606",
+ "corp_name": "금호에이치티",
+ "stock_code": "214330",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001668",
+ "dcmNo": "11144820",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001668&dcmNo=11144820",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001668&dcmNo=11144820&eleId=1&offset=597&length=19571&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12396,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/214330_금호에이치티/20260318_11144820",
+ "fetched_at": "2026-11-16T13:34:03",
+ "used_by_rcept_no": [
+  "20260318001668"
+ ]
+}

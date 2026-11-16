@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260609000053",
+ "corp_code": "00114792",
+ "corp_name": "동국홀딩스",
+ "stock_code": "001230",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260609",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609000053",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260609000053.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260609000053.xml",
+   "bytes": 98474,
+   "sha256": "63c40331e90d807d28a2d46c2633fc04376021ba170b999e53c973e147bf40d6"
+  }
+ ],
+ "folder": "data/agm/001230_동국홀딩스/20260609_20260609000053",
+ "fetched_at": "2026-11-16T13:00:36"
+}

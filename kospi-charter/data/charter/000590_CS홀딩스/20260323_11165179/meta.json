@@ -1,0 +1,24 @@
+{
+ "corp_code": "00149026",
+ "corp_name": "CS홀딩스",
+ "stock_code": "000590",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001033",
+ "dcmNo": "11165179",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001033&dcmNo=11165179",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001033&dcmNo=11165179&eleId=1&offset=593&length=21282&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11085,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/000590_CS홀딩스/20260323_11165179",
+ "fetched_at": "2026-11-16T12:12:51",
+ "used_by_rcept_no": [
+  "20260814002107"
+ ]
+}

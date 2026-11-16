@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142853&flNm=%EC%97%90%ED%94%84%EC%95%A4%EC%97%90%ED%94%84%ED%99%80%EB%94%A9%EC%8A%A4+%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "에프앤에프홀딩스 정관.pdf",
+   "bytes": 427093,
+   "sha256": "a2096d486a90ca72eea809e96ffffd356e214288b816d7b7fe4fc8a99b38f831",
+   "pages": 17,
+   "text_pages": 17,
+   "ocr_pages": 0
+  }
+ ],
+ "total_chars": 11965,
+ "pages": 17,
+ "text_pages": 17,
+ "ocr_pages": 0,
+ "created_at": "2026-11-16T13:47:45",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": null
+ }
+}

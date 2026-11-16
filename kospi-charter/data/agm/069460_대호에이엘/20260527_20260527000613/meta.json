@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260527000613",
+ "corp_code": "00428729",
+ "corp_name": "대호에이엘",
+ "stock_code": "069460",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260527",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260527000613",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1781,
+ "charter_amend_txt": "data/agm/069460_대호에이엘/20260527_20260527000613/정관의변경.txt",
+ "main_xml": "20260527000613.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260527000613.xml",
+   "bytes": 92464,
+   "sha256": "7daf16636940fdd5a50ebeef5b07c83b8059eed34d7c412bb23cfedfad71b029"
+  }
+ ],
+ "folder": "data/agm/069460_대호에이엘/20260527_20260527000613",
+ "fetched_at": "2026-11-16T13:00:30"
+}

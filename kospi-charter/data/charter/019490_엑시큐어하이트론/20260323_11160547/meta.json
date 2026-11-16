@@ -1,0 +1,24 @@
+{
+ "corp_code": "00156150",
+ "corp_name": "엑시큐어하이트론",
+ "stock_code": "019490",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000002",
+ "dcmNo": "11160547",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000002&dcmNo=11160547",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000002&dcmNo=11160547&eleId=1&offset=596&length=19354&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11792,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/019490_엑시큐어하이트론/20260323_11160547",
+ "fetched_at": "2026-11-16T13:07:39",
+ "used_by_rcept_no": [
+  "20260323000002"
+ ]
+}

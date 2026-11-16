@@ -1,0 +1,24 @@
+{
+ "corp_code": "00728638",
+ "corp_name": "한세실업",
+ "stock_code": "105630",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001459",
+ "dcmNo": "11142982",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001459&dcmNo=11142982",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001459&dcmNo=11142982&eleId=1&offset=592&length=21197&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11961,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/105630_한세실업/20260318_11142982",
+ "fetched_at": "2026-11-16T13:27:25",
+ "used_by_rcept_no": [
+  "20260318001459"
+ ]
+}

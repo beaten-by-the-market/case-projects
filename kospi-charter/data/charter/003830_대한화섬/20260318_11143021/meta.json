@@ -1,0 +1,135 @@
+{
+ "corp_code": "00113544",
+ "corp_name": "대한화섬",
+ "stock_code": "003830",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001465",
+ "dcmNo": "11143021",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001465&dcmNo=11143021",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001465&dcmNo=11143021&eleId=1&offset=596&length=1989&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 11,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143021&flNm=%EB%8C%80%ED%95%9C%ED%99%94%EC%84%AC+%EC%A0%95%EA%B4%80_250328_1.jpg",
+   "flNm": "대한화섬 정관_250328_1.jpg",
+   "alt": "이미지: 대한화섬 정관_250328_1",
+   "bytes": 52016,
+   "sha256": "521aed7917980fe1f94413e6c6cfbdc17ee86b448e004a8b7b6a6fa290f91552",
+   "width": 1191,
+   "height": 1685
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143021&flNm=%EB%8C%80%ED%95%9C%ED%99%94%EC%84%AC+%EC%A0%95%EA%B4%80_250328_2.jpg",
+   "flNm": "대한화섬 정관_250328_2.jpg",
+   "alt": "이미지: 대한화섬 정관_250328_2",
+   "bytes": 134237,
+   "sha256": "8ab22526de0f24c9d7ae1e55c234f99bf4bb88995975ffaea5ba40a61bffaf7b",
+   "width": 1191,
+   "height": 1685
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143021&flNm=%EB%8C%80%ED%95%9C%ED%99%94%EC%84%AC+%EC%A0%95%EA%B4%80_250328_3.jpg",
+   "flNm": "대한화섬 정관_250328_3.jpg",
+   "alt": "이미지: 대한화섬 정관_250328_3",
+   "bytes": 204202,
+   "sha256": "7af9ddaac51bbe6cdb3b6dfd0f1ace1002cbd3b3c5d2601f25f85b8dcc9b34dc",
+   "width": 1191,
+   "height": 1685
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143021&flNm=%EB%8C%80%ED%95%9C%ED%99%94%EC%84%AC+%EC%A0%95%EA%B4%80_250328_4.jpg",
+   "flNm": "대한화섬 정관_250328_4.jpg",
+   "alt": "이미지: 대한화섬 정관_250328_4",
+   "bytes": 156139,
+   "sha256": "4004247177c34ce7dc5a873014e99266e88aa6c16bd2c0da9b391bbcb5e56474",
+   "width": 1191,
+   "height": 1685
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143021&flNm=%EB%8C%80%ED%95%9C%ED%99%94%EC%84%AC+%EC%A0%95%EA%B4%80_250328_5.jpg",
+   "flNm": "대한화섬 정관_250328_5.jpg",
+   "alt": "이미지: 대한화섬 정관_250328_5",
+   "bytes": 162137,
+   "sha256": "bd0ecf18db2f3010d565bdecf6e5be4ea97c2c63efc9f09f4c1823e3415c6185",
+   "width": 1191,
+   "height": 1685
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143021&flNm=%EB%8C%80%ED%95%9C%ED%99%94%EC%84%AC+%EC%A0%95%EA%B4%80_250328_6.jpg",
+   "flNm": "대한화섬 정관_250328_6.jpg",
+   "alt": "이미지: 대한화섬 정관_250328_6",
+   "bytes": 169071,
+   "sha256": "508df0406f9336c2aadfe1ce307f54b1dd5554007043048a644dc54370c5b741",
+   "width": 1191,
+   "height": 1685
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143021&flNm=%EB%8C%80%ED%95%9C%ED%99%94%EC%84%AC+%EC%A0%95%EA%B4%80_250328_7.jpg",
+   "flNm": "대한화섬 정관_250328_7.jpg",
+   "alt": "이미지: 대한화섬 정관_250328_7",
+   "bytes": 179130,
+   "sha256": "837a2e45fb530d9183868d9f0161632566d5cc9c68ba4f1d7ac316c5e492dd8e",
+   "width": 1191,
+   "height": 1685
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143021&flNm=%EB%8C%80%ED%95%9C%ED%99%94%EC%84%AC+%EC%A0%95%EA%B4%80_250328_8.jpg",
+   "flNm": "대한화섬 정관_250328_8.jpg",
+   "alt": "이미지: 대한화섬 정관_250328_8",
+   "bytes": 169189,
+   "sha256": "bd3297e220825b4382b15c9e5cbde10a66a9a64415f87bc0c4843de90388084f",
+   "width": 1191,
+   "height": 1685
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143021&flNm=%EB%8C%80%ED%95%9C%ED%99%94%EC%84%AC+%EC%A0%95%EA%B4%80_250328_9.jpg",
+   "flNm": "대한화섬 정관_250328_9.jpg",
+   "alt": "이미지: 대한화섬 정관_250328_9",
+   "bytes": 159289,
+   "sha256": "eeec41c862e06a116360be1929cade20e9521f2e59cf6f2f968ef69c4001440f",
+   "width": 1191,
+   "height": 1685
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143021&flNm=%EB%8C%80%ED%95%9C%ED%99%94%EC%84%AC+%EC%A0%95%EA%B4%80_250328_10.jpg",
+   "flNm": "대한화섬 정관_250328_10.jpg",
+   "alt": "이미지: 대한화섬 정관_250328_10",
+   "bytes": 122929,
+   "sha256": "90565b9d8834f8a51456c3bd49d85dbd625de63f651002d4d2ed20e77261cf32",
+   "width": 1191,
+   "height": 1685
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143021&flNm=%EB%8C%80%ED%95%9C%ED%99%94%EC%84%AC+%EC%A0%95%EA%B4%80_250328_11.jpg",
+   "flNm": "대한화섬 정관_250328_11.jpg",
+   "alt": "이미지: 대한화섬 정관_250328_11",
+   "bytes": 92925,
+   "sha256": "9259e3ba37d4836516dff187a991b7273c3e3ceec23466dd127b482f88811c31",
+   "width": 1191,
+   "height": 1685
+  }
+ ],
+ "folder": "data/charter/003830_대한화섬/20260318_11143021",
+ "fetched_at": "2026-11-16T12:24:25",
+ "used_by_rcept_no": [
+  "20260318001465"
+ ]
+}

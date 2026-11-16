@@ -1,0 +1,24 @@
+{
+ "corp_code": "01510489",
+ "corp_name": "프레스티지바이오파마",
+ "stock_code": "950210",
+ "att_title": "2026.09.22 정관",
+ "att_date": "20260922",
+ "rcpNo": "20260921000435",
+ "dcmNo": "11587662",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000435&dcmNo=11587662",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000435&dcmNo=11587662&eleId=1&offset=598&length=76445&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 46895,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/950210_프레스티지바이오파마/20260922_11587662",
+ "fetched_at": "2026-11-16T13:44:36",
+ "used_by_rcept_no": [
+  "20260923000252"
+ ]
+}

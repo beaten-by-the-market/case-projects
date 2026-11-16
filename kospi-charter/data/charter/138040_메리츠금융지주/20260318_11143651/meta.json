@@ -1,0 +1,25 @@
+{
+ "corp_code": "00860332",
+ "corp_name": "메리츠금융지주",
+ "stock_code": "138040",
+ "att_title": "2026.03.18 [정정] 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001549",
+ "dcmNo": "11143651",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001549&dcmNo=11143651",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001549&dcmNo=11143651&eleId=1&offset=647&length=3144&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001549&dcmNo=11143651&eleId=2&offset=3821&length=35281&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "text",
+ "text_chars": 15015,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/138040_메리츠금융지주/20260318_11143651",
+ "fetched_at": "2026-11-16T13:29:08",
+ "used_by_rcept_no": [
+  "20260406004144"
+ ]
+}

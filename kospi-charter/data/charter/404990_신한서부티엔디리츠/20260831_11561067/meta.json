@@ -1,0 +1,24 @@
+{
+ "corp_code": "01436558",
+ "corp_name": "신한서부티엔디리츠",
+ "stock_code": "404990",
+ "att_title": "2026.08.31 정관",
+ "att_date": "20260831",
+ "rcpNo": "20260831001328",
+ "dcmNo": "11561067",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001328&dcmNo=11561067",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260831001328&dcmNo=11561067&eleId=1&offset=611&length=32290&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 19115,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/404990_신한서부티엔디리츠/20260831_11561067",
+ "fetched_at": "2026-11-16T13:42:02",
+ "used_by_rcept_no": [
+  "20260831001328"
+ ]
+}

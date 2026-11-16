@@ -1,0 +1,24 @@
+{
+ "corp_code": "00651901",
+ "corp_name": "에어부산",
+ "stock_code": "298690",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000736",
+ "dcmNo": "11133165",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000736&dcmNo=11133165",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000736&dcmNo=11133165&eleId=1&offset=595&length=23690&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13921,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/298690_에어부산/20260317_11133165",
+ "fetched_at": "2026-11-16T13:38:45",
+ "used_by_rcept_no": [
+  "20260317000736"
+ ]
+}

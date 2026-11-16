@@ -1,0 +1,25 @@
+{
+ "corp_code": "00526599",
+ "corp_name": "덴티움",
+ "stock_code": "145720",
+ "att_title": "2026.04.01 [정정] 정관",
+ "att_date": "20260401",
+ "rcpNo": "20260401003696",
+ "dcmNo": "11227235",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260401003696&dcmNo=11227235",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260401003696&dcmNo=11227235&eleId=1&offset=640&length=4313&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260401003696&dcmNo=11227235&eleId=2&offset=4983&length=18140&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "text",
+ "text_chars": 12200,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/145720_덴티움/20260401_11227235",
+ "fetched_at": "2026-11-16T13:30:27",
+ "used_by_rcept_no": [
+  "20260928000355"
+ ]
+}

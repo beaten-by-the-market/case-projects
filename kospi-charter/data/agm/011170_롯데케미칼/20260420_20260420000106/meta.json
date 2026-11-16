@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260420000106",
+ "corp_code": "00165413",
+ "corp_name": "롯데케미칼",
+ "stock_code": "011170",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260420",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260420000106",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260420000106.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260420000106.xml",
+   "bytes": 215866,
+   "sha256": "13f74a3464a542b5945098ed13863ae91bb81750fc0677f57ee5cbb1cf6aadfd"
+  }
+ ],
+ "folder": "data/agm/011170_롯데케미칼/20260420_20260420000106",
+ "fetched_at": "2026-11-16T13:00:15"
+}

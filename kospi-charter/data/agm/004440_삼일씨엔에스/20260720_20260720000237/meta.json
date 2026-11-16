@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260720000237",
+ "corp_code": "00109806",
+ "corp_name": "삼일씨엔에스",
+ "stock_code": "004440",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260720",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000237",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260720000237.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260720000237.xml",
+   "bytes": 68977,
+   "sha256": "cad6bab2d3c9b390c7a4f8cfa13d8fb39ae57cea6a8bdc0a4547ff784bcc6d13"
+  }
+ ],
+ "folder": "data/agm/004440_삼일씨엔에스/20260720_20260720000237",
+ "fetched_at": "2026-11-16T13:01:18"
+}

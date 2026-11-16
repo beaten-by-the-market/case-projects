@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260319001325",
+ "corp_code": "00115287",
+ "corp_name": "동방",
+ "stock_code": "004140",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001325",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260319001325.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260319001325.xml",
+   "bytes": 4016165,
+   "sha256": "dd74313ddf0a05e8128633239d49de36372c2891077b2212e424c1a28a7dde46"
+  }
+ ],
+ "folder": "data/agm/004140_동방/20260319_20260319001325",
+ "fetched_at": "2026-11-16T12:59:41"
+}

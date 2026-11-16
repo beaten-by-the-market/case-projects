@@ -1,0 +1,195 @@
+{
+ "corp_code": "00140955",
+ "corp_name": "한솔케미칼",
+ "stock_code": "014680",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001424",
+ "dcmNo": "11142689",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001424&dcmNo=11142689",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001424&dcmNo=11142689&eleId=1&offset=593&length=2715&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 17,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "한솔케미칼_정관_1.jpg",
+   "alt": "이미지: 한솔케미칼_정관_1",
+   "bytes": 248871,
+   "sha256": "679821cc3b9ad972019f3165f376a9e8d059d21aaf11297eef7ff3cfaa066323",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "한솔케미칼_정관_2.jpg",
+   "alt": "이미지: 한솔케미칼_정관_2",
+   "bytes": 214789,
+   "sha256": "7df4365a6cfc8dbef0249fbf928a7e34214a55e4b31b0ed11f2e9ea496b1d482",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "한솔케미칼_정관_3.jpg",
+   "alt": "이미지: 한솔케미칼_정관_3",
+   "bytes": 252611,
+   "sha256": "1403cb139b94563b58f652e43a5f93d17303a6c70742c325be11212697c96b10",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "한솔케미칼_정관_4.jpg",
+   "alt": "이미지: 한솔케미칼_정관_4",
+   "bytes": 245395,
+   "sha256": "aa4c1cc83d1fe42fbb2b53fc6df33e6e39c9997fbff1eb35662cfc62ab57c1e0",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "한솔케미칼_정관_5.jpg",
+   "alt": "이미지: 한솔케미칼_정관_5",
+   "bytes": 275867,
+   "sha256": "93f1cefb7a680ae123a46fa50c06357491bda11f4b4c0de982985932a3223cf6",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "한솔케미칼_정관_6.jpg",
+   "alt": "이미지: 한솔케미칼_정관_6",
+   "bytes": 230822,
+   "sha256": "bc5f827de733ccadd664a1b93b88f48cc0304e4c27b10a9d40cb623027df39d1",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "한솔케미칼_정관_7.jpg",
+   "alt": "이미지: 한솔케미칼_정관_7",
+   "bytes": 290203,
+   "sha256": "8fc592dd94957acc118cfc281c72ea400e17bc04a45230fde4930c1af24f0bc4",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "한솔케미칼_정관_8.jpg",
+   "alt": "이미지: 한솔케미칼_정관_8",
+   "bytes": 291695,
+   "sha256": "f238608906e25195215839396fdda5d75b7679671d83f567c223389f1f0a4e6b",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "한솔케미칼_정관_9.jpg",
+   "alt": "이미지: 한솔케미칼_정관_9",
+   "bytes": 277137,
+   "sha256": "9f8752d2502561128b97766372f99e88811d648686e47cc542be733e5b8a0228",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "한솔케미칼_정관_10.jpg",
+   "alt": "이미지: 한솔케미칼_정관_10",
+   "bytes": 214612,
+   "sha256": "53efc133254bb99732f5acb2f13c7159923252e1efab04b5507f7e75eef61edf",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "한솔케미칼_정관_11.jpg",
+   "alt": "이미지: 한솔케미칼_정관_11",
+   "bytes": 251800,
+   "sha256": "62c57e5afe61ae73c96a37e44eb4491699507b245b4a2ab1ff12003d1b6578c0",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "한솔케미칼_정관_12.jpg",
+   "alt": "이미지: 한솔케미칼_정관_12",
+   "bytes": 249523,
+   "sha256": "f2c313355caee08eef6fd370dddfa54e8609405a75faad7d3620ebdcacd827ca",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "한솔케미칼_정관_13.jpg",
+   "alt": "이미지: 한솔케미칼_정관_13",
+   "bytes": 278937,
+   "sha256": "3a313232a114c74dcd1a619e02ed576e3c964e8ed89cf40871d2631bdad5eb92",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "한솔케미칼_정관_14.jpg",
+   "alt": "이미지: 한솔케미칼_정관_14",
+   "bytes": 215470,
+   "sha256": "7bd099263751c6e38ac6e39e9bfa61e7ca4fa799be5da230b6f113822408b902",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "한솔케미칼_정관_15.jpg",
+   "alt": "이미지: 한솔케미칼_정관_15",
+   "bytes": 228533,
+   "sha256": "9e0694369c9a0c4048ac533961f28e5422bf1f69965bf1aef5f21192f8622a6b",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "한솔케미칼_정관_16.jpg",
+   "alt": "이미지: 한솔케미칼_정관_16",
+   "bytes": 227322,
+   "sha256": "bec72db99e0e1b7614a19e224726ad20fbf9b00fb71cab77abe6048bd50f796a",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142689&flNm=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC_%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "한솔케미칼_정관_17.jpg",
+   "alt": "이미지: 한솔케미칼_정관_17",
+   "bytes": 214094,
+   "sha256": "8ada8676f5f954134ba4a2555c9aff7fccd646626aa44cb94db3bb03a6afd406",
+   "width": 2480,
+   "height": 3507
+  }
+ ],
+ "folder": "data/charter/014680_한솔케미칼/20260318_11142689",
+ "fetched_at": "2026-11-16T13:03:19",
+ "used_by_rcept_no": [
+  "20260318001424"
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "corp_code": "00152686",
+ "corp_name": "코리아써키트",
+ "stock_code": "007810",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000865",
+ "dcmNo": "11149827",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000865&dcmNo=11149827",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000865&dcmNo=11149827&eleId=1&offset=597&length=2766&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 20,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=%ED%91%9C%EC%A7%80.jpg",
+   "flNm": "표지.jpg",
+   "alt": "이미지: 표지",
+   "bytes": 16176,
+   "sha256": "e2755f9d1dff5f970c99ba3c366f07117d1e78d4918a772496a675ce7f778001",
+   "width": 564,
+   "height": 746
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=01.jpg",
+   "flNm": "01.jpg",
+   "alt": "이미지: 01",
+   "bytes": 111383,
+   "sha256": "aaad36de8b472dd405a96fb6915e497b59c94ea3339096a51ffff3f3269f2dd4",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=02.jpg",
+   "flNm": "02.jpg",
+   "alt": "이미지: 02",
+   "bytes": 245927,
+   "sha256": "20802bf0bac8a97b24feef6648cc905d26204e78866a4f37756920e51081822b",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=03.jpg",
+   "flNm": "03.jpg",
+   "alt": "이미지: 03",
+   "bytes": 274281,
+   "sha256": "9870361d0af920d11880c100c17f4c79af5f29520bd8d14014e1128ec8a0ee91",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=04.jpg",
+   "flNm": "04.jpg",
+   "alt": "이미지: 04",
+   "bytes": 304702,
+   "sha256": "c751cc00493f952590ddcb248f62fc900fa99269089a2a1b818e0da35f26d326",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=05.jpg",
+   "flNm": "05.jpg",
+   "alt": "이미지: 05",
+   "bytes": 272493,
+   "sha256": "c9d7e7f86e5595db938bd5a45298cf186518ae798cea6be76ae1d1a0b7a117f3",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=06.jpg",
+   "flNm": "06.jpg",
+   "alt": "이미지: 06",
+   "bytes": 272272,
+   "sha256": "63f34aa0df14574a2a40bc3adc56181b927f880b593ca2468f38ee56e5231086",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=07.jpg",
+   "flNm": "07.jpg",
+   "alt": "이미지: 07",
+   "bytes": 235521,
+   "sha256": "0926e11f57de9b6de0b06209903d267f1172b70b3118011758c0e95dbb58e4dc",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=08.jpg",
+   "flNm": "08.jpg",
+   "alt": "이미지: 08",
+   "bytes": 283246,
+   "sha256": "dd8b1f82e5237c1d6063c13d0574833c9acf6f7391b8652266fd7341e0c7c99b",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=09.jpg",
+   "flNm": "09.jpg",
+   "alt": "이미지: 09",
+   "bytes": 272087,
+   "sha256": "259a42207fb3ebf3ace05a86e58771f01ecc1f2f04248b36e8d365bd3391e217",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=10.jpg",
+   "flNm": "10.jpg",
+   "alt": "이미지: 10",
+   "bytes": 291719,
+   "sha256": "e952e696922d0d9ae50477502af7ed9dc0eb202e0db36cb52e52e3ea7f80c2ff",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=11.jpg",
+   "flNm": "11.jpg",
+   "alt": "이미지: 11",
+   "bytes": 298269,
+   "sha256": "9f55e4adb3de6ef8fa3d7dc3bf245436459cc4dcb5dad7e386cf921977c8343f",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=12.jpg",
+   "flNm": "12.jpg",
+   "alt": "이미지: 12",
+   "bytes": 253291,
+   "sha256": "caadf9143ec126c385b24c3eeb186a1b546044a83cdd2b643bf188889942cd39",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=13.jpg",
+   "flNm": "13.jpg",
+   "alt": "이미지: 13",
+   "bytes": 162584,
+   "sha256": "86b6b26ad5f54548fd9a64886d7bb2a162df3226a2d1afd02a968d629b302bcd",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=14.jpg",
+   "flNm": "14.jpg",
+   "alt": "이미지: 14",
+   "bytes": 91383,
+   "sha256": "08d8e2982942e6d29cf2b308cd3fe09a42b529eac4a0c54af7294e9c9c7530c1",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=15.jpg",
+   "flNm": "15.jpg",
+   "alt": "이미지: 15",
+   "bytes": 126746,
+   "sha256": "bcdb0b4d2ff3a67ba9fd98c22875904227e968da838b020661a6d5654721db16",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=16.jpg",
+   "flNm": "16.jpg",
+   "alt": "이미지: 16",
+   "bytes": 144236,
+   "sha256": "94c069f811f271e43e6ed7bb5b788e9ad8cd91be020541ad4ce48ec5b5cbaaef",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=17.jpg",
+   "flNm": "17.jpg",
+   "alt": "이미지: 17",
+   "bytes": 101841,
+   "sha256": "265ae383dc14f1c08690acb643951a10874cbe1071ef6524f671e62656daa678",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=18.jpg",
+   "flNm": "18.jpg",
+   "alt": "이미지: 18",
+   "bytes": 101363,
+   "sha256": "84c53ea450f319fdfad564de43ba46dfde1efe08168fed6d8e9a9f2a1557e829",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149827&flNm=19.jpg",
+   "flNm": "19.jpg",
+   "alt": "이미지: 19",
+   "bytes": 55707,
+   "sha256": "ed1c35ad9ded8e56eae6807f38af434f276c62bdc434f869337349cf1582b464",
+   "width": 1653,
+   "height": 2337
+  }
+ ],
+ "folder": "data/charter/007810_코리아써키트/20260319_11149827",
+ "fetched_at": "2026-11-16T12:31:56",
+ "used_by_rcept_no": [
+  "20260319000865"
+ ]
+}

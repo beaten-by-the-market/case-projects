@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260318001158",
+ "corp_code": "00163761",
+ "corp_name": "한창제지",
+ "stock_code": "009460",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260318",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001158",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1939,
+ "charter_amend_txt": "data/agm/009460_한창제지/20260318_20260318001158/정관의변경.txt",
+ "main_xml": "20260318001158.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260318001158.xml",
+   "bytes": 203458,
+   "sha256": "67235f5000e7a241ff268e59feb9bf3eb2a172a8695e13fcd62657758cea04b3"
+  }
+ ],
+ "folder": "data/agm/009460_한창제지/20260318_20260318001158",
+ "fetched_at": "2026-11-16T12:59:30"
+}

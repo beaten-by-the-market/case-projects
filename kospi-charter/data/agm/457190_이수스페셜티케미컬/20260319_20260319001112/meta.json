@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260319001112",
+ "corp_code": "01762569",
+ "corp_name": "이수스페셜티케미컬",
+ "stock_code": "457190",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001112",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3833,
+ "charter_amend_txt": "data/agm/457190_이수스페셜티케미컬/20260319_20260319001112/정관의변경.txt",
+ "main_xml": "20260319001112.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260319001112.xml",
+   "bytes": 434291,
+   "sha256": "3344a816ab96103020534813d80449fff64052ecce96c2b3f5a2a8b3c8afaf4c"
+  }
+ ],
+ "folder": "data/agm/457190_이수스페셜티케미컬/20260319_20260319001112",
+ "fetched_at": "2026-11-16T12:59:38"
+}

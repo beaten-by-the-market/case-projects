@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260902000323",
+ "corp_code": "00231372",
+ "corp_name": "롯데관광개발",
+ "stock_code": "032350",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260902",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902000323",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260902000323.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260902000323.xml",
+   "bytes": 70205,
+   "sha256": "a9e84d08594123df0be627a13c6fdf709424aadeab2cd28ae35c4a55723a6046"
+  }
+ ],
+ "folder": "data/agm/032350_롯데관광개발/20260902_20260902000323",
+ "fetched_at": "2026-11-16T13:01:39"
+}

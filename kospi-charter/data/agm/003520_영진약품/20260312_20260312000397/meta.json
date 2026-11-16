@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260312000397",
+ "corp_code": "00141149",
+ "corp_name": "영진약품",
+ "stock_code": "003520",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260312",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000397",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2329,
+ "charter_amend_txt": "data/agm/003520_영진약품/20260312_20260312000397/정관의변경.txt",
+ "main_xml": "20260312000397.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260312000397.xml",
+   "bytes": 538561,
+   "sha256": "06a0b05bd16c2d6551d803e380e72af62ca8074c13fa814504dfdf6ed52dab3a"
+  }
+ ],
+ "folder": "data/agm/003520_영진약품/20260312_20260312000397",
+ "fetched_at": "2026-11-16T12:59:17"
+}

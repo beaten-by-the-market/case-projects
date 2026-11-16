@@ -1,0 +1,24 @@
+{
+ "corp_code": "00149655",
+ "corp_name": "삼성물산",
+ "stock_code": "028260",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312000856",
+ "dcmNo": "11114915",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000856&dcmNo=11114915",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000856&dcmNo=11114915&eleId=1&offset=595&length=44134&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15671,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/028260_삼성물산/20260312_11114915",
+ "fetched_at": "2026-11-16T13:10:25",
+ "used_by_rcept_no": [
+  "20260312000856"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260907000187",
+ "corp_code": "00116824",
+ "corp_name": "동아제약",
+ "stock_code": "000640",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260907",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907000187",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1041,
+ "charter_amend_txt": "data/agm/000640_동아제약/20260907_20260907000187/정관의변경.txt",
+ "main_xml": "20260907000187.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260907000187.xml",
+   "bytes": 82637,
+   "sha256": "02cb49eeecc013f8fad87def46c60e945a4808c3842deffbe91614d8914b7efe"
+  }
+ ],
+ "folder": "data/agm/000640_동아제약/20260907_20260907000187",
+ "fetched_at": "2026-11-16T13:01:40"
+}

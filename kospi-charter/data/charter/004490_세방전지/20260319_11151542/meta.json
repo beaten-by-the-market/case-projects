@@ -1,0 +1,24 @@
+{
+ "corp_code": "00133858",
+ "corp_name": "세방전지",
+ "stock_code": "004490",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001105",
+ "dcmNo": "11151542",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001105&dcmNo=11151542",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001105&dcmNo=11151542&eleId=1&offset=595&length=31381&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14775,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/004490_세방전지/20260319_11151542",
+ "fetched_at": "2026-11-16T12:25:35",
+ "used_by_rcept_no": [
+  "20260319001105"
+ ]
+}

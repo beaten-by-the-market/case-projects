@@ -1,0 +1,24 @@
+{
+ "corp_code": "01310269",
+ "corp_name": "IPARK현대산업개발",
+ "stock_code": "294870",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001249",
+ "dcmNo": "11141210",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001249&dcmNo=11141210",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001249&dcmNo=11141210&eleId=1&offset=599&length=31033&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15843,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/294870_IPARK현대산업개발/20260318_11141210",
+ "fetched_at": "2026-11-16T13:38:35",
+ "used_by_rcept_no": [
+  "20260318001249"
+ ]
+}

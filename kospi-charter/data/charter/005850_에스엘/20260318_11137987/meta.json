@@ -1,0 +1,24 @@
+{
+ "corp_code": "00125521",
+ "corp_name": "에스엘",
+ "stock_code": "005850",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000781",
+ "dcmNo": "11137987",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000781&dcmNo=11137987",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000781&dcmNo=11137987&eleId=1&offset=596&length=18716&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11231,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/005850_에스엘/20260318_11137987",
+ "fetched_at": "2026-11-16T12:28:14",
+ "used_by_rcept_no": [
+  "20260318000781"
+ ]
+}

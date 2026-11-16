@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260311003731",
+ "corp_code": "00135795",
+ "corp_name": "신도리코",
+ "stock_code": "029530",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260311",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003731",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1996,
+ "charter_amend_txt": "data/agm/029530_신도리코/20260311_20260311003731/정관의변경.txt",
+ "main_xml": "20260311003731.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260311003731.xml",
+   "bytes": 259751,
+   "sha256": "a880f74e1aad055a229e52d318149c97cc4f9cb11ac33d5cdf26f03703b692cc"
+  }
+ ],
+ "folder": "data/agm/029530_신도리코/20260311_20260311003731",
+ "fetched_at": "2026-11-16T12:59:16"
+}

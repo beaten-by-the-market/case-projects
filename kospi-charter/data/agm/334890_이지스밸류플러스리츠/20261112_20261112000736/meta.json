@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261112000736",
+ "corp_code": "01394377",
+ "corp_name": "이지스밸류플러스리츠",
+ "stock_code": "334890",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261112",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000736",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261112000736.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261112000736.xml",
+   "bytes": 171571,
+   "sha256": "e3787bd94f4bda0205cef9b6b855d3c0c6dcf6a9697accd7b87e3263be9cf925"
+  }
+ ],
+ "folder": "data/agm/334890_이지스밸류플러스리츠/20261112_20261112000736",
+ "fetched_at": "2026-11-16T13:02:18"
+}

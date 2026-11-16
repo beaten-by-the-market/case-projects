@@ -1,0 +1,24 @@
+{
+ "corp_code": "00160302",
+ "corp_name": "코스모화학",
+ "stock_code": "005420",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001693",
+ "dcmNo": "11145148",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001693&dcmNo=11145148",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001693&dcmNo=11145148&eleId=1&offset=596&length=29828&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13455,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/005420_코스모화학/20260318_11145148",
+ "fetched_at": "2026-11-16T12:26:48",
+ "used_by_rcept_no": [
+  "20260602000269"
+ ]
+}

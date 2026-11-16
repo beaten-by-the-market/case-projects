@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260422000392",
+ "corp_code": "00158112",
+ "corp_name": "한국수출포장공업",
+ "stock_code": "002200",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260422",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422000392",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260422000392.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260422000392.xml",
+   "bytes": 36814,
+   "sha256": "1dbbebe13214eced01d5114d4ee5a93be708a4d0292609773ed51686837d0f86"
+  }
+ ],
+ "folder": "data/agm/002200_한국수출포장공업/20260422_20260422000392",
+ "fetched_at": "2026-11-16T13:00:16"
+}

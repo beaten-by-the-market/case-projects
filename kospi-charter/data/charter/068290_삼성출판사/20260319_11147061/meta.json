@@ -1,0 +1,24 @@
+{
+ "corp_code": "00423690",
+ "corp_name": "삼성출판사",
+ "stock_code": "068290",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000408",
+ "dcmNo": "11147061",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000408&dcmNo=11147061",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000408&dcmNo=11147061&eleId=1&offset=596&length=29921&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12799,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/068290_삼성출판사/20260319_11147061",
+ "fetched_at": "2026-11-16T13:18:21",
+ "used_by_rcept_no": [
+  "20260319000408"
+ ]
+}

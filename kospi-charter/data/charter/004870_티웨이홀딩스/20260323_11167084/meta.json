@@ -1,0 +1,24 @@
+{
+ "corp_code": "00109514",
+ "corp_name": "티웨이홀딩스",
+ "stock_code": "004870",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001343",
+ "dcmNo": "11167084",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001343&dcmNo=11167084",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001343&dcmNo=11167084&eleId=1&offset=597&length=42915&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12702,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/004870_티웨이홀딩스/20260323_11167084",
+ "fetched_at": "2026-11-16T12:26:04",
+ "used_by_rcept_no": [
+  "20260323001343"
+ ]
+}

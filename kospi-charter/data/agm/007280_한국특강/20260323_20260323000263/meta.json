@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323000263",
+ "corp_code": "00124090",
+ "corp_name": "한국특강",
+ "stock_code": "007280",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000263",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4862,
+ "charter_amend_txt": "data/agm/007280_한국특강/20260323_20260323000263/정관의변경.txt",
+ "main_xml": "20260323000263.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323000263.xml",
+   "bytes": 183631,
+   "sha256": "5ba40ba57fd5799bfe2741cbd7a2420b4a73908df02136a41b21c4c569991d9f"
+  }
+ ],
+ "folder": "data/agm/007280_한국특강/20260323_20260323000263",
+ "fetched_at": "2026-11-16T12:59:45"
+}

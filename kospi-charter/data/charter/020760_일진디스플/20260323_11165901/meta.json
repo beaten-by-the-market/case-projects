@@ -1,0 +1,24 @@
+{
+ "corp_code": "00198697",
+ "corp_name": "일진디스플",
+ "stock_code": "020760",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001151",
+ "dcmNo": "11165901",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001151&dcmNo=11165901",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001151&dcmNo=11165901&eleId=1&offset=598&length=20618&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12110,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/020760_일진디스플/20260323_11165901",
+ "fetched_at": "2026-11-16T13:08:11",
+ "used_by_rcept_no": [
+  "20260323001151"
+ ]
+}

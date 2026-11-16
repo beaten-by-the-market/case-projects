@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120944&flNm=%EC%A0%95%EA%B4%80%28oci%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC%29.pdf",
+   "flNm": "정관(oci주식회사).pdf",
+   "bytes": 544035,
+   "sha256": "4b08c33c9a22793a96fcb4a1ce9946c7bfbaf4cf73020ab55cf8e5d186e3f4ce",
+   "pages": 1,
+   "text_pages": 1,
+   "ocr_pages": 0
+  }
+ ],
+ "total_chars": 241,
+ "pages": 1,
+ "text_pages": 1,
+ "ocr_pages": 0,
+ "created_at": "2026-11-16T13:48:03",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": null
+ }
+}

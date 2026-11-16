@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260805000022",
+ "corp_code": "01208885",
+ "corp_name": "경동도시가스",
+ "stock_code": "267290",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260805",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000022",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260805000022.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260805000022.xml",
+   "bytes": 55562,
+   "sha256": "a990daae0a5d223db544993f59c7a83d2ab679d4d50a5de8ab21fb221ad83281"
+  }
+ ],
+ "folder": "data/agm/267290_경동도시가스/20260805_20260805000022",
+ "fetched_at": "2026-11-16T13:01:23"
+}

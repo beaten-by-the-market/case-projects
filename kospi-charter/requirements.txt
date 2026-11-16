@@ -1,0 +1,14 @@
+requests>=2.31
+pandas>=2.2
+beautifulsoup4>=4.12
+lxml>=5.0
+openpyxl>=3.1
+pillow>=10.0
+# KIND 상장종목현황(접수일 스냅샷) — 사용자 공개 패키지
+krx-kind-data-api @ git+https://github.com/beaten-by-the-market/krx-kind-data-api.git
+# 검증 셀에서만 씀 — attach_docs() 결과가 이 파이프라인 파서와 같은지 대조
+opendartreader
+# 스캔 정관 글자 인식(s04b) — Windows 내장 OCR(Windows.Media.Ocr, 한국어 'ko' 언어팩 필요). Windows 에서만 동작
+winocr>=0.0.15
+opencv-python-headless
+numpy

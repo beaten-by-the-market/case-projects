@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260318001640",
+ "corp_code": "00145446",
+ "corp_name": "이건산업",
+ "stock_code": "008250",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001640",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 994,
+ "charter_amend_txt": "data/agm/008250_이건산업/20260319_20260318001640/정관의변경.txt",
+ "main_xml": "20260318001640.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260318001640.xml",
+   "bytes": 1231350,
+   "sha256": "3e52915c3a83bdc8cd190ee2d441c89c8e95d5cf0c717cdb129cc07ea5a14cdb"
+  }
+ ],
+ "folder": "data/agm/008250_이건산업/20260319_20260318001640",
+ "fetched_at": "2026-11-16T12:59:34"
+}

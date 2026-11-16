@@ -1,0 +1,37 @@
+{
+ "corp_code": "01762569",
+ "corp_name": "이수스페셜티케미컬",
+ "stock_code": "457190",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001027",
+ "dcmNo": "11151005",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001027&dcmNo=11151005",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001027&dcmNo=11151005&eleId=1&offset=602&length=332&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 52,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/457190_이수스페셜티케미컬/20260319_11151005",
+ "fetched_at": "2026-11-16T13:42:53",
+ "used_by_rcept_no": [
+  "20260319001027"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151005&flNm=%EC%9D%B4%EC%88%98%EC%8A%A4%ED%8E%98%EC%85%9C%ED%8B%B0%EC%BC%80%EB%AF%B8%EC%BB%AC+%EC%A0%95%EA%B4%80%282024.03.29%29.pdf",
+   "flNm": "이수스페셜티케미컬 정관(2024.03.29).pdf",
+   "bytes": 215849,
+   "sha256": "a1c99608e1d1240b18606fff75bcc99ffd450bb24c3df2eb9291e33921ac3d3f",
+   "pages": 16,
+   "text_pages": 16,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

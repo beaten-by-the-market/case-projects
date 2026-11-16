@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260318000550",
+ "corp_code": "00222532",
+ "corp_name": "LG헬로비전",
+ "stock_code": "037560",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260318",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000550",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1766,
+ "charter_amend_txt": "data/agm/037560_LG헬로비전/20260318_20260318000550/정관의변경.txt",
+ "main_xml": "20260318000550.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260318000550.xml",
+   "bytes": 1194285,
+   "sha256": "8929b6dc219d007d4cb730242d4dc9b96641a8a4b25a7becf259fccd09f85999"
+  }
+ ],
+ "folder": "data/agm/037560_LG헬로비전/20260318_20260318000550",
+ "fetched_at": "2026-11-16T12:59:25"
+}

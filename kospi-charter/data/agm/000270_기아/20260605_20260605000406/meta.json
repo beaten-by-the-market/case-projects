@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260605000406",
+ "corp_code": "00106641",
+ "corp_name": "기아",
+ "stock_code": "000270",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260605",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000406",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260605000406.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260605000406.xml",
+   "bytes": 58011,
+   "sha256": "56d81c551e429948afa03f78f039ad1bdddc1240c03b6551ac6fcacd8508e9de"
+  }
+ ],
+ "folder": "data/agm/000270_기아/20260605_20260605000406",
+ "fetched_at": "2026-11-16T13:00:35"
+}

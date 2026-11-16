@@ -1,0 +1,24 @@
+{
+ "corp_code": "00109718",
+ "corp_name": "사조대림",
+ "stock_code": "003960",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001283",
+ "dcmNo": "11141495",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001283&dcmNo=11141495",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001283&dcmNo=11141495&eleId=1&offset=595&length=20235&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12704,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/003960_사조대림/20260318_11141495",
+ "fetched_at": "2026-11-16T12:24:30",
+ "used_by_rcept_no": [
+  "20260318001283"
+ ]
+}

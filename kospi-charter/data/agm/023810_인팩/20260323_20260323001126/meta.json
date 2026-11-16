@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323001126",
+ "corp_code": "00180795",
+ "corp_name": "인팩",
+ "stock_code": "023810",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001126",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1206,
+ "charter_amend_txt": "data/agm/023810_인팩/20260323_20260323001126/정관의변경.txt",
+ "main_xml": "20260323001126.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323001126.xml",
+   "bytes": 1253301,
+   "sha256": "46082bdfab2d0c9a307946abeb79aaa4221e3a2baf34418c42fdb7e865bf8f6c"
+  }
+ ],
+ "folder": "data/agm/023810_인팩/20260323_20260323001126",
+ "fetched_at": "2026-11-16T12:59:50"
+}

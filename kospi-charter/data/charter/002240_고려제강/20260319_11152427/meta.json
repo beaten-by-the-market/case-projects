@@ -1,0 +1,175 @@
+{
+ "corp_code": "00103006",
+ "corp_name": "고려제강",
+ "stock_code": "002240",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001226",
+ "dcmNo": "11152427",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001226&dcmNo=11152427",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001226&dcmNo=11152427&eleId=1&offset=595&length=2447&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 15,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_01.jpg",
+   "flNm": "고려제강정관_01.jpg",
+   "alt": "이미지: 고려제강정관_01",
+   "bytes": 255154,
+   "sha256": "dd47e09294d1a5c33a5e21e7331c1f03d1140c23d31c07e935f197e0447be6ab",
+   "width": 3251,
+   "height": 4593
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_02.jpg",
+   "flNm": "고려제강정관_02.jpg",
+   "alt": "이미지: 고려제강정관_02",
+   "bytes": 271464,
+   "sha256": "ec82b06514a847353b3a9bf29ee98d609dc4bfcf84a5e90376ffba6a200245b1",
+   "width": 2632,
+   "height": 3718
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_03.jpg",
+   "flNm": "고려제강정관_03.jpg",
+   "alt": "이미지: 고려제강정관_03",
+   "bytes": 297846,
+   "sha256": "f36252cdee0ec8194ede66ab015cedee74b81946c08daf656d778745793bc415",
+   "width": 2368,
+   "height": 3345
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_04.jpg",
+   "flNm": "고려제강정관_04.jpg",
+   "alt": "이미지: 고려제강정관_04",
+   "bytes": 267005,
+   "sha256": "bb7c879c27d4c2dd01b11646461f3e45c7a72b4815336bad1b3ca80f580cb3c0",
+   "width": 2131,
+   "height": 3010
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_05.jpg",
+   "flNm": "고려제강정관_05.jpg",
+   "alt": "이미지: 고려제강정관_05",
+   "bytes": 267884,
+   "sha256": "8c670696e091a51230aba80843120d1b5595470de2cfb51b37216a35180b8949",
+   "width": 2131,
+   "height": 3010
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_06.jpg",
+   "flNm": "고려제강정관_06.jpg",
+   "alt": "이미지: 고려제강정관_06",
+   "bytes": 304857,
+   "sha256": "dfb0c5cc47a8876dd8e06be9331edf2694c1828dea6ba6f64bb6524a8f5f0ed6",
+   "width": 2368,
+   "height": 3345
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_07.jpg",
+   "flNm": "고려제강정관_07.jpg",
+   "alt": "이미지: 고려제강정관_07",
+   "bytes": 292005,
+   "sha256": "e0d720cd2520b5b3fa1fb5ce37acc6c8178d11f03ff6253a32cbb49afa4638d5",
+   "width": 2632,
+   "height": 3718
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_08.jpg",
+   "flNm": "고려제강정관_08.jpg",
+   "alt": "이미지: 고려제강정관_08",
+   "bytes": 300385,
+   "sha256": "f7851fbece152b1051b7d9b365b5c4ac35d674af171eb50ca22730f8a6710fea",
+   "width": 2368,
+   "height": 3345
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_09.jpg",
+   "flNm": "고려제강정관_09.jpg",
+   "alt": "이미지: 고려제강정관_09",
+   "bytes": 278226,
+   "sha256": "09cb9479be6f71f8b08b075533a3cf86ad01a5aec88148a71863e57f4779b516",
+   "width": 2131,
+   "height": 3010
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "고려제강정관_10.jpg",
+   "alt": "이미지: 고려제강정관_10",
+   "bytes": 282063,
+   "sha256": "0326fd5c9f73d325df1bfde923fe7628d4b1c8084c44c83f7f2f10a42310c1bd",
+   "width": 2131,
+   "height": 3010
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "고려제강정관_11.jpg",
+   "alt": "이미지: 고려제강정관_11",
+   "bytes": 268920,
+   "sha256": "2386569d12d8eec4d5ed39d51fff87ef9e581bfaa54a41cc0dc14a48d2fe4927",
+   "width": 2131,
+   "height": 3010
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "고려제강정관_12.jpg",
+   "alt": "이미지: 고려제강정관_12",
+   "bytes": 285468,
+   "sha256": "125c4649f8c2e40227683ac9af1068ec305f9da5339186c8aa69700a6f400203",
+   "width": 3251,
+   "height": 4593
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "고려제강정관_13.jpg",
+   "alt": "이미지: 고려제강정관_13",
+   "bytes": 294850,
+   "sha256": "711775046ca9f94ea63b3206fee85e95e4f385342ca7a15d3fcfa040024918b0",
+   "width": 2368,
+   "height": 3345
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "고려제강정관_14.jpg",
+   "alt": "이미지: 고려제강정관_14",
+   "bytes": 272594,
+   "sha256": "5bed302564e20e828799b8ba3fd743daa89000e822b96cafec124fc97f3dcca1",
+   "width": 2368,
+   "height": 3345
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152427&flNm=%EA%B3%A0%EB%A0%A4%EC%A0%9C%EA%B0%95%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "고려제강정관_15.jpg",
+   "alt": "이미지: 고려제강정관_15",
+   "bytes": 254309,
+   "sha256": "d25f9bf36bf4d7fbcf36905d00f70cfcef24cee8226ce69526bee76a77a52b97",
+   "width": 3251,
+   "height": 4593
+  }
+ ],
+ "folder": "data/charter/002240_고려제강/20260319_11152427",
+ "fetched_at": "2026-11-16T12:19:25",
+ "used_by_rcept_no": [
+  "20260319001226"
+ ]
+}

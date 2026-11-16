@@ -1,0 +1,265 @@
+{
+ "corp_code": "00140177",
+ "corp_name": "GS리테일",
+ "stock_code": "007070",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311004487",
+ "dcmNo": "11111006",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004487&dcmNo=11111006",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004487&dcmNo=11111006&eleId=1&offset=597&length=3848&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 24,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "(주)gs리테일 정관_1.jpg",
+   "alt": "이미지: (주)gs리테일 정관_1",
+   "bytes": 20514,
+   "sha256": "c115e75ffb50c5ca49d8ed120e8d4839dc25bfc69075658f42f4af0518818faa",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "(주)gs리테일 정관_2.jpg",
+   "alt": "이미지: (주)gs리테일 정관_2",
+   "bytes": 84296,
+   "sha256": "e0ac53ff854dba2290d0271e4898f3599d07b81eedb1f48805aa7c35bb166124",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "(주)gs리테일 정관_3.jpg",
+   "alt": "이미지: (주)gs리테일 정관_3",
+   "bytes": 26884,
+   "sha256": "d454cd704d58529c3f1a92d0a41e86300149a174f86a41d40e9b7ea8d43295dd",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "(주)gs리테일 정관_4.jpg",
+   "alt": "이미지: (주)gs리테일 정관_4",
+   "bytes": 101468,
+   "sha256": "1d5eeecf6cf4ba0948232b104522cf7989b3e9f50f68dece37c4cbd3e277a9e1",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "(주)gs리테일 정관_5.jpg",
+   "alt": "이미지: (주)gs리테일 정관_5",
+   "bytes": 115758,
+   "sha256": "59c999e8268d8b08d4d5163447b62736cb87959c6964f52a065420efa97b841b",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "(주)gs리테일 정관_6.jpg",
+   "alt": "이미지: (주)gs리테일 정관_6",
+   "bytes": 96718,
+   "sha256": "34be509de541c62af956f234f7538ad895d270ebdeca7411df1638865a97d1bf",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "(주)gs리테일 정관_7.jpg",
+   "alt": "이미지: (주)gs리테일 정관_7",
+   "bytes": 145122,
+   "sha256": "60dd10f8c180786e1875d4b10f2ba4bc50175e73de81d05c255971014260c0c0",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "(주)gs리테일 정관_8.jpg",
+   "alt": "이미지: (주)gs리테일 정관_8",
+   "bytes": 166374,
+   "sha256": "316a745d8737ec0555e3327f683d00c3355542c14bbbedab9d00651356847117",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "(주)gs리테일 정관_9.jpg",
+   "alt": "이미지: (주)gs리테일 정관_9",
+   "bytes": 149929,
+   "sha256": "f6278dfaa06d7bbf178c10e8d7717ffae1a520e58aabc036aace9c0fc54b62fb",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "(주)gs리테일 정관_10.jpg",
+   "alt": "이미지: (주)gs리테일 정관_10",
+   "bytes": 169644,
+   "sha256": "35e5bbef6ac7711d327fc7840b6894dfa9c2114a4115ba8e267c7b8cb24b9b2a",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "(주)gs리테일 정관_11.jpg",
+   "alt": "이미지: (주)gs리테일 정관_11",
+   "bytes": 140172,
+   "sha256": "13b8e3626d3a4f9f0dd0674d4699d5c4231c4ccae1e209c0daa64c5fdf8fe350",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "(주)gs리테일 정관_12.jpg",
+   "alt": "이미지: (주)gs리테일 정관_12",
+   "bytes": 144179,
+   "sha256": "d068d01d7039287b777cd67d108bd2cf811c85f51579714396484e6518cddbe4",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "(주)gs리테일 정관_13.jpg",
+   "alt": "이미지: (주)gs리테일 정관_13",
+   "bytes": 142184,
+   "sha256": "2c4b82ed0d66aeca2812849b469f3a49970c7c10a6419510b13efda736a6ca26",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "(주)gs리테일 정관_14.jpg",
+   "alt": "이미지: (주)gs리테일 정관_14",
+   "bytes": 123624,
+   "sha256": "730bfa4bd0117983eb32cc8ed7e0edbbfd826edb39e9655de1e85399662d3c34",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "(주)gs리테일 정관_15.jpg",
+   "alt": "이미지: (주)gs리테일 정관_15",
+   "bytes": 125971,
+   "sha256": "3da098d4b836718cd64912b923dccb40e9abe9b8ae57181e07a749161f0a3f29",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "(주)gs리테일 정관_16.jpg",
+   "alt": "이미지: (주)gs리테일 정관_16",
+   "bytes": 138591,
+   "sha256": "90f9723bc675527944a4142236223f9cfeaeb40b9c8d6f989290fbc9935a166e",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "(주)gs리테일 정관_17.jpg",
+   "alt": "이미지: (주)gs리테일 정관_17",
+   "bytes": 126549,
+   "sha256": "1f57d45143c710295bd5126613398bb3db760965cd60c1bebb7f0fdf5ab80ed4",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_18.jpg",
+   "flNm": "(주)gs리테일 정관_18.jpg",
+   "alt": "이미지: (주)gs리테일 정관_18",
+   "bytes": 163145,
+   "sha256": "347547b25ca45320d0e226afeb51bda2bad1915b613e190dbce52e2ac7c094f9",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_19.jpg",
+   "flNm": "(주)gs리테일 정관_19.jpg",
+   "alt": "이미지: (주)gs리테일 정관_19",
+   "bytes": 140073,
+   "sha256": "0fa1b482d9b50b64d4f61c8c5117c081ad4e62dfae386018beb2911b51477008",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_20.jpg",
+   "flNm": "(주)gs리테일 정관_20.jpg",
+   "alt": "이미지: (주)gs리테일 정관_20",
+   "bytes": 117855,
+   "sha256": "0bc816d47bb565beb5078c40143ad4594255b4997b27c527b66839d95983feae",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_21.jpg",
+   "flNm": "(주)gs리테일 정관_21.jpg",
+   "alt": "이미지: (주)gs리테일 정관_21",
+   "bytes": 64580,
+   "sha256": "09928614f55e9796fbf42b98f54fea76162996eafbfcb54fb56b92260fe6ecf4",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_22.jpg",
+   "flNm": "(주)gs리테일 정관_22.jpg",
+   "alt": "이미지: (주)gs리테일 정관_22",
+   "bytes": 68461,
+   "sha256": "47eee0a6fa35a9c3c01a0c21ea3356cc49cc9391702d281de14990cac70a905a",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_23.jpg",
+   "flNm": "(주)gs리테일 정관_23.jpg",
+   "alt": "이미지: (주)gs리테일 정관_23",
+   "bytes": 100905,
+   "sha256": "5bb4792ac3930933166127e71397bf38b8e046cad9a11604b170ab48bfa88f49",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/024.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11111006&flNm=%28%EC%A3%BC%29gs%EB%A6%AC%ED%85%8C%EC%9D%BC+%EC%A0%95%EA%B4%80_24.jpg",
+   "flNm": "(주)gs리테일 정관_24.jpg",
+   "alt": "이미지: (주)gs리테일 정관_24",
+   "bytes": 60537,
+   "sha256": "82ad365e6f26ad8344af3d0327579668c14c146d13a3e74d06accc021f73bb27",
+   "width": 794,
+   "height": 1123
+  }
+ ],
+ "folder": "data/charter/007070_GS리테일/20260311_11111006",
+ "fetched_at": "2026-11-16T12:31:04",
+ "used_by_rcept_no": [
+  "20260311004487"
+ ]
+}

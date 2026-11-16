@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261111000251",
+ "corp_code": "01714997",
+ "corp_name": "신한글로벌액티브리츠",
+ "stock_code": "481850",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261111",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000251",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261111000251.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261111000251.xml",
+   "bytes": 61497,
+   "sha256": "be6f4ee058a5dd7efe793586af3798f2466ce7ee95bf2a88aee572899d6a6e2e"
+  }
+ ],
+ "folder": "data/agm/481850_신한글로벌액티브리츠/20261111_20261111000251",
+ "fetched_at": "2026-11-16T13:02:17"
+}

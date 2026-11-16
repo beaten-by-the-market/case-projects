@@ -1,0 +1,37 @@
+{
+ "corp_code": "00140168",
+ "corp_name": "HS애드",
+ "stock_code": "035000",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312000821",
+ "dcmNo": "11114741",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000821&dcmNo=11114741",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000821&dcmNo=11114741&eleId=1&offset=600&length=328&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 50,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/035000_HS애드/20260312_11114741",
+ "fetched_at": "2026-11-16T13:12:09",
+ "used_by_rcept_no": [
+  "20260413002635"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114741&flNm=%28%EC%A3%BC%29%EC%97%90%EC%9D%B4%EC%B9%98%EC%97%90%EC%8A%A4%EC%95%A0%EB%93%9C%EC%A0%95%EA%B4%80%2820250319%29.pdf",
+   "flNm": "(주)에이치에스애드정관(20250319).pdf",
+   "bytes": 642504,
+   "sha256": "5c446514ac84513c04ce1f93d8dfcd4f507e90203f86523e52b1b2bff058f5e2",
+   "pages": 16,
+   "text_pages": 16,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

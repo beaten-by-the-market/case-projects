@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260513000760",
+ "corp_code": "00159209",
+ "corp_name": "한전기술",
+ "stock_code": "052690",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260513",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000760",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260513000760.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260513000760.xml",
+   "bytes": 59767,
+   "sha256": "60567de63730dc309ff3182e161c812c86988d2a057b27900e8a465dd0cbd74d"
+  }
+ ],
+ "folder": "data/agm/052690_한전기술/20260513_20260513000760",
+ "fetched_at": "2026-11-16T13:00:24"
+}

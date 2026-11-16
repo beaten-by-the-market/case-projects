@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260512000376",
+ "corp_code": "00372882",
+ "corp_name": "KTcs",
+ "stock_code": "058850",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260512",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512000376",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260512000376.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260512000376.xml",
+   "bytes": 98688,
+   "sha256": "91771b31850690f5a4f93a84fc1b1e37796810ea02a9f17a45b2895fe16b2a31"
+  }
+ ],
+ "folder": "data/agm/058850_KTcs/20260512_20260512000376",
+ "fetched_at": "2026-11-16T13:00:23"
+}

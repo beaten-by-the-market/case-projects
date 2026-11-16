@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260316001356",
+ "corp_code": "00158963",
+ "corp_name": "유나이티드",
+ "stock_code": "033270",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260316",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001356",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 18020,
+ "charter_amend_txt": "data/agm/033270_유나이티드/20260316_20260316001356/정관의변경.txt",
+ "main_xml": "20260316001356.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260316001356.xml",
+   "bytes": 207190,
+   "sha256": "f554867ea981175234334964d4ecf34ee7d61280796e7471061e62c4e570028f"
+  }
+ ],
+ "folder": "data/agm/033270_유나이티드/20260316_20260316001356",
+ "fetched_at": "2026-11-16T12:59:21"
+}

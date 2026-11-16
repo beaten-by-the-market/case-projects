@@ -1,0 +1,24 @@
+{
+ "corp_code": "00129989",
+ "corp_name": "코스모신소재",
+ "stock_code": "005070",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001442",
+ "dcmNo": "11128990",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001442&dcmNo=11128990",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001442&dcmNo=11128990&eleId=1&offset=598&length=23544&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12651,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/005070_코스모신소재/20260316_11128990",
+ "fetched_at": "2026-11-16T12:26:32",
+ "used_by_rcept_no": [
+  "20260602000342"
+ ]
+}

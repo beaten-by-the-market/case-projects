@@ -1,0 +1,24 @@
+{
+ "corp_code": "00154055",
+ "corp_name": "태원물산",
+ "stock_code": "001420",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000688",
+ "dcmNo": "11148635",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000688&dcmNo=11148635",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000688&dcmNo=11148635&eleId=1&offset=595&length=16625&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9947,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/001420_태원물산/20260319_11148635",
+ "fetched_at": "2026-11-16T12:16:18",
+ "used_by_rcept_no": [
+  "20260327001530"
+ ]
+}

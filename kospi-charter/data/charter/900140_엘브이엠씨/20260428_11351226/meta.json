@@ -1,0 +1,24 @@
+{
+ "corp_code": "00838500",
+ "corp_name": "엘브이엠씨",
+ "stock_code": "900140",
+ "att_title": "2026.04.28 정관",
+ "att_date": "20260428",
+ "rcpNo": "20260428000679",
+ "dcmNo": "11351226",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428000679&dcmNo=11351226",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260428000679&dcmNo=11351226&eleId=1&offset=596&length=105978&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 39170,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/900140_엘브이엠씨/20260428_11351226",
+ "fetched_at": "2026-11-16T13:44:34",
+ "used_by_rcept_no": [
+  "20260428000679"
+ ]
+}

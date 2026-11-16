@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261030000138",
+ "corp_code": "01180118",
+ "corp_name": "코람코더원리츠",
+ "stock_code": "417310",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261030",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000138",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261030000138.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261030000138.xml",
+   "bytes": 72260,
+   "sha256": "77ed126c32845858b670c8ce9cbd16a16b28ac0f4764fbbef42a2c86fd25b551"
+  }
+ ],
+ "folder": "data/agm/417310_코람코더원리츠/20261030_20261030000138",
+ "fetched_at": "2026-11-16T13:01:59"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00160047",
+ "corp_name": "한국앤컴퍼니",
+ "stock_code": "000240",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000997",
+ "dcmNo": "11139361",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000997&dcmNo=11139361",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000997&dcmNo=11139361&eleId=1&offset=597&length=33595&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15948,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/000240_한국앤컴퍼니/20260318_11139361",
+ "fetched_at": "2026-11-16T12:12:14",
+ "used_by_rcept_no": [
+  "20260318000997"
+ ]
+}

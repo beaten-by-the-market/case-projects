@@ -1,0 +1,24 @@
+{
+ "corp_code": "00186559",
+ "corp_name": "아이티센씨티에스",
+ "stock_code": "031820",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001544",
+ "dcmNo": "11168468",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001544&dcmNo=11168468",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001544&dcmNo=11168468&eleId=1&offset=596&length=36208&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14718,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/031820_아이티센씨티에스/20260323_11168468",
+ "fetched_at": "2026-11-16T13:11:10",
+ "used_by_rcept_no": [
+  "20260323001544"
+ ]
+}

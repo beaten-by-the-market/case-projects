@@ -1,0 +1,37 @@
+{
+ "corp_code": "00583424",
+ "corp_name": "아모레퍼시픽",
+ "stock_code": "090430",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000785",
+ "dcmNo": "11138022",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000785&dcmNo=11138022",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000785&dcmNo=11138022&eleId=1&offset=597&length=350&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 57,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/090430_아모레퍼시픽/20260318_11138022",
+ "fetched_at": "2026-11-16T13:24:08",
+ "used_by_rcept_no": [
+  "20260318000785"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138022&flNm=%EC%95%84%EB%AA%A8%EB%A0%88%ED%8D%BC%EC%8B%9C%ED%94%BD+%EC%A0%95%EA%B4%80+%282024.03.15%29.pdf",
+   "flNm": "아모레퍼시픽 정관 (2024.03.15).pdf",
+   "bytes": 219582,
+   "sha256": "bb88ce4e144853b0079e82ef45fa9613ff2f88247028ec73e7d4ed1d45f19050",
+   "pages": 16,
+   "text_pages": 16,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

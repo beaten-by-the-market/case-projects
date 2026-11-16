@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260403000446",
+ "corp_code": "00105280",
+ "corp_name": "현대지에프홀딩스",
+ "stock_code": "005440",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260403",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260403000446",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260403000446.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260403000446.xml",
+   "bytes": 210044,
+   "sha256": "2a78b248bd4107ef5394c172eabb93db98128ad0b2442b90a82c8738309215c1"
+  }
+ ],
+ "folder": "data/agm/005440_현대지에프홀딩스/20260403_20260403000446",
+ "fetched_at": "2026-11-16T12:59:57"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00347734",
+ "corp_name": "진양화학",
+ "stock_code": "051630",
+ "att_title": "2026.03.03 정관",
+ "att_date": "20260303",
+ "rcpNo": "20260303003003",
+ "dcmNo": "11086017",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260303003003&dcmNo=11086017",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260303003003&dcmNo=11086017&eleId=1&offset=595&length=17415&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10364,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/051630_진양화학/20260303_11086017",
+ "fetched_at": "2026-11-16T13:15:50",
+ "used_by_rcept_no": [
+  "20260303003003"
+ ]
+}

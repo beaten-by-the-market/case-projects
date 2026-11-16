@@ -1,0 +1,6424 @@
+{
+ "20260304000926": {
+  "rcept_no": "20260304000926",
+  "corp_code": "00134963",
+  "corp_name": "송원산업",
+  "stock_code": "004430",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260304",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260304000926",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2469,
+  "charter_amend_txt": "data/agm/004430_송원산업/20260304_20260304000926/정관의변경.txt",
+  "main_xml": "20260304000926.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260304000926.xml",
+    "bytes": 877554,
+    "sha256": "ed3b74a1af578cb8ac58ddee1030363de478abbff62484933fe4039494c59e75"
+   }
+  ],
+  "folder": "data/agm/004430_송원산업/20260304_20260304000926",
+  "fetched_at": "2026-11-16T12:59:15"
+ },
+ "20260310002892": {
+  "rcept_no": "20260310002892",
+  "corp_code": "00435312",
+  "corp_name": "하이스틸",
+  "stock_code": "071090",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260310",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002892",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2075,
+  "charter_amend_txt": "data/agm/071090_하이스틸/20260310_20260310002892/정관의변경.txt",
+  "main_xml": "20260310002892.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260310002892.xml",
+    "bytes": 792537,
+    "sha256": "f58fa306a95bf19aad0ac53a0aa2d2727997d5729dc0220b19afb3fd86398b40"
+   }
+  ],
+  "folder": "data/agm/071090_하이스틸/20260310_20260310002892",
+  "fetched_at": "2026-11-16T12:59:15"
+ },
+ "20260311003731": {
+  "rcept_no": "20260311003731",
+  "corp_code": "00135795",
+  "corp_name": "신도리코",
+  "stock_code": "029530",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260311",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003731",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1996,
+  "charter_amend_txt": "data/agm/029530_신도리코/20260311_20260311003731/정관의변경.txt",
+  "main_xml": "20260311003731.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260311003731.xml",
+    "bytes": 259751,
+    "sha256": "a880f74e1aad055a229e52d318149c97cc4f9cb11ac33d5cdf26f03703b692cc"
+   }
+  ],
+  "folder": "data/agm/029530_신도리코/20260311_20260311003731",
+  "fetched_at": "2026-11-16T12:59:16"
+ },
+ "20260311004498": {
+  "rcept_no": "20260311004498",
+  "corp_code": "00163196",
+  "corp_name": "한일철강",
+  "stock_code": "002220",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260311",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004498",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2001,
+  "charter_amend_txt": "data/agm/002220_한일철강/20260311_20260311004498/정관의변경.txt",
+  "main_xml": "20260311004498.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260311004498.xml",
+    "bytes": 1320551,
+    "sha256": "090a54dea069b5228d24a4adf24620696f569b58c9a5097779b2e7466384ec85"
+   }
+  ],
+  "folder": "data/agm/002220_한일철강/20260311_20260311004498",
+  "fetched_at": "2026-11-16T12:59:17"
+ },
+ "20260312000397": {
+  "rcept_no": "20260312000397",
+  "corp_code": "00141149",
+  "corp_name": "영진약품",
+  "stock_code": "003520",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260312",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000397",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2329,
+  "charter_amend_txt": "data/agm/003520_영진약품/20260312_20260312000397/정관의변경.txt",
+  "main_xml": "20260312000397.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260312000397.xml",
+    "bytes": 538561,
+    "sha256": "06a0b05bd16c2d6551d803e380e72af62ca8074c13fa814504dfdf6ed52dab3a"
+   }
+  ],
+  "folder": "data/agm/003520_영진약품/20260312_20260312000397",
+  "fetched_at": "2026-11-16T12:59:17"
+ },
+ "20260312000987": {
+  "rcept_no": "20260312000987",
+  "corp_code": "00126380",
+  "corp_name": "삼성전자",
+  "stock_code": "005930",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260312",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000987",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 36172,
+  "charter_amend_txt": "data/agm/005930_삼성전자/20260312_20260312000987/정관의변경.txt",
+  "main_xml": "20260312000987.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260312000987.xml",
+    "bytes": 505592,
+    "sha256": "808c421a37290f118de22dd0006f37f3049b09181f99310545b880a68b882078"
+   }
+  ],
+  "folder": "data/agm/005930_삼성전자/20260312_20260312000987",
+  "fetched_at": "2026-11-16T12:59:17"
+ },
+ "20260313000421": {
+  "rcept_no": "20260313000421",
+  "corp_code": "01167056",
+  "corp_name": "샘표식품",
+  "stock_code": "248170",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260313",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000421",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1585,
+  "charter_amend_txt": "data/agm/248170_샘표식품/20260313_20260313000421/정관의변경.txt",
+  "main_xml": "20260313000421.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260313000421.xml",
+    "bytes": 133954,
+    "sha256": "1ef36cf6ffc5f3efce786cd2d2ee88ca301ad48e3160ade8bb4d03751946fde6"
+   }
+  ],
+  "folder": "data/agm/248170_샘표식품/20260313_20260313000421",
+  "fetched_at": "2026-11-16T12:59:18"
+ },
+ "20260313001369": {
+  "rcept_no": "20260313001369",
+  "corp_code": "00173102",
+  "corp_name": "모나리자",
+  "stock_code": "012690",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260313",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001369",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1351,
+  "charter_amend_txt": "data/agm/012690_모나리자/20260313_20260313001369/정관의변경.txt",
+  "main_xml": "20260313001369.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260313001369.xml",
+    "bytes": 172738,
+    "sha256": "b1d047f321f41e22a67ba2a8648e85db53fd5316168f9c720add9ddc8971fb51"
+   }
+  ],
+  "folder": "data/agm/012690_모나리자/20260313_20260313001369",
+  "fetched_at": "2026-11-16T12:59:18"
+ },
+ "20260316000579": {
+  "rcept_no": "20260316000579",
+  "corp_code": "00111722",
+  "corp_name": "미래에셋증권",
+  "stock_code": "006800",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260316",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000579",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 12706,
+  "charter_amend_txt": "data/agm/006800_미래에셋증권/20260316_20260316000579/정관의변경.txt",
+  "main_xml": "20260316000579.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260316000579.xml",
+    "bytes": 560414,
+    "sha256": "6b9b310069029d547a34ae99233144f91ca0ea7e41de8bcf8465c6f330017b95"
+   }
+  ],
+  "folder": "data/agm/006800_미래에셋증권/20260316_20260316000579",
+  "fetched_at": "2026-11-16T12:59:19"
+ },
+ "20260316000840": {
+  "rcept_no": "20260316000840",
+  "corp_code": "00155124",
+  "corp_name": "평화홀딩스",
+  "stock_code": "010770",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260316",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000840",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2443,
+  "charter_amend_txt": "data/agm/010770_평화홀딩스/20260316_20260316000840/정관의변경.txt",
+  "main_xml": "20260316000840.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260316000840.xml",
+    "bytes": 419407,
+    "sha256": "dddafe55f291780544ebb24ec1740bf1a7ff5730b51887c59db5064fcd8a5292"
+   }
+  ],
+  "folder": "data/agm/010770_평화홀딩스/20260316_20260316000840",
+  "fetched_at": "2026-11-16T12:59:19"
+ },
+ "20260316000946": {
+  "rcept_no": "20260316000946",
+  "corp_code": "00110893",
+  "corp_name": "대신증권",
+  "stock_code": "003540",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260316",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000946",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 4251,
+  "charter_amend_txt": "data/agm/003540_대신증권/20260316_20260316000946/정관의변경.txt",
+  "main_xml": "20260316000946.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260316000946.xml",
+    "bytes": 1118505,
+    "sha256": "ca3aeb7b241bac5f747651b5c6fa0c11db3e25314516799543bffcd85198a92a"
+   }
+  ],
+  "folder": "data/agm/003540_대신증권/20260316_20260316000946",
+  "fetched_at": "2026-11-16T12:59:20"
+ },
+ "20260316001271": {
+  "rcept_no": "20260316001271",
+  "corp_code": "00108241",
+  "corp_name": "농심",
+  "stock_code": "004370",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260316",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001271",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3536,
+  "charter_amend_txt": "data/agm/004370_농심/20260316_20260316001271/정관의변경.txt",
+  "main_xml": "20260316001271.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260316001271.xml",
+    "bytes": 120642,
+    "sha256": "0a3f90f057d24e61cd79f5164f7ec8298d5151ecfbff4c464e019d3b6a2fd48a"
+   }
+  ],
+  "folder": "data/agm/004370_농심/20260316_20260316001271",
+  "fetched_at": "2026-11-16T12:59:20"
+ },
+ "20260316001312": {
+  "rcept_no": "20260316001312",
+  "corp_code": "00160843",
+  "corp_name": "DB하이텍",
+  "stock_code": "000990",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260316",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001312",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 4050,
+  "charter_amend_txt": "data/agm/000990_DB하이텍/20260316_20260316001312/정관의변경.txt",
+  "main_xml": "20260316001312.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260316001312.xml",
+    "bytes": 895233,
+    "sha256": "970c55b86feab5b2d2991dae05a44f670792caa0f0b0ffb6bec872231b0a32c4"
+   }
+  ],
+  "folder": "data/agm/000990_DB하이텍/20260316_20260316001312",
+  "fetched_at": "2026-11-16T12:59:21"
+ },
+ "20260316001356": {
+  "rcept_no": "20260316001356",
+  "corp_code": "00158963",
+  "corp_name": "유나이티드",
+  "stock_code": "033270",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260316",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001356",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 18020,
+  "charter_amend_txt": "data/agm/033270_유나이티드/20260316_20260316001356/정관의변경.txt",
+  "main_xml": "20260316001356.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260316001356.xml",
+    "bytes": 207190,
+    "sha256": "f554867ea981175234334964d4ecf34ee7d61280796e7471061e62c4e570028f"
+   }
+  ],
+  "folder": "data/agm/033270_유나이티드/20260316_20260316001356",
+  "fetched_at": "2026-11-16T12:59:21"
+ },
+ "20260316001461": {
+  "rcept_no": "20260316001461",
+  "corp_code": "00105271",
+  "corp_name": "케이씨씨",
+  "stock_code": "002380",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260316",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001461",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3147,
+  "charter_amend_txt": "data/agm/002380_케이씨씨/20260316_20260316001461/정관의변경.txt",
+  "main_xml": "20260316001461.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260316001461.xml",
+    "bytes": 191722,
+    "sha256": "17fcec2b410d4c06debf29dac660859ea9a31a5f147065dccbac30d44f720e81"
+   }
+  ],
+  "folder": "data/agm/002380_케이씨씨/20260316_20260316001461",
+  "fetched_at": "2026-11-16T12:59:22"
+ },
+ "20260317000467": {
+  "rcept_no": "20260317000467",
+  "corp_code": "00120182",
+  "corp_name": "NH투자증권",
+  "stock_code": "005940",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260317",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000467",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 84260,
+  "charter_amend_txt": "data/agm/005940_NH투자증권/20260317_20260317000467/정관의변경.txt",
+  "main_xml": "20260317000467.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260317000467.xml",
+    "bytes": 332880,
+    "sha256": "63480752f6438d71f5912f240ef95cafa117209264558b419401b667b9e50468"
+   }
+  ],
+  "folder": "data/agm/005940_NH투자증권/20260317_20260317000467",
+  "fetched_at": "2026-11-16T12:59:22"
+ },
+ "20260317000551": {
+  "rcept_no": "20260317000551",
+  "corp_code": "00172936",
+  "corp_name": "동일산업",
+  "stock_code": "004890",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260317",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000551",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 7750,
+  "charter_amend_txt": "data/agm/004890_동일산업/20260317_20260317000551/정관의변경.txt",
+  "main_xml": "20260317000551.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260317000551.xml",
+    "bytes": 69337,
+    "sha256": "4e07e28d8f5bc403aac9473cba637b6736558c56b43b5c6b8fe7ce02e73bb122"
+   }
+  ],
+  "folder": "data/agm/004890_동일산업/20260317_20260317000551",
+  "fetched_at": "2026-11-16T12:59:23"
+ },
+ "20260318000440": {
+  "rcept_no": "20260318000440",
+  "corp_code": "01009789",
+  "corp_name": "코스맥스",
+  "stock_code": "192820",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000440",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2682,
+  "charter_amend_txt": "data/agm/192820_코스맥스/20260318_20260318000440/정관의변경.txt",
+  "main_xml": "20260318000440.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318000440.xml",
+    "bytes": 138810,
+    "sha256": "4ae627efc4c615f68d49c98048b8d9fdafe24202708a1ef9d4ac28f26c6bca0d"
+   }
+  ],
+  "folder": "data/agm/192820_코스맥스/20260318_20260318000440",
+  "fetched_at": "2026-11-16T12:59:23"
+ },
+ "20260318000502": {
+  "rcept_no": "20260318000502",
+  "corp_code": "00127167",
+  "corp_name": "삼영무역",
+  "stock_code": "002810",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000502",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2129,
+  "charter_amend_txt": "data/agm/002810_삼영무역/20260318_20260318000502/정관의변경.txt",
+  "main_xml": "20260318000502.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318000502.xml",
+    "bytes": 1052839,
+    "sha256": "84f6265b59ae826516d63736492f03243a9b855a31df4ca8138228620d8f005f"
+   }
+  ],
+  "folder": "data/agm/002810_삼영무역/20260318_20260318000502",
+  "fetched_at": "2026-11-16T12:59:24"
+ },
+ "20260318000550": {
+  "rcept_no": "20260318000550",
+  "corp_code": "00222532",
+  "corp_name": "LG헬로비전",
+  "stock_code": "037560",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000550",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1766,
+  "charter_amend_txt": "data/agm/037560_LG헬로비전/20260318_20260318000550/정관의변경.txt",
+  "main_xml": "20260318000550.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318000550.xml",
+    "bytes": 1194285,
+    "sha256": "8929b6dc219d007d4cb730242d4dc9b96641a8a4b25a7becf259fccd09f85999"
+   }
+  ],
+  "folder": "data/agm/037560_LG헬로비전/20260318_20260318000550",
+  "fetched_at": "2026-11-16T12:59:25"
+ },
+ "20260318000680": {
+  "rcept_no": "20260318000680",
+  "corp_code": "01238169",
+  "corp_name": "오리온",
+  "stock_code": "271560",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000680",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 5143,
+  "charter_amend_txt": "data/agm/271560_오리온/20260318_20260318000680/정관의변경.txt",
+  "main_xml": "20260318000680.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318000680.xml",
+    "bytes": 721832,
+    "sha256": "5ce64a1cb91c493c1ec180ebe973070f3e4ebbb57aea16608dec37f497f1f23c"
+   }
+  ],
+  "folder": "data/agm/271560_오리온/20260318_20260318000680",
+  "fetched_at": "2026-11-16T12:59:25"
+ },
+ "20260318000726": {
+  "rcept_no": "20260318000726",
+  "corp_code": "00123541",
+  "corp_name": "보해양조",
+  "stock_code": "000890",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000726",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 5495,
+  "charter_amend_txt": "data/agm/000890_보해양조/20260318_20260318000726/정관의변경.txt",
+  "main_xml": "20260318000726.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318000726.xml",
+    "bytes": 251416,
+    "sha256": "1f44b9b369a89638bc8be3678976097cb12c938c41b5c751da3114a34bdd231b"
+   }
+  ],
+  "folder": "data/agm/000890_보해양조/20260318_20260318000726",
+  "fetched_at": "2026-11-16T12:59:25"
+ },
+ "20260318000772": {
+  "rcept_no": "20260318000772",
+  "corp_code": "00136271",
+  "corp_name": "신성이엔지",
+  "stock_code": "011930",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000772",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1968,
+  "charter_amend_txt": "data/agm/011930_신성이엔지/20260318_20260318000772/정관의변경.txt",
+  "main_xml": "20260318000772.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318000772.xml",
+    "bytes": 86357,
+    "sha256": "7461ad881571ab925f2750f294140722e0854a4cc38ca1b47ea4a736dd3bdfc8"
+   }
+  ],
+  "folder": "data/agm/011930_신성이엔지/20260318_20260318000772",
+  "fetched_at": "2026-11-16T12:59:26"
+ },
+ "20260318000803": {
+  "rcept_no": "20260318000803",
+  "corp_code": "00103130",
+  "corp_name": "MDS스피어",
+  "stock_code": "009810",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000803",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2163,
+  "charter_amend_txt": "data/agm/009810_MDS스피어/20260318_20260318000803/정관의변경.txt",
+  "main_xml": "20260318000803.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318000803.xml",
+    "bytes": 368376,
+    "sha256": "b6ba65bb613c13516f93098417cbc27f5a9539153328546a3f3ddad1dabd5941"
+   }
+  ],
+  "folder": "data/agm/009810_MDS스피어/20260318_20260318000803",
+  "fetched_at": "2026-11-16T12:59:26"
+ },
+ "20260318000869": {
+  "rcept_no": "20260318000869",
+  "corp_code": "00117577",
+  "corp_name": "오리온홀딩스",
+  "stock_code": "001800",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000869",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 5594,
+  "charter_amend_txt": "data/agm/001800_오리온홀딩스/20260318_20260318000869/정관의변경.txt",
+  "main_xml": "20260318000869.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318000869.xml",
+    "bytes": 710515,
+    "sha256": "1fc2a156c03b6706cfd71b24fbe827a560956ef5f3192d9d7d56fec3dd88094f"
+   }
+  ],
+  "folder": "data/agm/001800_오리온홀딩스/20260318_20260318000869",
+  "fetched_at": "2026-11-16T12:59:27"
+ },
+ "20260318000913": {
+  "rcept_no": "20260318000913",
+  "corp_code": "00142883",
+  "corp_name": "우신시스템",
+  "stock_code": "017370",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000913",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1356,
+  "charter_amend_txt": "data/agm/017370_우신시스템/20260318_20260318000913/정관의변경.txt",
+  "main_xml": "20260318000913.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318000913.xml",
+    "bytes": 87216,
+    "sha256": "58525ea50e77954fa5bf6b50ad0d688c594f684f566b882a4de581f2d485a9b2"
+   }
+  ],
+  "folder": "data/agm/017370_우신시스템/20260318_20260318000913",
+  "fetched_at": "2026-11-16T12:59:27"
+ },
+ "20260318001106": {
+  "rcept_no": "20260318001106",
+  "corp_code": "00896285",
+  "corp_name": "삼양사",
+  "stock_code": "145990",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001106",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 6284,
+  "charter_amend_txt": "data/agm/145990_삼양사/20260318_20260318001106/정관의변경.txt",
+  "main_xml": "20260318001106.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318001106.xml",
+    "bytes": 1132614,
+    "sha256": "04e8b8c0426cfb5096c9d9c4e6128a362d962eadb7f0786bcc6f849e56db3809"
+   }
+  ],
+  "folder": "data/agm/145990_삼양사/20260318_20260318001106",
+  "fetched_at": "2026-11-16T12:59:28"
+ },
+ "20260318001141": {
+  "rcept_no": "20260318001141",
+  "corp_code": "00118026",
+  "corp_name": "동원산업",
+  "stock_code": "006040",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001141",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3816,
+  "charter_amend_txt": "data/agm/006040_동원산업/20260318_20260318001141/정관의변경.txt",
+  "main_xml": "20260318001141.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318001141.xml",
+    "bytes": 5154730,
+    "sha256": "1765ad6d1512de04d418857f79310e9ccc344f7dc89da7e0ef99de8ff8772a60"
+   }
+  ],
+  "folder": "data/agm/006040_동원산업/20260318_20260318001141",
+  "fetched_at": "2026-11-16T12:59:30"
+ },
+ "20260318001158": {
+  "rcept_no": "20260318001158",
+  "corp_code": "00163761",
+  "corp_name": "한창제지",
+  "stock_code": "009460",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001158",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1939,
+  "charter_amend_txt": "data/agm/009460_한창제지/20260318_20260318001158/정관의변경.txt",
+  "main_xml": "20260318001158.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318001158.xml",
+    "bytes": 203458,
+    "sha256": "67235f5000e7a241ff268e59feb9bf3eb2a172a8695e13fcd62657758cea04b3"
+   }
+  ],
+  "folder": "data/agm/009460_한창제지/20260318_20260318001158",
+  "fetched_at": "2026-11-16T12:59:30"
+ },
+ "20260318001292": {
+  "rcept_no": "20260318001292",
+  "corp_code": "00153755",
+  "corp_name": "태양금속공업",
+  "stock_code": "004100",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001292",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2243,
+  "charter_amend_txt": "data/agm/004100_태양금속공업/20260318_20260318001292/정관의변경.txt",
+  "main_xml": "20260318001292.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318001292.xml",
+    "bytes": 168604,
+    "sha256": "bafb2fe36a2c9e49ffb457473fdf764d7d3d0dc5f98d1b5f31c08f512dac5a1d"
+   }
+  ],
+  "folder": "data/agm/004100_태양금속공업/20260318_20260318001292",
+  "fetched_at": "2026-11-16T12:59:31"
+ },
+ "20260318001402": {
+  "rcept_no": "20260318001402",
+  "corp_code": "00138057",
+  "corp_name": "써니전자",
+  "stock_code": "004770",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001402",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3145,
+  "charter_amend_txt": "data/agm/004770_써니전자/20260318_20260318001402/정관의변경.txt",
+  "main_xml": "20260318001402.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318001402.xml",
+    "bytes": 171319,
+    "sha256": "edc8a1bfddac6748e02b3fbe37350181cc47733b69270ae7298732a619250175"
+   }
+  ],
+  "folder": "data/agm/004770_써니전자/20260318_20260318001402",
+  "fetched_at": "2026-11-16T12:59:31"
+ },
+ "20260318001515": {
+  "rcept_no": "20260318001515",
+  "corp_code": "00349097",
+  "corp_name": "케이티스카이라이프",
+  "stock_code": "053210",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001515",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2276,
+  "charter_amend_txt": "data/agm/053210_케이티스카이라이프/20260318_20260318001515/정관의변경.txt",
+  "main_xml": "20260318001515.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318001515.xml",
+    "bytes": 537309,
+    "sha256": "0e45c4a4b7edb5e0073d11584ec7529d07c8c15c8a00dcda509c358b8854bdd1"
+   }
+  ],
+  "folder": "data/agm/053210_케이티스카이라이프/20260318_20260318001515",
+  "fetched_at": "2026-11-16T12:59:32"
+ },
+ "20260318001556": {
+  "rcept_no": "20260318001556",
+  "corp_code": "00132637",
+  "corp_name": "동원시스템즈",
+  "stock_code": "014820",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260318",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001556",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1019,
+  "charter_amend_txt": "data/agm/014820_동원시스템즈/20260318_20260318001556/정관의변경.txt",
+  "main_xml": "20260318001556.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318001556.xml",
+    "bytes": 3590982,
+    "sha256": "38ebe21a12d84ddbd563748640117ce1db5c9e2cd3a254cdcef4f92d033e6500"
+   }
+  ],
+  "folder": "data/agm/014820_동원시스템즈/20260318_20260318001556",
+  "fetched_at": "2026-11-16T12:59:33"
+ },
+ "20260318001640": {
+  "rcept_no": "20260318001640",
+  "corp_code": "00145446",
+  "corp_name": "이건산업",
+  "stock_code": "008250",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260319",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001640",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 994,
+  "charter_amend_txt": "data/agm/008250_이건산업/20260319_20260318001640/정관의변경.txt",
+  "main_xml": "20260318001640.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260318001640.xml",
+    "bytes": 1231350,
+    "sha256": "3e52915c3a83bdc8cd190ee2d441c89c8e95d5cf0c717cdb129cc07ea5a14cdb"
+   }
+  ],
+  "folder": "data/agm/008250_이건산업/20260319_20260318001640",
+  "fetched_at": "2026-11-16T12:59:34"
+ },
+ "20260319000204": {
+  "rcept_no": "20260319000204",
+  "corp_code": "00168331",
+  "corp_name": "온타이드",
+  "stock_code": "005320",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260319",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000204",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 9858,
+  "charter_amend_txt": "data/agm/005320_온타이드/20260319_20260319000204/정관의변경.txt",
+  "main_xml": "20260319000204.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260319000204.xml",
+    "bytes": 271649,
+    "sha256": "0762499cd9c7b2da821d3c7ad19a66f1492137526875f1d9b3664dadefd5f795"
+   }
+  ],
+  "folder": "data/agm/005320_온타이드/20260319_20260319000204",
+  "fetched_at": "2026-11-16T12:59:34"
+ },
+ "20260319000207": {
+  "rcept_no": "20260319000207",
+  "corp_code": "00300548",
+  "corp_name": "현대리바트",
+  "stock_code": "079430",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260319",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000207",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2145,
+  "charter_amend_txt": "data/agm/079430_현대리바트/20260319_20260319000207/정관의변경.txt",
+  "main_xml": "20260319000207.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260319000207.xml",
+    "bytes": 209391,
+    "sha256": "0a3f6dec052646f84b888b0a186225e51b4da0356f9d76c541f8113a51dd60fd"
+   }
+  ],
+  "folder": "data/agm/079430_현대리바트/20260319_20260319000207",
+  "fetched_at": "2026-11-16T12:59:35"
+ },
+ "20260319000468": {
+  "rcept_no": "20260319000468",
+  "corp_code": "00135962",
+  "corp_name": "신라교역",
+  "stock_code": "004970",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260319",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000468",
+  "agm_kind": "정기",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260319000468.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260319000468.xml",
+    "bytes": 1307292,
+    "sha256": "b6bf7e196fa799f49cde1f35733d60dddac635fd235ebeeff49fc82273885c94"
+   }
+  ],
+  "folder": "data/agm/004970_신라교역/20260319_20260319000468",
+  "fetched_at": "2026-11-16T12:59:36"
+ },
+ "20260319000749": {
+  "rcept_no": "20260319000749",
+  "corp_code": "00133858",
+  "corp_name": "세방전지",
+  "stock_code": "004490",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260319",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000749",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 9226,
+  "charter_amend_txt": "data/agm/004490_세방전지/20260319_20260319000749/정관의변경.txt",
+  "main_xml": "20260319000749.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260319000749.xml",
+    "bytes": 191440,
+    "sha256": "75b48fcf32f9d10c73db4ca6ac2626600c1e7020c4643ea6a34de748d4d92208"
+   }
+  ],
+  "folder": "data/agm/004490_세방전지/20260319_20260319000749",
+  "fetched_at": "2026-11-16T12:59:36"
+ },
+ "20260319001036": {
+  "rcept_no": "20260319001036",
+  "corp_code": "00117498",
+  "corp_name": "스틱인베스트먼트",
+  "stock_code": "026890",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260319",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001036",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3175,
+  "charter_amend_txt": "data/agm/026890_스틱인베스트먼트/20260319_20260319001036/정관의변경.txt",
+  "main_xml": "20260319001036.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260319001036.xml",
+    "bytes": 1244410,
+    "sha256": "327a6df64290183b943344487d1d3706ce2c8bc5e56125cbebed9f0c8294a30a"
+   }
+  ],
+  "folder": "data/agm/026890_스틱인베스트먼트/20260319_20260319001036",
+  "fetched_at": "2026-11-16T12:59:37"
+ },
+ "20260319001052": {
+  "rcept_no": "20260319001052",
+  "corp_code": "00145552",
+  "corp_name": "이수화학",
+  "stock_code": "005950",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260319",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001052",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1183,
+  "charter_amend_txt": "data/agm/005950_이수화학/20260319_20260319001052/정관의변경.txt",
+  "main_xml": "20260319001052.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260319001052.xml",
+    "bytes": 288198,
+    "sha256": "82994dee20b676a2a4c7a79a259646005ce4e7dab62d45e40466d5dfbef83c7d"
+   }
+  ],
+  "folder": "data/agm/005950_이수화학/20260319_20260319001052",
+  "fetched_at": "2026-11-16T12:59:37"
+ },
+ "20260319001112": {
+  "rcept_no": "20260319001112",
+  "corp_code": "01762569",
+  "corp_name": "이수스페셜티케미컬",
+  "stock_code": "457190",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260319",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001112",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3833,
+  "charter_amend_txt": "data/agm/457190_이수스페셜티케미컬/20260319_20260319001112/정관의변경.txt",
+  "main_xml": "20260319001112.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260319001112.xml",
+    "bytes": 434291,
+    "sha256": "3344a816ab96103020534813d80449fff64052ecce96c2b3f5a2a8b3c8afaf4c"
+   }
+  ],
+  "folder": "data/agm/457190_이수스페셜티케미컬/20260319_20260319001112",
+  "fetched_at": "2026-11-16T12:59:38"
+ },
+ "20260319001178": {
+  "rcept_no": "20260319001178",
+  "corp_code": "00160621",
+  "corp_name": "한국화장품제조",
+  "stock_code": "003350",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260319",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001178",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3411,
+  "charter_amend_txt": "data/agm/003350_한국화장품제조/20260319_20260319001178/정관의변경.txt",
+  "main_xml": "20260319001178.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260319001178.xml",
+    "bytes": 68589,
+    "sha256": "f1bf9dd4e6362c338f692ca0573363e096262d1a1de8e88f022a7e43e22c71d2"
+   }
+  ],
+  "folder": "data/agm/003350_한국화장품제조/20260319_20260319001178",
+  "fetched_at": "2026-11-16T12:59:38"
+ },
+ "20260319001228": {
+  "rcept_no": "20260319001228",
+  "corp_code": "00823429",
+  "corp_name": "한국화장품",
+  "stock_code": "123690",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260319",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001228",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2351,
+  "charter_amend_txt": "data/agm/123690_한국화장품/20260319_20260319001228/정관의변경.txt",
+  "main_xml": "20260319001228.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260319001228.xml",
+    "bytes": 55948,
+    "sha256": "1062059b79226dff8227865801e4369e4da3f776029df421410a2fb278ad72cb"
+   }
+  ],
+  "folder": "data/agm/123690_한국화장품/20260319_20260319001228",
+  "fetched_at": "2026-11-16T12:59:39"
+ },
+ "20260319001305": {
+  "rcept_no": "20260319001305",
+  "corp_code": "00111111",
+  "corp_name": "대양금속",
+  "stock_code": "009190",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260319",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001305",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 690,
+  "charter_amend_txt": "data/agm/009190_대양금속/20260319_20260319001305/정관의변경.txt",
+  "main_xml": "20260319001305.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260319001305.xml",
+    "bytes": 265639,
+    "sha256": "c7ea493b635c7fdf6ad69c69dcc3621189ff1c1a8fa32337b07cb4097612df3a"
+   }
+  ],
+  "folder": "data/agm/009190_대양금속/20260319_20260319001305",
+  "fetched_at": "2026-11-16T12:59:39"
+ },
+ "20260319001325": {
+  "rcept_no": "20260319001325",
+  "corp_code": "00115287",
+  "corp_name": "동방",
+  "stock_code": "004140",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260319",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001325",
+  "agm_kind": "정기",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260319001325.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260319001325.xml",
+    "bytes": 4016165,
+    "sha256": "dd74313ddf0a05e8128633239d49de36372c2891077b2212e424c1a28a7dde46"
+   }
+  ],
+  "folder": "data/agm/004140_동방/20260319_20260319001325",
+  "fetched_at": "2026-11-16T12:59:41"
+ },
+ "20260319001404": {
+  "rcept_no": "20260319001404",
+  "corp_code": "00500254",
+  "corp_name": "GS",
+  "stock_code": "078930",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260320",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001404",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 6923,
+  "charter_amend_txt": "data/agm/078930_GS/20260320_20260319001404/정관의변경.txt",
+  "main_xml": "20260319001404.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260319001404.xml",
+    "bytes": 536738,
+    "sha256": "05b3a7a1eca78200dd38066f7cf2dcb4e3f1b082fa43b2bbd5fc76ff1a53b0d5"
+   }
+  ],
+  "folder": "data/agm/078930_GS/20260320_20260319001404",
+  "fetched_at": "2026-11-16T12:59:41"
+ },
+ "20260320000244": {
+  "rcept_no": "20260320000244",
+  "corp_code": "00158325",
+  "corp_name": "NICE평가정보",
+  "stock_code": "030190",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260320",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000244",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 19011,
+  "charter_amend_txt": "data/agm/030190_NICE평가정보/20260320_20260320000244/정관의변경.txt",
+  "main_xml": "20260320000244.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260320000244.xml",
+    "bytes": 418969,
+    "sha256": "406a920a514e2159a689fdc92a599e4f919175b5ebd9427f76e5e831274a1257"
+   }
+  ],
+  "folder": "data/agm/030190_NICE평가정보/20260320_20260320000244",
+  "fetched_at": "2026-11-16T12:59:42"
+ },
+ "20260320000505": {
+  "rcept_no": "20260320000505",
+  "corp_code": "00160588",
+  "corp_name": "한화",
+  "stock_code": "000880",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260320",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000505",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 4136,
+  "charter_amend_txt": "data/agm/000880_한화/20260320_20260320000505/정관의변경.txt",
+  "main_xml": "20260320000505.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260320000505.xml",
+    "bytes": 647781,
+    "sha256": "4416b97a4003e03915a24332bb3879289766ecc458c7372099e5eff87653f570"
+   }
+  ],
+  "folder": "data/agm/000880_한화/20260320_20260320000505",
+  "fetched_at": "2026-11-16T12:59:42"
+ },
+ "20260320000878": {
+  "rcept_no": "20260320000878",
+  "corp_code": "00124780",
+  "corp_name": "사조씨푸드",
+  "stock_code": "014710",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260320",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000878",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2565,
+  "charter_amend_txt": "data/agm/014710_사조씨푸드/20260320_20260320000878/정관의변경.txt",
+  "main_xml": "20260320000878.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260320000878.xml",
+    "bytes": 166562,
+    "sha256": "b199c170c2aebda4f1712b216e8149c328c7316b3759f34d07604dafbf4f678b"
+   }
+  ],
+  "folder": "data/agm/014710_사조씨푸드/20260320_20260320000878",
+  "fetched_at": "2026-11-16T12:59:43"
+ },
+ "20260320001245": {
+  "rcept_no": "20260320001245",
+  "corp_code": "00172185",
+  "corp_name": "남성",
+  "stock_code": "004270",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260320",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001245",
+  "agm_kind": "정기",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260320001245.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260320001245.xml",
+    "bytes": 3215624,
+    "sha256": "e09ee1ee68fda4f3bdb18bc67f120916381169752d4f8694189d638b3db187d0"
+   }
+  ],
+  "folder": "data/agm/004270_남성/20260320_20260320001245",
+  "fetched_at": "2026-11-16T12:59:44"
+ },
+ "20260320001299": {
+  "rcept_no": "20260320001299",
+  "corp_code": "00112378",
+  "corp_name": "다이나맥",
+  "stock_code": "000040",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260320",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001299",
+  "agm_kind": "정기",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260320001299.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260320001299.xml",
+    "bytes": 241401,
+    "sha256": "9c767cad00c53bb1fb5604b14f77b01241556adb5d21c9c5189c5baa53ca2fac"
+   }
+  ],
+  "folder": "data/agm/000040_다이나맥/20260320_20260320001299",
+  "fetched_at": "2026-11-16T12:59:44"
+ },
+ "20260320001373": {
+  "rcept_no": "20260320001373",
+  "corp_code": "00158149",
+  "corp_name": "한국쉘석유",
+  "stock_code": "002960",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001373",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2806,
+  "charter_amend_txt": "data/agm/002960_한국쉘석유/20260323_20260320001373/정관의변경.txt",
+  "main_xml": "20260320001373.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260320001373.xml",
+    "bytes": 174306,
+    "sha256": "ead1935f267c81b14dc3997f26ed432d8202ef9e88bc6676757dd3fe5e6db302"
+   }
+  ],
+  "folder": "data/agm/002960_한국쉘석유/20260323_20260320001373",
+  "fetched_at": "2026-11-16T12:59:45"
+ },
+ "20260323000263": {
+  "rcept_no": "20260323000263",
+  "corp_code": "00124090",
+  "corp_name": "한국특강",
+  "stock_code": "007280",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000263",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 4862,
+  "charter_amend_txt": "data/agm/007280_한국특강/20260323_20260323000263/정관의변경.txt",
+  "main_xml": "20260323000263.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323000263.xml",
+    "bytes": 183631,
+    "sha256": "5ba40ba57fd5799bfe2741cbd7a2420b4a73908df02136a41b21c4c569991d9f"
+   }
+  ],
+  "folder": "data/agm/007280_한국특강/20260323_20260323000263",
+  "fetched_at": "2026-11-16T12:59:45"
+ },
+ "20260323000285": {
+  "rcept_no": "20260323000285",
+  "corp_code": "01386916",
+  "corp_name": "SK아이이테크놀로지",
+  "stock_code": "361610",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000285",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 9654,
+  "charter_amend_txt": "data/agm/361610_SK아이이테크놀로지/20260323_20260323000285/정관의변경.txt",
+  "main_xml": "20260323000285.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323000285.xml",
+    "bytes": 403706,
+    "sha256": "c44885d970415515cde0da18678790529da2fd672f2a4a32ed7e05ebfde71cac"
+   }
+  ],
+  "folder": "data/agm/361610_SK아이이테크놀로지/20260323_20260323000285",
+  "fetched_at": "2026-11-16T12:59:46"
+ },
+ "20260323000516": {
+  "rcept_no": "20260323000516",
+  "corp_code": "00160418",
+  "corp_name": "한국무브넥스",
+  "stock_code": "010100",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000516",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1489,
+  "charter_amend_txt": "data/agm/010100_한국무브넥스/20260323_20260323000516/정관의변경.txt",
+  "main_xml": "20260323000516.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323000516.xml",
+    "bytes": 91318,
+    "sha256": "44dc7cc27dd0d27e44a85aa67fd72fa392478d8f4a2472e0eb87196955c4f62e"
+   }
+  ],
+  "folder": "data/agm/010100_한국무브넥스/20260323_20260323000516",
+  "fetched_at": "2026-11-16T12:59:46"
+ },
+ "20260323000597": {
+  "rcept_no": "20260323000597",
+  "corp_code": "00112679",
+  "corp_name": "대창단조",
+  "stock_code": "015230",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000597",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 5093,
+  "charter_amend_txt": "data/agm/015230_대창단조/20260323_20260323000597/정관의변경.txt",
+  "main_xml": "20260323000597.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323000597.xml",
+    "bytes": 190043,
+    "sha256": "ee3fd350184535de7613f51aa16a8fd45c7c6d3911b6315759002549c7c49ac2"
+   }
+  ],
+  "folder": "data/agm/015230_대창단조/20260323_20260323000597",
+  "fetched_at": "2026-11-16T12:59:47"
+ },
+ "20260323000922": {
+  "rcept_no": "20260323000922",
+  "corp_code": "00158316",
+  "corp_name": "NICE",
+  "stock_code": "034310",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000922",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2893,
+  "charter_amend_txt": "data/agm/034310_NICE/20260323_20260323000922/정관의변경.txt",
+  "main_xml": "20260323000922.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323000922.xml",
+    "bytes": 512449,
+    "sha256": "73e5da22426ebdf073b8243cc0d38c3000b490d66e3c67160533bc1a593a1cb9"
+   }
+  ],
+  "folder": "data/agm/034310_NICE/20260323_20260323000922",
+  "fetched_at": "2026-11-16T12:59:47"
+ },
+ "20260323001019": {
+  "rcept_no": "20260323001019",
+  "corp_code": "00148939",
+  "corp_name": "조광피혁",
+  "stock_code": "004700",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001019",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 4509,
+  "charter_amend_txt": "data/agm/004700_조광피혁/20260323_20260323001019/정관의변경.txt",
+  "main_xml": "20260323001019.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001019.xml",
+    "bytes": 115853,
+    "sha256": "2424d52ca82c5a7bcd37ef38251ec5de67928eda98f73b697eb816832e069ca3"
+   }
+  ],
+  "folder": "data/agm/004700_조광피혁/20260323_20260323001019",
+  "fetched_at": "2026-11-16T12:59:48"
+ },
+ "20260323001072": {
+  "rcept_no": "20260323001072",
+  "corp_code": "00108038",
+  "corp_name": "엔피씨",
+  "stock_code": "004250",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001072",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1136,
+  "charter_amend_txt": "data/agm/004250_엔피씨/20260323_20260323001072/정관의변경.txt",
+  "main_xml": "20260323001072.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001072.xml",
+    "bytes": 406827,
+    "sha256": "f78e9ed131c4706748991a3e3094ba8a0940ed4bcf4db8ce782a7fadb2eec810"
+   }
+  ],
+  "folder": "data/agm/004250_엔피씨/20260323_20260323001072",
+  "fetched_at": "2026-11-16T12:59:48"
+ },
+ "20260323001086": {
+  "rcept_no": "20260323001086",
+  "corp_code": "00112332",
+  "corp_name": "미래에셋생명",
+  "stock_code": "085620",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001086",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 7736,
+  "charter_amend_txt": "data/agm/085620_미래에셋생명/20260323_20260323001086/정관의변경.txt",
+  "main_xml": "20260323001086.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001086.xml",
+    "bytes": 389419,
+    "sha256": "666d987f8d18d177c33e0c2c86a3bcf42cc6111e242a7d5ba0dfdd7f7d57ca09"
+   }
+  ],
+  "folder": "data/agm/085620_미래에셋생명/20260323_20260323001086",
+  "fetched_at": "2026-11-16T12:59:49"
+ },
+ "20260323001113": {
+  "rcept_no": "20260323001113",
+  "corp_code": "00153339",
+  "corp_name": "태경산업",
+  "stock_code": "015890",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001113",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3504,
+  "charter_amend_txt": "data/agm/015890_태경산업/20260323_20260323001113/정관의변경.txt",
+  "main_xml": "20260323001113.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001113.xml",
+    "bytes": 332407,
+    "sha256": "68757956a0f828a4fe749070710e9f77fefeae0cc804251aead9230df97b2ebd"
+   }
+  ],
+  "folder": "data/agm/015890_태경산업/20260323_20260323001113",
+  "fetched_at": "2026-11-16T12:59:49"
+ },
+ "20260323001126": {
+  "rcept_no": "20260323001126",
+  "corp_code": "00180795",
+  "corp_name": "인팩",
+  "stock_code": "023810",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001126",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1206,
+  "charter_amend_txt": "data/agm/023810_인팩/20260323_20260323001126/정관의변경.txt",
+  "main_xml": "20260323001126.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001126.xml",
+    "bytes": 1253301,
+    "sha256": "46082bdfab2d0c9a307946abeb79aaa4221e3a2baf34418c42fdb7e865bf8f6c"
+   }
+  ],
+  "folder": "data/agm/023810_인팩/20260323_20260323001126",
+  "fetched_at": "2026-11-16T12:59:50"
+ },
+ "20260323001129": {
+  "rcept_no": "20260323001129",
+  "corp_code": "00687711",
+  "corp_name": "한국철강",
+  "stock_code": "104700",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001129",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2372,
+  "charter_amend_txt": "data/agm/104700_한국철강/20260323_20260323001129/정관의변경.txt",
+  "main_xml": "20260323001129.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001129.xml",
+    "bytes": 468432,
+    "sha256": "4dad909482f1b1710970bf6aa452d65952140bfc8fe5b4656c9866d304cce260"
+   }
+  ],
+  "folder": "data/agm/104700_한국철강/20260323_20260323001129",
+  "fetched_at": "2026-11-16T12:59:51"
+ },
+ "20260323001141": {
+  "rcept_no": "20260323001141",
+  "corp_code": "00159740",
+  "corp_name": "KISCO홀딩스",
+  "stock_code": "001940",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001141",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2372,
+  "charter_amend_txt": "data/agm/001940_KISCO홀딩스/20260323_20260323001141/정관의변경.txt",
+  "main_xml": "20260323001141.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001141.xml",
+    "bytes": 878054,
+    "sha256": "dbe2a4285ea268c943443c34016a9854118a649683effbf89ba0e67f97368b8d"
+   }
+  ],
+  "folder": "data/agm/001940_KISCO홀딩스/20260323_20260323001141",
+  "fetched_at": "2026-11-16T12:59:51"
+ },
+ "20260323001142": {
+  "rcept_no": "20260323001142",
+  "corp_code": "00118965",
+  "corp_name": "티에이치엔",
+  "stock_code": "019180",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001142",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2114,
+  "charter_amend_txt": "data/agm/019180_티에이치엔/20260323_20260323001142/정관의변경.txt",
+  "main_xml": "20260323001142.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001142.xml",
+    "bytes": 348022,
+    "sha256": "5bec741aa6e0f4e5bd6f588bb8506071d44af73efa2618c36576aba0d0c05baa"
+   }
+  ],
+  "folder": "data/agm/019180_티에이치엔/20260323_20260323001142",
+  "fetched_at": "2026-11-16T12:59:51"
+ },
+ "20260323001152": {
+  "rcept_no": "20260323001152",
+  "corp_code": "00107613",
+  "corp_name": "이수페타시스",
+  "stock_code": "007660",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001152",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2465,
+  "charter_amend_txt": "data/agm/007660_이수페타시스/20260323_20260323001152/정관의변경.txt",
+  "main_xml": "20260323001152.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001152.xml",
+    "bytes": 481217,
+    "sha256": "f3acc5616e25beeb4291721aabab1317eb34c561860d3ddaf1d4356871baf6c6"
+   }
+  ],
+  "folder": "data/agm/007660_이수페타시스/20260323_20260323001152",
+  "fetched_at": "2026-11-16T12:59:52"
+ },
+ "20260323001345": {
+  "rcept_no": "20260323001345",
+  "corp_code": "00152880",
+  "corp_name": "코오롱글로벌",
+  "stock_code": "003070",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001345",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3447,
+  "charter_amend_txt": "data/agm/003070_코오롱글로벌/20260323_20260323001345/정관의변경.txt",
+  "main_xml": "20260323001345.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001345.xml",
+    "bytes": 175330,
+    "sha256": "bc6722024880cda7d66c9873cfaeba4c14bc326a1369054dfeecb5909f25cf15"
+   }
+  ],
+  "folder": "data/agm/003070_코오롱글로벌/20260323_20260323001345",
+  "fetched_at": "2026-11-16T12:59:52"
+ },
+ "20260323001357": {
+  "rcept_no": "20260323001357",
+  "corp_code": "00540641",
+  "corp_name": "동양고속",
+  "stock_code": "084670",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001357",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3144,
+  "charter_amend_txt": "data/agm/084670_동양고속/20260323_20260323001357/정관의변경.txt",
+  "main_xml": "20260323001357.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001357.xml",
+    "bytes": 2466181,
+    "sha256": "d8153c631e0615a58e0a1353fbe5a94bced8a51aed7fb9bc90ac940f2119743c"
+   }
+  ],
+  "folder": "data/agm/084670_동양고속/20260323_20260323001357",
+  "fetched_at": "2026-11-16T12:59:54"
+ },
+ "20260323001421": {
+  "rcept_no": "20260323001421",
+  "corp_code": "00134723",
+  "corp_name": "페이퍼코리아",
+  "stock_code": "001020",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001421",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1425,
+  "charter_amend_txt": "data/agm/001020_페이퍼코리아/20260323_20260323001421/정관의변경.txt",
+  "main_xml": "20260323001421.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001421.xml",
+    "bytes": 232084,
+    "sha256": "37f0665579d2d5a72720740b7c86717e8470724366d7709e0197277625f832e2"
+   }
+  ],
+  "folder": "data/agm/001020_페이퍼코리아/20260323_20260323001421",
+  "fetched_at": "2026-11-16T12:59:54"
+ },
+ "20260323001453": {
+  "rcept_no": "20260323001453",
+  "corp_code": "00135050",
+  "corp_name": "팜젠사이언스",
+  "stock_code": "004720",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260323",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001453",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 4912,
+  "charter_amend_txt": "data/agm/004720_팜젠사이언스/20260323_20260323001453/정관의변경.txt",
+  "main_xml": "20260323001453.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260323001453.xml",
+    "bytes": 182249,
+    "sha256": "a19df3ad2e560347b630c7af2c1dfe2fc5f5db8af981fd2658845a564f4d4852"
+   }
+  ],
+  "folder": "data/agm/004720_팜젠사이언스/20260323_20260323001453",
+  "fetched_at": "2026-11-16T12:59:54"
+ },
+ "20260325000347": {
+  "rcept_no": "20260325000347",
+  "corp_code": "00684802",
+  "corp_name": "에이플러스에셋",
+  "stock_code": "244920",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260325",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260325000347",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 9405,
+  "charter_amend_txt": "data/agm/244920_에이플러스에셋/20260325_20260325000347/정관의변경.txt",
+  "main_xml": "20260325000347.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260325000347.xml",
+    "bytes": 216869,
+    "sha256": "10b8efaf5803bd3f1322be834556ea536915290b266b31e378271e091eb7fb33"
+   }
+  ],
+  "folder": "data/agm/244920_에이플러스에셋/20260325_20260325000347",
+  "fetched_at": "2026-11-16T12:59:55"
+ },
+ "20260326000264": {
+  "rcept_no": "20260326000264",
+  "corp_code": "00134565",
+  "corp_name": "이스타코",
+  "stock_code": "015020",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260326",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326000264",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1985,
+  "charter_amend_txt": "data/agm/015020_이스타코/20260326_20260326000264/정관의변경.txt",
+  "main_xml": "20260326000264.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260326000264.xml",
+    "bytes": 107031,
+    "sha256": "9b61907b4425810d8dabaa8b2077031f7bbec33216dd4edfeb11c5ad93f24a70"
+   }
+  ],
+  "folder": "data/agm/015020_이스타코/20260326_20260326000264",
+  "fetched_at": "2026-11-16T12:59:55"
+ },
+ "20260326000400": {
+  "rcept_no": "20260326000400",
+  "corp_code": "00366438",
+  "corp_name": "산일전기",
+  "stock_code": "062040",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260326",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326000400",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1805,
+  "charter_amend_txt": "data/agm/062040_산일전기/20260326_20260326000400/정관의변경.txt",
+  "main_xml": "20260326000400.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260326000400.xml",
+    "bytes": 1191096,
+    "sha256": "eabd2eca5d7ff2a56992433c1e1483faf027bfc0cc614b9c5c39057c5d31c1e6"
+   }
+  ],
+  "folder": "data/agm/062040_산일전기/20260326_20260326000400",
+  "fetched_at": "2026-11-16T12:59:56"
+ },
+ "20260330001211": {
+  "rcept_no": "20260330001211",
+  "corp_code": "00255619",
+  "corp_name": "강원랜드",
+  "stock_code": "035250",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260330",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330001211",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260330001211.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260330001211.xml",
+    "bytes": 111916,
+    "sha256": "3c36777702031a652e8387db329608fe7b7e8c512f23f0af3092ff25165574b0"
+   }
+  ],
+  "folder": "data/agm/035250_강원랜드/20260330_20260330001211",
+  "fetched_at": "2026-11-16T12:59:56"
+ },
+ "20260330001627": {
+  "rcept_no": "20260330001627",
+  "corp_code": "00141404",
+  "corp_name": "블루산업개발",
+  "stock_code": "006740",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260330",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330001627",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2189,
+  "charter_amend_txt": "data/agm/006740_블루산업개발/20260330_20260330001627/정관의변경.txt",
+  "main_xml": "20260330001627.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260330001627.xml",
+    "bytes": 203217,
+    "sha256": "a2cc74b5f41d23b417327df60065a33436136b5e1345270b06ea7c85d29ae6c2"
+   }
+  ],
+  "folder": "data/agm/006740_블루산업개발/20260330_20260330001627",
+  "fetched_at": "2026-11-16T12:59:57"
+ },
+ "20260403000446": {
+  "rcept_no": "20260403000446",
+  "corp_code": "00105280",
+  "corp_name": "현대지에프홀딩스",
+  "stock_code": "005440",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260403",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260403000446",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260403000446.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260403000446.xml",
+    "bytes": 210044,
+    "sha256": "2a78b248bd4107ef5394c172eabb93db98128ad0b2442b90a82c8738309215c1"
+   }
+  ],
+  "folder": "data/agm/005440_현대지에프홀딩스/20260403_20260403000446",
+  "fetched_at": "2026-11-16T12:59:57"
+ },
+ "20260406002382": {
+  "rcept_no": "20260406002382",
+  "corp_code": "00159698",
+  "corp_name": "지역난방공사",
+  "stock_code": "071320",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260406",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260406002382",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260406002382.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260406002382.xml",
+    "bytes": 59497,
+    "sha256": "17f46c2a52d3aaceb6951b406fef2d6fdc90f4c64e18b168658b553bf22ce60c"
+   }
+  ],
+  "folder": "data/agm/071320_지역난방공사/20260406_20260406002382",
+  "fetched_at": "2026-11-16T12:59:58"
+ },
+ "20260408002734": {
+  "rcept_no": "20260408002734",
+  "corp_code": "00121543",
+  "corp_name": "무학",
+  "stock_code": "033920",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260408",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260408002734",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260408002734.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260408002734.xml",
+    "bytes": 43211,
+    "sha256": "02ef483453300ca6edf3f6df543261eca317f74cc1f59f30aee16c274abbab05"
+   }
+  ],
+  "folder": "data/agm/033920_무학/20260408_20260408002734",
+  "fetched_at": "2026-11-16T12:59:58"
+ },
+ "20260410002886": {
+  "rcept_no": "20260410002886",
+  "corp_code": "00159193",
+  "corp_name": "한국전력공사",
+  "stock_code": "015760",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260410",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260410002886",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260410002886.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260410002886.xml",
+    "bytes": 128126,
+    "sha256": "4f36142da3d077220670aedcbf2d56ea91fc7b97c370e2123937d302244d4bcd"
+   }
+  ],
+  "folder": "data/agm/015760_한국전력공사/20260410_20260410002886",
+  "fetched_at": "2026-11-16T12:59:59"
+ },
+ "20260415000396": {
+  "rcept_no": "20260415000396",
+  "corp_code": "00398792",
+  "corp_name": "SNT모티브",
+  "stock_code": "064960",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260415",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260415000396",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260415000396.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260415000396.xml",
+    "bytes": 95451,
+    "sha256": "285517a8415e767f45c77986311d4079db122647250ed6a25b5ec3c7dbf93195"
+   }
+  ],
+  "folder": "data/agm/064960_SNT모티브/20260415_20260415000396",
+  "fetched_at": "2026-11-16T12:59:59"
+ },
+ "20260415000415": {
+  "rcept_no": "20260415000415",
+  "corp_code": "00137207",
+  "corp_name": "유니켐",
+  "stock_code": "011330",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260415",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260415000415",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 510,
+  "charter_amend_txt": "data/agm/011330_유니켐/20260415_20260415000415/정관의변경.txt",
+  "main_xml": "20260415000415.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260415000415.xml",
+    "bytes": 62574,
+    "sha256": "f9c6dee5086039d73c0f4f3b76741bbe03d7e28f2a6b93a0112b019475aafd5a"
+   }
+  ],
+  "folder": "data/agm/011330_유니켐/20260415_20260415000415",
+  "fetched_at": "2026-11-16T13:00:14"
+ },
+ "20260420000106": {
+  "rcept_no": "20260420000106",
+  "corp_code": "00165413",
+  "corp_name": "롯데케미칼",
+  "stock_code": "011170",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260420",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260420000106",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260420000106.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260420000106.xml",
+    "bytes": 215866,
+    "sha256": "13f74a3464a542b5945098ed13863ae91bb81750fc0677f57ee5cbb1cf6aadfd"
+   }
+  ],
+  "folder": "data/agm/011170_롯데케미칼/20260420_20260420000106",
+  "fetched_at": "2026-11-16T13:00:15"
+ },
+ "20260422000392": {
+  "rcept_no": "20260422000392",
+  "corp_code": "00158112",
+  "corp_name": "한국수출포장공업",
+  "stock_code": "002200",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260422",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422000392",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260422000392.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260422000392.xml",
+    "bytes": 36814,
+    "sha256": "1dbbebe13214eced01d5114d4ee5a93be708a4d0292609773ed51686837d0f86"
+   }
+  ],
+  "folder": "data/agm/002200_한국수출포장공업/20260422_20260422000392",
+  "fetched_at": "2026-11-16T13:00:16"
+ },
+ "20260423000572": {
+  "rcept_no": "20260423000572",
+  "corp_code": "00164645",
+  "corp_name": "HMM",
+  "stock_code": "011200",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260423",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000572",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 172,
+  "charter_amend_txt": "data/agm/011200_HMM/20260423_20260423000572/정관의변경.txt",
+  "main_xml": "20260423000572.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260423000572.xml",
+    "bytes": 75009,
+    "sha256": "e7b4a6a4ecc2767b52691856ed203d8736e5c9c2c33eaecdaaf47f85930f76fd"
+   }
+  ],
+  "folder": "data/agm/011200_HMM/20260423_20260423000572",
+  "fetched_at": "2026-11-16T13:00:16"
+ },
+ "20260427000206": {
+  "rcept_no": "20260427000206",
+  "corp_code": "00141477",
+  "corp_name": "영흥",
+  "stock_code": "012160",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260427",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260427000206",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 501,
+  "charter_amend_txt": "data/agm/012160_영흥/20260427_20260427000206/정관의변경.txt",
+  "main_xml": "20260427000206.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260427000206.xml",
+    "bytes": 70714,
+    "sha256": "9d195aa5cab98c7b1b29e5fc7217f718e9d3dda7a3408691c7b6888efefca512"
+   }
+  ],
+  "folder": "data/agm/012160_영흥/20260427_20260427000206",
+  "fetched_at": "2026-11-16T13:00:17"
+ },
+ "20260427000511": {
+  "rcept_no": "20260427000511",
+  "corp_code": "00108746",
+  "corp_name": "DKME",
+  "stock_code": "015590",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260427",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260427000511",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260427000511.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260427000511.xml",
+    "bytes": 60792,
+    "sha256": "65384b7de532dabdde3d69d545c234e69890f3f9d506e9a14c6beb7ff9b79725"
+   }
+  ],
+  "folder": "data/agm/015590_DKME/20260427_20260427000511",
+  "fetched_at": "2026-11-16T13:00:17"
+ },
+ "20260428000562": {
+  "rcept_no": "20260428000562",
+  "corp_code": "01649204",
+  "corp_name": "달바글로벌",
+  "stock_code": "483650",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260428",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428000562",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1363,
+  "charter_amend_txt": "data/agm/483650_달바글로벌/20260428_20260428000562/정관의변경.txt",
+  "main_xml": "20260428000562.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260428000562.xml",
+    "bytes": 69416,
+    "sha256": "de6e5787554b7977be77a83b94c87c0877ed337536caf5af45a60d9f407d05c2"
+   }
+  ],
+  "folder": "data/agm/483650_달바글로벌/20260428_20260428000562",
+  "fetched_at": "2026-11-16T13:00:18"
+ },
+ "20260430001131": {
+  "rcept_no": "20260430001131",
+  "corp_code": "00159209",
+  "corp_name": "한전기술",
+  "stock_code": "052690",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260430",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001131",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260430001131.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260430001131.xml",
+    "bytes": 59214,
+    "sha256": "0501c529a66e0e89f2b03830dc670be145c7125b44436da985445e23cc7abf3d"
+   }
+  ],
+  "folder": "data/agm/052690_한전기술/20260430_20260430001131",
+  "fetched_at": "2026-11-16T13:00:18"
+ },
+ "20260506000285": {
+  "rcept_no": "20260506000285",
+  "corp_code": "00156150",
+  "corp_name": "엑시큐어하이트론",
+  "stock_code": "019490",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260506",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000285",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260506000285.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260506000285.xml",
+    "bytes": 49381,
+    "sha256": "88763259cd370924fbf88795345fb35b2c9253c4f370ff24359e24b3a5c2bba5"
+   }
+  ],
+  "folder": "data/agm/019490_엑시큐어하이트론/20260506_20260506000285",
+  "fetched_at": "2026-11-16T13:00:19"
+ },
+ "20260506000645": {
+  "rcept_no": "20260506000645",
+  "corp_code": "00453488",
+  "corp_name": "다이나믹디자인",
+  "stock_code": "145210",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260506",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000645",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260506000645.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260506000645.xml",
+    "bytes": 44914,
+    "sha256": "24d8f355e764840ccac3be5627948b93ad7fe4c02c0a65ac4d42404ac509d5c5"
+   }
+  ],
+  "folder": "data/agm/145210_다이나믹디자인/20260506_20260506000645",
+  "fetched_at": "2026-11-16T13:00:19"
+ },
+ "20260506000718": {
+  "rcept_no": "20260506000718",
+  "corp_code": "00159193",
+  "corp_name": "한국전력공사",
+  "stock_code": "015760",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260506",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000718",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260506000718.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260506000718.xml",
+    "bytes": 130198,
+    "sha256": "0915358231e386ea37ffba0d8ca5835acfcbc08741f9adf9669c5206b63b22c2"
+   }
+  ],
+  "folder": "data/agm/015760_한국전력공사/20260506_20260506000718",
+  "fetched_at": "2026-11-16T13:00:20"
+ },
+ "20260507000124": {
+  "rcept_no": "20260507000124",
+  "corp_code": "00106881",
+  "corp_name": "인디에프",
+  "stock_code": "014990",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260507",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000124",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 576,
+  "charter_amend_txt": "data/agm/014990_인디에프/20260507_20260507000124/정관의변경.txt",
+  "main_xml": "20260507000124.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260507000124.xml",
+    "bytes": 35352,
+    "sha256": "4d18e14fd1b33a6b1fdff62fc6bd11181f62080d89cba23467a796e734ee7c4a"
+   }
+  ],
+  "folder": "data/agm/014990_인디에프/20260507_20260507000124",
+  "fetched_at": "2026-11-16T13:00:20"
+ },
+ "20260507000564": {
+  "rcept_no": "20260507000564",
+  "corp_code": "00159698",
+  "corp_name": "지역난방공사",
+  "stock_code": "071320",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260507",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000564",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260507000564.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260507000564.xml",
+    "bytes": 57681,
+    "sha256": "d3a979d94f005719598d23e4ee5ffa85f02995bf068cff3f4d437656c4b759ad"
+   }
+  ],
+  "folder": "data/agm/071320_지역난방공사/20260507_20260507000564",
+  "fetched_at": "2026-11-16T13:00:21"
+ },
+ "20260511000194": {
+  "rcept_no": "20260511000194",
+  "corp_code": "00349097",
+  "corp_name": "케이티스카이라이프",
+  "stock_code": "053210",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260511",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511000194",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260511000194.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260511000194.xml",
+    "bytes": 138184,
+    "sha256": "e667c0ae3d66aed89648d41aee4f09f3315690d8c14165cd5e0fea886fc7ff9d"
+   }
+  ],
+  "folder": "data/agm/053210_케이티스카이라이프/20260511_20260511000194",
+  "fetched_at": "2026-11-16T13:00:21"
+ },
+ "20260511000296": {
+  "rcept_no": "20260511000296",
+  "corp_code": "00261285",
+  "corp_name": "한국가스공사",
+  "stock_code": "036460",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260511",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511000296",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260511000296.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260511000296.xml",
+    "bytes": 100805,
+    "sha256": "c2196dd89b4029793897db36d0740519f418fca3da3499bbc9ff86f17e45316c"
+   }
+  ],
+  "folder": "data/agm/036460_한국가스공사/20260511_20260511000296",
+  "fetched_at": "2026-11-16T13:00:22"
+ },
+ "20260511000460": {
+  "rcept_no": "20260511000460",
+  "corp_code": "00104786",
+  "corp_name": "미래아이앤지",
+  "stock_code": "007120",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260511",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511000460",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260511000460.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260511000460.xml",
+    "bytes": 39160,
+    "sha256": "d05df6bf3421b6c3c4fe60ff2862adf9513848382bda4f53c663577512d69787"
+   }
+  ],
+  "folder": "data/agm/007120_미래아이앤지/20260511_20260511000460",
+  "fetched_at": "2026-11-16T13:00:22"
+ },
+ "20260511000721": {
+  "rcept_no": "20260511000721",
+  "corp_code": "00122825",
+  "corp_name": "프리티",
+  "stock_code": "006490",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260511",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511000721",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 20159,
+  "charter_amend_txt": "data/agm/006490_프리티/20260511_20260511000721/정관의변경.txt",
+  "main_xml": "20260511000721.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260511000721.xml",
+    "bytes": 266879,
+    "sha256": "7cc15b8ff176b62c11d6c9c0566d1fa4da71badb4596ff06f7a4e9383054dd32"
+   }
+  ],
+  "folder": "data/agm/006490_프리티/20260511_20260511000721",
+  "fetched_at": "2026-11-16T13:00:23"
+ },
+ "20260512000376": {
+  "rcept_no": "20260512000376",
+  "corp_code": "00372882",
+  "corp_name": "KTcs",
+  "stock_code": "058850",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260512",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512000376",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260512000376.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260512000376.xml",
+    "bytes": 98688,
+    "sha256": "91771b31850690f5a4f93a84fc1b1e37796810ea02a9f17a45b2895fe16b2a31"
+   }
+  ],
+  "folder": "data/agm/058850_KTcs/20260512_20260512000376",
+  "fetched_at": "2026-11-16T13:00:23"
+ },
+ "20260512000613": {
+  "rcept_no": "20260512000613",
+  "corp_code": "00372873",
+  "corp_name": "KTis",
+  "stock_code": "058860",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260512",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512000613",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260512000613.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260512000613.xml",
+    "bytes": 96219,
+    "sha256": "de40b35cf6edb9b04586cd21f8d0e1d2aed59f009ad46b5e4a2a9de8e21fd1ae"
+   }
+  ],
+  "folder": "data/agm/058860_KTis/20260512_20260512000613",
+  "fetched_at": "2026-11-16T13:00:24"
+ },
+ "20260513000760": {
+  "rcept_no": "20260513000760",
+  "corp_code": "00159209",
+  "corp_name": "한전기술",
+  "stock_code": "052690",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260513",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000760",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260513000760.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260513000760.xml",
+    "bytes": 59767,
+    "sha256": "60567de63730dc309ff3182e161c812c86988d2a057b27900e8a465dd0cbd74d"
+   }
+  ],
+  "folder": "data/agm/052690_한전기술/20260513_20260513000760",
+  "fetched_at": "2026-11-16T13:00:24"
+ },
+ "20260514000096": {
+  "rcept_no": "20260514000096",
+  "corp_code": "00124027",
+  "corp_name": "부산산업",
+  "stock_code": "011390",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260514",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514000096",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260514000096.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260514000096.xml",
+    "bytes": 34401,
+    "sha256": "f60059b7939eeb52aec8f374bb2d2a291affbb367476d5256fec5ce71a8953ff"
+   }
+  ],
+  "folder": "data/agm/011390_부산산업/20260514_20260514000096",
+  "fetched_at": "2026-11-16T13:00:25"
+ },
+ "20260515001673": {
+  "rcept_no": "20260515001673",
+  "corp_code": "00557508",
+  "corp_name": "GKL",
+  "stock_code": "114090",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260515",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515001673",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260515001673.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260515001673.xml",
+    "bytes": 93915,
+    "sha256": "d59682c6619c08b60fbdb6db1f1fd90eb9ddfd7f900836a6bea0400ef35ee934"
+   }
+  ],
+  "folder": "data/agm/114090_GKL/20260515_20260515001673",
+  "fetched_at": "2026-11-16T13:00:25"
+ },
+ "20260518000325": {
+  "rcept_no": "20260518000325",
+  "corp_code": "01316245",
+  "corp_name": "효성중공업",
+  "stock_code": "298040",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260518",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000325",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2977,
+  "charter_amend_txt": "data/agm/298040_효성중공업/20260518_20260518000325/정관의변경.txt",
+  "main_xml": "20260518000325.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260518000325.xml",
+    "bytes": 88679,
+    "sha256": "8dd6dcf7561e8d07cab2c292c056997c015453b4a1bff2c514b8cd67e06c30da"
+   }
+  ],
+  "folder": "data/agm/298040_효성중공업/20260518_20260518000325",
+  "fetched_at": "2026-11-16T13:00:26"
+ },
+ "20260519000234": {
+  "rcept_no": "20260519000234",
+  "corp_code": "01026157",
+  "corp_name": "쏘카",
+  "stock_code": "403550",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260519",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519000234",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1379,
+  "charter_amend_txt": "data/agm/403550_쏘카/20260519_20260519000234/정관의변경.txt",
+  "main_xml": "20260519000234.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260519000234.xml",
+    "bytes": 56499,
+    "sha256": "954b811f7a1fd3d433bd4625be9065a1e9de1b1d28bb8f07f8237f7cbe88cfa9"
+   }
+  ],
+  "folder": "data/agm/403550_쏘카/20260519_20260519000234",
+  "fetched_at": "2026-11-16T13:00:26"
+ },
+ "20260520000332": {
+  "rcept_no": "20260520000332",
+  "corp_code": "00119140",
+  "corp_name": "핸즈코퍼레이션",
+  "stock_code": "143210",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260520",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260520000332",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 442,
+  "charter_amend_txt": "data/agm/143210_핸즈코퍼레이션/20260520_20260520000332/정관의변경.txt",
+  "main_xml": "20260520000332.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260520000332.xml",
+    "bytes": 63261,
+    "sha256": "10d5315531c1d2d3ff40bd56cb4cb37022d2bf3ad1578bce1f3281f2a00bb575"
+   }
+  ],
+  "folder": "data/agm/143210_핸즈코퍼레이션/20260520_20260520000332",
+  "fetched_at": "2026-11-16T13:00:27"
+ },
+ "20260526000371": {
+  "rcept_no": "20260526000371",
+  "corp_code": "00357360",
+  "corp_name": "한세엠케이",
+  "stock_code": "069640",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260526",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260526000371",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1858,
+  "charter_amend_txt": "data/agm/069640_한세엠케이/20260526_20260526000371/정관의변경.txt",
+  "main_xml": "20260526000371.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260526000371.xml",
+    "bytes": 58166,
+    "sha256": "eafcaa0ca383f294da6e2fa1e68c792104488e487cc7375560d69adec85453bd"
+   }
+  ],
+  "folder": "data/agm/069640_한세엠케이/20260526_20260526000371",
+  "fetched_at": "2026-11-16T13:00:27"
+ },
+ "20260526000439": {
+  "rcept_no": "20260526000439",
+  "corp_code": "00118521",
+  "corp_name": "진원생명과학",
+  "stock_code": "011000",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260526",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260526000439",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1269,
+  "charter_amend_txt": "data/agm/011000_진원생명과학/20260526_20260526000439/정관의변경.txt",
+  "main_xml": "20260526000439.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260526000439.xml",
+    "bytes": 256648,
+    "sha256": "86e2c61a3827afc0623c74624078fd1c019cac32ad08805e8779e0c75d5c0afc"
+   }
+  ],
+  "folder": "data/agm/011000_진원생명과학/20260526_20260526000439",
+  "fetched_at": "2026-11-16T13:00:28"
+ },
+ "20260527000273": {
+  "rcept_no": "20260527000273",
+  "corp_code": "00143262",
+  "corp_name": "우진아이엔에스",
+  "stock_code": "010400",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260527",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260527000273",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 4112,
+  "charter_amend_txt": "data/agm/010400_우진아이엔에스/20260527_20260527000273/정관의변경.txt",
+  "main_xml": "20260527000273.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260527000273.xml",
+    "bytes": 109242,
+    "sha256": "3844c338e391dd8891cbe7e41eb8143da515ea664d38afa583310ed366b83585"
+   }
+  ],
+  "folder": "data/agm/010400_우진아이엔에스/20260527_20260527000273",
+  "fetched_at": "2026-11-16T13:00:28"
+ },
+ "20260527000613": {
+  "rcept_no": "20260527000613",
+  "corp_code": "00428729",
+  "corp_name": "대호에이엘",
+  "stock_code": "069460",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260527",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260527000613",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1781,
+  "charter_amend_txt": "data/agm/069460_대호에이엘/20260527_20260527000613/정관의변경.txt",
+  "main_xml": "20260527000613.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260527000613.xml",
+    "bytes": 92464,
+    "sha256": "7daf16636940fdd5a50ebeef5b07c83b8059eed34d7c412bb23cfedfad71b029"
+   }
+  ],
+  "folder": "data/agm/069460_대호에이엘/20260527_20260527000613",
+  "fetched_at": "2026-11-16T13:00:30"
+ },
+ "20260529001364": {
+  "rcept_no": "20260529001364",
+  "corp_code": "00133706",
+  "corp_name": "한국제지",
+  "stock_code": "027970",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260529",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001364",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 198,
+  "charter_amend_txt": "data/agm/027970_한국제지/20260529_20260529001364/정관의변경.txt",
+  "main_xml": "20260529001364.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260529001364.xml",
+    "bytes": 39424,
+    "sha256": "df41e35a47c6cd91e06d3a9ecdfb3b97003f451ad6d7d076a928a17a18cdc951"
+   }
+  ],
+  "folder": "data/agm/027970_한국제지/20260529_20260529001364",
+  "fetched_at": "2026-11-16T13:00:31"
+ },
+ "20260602000094": {
+  "rcept_no": "20260602000094",
+  "corp_code": "00450010",
+  "corp_name": "씨티알모빌리티",
+  "stock_code": "308170",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260602",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000094",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260602000094.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260602000094.xml",
+    "bytes": 46710,
+    "sha256": "02e45edfc571f3ca89a660fa37a69e1022be1672ef10aed8edf143957fb979de"
+   }
+  ],
+  "folder": "data/agm/308170_씨티알모빌리티/20260602_20260602000094",
+  "fetched_at": "2026-11-16T13:00:31"
+ },
+ "20260602000327": {
+  "rcept_no": "20260602000327",
+  "corp_code": "00159193",
+  "corp_name": "한국전력공사",
+  "stock_code": "015760",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260602",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000327",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260602000327.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260602000327.xml",
+    "bytes": 159500,
+    "sha256": "78f0377bc8beba151b6566c664ca83f44fc1842385918f01ba0b67c4371be6b8"
+   }
+  ],
+  "folder": "data/agm/015760_한국전력공사/20260602_20260602000327",
+  "fetched_at": "2026-11-16T13:00:32"
+ },
+ "20260604000161": {
+  "rcept_no": "20260604000161",
+  "corp_code": "00112378",
+  "corp_name": "다이나맥",
+  "stock_code": "000040",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260604",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604000161",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 257,
+  "charter_amend_txt": "data/agm/000040_다이나맥/20260604_20260604000161/정관의변경.txt",
+  "main_xml": "20260604000161.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260604000161.xml",
+    "bytes": 48138,
+    "sha256": "45967180c731e152ef8e68e95cd7b7823c1be8789c500bcb5cc3f12e42549b1f"
+   }
+  ],
+  "folder": "data/agm/000040_다이나맥/20260604_20260604000161",
+  "fetched_at": "2026-11-16T13:00:32"
+ },
+ "20260604000467": {
+  "rcept_no": "20260604000467",
+  "corp_code": "00109514",
+  "corp_name": "티웨이홀딩스",
+  "stock_code": "004870",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260604",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604000467",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260604000467.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260604000467.xml",
+    "bytes": 34953,
+    "sha256": "800e45711bf521daba878f217bc47634d20ae9cd3542e6d8476d13ccc43d6904"
+   }
+  ],
+  "folder": "data/agm/004870_티웨이홀딩스/20260604_20260604000467",
+  "fetched_at": "2026-11-16T13:00:33"
+ },
+ "20260605000280": {
+  "rcept_no": "20260605000280",
+  "corp_code": "00197759",
+  "corp_name": "미래산업",
+  "stock_code": "025560",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260605",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000280",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1804,
+  "charter_amend_txt": "data/agm/025560_미래산업/20260605_20260605000280/정관의변경.txt",
+  "main_xml": "20260605000280.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260605000280.xml",
+    "bytes": 48773,
+    "sha256": "ad7facb0870696c91a73dc41604663c90a993ea2284cb7dfd1209cfd5059cedb"
+   }
+  ],
+  "folder": "data/agm/025560_미래산업/20260605_20260605000280",
+  "fetched_at": "2026-11-16T13:00:34"
+ },
+ "20260605000406": {
+  "rcept_no": "20260605000406",
+  "corp_code": "00106641",
+  "corp_name": "기아",
+  "stock_code": "000270",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260605",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000406",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260605000406.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260605000406.xml",
+    "bytes": 58011,
+    "sha256": "56d81c551e429948afa03f78f039ad1bdddc1240c03b6551ac6fcacd8508e9de"
+   }
+  ],
+  "folder": "data/agm/000270_기아/20260605_20260605000406",
+  "fetched_at": "2026-11-16T13:00:35"
+ },
+ "20260605000585": {
+  "rcept_no": "20260605000585",
+  "corp_code": "00117337",
+  "corp_name": "동양",
+  "stock_code": "001520",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260605",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000585",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 218,
+  "charter_amend_txt": "data/agm/001520_동양/20260605_20260605000585/정관의변경.txt",
+  "main_xml": "20260605000585.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260605000585.xml",
+    "bytes": 66388,
+    "sha256": "a087d1476048cac7ea18beee5c3fe419eca0bb1df48cc86f0bf29391aefec942"
+   }
+  ],
+  "folder": "data/agm/001520_동양/20260605_20260605000585",
+  "fetched_at": "2026-11-16T13:00:35"
+ },
+ "20260609000053": {
+  "rcept_no": "20260609000053",
+  "corp_code": "00114792",
+  "corp_name": "동국홀딩스",
+  "stock_code": "001230",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260609",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609000053",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260609000053.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260609000053.xml",
+    "bytes": 98474,
+    "sha256": "63c40331e90d807d28a2d46c2633fc04376021ba170b999e53c973e147bf40d6"
+   }
+  ],
+  "folder": "data/agm/001230_동국홀딩스/20260609_20260609000053",
+  "fetched_at": "2026-11-16T13:00:36"
+ },
+ "20260609000352": {
+  "rcept_no": "20260609000352",
+  "corp_code": "00153621",
+  "corp_name": "참엔지니어링",
+  "stock_code": "009310",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260609",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609000352",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 304,
+  "charter_amend_txt": "data/agm/009310_참엔지니어링/20260609_20260609000352/정관의변경.txt",
+  "main_xml": "20260609000352.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260609000352.xml",
+    "bytes": 44543,
+    "sha256": "073e8ac7b6aa9b8f06f42a47897edc8d66c09396602aebf82b667e1679780acb"
+   }
+  ],
+  "folder": "data/agm/009310_참엔지니어링/20260609_20260609000352",
+  "fetched_at": "2026-11-16T13:00:36"
+ },
+ "20260612000050": {
+  "rcept_no": "20260612000050",
+  "corp_code": "00134510",
+  "corp_name": "SJG세종",
+  "stock_code": "033530",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260612",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612000050",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 255,
+  "charter_amend_txt": "data/agm/033530_SJG세종/20260612_20260612000050/정관의변경.txt",
+  "main_xml": "20260612000050.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260612000050.xml",
+    "bytes": 54292,
+    "sha256": "0487bb3c163eebaeabc7b399daa1dc7db9ee6f97475eac2a90a0a66feda3020b"
+   }
+  ],
+  "folder": "data/agm/033530_SJG세종/20260612_20260612000050",
+  "fetched_at": "2026-11-16T13:00:37"
+ },
+ "20260615000098": {
+  "rcept_no": "20260615000098",
+  "corp_code": "00159698",
+  "corp_name": "지역난방공사",
+  "stock_code": "071320",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260615",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000098",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260615000098.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260615000098.xml",
+    "bytes": 67985,
+    "sha256": "1852cd69e75d42b5597749a0150a5dac4b0241eced349b63ae79784d9ca43872"
+   }
+  ],
+  "folder": "data/agm/071320_지역난방공사/20260615_20260615000098",
+  "fetched_at": "2026-11-16T13:00:38"
+ },
+ "20260615000129": {
+  "rcept_no": "20260615000129",
+  "corp_code": "00119672",
+  "corp_name": "두올",
+  "stock_code": "016740",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260615",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000129",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260615000129.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260615000129.xml",
+    "bytes": 43575,
+    "sha256": "2d506e909e6ff1211d58939f6731d736f20d669c3c4ad7b996058912be7ba40e"
+   }
+  ],
+  "folder": "data/agm/016740_두올/20260615_20260615000129",
+  "fetched_at": "2026-11-16T13:00:39"
+ },
+ "20260615000139": {
+  "rcept_no": "20260615000139",
+  "corp_code": "00652423",
+  "corp_name": "인바이오젠",
+  "stock_code": "101140",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260615",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000139",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260615000139.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260615000139.xml",
+    "bytes": 52299,
+    "sha256": "3d84ba0d0e78389f4bc945cf55f88bb5cc09155314c90165d6795a559866839c"
+   }
+  ],
+  "folder": "data/agm/101140_인바이오젠/20260615_20260615000139",
+  "fetched_at": "2026-11-16T13:00:39"
+ },
+ "20260615000295": {
+  "rcept_no": "20260615000295",
+  "corp_code": "00134723",
+  "corp_name": "페이퍼코리아",
+  "stock_code": "001020",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260615",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000295",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260615000295.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260615000295.xml",
+    "bytes": 49392,
+    "sha256": "927aec2156cb62097d03dcffd22a95787090ddc8a1331fdc7ce3788aab8c1895"
+   }
+  ],
+  "folder": "data/agm/001020_페이퍼코리아/20260615_20260615000295",
+  "fetched_at": "2026-11-16T13:00:39"
+ },
+ "20260615000317": {
+  "rcept_no": "20260615000317",
+  "corp_code": "00120182",
+  "corp_name": "NH투자증권",
+  "stock_code": "005940",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260615",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000317",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260615000317.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260615000317.xml",
+    "bytes": 128294,
+    "sha256": "99427dc9be78424dc77b0e96b6ebe7e19b2b52a92e592d46a2eec7233b883875"
+   }
+  ],
+  "folder": "data/agm/005940_NH투자증권/20260615_20260615000317",
+  "fetched_at": "2026-11-16T13:00:40"
+ },
+ "20260616000198": {
+  "rcept_no": "20260616000198",
+  "corp_code": "00111421",
+  "corp_name": "휴니드테크놀러지스",
+  "stock_code": "005870",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260616",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260616000198",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260616000198.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260616000198.xml",
+    "bytes": 45504,
+    "sha256": "2ba1cd4c5d18553cec983bf9f7f484cb1c3779afb667995f356288c031d2e37d"
+   }
+  ],
+  "folder": "data/agm/005870_휴니드테크놀러지스/20260616_20260616000198",
+  "fetched_at": "2026-11-16T13:00:41"
+ },
+ "20260616000327": {
+  "rcept_no": "20260616000327",
+  "corp_code": "00149804",
+  "corp_name": "디와이에이",
+  "stock_code": "002880",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260616",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260616000327",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 352,
+  "charter_amend_txt": "data/agm/002880_디와이에이/20260616_20260616000327/정관의변경.txt",
+  "main_xml": "20260616000327.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260616000327.xml",
+    "bytes": 55137,
+    "sha256": "365e49f7f173f6b6b8055667ecd0460926001add4ddd001e1b0279c592cd255b"
+   }
+  ],
+  "folder": "data/agm/002880_디와이에이/20260616_20260616000327",
+  "fetched_at": "2026-11-16T13:00:42"
+ },
+ "20260617000371": {
+  "rcept_no": "20260617000371",
+  "corp_code": "00106395",
+  "corp_name": "금호전기",
+  "stock_code": "001210",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260617",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000371",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 713,
+  "charter_amend_txt": "data/agm/001210_금호전기/20260617_20260617000371/정관의변경.txt",
+  "main_xml": "20260617000371.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260617000371.xml",
+    "bytes": 47891,
+    "sha256": "38f59753b170ee382338bc10f96a5d02560248bf4903f62bfd0d483cde8cb648"
+   }
+  ],
+  "folder": "data/agm/001210_금호전기/20260617_20260617000371",
+  "fetched_at": "2026-11-16T13:00:42"
+ },
+ "20260617000376": {
+  "rcept_no": "20260617000376",
+  "corp_code": "00557508",
+  "corp_name": "GKL",
+  "stock_code": "114090",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260617",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000376",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260617000376.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260617000376.xml",
+    "bytes": 91275,
+    "sha256": "fd120e8de83d535e2c4e12a0b9d90e4fdc0e29db0134241f16c724b33bd56317"
+   }
+  ],
+  "folder": "data/agm/114090_GKL/20260617_20260617000376",
+  "fetched_at": "2026-11-16T13:00:43"
+ },
+ "20260618000177": {
+  "rcept_no": "20260618000177",
+  "corp_code": "00113535",
+  "corp_name": "대한해운",
+  "stock_code": "005880",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260618",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618000177",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260618000177.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260618000177.xml",
+    "bytes": 66656,
+    "sha256": "4cfb8b9698672038d836e11126eac29a8ba8f39ab7fe56a044d7c6ae7207e0b9"
+   }
+  ],
+  "folder": "data/agm/005880_대한해운/20260618_20260618000177",
+  "fetched_at": "2026-11-16T13:00:43"
+ },
+ "20260622000006": {
+  "rcept_no": "20260622000006",
+  "corp_code": "00194947",
+  "corp_name": "한전산업",
+  "stock_code": "130660",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260622",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260622000006",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260622000006.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260622000006.xml",
+    "bytes": 87040,
+    "sha256": "146a70a8860f3089883fec819e5c73d0074045bd08f711ba463196a56f31adf7"
+   }
+  ],
+  "folder": "data/agm/130660_한전산업/20260622_20260622000006",
+  "fetched_at": "2026-11-16T13:00:44"
+ },
+ "20260622000059": {
+  "rcept_no": "20260622000059",
+  "corp_code": "01323032",
+  "corp_name": "KG모빌리티플랫폼",
+  "stock_code": "381970",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260622",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260622000059",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3370,
+  "charter_amend_txt": "data/agm/381970_KG모빌리티플랫폼/20260622_20260622000059/정관의변경.txt",
+  "main_xml": "20260622000059.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260622000059.xml",
+    "bytes": 120994,
+    "sha256": "8381db49188a2d41fa20591f900b3d134376178fb7444b1ace06ba4ffcc190ac"
+   }
+  ],
+  "folder": "data/agm/381970_KG모빌리티플랫폼/20260622_20260622000059",
+  "fetched_at": "2026-11-16T13:00:45"
+ },
+ "20260622000134": {
+  "rcept_no": "20260622000134",
+  "corp_code": "01519790",
+  "corp_name": "엠앤씨솔루션",
+  "stock_code": "484870",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260622",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260622000134",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260622000134.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260622000134.xml",
+    "bytes": 78138,
+    "sha256": "25fef501ec4a466e0f8c4344c8629fce46d80be06478e04698b8af13184dfeb9"
+   }
+  ],
+  "folder": "data/agm/484870_엠앤씨솔루션/20260622_20260622000134",
+  "fetched_at": "2026-11-16T13:00:45"
+ },
+ "20260622000265": {
+  "rcept_no": "20260622000265",
+  "corp_code": "00133618",
+  "corp_name": "우양피앤엘",
+  "stock_code": "002420",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260622",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260622000265",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260622000265.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260622000265.xml",
+    "bytes": 232760,
+    "sha256": "a574289657c3e749355f914887d81b349066dc65df94aef8aaf4b3e0f7ef8312"
+   }
+  ],
+  "folder": "data/agm/002420_우양피앤엘/20260622_20260622000265",
+  "fetched_at": "2026-11-16T13:00:46"
+ },
+ "20260623000292": {
+  "rcept_no": "20260623000292",
+  "corp_code": "01576102",
+  "corp_name": "미래에셋글로벌리츠",
+  "stock_code": "396690",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260623",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000292",
+  "agm_kind": "정기",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260623000292.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260623000292.xml",
+    "bytes": 96301,
+    "sha256": "0ba799c1aca8f6fb7b10330ea4dee13ff55c88827d211d970012f052069b6dc1"
+   }
+  ],
+  "folder": "data/agm/396690_미래에셋글로벌리츠/20260623_20260623000292",
+  "fetched_at": "2026-11-16T13:00:46"
+ },
+ "20260624000214": {
+  "rcept_no": "20260624000214",
+  "corp_code": "00143794",
+  "corp_name": "원림",
+  "stock_code": "005820",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260624",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000214",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 957,
+  "charter_amend_txt": "data/agm/005820_원림/20260624_20260624000214/정관의변경.txt",
+  "main_xml": "20260624000214.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260624000214.xml",
+    "bytes": 43556,
+    "sha256": "272ffaa8e96dab545621779dc3d76e988e99bcc55f1d4e8e2de01382bdc1c25d"
+   }
+  ],
+  "folder": "data/agm/005820_원림/20260624_20260624000214",
+  "fetched_at": "2026-11-16T13:00:47"
+ },
+ "20260624000502": {
+  "rcept_no": "20260624000502",
+  "corp_code": "00118008",
+  "corp_name": "동원모빌리티",
+  "stock_code": "018500",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260624",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000502",
+  "agm_kind": "정기",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3293,
+  "charter_amend_txt": "data/agm/018500_동원모빌리티/20260624_20260624000502/정관의변경.txt",
+  "main_xml": "20260624000502.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260624000502.xml",
+    "bytes": 206442,
+    "sha256": "4bcee3ad5787e6514b48304d6b8de2e3352e13d8a650353680d87c18484208e5"
+   }
+  ],
+  "folder": "data/agm/018500_동원모빌리티/20260624_20260624000502",
+  "fetched_at": "2026-11-16T13:00:47"
+ },
+ "20260625000565": {
+  "rcept_no": "20260625000565",
+  "corp_code": "00127042",
+  "corp_name": "SYTS",
+  "stock_code": "002170",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260625",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625000565",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 536,
+  "charter_amend_txt": "data/agm/002170_SYTS/20260625_20260625000565/정관의변경.txt",
+  "main_xml": "20260625000565.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260625000565.xml",
+    "bytes": 44974,
+    "sha256": "e077c6c3c548fef86ad65fffa30e20d8af041d0594d5a52cff13ec43c020e2c3"
+   }
+  ],
+  "folder": "data/agm/002170_SYTS/20260625_20260625000565",
+  "fetched_at": "2026-11-16T13:00:48"
+ },
+ "20260630000035": {
+  "rcept_no": "20260630000035",
+  "corp_code": "00160588",
+  "corp_name": "한화",
+  "stock_code": "000880",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260630",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000035",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260630000035.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260630000035.xml",
+    "bytes": 405877,
+    "sha256": "02e6ae48617fa74f4c7561d5d6d59781b2f1125d2e6db25140a1175fa9c11750"
+   }
+  ],
+  "folder": "data/agm/000880_한화/20260630_20260630000035",
+  "fetched_at": "2026-11-16T13:00:49"
+ },
+ "20260630000284": {
+  "rcept_no": "20260630000284",
+  "corp_code": "01210677",
+  "corp_name": "씨케이솔루션",
+  "stock_code": "480370",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260630",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000284",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1298,
+  "charter_amend_txt": "data/agm/480370_씨케이솔루션/20260630_20260630000284/정관의변경.txt",
+  "main_xml": "20260630000284.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260630000284.xml",
+    "bytes": 67032,
+    "sha256": "9ac3e8fc837b12a49d2274a76dd6a5a4eef27e0b2311a797ea8afde3f943a357"
+   }
+  ],
+  "folder": "data/agm/480370_씨케이솔루션/20260630_20260630000284",
+  "fetched_at": "2026-11-16T13:00:49"
+ },
+ "20260701000239": {
+  "rcept_no": "20260701000239",
+  "corp_code": "00112022",
+  "corp_name": "대원화성",
+  "stock_code": "024890",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260701",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000239",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 880,
+  "charter_amend_txt": "data/agm/024890_대원화성/20260701_20260701000239/정관의변경.txt",
+  "main_xml": "20260701000239.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260701000239.xml",
+    "bytes": 77400,
+    "sha256": "06f5387b5ef645d2ef08761f63d4870a3ede04b07f251e9473afb2317d860fd8"
+   }
+  ],
+  "folder": "data/agm/024890_대원화성/20260701_20260701000239",
+  "fetched_at": "2026-11-16T13:00:49"
+ },
+ "20260701000387": {
+  "rcept_no": "20260701000387",
+  "corp_code": "00103662",
+  "corp_name": "광명전기",
+  "stock_code": "017040",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260701",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000387",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260701000387.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260701000387.xml",
+    "bytes": 751341,
+    "sha256": "e52be65be0c483b0166bcb32f954bd305bbbd16b33548c1a526c3350e2ae12c5"
+   }
+  ],
+  "folder": "data/agm/017040_광명전기/20260701_20260701000387",
+  "fetched_at": "2026-11-16T13:00:50"
+ },
+ "20260706000216": {
+  "rcept_no": "20260706000216",
+  "corp_code": "00137368",
+  "corp_name": "신풍",
+  "stock_code": "002870",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260706",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000216",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 626,
+  "charter_amend_txt": "data/agm/002870_신풍/20260706_20260706000216/정관의변경.txt",
+  "main_xml": "20260706000216.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260706000216.xml",
+    "bytes": 36272,
+    "sha256": "001eabb6e59dba0d1ba27a7eefdf68f3c26c1f08912cf39c0aa780bae072b227"
+   }
+  ],
+  "folder": "data/agm/002870_신풍/20260706_20260706000216",
+  "fetched_at": "2026-11-16T13:00:50"
+ },
+ "20260707000282": {
+  "rcept_no": "20260707000282",
+  "corp_code": "00269241",
+  "corp_name": "주연테크",
+  "stock_code": "044380",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260707",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707000282",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3618,
+  "charter_amend_txt": "data/agm/044380_주연테크/20260707_20260707000282/정관의변경.txt",
+  "main_xml": "20260707000282.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260707000282.xml",
+    "bytes": 61777,
+    "sha256": "2ff393ab9bba89f13de21e488990328857707b52426a87aa75753c0a6c656d74"
+   }
+  ],
+  "folder": "data/agm/044380_주연테크/20260707_20260707000282",
+  "fetched_at": "2026-11-16T13:00:51"
+ },
+ "20260707000341": {
+  "rcept_no": "20260707000341",
+  "corp_code": "00137252",
+  "corp_name": "사조동아원",
+  "stock_code": "008040",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260707",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707000341",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 811,
+  "charter_amend_txt": "data/agm/008040_사조동아원/20260707_20260707000341/정관의변경.txt",
+  "main_xml": "20260707000341.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260707000341.xml",
+    "bytes": 48185,
+    "sha256": "08b474192940f3b2f9b1ed83061ae32c5e835782d0762c4f7292740f39a793f1"
+   }
+  ],
+  "folder": "data/agm/008040_사조동아원/20260707_20260707000341",
+  "fetched_at": "2026-11-16T13:00:51"
+ },
+ "20260707000435": {
+  "rcept_no": "20260707000435",
+  "corp_code": "00141404",
+  "corp_name": "블루산업개발",
+  "stock_code": "006740",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260707",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707000435",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1512,
+  "charter_amend_txt": "data/agm/006740_블루산업개발/20260707_20260707000435/정관의변경.txt",
+  "main_xml": "20260707000435.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260707000435.xml",
+    "bytes": 59621,
+    "sha256": "a95a229ea3aca0b7dcba4a6ea0823b01dd808aec01cd60ba7dd26ea1e8ba2880"
+   }
+  ],
+  "folder": "data/agm/006740_블루산업개발/20260707_20260707000435",
+  "fetched_at": "2026-11-16T13:00:52"
+ },
+ "20260708000104": {
+  "rcept_no": "20260708000104",
+  "corp_code": "00159698",
+  "corp_name": "지역난방공사",
+  "stock_code": "071320",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260708",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708000104",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260708000104.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260708000104.xml",
+    "bytes": 73333,
+    "sha256": "7a5ecb2295dcfe2df40db75c23c6499547e8f6da8cd042e3340c6127ef63bc85"
+   }
+  ],
+  "folder": "data/agm/071320_지역난방공사/20260708_20260708000104",
+  "fetched_at": "2026-11-16T13:00:52"
+ },
+ "20260708000176": {
+  "rcept_no": "20260708000176",
+  "corp_code": "00261285",
+  "corp_name": "한국가스공사",
+  "stock_code": "036460",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260708",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708000176",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260708000176.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260708000176.xml",
+    "bytes": 120104,
+    "sha256": "04842746c67cdf21fddc3f07d1da345d9098cbbfa922076412aef75b6626e0ae"
+   }
+  ],
+  "folder": "data/agm/036460_한국가스공사/20260708_20260708000176",
+  "fetched_at": "2026-11-16T13:00:53"
+ },
+ "20260708000430": {
+  "rcept_no": "20260708000430",
+  "corp_code": "00145437",
+  "corp_name": "아센디오",
+  "stock_code": "012170",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260708",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708000430",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 634,
+  "charter_amend_txt": "data/agm/012170_아센디오/20260708_20260708000430/정관의변경.txt",
+  "main_xml": "20260708000430.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260708000430.xml",
+    "bytes": 59365,
+    "sha256": "dbfbc80da34f7ca01c79b12e2566daf2ef9ef9bbb4d64a00eeef418928a73b49"
+   }
+  ],
+  "folder": "data/agm/012170_아센디오/20260708_20260708000430",
+  "fetched_at": "2026-11-16T13:00:54"
+ },
+ "20260709000152": {
+  "rcept_no": "20260709000152",
+  "corp_code": "00671376",
+  "corp_name": "트리니티항공",
+  "stock_code": "091810",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260709",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000152",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 676,
+  "charter_amend_txt": "data/agm/091810_트리니티항공/20260709_20260709000152/정관의변경.txt",
+  "main_xml": "20260709000152.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260709000152.xml",
+    "bytes": 70388,
+    "sha256": "2541a209b4d74a4e36615d4a4e38357db114c41a565f616c9ff2cbcb75dbd9a1"
+   }
+  ],
+  "folder": "data/agm/091810_트리니티항공/20260709_20260709000152",
+  "fetched_at": "2026-11-16T13:00:54"
+ },
+ "20260709000513": {
+  "rcept_no": "20260709000513",
+  "corp_code": "00372129",
+  "corp_name": "전진건설로봇",
+  "stock_code": "079900",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260709",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000513",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260709000513.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260709000513.xml",
+    "bytes": 45675,
+    "sha256": "e7a0dfbe7cf85ee42a7c601f8c7904fd38f87eeb42960cadaa042220d2937a75"
+   }
+  ],
+  "folder": "data/agm/079900_전진건설로봇/20260709_20260709000513",
+  "fetched_at": "2026-11-16T13:00:55"
+ },
+ "20260709000687": {
+  "rcept_no": "20260709000687",
+  "corp_code": "00126089",
+  "corp_name": "DH오토넥스",
+  "stock_code": "000300",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260709",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000687",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 7417,
+  "charter_amend_txt": "data/agm/000300_DH오토넥스/20260709_20260709000687/정관의변경.txt",
+  "main_xml": "20260709000687.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260709000687.xml",
+    "bytes": 81360,
+    "sha256": "22fe23d4f05f2062e931d407daa0c7a9ad8833cb2e77ae17a1f63e3b93cb4b40"
+   }
+  ],
+  "folder": "data/agm/000300_DH오토넥스/20260709_20260709000687",
+  "fetched_at": "2026-11-16T13:00:55"
+ },
+ "20260710000246": {
+  "rcept_no": "20260710000246",
+  "corp_code": "00107066",
+  "corp_name": "남광토건",
+  "stock_code": "001260",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260710",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000246",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260710000246.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260710000246.xml",
+    "bytes": 46269,
+    "sha256": "188a088ca73b9536b781e32ae49ac13762202085e7963e7f0bffef6df2656747"
+   }
+  ],
+  "folder": "data/agm/001260_남광토건/20260710_20260710000246",
+  "fetched_at": "2026-11-16T13:00:56"
+ },
+ "20260713000130": {
+  "rcept_no": "20260713000130",
+  "corp_code": "01817081",
+  "corp_name": "SK이터닉스",
+  "stock_code": "475150",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260713",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000130",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260713000130.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260713000130.xml",
+    "bytes": 87062,
+    "sha256": "40203a190aba1c60f98f9b7b5ae4b67324bd64c890e13a52c53004594051969e"
+   }
+  ],
+  "folder": "data/agm/475150_SK이터닉스/20260713_20260713000130",
+  "fetched_at": "2026-11-16T13:00:56"
+ },
+ "20260713000151": {
+  "rcept_no": "20260713000151",
+  "corp_code": "00203582",
+  "corp_name": "한솔홈데코",
+  "stock_code": "025750",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260713",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000151",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260713000151.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260713000151.xml",
+    "bytes": 82188,
+    "sha256": "d7b2591dd43ed25e5e9e3b3aed0906e00319900c69552d9e7e8fcb630b9c1225"
+   }
+  ],
+  "folder": "data/agm/025750_한솔홈데코/20260713_20260713000151",
+  "fetched_at": "2026-11-16T13:00:57"
+ },
+ "20260713000463": {
+  "rcept_no": "20260713000463",
+  "corp_code": "00122825",
+  "corp_name": "프리티",
+  "stock_code": "006490",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260713",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000463",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 472,
+  "charter_amend_txt": "data/agm/006490_프리티/20260713_20260713000463/정관의변경.txt",
+  "main_xml": "20260713000463.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260713000463.xml",
+    "bytes": 82182,
+    "sha256": "02c6181b084c22d5e978f344d5ca4b0da1eabaf16d3a57f7c949c93653b3fa8b"
+   }
+  ],
+  "folder": "data/agm/006490_프리티/20260713_20260713000463",
+  "fetched_at": "2026-11-16T13:00:57"
+ },
+ "20260714000157": {
+  "rcept_no": "20260714000157",
+  "corp_code": "00141413",
+  "corp_name": "영화금속",
+  "stock_code": "012280",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260714",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000157",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 267,
+  "charter_amend_txt": "data/agm/012280_영화금속/20260714_20260714000157/정관의변경.txt",
+  "main_xml": "20260714000157.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260714000157.xml",
+    "bytes": 34840,
+    "sha256": "82e929405e0fb8409c83c7dd1e87937c35415839a6eebd4bc57c7d1f598aaec2"
+   }
+  ],
+  "folder": "data/agm/012280_영화금속/20260714_20260714000157",
+  "fetched_at": "2026-11-16T13:00:58"
+ },
+ "20260715000379": {
+  "rcept_no": "20260715000379",
+  "corp_code": "00103130",
+  "corp_name": "MDS스피어",
+  "stock_code": "009810",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260715",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715000379",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2854,
+  "charter_amend_txt": "data/agm/009810_MDS스피어/20260715_20260715000379/정관의변경.txt",
+  "main_xml": "20260715000379.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260715000379.xml",
+    "bytes": 49282,
+    "sha256": "94629d32f4144958f9b5eb9fc238096108bd553fb6026ec34d29e91eeccb3074"
+   }
+  ],
+  "folder": "data/agm/009810_MDS스피어/20260715_20260715000379",
+  "fetched_at": "2026-11-16T13:00:58"
+ },
+ "20260715000384": {
+  "rcept_no": "20260715000384",
+  "corp_code": "00107677",
+  "corp_name": "비비안",
+  "stock_code": "002070",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260715",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715000384",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 704,
+  "charter_amend_txt": "data/agm/002070_비비안/20260715_20260715000384/정관의변경.txt",
+  "main_xml": "20260715000384.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260715000384.xml",
+    "bytes": 48208,
+    "sha256": "56797448147081cc242b19e99c0dbca29e31a919530f13d9a71e8bf20e37abc3"
+   }
+  ],
+  "folder": "data/agm/002070_비비안/20260715_20260715000384",
+  "fetched_at": "2026-11-16T13:00:59"
+ },
+ "20260716000371": {
+  "rcept_no": "20260716000371",
+  "corp_code": "00108913",
+  "corp_name": "대교",
+  "stock_code": "019680",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260716",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000371",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 507,
+  "charter_amend_txt": "data/agm/019680_대교/20260716_20260716000371/정관의변경.txt",
+  "main_xml": "20260716000371.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260716000371.xml",
+    "bytes": 61541,
+    "sha256": "0fdcf978b864a1092ca9983fb55fa69afca86d3c72a2ab0001904207fc0763e1"
+   }
+  ],
+  "folder": "data/agm/019680_대교/20260716_20260716000371",
+  "fetched_at": "2026-11-16T13:00:59"
+ },
+ "20260716000410": {
+  "rcept_no": "20260716000410",
+  "corp_code": "00119672",
+  "corp_name": "두올",
+  "stock_code": "016740",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260716",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000410",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3923,
+  "charter_amend_txt": "data/agm/016740_두올/20260716_20260716000410/정관의변경.txt",
+  "main_xml": "20260716000410.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260716000410.xml",
+    "bytes": 84025,
+    "sha256": "603768134dcccb1911667da0319fdab8868ec7422e120fdb929d5a29c4f4a4be"
+   }
+  ],
+  "folder": "data/agm/016740_두올/20260716_20260716000410",
+  "fetched_at": "2026-11-16T13:01:15"
+ },
+ "20260716000421": {
+  "rcept_no": "20260716000421",
+  "corp_code": "00508344",
+  "corp_name": "SK디앤디",
+  "stock_code": "210980",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260716",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000421",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 9447,
+  "charter_amend_txt": "data/agm/210980_SK디앤디/20260716_20260716000421/정관의변경.txt",
+  "main_xml": "20260716000421.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260716000421.xml",
+    "bytes": 152368,
+    "sha256": "c5177a97acdd8b7fbdd68060eb5c534e1306586f51a14b96ed017be4b14b37ad"
+   }
+  ],
+  "folder": "data/agm/210980_SK디앤디/20260716_20260716000421",
+  "fetched_at": "2026-11-16T13:01:16"
+ },
+ "20260716000493": {
+  "rcept_no": "20260716000493",
+  "corp_code": "00158307",
+  "corp_name": "롯데하이마트",
+  "stock_code": "071840",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260716",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000493",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260716000493.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260716000493.xml",
+    "bytes": 123226,
+    "sha256": "bc6528dee6633c06a3e007511ae73c7f95c8ec83d3ca2a34e3ce131085339f63"
+   }
+  ],
+  "folder": "data/agm/071840_롯데하이마트/20260716_20260716000493",
+  "fetched_at": "2026-11-16T13:01:16"
+ },
+ "20260716000710": {
+  "rcept_no": "20260716000710",
+  "corp_code": "00141626",
+  "corp_name": "오리엔트바이오",
+  "stock_code": "002630",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260716",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000710",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 606,
+  "charter_amend_txt": "data/agm/002630_오리엔트바이오/20260716_20260716000710/정관의변경.txt",
+  "main_xml": "20260716000710.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260716000710.xml",
+    "bytes": 68180,
+    "sha256": "637674363917d54bb77614d8341dc300523e3be16cecc6374685194bdca6265a"
+   }
+  ],
+  "folder": "data/agm/002630_오리엔트바이오/20260716_20260716000710",
+  "fetched_at": "2026-11-16T13:01:17"
+ },
+ "20260716000788": {
+  "rcept_no": "20260716000788",
+  "corp_code": "00150828",
+  "corp_name": "진흥기업",
+  "stock_code": "002780",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260716",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000788",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 288,
+  "charter_amend_txt": "data/agm/002780_진흥기업/20260716_20260716000788/정관의변경.txt",
+  "main_xml": "20260716000788.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260716000788.xml",
+    "bytes": 46485,
+    "sha256": "9b959e75132f77dd62207ac50125e641aa75db709b4c24e9c41e68b0bb4cd9f4"
+   }
+  ],
+  "folder": "data/agm/002780_진흥기업/20260716_20260716000788",
+  "fetched_at": "2026-11-16T13:01:17"
+ },
+ "20260720000237": {
+  "rcept_no": "20260720000237",
+  "corp_code": "00109806",
+  "corp_name": "삼일씨엔에스",
+  "stock_code": "004440",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260720",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000237",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260720000237.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260720000237.xml",
+    "bytes": 68977,
+    "sha256": "cad6bab2d3c9b390c7a4f8cfa13d8fb39ae57cea6a8bdc0a4547ff784bcc6d13"
+   }
+  ],
+  "folder": "data/agm/004440_삼일씨엔에스/20260720_20260720000237",
+  "fetched_at": "2026-11-16T13:01:18"
+ },
+ "20260722000302": {
+  "rcept_no": "20260722000302",
+  "corp_code": "00753643",
+  "corp_name": "주성코퍼레이션",
+  "stock_code": "109070",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260722",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000302",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 769,
+  "charter_amend_txt": "data/agm/109070_주성코퍼레이션/20260722_20260722000302/정관의변경.txt",
+  "main_xml": "20260722000302.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260722000302.xml",
+    "bytes": 128234,
+    "sha256": "2b721630ce6101fd367255883e9216ebc4d2ccee68c2d4ed3099c7da8903c25c"
+   }
+  ],
+  "folder": "data/agm/109070_주성코퍼레이션/20260722_20260722000302",
+  "fetched_at": "2026-11-16T13:01:18"
+ },
+ "20260722000502": {
+  "rcept_no": "20260722000502",
+  "corp_code": "00149804",
+  "corp_name": "디와이에이",
+  "stock_code": "002880",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260722",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000502",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 242,
+  "charter_amend_txt": "data/agm/002880_디와이에이/20260722_20260722000502/정관의변경.txt",
+  "main_xml": "20260722000502.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260722000502.xml",
+    "bytes": 64615,
+    "sha256": "e494b780dc2638491380cf3b31949f9b0def98f778a0054144fd08b45dbf34bf"
+   }
+  ],
+  "folder": "data/agm/002880_디와이에이/20260722_20260722000502",
+  "fetched_at": "2026-11-16T13:01:19"
+ },
+ "20260723000376": {
+  "rcept_no": "20260723000376",
+  "corp_code": "00112059",
+  "corp_name": "상상인증권",
+  "stock_code": "001290",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260723",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000376",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 307,
+  "charter_amend_txt": "data/agm/001290_상상인증권/20260723_20260723000376/정관의변경.txt",
+  "main_xml": "20260723000376.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260723000376.xml",
+    "bytes": 62749,
+    "sha256": "e3aa0ae2ec46a470c14730d4a132005e10b3364e2e2a51dfbb65d0e91888f3d4"
+   }
+  ],
+  "folder": "data/agm/001290_상상인증권/20260723_20260723000376",
+  "fetched_at": "2026-11-16T13:01:19"
+ },
+ "20260723000451": {
+  "rcept_no": "20260723000451",
+  "corp_code": "00149239",
+  "corp_name": "조일알미늄",
+  "stock_code": "018470",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260723",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000451",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 195,
+  "charter_amend_txt": "data/agm/018470_조일알미늄/20260723_20260723000451/정관의변경.txt",
+  "main_xml": "20260723000451.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260723000451.xml",
+    "bytes": 40116,
+    "sha256": "49b766a10ec7ffd06be9455b55dbfbf15e109b55dcb47639ce7a45678cd64199"
+   }
+  ],
+  "folder": "data/agm/018470_조일알미늄/20260723_20260723000451",
+  "fetched_at": "2026-11-16T13:01:20"
+ },
+ "20260724000408": {
+  "rcept_no": "20260724000408",
+  "corp_code": "00127158",
+  "corp_name": "씨아이테크",
+  "stock_code": "004920",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260724",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000408",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 606,
+  "charter_amend_txt": "data/agm/004920_씨아이테크/20260724_20260724000408/정관의변경.txt",
+  "main_xml": "20260724000408.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260724000408.xml",
+    "bytes": 66779,
+    "sha256": "6968ab865a1ca073d8b0330effa4aa49fd31acc274c58e7122c946596b62c5a7"
+   }
+  ],
+  "folder": "data/agm/004920_씨아이테크/20260724_20260724000408",
+  "fetched_at": "2026-11-16T13:01:20"
+ },
+ "20260724000619": {
+  "rcept_no": "20260724000619",
+  "corp_code": "00101220",
+  "corp_name": "KG케미칼",
+  "stock_code": "001390",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260724",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000619",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260724000619.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260724000619.xml",
+    "bytes": 68343,
+    "sha256": "9ac4597302f395b209abc97c7fb0a2e4650ab5f75b10ed3bbaca5ebbf186cd6b"
+   }
+  ],
+  "folder": "data/agm/001390_KG케미칼/20260724_20260724000619",
+  "fetched_at": "2026-11-16T13:01:21"
+ },
+ "20260728000437": {
+  "rcept_no": "20260728000437",
+  "corp_code": "00138792",
+  "corp_name": "아시아나항공",
+  "stock_code": "020560",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260728",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000437",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260728000437.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260728000437.xml",
+    "bytes": 215029,
+    "sha256": "d34760ae4b4469341c690df3512c81c1b2332a54cd2198019f5fd3dfaca42472"
+   }
+  ],
+  "folder": "data/agm/020560_아시아나항공/20260728_20260728000437",
+  "fetched_at": "2026-11-16T13:01:21"
+ },
+ "20260730000332": {
+  "rcept_no": "20260730000332",
+  "corp_code": "00936787",
+  "corp_name": "애경케미칼",
+  "stock_code": "161000",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260730",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000332",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260730000332.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260730000332.xml",
+    "bytes": 120596,
+    "sha256": "06ced75cf7a2dd8706d4260ee8117fd691ee60ea3b96c20bf3f42b777be5e4c1"
+   }
+  ],
+  "folder": "data/agm/161000_애경케미칼/20260730_20260730000332",
+  "fetched_at": "2026-11-16T13:01:22"
+ },
+ "20260730000386": {
+  "rcept_no": "20260730000386",
+  "corp_code": "01323032",
+  "corp_name": "KG모빌리티플랫폼",
+  "stock_code": "381970",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260730",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000386",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 556,
+  "charter_amend_txt": "data/agm/381970_KG모빌리티플랫폼/20260730_20260730000386/정관의변경.txt",
+  "main_xml": "20260730000386.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260730000386.xml",
+    "bytes": 68406,
+    "sha256": "6a6f29cd51f847ec736416cde14345ace813d9ff99fd7440fca237642cd38030"
+   }
+  ],
+  "folder": "data/agm/381970_KG모빌리티플랫폼/20260730_20260730000386",
+  "fetched_at": "2026-11-16T13:01:22"
+ },
+ "20260803000296": {
+  "rcept_no": "20260803000296",
+  "corp_code": "00269940",
+  "corp_name": "하나투어",
+  "stock_code": "039130",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260803",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803000296",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3121,
+  "charter_amend_txt": "data/agm/039130_하나투어/20260803_20260803000296/정관의변경.txt",
+  "main_xml": "20260803000296.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260803000296.xml",
+    "bytes": 114710,
+    "sha256": "de1a9769f59258f0e438551a4583e9e6bfd8176a98a1616f95096e5b70d633ed"
+   }
+  ],
+  "folder": "data/agm/039130_하나투어/20260803_20260803000296",
+  "fetched_at": "2026-11-16T13:01:23"
+ },
+ "20260805000022": {
+  "rcept_no": "20260805000022",
+  "corp_code": "01208885",
+  "corp_name": "경동도시가스",
+  "stock_code": "267290",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260805",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000022",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260805000022.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260805000022.xml",
+    "bytes": 55562,
+    "sha256": "a990daae0a5d223db544993f59c7a83d2ab679d4d50a5de8ab21fb221ad83281"
+   }
+  ],
+  "folder": "data/agm/267290_경동도시가스/20260805_20260805000022",
+  "fetched_at": "2026-11-16T13:01:23"
+ },
+ "20260805000162": {
+  "rcept_no": "20260805000162",
+  "corp_code": "00167208",
+  "corp_name": "흥아해운",
+  "stock_code": "003280",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260805",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000162",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 260,
+  "charter_amend_txt": "data/agm/003280_흥아해운/20260805_20260805000162/정관의변경.txt",
+  "main_xml": "20260805000162.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260805000162.xml",
+    "bytes": 47715,
+    "sha256": "73c93f25bb04e4bfab8e72281bbb6458ecc19684ce1b9a91097f4013dc57d805"
+   }
+  ],
+  "folder": "data/agm/003280_흥아해운/20260805_20260805000162",
+  "fetched_at": "2026-11-16T13:01:24"
+ },
+ "20260805000431": {
+  "rcept_no": "20260805000431",
+  "corp_code": "00146296",
+  "corp_name": "일신석재",
+  "stock_code": "007110",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260805",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000431",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 535,
+  "charter_amend_txt": "data/agm/007110_일신석재/20260805_20260805000431/정관의변경.txt",
+  "main_xml": "20260805000431.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260805000431.xml",
+    "bytes": 38763,
+    "sha256": "0ed43f3e4b5db884516b48e6d6d70360e6ecb2693ef090d5969ae1d38a1dfe3d"
+   }
+  ],
+  "folder": "data/agm/007110_일신석재/20260805_20260805000431",
+  "fetched_at": "2026-11-16T13:01:24"
+ },
+ "20260806000007": {
+  "rcept_no": "20260806000007",
+  "corp_code": "00129013",
+  "corp_name": "CJ씨푸드",
+  "stock_code": "011150",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260806",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000007",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260806000007.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260806000007.xml",
+    "bytes": 37495,
+    "sha256": "b828cf14b4ad426a570c467c3b4a921509d70983525b906c20507b4e7dadf506"
+   }
+  ],
+  "folder": "data/agm/011150_CJ씨푸드/20260806_20260806000007",
+  "fetched_at": "2026-11-16T13:01:25"
+ },
+ "20260807000782": {
+  "rcept_no": "20260807000782",
+  "corp_code": "00428729",
+  "corp_name": "대호에이엘",
+  "stock_code": "069460",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260807",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000782",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260807000782.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260807000782.xml",
+    "bytes": 84742,
+    "sha256": "9a15b4af5b121d811f014818aed7d265380d8d54dcc7e51006e8e3c2860b21bc"
+   }
+  ],
+  "folder": "data/agm/069460_대호에이엘/20260807_20260807000782",
+  "fetched_at": "2026-11-16T13:01:25"
+ },
+ "20260810000551": {
+  "rcept_no": "20260810000551",
+  "corp_code": "01205851",
+  "corp_name": "HD현대일렉트릭",
+  "stock_code": "267260",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260810",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000551",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260810000551.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260810000551.xml",
+    "bytes": 92872,
+    "sha256": "682ac0cae84824aa89cdcfc131859bed3b4f110830e5fcacebf224758d93dbb9"
+   }
+  ],
+  "folder": "data/agm/267260_HD현대일렉트릭/20260810_20260810000551",
+  "fetched_at": "2026-11-16T13:01:26"
+ },
+ "20260810000698": {
+  "rcept_no": "20260810000698",
+  "corp_code": "00145437",
+  "corp_name": "아센디오",
+  "stock_code": "012170",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260810",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000698",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 4353,
+  "charter_amend_txt": "data/agm/012170_아센디오/20260810_20260810000698/정관의변경.txt",
+  "main_xml": "20260810000698.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260810000698.xml",
+    "bytes": 85985,
+    "sha256": "36b368993ec06da6171ea4cff400e6fe0181bd6b53a9e4f87ebfa688335afb9d"
+   }
+  ],
+  "folder": "data/agm/012170_아센디오/20260810_20260810000698",
+  "fetched_at": "2026-11-16T13:01:26"
+ },
+ "20260811000423": {
+  "rcept_no": "20260811000423",
+  "corp_code": "00261285",
+  "corp_name": "한국가스공사",
+  "stock_code": "036460",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260811",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000423",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260811000423.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260811000423.xml",
+    "bytes": 125437,
+    "sha256": "27ee22b33959c9a0aa3801761a98cd171a74c938a248ff52298e50740534fd3f"
+   }
+  ],
+  "folder": "data/agm/036460_한국가스공사/20260811_20260811000423",
+  "fetched_at": "2026-11-16T13:01:27"
+ },
+ "20260811000533": {
+  "rcept_no": "20260811000533",
+  "corp_code": "00102140",
+  "corp_name": "케이아이이",
+  "stock_code": "009140",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260811",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000533",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1207,
+  "charter_amend_txt": "data/agm/009140_케이아이이/20260811_20260811000533/정관의변경.txt",
+  "main_xml": "20260811000533.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260811000533.xml",
+    "bytes": 41185,
+    "sha256": "75951c19c39ce477afcf6097e8d42ff9d4930fde2dfb91f9882ae0ed4ec917da"
+   }
+  ],
+  "folder": "data/agm/009140_케이아이이/20260811_20260811000533",
+  "fetched_at": "2026-11-16T13:01:27"
+ },
+ "20260811000682": {
+  "rcept_no": "20260811000682",
+  "corp_code": "00255619",
+  "corp_name": "강원랜드",
+  "stock_code": "035250",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260811",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000682",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1096,
+  "charter_amend_txt": "data/agm/035250_강원랜드/20260811_20260811000682/정관의변경.txt",
+  "main_xml": "20260811000682.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260811000682.xml",
+    "bytes": 121957,
+    "sha256": "251d6b4b6f7c51a0e462aeccbed33d0651419bba0cc118ce9117f7b7a9ac1dd1"
+   }
+  ],
+  "folder": "data/agm/035250_강원랜드/20260811_20260811000682",
+  "fetched_at": "2026-11-16T13:01:28"
+ },
+ "20260811000705": {
+  "rcept_no": "20260811000705",
+  "corp_code": "00102858",
+  "corp_name": "고려아연",
+  "stock_code": "010130",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260811",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000705",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 6610,
+  "charter_amend_txt": "data/agm/010130_고려아연/20260811_20260811000705/정관의변경.txt",
+  "main_xml": "20260811000705.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260811000705.xml",
+    "bytes": 143966,
+    "sha256": "dda82380a8d7aa6c748275bda551b151b5a4f8374cb04b9dc62421094c8ca6ba"
+   }
+  ],
+  "folder": "data/agm/010130_고려아연/20260811_20260811000705",
+  "fetched_at": "2026-11-16T13:01:28"
+ },
+ "20260812000512": {
+  "rcept_no": "20260812000512",
+  "corp_code": "00540605",
+  "corp_name": "이월드",
+  "stock_code": "084680",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260812",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000512",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1514,
+  "charter_amend_txt": "data/agm/084680_이월드/20260812_20260812000512/정관의변경.txt",
+  "main_xml": "20260812000512.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260812000512.xml",
+    "bytes": 46722,
+    "sha256": "d6718f572c25a2e2f798994ddf2e7808cf3a6bcf13430f358d50fa4d4abf534b"
+   }
+  ],
+  "folder": "data/agm/084680_이월드/20260812_20260812000512",
+  "fetched_at": "2026-11-16T13:01:29"
+ },
+ "20260812000523": {
+  "rcept_no": "20260812000523",
+  "corp_code": "00111111",
+  "corp_name": "대양금속",
+  "stock_code": "009190",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260812",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000523",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 402,
+  "charter_amend_txt": "data/agm/009190_대양금속/20260812_20260812000523/정관의변경.txt",
+  "main_xml": "20260812000523.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260812000523.xml",
+    "bytes": 65681,
+    "sha256": "702ee5f451388d8a8e1c41af465a9b861730a137a35dc95c508cd2f8f39d5c8f"
+   }
+  ],
+  "folder": "data/agm/009190_대양금속/20260812_20260812000523",
+  "fetched_at": "2026-11-16T13:01:31"
+ },
+ "20260812000583": {
+  "rcept_no": "20260812000583",
+  "corp_code": "00113359",
+  "corp_name": "교보증권",
+  "stock_code": "030610",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260812",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000583",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2837,
+  "charter_amend_txt": "data/agm/030610_교보증권/20260812_20260812000583/정관의변경.txt",
+  "main_xml": "20260812000583.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260812000583.xml",
+    "bytes": 209445,
+    "sha256": "70dce3273304a05c8f6191ec6bf08733ed811c523465f8a81250088fac8fae84"
+   }
+  ],
+  "folder": "data/agm/030610_교보증권/20260812_20260812000583",
+  "fetched_at": "2026-11-16T13:01:31"
+ },
+ "20260813000364": {
+  "rcept_no": "20260813000364",
+  "corp_code": "00767460",
+  "corp_name": "PI첨단소재",
+  "stock_code": "178920",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260813",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813000364",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260813000364.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260813000364.xml",
+    "bytes": 59156,
+    "sha256": "567217f5da6f094b60b7c5ffcf80a3c768da8659d07af95100e3c802b47c80be"
+   }
+  ],
+  "folder": "data/agm/178920_PI첨단소재/20260813_20260813000364",
+  "fetched_at": "2026-11-16T13:01:32"
+ },
+ "20260819000262": {
+  "rcept_no": "20260819000262",
+  "corp_code": "00111458",
+  "corp_name": "대영포장",
+  "stock_code": "014160",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260819",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000262",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 285,
+  "charter_amend_txt": "data/agm/014160_대영포장/20260819_20260819000262/정관의변경.txt",
+  "main_xml": "20260819000262.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260819000262.xml",
+    "bytes": 50595,
+    "sha256": "8d7fab3c983eb67b96b0fb3762ee94abab02543b29e570d2e59569f559a2985a"
+   }
+  ],
+  "folder": "data/agm/014160_대영포장/20260819_20260819000262",
+  "fetched_at": "2026-11-16T13:01:32"
+ },
+ "20260819000308": {
+  "rcept_no": "20260819000308",
+  "corp_code": "00353878",
+  "corp_name": "다스코",
+  "stock_code": "058730",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260819",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000308",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2458,
+  "charter_amend_txt": "data/agm/058730_다스코/20260819_20260819000308/정관의변경.txt",
+  "main_xml": "20260819000308.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260819000308.xml",
+    "bytes": 134939,
+    "sha256": "255cf6aec8e0ddb5d2e4b8be4f72d72a77803a413243a91816169889713bef4a"
+   }
+  ],
+  "folder": "data/agm/058730_다스코/20260819_20260819000308",
+  "fetched_at": "2026-11-16T13:01:33"
+ },
+ "20260819000331": {
+  "rcept_no": "20260819000331",
+  "corp_code": "00481454",
+  "corp_name": "금호타이어",
+  "stock_code": "073240",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260819",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000331",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260819000331.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260819000331.xml",
+    "bytes": 64826,
+    "sha256": "b43f0062e04d8521979af942df2f105253a92f3eae592e84981cea8d1b361448"
+   }
+  ],
+  "folder": "data/agm/073240_금호타이어/20260819_20260819000331",
+  "fetched_at": "2026-11-16T13:01:34"
+ },
+ "20260820000125": {
+  "rcept_no": "20260820000125",
+  "corp_code": "00339391",
+  "corp_name": "한화시스템",
+  "stock_code": "272210",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260820",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820000125",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260820000125.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260820000125.xml",
+    "bytes": 68669,
+    "sha256": "e51012d5844e070d66c0b53d691b185504961cdf23378cceb4abdcfdc91ff280"
+   }
+  ],
+  "folder": "data/agm/272210_한화시스템/20260820_20260820000125",
+  "fetched_at": "2026-11-16T13:01:34"
+ },
+ "20260820000390": {
+  "rcept_no": "20260820000390",
+  "corp_code": "00126566",
+  "corp_name": "한화에어로스페이스",
+  "stock_code": "012450",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260820",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820000390",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260820000390.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260820000390.xml",
+    "bytes": 165936,
+    "sha256": "4fb0ad5af635b92c55dbc44a3bd789ab5187b7fe78f00968c41b20a05df21dd6"
+   }
+  ],
+  "folder": "data/agm/012450_한화에어로스페이스/20260820_20260820000390",
+  "fetched_at": "2026-11-16T13:01:35"
+ },
+ "20260821000348": {
+  "rcept_no": "20260821000348",
+  "corp_code": "00210856",
+  "corp_name": "코아스",
+  "stock_code": "071950",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260821",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000348",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 712,
+  "charter_amend_txt": "data/agm/071950_코아스/20260821_20260821000348/정관의변경.txt",
+  "main_xml": "20260821000348.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260821000348.xml",
+    "bytes": 75951,
+    "sha256": "e8833dd5dd5aa8ac8bdf22d18da546cdc445c81d4fa23265f95f4780839be5b3"
+   }
+  ],
+  "folder": "data/agm/071950_코아스/20260821_20260821000348",
+  "fetched_at": "2026-11-16T13:01:35"
+ },
+ "20260821000474": {
+  "rcept_no": "20260821000474",
+  "corp_code": "00131832",
+  "corp_name": "SK디스커버리",
+  "stock_code": "006120",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260821",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000474",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260821000474.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260821000474.xml",
+    "bytes": 131204,
+    "sha256": "2a8e4abdaa17ba0efdedd46bb20dcb690c7101f44c2a865f7735ff2c54711b61"
+   }
+  ],
+  "folder": "data/agm/006120_SK디스커버리/20260821_20260821000474",
+  "fetched_at": "2026-11-16T13:01:36"
+ },
+ "20260824000210": {
+  "rcept_no": "20260824000210",
+  "corp_code": "01475609",
+  "corp_name": "디앤디플랫폼리츠",
+  "stock_code": "377190",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260824",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000210",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260824000210.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260824000210.xml",
+    "bytes": 47778,
+    "sha256": "8f628bdc2722b4a2a1b76de9a6dc4dccccdcf491ba60dd6b7bf1fdec7c297bef"
+   }
+  ],
+  "folder": "data/agm/377190_디앤디플랫폼리츠/20260824_20260824000210",
+  "fetched_at": "2026-11-16T13:01:37"
+ },
+ "20260825000210": {
+  "rcept_no": "20260825000210",
+  "corp_code": "00148610",
+  "corp_name": "한화투자증권",
+  "stock_code": "003530",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260825",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000210",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260825000210.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260825000210.xml",
+    "bytes": 200159,
+    "sha256": "709323da4c17a5917790f9b485a9b5a382f89eb36a2e2826919ea4f6144f83ca"
+   }
+  ],
+  "folder": "data/agm/003530_한화투자증권/20260825_20260825000210",
+  "fetched_at": "2026-11-16T13:01:38"
+ },
+ "20260825000278": {
+  "rcept_no": "20260825000278",
+  "corp_code": "00427483",
+  "corp_name": "대웅제약",
+  "stock_code": "069620",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260825",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000278",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260825000278.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260825000278.xml",
+    "bytes": 66956,
+    "sha256": "aae88b7070e612b554aa3b3e668e0354ed74d6c9da20382cb8f05ea375af4931"
+   }
+  ],
+  "folder": "data/agm/069620_대웅제약/20260825_20260825000278",
+  "fetched_at": "2026-11-16T13:01:38"
+ },
+ "20260825000421": {
+  "rcept_no": "20260825000421",
+  "corp_code": "00139764",
+  "corp_name": "에넥스",
+  "stock_code": "011090",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260825",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000421",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3843,
+  "charter_amend_txt": "data/agm/011090_에넥스/20260825_20260825000421/정관의변경.txt",
+  "main_xml": "20260825000421.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260825000421.xml",
+    "bytes": 78691,
+    "sha256": "08e4c7c42ba55eb7093605a7477aa3c5a851587d1e1bc989472cb29c91e45b1e"
+   }
+  ],
+  "folder": "data/agm/011090_에넥스/20260825_20260825000421",
+  "fetched_at": "2026-11-16T13:01:38"
+ },
+ "20260902000323": {
+  "rcept_no": "20260902000323",
+  "corp_code": "00231372",
+  "corp_name": "롯데관광개발",
+  "stock_code": "032350",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260902",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902000323",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260902000323.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260902000323.xml",
+    "bytes": 70205,
+    "sha256": "a9e84d08594123df0be627a13c6fdf709424aadeab2cd28ae35c4a55723a6046"
+   }
+  ],
+  "folder": "data/agm/032350_롯데관광개발/20260902_20260902000323",
+  "fetched_at": "2026-11-16T13:01:39"
+ },
+ "20260907000104": {
+  "rcept_no": "20260907000104",
+  "corp_code": "00159209",
+  "corp_name": "한전기술",
+  "stock_code": "052690",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260907",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907000104",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260907000104.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260907000104.xml",
+    "bytes": 76414,
+    "sha256": "36ee8ca2c90503cf7969ca4e3b5bd14ccefc395395ae1f2030a02724ac416994"
+   }
+  ],
+  "folder": "data/agm/052690_한전기술/20260907_20260907000104",
+  "fetched_at": "2026-11-16T13:01:39"
+ },
+ "20260907000187": {
+  "rcept_no": "20260907000187",
+  "corp_code": "00116824",
+  "corp_name": "동아제약",
+  "stock_code": "000640",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260907",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907000187",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1041,
+  "charter_amend_txt": "data/agm/000640_동아제약/20260907_20260907000187/정관의변경.txt",
+  "main_xml": "20260907000187.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260907000187.xml",
+    "bytes": 82637,
+    "sha256": "02cb49eeecc013f8fad87def46c60e945a4808c3842deffbe91614d8914b7efe"
+   }
+  ],
+  "folder": "data/agm/000640_동아제약/20260907_20260907000187",
+  "fetched_at": "2026-11-16T13:01:40"
+ },
+ "20260910000563": {
+  "rcept_no": "20260910000563",
+  "corp_code": "00124540",
+  "corp_name": "대우건설",
+  "stock_code": "047040",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260910",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000563",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260910000563.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260910000563.xml",
+    "bytes": 77476,
+    "sha256": "c93b34c34f79f2262e774fce7903a255a952a7c03d0dd9a6be428edaac6aeaab"
+   }
+  ],
+  "folder": "data/agm/047040_대우건설/20260910_20260910000563",
+  "fetched_at": "2026-11-16T13:01:41"
+ },
+ "20260911000034": {
+  "rcept_no": "20260911000034",
+  "corp_code": "00159698",
+  "corp_name": "지역난방공사",
+  "stock_code": "071320",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260911",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000034",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3106,
+  "charter_amend_txt": "data/agm/071320_지역난방공사/20260911_20260911000034/정관의변경.txt",
+  "main_xml": "20260911000034.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260911000034.xml",
+    "bytes": 84141,
+    "sha256": "11b0514339fffbead361de6bbab4c1d1ed9fdcdf5b6df197c52504f868ac5fa0"
+   }
+  ],
+  "folder": "data/agm/071320_지역난방공사/20260911_20260911000034",
+  "fetched_at": "2026-11-16T13:01:42"
+ },
+ "20260915000289": {
+  "rcept_no": "20260915000289",
+  "corp_code": "00134723",
+  "corp_name": "페이퍼코리아",
+  "stock_code": "001020",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260915",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000289",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260915000289.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260915000289.xml",
+    "bytes": 49441,
+    "sha256": "4b873c88deef18c886379a9b8c2e214d4f722deb98949c74791c889f34e66ef5"
+   }
+  ],
+  "folder": "data/agm/001020_페이퍼코리아/20260915_20260915000289",
+  "fetched_at": "2026-11-16T13:01:42"
+ },
+ "20260915000348": {
+  "rcept_no": "20260915000348",
+  "corp_code": "00119140",
+  "corp_name": "핸즈코퍼레이션",
+  "stock_code": "143210",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260915",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000348",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1003,
+  "charter_amend_txt": "data/agm/143210_핸즈코퍼레이션/20260915_20260915000348/정관의변경.txt",
+  "main_xml": "20260915000348.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260915000348.xml",
+    "bytes": 70222,
+    "sha256": "c5438f743683767dc3860e8c4787d5d51c7b84258128b4c1d49ca6667fac000c"
+   }
+  ],
+  "folder": "data/agm/143210_핸즈코퍼레이션/20260915_20260915000348",
+  "fetched_at": "2026-11-16T13:01:43"
+ },
+ "20260915000404": {
+  "rcept_no": "20260915000404",
+  "corp_code": "01854763",
+  "corp_name": "HS효성",
+  "stock_code": "487570",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260915",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000404",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260915000404.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260915000404.xml",
+    "bytes": 97876,
+    "sha256": "815a91dff01822b15027c56103e0a3d5fa814f80ac2f9d712a855b2cd3783d5b"
+   }
+  ],
+  "folder": "data/agm/487570_HS효성/20260915_20260915000404",
+  "fetched_at": "2026-11-16T13:01:44"
+ },
+ "20260917000219": {
+  "rcept_no": "20260917000219",
+  "corp_code": "00159218",
+  "corp_name": "한전KPS",
+  "stock_code": "051600",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260917",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000219",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 2658,
+  "charter_amend_txt": "data/agm/051600_한전KPS/20260917_20260917000219/정관의변경.txt",
+  "main_xml": "20260917000219.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260917000219.xml",
+    "bytes": 140129,
+    "sha256": "9e5c1922f90ec9139376921d46d12dbaf5f016eab77f8a01d88c75b73cd013ef"
+   }
+  ],
+  "folder": "data/agm/051600_한전KPS/20260917_20260917000219",
+  "fetched_at": "2026-11-16T13:01:45"
+ },
+ "20260917000360": {
+  "rcept_no": "20260917000360",
+  "corp_code": "00122825",
+  "corp_name": "프리티",
+  "stock_code": "006490",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260917",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000360",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260917000360.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260917000360.xml",
+    "bytes": 82334,
+    "sha256": "bb99bda5a0663d034bfa11df107f0631a521797c8e21dd24fdafedef5d6cbb37"
+   }
+  ],
+  "folder": "data/agm/006490_프리티/20260917_20260917000360",
+  "fetched_at": "2026-11-16T13:01:45"
+ },
+ "20260922000383": {
+  "rcept_no": "20260922000383",
+  "corp_code": "00557933",
+  "corp_name": "진도",
+  "stock_code": "088790",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20260922",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000383",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 930,
+  "charter_amend_txt": "data/agm/088790_진도/20260922_20260922000383/정관의변경.txt",
+  "main_xml": "20260922000383.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260922000383.xml",
+    "bytes": 62765,
+    "sha256": "78a301d6f1a6c0fe5dad648cb70a3670ecca61d06a1f4919460ed339a8903f01"
+   }
+  ],
+  "folder": "data/agm/088790_진도/20260922_20260922000383",
+  "fetched_at": "2026-11-16T13:01:46"
+ },
+ "20260928000264": {
+  "rcept_no": "20260928000264",
+  "corp_code": "00369833",
+  "corp_name": "유니온머티리얼",
+  "stock_code": "047400",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260928",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928000264",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 273,
+  "charter_amend_txt": "data/agm/047400_유니온머티리얼/20260928_20260928000264/정관의변경.txt",
+  "main_xml": "20260928000264.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260928000264.xml",
+    "bytes": 47739,
+    "sha256": "390ce23f0e799e152dd9ea920b76e3901ab5cb9d82a3f28ceda852832b7b093a"
+   }
+  ],
+  "folder": "data/agm/047400_유니온머티리얼/20260928_20260928000264",
+  "fetched_at": "2026-11-16T13:01:46"
+ },
+ "20260929000117": {
+  "rcept_no": "20260929000117",
+  "corp_code": "00141477",
+  "corp_name": "영흥",
+  "stock_code": "012160",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260929",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000117",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20260929000117.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260929000117.xml",
+    "bytes": 68955,
+    "sha256": "8be62fda4dc3bd1de6fdef900fb07df7fb8ed7e6259f33a051bfaaf87d3af1be"
+   }
+  ],
+  "folder": "data/agm/012160_영흥/20260929_20260929000117",
+  "fetched_at": "2026-11-16T13:01:47"
+ },
+ "20260929000628": {
+  "rcept_no": "20260929000628",
+  "corp_code": "00125974",
+  "corp_name": "삼부토건",
+  "stock_code": "001470",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260929",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000628",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 5781,
+  "charter_amend_txt": "data/agm/001470_삼부토건/20260929_20260929000628/정관의변경.txt",
+  "main_xml": "20260929000628.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260929000628.xml",
+    "bytes": 98301,
+    "sha256": "f2130ee16ad972f6ca17dd6ce4f3d5c46b4e81245ba2ade0d44f230e813c173d"
+   }
+  ],
+  "folder": "data/agm/001470_삼부토건/20260929_20260929000628",
+  "fetched_at": "2026-11-16T13:01:47"
+ },
+ "20261002000249": {
+  "rcept_no": "20261002000249",
+  "corp_code": "00143262",
+  "corp_name": "우진아이엔에스",
+  "stock_code": "010400",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20261002",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000249",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 392,
+  "charter_amend_txt": "data/agm/010400_우진아이엔에스/20261002_20261002000249/정관의변경.txt",
+  "main_xml": "20261002000249.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261002000249.xml",
+    "bytes": 65869,
+    "sha256": "15c2ccdc2822fbfc18266791cc5c51416fe6b35d8260506866733025030a2aea"
+   }
+  ],
+  "folder": "data/agm/010400_우진아이엔에스/20261002_20261002000249",
+  "fetched_at": "2026-11-16T13:01:48"
+ },
+ "20261002000313": {
+  "rcept_no": "20261002000313",
+  "corp_code": "00106119",
+  "corp_name": "금양",
+  "stock_code": "001570",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261002",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000313",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1149,
+  "charter_amend_txt": "data/agm/001570_금양/20261002_20261002000313/정관의변경.txt",
+  "main_xml": "20261002000313.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261002000313.xml",
+    "bytes": 82620,
+    "sha256": "e01b3fdcd9cd5acdb20141d833f33985b25a2b9a1666b06be96001f28d63ccbb"
+   }
+  ],
+  "folder": "data/agm/001570_금양/20261002_20261002000313",
+  "fetched_at": "2026-11-16T13:01:48"
+ },
+ "20261007000143": {
+  "rcept_no": "20261007000143",
+  "corp_code": "00143527",
+  "corp_name": "경동인베스트",
+  "stock_code": "012320",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261007",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000143",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261007000143.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261007000143.xml",
+    "bytes": 95196,
+    "sha256": "ea6194b28db3ba90ab8157f21b2d281ed2ee17ff682af85b3a5db9dd7fb9c485"
+   }
+  ],
+  "folder": "data/agm/012320_경동인베스트/20261007_20261007000143",
+  "fetched_at": "2026-11-16T13:01:49"
+ },
+ "20261008000265": {
+  "rcept_no": "20261008000265",
+  "corp_code": "00469799",
+  "corp_name": "이엔플러스",
+  "stock_code": "074610",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261008",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000265",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261008000265.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261008000265.xml",
+    "bytes": 52676,
+    "sha256": "6dd5b32628bf6bb13d4dc43819b96138a6f297f0936d4f86ce91ecbc503bce77"
+   }
+  ],
+  "folder": "data/agm/074610_이엔플러스/20261008_20261008000265",
+  "fetched_at": "2026-11-16T13:01:49"
+ },
+ "20261008000436": {
+  "rcept_no": "20261008000436",
+  "corp_code": "00480455",
+  "corp_name": "STX엔진",
+  "stock_code": "077970",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261008",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000436",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261008000436.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261008000436.xml",
+    "bytes": 73829,
+    "sha256": "24cd5a82e44d1bc8a9e8585c742bd21682fad3fb23176965b82c04719f38c576"
+   }
+  ],
+  "folder": "data/agm/077970_STX엔진/20261008_20261008000436",
+  "fetched_at": "2026-11-16T13:01:50"
+ },
+ "20261012000254": {
+  "rcept_no": "20261012000254",
+  "corp_code": "00145437",
+  "corp_name": "아센디오",
+  "stock_code": "012170",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261012",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000254",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261012000254.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261012000254.xml",
+    "bytes": 54773,
+    "sha256": "8ffff2feff717f3fc4191602e2b749f0a3ce8906ec78473b9194f057b20cb1e8"
+   }
+  ],
+  "folder": "data/agm/012170_아센디오/20261012_20261012000254",
+  "fetched_at": "2026-11-16T13:01:50"
+ },
+ "20261013000200": {
+  "rcept_no": "20261013000200",
+  "corp_code": "00137207",
+  "corp_name": "유니켐",
+  "stock_code": "011330",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20261013",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000200",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 438,
+  "charter_amend_txt": "data/agm/011330_유니켐/20261013_20261013000200/정관의변경.txt",
+  "main_xml": "20261013000200.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261013000200.xml",
+    "bytes": 68329,
+    "sha256": "7f1263a93505d8965705f80263fe189a882a8303b65cd5708b6c0000a11ced99"
+   }
+  ],
+  "folder": "data/agm/011330_유니켐/20261013_20261013000200",
+  "fetched_at": "2026-11-16T13:01:51"
+ },
+ "20261013000298": {
+  "rcept_no": "20261013000298",
+  "corp_code": "00123143",
+  "corp_name": "보령",
+  "stock_code": "003850",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261013",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000298",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261013000298.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261013000298.xml",
+    "bytes": 200301,
+    "sha256": "a64abe3c01239de19759f9def773266e89abd328a8de66ba26bf468f21915ce4"
+   }
+  ],
+  "folder": "data/agm/003850_보령/20261013_20261013000298",
+  "fetched_at": "2026-11-16T13:01:51"
+ },
+ "20261014000070": {
+  "rcept_no": "20261014000070",
+  "corp_code": "00210856",
+  "corp_name": "코아스",
+  "stock_code": "071950",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261014",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000070",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261014000070.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261014000070.xml",
+    "bytes": 60804,
+    "sha256": "503ec5ee984c0bc5ce91f2916ad78a2e42614f4d0004e2cbabe8a26c794ac58f"
+   }
+  ],
+  "folder": "data/agm/071950_코아스/20261014_20261014000070",
+  "fetched_at": "2026-11-16T13:01:52"
+ },
+ "20261014000141": {
+  "rcept_no": "20261014000141",
+  "corp_code": "00261285",
+  "corp_name": "한국가스공사",
+  "stock_code": "036460",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261014",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000141",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261014000141.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261014000141.xml",
+    "bytes": 128039,
+    "sha256": "e835996da0382e5f80d53a931989c84da591e9194d7ee363b723044b0e1aa10f"
+   }
+  ],
+  "folder": "data/agm/036460_한국가스공사/20261014_20261014000141",
+  "fetched_at": "2026-11-16T13:01:52"
+ },
+ "20261014000237": {
+  "rcept_no": "20261014000237",
+  "corp_code": "00120526",
+  "corp_name": "롯데쇼핑",
+  "stock_code": "023530",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261014",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000237",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261014000237.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261014000237.xml",
+    "bytes": 236762,
+    "sha256": "00051687936bd62c1538061fcc37492772a5f4e3077e281829445d3050517480"
+   }
+  ],
+  "folder": "data/agm/023530_롯데쇼핑/20261014_20261014000237",
+  "fetched_at": "2026-11-16T13:01:53"
+ },
+ "20261014000294": {
+  "rcept_no": "20261014000294",
+  "corp_code": "00142661",
+  "corp_name": "우성",
+  "stock_code": "006980",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261014",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000294",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261014000294.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261014000294.xml",
+    "bytes": 231822,
+    "sha256": "5e3b2a8c7671c9efcc06423e2f726ee9d31c04036b7bdde85ae21e0dbd25686d"
+   }
+  ],
+  "folder": "data/agm/006980_우성/20261014_20261014000294",
+  "fetched_at": "2026-11-16T13:01:53"
+ },
+ "20261015000059": {
+  "rcept_no": "20261015000059",
+  "corp_code": "00545716",
+  "corp_name": "롯데렌탈",
+  "stock_code": "089860",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261015",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000059",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261015000059.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261015000059.xml",
+    "bytes": 134193,
+    "sha256": "8f7222c1dc7d5a1c37c16f9d6beb0eaecb1510f111bbbc031c2f5253c7831e94"
+   }
+  ],
+  "folder": "data/agm/089860_롯데렌탈/20261015_20261015000059",
+  "fetched_at": "2026-11-16T13:01:54"
+ },
+ "20261015000275": {
+  "rcept_no": "20261015000275",
+  "corp_code": "00113492",
+  "corp_name": "깨끗한나라",
+  "stock_code": "004540",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261015",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000275",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261015000275.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261015000275.xml",
+    "bytes": 54530,
+    "sha256": "bf28d2d2c28ada6033e510fc46b359e271b9c52431e9d50ece7762e6e3ca6d9a"
+   }
+  ],
+  "folder": "data/agm/004540_깨끗한나라/20261015_20261015000275",
+  "fetched_at": "2026-11-16T13:01:55"
+ },
+ "20261016000385": {
+  "rcept_no": "20261016000385",
+  "corp_code": "00139764",
+  "corp_name": "에넥스",
+  "stock_code": "011090",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261016",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000385",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1534,
+  "charter_amend_txt": "data/agm/011090_에넥스/20261016_20261016000385/정관의변경.txt",
+  "main_xml": "20261016000385.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261016000385.xml",
+    "bytes": 61755,
+    "sha256": "aa1dea99646f848578afe48e5d610c8721be0df59fdb91f416bca777179a875c"
+   }
+  ],
+  "folder": "data/agm/011090_에넥스/20261016_20261016000385",
+  "fetched_at": "2026-11-16T13:01:55"
+ },
+ "20261019000208": {
+  "rcept_no": "20261019000208",
+  "corp_code": "01475609",
+  "corp_name": "디앤디플랫폼리츠",
+  "stock_code": "377190",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261019",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000208",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261019000208.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261019000208.xml",
+    "bytes": 43817,
+    "sha256": "1fb881db650f5ddbc2a822d100ec3349725f90e5eea967759b13502d15837f9a"
+   }
+  ],
+  "folder": "data/agm/377190_디앤디플랫폼리츠/20261019_20261019000208",
+  "fetched_at": "2026-11-16T13:01:56"
+ },
+ "20261020000327": {
+  "rcept_no": "20261020000327",
+  "corp_code": "00112378",
+  "corp_name": "다이나맥",
+  "stock_code": "000040",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20261020",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000327",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 702,
+  "charter_amend_txt": "data/agm/000040_다이나맥/20261020_20261020000327/정관의변경.txt",
+  "main_xml": "20261020000327.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261020000327.xml",
+    "bytes": 53965,
+    "sha256": "ac3f78094867df9ad954d0103ed4db9e5cc0aead9a7b01830f48ed7b0abe0c56"
+   }
+  ],
+  "folder": "data/agm/000040_다이나맥/20261020_20261020000327",
+  "fetched_at": "2026-11-16T13:01:57"
+ },
+ "20261023000394": {
+  "rcept_no": "20261023000394",
+  "corp_code": "00122825",
+  "corp_name": "프리티",
+  "stock_code": "006490",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261023",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000394",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261023000394.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261023000394.xml",
+    "bytes": 82579,
+    "sha256": "f317239a3e192ac00c581c736ad4ad0863bc1ae82f7b4882e7f0c7a592f4cd9f"
+   }
+  ],
+  "folder": "data/agm/006490_프리티/20261023_20261023000394",
+  "fetched_at": "2026-11-16T13:01:57"
+ },
+ "20261026000228": {
+  "rcept_no": "20261026000228",
+  "corp_code": "00838500",
+  "corp_name": "엘브이엠씨",
+  "stock_code": "900140",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261026",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000228",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 1188,
+  "charter_amend_txt": "data/agm/900140_엘브이엠씨/20261026_20261026000228/정관의변경.txt",
+  "main_xml": "20261026000228.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261026000228.xml",
+    "bytes": 64818,
+    "sha256": "246eb3469948e08045ab9ce63287f26b9c014b2d30316daa20409c1124e29235"
+   }
+  ],
+  "folder": "data/agm/900140_엘브이엠씨/20261026_20261026000228",
+  "fetched_at": "2026-11-16T13:01:57"
+ },
+ "20261027000251": {
+  "rcept_no": "20261027000251",
+  "corp_code": "00138057",
+  "corp_name": "써니전자",
+  "stock_code": "004770",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261027",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000251",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261027000251.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261027000251.xml",
+    "bytes": 57680,
+    "sha256": "f5e03ebbcb1bb6aeb21ec53e38af948d483ecd073edab6669865fc13ff62c3fe"
+   }
+  ],
+  "folder": "data/agm/004770_써니전자/20261027_20261027000251",
+  "fetched_at": "2026-11-16T13:01:58"
+ },
+ "20261028000161": {
+  "rcept_no": "20261028000161",
+  "corp_code": "00164788",
+  "corp_name": "현대모비스",
+  "stock_code": "012330",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261028",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000161",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261028000161.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261028000161.xml",
+    "bytes": 178418,
+    "sha256": "de52b9707c87d97ce4b30def5ca3c684905c751c01c2eaeceb8ff441b2de85a7"
+   }
+  ],
+  "folder": "data/agm/012330_현대모비스/20261028_20261028000161",
+  "fetched_at": "2026-11-16T13:01:58"
+ },
+ "20261028000439": {
+  "rcept_no": "20261028000439",
+  "corp_code": "00688996",
+  "corp_name": "KB금융",
+  "stock_code": "105560",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261028",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000439",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261028000439.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261028000439.xml",
+    "bytes": 129391,
+    "sha256": "03d3adbb5e48ac504ed172fefd803bb309b17a60237c4e186f069536df70c386"
+   }
+  ],
+  "folder": "data/agm/105560_KB금융/20261028_20261028000439",
+  "fetched_at": "2026-11-16T13:01:59"
+ },
+ "20261030000138": {
+  "rcept_no": "20261030000138",
+  "corp_code": "01180118",
+  "corp_name": "코람코더원리츠",
+  "stock_code": "417310",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261030",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000138",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261030000138.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261030000138.xml",
+    "bytes": 72260,
+    "sha256": "77ed126c32845858b670c8ce9cbd16a16b28ac0f4764fbbef42a2c86fd25b551"
+   }
+  ],
+  "folder": "data/agm/417310_코람코더원리츠/20261030_20261030000138",
+  "fetched_at": "2026-11-16T13:01:59"
+ },
+ "20261104000357": {
+  "rcept_no": "20261104000357",
+  "corp_code": "00138297",
+  "corp_name": "STX",
+  "stock_code": "011810",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261104",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000357",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261104000357.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261104000357.xml",
+    "bytes": 86164,
+    "sha256": "020b5c03c95ed5764084e240564fb47fd16c10bc501732f6bc8b5954db4973e8"
+   }
+  ],
+  "folder": "data/agm/011810_STX/20261104_20261104000357",
+  "fetched_at": "2026-11-16T13:02:00"
+ },
+ "20261106000113": {
+  "rcept_no": "20261106000113",
+  "corp_code": "01390344",
+  "corp_name": "HD현대중공업",
+  "stock_code": "329180",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261106",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000113",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261106000113.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261106000113.xml",
+    "bytes": 89157,
+    "sha256": "1456c30c4ed85216c6a8ad83f628c04f3d0f16bf6442848526b447c11aa1da22"
+   }
+  ],
+  "folder": "data/agm/329180_HD현대중공업/20261106_20261106000113",
+  "fetched_at": "2026-11-16T13:02:15"
+ },
+ "20261110000279": {
+  "rcept_no": "20261110000279",
+  "corp_code": "00164645",
+  "corp_name": "HMM",
+  "stock_code": "011200",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261110",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000279",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261110000279.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261110000279.xml",
+    "bytes": 90857,
+    "sha256": "e66dbf7befbd8143356c8d5902a785004e13510f8fc0958504e54f2b6334f86e"
+   }
+  ],
+  "folder": "data/agm/011200_HMM/20261110_20261110000279",
+  "fetched_at": "2026-11-16T13:02:16"
+ },
+ "20261110000360": {
+  "rcept_no": "20261110000360",
+  "corp_code": "00302926",
+  "corp_name": "현대로템",
+  "stock_code": "064350",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261110",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000360",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261110000360.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261110000360.xml",
+    "bytes": 84134,
+    "sha256": "e37c969a1c1b7e7095050f5ad095bd1d068283991178d1d9ba931dc8ef369e35"
+   }
+  ],
+  "folder": "data/agm/064350_현대로템/20261110_20261110000360",
+  "fetched_at": "2026-11-16T13:02:16"
+ },
+ "20261111000209": {
+  "rcept_no": "20261111000209",
+  "corp_code": "01436558",
+  "corp_name": "신한서부티엔디리츠",
+  "stock_code": "404990",
+  "report_nm": "[기재정정]주주총회소집공고",
+  "rcept_dt": "20261111",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000209",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261111000209.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261111000209.xml",
+    "bytes": 55280,
+    "sha256": "652a946a9450a9a3150ec7aa4d6db2fc3842a1886473e51d67217270c505db44"
+   }
+  ],
+  "folder": "data/agm/404990_신한서부티엔디리츠/20261111_20261111000209",
+  "fetched_at": "2026-11-16T13:02:17"
+ },
+ "20261111000251": {
+  "rcept_no": "20261111000251",
+  "corp_code": "01714997",
+  "corp_name": "신한글로벌액티브리츠",
+  "stock_code": "481850",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261111",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000251",
+  "agm_kind": "정기",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261111000251.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261111000251.xml",
+    "bytes": 61497,
+    "sha256": "be6f4ee058a5dd7efe793586af3798f2466ce7ee95bf2a88aee572899d6a6e2e"
+   }
+  ],
+  "folder": "data/agm/481850_신한글로벌액티브리츠/20261111_20261111000251",
+  "fetched_at": "2026-11-16T13:02:17"
+ },
+ "20261112000385": {
+  "rcept_no": "20261112000385",
+  "corp_code": "00106623",
+  "corp_name": "현대위아",
+  "stock_code": "011210",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261112",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000385",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261112000385.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261112000385.xml",
+    "bytes": 152471,
+    "sha256": "9a9f1bebdaffe4ac2b4b2e2698c537bd758cfb6530cbca30830862e03e3a6515"
+   }
+  ],
+  "folder": "data/agm/011210_현대위아/20261112_20261112000385",
+  "fetched_at": "2026-11-16T13:02:18"
+ },
+ "20261112000736": {
+  "rcept_no": "20261112000736",
+  "corp_code": "01394377",
+  "corp_name": "이지스밸류플러스리츠",
+  "stock_code": "334890",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261112",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000736",
+  "agm_kind": "정기",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261112000736.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261112000736.xml",
+    "bytes": 171571,
+    "sha256": "e3787bd94f4bda0205cef9b6b855d3c0c6dcf6a9697accd7b87e3263be9cf925"
+   }
+  ],
+  "folder": "data/agm/334890_이지스밸류플러스리츠/20261112_20261112000736",
+  "fetched_at": "2026-11-16T13:02:18"
+ }
+}

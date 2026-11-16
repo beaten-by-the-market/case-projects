@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260622000265",
+ "corp_code": "00133618",
+ "corp_name": "우양피앤엘",
+ "stock_code": "002420",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260622",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260622000265",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260622000265.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260622000265.xml",
+   "bytes": 232760,
+   "sha256": "a574289657c3e749355f914887d81b349066dc65df94aef8aaf4b3e0f7ef8312"
+  }
+ ],
+ "folder": "data/agm/002420_우양피앤엘/20260622_20260622000265",
+ "fetched_at": "2026-11-16T13:00:46"
+}

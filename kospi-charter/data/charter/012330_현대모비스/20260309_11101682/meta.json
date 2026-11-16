@@ -1,0 +1,24 @@
+{
+ "corp_code": "00164788",
+ "corp_name": "현대모비스",
+ "stock_code": "012330",
+ "att_title": "2026.03.09 정관",
+ "att_date": "20260309",
+ "rcpNo": "20260309001878",
+ "dcmNo": "11101682",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001878&dcmNo=11101682",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260309001878&dcmNo=11101682&eleId=1&offset=593&length=26676&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12746,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/012330_현대모비스/20260309_11101682",
+ "fetched_at": "2026-11-16T12:37:49",
+ "used_by_rcept_no": [
+  "20260309001878"
+ ]
+}

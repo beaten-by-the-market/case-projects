@@ -1,0 +1,24 @@
+{
+ "corp_code": "00123718",
+ "corp_name": "부광약품",
+ "stock_code": "003000",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001273",
+ "dcmNo": "11128013",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001273&dcmNo=11128013",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001273&dcmNo=11128013&eleId=1&offset=595&length=23868&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12279,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/003000_부광약품/20260316_11128013",
+ "fetched_at": "2026-11-16T12:21:21",
+ "used_by_rcept_no": [
+  "20260316001273"
+ ]
+}

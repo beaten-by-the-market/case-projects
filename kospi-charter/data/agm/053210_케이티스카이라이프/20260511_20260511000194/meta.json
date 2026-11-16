@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260511000194",
+ "corp_code": "00349097",
+ "corp_name": "케이티스카이라이프",
+ "stock_code": "053210",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260511",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511000194",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260511000194.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260511000194.xml",
+   "bytes": 138184,
+   "sha256": "e667c0ae3d66aed89648d41aee4f09f3315690d8c14165cd5e0fea886fc7ff9d"
+  }
+ ],
+ "folder": "data/agm/053210_케이티스카이라이프/20260511_20260511000194",
+ "fetched_at": "2026-11-16T13:00:21"
+}

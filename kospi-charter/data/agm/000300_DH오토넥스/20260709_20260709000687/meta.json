@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260709000687",
+ "corp_code": "00126089",
+ "corp_name": "DH오토넥스",
+ "stock_code": "000300",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260709",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000687",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 7417,
+ "charter_amend_txt": "data/agm/000300_DH오토넥스/20260709_20260709000687/정관의변경.txt",
+ "main_xml": "20260709000687.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260709000687.xml",
+   "bytes": 81360,
+   "sha256": "22fe23d4f05f2062e931d407daa0c7a9ad8833cb2e77ae17a1f63e3b93cb4b40"
+  }
+ ],
+ "folder": "data/agm/000300_DH오토넥스/20260709_20260709000687",
+ "fetched_at": "2026-11-16T13:00:55"
+}

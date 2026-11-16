@@ -1,0 +1,24 @@
+{
+ "corp_code": "01688896",
+ "corp_name": "삼성FN리츠",
+ "stock_code": "448730",
+ "att_title": "2026.10.07 정관",
+ "att_date": "20261007",
+ "rcpNo": "20261007000407",
+ "dcmNo": "11605865",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000407&dcmNo=11605865",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20261007000407&dcmNo=11605865&eleId=1&offset=609&length=27807&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 16569,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/448730_삼성FN리츠/20261007_11605865",
+ "fetched_at": "2026-11-16T13:42:38",
+ "used_by_rcept_no": [
+  "20261007000407"
+ ]
+}

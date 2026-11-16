@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261026000228",
+ "corp_code": "00838500",
+ "corp_name": "엘브이엠씨",
+ "stock_code": "900140",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261026",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000228",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1188,
+ "charter_amend_txt": "data/agm/900140_엘브이엠씨/20261026_20261026000228/정관의변경.txt",
+ "main_xml": "20261026000228.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261026000228.xml",
+   "bytes": 64818,
+   "sha256": "246eb3469948e08045ab9ce63287f26b9c014b2d30316daa20409c1124e29235"
+  }
+ ],
+ "folder": "data/agm/900140_엘브이엠씨/20261026_20261026000228",
+ "fetched_at": "2026-11-16T13:01:57"
+}

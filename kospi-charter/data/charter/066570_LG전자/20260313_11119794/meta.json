@@ -1,0 +1,24 @@
+{
+ "corp_code": "00401731",
+ "corp_name": "LG전자",
+ "stock_code": "066570",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313000662",
+ "dcmNo": "11119794",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000662&dcmNo=11119794",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313000662&dcmNo=11119794&eleId=1&offset=592&length=21167&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12444,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/066570_LG전자/20260313_11119794",
+ "fetched_at": "2026-11-16T13:17:45",
+ "used_by_rcept_no": [
+  "20260706000276"
+ ]
+}

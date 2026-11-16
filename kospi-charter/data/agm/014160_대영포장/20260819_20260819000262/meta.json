@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260819000262",
+ "corp_code": "00111458",
+ "corp_name": "대영포장",
+ "stock_code": "014160",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260819",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000262",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 285,
+ "charter_amend_txt": "data/agm/014160_대영포장/20260819_20260819000262/정관의변경.txt",
+ "main_xml": "20260819000262.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260819000262.xml",
+   "bytes": 50595,
+   "sha256": "8d7fab3c983eb67b96b0fb3762ee94abab02543b29e570d2e59569f559a2985a"
+  }
+ ],
+ "folder": "data/agm/014160_대영포장/20260819_20260819000262",
+ "fetched_at": "2026-11-16T13:01:32"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260810000698",
+ "corp_code": "00145437",
+ "corp_name": "아센디오",
+ "stock_code": "012170",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260810",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000698",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4353,
+ "charter_amend_txt": "data/agm/012170_아센디오/20260810_20260810000698/정관의변경.txt",
+ "main_xml": "20260810000698.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260810000698.xml",
+   "bytes": 85985,
+   "sha256": "36b368993ec06da6171ea4cff400e6fe0181bd6b53a9e4f87ebfa688335afb9d"
+  }
+ ],
+ "folder": "data/agm/012170_아센디오/20260810_20260810000698",
+ "fetched_at": "2026-11-16T13:01:26"
+}

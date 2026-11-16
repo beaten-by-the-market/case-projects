@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260319000204",
+ "corp_code": "00168331",
+ "corp_name": "온타이드",
+ "stock_code": "005320",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000204",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 9858,
+ "charter_amend_txt": "data/agm/005320_온타이드/20260319_20260319000204/정관의변경.txt",
+ "main_xml": "20260319000204.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260319000204.xml",
+   "bytes": 271649,
+   "sha256": "0762499cd9c7b2da821d3c7ad19a66f1492137526875f1d9b3664dadefd5f795"
+  }
+ ],
+ "folder": "data/agm/005320_온타이드/20260319_20260319000204",
+ "fetched_at": "2026-11-16T12:59:34"
+}

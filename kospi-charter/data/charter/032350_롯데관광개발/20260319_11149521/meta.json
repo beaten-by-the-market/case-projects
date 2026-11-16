@@ -1,0 +1,24 @@
+{
+ "corp_code": "00231372",
+ "corp_name": "롯데관광개발",
+ "stock_code": "032350",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000832",
+ "dcmNo": "11149521",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000832&dcmNo=11149521",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000832&dcmNo=11149521&eleId=1&offset=597&length=19557&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10579,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/032350_롯데관광개발/20260319_11149521",
+ "fetched_at": "2026-11-16T13:11:12",
+ "used_by_rcept_no": [
+  "20260319000832"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00134316",
+ "corp_name": "세원정공",
+ "stock_code": "021820",
+ "att_title": "2026.09.22 정관",
+ "att_date": "20260922",
+ "rcpNo": "20260922000499",
+ "dcmNo": "11589180",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000499&dcmNo=11589180",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260922000499&dcmNo=11589180&eleId=1&offset=594&length=39818&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 8810,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/021820_세원정공/20260922_11589180",
+ "fetched_at": "2026-11-16T13:08:27",
+ "used_by_rcept_no": [
+  "20260922000499"
+ ]
+}

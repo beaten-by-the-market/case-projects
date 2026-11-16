@@ -1,0 +1,24 @@
+{
+ "corp_code": "01042775",
+ "corp_name": "HL만도",
+ "stock_code": "204320",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000883",
+ "dcmNo": "11138608",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000883&dcmNo=11138608",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000883&dcmNo=11138608&eleId=1&offset=597&length=23178&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11590,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/204320_HL만도/20260318_11138608",
+ "fetched_at": "2026-11-16T13:33:21",
+ "used_by_rcept_no": [
+  "20260318000883"
+ ]
+}

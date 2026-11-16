@@ -1,0 +1,24 @@
+{
+ "corp_code": "00158307",
+ "corp_name": "롯데하이마트",
+ "stock_code": "071840",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311004061",
+ "dcmNo": "11109193",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004061&dcmNo=11109193",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004061&dcmNo=11109193&eleId=1&offset=597&length=34670&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14465,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/071840_롯데하이마트/20260311_11109193",
+ "fetched_at": "2026-11-16T13:18:43",
+ "used_by_rcept_no": [
+  "20260311004061"
+ ]
+}

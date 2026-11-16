@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260707000341",
+ "corp_code": "00137252",
+ "corp_name": "사조동아원",
+ "stock_code": "008040",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260707",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707000341",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 811,
+ "charter_amend_txt": "data/agm/008040_사조동아원/20260707_20260707000341/정관의변경.txt",
+ "main_xml": "20260707000341.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260707000341.xml",
+   "bytes": 48185,
+   "sha256": "08b474192940f3b2f9b1ed83061ae32c5e835782d0762c4f7292740f39a793f1"
+  }
+ ],
+ "folder": "data/agm/008040_사조동아원/20260707_20260707000341",
+ "fetched_at": "2026-11-16T13:00:51"
+}

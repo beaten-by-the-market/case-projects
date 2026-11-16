@@ -1,0 +1,24 @@
+{
+ "corp_code": "00101044",
+ "corp_name": "에이프로젠바이오로직스",
+ "stock_code": "003060",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000881",
+ "dcmNo": "11157461",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000881&dcmNo=11157461",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000881&dcmNo=11157461&eleId=1&offset=602&length=20163&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12862,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/003060_에이프로젠바이오로직스/20260320_11157461",
+ "fetched_at": "2026-11-16T12:21:34",
+ "used_by_rcept_no": [
+  "20260320000881"
+ ]
+}

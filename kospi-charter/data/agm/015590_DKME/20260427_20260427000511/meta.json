@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260427000511",
+ "corp_code": "00108746",
+ "corp_name": "DKME",
+ "stock_code": "015590",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260427",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260427000511",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260427000511.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260427000511.xml",
+   "bytes": 60792,
+   "sha256": "65384b7de532dabdde3d69d545c234e69890f3f9d506e9a14c6beb7ff9b79725"
+  }
+ ],
+ "folder": "data/agm/015590_DKME/20260427_20260427000511",
+ "fetched_at": "2026-11-16T13:00:17"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "01669226",
+ "corp_name": "한화리츠",
+ "stock_code": "451800",
+ "att_title": "2026.07.13 정관",
+ "att_date": "20260713",
+ "rcpNo": "20260713000432",
+ "dcmNo": "11474988",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000432&dcmNo=11474988",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260713000432&dcmNo=11474988&eleId=1&offset=605&length=30425&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 17704,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/451800_한화리츠/20260713_11474988",
+ "fetched_at": "2026-11-16T13:42:42",
+ "used_by_rcept_no": [
+  "20260713000432"
+ ]
+}

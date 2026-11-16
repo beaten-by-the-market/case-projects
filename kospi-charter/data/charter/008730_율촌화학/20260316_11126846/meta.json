@@ -1,0 +1,24 @@
+{
+ "corp_code": "00145260",
+ "corp_name": "율촌화학",
+ "stock_code": "008730",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001034",
+ "dcmNo": "11126846",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001034&dcmNo=11126846",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001034&dcmNo=11126846&eleId=1&offset=595&length=19806&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12508,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/008730_율촌화학/20260316_11126846",
+ "fetched_at": "2026-11-16T12:32:27",
+ "used_by_rcept_no": [
+  "20261113001266"
+ ]
+}

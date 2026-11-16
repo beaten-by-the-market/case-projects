@@ -1,0 +1,37 @@
+{
+ "corp_code": "00148896",
+ "corp_name": "OCI홀딩스",
+ "stock_code": "010060",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000617",
+ "dcmNo": "11136860",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000617&dcmNo=11136860",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000617&dcmNo=11136860&eleId=1&offset=594&length=312&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 34,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/010060_OCI홀딩스/20260318_11136860",
+ "fetched_at": "2026-11-16T12:34:38",
+ "used_by_rcept_no": [
+  "20260318000617"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136860&flNm=%EC%A0%95%EA%B4%80%282023.05.02%29.pdf",
+   "flNm": "정관(2023.05.02).pdf",
+   "bytes": 469478,
+   "sha256": "d2eac15b565a7fd962fdb2b9fe0a1601895b2d3c7c128a56e47ecb200ea7e55d",
+   "pages": 21,
+   "text_pages": 20,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

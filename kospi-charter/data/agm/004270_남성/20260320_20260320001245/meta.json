@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260320001245",
+ "corp_code": "00172185",
+ "corp_name": "남성",
+ "stock_code": "004270",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260320",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001245",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260320001245.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260320001245.xml",
+   "bytes": 3215624,
+   "sha256": "e09ee1ee68fda4f3bdb18bc67f120916381169752d4f8694189d638b3db187d0"
+  }
+ ],
+ "folder": "data/agm/004270_남성/20260320_20260320001245",
+ "fetched_at": "2026-11-16T12:59:44"
+}

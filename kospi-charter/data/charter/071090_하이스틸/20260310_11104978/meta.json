@@ -1,0 +1,24 @@
+{
+ "corp_code": "00435312",
+ "corp_name": "하이스틸",
+ "stock_code": "071090",
+ "att_title": "2026.03.10 정관",
+ "att_date": "20260310",
+ "rcpNo": "20260310002913",
+ "dcmNo": "11104978",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002913&dcmNo=11104978",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002913&dcmNo=11104978&eleId=1&offset=595&length=16841&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10055,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/071090_하이스틸/20260310_11104978",
+ "fetched_at": "2026-11-16T13:18:39",
+ "used_by_rcept_no": [
+  "20260310002913"
+ ]
+}

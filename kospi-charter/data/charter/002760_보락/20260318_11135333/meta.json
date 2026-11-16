@@ -1,0 +1,24 @@
+{
+ "corp_code": "00123107",
+ "corp_name": "보락",
+ "stock_code": "002760",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000334",
+ "dcmNo": "11135333",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000334&dcmNo=11135333",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000334&dcmNo=11135333&eleId=1&offset=593&length=19608&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11537,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/002760_보락/20260318_11135333",
+ "fetched_at": "2026-11-16T12:20:26",
+ "used_by_rcept_no": [
+  "20260318000334"
+ ]
+}

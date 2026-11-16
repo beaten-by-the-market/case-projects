@@ -1,0 +1,37 @@
+{
+ "corp_code": "00105299",
+ "corp_name": "금강공업",
+ "stock_code": "014280",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312000935",
+ "dcmNo": "11115165",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000935&dcmNo=11115165",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000935&dcmNo=11115165&eleId=1&offset=592&length=298&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 20,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/014280_금강공업/20260312_11115165",
+ "fetched_at": "2026-11-16T13:03:02",
+ "used_by_rcept_no": [
+  "20260312000935"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11115165&flNm=%EC%A0%95%EA%B4%80%2844%EA%B8%B0%29.pdf",
+   "flNm": "정관(44기).pdf",
+   "bytes": 524256,
+   "sha256": "791cee48eea14bb245ca0447ba1c52e2670ba9ae4d64255b30dd6c9ca070606d",
+   "pages": 16,
+   "text_pages": 15,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

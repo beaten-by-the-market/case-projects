@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260616000198",
+ "corp_code": "00111421",
+ "corp_name": "휴니드테크놀러지스",
+ "stock_code": "005870",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260616",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260616000198",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260616000198.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260616000198.xml",
+   "bytes": 45504,
+   "sha256": "2ba1cd4c5d18553cec983bf9f7f484cb1c3779afb667995f356288c031d2e37d"
+  }
+ ],
+ "folder": "data/agm/005870_휴니드테크놀러지스/20260616_20260616000198",
+ "fetched_at": "2026-11-16T13:00:41"
+}

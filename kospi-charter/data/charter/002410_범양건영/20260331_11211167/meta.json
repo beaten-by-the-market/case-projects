@@ -1,0 +1,24 @@
+{
+ "corp_code": "00122694",
+ "corp_name": "범양건영",
+ "stock_code": "002410",
+ "att_title": "2026.03.31 정관",
+ "att_date": "20260331",
+ "rcpNo": "20260331003709",
+ "dcmNo": "11211167",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331003709&dcmNo=11211167",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260331003709&dcmNo=11211167&eleId=1&offset=596&length=26399&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 16230,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/002410_범양건영/20260331_11211167",
+ "fetched_at": "2026-11-16T12:19:46",
+ "used_by_rcept_no": [
+  "20260331003709"
+ ]
+}

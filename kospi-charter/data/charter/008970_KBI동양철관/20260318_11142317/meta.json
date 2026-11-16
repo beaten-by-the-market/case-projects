@@ -1,0 +1,24 @@
+{
+ "corp_code": "00117629",
+ "corp_name": "KBI동양철관",
+ "stock_code": "008970",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001380",
+ "dcmNo": "11142317",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001380&dcmNo=11142317",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001380&dcmNo=11142317&eleId=1&offset=600&length=22367&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10835,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/008970_KBI동양철관/20260318_11142317",
+ "fetched_at": "2026-11-16T12:32:35",
+ "used_by_rcept_no": [
+  "20260318001380"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "00155355",
+ "corp_name": "풀무원",
+ "stock_code": "017810",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001442",
+ "dcmNo": "11167740",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001442&dcmNo=11167740",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001442&dcmNo=11167740&eleId=1&offset=591&length=302&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 24,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/017810_풀무원/20260323_11167740",
+ "fetched_at": "2026-11-16T13:05:40",
+ "used_by_rcept_no": [
+  "20260323001547"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167740&flNm=%28%EC%A3%BC%29%ED%92%80%EB%AC%B4%EC%9B%90_%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "(주)풀무원_정관.pdf",
+   "bytes": 497153,
+   "sha256": "67f17c3d663f52fe760888f7232b9472a08da3018d84300f2ccc36fa20651116",
+   "pages": 23,
+   "text_pages": 22,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

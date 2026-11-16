@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260612000050",
+ "corp_code": "00134510",
+ "corp_name": "SJG세종",
+ "stock_code": "033530",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260612",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612000050",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 255,
+ "charter_amend_txt": "data/agm/033530_SJG세종/20260612_20260612000050/정관의변경.txt",
+ "main_xml": "20260612000050.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260612000050.xml",
+   "bytes": 54292,
+   "sha256": "0487bb3c163eebaeabc7b399daa1dc7db9ee6f97475eac2a90a0a66feda3020b"
+  }
+ ],
+ "folder": "data/agm/033530_SJG세종/20260612_20260612000050",
+ "fetched_at": "2026-11-16T13:00:37"
+}

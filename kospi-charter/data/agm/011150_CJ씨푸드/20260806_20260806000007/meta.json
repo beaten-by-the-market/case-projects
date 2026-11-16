@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260806000007",
+ "corp_code": "00129013",
+ "corp_name": "CJ씨푸드",
+ "stock_code": "011150",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260806",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000007",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260806000007.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260806000007.xml",
+   "bytes": 37495,
+   "sha256": "b828cf14b4ad426a570c467c3b4a921509d70983525b906c20507b4e7dadf506"
+  }
+ ],
+ "folder": "data/agm/011150_CJ씨푸드/20260806_20260806000007",
+ "fetched_at": "2026-11-16T13:01:25"
+}

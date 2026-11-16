@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260319000468",
+ "corp_code": "00135962",
+ "corp_name": "신라교역",
+ "stock_code": "004970",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000468",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260319000468.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260319000468.xml",
+   "bytes": 1307292,
+   "sha256": "b6bf7e196fa799f49cde1f35733d60dddac635fd235ebeeff49fc82273885c94"
+  }
+ ],
+ "folder": "data/agm/004970_신라교역/20260319_20260319000468",
+ "fetched_at": "2026-11-16T12:59:36"
+}

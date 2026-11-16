@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260716000421",
+ "corp_code": "00508344",
+ "corp_name": "SK디앤디",
+ "stock_code": "210980",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260716",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000421",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 9447,
+ "charter_amend_txt": "data/agm/210980_SK디앤디/20260716_20260716000421/정관의변경.txt",
+ "main_xml": "20260716000421.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260716000421.xml",
+   "bytes": 152368,
+   "sha256": "c5177a97acdd8b7fbdd68060eb5c534e1306586f51a14b96ed017be4b14b37ad"
+  }
+ ],
+ "folder": "data/agm/210980_SK디앤디/20260716_20260716000421",
+ "fetched_at": "2026-11-16T13:01:16"
+}

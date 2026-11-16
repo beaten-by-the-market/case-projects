@@ -1,0 +1,24 @@
+{
+ "corp_code": "00113225",
+ "corp_name": "대한제강",
+ "stock_code": "084010",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000780",
+ "dcmNo": "11137975",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000780&dcmNo=11137975",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000780&dcmNo=11137975&eleId=1&offset=597&length=20650&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9461,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/084010_대한제강/20260318_11137975",
+ "fetched_at": "2026-11-16T13:21:27",
+ "used_by_rcept_no": [
+  "20260318000780"
+ ]
+}

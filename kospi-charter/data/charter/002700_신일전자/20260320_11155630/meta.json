@@ -1,0 +1,135 @@
+{
+ "corp_code": "00173698",
+ "corp_name": "신일전자",
+ "stock_code": "002700",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000508",
+ "dcmNo": "11155630",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000508&dcmNo=11155630",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000508&dcmNo=11155630&eleId=1&offset=596&length=1622&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 11,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11155630&flNm=%EC%A0%95%EA%B4%801.jpg",
+   "flNm": "정관1.jpg",
+   "alt": "이미지: 정관1",
+   "bytes": 16090,
+   "sha256": "72a48e822c551e31e3eed8227ec5bc552fbc022a390ec78872862c0044c3d385",
+   "width": 658,
+   "height": 919
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11155630&flNm=%EC%A0%95%EA%B4%802.jpg",
+   "flNm": "정관2.jpg",
+   "alt": "이미지: 정관2",
+   "bytes": 84566,
+   "sha256": "077019afac8e7190b8f99cf4a15077f743af1f52d8e26f5075ff637b75b353c1",
+   "width": 660,
+   "height": 924
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11155630&flNm=%EC%A0%95%EA%B4%803.jpg",
+   "flNm": "정관3.jpg",
+   "alt": "이미지: 정관3",
+   "bytes": 123113,
+   "sha256": "595c5fc7bb35ccfe724f60af2017435c824549efd0d9333ea389414371093978",
+   "width": 657,
+   "height": 921
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11155630&flNm=%EC%A0%95%EA%B4%804.jpg",
+   "flNm": "정관4.jpg",
+   "alt": "이미지: 정관4",
+   "bytes": 136948,
+   "sha256": "79f8b0f6f3261e90d5f2d49a7ca41d382144fe4ee700f45dffc7122682d05a1d",
+   "width": 633,
+   "height": 874
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11155630&flNm=%EC%A0%95%EA%B4%805.jpg",
+   "flNm": "정관5.jpg",
+   "alt": "이미지: 정관5",
+   "bytes": 142421,
+   "sha256": "fbf42779e5568747a59bd1a82264f6d3eb40689b0eda6dbaf7418ec7d0d67a6a",
+   "width": 656,
+   "height": 878
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11155630&flNm=%EC%A0%95%EA%B4%806.jpg",
+   "flNm": "정관6.jpg",
+   "alt": "이미지: 정관6",
+   "bytes": 112178,
+   "sha256": "fe4fec6e910b3ab127793e09424987a066300af378e70403161c113a54ffedc3",
+   "width": 655,
+   "height": 888
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11155630&flNm=%EC%A0%95%EA%B4%807.jpg",
+   "flNm": "정관7.jpg",
+   "alt": "이미지: 정관7",
+   "bytes": 105709,
+   "sha256": "d917a2ffadea29ceec6471ce9698c37fb0b2caffe95271604771e15a9ef42b0e",
+   "width": 653,
+   "height": 900
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11155630&flNm=%EC%A0%95%EA%B4%808.jpg",
+   "flNm": "정관8.jpg",
+   "alt": "이미지: 정관8",
+   "bytes": 112790,
+   "sha256": "44ed8688cebfd73fd2fd7968174d9d25cb6668f9e54ce3aeb2c944bd5b7b1784",
+   "width": 634,
+   "height": 871
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11155630&flNm=%EC%A0%95%EA%B4%809.jpg",
+   "flNm": "정관9.jpg",
+   "alt": "이미지: 정관9",
+   "bytes": 94009,
+   "sha256": "9a7c8788b1ab8f359b75271841418b671c7f81299bed9fab8d8eed301657492e",
+   "width": 648,
+   "height": 815
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11155630&flNm=%EC%A0%95%EA%B4%8010.jpg",
+   "flNm": "정관10.jpg",
+   "alt": "이미지: 정관10",
+   "bytes": 100453,
+   "sha256": "5043691cf8940411172eef7b92e97800a1d8e63dbfecdd3bb9a0bf94d98fc75c",
+   "width": 655,
+   "height": 905
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11155630&flNm=%EC%A0%95%EA%B4%8011.jpg",
+   "flNm": "정관11.jpg",
+   "alt": "이미지: 정관11",
+   "bytes": 82532,
+   "sha256": "27ebf745e32d9b5d5e479757f28a922ee538ec3cbdf9b6ef505c4d2a28a6b591",
+   "width": 633,
+   "height": 899
+  }
+ ],
+ "folder": "data/charter/002700_신일전자/20260320_11155630",
+ "fetched_at": "2026-11-16T12:20:14",
+ "used_by_rcept_no": [
+  "20260320000508"
+ ]
+}

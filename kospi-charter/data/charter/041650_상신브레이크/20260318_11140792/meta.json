@@ -1,0 +1,24 @@
+{
+ "corp_code": "00129642",
+ "corp_name": "상신브레이크",
+ "stock_code": "041650",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001187",
+ "dcmNo": "11140792",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001187&dcmNo=11140792",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001187&dcmNo=11140792&eleId=1&offset=597&length=18481&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11719,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/041650_상신브레이크/20260318_11140792",
+ "fetched_at": "2026-11-16T13:14:26",
+ "used_by_rcept_no": [
+  "20260318001187"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260724000619",
+ "corp_code": "00101220",
+ "corp_name": "KG케미칼",
+ "stock_code": "001390",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260724",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000619",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260724000619.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260724000619.xml",
+   "bytes": 68343,
+   "sha256": "9ac4597302f395b209abc97c7fb0a2e4650ab5f75b10ed3bbaca5ebbf186cd6b"
+  }
+ ],
+ "folder": "data/agm/001390_KG케미칼/20260724_20260724000619",
+ "fetched_at": "2026-11-16T13:01:21"
+}

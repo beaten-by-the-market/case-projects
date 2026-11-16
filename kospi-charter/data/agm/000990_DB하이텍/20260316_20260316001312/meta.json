@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260316001312",
+ "corp_code": "00160843",
+ "corp_name": "DB하이텍",
+ "stock_code": "000990",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260316",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001312",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4050,
+ "charter_amend_txt": "data/agm/000990_DB하이텍/20260316_20260316001312/정관의변경.txt",
+ "main_xml": "20260316001312.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260316001312.xml",
+   "bytes": 895233,
+   "sha256": "970c55b86feab5b2d2991dae05a44f670792caa0f0b0ffb6bec872231b0a32c4"
+  }
+ ],
+ "folder": "data/agm/000990_DB하이텍/20260316_20260316001312",
+ "fetched_at": "2026-11-16T12:59:21"
+}

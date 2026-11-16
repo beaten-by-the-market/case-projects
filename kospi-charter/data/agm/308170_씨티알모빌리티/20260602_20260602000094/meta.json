@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260602000094",
+ "corp_code": "00450010",
+ "corp_name": "씨티알모빌리티",
+ "stock_code": "308170",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260602",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000094",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260602000094.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260602000094.xml",
+   "bytes": 46710,
+   "sha256": "02e45edfc571f3ca89a660fa37a69e1022be1672ef10aed8edf143957fb979de"
+  }
+ ],
+ "folder": "data/agm/308170_씨티알모빌리티/20260602_20260602000094",
+ "fetched_at": "2026-11-16T13:00:31"
+}

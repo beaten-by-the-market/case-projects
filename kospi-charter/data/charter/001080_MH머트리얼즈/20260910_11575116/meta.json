@@ -1,0 +1,37 @@
+{
+ "corp_code": "00120872",
+ "corp_name": "MH머트리얼즈",
+ "stock_code": "001080",
+ "att_title": "2026.09.10 정관",
+ "att_date": "20260910",
+ "rcpNo": "20260910000496",
+ "dcmNo": "11575116",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000496&dcmNo=11575116",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260910000496&dcmNo=11575116&eleId=1&offset=596&length=330&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 44,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/001080_MH머트리얼즈/20260910_11575116",
+ "fetched_at": "2026-11-16T12:14:32",
+ "used_by_rcept_no": [
+  "20260910000496"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11575116&flNm=%EB%A7%8C%ED%98%B8%EC%A0%9C%EA%B0%95_%EC%A0%95%EA%B4%80%282026.02.06%29.pdf",
+   "flNm": "만호제강_정관(2026.02.06).pdf",
+   "bytes": 228415,
+   "sha256": "8dd4d9c031f06775f0f082d1c716b11ac387ba43c9e1b55956a25b2c57699b69",
+   "pages": 17,
+   "text_pages": 16,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

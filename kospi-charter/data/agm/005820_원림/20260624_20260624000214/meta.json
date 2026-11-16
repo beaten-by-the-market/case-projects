@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260624000214",
+ "corp_code": "00143794",
+ "corp_name": "원림",
+ "stock_code": "005820",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260624",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000214",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 957,
+ "charter_amend_txt": "data/agm/005820_원림/20260624_20260624000214/정관의변경.txt",
+ "main_xml": "20260624000214.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260624000214.xml",
+   "bytes": 43556,
+   "sha256": "272ffaa8e96dab545621779dc3d76e988e99bcc55f1d4e8e2de01382bdc1c25d"
+  }
+ ],
+ "folder": "data/agm/005820_원림/20260624_20260624000214",
+ "fetched_at": "2026-11-16T13:00:47"
+}

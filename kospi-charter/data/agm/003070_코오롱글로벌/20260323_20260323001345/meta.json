@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323001345",
+ "corp_code": "00152880",
+ "corp_name": "코오롱글로벌",
+ "stock_code": "003070",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001345",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3447,
+ "charter_amend_txt": "data/agm/003070_코오롱글로벌/20260323_20260323001345/정관의변경.txt",
+ "main_xml": "20260323001345.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323001345.xml",
+   "bytes": 175330,
+   "sha256": "bc6722024880cda7d66c9873cfaeba4c14bc326a1369054dfeecb5909f25cf15"
+  }
+ ],
+ "folder": "data/agm/003070_코오롱글로벌/20260323_20260323001345",
+ "fetched_at": "2026-11-16T12:59:52"
+}

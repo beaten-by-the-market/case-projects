@@ -1,0 +1,37 @@
+{
+ "corp_code": "00382199",
+ "corp_name": "신한지주",
+ "stock_code": "055550",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000826",
+ "dcmNo": "11138265",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000826&dcmNo=11138265",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000826&dcmNo=11138265&eleId=1&offset=599&length=336&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 50,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/055550_신한지주/20260318_11138265",
+ "fetched_at": "2026-11-16T13:16:14",
+ "used_by_rcept_no": [
+  "20261007000218"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138265&flNm=%EC%A0%95%EA%B4%80_2025.3.26__%EA%B0%9C%EC%A0%95_%EC%A0%84%EB%AC%B8_vf.pdf",
+   "flNm": "정관_2025.3.26__개정_전문_vf.pdf",
+   "bytes": 380127,
+   "sha256": "0d45fb65fd2b7c8b618208564390bbe03c38b19e3c2f19e6e4951668184638cb",
+   "pages": 20,
+   "text_pages": 20,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

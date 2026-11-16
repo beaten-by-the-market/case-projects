@@ -1,0 +1,24 @@
+{
+ "corp_code": "00163196",
+ "corp_name": "한일철강",
+ "stock_code": "002220",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311004523",
+ "dcmNo": "11111135",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004523&dcmNo=11111135",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004523&dcmNo=11111135&eleId=1&offset=596&length=18363&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10328,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/002220_한일철강/20260311_11111135",
+ "fetched_at": "2026-11-16T12:19:13",
+ "used_by_rcept_no": [
+  "20260806000296"
+ ]
+}

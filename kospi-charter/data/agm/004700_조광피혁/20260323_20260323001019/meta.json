@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323001019",
+ "corp_code": "00148939",
+ "corp_name": "조광피혁",
+ "stock_code": "004700",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001019",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4509,
+ "charter_amend_txt": "data/agm/004700_조광피혁/20260323_20260323001019/정관의변경.txt",
+ "main_xml": "20260323001019.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323001019.xml",
+   "bytes": 115853,
+   "sha256": "2424d52ca82c5a7bcd37ef38251ec5de67928eda98f73b697eb816832e069ca3"
+  }
+ ],
+ "folder": "data/agm/004700_조광피혁/20260323_20260323001019",
+ "fetched_at": "2026-11-16T12:59:48"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00113359",
+ "corp_name": "교보증권",
+ "stock_code": "030610",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000550",
+ "dcmNo": "11132150",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000550&dcmNo=11132150",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000550&dcmNo=11132150&eleId=1&offset=596&length=42991&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 18521,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/030610_교보증권/20260317_11132150",
+ "fetched_at": "2026-11-16T13:10:55",
+ "used_by_rcept_no": [
+  "20260317000550"
+ ]
+}

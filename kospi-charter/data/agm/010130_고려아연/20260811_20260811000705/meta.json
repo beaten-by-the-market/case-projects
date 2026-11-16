@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260811000705",
+ "corp_code": "00102858",
+ "corp_name": "고려아연",
+ "stock_code": "010130",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260811",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000705",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 6610,
+ "charter_amend_txt": "data/agm/010130_고려아연/20260811_20260811000705/정관의변경.txt",
+ "main_xml": "20260811000705.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260811000705.xml",
+   "bytes": 143966,
+   "sha256": "dda82380a8d7aa6c748275bda551b151b5a4f8374cb04b9dc62421094c8ca6ba"
+  }
+ ],
+ "folder": "data/agm/010130_고려아연/20260811_20260811000705",
+ "fetched_at": "2026-11-16T13:01:28"
+}

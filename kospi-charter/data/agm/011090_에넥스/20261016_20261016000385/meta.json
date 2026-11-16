@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261016000385",
+ "corp_code": "00139764",
+ "corp_name": "에넥스",
+ "stock_code": "011090",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261016",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000385",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1534,
+ "charter_amend_txt": "data/agm/011090_에넥스/20261016_20261016000385/정관의변경.txt",
+ "main_xml": "20261016000385.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261016000385.xml",
+   "bytes": 61755,
+   "sha256": "aa1dea99646f848578afe48e5d610c8721be0df59fdb91f416bca777179a875c"
+  }
+ ],
+ "folder": "data/agm/011090_에넥스/20261016_20261016000385",
+ "fetched_at": "2026-11-16T13:01:55"
+}

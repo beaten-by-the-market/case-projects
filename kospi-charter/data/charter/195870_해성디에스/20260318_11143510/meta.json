@@ -1,0 +1,24 @@
+{
+ "corp_code": "01032413",
+ "corp_name": "해성디에스",
+ "stock_code": "195870",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001527",
+ "dcmNo": "11143510",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001527&dcmNo=11143510",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001527&dcmNo=11143510&eleId=1&offset=593&length=22812&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12575,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/195870_해성디에스/20260318_11143510",
+ "fetched_at": "2026-11-16T13:33:17",
+ "used_by_rcept_no": [
+  "20260318001527"
+ ]
+}

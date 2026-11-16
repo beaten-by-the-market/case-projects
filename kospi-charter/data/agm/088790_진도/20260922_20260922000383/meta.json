@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260922000383",
+ "corp_code": "00557933",
+ "corp_name": "진도",
+ "stock_code": "088790",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260922",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000383",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 930,
+ "charter_amend_txt": "data/agm/088790_진도/20260922_20260922000383/정관의변경.txt",
+ "main_xml": "20260922000383.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260922000383.xml",
+   "bytes": 62765,
+   "sha256": "78a301d6f1a6c0fe5dad648cb70a3670ecca61d06a1f4919460ed339a8903f01"
+  }
+ ],
+ "folder": "data/agm/088790_진도/20260922_20260922000383",
+ "fetched_at": "2026-11-16T13:01:46"
+}

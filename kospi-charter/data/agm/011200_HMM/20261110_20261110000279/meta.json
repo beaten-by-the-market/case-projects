@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261110000279",
+ "corp_code": "00164645",
+ "corp_name": "HMM",
+ "stock_code": "011200",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261110",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000279",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261110000279.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261110000279.xml",
+   "bytes": 90857,
+   "sha256": "e66dbf7befbd8143356c8d5902a785004e13510f8fc0958504e54f2b6334f86e"
+  }
+ ],
+ "folder": "data/agm/011200_HMM/20261110_20261110000279",
+ "fetched_at": "2026-11-16T13:02:16"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00776820",
+ "corp_name": "영원무역",
+ "stock_code": "111770",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001279",
+ "dcmNo": "11152888",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001279&dcmNo=11152888",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001279&dcmNo=11152888&eleId=1&offset=595&length=27138&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11513,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/111770_영원무역/20260319_11152888",
+ "fetched_at": "2026-11-16T13:27:52",
+ "used_by_rcept_no": [
+  "20260319001279"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "01276594",
+ "corp_name": "신한알파리츠",
+ "stock_code": "293940",
+ "att_title": "2026.05.28 정관",
+ "att_date": "20260528",
+ "rcpNo": "20260528000669",
+ "dcmNo": "11404266",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528000669&dcmNo=11404266",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260528000669&dcmNo=11404266&eleId=1&offset=608&length=32981&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 18038,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/293940_신한알파리츠/20260528_11404266",
+ "fetched_at": "2026-11-16T13:38:33",
+ "used_by_rcept_no": [
+  "20260528000669"
+ ]
+}

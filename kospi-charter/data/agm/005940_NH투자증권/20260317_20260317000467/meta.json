@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260317000467",
+ "corp_code": "00120182",
+ "corp_name": "NH투자증권",
+ "stock_code": "005940",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260317",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000467",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 84260,
+ "charter_amend_txt": "data/agm/005940_NH투자증권/20260317_20260317000467/정관의변경.txt",
+ "main_xml": "20260317000467.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260317000467.xml",
+   "bytes": 332880,
+   "sha256": "63480752f6438d71f5912f240ef95cafa117209264558b419401b667b9e50468"
+  }
+ ],
+ "folder": "data/agm/005940_NH투자증권/20260317_20260317000467",
+ "fetched_at": "2026-11-16T12:59:22"
+}
