@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260908000243",
+ "corp_code": "00562360",
+ "corp_name": "에코볼트",
+ "stock_code": "097780",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260908",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000243",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260908000243.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260908000243.xml",
+   "bytes": 111618,
+   "sha256": "44752b637699c04b624295d5708a4dbf75329541229c95d50f313170cc94108b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/097780_에코볼트/20260908_20260908000243",
+ "fetched_at": "2026-11-16T19:38:40"
+}

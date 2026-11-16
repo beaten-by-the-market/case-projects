@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260427000256",
+ "corp_code": "01310773",
+ "corp_name": "엔시스",
+ "stock_code": "333620",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260427",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260427000256",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 574,
+ "charter_amend_txt": "data/agm_kosdaq/333620_엔시스/20260427_20260427000256/정관의변경.txt",
+ "main_xml": "20260427000256.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260427000256.xml",
+   "bytes": 55580,
+   "sha256": "4dcaa2fa17f056fd88169c7c93adb486bab03960fefe577c56524dbdd1ac6a1a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/333620_엔시스/20260427_20260427000256",
+ "fetched_at": "2026-11-16T19:33:41"
+}

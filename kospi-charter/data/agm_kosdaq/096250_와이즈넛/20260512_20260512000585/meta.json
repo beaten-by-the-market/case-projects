@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260512000585",
+ "corp_code": "00351427",
+ "corp_name": "와이즈넛",
+ "stock_code": "096250",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260512",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512000585",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260512000585.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260512000585.xml",
+   "bytes": 63440,
+   "sha256": "d171180d6db7ed973b990b59a9f4a8b4e3b224219e8951b3ee5cc8952d30e5ff"
+  }
+ ],
+ "folder": "data/agm_kosdaq/096250_와이즈넛/20260512_20260512000585",
+ "fetched_at": "2026-11-16T19:34:17"
+}

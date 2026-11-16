@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323000659",
+ "corp_code": "01046391",
+ "corp_name": "싸이토젠",
+ "stock_code": "217330",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000659",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1955,
+ "charter_amend_txt": "data/agm_kosdaq/217330_싸이토젠/20260323_20260323000659/정관의변경.txt",
+ "main_xml": "20260323000659.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323000659.xml",
+   "bytes": 204686,
+   "sha256": "d57df89d5d4247ac2e00c8c2547667678994b252218d3c1a112d9780199abaf7"
+  }
+ ],
+ "folder": "data/agm_kosdaq/217330_싸이토젠/20260323_20260323000659",
+ "fetched_at": "2026-11-16T19:33:07"
+}

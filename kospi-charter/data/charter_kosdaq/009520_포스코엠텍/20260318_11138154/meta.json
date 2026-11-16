@@ -1,0 +1,195 @@
+{
+ "corp_code": "00128111",
+ "corp_name": "포스코엠텍",
+ "stock_code": "009520",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000807",
+ "dcmNo": "11138154",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000807&dcmNo=11138154",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000807&dcmNo=11138154&eleId=1&offset=596&length=2423&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 17,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%801.jpg",
+   "flNm": "정관1.jpg",
+   "alt": "이미지: 정관1",
+   "bytes": 169576,
+   "sha256": "b386369ba6d963cf2f323a3225f23189d2aa0d2ae3367871af0bedd16d479ac2",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%802.jpg",
+   "flNm": "정관2.jpg",
+   "alt": "이미지: 정관2",
+   "bytes": 181976,
+   "sha256": "69721fdb5aa1b055cabe07b3120e18b83a9b7f123552f874bff1050dbe105768",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%803.jpg",
+   "flNm": "정관3.jpg",
+   "alt": "이미지: 정관3",
+   "bytes": 278295,
+   "sha256": "2b6e75e8a29bc5b95d0debf9a0cb27a498c5ba7a52510a766ce584118004bbb9",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%804.jpg",
+   "flNm": "정관4.jpg",
+   "alt": "이미지: 정관4",
+   "bytes": 284660,
+   "sha256": "5edd9980cbbd59b4b563c40f3591178d9934882fbd34d65b40c44eeaf26395c2",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%805.jpg",
+   "flNm": "정관5.jpg",
+   "alt": "이미지: 정관5",
+   "bytes": 249798,
+   "sha256": "e1cb79beb92dfad910dfa5a1644a818b2c217a8dc39e1a853a65043c1b920d12",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%806.jpg",
+   "flNm": "정관6.jpg",
+   "alt": "이미지: 정관6",
+   "bytes": 285929,
+   "sha256": "7e2163973e2c9f7c27fa573cbb430928e3fbfac6f48d954237b8dd864dd96838",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%807.jpg",
+   "flNm": "정관7.jpg",
+   "alt": "이미지: 정관7",
+   "bytes": 293105,
+   "sha256": "5f3bf20ffc21959b2fba98aa8357c27fe5328ab3dcd57360d9e7d30c32aa4c53",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%808.jpg",
+   "flNm": "정관8.jpg",
+   "alt": "이미지: 정관8",
+   "bytes": 186080,
+   "sha256": "8434ead489dba773babc10a6a171625b7a5d2f542fce7c08ac15a23187788fe2",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%809.jpg",
+   "flNm": "정관9.jpg",
+   "alt": "이미지: 정관9",
+   "bytes": 262694,
+   "sha256": "f70c6eb4f4e09cefac4510209c12b8438897906fe17c527ecc15e3d42e321fca",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%8010.jpg",
+   "flNm": "정관10.jpg",
+   "alt": "이미지: 정관10",
+   "bytes": 284382,
+   "sha256": "6fd1e79933b4def66955641f806c076d2aad26489bde9310ae8fb8b2ccea197e",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%8011.jpg",
+   "flNm": "정관11.jpg",
+   "alt": "이미지: 정관11",
+   "bytes": 283288,
+   "sha256": "3cd9e2b03396faf1788ab179fb922896be1d70c6a1c49aaa6269c806f2178dde",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%8012.jpg",
+   "flNm": "정관12.jpg",
+   "alt": "이미지: 정관12",
+   "bytes": 268140,
+   "sha256": "4f81eae496deb7030c52d66c036a2d275c2b280da01512bf2a374e3bd47ec203",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%8013.jpg",
+   "flNm": "정관13.jpg",
+   "alt": "이미지: 정관13",
+   "bytes": 256490,
+   "sha256": "217eaf61896150c56fe5aff44aad0b53a3d27618bf661bb44fff667d8f0356ea",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%8014.jpg",
+   "flNm": "정관14.jpg",
+   "alt": "이미지: 정관14",
+   "bytes": 238398,
+   "sha256": "f28a5b44aa7e7541bedabc9ad04ceee534287db4f13813026152248be84e5da7",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%8015.jpg",
+   "flNm": "정관15.jpg",
+   "alt": "이미지: 정관15",
+   "bytes": 256743,
+   "sha256": "177f922631c17abb45fc66aad500aee00be748e2a4249dc72a805243bd7e4b33",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%8016.jpg",
+   "flNm": "정관16.jpg",
+   "alt": "이미지: 정관16",
+   "bytes": 248103,
+   "sha256": "0423e3283d99759fbfc3538c698fc5ce396a1c1920da111ced1cbd09272ea489",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138154&flNm=%EC%A0%95%EA%B4%8017.jpg",
+   "flNm": "정관17.jpg",
+   "alt": "이미지: 정관17",
+   "bytes": 285356,
+   "sha256": "045919e27322ed7ba0c4441bf2ab5e7643119b48240728e61aab8d01ba614b8c",
+   "width": 2480,
+   "height": 3507
+  }
+ ],
+ "folder": "data/charter_kosdaq/009520_포스코엠텍/20260318_11138154",
+ "fetched_at": "2026-11-16T19:49:15",
+ "used_by_rcept_no": [
+  "20260318000807"
+ ]
+}

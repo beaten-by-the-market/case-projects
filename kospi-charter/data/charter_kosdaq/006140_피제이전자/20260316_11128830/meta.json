@@ -1,0 +1,85 @@
+{
+ "corp_code": "00155735",
+ "corp_name": "피제이전자",
+ "stock_code": "006140",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001412",
+ "dcmNo": "11128830",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001412&dcmNo=11128830",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001412&dcmNo=11128830&eleId=1&offset=596&length=1031&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 6,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128830&flNm=%ED%94%BC%EC%A0%9C%EC%9D%B4%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_01.jpg",
+   "flNm": "피제이전자 정관_01.jpg",
+   "alt": "이미지: 피제이전자 정관_01",
+   "bytes": 298132,
+   "sha256": "88609b007ba69b6867d929d3a28f6f4bd25ea33d5c9356b03e3d83d681e870fa",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128830&flNm=%ED%94%BC%EC%A0%9C%EC%9D%B4%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_02.jpg",
+   "flNm": "피제이전자 정관_02.jpg",
+   "alt": "이미지: 피제이전자 정관_02",
+   "bytes": 276989,
+   "sha256": "1f05365f22d1e6a668ea05da74a8a5be829b75f67dbe0f26b774d9953c3e2aa9",
+   "width": 1626,
+   "height": 2299
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128830&flNm=%ED%94%BC%EC%A0%9C%EC%9D%B4%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_03.jpg",
+   "flNm": "피제이전자 정관_03.jpg",
+   "alt": "이미지: 피제이전자 정관_03",
+   "bytes": 265913,
+   "sha256": "8622afdec421f202efcb26f28f2a9b4569e8a47359dbe11a5a1779e6bb039690",
+   "width": 1626,
+   "height": 2299
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128830&flNm=%ED%94%BC%EC%A0%9C%EC%9D%B4%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_04.jpg",
+   "flNm": "피제이전자 정관_04.jpg",
+   "alt": "이미지: 피제이전자 정관_04",
+   "bytes": 301931,
+   "sha256": "8190d55333174832b1ea11ac9f29bb517cb56c284767dc2710ed01c95ed89140",
+   "width": 1807,
+   "height": 2555
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128830&flNm=%ED%94%BC%EC%A0%9C%EC%9D%B4%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_05.jpg",
+   "flNm": "피제이전자 정관_05.jpg",
+   "alt": "이미지: 피제이전자 정관_05",
+   "bytes": 271161,
+   "sha256": "de54f8da24f9a30df50636b2dcb8528d1b77b7719a396db450209fdaa79fda35",
+   "width": 1807,
+   "height": 2555
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128830&flNm=%ED%94%BC%EC%A0%9C%EC%9D%B4%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_06.jpg",
+   "flNm": "피제이전자 정관_06.jpg",
+   "alt": "이미지: 피제이전자 정관_06",
+   "bytes": 298050,
+   "sha256": "b45ee84c98be6e9a1357430c5eed1bf31c3a3c0f39a986860f56b59575ecd689",
+   "width": 2480,
+   "height": 3508
+  }
+ ],
+ "folder": "data/charter_kosdaq/006140_피제이전자/20260316_11128830",
+ "fetched_at": "2026-11-16T19:45:48",
+ "used_by_rcept_no": [
+  "20260316001412"
+ ]
+}

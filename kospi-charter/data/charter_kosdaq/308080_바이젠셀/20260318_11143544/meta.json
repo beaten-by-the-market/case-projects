@@ -1,0 +1,37 @@
+{
+ "corp_code": "01335790",
+ "corp_name": "바이젠셀",
+ "stock_code": "308080",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001532",
+ "dcmNo": "11143544",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001532&dcmNo=11143544",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001532&dcmNo=11143544&eleId=1&offset=595&length=312&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 32,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/308080_바이젠셀/20260318_11143544",
+ "fetched_at": "2026-11-16T21:29:52",
+ "used_by_rcept_no": [
+  "20260318001532"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143544&flNm=%EB%B0%94%EC%9D%B4%EC%A0%A0%EC%85%80+%EC%A0%95%EA%B4%80_230323.pdf",
+   "flNm": "바이젠셀 정관_230323.pdf",
+   "bytes": 506107,
+   "sha256": "343b26c3a3f74348f9d60e15961d43c7180210d6f1910f8482edc1893736dc8c",
+   "pages": 19,
+   "text_pages": 18,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

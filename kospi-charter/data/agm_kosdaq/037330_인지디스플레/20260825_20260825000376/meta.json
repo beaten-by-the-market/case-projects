@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260825000376",
+ "corp_code": "00265421",
+ "corp_name": "인지디스플레",
+ "stock_code": "037330",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260825",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000376",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 422,
+ "charter_amend_txt": "data/agm_kosdaq/037330_인지디스플레/20260825_20260825000376/정관의변경.txt",
+ "main_xml": "20260825000376.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260825000376.xml",
+   "bytes": 57112,
+   "sha256": "34bd4b3db2d2ac1ae428a6ffa2221ceb9d1dfe08975c0ba44a41022b7318be37"
+  }
+ ],
+ "folder": "data/agm_kosdaq/037330_인지디스플레/20260825_20260825000376",
+ "fetched_at": "2026-11-16T19:38:18"
+}

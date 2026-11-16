@@ -1,0 +1,24 @@
+{
+ "corp_code": "00349060",
+ "corp_name": "한스바이오메드",
+ "stock_code": "042520",
+ "att_title": "2025.12.18 정관",
+ "att_date": "20251218",
+ "rcpNo": "20251218000494",
+ "dcmNo": "10932274",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251218000494&dcmNo=10932274",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20251218000494&dcmNo=10932274&eleId=1&offset=598&length=17600&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10259,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/042520_한스바이오메드/20251218_10932274",
+ "fetched_at": "2026-11-16T20:12:13",
+ "used_by_rcept_no": [
+  "20251218000494"
+ ]
+}

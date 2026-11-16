@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260430001362",
+ "corp_code": "00397289",
+ "corp_name": "오텍",
+ "stock_code": "067170",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260430",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001362",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260430001362.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260430001362.xml",
+   "bytes": 609216,
+   "sha256": "3216232256d042c5b51e54d422a5a0857ec25bbe294b3af56a1ebda203f5fccb"
+  }
+ ],
+ "folder": "data/agm_kosdaq/067170_오텍/20260430_20260430001362",
+ "fetched_at": "2026-11-16T19:33:50"
+}

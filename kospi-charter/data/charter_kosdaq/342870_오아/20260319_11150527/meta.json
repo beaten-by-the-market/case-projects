@@ -1,0 +1,37 @@
+{
+ "corp_code": "01428948",
+ "corp_name": "오아",
+ "stock_code": "342870",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000957",
+ "dcmNo": "11150527",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000957&dcmNo=11150527",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000957&dcmNo=11150527&eleId=1&offset=595&length=324&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 46,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/342870_오아/20260319_11150527",
+ "fetched_at": "2026-11-16T21:35:51",
+ "used_by_rcept_no": [
+  "20260319000957"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150527&flNm=%28%EC%B5%9C%EC%A2%85%29260303_%EC%A0%95%EA%B4%80_%EC%98%A4%EC%95%84%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC.pdf",
+   "flNm": "(최종)260303_정관_오아주식회사.pdf",
+   "bytes": 268898,
+   "sha256": "efd86f881a9b0b9a582b8a501cec65d0c48684ad0c6e3df6f8fac3998b9547cd",
+   "pages": 19,
+   "text_pages": 18,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

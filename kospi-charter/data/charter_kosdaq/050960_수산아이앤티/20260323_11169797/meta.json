@@ -1,0 +1,37 @@
+{
+ "corp_code": "00577016",
+ "corp_name": "수산아이앤티",
+ "stock_code": "050960",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001694",
+ "dcmNo": "11169797",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001694&dcmNo=11169797",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001694&dcmNo=11169797&eleId=1&offset=597&length=356&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 72,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/050960_수산아이앤티/20260323_11169797",
+ "fetched_at": "2026-11-16T20:16:26",
+ "used_by_rcept_no": [
+  "20260323001694"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169797&flNm=%5B%EA%B0%9C%EC%A0%95-2021.03.30.%EC%8B%9C%ED%96%89%5D+%EC%88%98%EC%82%B0%EC%95%84%EC%9D%B4%EC%95%A4%ED%8B%B0+%EC%A0%95%EA%B4%80%2812%EC%B0%A8+%EA%B0%9C%EC%A0%95%29.pdf",
+   "flNm": "[개정-2021.03.30.시행] 수산아이앤티 정관(12차 개정).pdf",
+   "bytes": 189864,
+   "sha256": "f832e6fe84897456eeba283b5c54c42d000038ec00f6e6ff22ba63e70db695a9",
+   "pages": 17,
+   "text_pages": 15,
+   "ocr_pages": 2
+  }
+ ],
+ "n_pdfs": 1
+}

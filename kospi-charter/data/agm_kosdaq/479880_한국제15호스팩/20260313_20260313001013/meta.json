@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260313001013",
+ "corp_code": "01818682",
+ "corp_name": "한국제15호스팩",
+ "stock_code": "479880",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260313",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001013",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260313001013.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260313001013.xml",
+   "bytes": 62128,
+   "sha256": "8c080e0ed82720cbe349fdfe3acefc6b5b915c62b7a174c2675537ccff577790"
+  }
+ ],
+ "folder": "data/agm_kosdaq/479880_한국제15호스팩/20260313_20260313001013",
+ "fetched_at": "2026-11-16T19:32:22"
+}

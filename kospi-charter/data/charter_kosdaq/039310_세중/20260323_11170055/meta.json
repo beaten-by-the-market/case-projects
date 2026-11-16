@@ -1,0 +1,175 @@
+{
+ "corp_code": "00264671",
+ "corp_name": "세중",
+ "stock_code": "039310",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001716",
+ "dcmNo": "11170055",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001716&dcmNo=11170055",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001716&dcmNo=11170055&eleId=1&offset=593&length=2591&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 15,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_1.jpg",
+   "flNm": "정관_20250331(최종)_1.jpg",
+   "alt": "이미지: 정관_20250331(최종)_1",
+   "bytes": 243473,
+   "sha256": "2e9bacddd1e38d369905df7ed1d9bb552cf851cf24df5a0c7853c90f48fef77e",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_2.jpg",
+   "flNm": "정관_20250331(최종)_2.jpg",
+   "alt": "이미지: 정관_20250331(최종)_2",
+   "bytes": 271126,
+   "sha256": "b1b2558e88fe7295d746a91abe347e0d8a2a8e9573ca7d7dc2899592e017b005",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_3.jpg",
+   "flNm": "정관_20250331(최종)_3.jpg",
+   "alt": "이미지: 정관_20250331(최종)_3",
+   "bytes": 97295,
+   "sha256": "32657aafd1277f3e39c10d3daebbcd1e4fd93b89128e2e3bcc4bf4b2ec2e67b2",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_4.jpg",
+   "flNm": "정관_20250331(최종)_4.jpg",
+   "alt": "이미지: 정관_20250331(최종)_4",
+   "bytes": 145984,
+   "sha256": "c56b78ca0a046b7734afeacc32b141398a89485f3030d3845d8a1f21097e693d",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_5.jpg",
+   "flNm": "정관_20250331(최종)_5.jpg",
+   "alt": "이미지: 정관_20250331(최종)_5",
+   "bytes": 143203,
+   "sha256": "daea20087aacd3e7d73ca61e2e1e517da8cf26887170fc3dbbda04352fffbfc9",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_6.jpg",
+   "flNm": "정관_20250331(최종)_6.jpg",
+   "alt": "이미지: 정관_20250331(최종)_6",
+   "bytes": 125541,
+   "sha256": "86be927691b9ed5f20277b5a920c9643deed1bd9dac40a77d2d02ea0b208b26e",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_7.jpg",
+   "flNm": "정관_20250331(최종)_7.jpg",
+   "alt": "이미지: 정관_20250331(최종)_7",
+   "bytes": 148001,
+   "sha256": "6b7c315ad61f4e2db686bcaeea521cb26420eb3f58c9604cca88dc730b543f73",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_8.jpg",
+   "flNm": "정관_20250331(최종)_8.jpg",
+   "alt": "이미지: 정관_20250331(최종)_8",
+   "bytes": 125414,
+   "sha256": "3115f339d39ae1d1ff9b399692998e28e87276cd43f3de8147f4626cac359671",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_9.jpg",
+   "flNm": "정관_20250331(최종)_9.jpg",
+   "alt": "이미지: 정관_20250331(최종)_9",
+   "bytes": 119277,
+   "sha256": "2b6abe842b32019bfb0add68e2257b0f4f289e3b4fb3a2efc44b980b10e2cedb",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_10.jpg",
+   "flNm": "정관_20250331(최종)_10.jpg",
+   "alt": "이미지: 정관_20250331(최종)_10",
+   "bytes": 114740,
+   "sha256": "8b1672e1cb2ebf7d536c352ec6c66a0f75fad55fa5854baeb67d0e8a06fe72e4",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_11.jpg",
+   "flNm": "정관_20250331(최종)_11.jpg",
+   "alt": "이미지: 정관_20250331(최종)_11",
+   "bytes": 123341,
+   "sha256": "0119885850b63cba930c14a71518f215bebe83e81908044aa3982e1d74cb05d2",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_12.jpg",
+   "flNm": "정관_20250331(최종)_12.jpg",
+   "alt": "이미지: 정관_20250331(최종)_12",
+   "bytes": 109714,
+   "sha256": "4c7e56714420116115fb0b7b29fad339354dc13d8ee8a29221152d93d73908fc",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_13.jpg",
+   "flNm": "정관_20250331(최종)_13.jpg",
+   "alt": "이미지: 정관_20250331(최종)_13",
+   "bytes": 127357,
+   "sha256": "3771cfc8577ca1cfb4117a8f4bf9e377e2dfa8faa6f6db26491bd9299c93c35f",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_14.jpg",
+   "flNm": "정관_20250331(최종)_14.jpg",
+   "alt": "이미지: 정관_20250331(최종)_14",
+   "bytes": 120783,
+   "sha256": "c6a69689f9218916d90a4d85c93b0c52197e2ce1ea3d1293057cfe74574d28ff",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170055&flNm=%EC%A0%95%EA%B4%80_20250331%28%EC%B5%9C%EC%A2%85%29_15.jpg",
+   "flNm": "정관_20250331(최종)_15.jpg",
+   "alt": "이미지: 정관_20250331(최종)_15",
+   "bytes": 97571,
+   "sha256": "64fe246810311c65cff73fe62c78816cd6b19b5e1a2d52216757b4047fa87ac8",
+   "width": 793,
+   "height": 1122
+  }
+ ],
+ "folder": "data/charter_kosdaq/039310_세중/20260323_11170055",
+ "fetched_at": "2026-11-16T20:10:17",
+ "used_by_rcept_no": [
+  "20260323001716"
+ ]
+}

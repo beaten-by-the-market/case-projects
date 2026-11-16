@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260820000115",
+ "corp_code": "01135941",
+ "corp_name": "원익IPS",
+ "stock_code": "240810",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260820",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820000115",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260820000115.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260820000115.xml",
+   "bytes": 54420,
+   "sha256": "f741a25152f86a2d3509b19baf60d39807be409abbbfd296dc88c7675c0c8a23"
+  }
+ ],
+ "folder": "data/agm_kosdaq/240810_원익IPS/20260820_20260820000115",
+ "fetched_at": "2026-11-16T19:38:16"
+}

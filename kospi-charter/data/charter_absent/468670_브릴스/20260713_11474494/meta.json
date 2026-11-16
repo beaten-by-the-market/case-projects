@@ -1,0 +1,195 @@
+{
+ "corp_code": "01801026",
+ "corp_name": "브릴스",
+ "stock_code": "468670",
+ "att_title": "2026.07.13 정관",
+ "att_date": "20260713",
+ "rcpNo": "20260713000275",
+ "dcmNo": "11474494",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000275&dcmNo=11474494",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260713000275&dcmNo=11474494&eleId=1&offset=594&length=2711&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 17,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_1.jpg",
+   "flNm": "03.정관_브릴스_1.jpg",
+   "alt": "이미지: 03.정관_브릴스_1",
+   "bytes": 71613,
+   "sha256": "5ebf538b661cd74f7c20014ec04477c2aff22732fb6f6d233d5f11195f537257",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_2.jpg",
+   "flNm": "03.정관_브릴스_2.jpg",
+   "alt": "이미지: 03.정관_브릴스_2",
+   "bytes": 105767,
+   "sha256": "0a2a015a5f998ef64ae8e07678c4f36f88a5ededf9110c35fec4f4547b1a045d",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_3.jpg",
+   "flNm": "03.정관_브릴스_3.jpg",
+   "alt": "이미지: 03.정관_브릴스_3",
+   "bytes": 161872,
+   "sha256": "e1722f855a7069c5362d53a217bf93ce74a98d587e77c775abc23a8c1f426d18",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_4.jpg",
+   "flNm": "03.정관_브릴스_4.jpg",
+   "alt": "이미지: 03.정관_브릴스_4",
+   "bytes": 232628,
+   "sha256": "eb86939dc1195e49cbfb8120c89cd786bf9e1be901da44c5a753620b352afbe7",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_5.jpg",
+   "flNm": "03.정관_브릴스_5.jpg",
+   "alt": "이미지: 03.정관_브릴스_5",
+   "bytes": 227628,
+   "sha256": "dce320fcb756eae83a66451344496dc575cbe514a7b97e483534314073915c6f",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_6.jpg",
+   "flNm": "03.정관_브릴스_6.jpg",
+   "alt": "이미지: 03.정관_브릴스_6",
+   "bytes": 190760,
+   "sha256": "44ac0d6ff130613798055a3bee76b736ded64d960f0ee6ad166cff9bf700b008",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_7.jpg",
+   "flNm": "03.정관_브릴스_7.jpg",
+   "alt": "이미지: 03.정관_브릴스_7",
+   "bytes": 189944,
+   "sha256": "f96e9f5906f84fd974cc8b7f6805ce57e887796d62424e531655499e3d5c1a45",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_8.jpg",
+   "flNm": "03.정관_브릴스_8.jpg",
+   "alt": "이미지: 03.정관_브릴스_8",
+   "bytes": 205693,
+   "sha256": "7ecea3fc63e7797be78720324770396a36b6463907593e0d518ca29e28d2bcb8",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_9.jpg",
+   "flNm": "03.정관_브릴스_9.jpg",
+   "alt": "이미지: 03.정관_브릴스_9",
+   "bytes": 155378,
+   "sha256": "38edc2e9bc7f39d864c357c1325ec281bad73cd8290b59c949f2d8c7d1fa5bb1",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_10.jpg",
+   "flNm": "03.정관_브릴스_10.jpg",
+   "alt": "이미지: 03.정관_브릴스_10",
+   "bytes": 165492,
+   "sha256": "5f87b25f8749ecce9feca29c5c84365caaf2e12a465408e2db370c65f5c9008c",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_11.jpg",
+   "flNm": "03.정관_브릴스_11.jpg",
+   "alt": "이미지: 03.정관_브릴스_11",
+   "bytes": 140940,
+   "sha256": "70b868a1f30597e695da4621436cbf11cb2f6eff1d174ac562115a89694c7633",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_12.jpg",
+   "flNm": "03.정관_브릴스_12.jpg",
+   "alt": "이미지: 03.정관_브릴스_12",
+   "bytes": 185209,
+   "sha256": "23dc925af6d682564b94e7c59d7e6e8fa0317bd0bf9f2a28b94e5b221991cc74",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_13.jpg",
+   "flNm": "03.정관_브릴스_13.jpg",
+   "alt": "이미지: 03.정관_브릴스_13",
+   "bytes": 139464,
+   "sha256": "5e28ed04699d0427cb5f9b03f33f66926b444ba56e59cda282251b873bc29ec1",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_14.jpg",
+   "flNm": "03.정관_브릴스_14.jpg",
+   "alt": "이미지: 03.정관_브릴스_14",
+   "bytes": 165129,
+   "sha256": "5c7e6fbf6f3c20b39737ee8548d1c8ae9d808e91ad32f8a549614b1d36c15d6d",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_15.jpg",
+   "flNm": "03.정관_브릴스_15.jpg",
+   "alt": "이미지: 03.정관_브릴스_15",
+   "bytes": 156680,
+   "sha256": "5d18df276b88634a5793b69fc45b4da419e9555d305c968ee40ba8e5bf75475d",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_16.jpg",
+   "flNm": "03.정관_브릴스_16.jpg",
+   "alt": "이미지: 03.정관_브릴스_16",
+   "bytes": 160033,
+   "sha256": "b346e4658853c28ab7cbba86d825521ba038755b48af7b0c45a153127e33e626",
+   "width": 1190,
+   "height": 1684
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_17.jpg",
+   "flNm": "03.정관_브릴스_17.jpg",
+   "alt": "이미지: 03.정관_브릴스_17",
+   "bytes": 125345,
+   "sha256": "773c6ac2a23912151f6fe1663f407f572ef615673b6bce0091bee362ffcdfd8b",
+   "width": 1190,
+   "height": 1684
+  }
+ ],
+ "folder": "data/charter_absent/468670_브릴스/20260713_11474494",
+ "fetched_at": "2026-11-17T00:51:51",
+ "used_by_stock_code": [
+  "468670"
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "built_at": "2026-11-17T01:26:40",
+ "n": 52,
+ "tag": {
+  "정관no": 29,
+  "정관yes": 11,
+  "정관yesorno": 12
+ },
+ "llm_tag": {
+  "정관no": 23,
+  "정관yes": 11,
+  "정관yesorno": 15,
+  "확인필요": 3
+ },
+ "route": {
+  "배당조항": 38,
+  "배당조항→기준일조항 참조": 12,
+  "기준일조항(배당 명시 없음)": 1,
+  "기준일조항(배당 명시)": 1
+ },
+ "interim": {
+  "이사회결정": 14,
+  "없음": 36,
+  "확인필요": 1,
+  "고정": 1
+ },
+ "quarterly": {
+  "없음": 42,
+  "이사회결정": 6,
+  "고정": 3,
+  "혼합": 1
+ },
+ "confidence": {
+  "높음": 36,
+  "보통": 10,
+  "낮음": 6
+ },
+ "llm_mode": {
+  "excerpt": 52
+ },
+ "quote_ok": {
+  "True": 52
+ },
+ "rule_vs_llm": {
+  "정관no|정관no": 20,
+  "정관yes|정관yesorno": 1,
+  "정관yes|?": 2,
+  "정관no|정관yesorno": 3,
+  "정관yes|참조": 2,
+  "정관yes|정관yes": 6,
+  "정관yesorno|정관yesorno": 13,
+  "정관yesorno|정관yes": 1,
+  "정관yesorno|정관no": 1,
+  "확인필요|정관yesorno": 3
+ },
+ "review": 21,
+ "reviewed": 21,
+ "later_amend_dividend": 1,
+ "agm_checked": 1,
+ "agm_amends_record_date": 0,
+ "tag_after_agm": {
+  "정관no": 29,
+  "정관yes": 11,
+  "정관yesorno": 12
+ },
+ "tag_to_after_agm": {},
+ "tag_by_amend_year": {
+  "정관no|None": 28,
+  "정관no|2026": 1
+ },
+ "prompt_sha256": {
+  "f3cf17821a7e9bd23be7774cfeb6370024084e66d252b246cd6537cb80053974": 52
+ }
+}

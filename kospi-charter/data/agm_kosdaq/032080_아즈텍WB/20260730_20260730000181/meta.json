@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260730000181",
+ "corp_code": "00201131",
+ "corp_name": "아즈텍WB",
+ "stock_code": "032080",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260730",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000181",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 245,
+ "charter_amend_txt": "data/agm_kosdaq/032080_아즈텍WB/20260730_20260730000181/정관의변경.txt",
+ "main_xml": "20260730000181.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260730000181.xml",
+   "bytes": 42878,
+   "sha256": "e24273beb92ba41cc7ea84874a22113a1b84242a4dffc28b8ab27244775cca1f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/032080_아즈텍WB/20260730_20260730000181",
+ "fetched_at": "2026-11-16T19:37:26"
+}

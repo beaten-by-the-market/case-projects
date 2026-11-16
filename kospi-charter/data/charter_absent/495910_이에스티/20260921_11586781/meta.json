@@ -1,0 +1,205 @@
+{
+ "corp_code": "01378005",
+ "corp_name": "이에스티",
+ "stock_code": "495910",
+ "att_title": "2026.09.21 정관",
+ "att_date": "20260921",
+ "rcpNo": "20260921000211",
+ "dcmNo": "11586781",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000211&dcmNo=11586781",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000211&dcmNo=11586781&eleId=1&offset=592&length=2783&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 18,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "이에스티 정관_1.jpg",
+   "alt": "이미지: 이에스티 정관_1",
+   "bytes": 115458,
+   "sha256": "3c5499ce21b6aa30a5d7aefc41b522116f4082b6b4ffeaa0c68e4c445a763d87",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "이에스티 정관_2.jpg",
+   "alt": "이미지: 이에스티 정관_2",
+   "bytes": 240531,
+   "sha256": "acafd383b39b97b336373b7405d6c82d8e2bfb20c398e0a0a3b6883a933e8713",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "이에스티 정관_3.jpg",
+   "alt": "이미지: 이에스티 정관_3",
+   "bytes": 206551,
+   "sha256": "d30678bcd9ecabbb1fcb5fdfe46156e0f49310e5dea48b03a0370d658c1f236f",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "이에스티 정관_4.jpg",
+   "alt": "이미지: 이에스티 정관_4",
+   "bytes": 240586,
+   "sha256": "4b63a565d93ec80504fee7b1194d3b21a4c16de340e473fc9ee800692d6bc620",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "이에스티 정관_5.jpg",
+   "alt": "이미지: 이에스티 정관_5",
+   "bytes": 185950,
+   "sha256": "1a151e57f297540e35ec09f9588793bdf776e739f79d1ec8fe2538bbce18ff73",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "이에스티 정관_6.jpg",
+   "alt": "이미지: 이에스티 정관_6",
+   "bytes": 222088,
+   "sha256": "86a4589783b649ae64b583ffbc45992b7a7c0135d98d90d07dda62df6ac4a4f3",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "이에스티 정관_7.jpg",
+   "alt": "이미지: 이에스티 정관_7",
+   "bytes": 205272,
+   "sha256": "9a650c0a6c7f28cb973819a5eb5f42b6a8e7659db9bfaefe0431ba420d03fece",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "이에스티 정관_8.jpg",
+   "alt": "이미지: 이에스티 정관_8",
+   "bytes": 187304,
+   "sha256": "00c470c6efe2c40eb2755990010bc6d2cff1ca654bb399145875baead69caa70",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "이에스티 정관_9.jpg",
+   "alt": "이미지: 이에스티 정관_9",
+   "bytes": 184471,
+   "sha256": "4ed4e8ab2142389d482055c4416eb46378b557be80eef094fdd060e8fb888b33",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "이에스티 정관_10.jpg",
+   "alt": "이미지: 이에스티 정관_10",
+   "bytes": 217568,
+   "sha256": "9f552bef6753434d2a5433b4604d1ccfd4850f869fecc7e88beb8efd87d5c305",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "이에스티 정관_11.jpg",
+   "alt": "이미지: 이에스티 정관_11",
+   "bytes": 174132,
+   "sha256": "9df83ac05b980fa1391bc0870c7d1667484ec0a8278a89f1e1d49572b21cb984",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "이에스티 정관_12.jpg",
+   "alt": "이미지: 이에스티 정관_12",
+   "bytes": 187881,
+   "sha256": "cf03ba512fc0f2bafcba3ed70795c0c92556ac987155447694b4b515087d84ab",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "이에스티 정관_13.jpg",
+   "alt": "이미지: 이에스티 정관_13",
+   "bytes": 184659,
+   "sha256": "0d9cbd402660b275e6aab6306aa07bb57feccc7998a34219ef205708e15531c4",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "이에스티 정관_14.jpg",
+   "alt": "이미지: 이에스티 정관_14",
+   "bytes": 173290,
+   "sha256": "6ed0a1e485e84ad6a803a64179a992f338f5af0816afb633783d7d0e8664db1d",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "이에스티 정관_15.jpg",
+   "alt": "이미지: 이에스티 정관_15",
+   "bytes": 184398,
+   "sha256": "ae3fa732b5b862aa0015df8b6902bf66ea40cc970346026fa083f5ece14d0096",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "이에스티 정관_16.jpg",
+   "alt": "이미지: 이에스티 정관_16",
+   "bytes": 196188,
+   "sha256": "5baf3b79ff30f87a04d29a15a4407ac88e045b7dcfcf9bbbabb2d1e1ad2541c5",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "이에스티 정관_17.jpg",
+   "alt": "이미지: 이에스티 정관_17",
+   "bytes": 140632,
+   "sha256": "698e527f51cd3c8e0ff64e35a45e5eb6b5818a18b4bd8d2d483c3814dcf44255",
+   "width": 1192,
+   "height": 1686
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_18.jpg",
+   "flNm": "이에스티 정관_18.jpg",
+   "alt": "이미지: 이에스티 정관_18",
+   "bytes": 161495,
+   "sha256": "276e1a74e95a39edf534289c594a386a936eaa53d6d2e56c78ebe13f90b9ed34",
+   "width": 1192,
+   "height": 1686
+  }
+ ],
+ "folder": "data/charter_absent/495910_이에스티/20260921_11586781",
+ "fetched_at": "2026-11-17T00:50:19",
+ "used_by_stock_code": [
+  "495910"
+ ]
+}

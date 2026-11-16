@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260619000157",
+ "corp_code": "00231831",
+ "corp_name": "조아제약",
+ "stock_code": "034940",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260619",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000157",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 315,
+ "charter_amend_txt": "data/agm_kosdaq/034940_조아제약/20260619_20260619000157/정관의변경.txt",
+ "main_xml": "20260619000157.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260619000157.xml",
+   "bytes": 45823,
+   "sha256": "e54520f5277e19c9f2c3d4df458e410aec85284160954881fb6f19bae260d71b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/034940_조아제약/20260619_20260619000157",
+ "fetched_at": "2026-11-16T19:35:38"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260714000287",
+ "corp_code": "01128622",
+ "corp_name": "이스트에이드",
+ "stock_code": "239340",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260714",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000287",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 175,
+ "charter_amend_txt": "data/agm_kosdaq/239340_이스트에이드/20260714_20260714000287/정관의변경.txt",
+ "main_xml": "20260714000287.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260714000287.xml",
+   "bytes": 48916,
+   "sha256": "b0f3249b1083c2878d6dc2bb2d25aad3a5952f47ee471401c6d21f6fdd27c3ea"
+  }
+ ],
+ "folder": "data/agm_kosdaq/239340_이스트에이드/20260714_20260714000287",
+ "fetched_at": "2026-11-16T19:36:42"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261029000612",
+ "corp_code": "01267222",
+ "corp_name": "에피소드컴퍼니",
+ "stock_code": "317530",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261029",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000612",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261029000612.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261029000612.xml",
+   "bytes": 32631,
+   "sha256": "6c224e4a0820a3722b1d8d34527b70511f48d166249ec9f3f405aea26e838b71"
+  }
+ ],
+ "folder": "data/agm_kosdaq/317530_에피소드컴퍼니/20261029_20261029000612",
+ "fetched_at": "2026-11-16T19:40:25"
+}

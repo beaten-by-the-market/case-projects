@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261112000363",
+ "corp_code": "00229021",
+ "corp_name": "인성정보",
+ "stock_code": "033230",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261112",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000363",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1119,
+ "charter_amend_txt": "data/agm_kosdaq/033230_인성정보/20261112_20261112000363/정관의변경.txt",
+ "main_xml": "20261112000363.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261112000363.xml",
+   "bytes": 62684,
+   "sha256": "0907f733719543d6fe9da7c28d703b0dedcb28c273efefa173a6f1cc06533ccc"
+  }
+ ],
+ "folder": "data/agm_kosdaq/033230_인성정보/20261112_20261112000363",
+ "fetched_at": "2026-11-16T19:40:45"
+}

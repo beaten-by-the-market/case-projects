@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260324001039",
+ "corp_code": "01676642",
+ "corp_name": "사피엔반도체",
+ "stock_code": "452430",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260325",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324001039",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1732,
+ "charter_amend_txt": "data/agm_kosdaq/452430_사피엔반도체/20260325_20260324001039/정관의변경.txt",
+ "main_xml": "20260324001039.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260324001039.xml",
+   "bytes": 130740,
+   "sha256": "05ada69b81f07d00cb9ba8dc852ea795a55e740ea8fd52164ae72f69ba820a9c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/452430_사피엔반도체/20260325_20260324001039",
+ "fetched_at": "2026-11-16T19:33:19"
+}

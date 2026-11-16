@@ -1,0 +1,24 @@
+{
+ "corp_code": "00571298",
+ "corp_name": "덕우전자",
+ "stock_code": "263600",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000904",
+ "dcmNo": "11164322",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000904&dcmNo=11164322",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000904&dcmNo=11164322&eleId=1&offset=595&length=22122&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12242,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/263600_덕우전자/20260323_11164322",
+ "fetched_at": "2026-11-16T21:20:28",
+ "used_by_rcept_no": [
+  "20260323000904"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11100523&flNm=2025+%EC%A0%95%EA%B4%80_%EC%97%90%ED%94%84%EC%95%A4%EA%B0%80%EC%9D%B4%EB%93%9C.pdf",
+   "flNm": "2025 정관_에프앤가이드.pdf",
+   "bytes": 3734456,
+   "sha256": "f736f8c9f631d7f325dbad97d002633bd30dffedbd8f2c91a00c6af3e27f0f54",
+   "pages": 25,
+   "text_pages": 0,
+   "ocr_pages": 25
+  }
+ ],
+ "total_chars": 13475,
+ "pages": 25,
+ "text_pages": 0,
+ "ocr_pages": 25,
+ "created_at": "2026-11-16T22:11:49",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

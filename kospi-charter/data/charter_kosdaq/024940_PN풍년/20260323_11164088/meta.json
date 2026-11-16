@@ -1,0 +1,24 @@
+{
+ "corp_code": "00133557",
+ "corp_name": "PN풍년",
+ "stock_code": "024940",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000857",
+ "dcmNo": "11164088",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000857&dcmNo=11164088",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000857&dcmNo=11164088&eleId=1&offset=592&length=21850&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10390,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/024940_PN풍년/20260323_11164088",
+ "fetched_at": "2026-11-16T19:58:35",
+ "used_by_rcept_no": [
+  "20260323000857"
+ ]
+}

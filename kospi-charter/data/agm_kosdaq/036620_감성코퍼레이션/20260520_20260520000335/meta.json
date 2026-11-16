@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260520000335",
+ "corp_code": "00261009",
+ "corp_name": "감성코퍼레이션",
+ "stock_code": "036620",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260520",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260520000335",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 736,
+ "charter_amend_txt": "data/agm_kosdaq/036620_감성코퍼레이션/20260520_20260520000335/정관의변경.txt",
+ "main_xml": "20260520000335.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260520000335.xml",
+   "bytes": 89316,
+   "sha256": "4aac94335a22b68951c5b10c0ccbd2632beced99f37f57793d633ca5a2f5d5c2"
+  }
+ ],
+ "folder": "data/agm_kosdaq/036620_감성코퍼레이션/20260520_20260520000335",
+ "fetched_at": "2026-11-16T19:34:34"
+}

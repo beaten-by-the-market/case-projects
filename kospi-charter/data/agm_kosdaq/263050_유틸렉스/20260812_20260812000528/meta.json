@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260812000528",
+ "corp_code": "01110678",
+ "corp_name": "유틸렉스",
+ "stock_code": "263050",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260812",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000528",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260812000528.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260812000528.xml",
+   "bytes": 57457,
+   "sha256": "0c7736c705b78f602643cc3d7e65df31a2d6d12a56e0c769c65139b79037a4c0"
+  }
+ ],
+ "folder": "data/agm_kosdaq/263050_유틸렉스/20260812_20260812000528",
+ "fetched_at": "2026-11-16T19:37:42"
+}

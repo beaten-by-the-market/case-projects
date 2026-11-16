@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261006000456",
+ "corp_code": "00116426",
+ "corp_name": "이렘",
+ "stock_code": "009730",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261006",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000456",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261006000456.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261006000456.xml",
+   "bytes": 47457,
+   "sha256": "4fd6b0b8db0f6a324c497e39578e4bfb0fd99ac742369bd6763cbe1fab210aa9"
+  }
+ ],
+ "folder": "data/agm_kosdaq/009730_이렘/20261006_20261006000456",
+ "fetched_at": "2026-11-16T19:39:32"
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "00462121",
+ "corp_name": "LIG아큐버",
+ "stock_code": "073490",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000846",
+ "dcmNo": "11138411",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000846&dcmNo=11138411",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000846&dcmNo=11138411&eleId=1&offset=595&length=332&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 52,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/073490_LIG아큐버/20260318_11138411",
+ "fetched_at": "2026-11-16T20:35:28",
+ "used_by_rcept_no": [
+  "20260325001192"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138411&flNm=%EC%A0%95%EA%B4%80_2021.03.26%28%EC%8B%9C%ED%96%89%EC%9D%BC+03.26%29.pdf",
+   "flNm": "정관_2021.03.26(시행일 03.26).pdf",
+   "bytes": 191041,
+   "sha256": "a49ea980b4433d778e99945e1a43251c71f4e8aa4bce13085c4be3e01cbb5116",
+   "pages": 22,
+   "text_pages": 21,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260515002458",
+ "corp_code": "00110750",
+ "corp_name": "GMI벤처",
+ "stock_code": "019570",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260515",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002458",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 533,
+ "charter_amend_txt": "data/agm_kosdaq/019570_GMI벤처/20260515_20260515002458/정관의변경.txt",
+ "main_xml": "20260515002458.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260515002458.xml",
+   "bytes": 81888,
+   "sha256": "4c7b42a40c98cf08ab06ce8c3c3cac3164880d3264146367e042fb9c169acbba"
+  }
+ ],
+ "folder": "data/agm_kosdaq/019570_GMI벤처/20260515_20260515002458",
+ "fetched_at": "2026-11-16T19:34:29"
+}

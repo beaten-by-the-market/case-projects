@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261022000137",
+ "corp_code": "01658831",
+ "corp_name": "오름테라퓨틱",
+ "stock_code": "475830",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261022",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000137",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3377,
+ "charter_amend_txt": "data/agm_kosdaq/475830_오름테라퓨틱/20261022_20261022000137/정관의변경.txt",
+ "main_xml": "20261022000137.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261022000137.xml",
+   "bytes": 102263,
+   "sha256": "198c2acf9de5b3d6f219289169babb6d530b52d5dbd23c09e61d74ab97fa0b12"
+  }
+ ],
+ "folder": "data/agm_kosdaq/475830_오름테라퓨틱/20261022_20261022000137",
+ "fetched_at": "2026-11-16T19:40:16"
+}

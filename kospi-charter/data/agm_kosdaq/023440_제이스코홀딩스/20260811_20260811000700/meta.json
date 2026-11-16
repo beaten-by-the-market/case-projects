@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260811000700",
+ "corp_code": "00148531",
+ "corp_name": "제이스코홀딩스",
+ "stock_code": "023440",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260811",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000700",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 6084,
+ "charter_amend_txt": "data/agm_kosdaq/023440_제이스코홀딩스/20260811_20260811000700/정관의변경.txt",
+ "main_xml": "20260811000700.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260811000700.xml",
+   "bytes": 82719,
+   "sha256": "37566a67c2287e127bcc025149f18a60c81ebb2e17464cd7d23045bfb1e1c305"
+  }
+ ],
+ "folder": "data/agm_kosdaq/023440_제이스코홀딩스/20260811_20260811000700",
+ "fetched_at": "2026-11-16T19:37:41"
+}

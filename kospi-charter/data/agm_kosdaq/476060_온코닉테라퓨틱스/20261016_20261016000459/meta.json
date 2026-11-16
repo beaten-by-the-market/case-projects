@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261016000459",
+ "corp_code": "01632912",
+ "corp_name": "온코닉테라퓨틱스",
+ "stock_code": "476060",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261016",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000459",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 303,
+ "charter_amend_txt": "data/agm_kosdaq/476060_온코닉테라퓨틱스/20261016_20261016000459/정관의변경.txt",
+ "main_xml": "20261016000459.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261016000459.xml",
+   "bytes": 75440,
+   "sha256": "b06e812f325a986bf186129319566d7d76f61ac6c48dbe3ee217212f35d0e6a5"
+  }
+ ],
+ "folder": "data/agm_kosdaq/476060_온코닉테라퓨틱스/20261016_20261016000459",
+ "fetched_at": "2026-11-16T19:39:50"
+}

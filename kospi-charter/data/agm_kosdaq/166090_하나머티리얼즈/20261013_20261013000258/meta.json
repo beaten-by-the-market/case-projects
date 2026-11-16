@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261013000258",
+ "corp_code": "00660750",
+ "corp_name": "하나머티리얼즈",
+ "stock_code": "166090",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261013",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000258",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261013000258.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261013000258.xml",
+   "bytes": 39861,
+   "sha256": "b1faffc8b1b3c566755c6e317d8a5c9acda3deac46d309c9fba0d6d72700fb30"
+  }
+ ],
+ "folder": "data/agm_kosdaq/166090_하나머티리얼즈/20261013_20261013000258",
+ "fetched_at": "2026-11-16T19:39:40"
+}

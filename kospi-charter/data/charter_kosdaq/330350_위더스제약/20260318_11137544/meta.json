@@ -1,0 +1,185 @@
+{
+ "corp_code": "00765851",
+ "corp_name": "위더스제약",
+ "stock_code": "330350",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000724",
+ "dcmNo": "11137544",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000724&dcmNo=11137544",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000724&dcmNo=11137544&eleId=1&offset=596&length=2505&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 16,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "위더스제약_정관_2.jpg",
+   "alt": "이미지: 위더스제약_정관_2",
+   "bytes": 90062,
+   "sha256": "77894814025db4b585a3640e790d5e51c6e0ecd91165473e2fb1e94080aa168f",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "위더스제약_정관_3.jpg",
+   "alt": "이미지: 위더스제약_정관_3",
+   "bytes": 152665,
+   "sha256": "a7c834d11e0935a992a5d66dc556b1a094551008d5bad664691aae09e1928716",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "위더스제약_정관_4.jpg",
+   "alt": "이미지: 위더스제약_정관_4",
+   "bytes": 168543,
+   "sha256": "fc77ea694c04eb4dcc0b21912cfb2baacccbac921f395df88672b62ebf087c58",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "위더스제약_정관_5.jpg",
+   "alt": "이미지: 위더스제약_정관_5",
+   "bytes": 169411,
+   "sha256": "9fd3b5f6dc6b718bd33005cc9c3b76aaff56b0b90dbd07ea3aae1ba9a938ace5",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "위더스제약_정관_6.jpg",
+   "alt": "이미지: 위더스제약_정관_6",
+   "bytes": 191479,
+   "sha256": "57ed34428947afd9dd83698867a63926ba0eb98b941a3d4e4593bdf873dc0bec",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "위더스제약_정관_7.jpg",
+   "alt": "이미지: 위더스제약_정관_7",
+   "bytes": 196823,
+   "sha256": "e872529b508aec9f2626d67838bb17c7215614be68b0c82e4546c771a8c26ad1",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "위더스제약_정관_8.jpg",
+   "alt": "이미지: 위더스제약_정관_8",
+   "bytes": 161845,
+   "sha256": "6a5e1a88353298e9b0dd8016e014b7c8514ff071b26b435dff01fab60802498a",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "위더스제약_정관_9.jpg",
+   "alt": "이미지: 위더스제약_정관_9",
+   "bytes": 176552,
+   "sha256": "5ef4bb5fbed00ddeb7100696dce5134a6aca7c810a7db34c792442d8e855d5a5",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "위더스제약_정관_10.jpg",
+   "alt": "이미지: 위더스제약_정관_10",
+   "bytes": 148698,
+   "sha256": "7a5f89c48cedabcb5d1c1a4ad92504b023e2d5afd18cfe6636f9e05f27a575d8",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "위더스제약_정관_11.jpg",
+   "alt": "이미지: 위더스제약_정관_11",
+   "bytes": 136255,
+   "sha256": "6b696cedac90dd3e3c4f50211c465dc8449fe51728787b9b3c736782143fc000",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "위더스제약_정관_12.jpg",
+   "alt": "이미지: 위더스제약_정관_12",
+   "bytes": 136847,
+   "sha256": "0bb6478c5ffb0fdb644cc77de4c9067e6c6f11ae0fde18120ec2ce532f026b42",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "위더스제약_정관_13.jpg",
+   "alt": "이미지: 위더스제약_정관_13",
+   "bytes": 130278,
+   "sha256": "4ca6d4589b469e48d910a6239c5c8a4f68409361eb2f3be3696914b88a478843",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "위더스제약_정관_14.jpg",
+   "alt": "이미지: 위더스제약_정관_14",
+   "bytes": 175748,
+   "sha256": "a2bdd4b605c406cbc0e6e23390a59e33222461f4fdd5a7c06cf50d742c5778a5",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "위더스제약_정관_15.jpg",
+   "alt": "이미지: 위더스제약_정관_15",
+   "bytes": 135132,
+   "sha256": "24fd147c230b28c2acf77a30afcd14882d0d4f321b4c7a1f4080997d9ab7cea9",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "위더스제약_정관_16.jpg",
+   "alt": "이미지: 위더스제약_정관_16",
+   "bytes": 81952,
+   "sha256": "9fa74109221d6bad5276bc39ecdaddf964b53113d80d70d960f0d00cb5ed9385",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137544&flNm=%EC%9C%84%EB%8D%94%EC%8A%A4%EC%A0%9C%EC%95%BD_%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "위더스제약_정관_17.jpg",
+   "alt": "이미지: 위더스제약_정관_17",
+   "bytes": 62209,
+   "sha256": "d5350b1e23c62394eb33e5d0d5793649cd72a1ceb103e610f4e9bb91e331c105",
+   "width": 794,
+   "height": 1123
+  }
+ ],
+ "folder": "data/charter_kosdaq/330350_위더스제약/20260318_11137544",
+ "fetched_at": "2026-11-16T21:33:22",
+ "used_by_rcept_no": [
+  "20260318000724"
+ ]
+}

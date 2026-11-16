@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260915000199",
+ "corp_code": "01250374",
+ "corp_name": "에스에스알",
+ "stock_code": "275630",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260915",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000199",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260915000199.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260915000199.xml",
+   "bytes": 71613,
+   "sha256": "c932490ebb3198de92d84dd4675d501b48db0be86864b080d8e53a381689b2a5"
+  }
+ ],
+ "folder": "data/agm_kosdaq/275630_에스에스알/20260915_20260915000199",
+ "fetched_at": "2026-11-16T19:38:50"
+}

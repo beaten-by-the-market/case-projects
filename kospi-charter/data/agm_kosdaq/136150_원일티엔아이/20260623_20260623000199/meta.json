@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260623000199",
+ "corp_code": "00488244",
+ "corp_name": "원일티엔아이",
+ "stock_code": "136150",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260623",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000199",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 542,
+ "charter_amend_txt": "data/agm_kosdaq/136150_원일티엔아이/20260623_20260623000199/정관의변경.txt",
+ "main_xml": "20260623000199.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260623000199.xml",
+   "bytes": 72298,
+   "sha256": "6da7c548c3c91e26da6a8f3627cc5e6bac0441b1f4dd6dc670b8f198adffe4e0"
+  }
+ ],
+ "folder": "data/agm_kosdaq/136150_원일티엔아이/20260623_20260623000199",
+ "fetched_at": "2026-11-16T19:35:44"
+}

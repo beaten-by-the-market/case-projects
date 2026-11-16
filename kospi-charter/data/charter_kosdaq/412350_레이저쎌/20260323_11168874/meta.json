@@ -1,0 +1,24 @@
+{
+ "corp_code": "01573381",
+ "corp_name": "레이저쎌",
+ "stock_code": "412350",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001590",
+ "dcmNo": "11168874",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001590&dcmNo=11168874",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001590&dcmNo=11168874&eleId=1&offset=597&length=30138&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15025,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/412350_레이저쎌/20260323_11168874",
+ "fetched_at": "2026-11-16T21:49:53",
+ "used_by_rcept_no": [
+  "20260324000280"
+ ]
+}

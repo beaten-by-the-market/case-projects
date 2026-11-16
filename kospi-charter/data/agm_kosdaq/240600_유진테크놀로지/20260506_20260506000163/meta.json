@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260506000163",
+ "corp_code": "01085026",
+ "corp_name": "유진테크놀로지",
+ "stock_code": "240600",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260506",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000163",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1551,
+ "charter_amend_txt": "data/agm_kosdaq/240600_유진테크놀로지/20260506_20260506000163/정관의변경.txt",
+ "main_xml": "20260506000163.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260506000163.xml",
+   "bytes": 49690,
+   "sha256": "52e4bd5aff8ce29690fe1ca61eca680ce189e29698d193656bd9290a694817e3"
+  }
+ ],
+ "folder": "data/agm_kosdaq/240600_유진테크놀로지/20260506_20260506000163",
+ "fetched_at": "2026-11-16T19:34:07"
+}

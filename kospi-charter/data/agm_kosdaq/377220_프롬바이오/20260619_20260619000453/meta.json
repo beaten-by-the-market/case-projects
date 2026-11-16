@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260619000453",
+ "corp_code": "01217865",
+ "corp_name": "프롬바이오",
+ "stock_code": "377220",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260619",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000453",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 260,
+ "charter_amend_txt": "data/agm_kosdaq/377220_프롬바이오/20260619_20260619000453/정관의변경.txt",
+ "main_xml": "20260619000453.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260619000453.xml",
+   "bytes": 72395,
+   "sha256": "6f83e398acedc32eda7552215fbf3529fa851d09c3423e17063e770fb2343652"
+  }
+ ],
+ "folder": "data/agm_kosdaq/377220_프롬바이오/20260619_20260619000453",
+ "fetched_at": "2026-11-16T19:35:39"
+}

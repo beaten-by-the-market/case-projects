@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260907000112",
+ "corp_code": "01375822",
+ "corp_name": "에이프릴바이오",
+ "stock_code": "397030",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260907",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907000112",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260907000112.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260907000112.xml",
+   "bytes": 88239,
+   "sha256": "23260f9f2fe7d4701ef4560b03285db784414eb79959eb0e4abd945b6a879145"
+  }
+ ],
+ "folder": "data/agm_kosdaq/397030_에이프릴바이오/20260907_20260907000112",
+ "fetched_at": "2026-11-16T19:38:37"
+}

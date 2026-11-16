@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260624000264",
+ "corp_code": "01160512",
+ "corp_name": "헝셩그룹",
+ "stock_code": "900270",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260624",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000264",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260624000264.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260624000264.xml",
+   "bytes": 58992,
+   "sha256": "76895ab74e2d9d466a421b8fbc77f6dff660eab0f02a427b7692773e2ca9da8c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/900270_헝셩그룹/20260624_20260624000264",
+ "fetched_at": "2026-11-16T19:35:47"
+}

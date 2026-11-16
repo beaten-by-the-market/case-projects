@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260624000146",
+ "corp_code": "00145668",
+ "corp_name": "이화공영",
+ "stock_code": "001840",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260624",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000146",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260624000146.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260624000146.xml",
+   "bytes": 41672,
+   "sha256": "013bcc67f3aefb4af2716d39a55ae2dbda84125f49fd273da3f7971a0d5c524d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/001840_이화공영/20260624_20260624000146",
+ "fetched_at": "2026-11-16T19:35:47"
+}

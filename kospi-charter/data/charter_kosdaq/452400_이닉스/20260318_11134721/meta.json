@@ -1,0 +1,215 @@
+{
+ "corp_code": "00338170",
+ "corp_name": "이닉스",
+ "stock_code": "452400",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000138",
+ "dcmNo": "11134721",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000138&dcmNo=11134721",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000138&dcmNo=11134721&eleId=1&offset=596&length=3609&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 19,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_1.jpg",
+   "flNm": "inics-01-001 정관20241008_1.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_1",
+   "bytes": 241550,
+   "sha256": "c0e606ff57fc173d721f6bb9df8991a99daabac8ddc04ae594fe03fb7abd0e03",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_2.jpg",
+   "flNm": "inics-01-001 정관20241008_2.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_2",
+   "bytes": 284435,
+   "sha256": "b750a82c1a80161e62bdf9319f4b5a2eac4a22d86095bb20fc33f9cf9200250a",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_3.jpg",
+   "flNm": "inics-01-001 정관20241008_3.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_3",
+   "bytes": 288972,
+   "sha256": "3110be844cd8b57bcde96e7886140bd0a94ab3b3eee75378129138e4b68f0bf9",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_4.jpg",
+   "flNm": "inics-01-001 정관20241008_4.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_4",
+   "bytes": 292618,
+   "sha256": "334e5929e5904f0e5c3a070d49c7c7853c71e0b854b73e22dbcedddc0da962c2",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_5.jpg",
+   "flNm": "inics-01-001 정관20241008_5.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_5",
+   "bytes": 301020,
+   "sha256": "980e9a84b0dd045fa55d0d7e53cd7a52c86d2e5f766bc15f2f0cb3c963905941",
+   "width": 1807,
+   "height": 2553
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_6.jpg",
+   "flNm": "inics-01-001 정관20241008_6.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_6",
+   "bytes": 275298,
+   "sha256": "26920646a8136c5ebff2c23863c11f388c731750005019d355617666b2e6be39",
+   "width": 1807,
+   "height": 2553
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_7.jpg",
+   "flNm": "inics-01-001 정관20241008_7.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_7",
+   "bytes": 291828,
+   "sha256": "6388c541830be0aad626eca4c9197cfd68cadba21499fe06f2fbe3e2630e31aa",
+   "width": 1807,
+   "height": 2553
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_8.jpg",
+   "flNm": "inics-01-001 정관20241008_8.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_8",
+   "bytes": 305660,
+   "sha256": "50e1a4a61c603bb587d872d4e5a0e01492353b63540fac0696ee520cf87790f8",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_9.jpg",
+   "flNm": "inics-01-001 정관20241008_9.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_9",
+   "bytes": 281020,
+   "sha256": "5107c1364165863aeab26557bd5b5a1f64d08eb8f0f4a9de0dc5faedad814223",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_10.jpg",
+   "flNm": "inics-01-001 정관20241008_10.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_10",
+   "bytes": 269451,
+   "sha256": "231b2d7a90aed518e3c3cfa52119fa7b6aa74e6ce4a5729984c60cf1b0ddd32b",
+   "width": 1807,
+   "height": 2553
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_11.jpg",
+   "flNm": "inics-01-001 정관20241008_11.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_11",
+   "bytes": 283665,
+   "sha256": "f8f290170cb193becb902d29acd64c8b4c57f30452d30d393ccce75c38a524d9",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_12.jpg",
+   "flNm": "inics-01-001 정관20241008_12.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_12",
+   "bytes": 272454,
+   "sha256": "ae2fdc07538bd92f6af4c8f7773e642ce8517834db1d77f840d834f97db1507b",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_13.jpg",
+   "flNm": "inics-01-001 정관20241008_13.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_13",
+   "bytes": 255563,
+   "sha256": "4dbe0b03e0201c5a51b26c4eb1becd0b506fdebc4a287bfd30e26e6cf7e029f0",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_14.jpg",
+   "flNm": "inics-01-001 정관20241008_14.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_14",
+   "bytes": 284654,
+   "sha256": "a897119eda1b4fc7b90dbf1406e4c2ea6d4880f5ffdc340ecbdd5a4b5a449f27",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_15.jpg",
+   "flNm": "inics-01-001 정관20241008_15.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_15",
+   "bytes": 289456,
+   "sha256": "fc98e8dfdf9324b26057c56113a17c25d411b130c9dea7809bedd990d4cc1c53",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_16.jpg",
+   "flNm": "inics-01-001 정관20241008_16.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_16",
+   "bytes": 305938,
+   "sha256": "474c063265f12e1ad08968f7811ceb5287aaa892cca8a8f8e5df6daa6d11e939",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_17.jpg",
+   "flNm": "inics-01-001 정관20241008_17.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_17",
+   "bytes": 287862,
+   "sha256": "f860471fc90195809596e44ca380039e0cb6a01c5c99ad52f65cf9fe87222d13",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_18.jpg",
+   "flNm": "inics-01-001 정관20241008_18.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_18",
+   "bytes": 268615,
+   "sha256": "c358cfe98f9987a5fa1085ba969f950947d3c553c78b84e33b002b09f4236926",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11134721&flNm=inics-01-001+%EC%A0%95%EA%B4%8020241008_19.jpg",
+   "flNm": "inics-01-001 정관20241008_19.jpg",
+   "alt": "이미지: inics-01-001 정관20241008_19",
+   "bytes": 276211,
+   "sha256": "1fea1877f6a30a2a6c1f4e1b0c50eb8bd6021699bbcb1d63986ab9ea2f08a87a",
+   "width": 2481,
+   "height": 3508
+  }
+ ],
+ "folder": "data/charter_kosdaq/452400_이닉스/20260318_11134721",
+ "fetched_at": "2026-11-16T21:55:39",
+ "used_by_rcept_no": [
+  "20260318000138"
+ ]
+}

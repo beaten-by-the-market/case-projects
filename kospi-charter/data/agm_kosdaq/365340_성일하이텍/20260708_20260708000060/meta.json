@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260708000060",
+ "corp_code": "01274329",
+ "corp_name": "성일하이텍",
+ "stock_code": "365340",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260708",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708000060",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260708000060.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260708000060.xml",
+   "bytes": 43873,
+   "sha256": "ee47681854d53f6cc3148a40b1cf03e05c8dec3d9f09d480e5162e5d169d9d03"
+  }
+ ],
+ "folder": "data/agm_kosdaq/365340_성일하이텍/20260708_20260708000060",
+ "fetched_at": "2026-11-16T19:36:32"
+}

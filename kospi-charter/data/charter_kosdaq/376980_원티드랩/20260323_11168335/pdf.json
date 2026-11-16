@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168335&flNm=%EC%9B%90%ED%8B%B0%EB%93%9C%EB%9E%A9+%EC%A0%95%EA%B4%80_20230330_%EA%B0%9C%EC%A0%95.pdf",
+   "flNm": "원티드랩 정관_20230330_개정.pdf",
+   "bytes": 636894,
+   "sha256": "a6f4e42e5700730d651de533b02a704dd0df10b65ad1e108574e23a1284a9c07",
+   "pages": 16,
+   "text_pages": 0,
+   "ocr_pages": 16
+  }
+ ],
+ "total_chars": 12718,
+ "pages": 16,
+ "text_pages": 0,
+ "ocr_pages": 16,
+ "created_at": "2026-11-16T22:15:30",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

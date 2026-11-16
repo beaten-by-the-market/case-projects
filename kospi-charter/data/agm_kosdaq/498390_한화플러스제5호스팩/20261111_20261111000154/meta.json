@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261111000154",
+ "corp_code": "01881800",
+ "corp_name": "한화플러스제5호스팩",
+ "stock_code": "498390",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261111",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000154",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261111000154.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261111000154.xml",
+   "bytes": 225061,
+   "sha256": "90a2d397d91cd124606115d33238f0d486a09d2f7e13d79dcb486fc789d5f8f5"
+  }
+ ],
+ "folder": "data/agm_kosdaq/498390_한화플러스제5호스팩/20261111_20261111000154",
+ "fetched_at": "2026-11-16T19:40:40"
+}

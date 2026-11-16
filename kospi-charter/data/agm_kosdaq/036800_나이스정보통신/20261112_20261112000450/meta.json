@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261112000450",
+ "corp_code": "00264945",
+ "corp_name": "나이스정보통신",
+ "stock_code": "036800",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261112",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000450",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261112000450.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261112000450.xml",
+   "bytes": 70631,
+   "sha256": "90b2be9fa9b433783037ac645489c32692746b9897ed4e5de975da6dae94822e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/036800_나이스정보통신/20261112_20261112000450",
+ "fetched_at": "2026-11-16T19:40:46"
+}

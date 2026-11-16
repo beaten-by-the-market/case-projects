@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260424000666",
+ "corp_code": "00550082",
+ "corp_name": "빅텐츠",
+ "stock_code": "210120",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260424",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424000666",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1680,
+ "charter_amend_txt": "data/agm_kosdaq/210120_빅텐츠/20260424_20260424000666/정관의변경.txt",
+ "main_xml": "20260424000666.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260424000666.xml",
+   "bytes": 224308,
+   "sha256": "f29f3f09f19c6771210c0dceff41da0cc4b919c81bf1192cc02974605712c540"
+  }
+ ],
+ "folder": "data/agm_kosdaq/210120_빅텐츠/20260424_20260424000666",
+ "fetched_at": "2026-11-16T19:33:40"
+}

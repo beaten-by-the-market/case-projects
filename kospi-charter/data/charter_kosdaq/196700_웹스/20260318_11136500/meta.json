@@ -1,0 +1,24 @@
+{
+ "corp_code": "00864338",
+ "corp_name": "웹스",
+ "stock_code": "196700",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000552",
+ "dcmNo": "11136500",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000552&dcmNo=11136500",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000552&dcmNo=11136500&eleId=1&offset=593&length=18189&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11014,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/196700_웹스/20260318_11136500",
+ "fetched_at": "2026-11-16T21:06:28",
+ "used_by_rcept_no": [
+  "20260318000552"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11121636&flNm=%EC%9B%B9%EC%BC%80%EC%8B%9C_%EC%A0%95%EA%B4%80_20250325.pdf",
+   "flNm": "웹케시_정관_20250325.pdf",
+   "bytes": 221471,
+   "sha256": "4c5748a78b025377b7ce1104276c575ec665e027c0815d54213ebfe6653985b0",
+   "pages": 14,
+   "text_pages": 13,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 12478,
+ "pages": 14,
+ "text_pages": 13,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T22:11:25",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

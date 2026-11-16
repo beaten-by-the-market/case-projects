@@ -1,0 +1,24 @@
+{
+ "corp_code": "01585155",
+ "corp_name": "오픈놀",
+ "stock_code": "440320",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000956",
+ "dcmNo": "11150516",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000956&dcmNo=11150516",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000956&dcmNo=11150516&eleId=1&offset=596&length=22090&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13509,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/440320_오픈놀/20260319_11150516",
+ "fetched_at": "2026-11-16T21:53:23",
+ "used_by_rcept_no": [
+  "20260812000028"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00128546",
+ "corp_name": "삼천당제약",
+ "stock_code": "000250",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001096",
+ "dcmNo": "11158501",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001096&dcmNo=11158501",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001096&dcmNo=11158501&eleId=1&offset=598&length=17967&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10507,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/000250_삼천당제약/20260320_11158501",
+ "fetched_at": "2026-11-16T19:42:26",
+ "used_by_rcept_no": [
+  "20260602000573"
+ ]
+}

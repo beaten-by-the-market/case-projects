@@ -1,0 +1,185 @@
+{
+ "corp_code": "00959229",
+ "corp_name": "세종메디칼",
+ "stock_code": "258830",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001342",
+ "dcmNo": "11153331",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001342&dcmNo=11153331",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001342&dcmNo=11153331&eleId=1&offset=596&length=2640&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 16,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_1.jpg",
+   "flNm": "세종_정관_230228_1.jpg",
+   "alt": "이미지: 세종_정관_230228_1",
+   "bytes": 230776,
+   "sha256": "6adc6e26d31b688208994969fce2aa5341ec0e5c93ba963c159ab4b2c2b4062d",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_10.jpg",
+   "flNm": "세종_정관_230228_10.jpg",
+   "alt": "이미지: 세종_정관_230228_10",
+   "bytes": 225502,
+   "sha256": "49ee0b81a72e2f0a9a75a35d128f85cb9e8fadfa67e951a202747c2dabf66f28",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_11.jpg",
+   "flNm": "세종_정관_230228_11.jpg",
+   "alt": "이미지: 세종_정관_230228_11",
+   "bytes": 303487,
+   "sha256": "11763f336fe33e33a7c7ae5a9f341261950871115bb9a896903e1f7c9d9accfa",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_12.jpg",
+   "flNm": "세종_정관_230228_12.jpg",
+   "alt": "이미지: 세종_정관_230228_12",
+   "bytes": 217510,
+   "sha256": "6ea6b4722dc8f7d90239118fb249fddc9bdc7e6dfe40a10d1c958f1f27bc30f3",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_13.jpg",
+   "flNm": "세종_정관_230228_13.jpg",
+   "alt": "이미지: 세종_정관_230228_13",
+   "bytes": 211147,
+   "sha256": "45ddacb849d1be44dbd0566ac61148be7cc59cb4e2446bb4b68e927e0b4b887c",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_14.jpg",
+   "flNm": "세종_정관_230228_14.jpg",
+   "alt": "이미지: 세종_정관_230228_14",
+   "bytes": 215049,
+   "sha256": "a4432415376741cdaf09bf2a62d84ea3512f9260a699f6a0117d0c81185b12f3",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_15.jpg",
+   "flNm": "세종_정관_230228_15.jpg",
+   "alt": "이미지: 세종_정관_230228_15",
+   "bytes": 198429,
+   "sha256": "e99f7a9a84c5ddf7e8eb8b46ac0efcbab99acb570b70656e39ba72c55d2b80d6",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_16.jpg",
+   "flNm": "세종_정관_230228_16.jpg",
+   "alt": "이미지: 세종_정관_230228_16",
+   "bytes": 195245,
+   "sha256": "ce423cc9530dd184e5193280f6343452f52c084bb4038b49eea779fb32e4be9f",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_2.jpg",
+   "flNm": "세종_정관_230228_2.jpg",
+   "alt": "이미지: 세종_정관_230228_2",
+   "bytes": 174597,
+   "sha256": "63b4eb2074bfb85290894427a641a7ed144358345353b7d0a9582072c73d5da6",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_3.jpg",
+   "flNm": "세종_정관_230228_3.jpg",
+   "alt": "이미지: 세종_정관_230228_3",
+   "bytes": 250181,
+   "sha256": "8817ebd07540271bc496016e189ccce8183e05223b39b5cc7364c50423bb29fb",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_4.jpg",
+   "flNm": "세종_정관_230228_4.jpg",
+   "alt": "이미지: 세종_정관_230228_4",
+   "bytes": 232697,
+   "sha256": "f17758a68c18beae4647c512a5b073c9a4ebdabecfc31477247846a94d157e85",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_5.jpg",
+   "flNm": "세종_정관_230228_5.jpg",
+   "alt": "이미지: 세종_정관_230228_5",
+   "bytes": 261069,
+   "sha256": "7c41538064678e8097570cfda56b35d0cd784f3531bf77226e7e014d5667f88d",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_6.jpg",
+   "flNm": "세종_정관_230228_6.jpg",
+   "alt": "이미지: 세종_정관_230228_6",
+   "bytes": 247323,
+   "sha256": "21c0d79b1e73ad0939d4d945891cc2e7e746735e5cb6120fd6565953a7859aeb",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_7.jpg",
+   "flNm": "세종_정관_230228_7.jpg",
+   "alt": "이미지: 세종_정관_230228_7",
+   "bytes": 227548,
+   "sha256": "4f5fe6accc7a557a26b430f62a3a7edc3420c0efeb139fb19caed915a9cfd5b0",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_8.jpg",
+   "flNm": "세종_정관_230228_8.jpg",
+   "alt": "이미지: 세종_정관_230228_8",
+   "bytes": 250328,
+   "sha256": "738ad57539669d31eba9f3454f99a299708c378e914a7eaf413242c08b1c5a7f",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153331&flNm=%EC%84%B8%EC%A2%85_%EC%A0%95%EA%B4%80_230228_9.jpg",
+   "flNm": "세종_정관_230228_9.jpg",
+   "alt": "이미지: 세종_정관_230228_9",
+   "bytes": 191220,
+   "sha256": "dc345760e711080770d1cb9a02bdafa4b7c00cb80d266e1085e76b388aa73d3c",
+   "width": 1191,
+   "height": 1684
+  }
+ ],
+ "folder": "data/charter_kosdaq/258830_세종메디칼/20260319_11153331",
+ "fetched_at": "2026-11-16T21:19:25",
+ "used_by_rcept_no": [
+  "20260319001342"
+ ]
+}

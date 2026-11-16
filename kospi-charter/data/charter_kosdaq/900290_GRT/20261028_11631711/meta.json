@@ -1,0 +1,24 @@
+{
+ "corp_code": "01170962",
+ "corp_name": "GRT",
+ "stock_code": "900290",
+ "att_title": "2026.10.28 정관",
+ "att_date": "20261028",
+ "rcpNo": "20261028000493",
+ "dcmNo": "11631711",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000493&dcmNo=11631711",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20261028000493&dcmNo=11631711&eleId=1&offset=600&length=93391&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 48374,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/900290_GRT/20261028_11631711",
+ "fetched_at": "2026-11-16T22:10:36",
+ "used_by_rcept_no": [
+  "20261028000493"
+ ]
+}

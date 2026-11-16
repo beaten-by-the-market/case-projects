@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260630000827",
+ "corp_code": "00266934",
+ "corp_name": "파루",
+ "stock_code": "043200",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260630",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000827",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 212,
+ "charter_amend_txt": "data/agm_kosdaq/043200_파루/20260630_20260630000827/정관의변경.txt",
+ "main_xml": "20260630000827.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260630000827.xml",
+   "bytes": 43139,
+   "sha256": "623c15dc9115bd83b11c1471a6e79dbac43f4e48b1327a4c49f31bb4ffc8be1f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/043200_파루/20260630_20260630000827",
+ "fetched_at": "2026-11-16T19:36:18"
+}

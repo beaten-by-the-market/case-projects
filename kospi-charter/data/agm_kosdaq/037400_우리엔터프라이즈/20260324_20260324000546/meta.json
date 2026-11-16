@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260324000546",
+ "corp_code": "00155692",
+ "corp_name": "우리엔터프라이즈",
+ "stock_code": "037400",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260324",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000546",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3127,
+ "charter_amend_txt": "data/agm_kosdaq/037400_우리엔터프라이즈/20260324_20260324000546/정관의변경.txt",
+ "main_xml": "20260324000546.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260324000546.xml",
+   "bytes": 257510,
+   "sha256": "069b6b779fda3c87eda4ef9dab59095a55909ed17a4c122a5f1d41b7526f1fc0"
+  }
+ ],
+ "folder": "data/agm_kosdaq/037400_우리엔터프라이즈/20260324_20260324000546",
+ "fetched_at": "2026-11-16T19:33:16"
+}

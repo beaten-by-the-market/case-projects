@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260723000401",
+ "corp_code": "00475976",
+ "corp_name": "인콘",
+ "stock_code": "083640",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260723",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000401",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 439,
+ "charter_amend_txt": "data/agm_kosdaq/083640_인콘/20260723_20260723000401/정관의변경.txt",
+ "main_xml": "20260723000401.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260723000401.xml",
+   "bytes": 59007,
+   "sha256": "f7e8f0d35d23d5c443b0dacacd4f377ce0521be43c5a90b0677a71ed750b4c9a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/083640_인콘/20260723_20260723000401",
+ "fetched_at": "2026-11-16T19:37:11"
+}

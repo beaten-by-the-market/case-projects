@@ -1,0 +1,24 @@
+{
+ "corp_code": "01704680",
+ "corp_name": "M83",
+ "stock_code": "476080",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000986",
+ "dcmNo": "11157873",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000986&dcmNo=11157873",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000986&dcmNo=11157873&eleId=1&offset=594&length=29368&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13939,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/476080_M83/20260320_11157873",
+ "fetched_at": "2026-11-16T22:02:05",
+ "used_by_rcept_no": [
+  "20260320000986"
+ ]
+}

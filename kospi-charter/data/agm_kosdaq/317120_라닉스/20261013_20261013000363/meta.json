@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261013000363",
+ "corp_code": "01327092",
+ "corp_name": "라닉스",
+ "stock_code": "317120",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261013",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000363",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261013000363.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261013000363.xml",
+   "bytes": 93587,
+   "sha256": "80599feae2cf025eeda69d42c6cb0d5cdb9e633cededfafa4586c16978ad8079"
+  }
+ ],
+ "folder": "data/agm_kosdaq/317120_라닉스/20261013_20261013000363",
+ "fetched_at": "2026-11-16T19:39:40"
+}

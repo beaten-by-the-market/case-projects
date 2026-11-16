@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260914000387",
+ "corp_code": "01379129",
+ "corp_name": "매드업",
+ "stock_code": "0039P0",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260914",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914000387",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3469,
+ "charter_amend_txt": "data/agm_absent/0039P0_매드업/20260914_20260914000387/정관의변경.txt",
+ "main_xml": "20260914000387.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260914000387.xml",
+   "bytes": 67935,
+   "sha256": "92650055dea1a5044e4bdc06c17007da60584d0101bbffdce71efe313d0117e4"
+  }
+ ],
+ "folder": "data/agm_absent/0039P0_매드업/20260914_20260914000387",
+ "fetched_at": "2026-11-17T01:11:10"
+}

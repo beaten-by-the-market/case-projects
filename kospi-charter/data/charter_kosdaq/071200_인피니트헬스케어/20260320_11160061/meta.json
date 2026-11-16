@@ -1,0 +1,175 @@
+{
+ "corp_code": "00435969",
+ "corp_name": "인피니트헬스케어",
+ "stock_code": "071200",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001365",
+ "dcmNo": "11160061",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001365&dcmNo=11160061",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001365&dcmNo=11160061&eleId=1&offset=599&length=2621&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 15,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_01.jpg",
+   "flNm": "정관(16차)_20250623_01.jpg",
+   "alt": "이미지: 정관(16차)_20250623_01",
+   "bytes": 55006,
+   "sha256": "352c080c4c007a43c17f1741120dba4fdecf97842332399fb9b6d4d3d015be28",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_02.jpg",
+   "flNm": "정관(16차)_20250623_02.jpg",
+   "alt": "이미지: 정관(16차)_20250623_02",
+   "bytes": 89786,
+   "sha256": "91fa635df7be9faeb652d89cad9ae79242bf95e5fdfcb8f731e95d57e4d03850",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_03.jpg",
+   "flNm": "정관(16차)_20250623_03.jpg",
+   "alt": "이미지: 정관(16차)_20250623_03",
+   "bytes": 159397,
+   "sha256": "447fb3879405efd805c50780b8856df46519f51ff867d85d22eca55a1c79dc3e",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_04.jpg",
+   "flNm": "정관(16차)_20250623_04.jpg",
+   "alt": "이미지: 정관(16차)_20250623_04",
+   "bytes": 169346,
+   "sha256": "f2e05366c38bff651347f864f745e0d97ec93b24c11b62b474f4e1ed7d406e94",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_05.jpg",
+   "flNm": "정관(16차)_20250623_05.jpg",
+   "alt": "이미지: 정관(16차)_20250623_05",
+   "bytes": 175882,
+   "sha256": "e9d02384f398c23b11eeb89bdb552a3e0832139d202cf94f728f6047a98d58e6",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_06.jpg",
+   "flNm": "정관(16차)_20250623_06.jpg",
+   "alt": "이미지: 정관(16차)_20250623_06",
+   "bytes": 127842,
+   "sha256": "8aaf7dc4fbd14365a133f39e52ffc5a48882077a3d5b47791cb6edd5dfedf95e",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_07.jpg",
+   "flNm": "정관(16차)_20250623_07.jpg",
+   "alt": "이미지: 정관(16차)_20250623_07",
+   "bytes": 138811,
+   "sha256": "afa05ee0bf235d0d150a5bfd7f99d5099d4cbb627e738fec0cfb84220818aeae",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_08.jpg",
+   "flNm": "정관(16차)_20250623_08.jpg",
+   "alt": "이미지: 정관(16차)_20250623_08",
+   "bytes": 149722,
+   "sha256": "07cfd194aed85c0eda13c6b797009a985c2f6cc3b1d7e28ea300c8880c775cab",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_09.jpg",
+   "flNm": "정관(16차)_20250623_09.jpg",
+   "alt": "이미지: 정관(16차)_20250623_09",
+   "bytes": 124445,
+   "sha256": "e23e2f11a04589650339f57875d4a43cc069f0526511e341929ff506be9b1701",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_10.jpg",
+   "flNm": "정관(16차)_20250623_10.jpg",
+   "alt": "이미지: 정관(16차)_20250623_10",
+   "bytes": 142806,
+   "sha256": "c33aac6e0503e6c3773bec2d0a6ab02d6c4a305a0d20c1094504860433635042",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_11.jpg",
+   "flNm": "정관(16차)_20250623_11.jpg",
+   "alt": "이미지: 정관(16차)_20250623_11",
+   "bytes": 135211,
+   "sha256": "38b5d5fca15cc3e017fb49be9cacf5b9bde5982528a47d7882f3f1c6b9c7e34b",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_12.jpg",
+   "flNm": "정관(16차)_20250623_12.jpg",
+   "alt": "이미지: 정관(16차)_20250623_12",
+   "bytes": 141265,
+   "sha256": "d1896053a7f13d4e9c75e89350ee42b900502950b4ae74bf416dc6e0917a8985",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_13.jpg",
+   "flNm": "정관(16차)_20250623_13.jpg",
+   "alt": "이미지: 정관(16차)_20250623_13",
+   "bytes": 132430,
+   "sha256": "d203a6a16c370020b8eb1962259de19c18bf6b419497302b2e8a77662a1d938b",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_14.jpg",
+   "flNm": "정관(16차)_20250623_14.jpg",
+   "alt": "이미지: 정관(16차)_20250623_14",
+   "bytes": 57032,
+   "sha256": "a497d94e1257cc219f998187dd9daebed707f6b600cfa2ded095a02f906d0156",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160061&flNm=%EC%A0%95%EA%B4%80%2816%EC%B0%A8%29_20250623_15.jpg",
+   "flNm": "정관(16차)_20250623_15.jpg",
+   "alt": "이미지: 정관(16차)_20250623_15",
+   "bytes": 43960,
+   "sha256": "779df974b474dc142f42c190be13c6cd12e9bdf63114d3cda4ddd9b0f810455e",
+   "width": 595,
+   "height": 842
+  }
+ ],
+ "folder": "data/charter_kosdaq/071200_인피니트헬스케어/20260320_11160061",
+ "fetched_at": "2026-11-16T20:35:02",
+ "used_by_rcept_no": [
+  "20260320001365"
+ ]
+}

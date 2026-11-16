@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260701000647",
+ "corp_code": "01781999",
+ "corp_name": "에임드바이오",
+ "stock_code": "0009K0",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260701",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000647",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260701000647.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260701000647.xml",
+   "bytes": 61315,
+   "sha256": "e52994df12a84f0fa32acd70ec97840749067ec12563307422080101795a0174"
+  }
+ ],
+ "folder": "data/agm_kosdaq/0009K0_에임드바이오/20260701_20260701000647",
+ "fetched_at": "2026-11-16T19:36:23"
+}

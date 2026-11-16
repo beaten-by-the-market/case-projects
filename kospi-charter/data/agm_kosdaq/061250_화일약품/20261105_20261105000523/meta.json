@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261105000523",
+ "corp_code": "00188973",
+ "corp_name": "화일약품",
+ "stock_code": "061250",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261105",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000523",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 746,
+ "charter_amend_txt": "data/agm_kosdaq/061250_화일약품/20261105_20261105000523/정관의변경.txt",
+ "main_xml": "20261105000523.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261105000523.xml",
+   "bytes": 65488,
+   "sha256": "92ef8e33085faef32bd52956dfb5f147f6d8e2f605c30f9ce3dc71f18462b0c4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/061250_화일약품/20261105_20261105000523",
+ "fetched_at": "2026-11-16T19:40:32"
+}

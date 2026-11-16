@@ -1,0 +1,37 @@
+{
+ "corp_code": "01405585",
+ "corp_name": "윙스풋",
+ "stock_code": "335870",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001575",
+ "dcmNo": "11143881",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001575&dcmNo=11143881",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001575&dcmNo=11143881&eleId=1&offset=596&length=306&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 28,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/335870_윙스풋/20260318_11143881",
+ "fetched_at": "2026-11-16T21:34:47",
+ "used_by_rcept_no": [
+  "20260318001575"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143881&flNm=%EC%A0%95%EA%B4%80-20251016.pdf",
+   "flNm": "정관-20251016.pdf",
+   "bytes": 3335987,
+   "sha256": "23bee636c2d3dbeb153f3c29e7adac809a557cfc78af7f2aa3b4e43957c1ebf6",
+   "pages": 18,
+   "text_pages": 0,
+   "ocr_pages": 18
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "01807729",
+ "corp_name": "하나33호스팩",
+ "stock_code": "475250",
+ "att_title": "2026.03.05 정관",
+ "att_date": "20260305",
+ "rcpNo": "20260305001318",
+ "dcmNo": "11094074",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001318&dcmNo=11094074",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260305001318&dcmNo=11094074&eleId=1&offset=604&length=23644&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11436,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/475250_하나33호스팩/20260305_11094074",
+ "fetched_at": "2026-11-16T22:01:25",
+ "used_by_rcept_no": [
+  "20260305001318"
+ ]
+}

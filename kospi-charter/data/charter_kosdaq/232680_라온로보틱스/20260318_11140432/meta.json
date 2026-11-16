@@ -1,0 +1,24 @@
+{
+ "corp_code": "00911229",
+ "corp_name": "라온로보틱스",
+ "stock_code": "232680",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001140",
+ "dcmNo": "11140432",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001140&dcmNo=11140432",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001140&dcmNo=11140432&eleId=1&offset=597&length=19905&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9875,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/232680_라온로보틱스/20260318_11140432",
+ "fetched_at": "2026-11-16T21:14:07",
+ "used_by_rcept_no": [
+  "20260318001140"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159422&flNm=%E2%97%8F+%EB%AA%A8%EB%B9%84%EB%8D%B0%EC%9D%B4%EC%A6%88+%EC%A0%95%EA%B4%80+%282025.11.21+%EA%B0%9C%EC%A0%95%29.pdf",
+   "flNm": "● 모비데이즈 정관 (2025.11.21 개정).pdf",
+   "bytes": 530301,
+   "sha256": "7d8aff15db81c9bd6668ca20c91322d7af7966fc529407ea7799643a0a51c70d",
+   "pages": 19,
+   "text_pages": 18,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 13618,
+ "pages": 19,
+ "text_pages": 18,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T22:15:21",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

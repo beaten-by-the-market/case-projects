@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261116001625",
+ "corp_code": "00156910",
+ "corp_name": "SBI인베스트먼트",
+ "stock_code": "019550",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261116",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001625",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 275,
+ "charter_amend_txt": "data/agm_kosdaq/019550_SBI인베스트먼트/20261116_20261116001625/정관의변경.txt",
+ "main_xml": "20261116001625.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261116001625.xml",
+   "bytes": 61927,
+   "sha256": "efa8f1461cc1fbe928efb1a93dba47e84411426e2bed70505860b9cc8b32b015"
+  }
+ ],
+ "folder": "data/agm_kosdaq/019550_SBI인베스트먼트/20261116_20261116001625",
+ "fetched_at": "2026-11-16T22:18:54"
+}

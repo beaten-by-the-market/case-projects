@@ -1,0 +1,24 @@
+{
+ "corp_code": "00378363",
+ "corp_name": "3S",
+ "stock_code": "060310",
+ "att_title": "2026.06.17 정관",
+ "att_date": "20260617",
+ "rcpNo": "20260617000470",
+ "dcmNo": "11436701",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000470&dcmNo=11436701",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260617000470&dcmNo=11436701&eleId=1&offset=597&length=21292&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11093,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/060310_3S/20260617_11436701",
+ "fetched_at": "2026-11-16T20:24:10",
+ "used_by_rcept_no": [
+  "20260617000470"
+ ]
+}

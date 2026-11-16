@@ -1,0 +1,24 @@
+{
+ "corp_code": "00923516",
+ "corp_name": "메가터치",
+ "stock_code": "446540",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001084",
+ "dcmNo": "11140013",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001084&dcmNo=11140013",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001084&dcmNo=11140013&eleId=1&offset=595&length=28021&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13586,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/446540_메가터치/20260318_11140013",
+ "fetched_at": "2026-11-16T21:54:28",
+ "used_by_rcept_no": [
+  "20260318001084"
+ ]
+}

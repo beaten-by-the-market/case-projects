@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260703000634",
+ "corp_code": "01335453",
+ "corp_name": "조이웍스앤코",
+ "stock_code": "309930",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260703",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000634",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1742,
+ "charter_amend_txt": "data/agm_kosdaq/309930_조이웍스앤코/20260703_20260703000634/정관의변경.txt",
+ "main_xml": "20260703000634.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260703000634.xml",
+   "bytes": 95129,
+   "sha256": "b9a8e252982be643e6fdb615ea995c032e9de570d6266b0832840d20b83bfb98"
+  }
+ ],
+ "folder": "data/agm_kosdaq/309930_조이웍스앤코/20260703_20260703000634",
+ "fetched_at": "2026-11-16T19:36:28"
+}

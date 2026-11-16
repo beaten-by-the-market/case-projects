@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260623000302",
+ "corp_code": "00105475",
+ "corp_name": "금강철강",
+ "stock_code": "053260",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260623",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000302",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260623000302.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260623000302.xml",
+   "bytes": 41691,
+   "sha256": "09c5d3b84951d501ca95f8b2a8066c4cfb02a3c53ac0746c022dc010c02b1e9a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/053260_금강철강/20260623_20260623000302",
+ "fetched_at": "2026-11-16T19:35:45"
+}

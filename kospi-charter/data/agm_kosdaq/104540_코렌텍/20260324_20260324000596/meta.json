@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260324000596",
+ "corp_code": "00541437",
+ "corp_name": "코렌텍",
+ "stock_code": "104540",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260324",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000596",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 817,
+ "charter_amend_txt": "data/agm_kosdaq/104540_코렌텍/20260324_20260324000596/정관의변경.txt",
+ "main_xml": "20260324000596.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260324000596.xml",
+   "bytes": 251135,
+   "sha256": "667e8859abc9e6433422f7deea0a5b695afe05eeda587858933ecc730f05d316"
+  }
+ ],
+ "folder": "data/agm_kosdaq/104540_코렌텍/20260324_20260324000596",
+ "fetched_at": "2026-11-16T19:33:18"
+}

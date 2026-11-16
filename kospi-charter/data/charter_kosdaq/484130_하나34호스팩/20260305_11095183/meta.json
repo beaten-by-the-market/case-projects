@@ -1,0 +1,24 @@
+{
+ "corp_code": "01847550",
+ "corp_name": "하나34호스팩",
+ "stock_code": "484130",
+ "att_title": "2026.03.05 정관",
+ "att_date": "20260305",
+ "rcpNo": "20260305001627",
+ "dcmNo": "11095183",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001627&dcmNo=11095183",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260305001627&dcmNo=11095183&eleId=1&offset=604&length=24507&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11742,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/484130_하나34호스팩/20260305_11095183",
+ "fetched_at": "2026-11-16T22:05:31",
+ "used_by_rcept_no": [
+  "20260305001627"
+ ]
+}

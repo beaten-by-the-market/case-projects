@@ -1,0 +1,24 @@
+{
+ "corp_code": "01728167",
+ "corp_name": "아이지넷",
+ "stock_code": "462980",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000862",
+ "dcmNo": "11157365",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000862&dcmNo=11157365",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000862&dcmNo=11157365&eleId=1&offset=595&length=22999&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12732,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/462980_아이지넷/20260320_11157365",
+ "fetched_at": "2026-11-16T21:57:33",
+ "used_by_rcept_no": [
+  "20260323001331"
+ ]
+}

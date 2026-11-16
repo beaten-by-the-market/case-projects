@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11171961&flNm=3.dh%EC%98%A4%ED%86%A0%EC%9B%A8%EC%96%B4_%EC%A0%95%EA%B4%80%2825.12.12%29.pdf",
+   "flNm": "3.dh오토웨어_정관(25.12.12).pdf",
+   "bytes": 453373,
+   "sha256": "cb53424500e97c9634158166267487919f4228c43c885c1158eb465bbb7ff135",
+   "pages": 21,
+   "text_pages": 19,
+   "ocr_pages": 2
+  }
+ ],
+ "total_chars": 10774,
+ "pages": 21,
+ "text_pages": 19,
+ "ocr_pages": 2,
+ "created_at": "2026-11-16T22:11:12",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

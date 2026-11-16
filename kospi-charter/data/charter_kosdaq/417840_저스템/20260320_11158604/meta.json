@@ -1,0 +1,24 @@
+{
+ "corp_code": "01383229",
+ "corp_name": "저스템",
+ "stock_code": "417840",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001113",
+ "dcmNo": "11158604",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001113&dcmNo=11158604",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001113&dcmNo=11158604&eleId=1&offset=591&length=26961&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12664,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/417840_저스템/20260320_11158604",
+ "fetched_at": "2026-11-16T21:50:29",
+ "used_by_rcept_no": [
+  "20260320001113"
+ ]
+}

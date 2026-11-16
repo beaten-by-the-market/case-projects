@@ -1,0 +1,24 @@
+{
+ "corp_code": "01309795",
+ "corp_name": "아틀라스링크",
+ "stock_code": "297570",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000695",
+ "dcmNo": "11163246",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000695&dcmNo=11163246",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000695&dcmNo=11163246&eleId=1&offset=595&length=14303&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9260,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/297570_아틀라스링크/20260323_11163246",
+ "fetched_at": "2026-11-16T21:27:46",
+ "used_by_rcept_no": [
+  "20260323000695"
+ ]
+}

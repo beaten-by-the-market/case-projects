@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260422000209",
+ "corp_code": "01274310",
+ "corp_name": "이오플로우",
+ "stock_code": "294090",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260422",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422000209",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260422000209.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260422000209.xml",
+   "bytes": 89097,
+   "sha256": "3b9dbe05157c021994b6772f7c2e367d35bf4ae03e7932d2a58ae9a0a3c23c2d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/294090_이오플로우/20260422_20260422000209",
+ "fetched_at": "2026-11-16T19:33:35"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00602172",
+ "corp_name": "와이엠티",
+ "stock_code": "251370",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001480",
+ "dcmNo": "11167988",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001480&dcmNo=11167988",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001480&dcmNo=11167988&eleId=1&offset=592&length=36446&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14417,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/251370_와이엠티/20260323_11167988",
+ "fetched_at": "2026-11-16T21:18:10",
+ "used_by_rcept_no": [
+  "20260324000559"
+ ]
+}

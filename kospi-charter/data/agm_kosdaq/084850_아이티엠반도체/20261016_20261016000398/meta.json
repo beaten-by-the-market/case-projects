@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261016000398",
+ "corp_code": "00579980",
+ "corp_name": "아이티엠반도체",
+ "stock_code": "084850",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261016",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000398",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1033,
+ "charter_amend_txt": "data/agm_kosdaq/084850_아이티엠반도체/20261016_20261016000398/정관의변경.txt",
+ "main_xml": "20261016000398.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261016000398.xml",
+   "bytes": 69950,
+   "sha256": "3fb28cdeebca8eb08605cc7d8c0f0389f7ffa1907efee556fd72c37462978510"
+  }
+ ],
+ "folder": "data/agm_kosdaq/084850_아이티엠반도체/20261016_20261016000398",
+ "fetched_at": "2026-11-16T19:39:49"
+}

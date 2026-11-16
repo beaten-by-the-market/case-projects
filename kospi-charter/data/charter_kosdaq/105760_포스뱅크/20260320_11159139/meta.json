@@ -1,0 +1,37 @@
+{
+ "corp_code": "00862312",
+ "corp_name": "포스뱅크",
+ "stock_code": "105760",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001214",
+ "dcmNo": "11159139",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001214&dcmNo=11159139",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001214&dcmNo=11159139&eleId=1&offset=595&length=781&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 148,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/105760_포스뱅크/20260320_11159139",
+ "fetched_at": "2026-11-16T20:50:00",
+ "used_by_rcept_no": [
+  "20260320001214"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159139&flNm=250327_%EC%A0%95%EA%B4%80_%ED%8F%AC%EC%8A%A4%EB%B1%85%ED%81%AC.pdf",
+   "flNm": "250327_정관_포스뱅크.pdf",
+   "bytes": 509929,
+   "sha256": "cf426959246fb4357e3cbcdae9e19f005f263035a3abada78783c7aa35f140fb",
+   "pages": 23,
+   "text_pages": 23,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

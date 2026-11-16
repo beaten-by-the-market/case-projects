@@ -1,0 +1,25 @@
+{
+ "corp_code": "00305297",
+ "corp_name": "코텍",
+ "stock_code": "052330",
+ "att_title": "2026.03.31 [정정] 정관",
+ "att_date": "20260331",
+ "rcpNo": "20260331004794",
+ "dcmNo": "11215481",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331004794&dcmNo=11215481",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260331004794&dcmNo=11215481&eleId=1&offset=642&length=11291&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260331004794&dcmNo=11215481&eleId=2&offset=11963&length=17307&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "text",
+ "text_chars": 13802,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/052330_코텍/20260331_11215481",
+ "fetched_at": "2026-11-16T20:17:05",
+ "used_by_rcept_no": [
+  "20260331004794"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "00300405",
+ "corp_name": "오리엔트정공",
+ "stock_code": "065500",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000819",
+ "dcmNo": "11149462",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000819&dcmNo=11149462",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000819&dcmNo=11149462&eleId=1&offset=597&length=300&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 20,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/065500_오리엔트정공/20260319_11149462",
+ "fetched_at": "2026-11-16T20:26:04",
+ "used_by_rcept_no": [
+  "20260319000819"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149462&flNm=%EC%A0%95%EA%B4%80+%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84.pdf",
+   "flNm": "정관 원본대조필.pdf",
+   "bytes": 3154925,
+   "sha256": "7e381498b672c8bba5ba540a8eda718b3016a6d463939a64b2e2e1d12befe05a",
+   "pages": 16,
+   "text_pages": 0,
+   "ocr_pages": 16
+  }
+ ],
+ "n_pdfs": 1
+}

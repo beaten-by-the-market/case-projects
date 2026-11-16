@@ -1,0 +1,24 @@
+{
+ "corp_code": "01588897",
+ "corp_name": "니어스랩",
+ "stock_code": "417030",
+ "att_title": "2026.06.25 정관",
+ "att_date": "20260625",
+ "rcpNo": "20260625000626",
+ "dcmNo": "11448223",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625000626&dcmNo=11448223",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260625000626&dcmNo=11448223&eleId=1&offset=592&length=26266&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15977,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_absent/417030_니어스랩/20260625_11448223",
+ "fetched_at": "2026-11-17T00:53:18",
+ "used_by_stock_code": [
+  "417030"
+ ]
+}

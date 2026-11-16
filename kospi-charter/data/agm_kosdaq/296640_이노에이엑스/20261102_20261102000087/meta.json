@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261102000087",
+ "corp_code": "01341630",
+ "corp_name": "이노에이엑스",
+ "stock_code": "296640",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261102",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102000087",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261102000087.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261102000087.xml",
+   "bytes": 71878,
+   "sha256": "2ea335a48dbeb3144723a81ca7a1a859d435fd4f0367ee20f70ede202bc73c08"
+  }
+ ],
+ "folder": "data/agm_kosdaq/296640_이노에이엑스/20261102_20261102000087",
+ "fetched_at": "2026-11-16T19:40:27"
+}

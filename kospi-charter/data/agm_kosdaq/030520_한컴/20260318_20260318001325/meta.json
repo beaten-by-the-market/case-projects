@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260318001325",
+ "corp_code": "00204262",
+ "corp_name": "한컴",
+ "stock_code": "030520",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260318",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001325",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1647,
+ "charter_amend_txt": "data/agm_kosdaq/030520_한컴/20260318_20260318001325/정관의변경.txt",
+ "main_xml": "20260318001325.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260318001325.xml",
+   "bytes": 483417,
+   "sha256": "c26ef8e72c8b06219fc78625783c10a4cfc3e96344e1d944a6b16b86431cbec4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/030520_한컴/20260318_20260318001325",
+ "fetched_at": "2026-11-16T19:32:32"
+}

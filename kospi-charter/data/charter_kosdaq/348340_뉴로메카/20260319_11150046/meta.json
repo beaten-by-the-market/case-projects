@@ -1,0 +1,24 @@
+{
+ "corp_code": "01336461",
+ "corp_name": "뉴로메카",
+ "stock_code": "348340",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000890",
+ "dcmNo": "11150046",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000890&dcmNo=11150046",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000890&dcmNo=11150046&eleId=1&offset=597&length=22572&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14312,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/348340_뉴로메카/20260319_11150046",
+ "fetched_at": "2026-11-16T21:36:24",
+ "used_by_rcept_no": [
+  "20260319000890"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260813001117",
+ "corp_code": "01845701",
+ "corp_name": "교보16호스팩",
+ "stock_code": "482520",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260813",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001117",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260813001117.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260813001117.xml",
+   "bytes": 55271,
+   "sha256": "6ba821098e1b1a154d37bfc21e7293fa3c8171868bdf1de472fb6dd89da98e6b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/482520_교보16호스팩/20260813_20260813001117",
+ "fetched_at": "2026-11-16T19:37:47"
+}

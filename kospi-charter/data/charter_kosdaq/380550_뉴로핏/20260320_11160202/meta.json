@@ -1,0 +1,24 @@
+{
+ "corp_code": "01782004",
+ "corp_name": "뉴로핏",
+ "stock_code": "380550",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001389",
+ "dcmNo": "11160202",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001389&dcmNo=11160202",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001389&dcmNo=11160202&eleId=1&offset=596&length=41272&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 16445,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/380550_뉴로핏/20260320_11160202",
+ "fetched_at": "2026-11-16T21:44:22",
+ "used_by_rcept_no": [
+  "20260320001389"
+ ]
+}

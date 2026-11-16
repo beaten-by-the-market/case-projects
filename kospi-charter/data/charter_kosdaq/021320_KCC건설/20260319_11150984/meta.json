@@ -1,0 +1,175 @@
+{
+ "corp_code": "00105466",
+ "corp_name": "KCC건설",
+ "stock_code": "021320",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001024",
+ "dcmNo": "11150984",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001024&dcmNo=11150984",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001024&dcmNo=11150984&eleId=1&offset=597&length=2129&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 15,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=1.jpg",
+   "flNm": "1.jpg",
+   "alt": "이미지: 1",
+   "bytes": 22470,
+   "sha256": "ba16120a30605b1922aaed20b19af9390d3533c0dbcf9986a79c8c4e815b51c1",
+   "width": 622,
+   "height": 861
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=2.jpg",
+   "flNm": "2.jpg",
+   "alt": "이미지: 2",
+   "bytes": 168295,
+   "sha256": "0fd5564071eb43ba350ba8d1f322a18ff6c33d76a26f50069a11b0e26c2920ed",
+   "width": 625,
+   "height": 862
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=3.jpg",
+   "flNm": "3.jpg",
+   "alt": "이미지: 3",
+   "bytes": 197628,
+   "sha256": "ccbc39cf265b87cfa9b667fac65d9925c43fbf626710c58a9f0f5802753b4d23",
+   "width": 626,
+   "height": 862
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=4.jpg",
+   "flNm": "4.jpg",
+   "alt": "이미지: 4",
+   "bytes": 275244,
+   "sha256": "6478d897da778b048739ad6588d3aa924db95bcb6049980edc29e15be17d423e",
+   "width": 627,
+   "height": 863
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=5.jpg",
+   "flNm": "5.jpg",
+   "alt": "이미지: 5",
+   "bytes": 305499,
+   "sha256": "384758783f004052775fbade03331071c9d4f1497a28e39464b42afb0487a272",
+   "width": 626,
+   "height": 863
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=6.jpg",
+   "flNm": "6.jpg",
+   "alt": "이미지: 6",
+   "bytes": 252936,
+   "sha256": "7d2adaf3ffad8597bdad6038a2c954fbe08caef2fac00267dc5f73af42ee6d1e",
+   "width": 623,
+   "height": 858
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=7.jpg",
+   "flNm": "7.jpg",
+   "alt": "이미지: 7",
+   "bytes": 269456,
+   "sha256": "6c68110b39e7178f3ae11871a24fec6b6ae89d0853e45cd9fbbffbc3b03c7147",
+   "width": 623,
+   "height": 857
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=8.jpg",
+   "flNm": "8.jpg",
+   "alt": "이미지: 8",
+   "bytes": 245057,
+   "sha256": "f90cb36c6a434d249c1f3b3b704ba8476b29a411e51e994b00118a420c4482c3",
+   "width": 629,
+   "height": 866
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=9.jpg",
+   "flNm": "9.jpg",
+   "alt": "이미지: 9",
+   "bytes": 264207,
+   "sha256": "2b5be118071b9eda84dd27c34cb9c1ab6241b97762f258a0719951631365f6d3",
+   "width": 624,
+   "height": 856
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=10.jpg",
+   "flNm": "10.jpg",
+   "alt": "이미지: 10",
+   "bytes": 250286,
+   "sha256": "4bffea035d57907fc360cbdb8c69862022337230531375b63cc4326196f3689f",
+   "width": 623,
+   "height": 860
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=11.jpg",
+   "flNm": "11.jpg",
+   "alt": "이미지: 11",
+   "bytes": 238977,
+   "sha256": "7f4d8c21fdd308c67d7e4fe83009e7be27cc385fa236e64f614b02144e66de74",
+   "width": 620,
+   "height": 856
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=12.jpg",
+   "flNm": "12.jpg",
+   "alt": "이미지: 12",
+   "bytes": 269920,
+   "sha256": "daf1ce5af65f3031976a4ae222244622622ac23147f1c88e3db9d54fa2df7f32",
+   "width": 619,
+   "height": 863
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=13.jpg",
+   "flNm": "13.jpg",
+   "alt": "이미지: 13",
+   "bytes": 233411,
+   "sha256": "345deba1854a76b06f1ef8a6ffb5539bddc0df4a9e3a54baeeb34c585cac84dd",
+   "width": 619,
+   "height": 853
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=14.jpg",
+   "flNm": "14.jpg",
+   "alt": "이미지: 14",
+   "bytes": 251185,
+   "sha256": "586f060aa26aebd43f1357f55bc5bd03b1a472da96e21e4bfa5754e863bd4303",
+   "width": 623,
+   "height": 867
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150984&flNm=15.jpg",
+   "flNm": "15.jpg",
+   "alt": "이미지: 15",
+   "bytes": 211808,
+   "sha256": "797660fdbb6d46960ee6ae452c83b65dfa2d36542f459c053ea09120c721df98",
+   "width": 620,
+   "height": 862
+  }
+ ],
+ "folder": "data/charter_kosdaq/021320_KCC건설/20260319_11150984",
+ "fetched_at": "2026-11-16T19:57:37",
+ "used_by_rcept_no": [
+  "20260319001024"
+ ]
+}

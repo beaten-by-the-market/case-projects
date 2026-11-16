@@ -1,0 +1,225 @@
+{
+ "corp_code": "00561732",
+ "corp_name": "아스플로",
+ "stock_code": "159010",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001408",
+ "dcmNo": "11128821",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001408&dcmNo=11128821",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001408&dcmNo=11128821&eleId=1&offset=595&length=3718&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 20,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_1.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_1.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_1",
+   "bytes": 60892,
+   "sha256": "ef584e09dfe4bb10af0969fff17f36f2eef712df8e4cc22c50c853d99e31f6fd",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_2.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_2.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_2",
+   "bytes": 87791,
+   "sha256": "f1287ce5e845829222cab047e2da06d7ff8a9883e8dd82629c445519e63e9317",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_3.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_3.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_3",
+   "bytes": 141046,
+   "sha256": "ea2e4c21f7d5101963e0388c73dd392ba02fdc4293afb8573f9108f3d3d366dc",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_4.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_4.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_4",
+   "bytes": 136330,
+   "sha256": "1c7a72e5050319083c77679ca0779078295d03e75a831ae3bb8884f673a05481",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_5.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_5.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_5",
+   "bytes": 154750,
+   "sha256": "691295a503e41014df8f0b453c543eee8cb98479e92fbf4f22bb0e7f8e0d8d0c",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_6.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_6.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_6",
+   "bytes": 134175,
+   "sha256": "e224380fca43beb238f36b4c8d6faaf1b139acd72d428a749546d02d885a5d3b",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_7.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_7.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_7",
+   "bytes": 119650,
+   "sha256": "3bb5282f10bde1203eb51b5106f3986bef35fbab43ee19da8ec9aafe5ce98325",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_8.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_8.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_8",
+   "bytes": 130024,
+   "sha256": "a2b33a11b691e014334214221dfb346d5235ee509924e6fe4dfaf60661d7ceb3",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_9.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_9.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_9",
+   "bytes": 132369,
+   "sha256": "e42db0724c9b4523336d1da6246cd75e4b30aa693222c36145e496d0f91a3bb1",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_10.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_10.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_10",
+   "bytes": 113549,
+   "sha256": "ce469d7cfd9148921a97a3b79297b2e852fe8b38670ed21fdbd30fac850c36ab",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_11.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_11.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_11",
+   "bytes": 132563,
+   "sha256": "20b34e4e3b61731d625cf965f97638eec6c5f7ee18ec8cd6b63f22338235b7fa",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_12.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_12.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_12",
+   "bytes": 115535,
+   "sha256": "e1a49725c33addf75cf4a32fc7ec4ce211ace7dac2b21e43906ddacb0185c297",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_13.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_13.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_13",
+   "bytes": 97490,
+   "sha256": "c3be3f26b4b703a5da7e72c29603fbae7e2220e664ce93da5461ceda55899fa7",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_14.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_14.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_14",
+   "bytes": 128143,
+   "sha256": "33018f60d91fc61bc896503324af4aa9ad74d54dcfc980b7b79b488f6265c11b",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_15.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_15.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_15",
+   "bytes": 85525,
+   "sha256": "304bf75500812d81c119b911c6839000ae47d6a8c168d0a5802432efddb9d55f",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_16.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_16.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_16",
+   "bytes": 137345,
+   "sha256": "1e7ace8f213387b646fd737ec3c001f6ce8fb4b7c675b8776a30ce0dee0f680c",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_17.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_17.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_17",
+   "bytes": 121085,
+   "sha256": "7316f8adacb8f86ec62c397134158a3e590146ab0cc5c8a674f4046044f2ece6",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_18.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_18.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_18",
+   "bytes": 125537,
+   "sha256": "257e8d074f68f4418c1d3bf240bc438cbd9705e89417ae8f8f2d757f321b423d",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_19.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_19.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_19",
+   "bytes": 150633,
+   "sha256": "eb0d9d8c79e14e671f59296d96338595b31726bb19babc644490c8d15c3231e8",
+   "width": 794,
+   "height": 1123
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128821&flNm=1_20240328_%EC%A0%95%EA%B4%80_%EC%95%84%EC%8A%A4%ED%94%8C%EB%A1%9C%28%EC%9B%90%EB%B3%B8%29_20.jpg",
+   "flNm": "1_20240328_정관_아스플로(원본)_20.jpg",
+   "alt": "이미지: 1_20240328_정관_아스플로(원본)_20",
+   "bytes": 32818,
+   "sha256": "1165cca4bf8af63e5f7bd714aba293b0f13b2abfeb094cae2f6e249f267f452a",
+   "width": 794,
+   "height": 1123
+  }
+ ],
+ "folder": "data/charter_kosdaq/159010_아스플로/20260316_11128821",
+ "fetched_at": "2026-11-16T21:00:04",
+ "used_by_rcept_no": [
+  "20260316001408"
+ ]
+}

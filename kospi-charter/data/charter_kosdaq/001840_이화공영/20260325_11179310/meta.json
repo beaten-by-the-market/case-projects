@@ -1,0 +1,24 @@
+{
+ "corp_code": "00145668",
+ "corp_name": "이화공영",
+ "stock_code": "001840",
+ "att_title": "2026.03.25 정관",
+ "att_date": "20260325",
+ "rcpNo": "20260325001443",
+ "dcmNo": "11179310",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260325001443&dcmNo=11179310",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260325001443&dcmNo=11179310&eleId=1&offset=592&length=25054&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11454,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/001840_이화공영/20260325_11179310",
+ "fetched_at": "2026-11-16T19:43:50",
+ "used_by_rcept_no": [
+  "20260325001443"
+ ]
+}

@@ -1,0 +1,245 @@
+{
+ "corp_code": "01703849",
+ "corp_name": "노머스",
+ "stock_code": "473980",
+ "att_title": "2026.03.24 정관",
+ "att_date": "20260324",
+ "rcpNo": "20260324001029",
+ "dcmNo": "11174468",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324001029&dcmNo=11174468",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260324001029&dcmNo=11174468&eleId=1&offset=596&length=3708&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 22,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "노머스_정관_1.jpg",
+   "alt": "이미지: 노머스_250331정관_01",
+   "bytes": 118859,
+   "sha256": "f08d30caf4d048e8001e5bb378adf9009fa1eda35a9c84c2ad6dedac8f1eccb1",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "노머스_정관_2.jpg",
+   "alt": "이미지: 노머스_250331정관_02",
+   "bytes": 197446,
+   "sha256": "e8fa2443e69bad2a6ce55757d4d97bf6e25cea975e9fce4e53afa417b26860de",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "노머스_정관_3.jpg",
+   "alt": "이미지: 노머스_250331정관_03",
+   "bytes": 293513,
+   "sha256": "3ac2eb0c3d865cf507f06edd2c7bdd670e7f3c9ec8a961a3b70d9340c821763c",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "노머스_정관_4.jpg",
+   "alt": "이미지: 노머스_250331정관_04",
+   "bytes": 234642,
+   "sha256": "1a85eb320efba656dce490b4b1aa69ff900b69a956a87632236ac2f4dcfc3091",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "노머스_정관_5.jpg",
+   "alt": "이미지: 노머스_250331정관_05",
+   "bytes": 218341,
+   "sha256": "94b8fe8fd7106ca5e33e57f2a20bc952c40e7e5b236a8d62978a18988d290751",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "노머스_정관_6.jpg",
+   "alt": "이미지: 노머스_250331정관_06",
+   "bytes": 249620,
+   "sha256": "a5568a7a02605eed7f05fcbc5f0ea568c2cb280f84acdac96167675bbdf80718",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "노머스_정관_7.jpg",
+   "alt": "이미지: 노머스_250331정관_07",
+   "bytes": 216438,
+   "sha256": "a72ef383972baeca0b8d2b6bbaa93b11dc2b429b5ea74916d3a45178efe6c150",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "노머스_정관_8.jpg",
+   "alt": "이미지: 노머스_250331정관_08",
+   "bytes": 226931,
+   "sha256": "240df490bb4a7c5b3894bbef2ed252d9e23865be6d9ee9eb22ec18d39c268993",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "노머스_정관_9.jpg",
+   "alt": "이미지: 노머스_250331정관_09",
+   "bytes": 247411,
+   "sha256": "42e22e39fdd3c4a94536e9a7afae15db60c92a856c43e12b760b83a1f1c3a1e2",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "노머스_정관_10.jpg",
+   "alt": "이미지: 노머스_250331정관_10",
+   "bytes": 202243,
+   "sha256": "b3fc8bdadbd45e63317f7d9b048e39187da07d844cc7f3d8b42cf01d229c232c",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "노머스_정관_11.jpg",
+   "alt": "이미지: 노머스_250331정관_11",
+   "bytes": 190407,
+   "sha256": "1f2744aa11386db7f0e883334a8dab67bda5d042e1e081359a148fb4397a073b",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "노머스_정관_12.jpg",
+   "alt": "이미지: 노머스_250331정관_12",
+   "bytes": 232375,
+   "sha256": "866a265183256b4055f26082e0fa6a44b01c60fff6d6b8f4705fa23929cd009f",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_250331%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "노머스_250331정관_13.jpg",
+   "alt": "이미지: 노머스_250331정관_13",
+   "bytes": 178718,
+   "sha256": "1415fbfa4022a55991aa39126fe4e1d826e1d1695eb8925484ea3ab85cdf7df0",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_250331%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "노머스_250331정관_14.jpg",
+   "alt": "이미지: 노머스_250331정관_14",
+   "bytes": 191521,
+   "sha256": "f07d1513489806f03877f81b5485657759cb840bcded63897315c5f2a492443d",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_250331%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "노머스_250331정관_15.jpg",
+   "alt": "이미지: 노머스_250331정관_15",
+   "bytes": 276651,
+   "sha256": "6d2ed88f5d4991443a62dc058403b09d52500f865975beca800656c864f36ada",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_250331%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "노머스_250331정관_16.jpg",
+   "alt": "이미지: 노머스_250331정관_16",
+   "bytes": 180963,
+   "sha256": "9729092654805f1c2960abbb47f1498080ddf4ba7ded51b6c4b984bf297c0a43",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_250331%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "노머스_250331정관_17.jpg",
+   "alt": "이미지: 노머스_250331정관_17",
+   "bytes": 278306,
+   "sha256": "39048aec881069dda128deadd5490d1b6c3404fabfd07a1673fdf956c986342d",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_250331%EC%A0%95%EA%B4%80_18.jpg",
+   "flNm": "노머스_250331정관_18.jpg",
+   "alt": "이미지: 노머스_250331정관_18",
+   "bytes": 223708,
+   "sha256": "cce716ed072962653c140d1e694658bc7c1c4f7ac45fff7ab57ff2271c9ebb8a",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_250331%EC%A0%95%EA%B4%80_19.jpg",
+   "flNm": "노머스_250331정관_19.jpg",
+   "alt": "이미지: 노머스_250331정관_19",
+   "bytes": 180651,
+   "sha256": "fb68be2202f9b67caf29f7ea9c4b5b779e74ffebc56a4ffb4f66b23695864492",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_250331%EC%A0%95%EA%B4%80_20.jpg",
+   "flNm": "노머스_250331정관_20.jpg",
+   "alt": "이미지: 노머스_250331정관_20",
+   "bytes": 175091,
+   "sha256": "053375573865a198803137f0e9ccf5b645f06c05fda569715f71529f46cbe138",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_250331%EC%A0%95%EA%B4%80_21.jpg",
+   "flNm": "노머스_250331정관_21.jpg",
+   "alt": "이미지: 노머스_250331정관_21",
+   "bytes": 195321,
+   "sha256": "22547ce25c6657bcd379658c36fa0a2aa0c77a905c78ee502c2a9c3418304e76",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174468&flNm=%EB%85%B8%EB%A8%B8%EC%8A%A4_250331%EC%A0%95%EA%B4%80_22.jpg",
+   "flNm": "노머스_250331정관_22.jpg",
+   "alt": "이미지: 노머스_250331정관_22",
+   "bytes": 128560,
+   "sha256": "1e938ffe0fbb04edfa86bc2c301959594dfa6b5d5fb8f9ae9b6adab78184eebc",
+   "width": 1190,
+   "height": 1682
+  }
+ ],
+ "folder": "data/charter_kosdaq/473980_노머스/20260324_11174468",
+ "fetched_at": "2026-11-16T22:00:42",
+ "used_by_rcept_no": [
+  "20260324001029"
+ ]
+}

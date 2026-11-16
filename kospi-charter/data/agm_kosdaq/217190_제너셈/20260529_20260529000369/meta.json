@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260529000369",
+ "corp_code": "00666204",
+ "corp_name": "제너셈",
+ "stock_code": "217190",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260529",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529000369",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260529000369.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260529000369.xml",
+   "bytes": 45690,
+   "sha256": "ab4bdd56a3e8b23611a940e27f16c20e0400f7faac1739181f2693a977763f61"
+  }
+ ],
+ "folder": "data/agm_kosdaq/217190_제너셈/20260529_20260529000369",
+ "fetched_at": "2026-11-16T19:34:44"
+}

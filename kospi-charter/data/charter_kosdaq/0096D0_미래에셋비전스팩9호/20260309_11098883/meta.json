@@ -1,0 +1,265 @@
+{
+ "corp_code": "01946596",
+ "corp_name": "미래에셋비전스팩9호",
+ "stock_code": "0096D0",
+ "att_title": "2026.03.09 정관",
+ "att_date": "20260309",
+ "rcpNo": "20260306001042",
+ "dcmNo": "11098883",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260306001042&dcmNo=11098883",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260306001042&dcmNo=11098883&eleId=1&offset=594&length=3642&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 24,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "미래9호정관_1.jpg",
+   "alt": "이미지: 미래9호정관_1",
+   "bytes": 205667,
+   "sha256": "b33f8a3dd3c16c187199c47d57e92a33953b4841610b5a7ac81ef852fa5ec056",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "미래9호정관_2.jpg",
+   "alt": "이미지: 미래9호정관_2",
+   "bytes": 220722,
+   "sha256": "e9f5ce696c51eac1a0726466143e97385b6cc88864bbc17d3c5c8a2cbd643441",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "미래9호정관_3.jpg",
+   "alt": "이미지: 미래9호정관_3",
+   "bytes": 282093,
+   "sha256": "269145f6a4cdf05594f6f6c438e78e05ee93135c83090f2e37854cca0da6fd07",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "미래9호정관_4.jpg",
+   "alt": "이미지: 미래9호정관_4",
+   "bytes": 278956,
+   "sha256": "07adbdf9097316720b5e81b49a2ab8fe8396a6ec86f460f34942b18e06ee72ea",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "미래9호정관_5.jpg",
+   "alt": "이미지: 미래9호정관_5",
+   "bytes": 297214,
+   "sha256": "30cb96b0e3287640106cd56b6ff230d7e85965cbe940aaee1ce1fd2bbf63076c",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "미래9호정관_6.jpg",
+   "alt": "이미지: 미래9호정관_6",
+   "bytes": 247144,
+   "sha256": "685bbd9d6446cf396a0f83e3c1d41bfed2ee3846bdd19f96d236a1c82b5ea85a",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "미래9호정관_7.jpg",
+   "alt": "이미지: 미래9호정관_7",
+   "bytes": 297781,
+   "sha256": "51230c8ed3b2b068224394e31d58a3605edaa68f16849a42e2199884c070c183",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "미래9호정관_8.jpg",
+   "alt": "이미지: 미래9호정관_8",
+   "bytes": 249286,
+   "sha256": "ec8e1ab6b69bbdd0861639997e7e5eac0df869d3fac56f4bda81cebc5ac68fea",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "미래9호정관_9.jpg",
+   "alt": "이미지: 미래9호정관_9",
+   "bytes": 242818,
+   "sha256": "50d293085600d77909f38b5da4c5dd0a7516f04be12dbea1ffb6a89c3f99f320",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "미래9호정관_10.jpg",
+   "alt": "이미지: 미래9호정관_10",
+   "bytes": 249870,
+   "sha256": "cd387d98060c697283943e946dc166d74e602f0c99e7fe7e6119f789f7334c7e",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "미래9호정관_11.jpg",
+   "alt": "이미지: 미래9호정관_11",
+   "bytes": 246360,
+   "sha256": "3e433f33e4b0505e051743deb4772d3063b7dedcf78ccb553faf7195f017f45b",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "미래9호정관_12.jpg",
+   "alt": "이미지: 미래9호정관_12",
+   "bytes": 281936,
+   "sha256": "f2b9aaf21e733364b9520a0e4b085124e5fa29d53753626e75ed7071a91623cf",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "미래9호정관_13.jpg",
+   "alt": "이미지: 미래9호정관_13",
+   "bytes": 228312,
+   "sha256": "21a5399aba29e66b75f284b53e175cfd941ba6d869062dfa99c7ffdfc8267d14",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "미래9호정관_14.jpg",
+   "alt": "이미지: 미래9호정관_14",
+   "bytes": 256346,
+   "sha256": "e45f26bcd5331e2389086bc6f92070c5e6d13a9c60e0132a0ef60bf1c9eeb61d",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "미래9호정관_15.jpg",
+   "alt": "이미지: 미래9호정관_15",
+   "bytes": 242161,
+   "sha256": "ef6c4fb11a03d42306ea99362d6ab38510806d15e6f0546a17c05e905a5b9829",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "미래9호정관_16.jpg",
+   "alt": "이미지: 미래9호정관_16",
+   "bytes": 226398,
+   "sha256": "d5ba45f7d0ef9a2544e5696d51d50673eb5444e899a2bd1a81026ab665bfd884",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "미래9호정관_17.jpg",
+   "alt": "이미지: 미래9호정관_17",
+   "bytes": 113391,
+   "sha256": "f9394a166a1fbd7b2e12f3194ec02512bf6ea83955e2d424050f1a57fd450fba",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_18.jpg",
+   "flNm": "미래9호정관_18.jpg",
+   "alt": "이미지: 미래9호정관_18",
+   "bytes": 301774,
+   "sha256": "34ebd9232bbbc00ba28253afeea55a73c824c6e41baf5356a9c759e26730ecad",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_19.jpg",
+   "flNm": "미래9호정관_19.jpg",
+   "alt": "이미지: 미래9호정관_19",
+   "bytes": 104054,
+   "sha256": "89f3d2162bb3e8c2c4a5123cb11c95acdf1ee834fd2afd2f7b67199f69d12888",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_20.jpg",
+   "flNm": "미래9호정관_20.jpg",
+   "alt": "이미지: 미래9호정관_20",
+   "bytes": 111936,
+   "sha256": "08231eef5d8ef45e0a472b21ae73ea6e1f6be0f8275a88169bf18c1e1a67676f",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_21.jpg",
+   "flNm": "미래9호정관_21.jpg",
+   "alt": "이미지: 미래9호정관_21",
+   "bytes": 225262,
+   "sha256": "886c70db6a6622234aa43d2d38b658b540c8319674d0f60931c5a064dfc8c7cc",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_22.jpg",
+   "flNm": "미래9호정관_22.jpg",
+   "alt": "이미지: 미래9호정관_22",
+   "bytes": 213473,
+   "sha256": "81634cdfdbc517f88f305c5b418972ceb7b93a29def4ad0e65a7e5aca41293ab",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_23.jpg",
+   "flNm": "미래9호정관_23.jpg",
+   "alt": "이미지: 미래9호정관_23",
+   "bytes": 196954,
+   "sha256": "c3baf36a974cc7659c5747c27a9432900f1e61f3d3e5aeb73cb33956bbcb8a0c",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/024.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11098883&flNm=%EB%AF%B8%EB%9E%989%ED%98%B8%EC%A0%95%EA%B4%80_24.jpg",
+   "flNm": "미래9호정관_24.jpg",
+   "alt": "이미지: 미래9호정관_24",
+   "bytes": 106557,
+   "sha256": "7b47fda7192e7c1234a7886030d2cf27d3b268444a35e00c9082caefd45d02ce",
+   "width": 793,
+   "height": 1121
+  }
+ ],
+ "folder": "data/charter_kosdaq/0096D0_미래에셋비전스팩9호/20260309_11098883",
+ "fetched_at": "2026-11-16T19:49:45",
+ "used_by_rcept_no": [
+  "20260306001042"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "00323868",
+ "corp_name": "웹케시",
+ "stock_code": "053580",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313001112",
+ "dcmNo": "11121636",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001112&dcmNo=11121636",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313001112&dcmNo=11121636&eleId=1&offset=595&length=314&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 36,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/053580_웹케시/20260313_11121636",
+ "fetched_at": "2026-11-16T20:18:08",
+ "used_by_rcept_no": [
+  "20260313001112"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11121636&flNm=%EC%9B%B9%EC%BC%80%EC%8B%9C_%EC%A0%95%EA%B4%80_20250325.pdf",
+   "flNm": "웹케시_정관_20250325.pdf",
+   "bytes": 221471,
+   "sha256": "4c5748a78b025377b7ce1104276c575ec665e027c0815d54213ebfe6653985b0",
+   "pages": 14,
+   "text_pages": 13,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

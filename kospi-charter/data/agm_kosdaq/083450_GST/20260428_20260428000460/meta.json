@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260428000460",
+ "corp_code": "00540863",
+ "corp_name": "GST",
+ "stock_code": "083450",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260428",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428000460",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260428000460.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260428000460.xml",
+   "bytes": 54188,
+   "sha256": "04417f1b8277be224e43ecd85de875542114c93fe9fbc536ee255f011924dbd2"
+  }
+ ],
+ "folder": "data/agm_kosdaq/083450_GST/20260428_20260428000460",
+ "fetched_at": "2026-11-16T19:33:44"
+}

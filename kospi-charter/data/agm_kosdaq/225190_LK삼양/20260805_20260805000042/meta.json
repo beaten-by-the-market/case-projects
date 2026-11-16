@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260805000042",
+ "corp_code": "00992543",
+ "corp_name": "LK삼양",
+ "stock_code": "225190",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260805",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000042",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 509,
+ "charter_amend_txt": "data/agm_kosdaq/225190_LK삼양/20260805_20260805000042/정관의변경.txt",
+ "main_xml": "20260805000042.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260805000042.xml",
+   "bytes": 44312,
+   "sha256": "b79dd00d31164ac5463f593b23fdad97ce2ef876fd242b65b906ac1f3cdfe95e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/225190_LK삼양/20260805_20260805000042",
+ "fetched_at": "2026-11-16T19:37:31"
+}

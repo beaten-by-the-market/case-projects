@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323000092",
+ "corp_code": "00252135",
+ "corp_name": "주성엔지니어링",
+ "stock_code": "036930",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000092",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1705,
+ "charter_amend_txt": "data/agm_kosdaq/036930_주성엔지니어링/20260323_20260323000092/정관의변경.txt",
+ "main_xml": "20260323000092.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323000092.xml",
+   "bytes": 1124673,
+   "sha256": "60f93cf5a74222fb7abf4ddf7b60861e372ac72341b1f16c0838e85d69d471c8"
+  }
+ ],
+ "folder": "data/agm_kosdaq/036930_주성엔지니어링/20260323_20260323000092",
+ "fetched_at": "2026-11-16T19:32:49"
+}

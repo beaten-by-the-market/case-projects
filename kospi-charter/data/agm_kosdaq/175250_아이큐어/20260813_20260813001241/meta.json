@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260813001241",
+ "corp_code": "00554352",
+ "corp_name": "아이큐어",
+ "stock_code": "175250",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260813",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001241",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260813001241.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260813001241.xml",
+   "bytes": 71118,
+   "sha256": "839dd9e89f97c9c740a8196a74f1f69c619ce43368686a76a419b81cdf42af18"
+  }
+ ],
+ "folder": "data/agm_kosdaq/175250_아이큐어/20260813_20260813001241",
+ "fetched_at": "2026-11-16T19:37:48"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260316001092",
+ "corp_code": "01014055",
+ "corp_name": "에스트래픽",
+ "stock_code": "234300",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260316",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001092",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1659,
+ "charter_amend_txt": "data/agm_kosdaq/234300_에스트래픽/20260316_20260316001092/정관의변경.txt",
+ "main_xml": "20260316001092.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260316001092.xml",
+   "bytes": 492424,
+   "sha256": "37c1d2e03e3ffd63420017a5ea92d7484457e1edf07bdfaf25c6969713dcdf8c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/234300_에스트래픽/20260316_20260316001092",
+ "fetched_at": "2026-11-16T19:32:25"
+}

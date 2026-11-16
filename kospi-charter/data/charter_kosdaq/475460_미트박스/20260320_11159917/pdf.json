@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159917&flNm=%28%EC%A3%BC%29%EB%AF%B8%ED%8A%B8%EB%B0%95%EC%8A%A4%EA%B8%80%EB%A1%9C%EB%B2%8C_%EC%A0%95%EA%B4%80_2025.03.31.pdf",
+   "flNm": "(주)미트박스글로벌_정관_2025.03.31.pdf",
+   "bytes": 335651,
+   "sha256": "9795a59558dacb330bc7221d7ac1518281c4ade043b78505f4caaebcb8a575b7",
+   "pages": 22,
+   "text_pages": 22,
+   "ocr_pages": 0
+  }
+ ],
+ "total_chars": 21164,
+ "pages": 22,
+ "text_pages": 22,
+ "ocr_pages": 0,
+ "created_at": "2026-11-16T22:18:09",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": null
+ }
+}

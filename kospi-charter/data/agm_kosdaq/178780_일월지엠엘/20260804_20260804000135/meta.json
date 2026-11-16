@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260804000135",
+ "corp_code": "00923826",
+ "corp_name": "일월지엠엘",
+ "stock_code": "178780",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260804",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000135",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 257,
+ "charter_amend_txt": "data/agm_kosdaq/178780_일월지엠엘/20260804_20260804000135/정관의변경.txt",
+ "main_xml": "20260804000135.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260804000135.xml",
+   "bytes": 46366,
+   "sha256": "55383c5f065817b793a64b4c098d6b5c5fa7476a67e9020c2fd448f4a44eb245"
+  }
+ ],
+ "folder": "data/agm_kosdaq/178780_일월지엠엘/20260804_20260804000135",
+ "fetched_at": "2026-11-16T19:37:28"
+}

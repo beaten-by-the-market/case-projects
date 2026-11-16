@@ -1,0 +1,24 @@
+{
+ "corp_code": "01540815",
+ "corp_name": "스튜디오삼익",
+ "stock_code": "415380",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000548",
+ "dcmNo": "11155822",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000548&dcmNo=11155822",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000548&dcmNo=11155822&eleId=1&offset=597&length=28407&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12363,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/415380_스튜디오삼익/20260320_11155822",
+ "fetched_at": "2026-11-16T21:50:15",
+ "used_by_rcept_no": [
+  "20260320000829"
+ ]
+}

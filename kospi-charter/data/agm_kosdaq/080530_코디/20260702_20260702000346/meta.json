@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260702000346",
+ "corp_code": "00308559",
+ "corp_name": "코디",
+ "stock_code": "080530",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260702",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702000346",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260702000346.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260702000346.xml",
+   "bytes": 45022,
+   "sha256": "dab822cabc7a978ea33b739adfc2e38bd9ce03b2d032633a708d782bbad8dd28"
+  }
+ ],
+ "folder": "data/agm_kosdaq/080530_코디/20260702_20260702000346",
+ "fetched_at": "2026-11-16T19:36:24"
+}

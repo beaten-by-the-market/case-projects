@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260527000604",
+ "corp_code": "01309795",
+ "corp_name": "아틀라스링크",
+ "stock_code": "297570",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260527",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260527000604",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 21661,
+ "charter_amend_txt": "data/agm_kosdaq/297570_아틀라스링크/20260527_20260527000604/정관의변경.txt",
+ "main_xml": "20260527000604.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260527000604.xml",
+   "bytes": 95336,
+   "sha256": "ee385fe8a7bebb5d5cc1e31454e24908fbf6131595bedcf63ac995707374c9cd"
+  }
+ ],
+ "folder": "data/agm_kosdaq/297570_아틀라스링크/20260527_20260527000604",
+ "fetched_at": "2026-11-16T19:34:42"
+}

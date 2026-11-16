@@ -1,0 +1,24 @@
+{
+ "corp_code": "00170026",
+ "corp_name": "시공테크",
+ "stock_code": "020710",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001645",
+ "dcmNo": "11129978",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001645&dcmNo=11129978",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001645&dcmNo=11129978&eleId=1&offset=595&length=15465&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9082,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/020710_시공테크/20260316_11129978",
+ "fetched_at": "2026-11-16T19:57:24",
+ "used_by_rcept_no": [
+  "20260316001645"
+ ]
+}

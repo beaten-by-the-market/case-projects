@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261105000051",
+ "corp_code": "01792791",
+ "corp_name": "IBKS제24호스팩",
+ "stock_code": "469480",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261105",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000051",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261105000051.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261105000051.xml",
+   "bytes": 207072,
+   "sha256": "881672b72ea6a5c18df43ca7d8cd40f09c81025c227f705bc11ebe9f623be457"
+  }
+ ],
+ "folder": "data/agm_kosdaq/469480_IBKS제24호스팩/20261105_20261105000051",
+ "fetched_at": "2026-11-16T19:40:31"
+}

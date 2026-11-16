@@ -1,0 +1,37 @@
+{
+ "corp_code": "00356839",
+ "corp_name": "메디콕스",
+ "stock_code": "054180",
+ "att_title": "2026.03.24 정관",
+ "att_date": "20260324",
+ "rcpNo": "20260324000120",
+ "dcmNo": "11171129",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000120&dcmNo=11171129",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260324000120&dcmNo=11171129&eleId=1&offset=597&length=316&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 38,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/054180_메디콕스/20260324_11171129",
+ "fetched_at": "2026-11-16T20:18:46",
+ "used_by_rcept_no": [
+  "20260324000120"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11171129&flNm=20250826_%EC%A0%95%EA%B4%80_%EB%A9%94%EB%94%94%EC%BD%95%EC%8A%A4.pdf",
+   "flNm": "20250826_정관_메디콕스.pdf",
+   "bytes": 1068319,
+   "sha256": "7a8a0b78897bfa0c8df7c256d189e1979939080cdeb3caf20f9fd03dbaf9c3fb",
+   "pages": 23,
+   "text_pages": 0,
+   "ocr_pages": 23
+  }
+ ],
+ "n_pdfs": 1
+}

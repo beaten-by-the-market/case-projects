@@ -1,0 +1,24 @@
+{
+ "corp_code": "00128315",
+ "corp_name": "삼지전자",
+ "stock_code": "037460",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000862",
+ "dcmNo": "11134061",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000862&dcmNo=11134061",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000862&dcmNo=11134061&eleId=1&offset=597&length=19133&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12361,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/037460_삼지전자/20260317_11134061",
+ "fetched_at": "2026-11-16T20:07:18",
+ "used_by_rcept_no": [
+  "20260317000862"
+ ]
+}

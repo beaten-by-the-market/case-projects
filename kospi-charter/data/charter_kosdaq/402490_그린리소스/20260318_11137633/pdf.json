@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137633&flNm=gr+-+%EC%A0%95%EA%B4%80%2820250926%29.pdf",
+   "flNm": "gr - 정관(20250926).pdf",
+   "bytes": 3456620,
+   "sha256": "c8316f6adb6b23a20dd005a4bf051c768140b250f9b643f24f88de68ebaf7f3a",
+   "pages": 21,
+   "text_pages": 0,
+   "ocr_pages": 21
+  }
+ ],
+ "total_chars": 14072,
+ "pages": 21,
+ "text_pages": 0,
+ "ocr_pages": 21,
+ "created_at": "2026-11-16T22:17:00",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

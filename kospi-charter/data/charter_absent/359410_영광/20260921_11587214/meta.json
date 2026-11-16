@@ -1,0 +1,24 @@
+{
+ "corp_code": "00579342",
+ "corp_name": "영광",
+ "stock_code": "359410",
+ "att_title": "2026.09.21 정관",
+ "att_date": "20260921",
+ "rcpNo": "20260921000332",
+ "dcmNo": "11587214",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000332&dcmNo=11587214",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000332&dcmNo=11587214&eleId=1&offset=593&length=67978&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13113,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_absent/359410_영광/20260921_11587214",
+ "fetched_at": "2026-11-17T00:50:51",
+ "used_by_stock_code": [
+  "359410"
+ ]
+}

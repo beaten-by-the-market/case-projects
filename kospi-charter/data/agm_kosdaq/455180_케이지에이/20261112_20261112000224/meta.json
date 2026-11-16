@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261112000224",
+ "corp_code": "01638387",
+ "corp_name": "케이지에이",
+ "stock_code": "455180",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261112",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000224",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3496,
+ "charter_amend_txt": "data/agm_kosdaq/455180_케이지에이/20261112_20261112000224/정관의변경.txt",
+ "main_xml": "20261112000224.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261112000224.xml",
+   "bytes": 59521,
+   "sha256": "f51e95d4e3b348dcbab42b9aae8cb2bcfcec1d07e9ff75a9b2194d85476de99e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/455180_케이지에이/20261112_20261112000224",
+ "fetched_at": "2026-11-16T19:40:45"
+}

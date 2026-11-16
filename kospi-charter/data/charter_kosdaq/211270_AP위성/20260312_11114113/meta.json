@@ -1,0 +1,37 @@
+{
+ "corp_code": "00874803",
+ "corp_name": "AP위성",
+ "stock_code": "211270",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312000696",
+ "dcmNo": "11114113",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000696&dcmNo=11114113",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000696&dcmNo=11114113&eleId=1&offset=598&length=316&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 38,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/211270_AP위성/20260312_11114113",
+ "fetched_at": "2026-11-16T21:09:20",
+ "used_by_rcept_no": [
+  "20260312000696"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114113&flNm=%EC%A0%95%EA%B4%80_20230327%28%EA%B0%9C%EC%A0%95%EC%95%88%29.pdf",
+   "flNm": "정관_20230327(개정안).pdf",
+   "bytes": 426529,
+   "sha256": "1134b3b26bdce671e379a883a4656bb71d7e096d3797ffaa97b82cf214330df1",
+   "pages": 15,
+   "text_pages": 15,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

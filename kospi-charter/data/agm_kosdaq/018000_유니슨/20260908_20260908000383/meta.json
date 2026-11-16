@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260908000383",
+ "corp_code": "00144243",
+ "corp_name": "유니슨",
+ "stock_code": "018000",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260908",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000383",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3428,
+ "charter_amend_txt": "data/agm_kosdaq/018000_유니슨/20260908_20260908000383/정관의변경.txt",
+ "main_xml": "20260908000383.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260908000383.xml",
+   "bytes": 69153,
+   "sha256": "5dae331952871fa9c4c95d54edbcb09514915fc3f5018bd51d9ce3c4ae24c4dc"
+  }
+ ],
+ "folder": "data/agm_kosdaq/018000_유니슨/20260908_20260908000383",
+ "fetched_at": "2026-11-16T19:38:41"
+}

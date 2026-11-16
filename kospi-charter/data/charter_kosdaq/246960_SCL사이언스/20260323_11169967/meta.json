@@ -1,0 +1,37 @@
+{
+ "corp_code": "01110182",
+ "corp_name": "SCL사이언스",
+ "stock_code": "246960",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001709",
+ "dcmNo": "11169967",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001709&dcmNo=11169967",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001709&dcmNo=11169967&eleId=1&offset=601&length=328&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 48,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/246960_SCL사이언스/20260323_11169967",
+ "fetched_at": "2026-11-16T21:16:54",
+ "used_by_rcept_no": [
+  "20260515001783"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169967&flNm=a3_%EC%A0%95%EA%B4%80+%2812%EC%B0%A8%29-2025.03.31.pdf",
+   "flNm": "a3_정관 (12차)-2025.03.31.pdf",
+   "bytes": 637836,
+   "sha256": "aea42634d056c1219b47a57b765faa9518482e0d831b67377d4e6b6bb7612445",
+   "pages": 17,
+   "text_pages": 0,
+   "ocr_pages": 17
+  }
+ ],
+ "n_pdfs": 1
+}

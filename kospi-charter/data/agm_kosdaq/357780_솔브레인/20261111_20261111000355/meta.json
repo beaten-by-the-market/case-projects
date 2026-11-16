@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261111000355",
+ "corp_code": "01489648",
+ "corp_name": "솔브레인",
+ "stock_code": "357780",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261111",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000355",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261111000355.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261111000355.xml",
+   "bytes": 38118,
+   "sha256": "05596f98741eba70147e5d2f3b78b2384c8cf34474209f01822a221d5920a51b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/357780_솔브레인/20261111_20261111000355",
+ "fetched_at": "2026-11-16T19:40:43"
+}

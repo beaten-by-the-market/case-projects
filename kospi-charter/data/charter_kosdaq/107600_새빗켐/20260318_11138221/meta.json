@@ -1,0 +1,24 @@
+{
+ "corp_code": "00862880",
+ "corp_name": "새빗켐",
+ "stock_code": "107600",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000820",
+ "dcmNo": "11138221",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000820&dcmNo=11138221",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000820&dcmNo=11138221&eleId=1&offset=596&length=19001&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11250,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/107600_새빗켐/20260318_11138221",
+ "fetched_at": "2026-11-16T20:50:09",
+ "used_by_rcept_no": [
+  "20260318001590"
+ ]
+}

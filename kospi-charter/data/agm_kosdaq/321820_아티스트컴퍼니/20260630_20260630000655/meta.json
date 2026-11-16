@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260630000655",
+ "corp_code": "01116502",
+ "corp_name": "아티스트컴퍼니",
+ "stock_code": "321820",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260630",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000655",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260630000655.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260630000655.xml",
+   "bytes": 125183,
+   "sha256": "f7e7515ecb2c7705553b5119adc33efc1841ad35bcf97d3d50d8c9083b179d74"
+  }
+ ],
+ "folder": "data/agm_kosdaq/321820_아티스트컴퍼니/20260630_20260630000655",
+ "fetched_at": "2026-11-16T19:36:15"
+}

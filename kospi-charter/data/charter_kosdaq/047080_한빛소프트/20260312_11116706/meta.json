@@ -1,0 +1,24 @@
+{
+ "corp_code": "00348292",
+ "corp_name": "한빛소프트",
+ "stock_code": "047080",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312001259",
+ "dcmNo": "11116706",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001259&dcmNo=11116706",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001259&dcmNo=11116706&eleId=1&offset=596&length=25626&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12850,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/047080_한빛소프트/20260312_11116706",
+ "fetched_at": "2026-11-16T20:15:04",
+ "used_by_rcept_no": [
+  "20260312001259"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260630000320",
+ "corp_code": "00997812",
+ "corp_name": "코미코",
+ "stock_code": "183300",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260630",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000320",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 210,
+ "charter_amend_txt": "data/agm_kosdaq/183300_코미코/20260630_20260630000320/정관의변경.txt",
+ "main_xml": "20260630000320.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260630000320.xml",
+   "bytes": 71793,
+   "sha256": "2ff095c4c79c4a48931b7baf5246c9c4108e255262214ea168bdcd7a43479555"
+  }
+ ],
+ "folder": "data/agm_kosdaq/183300_코미코/20260630_20260630000320",
+ "fetched_at": "2026-11-16T19:36:12"
+}

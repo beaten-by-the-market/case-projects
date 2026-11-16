@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T14:30:29",
+ "generated_at": "2026-11-16T23:43:21",
  "as_of": "2026-11-16",
  "window": [
   "2025-11-16",
@@ -21,10 +21,61 @@
  },
  "source": {
   "list": "OpenDART list.json pblntf_detail_ty=A001 last_reprt_at=Y",
-  "market": "KIND listed_issue_status — 기준일 현재 상장 목록 한 번 (제출 당시 아님)",
+  "market": "KIND listed_issue_status: 기준일 현재 상장 목록 한 번 (제출 당시 아님)",
   "rcept_no_new": "DART main.do <select id=family> 첫 옵션 ([첨부정정] 행만)",
   "charter": "DART main.do <select id=att> (OpenDartReader.attach_docs 규칙) → viewer.do",
   "agm": "OpenDART list.json E006 last_reprt_at=Y, 접수일 ∈ [원본 최초 접수일, 기준일] → document.xml, TITLE@AASSOCNOTE=L0-0-2-2-0(정관의 변경)"
+ },
+ "kind_kospi": {
+  "detail": {
+   "date": "2026-11-16",
+   "companies": 829,
+   "groups": {
+    "부동산투자회사": 23,
+    "외국주권": 1,
+    "주권": 801,
+    "주식예탁증권": 1,
+    "투자회사": 3
+   },
+   "in_list": 825,
+   "absent": 4
+  },
+  "summary": {
+   "date": "2026-11-13",
+   "file": "data/raw/kind/summary_20261113.csv",
+   "groups": {
+    "주권": {
+     "companies": 801,
+     "issues": 908
+    },
+    "외국주권": {
+     "companies": 1,
+     "issues": 1
+    },
+    "투자회사": {
+     "companies": 3,
+     "issues": 3
+    },
+    "부동산투자회사": {
+     "companies": 23,
+     "issues": 23
+    },
+    "소계": {
+     "companies": 828,
+     "issues": 935
+    },
+    "주식예탁증권(DR)": {
+     "companies": 1,
+     "issues": 1
+    }
+   },
+   "companies_with_dr": 829,
+   "issues_with_dr": 936
+  },
+  "absent_reason": {
+   "new_listing": 1,
+   "no_annual_report": 3
+  }
  },
  "counts": {
   "annual_reports": 3349,
@@ -58,6 +109,7 @@
   },
   "rcept_no_new_changed": 86,
   "kospi_rows": 825,
+  "kospi_absent": 4,
   "kospi_charter_status": {
    "ok": 825
   },

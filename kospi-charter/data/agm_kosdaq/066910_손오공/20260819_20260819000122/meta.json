@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260819000122",
+ "corp_code": "00306870",
+ "corp_name": "손오공",
+ "stock_code": "066910",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260819",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000122",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3469,
+ "charter_amend_txt": "data/agm_kosdaq/066910_손오공/20260819_20260819000122/정관의변경.txt",
+ "main_xml": "20260819000122.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260819000122.xml",
+   "bytes": 76159,
+   "sha256": "830cd797e961c12aa6cf96682b751fcd528c1ec491dff24bbcf047087cc05619"
+  }
+ ],
+ "folder": "data/agm_kosdaq/066910_손오공/20260819_20260819000122",
+ "fetched_at": "2026-11-16T19:38:10"
+}

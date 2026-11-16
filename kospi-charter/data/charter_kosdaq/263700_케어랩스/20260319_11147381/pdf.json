@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11147381&flNm=%5B%EC%BC%80%EC%96%B4%EB%9E%A9%EC%8A%A4%5D+%EC%A0%95%EA%B4%80_20250327.pdf",
+   "flNm": "[케어랩스] 정관_20250327.pdf",
+   "bytes": 317288,
+   "sha256": "ac912148a3c734783d1aa7c571d980bbc525997f1b547a9ab550f8e7130ca422",
+   "pages": 28,
+   "text_pages": 27,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 14648,
+ "pages": 28,
+ "text_pages": 27,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T22:14:34",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

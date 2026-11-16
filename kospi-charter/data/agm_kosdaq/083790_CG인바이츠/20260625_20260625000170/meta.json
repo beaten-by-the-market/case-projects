@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260625000170",
+ "corp_code": "00407814",
+ "corp_name": "CG인바이츠",
+ "stock_code": "083790",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260625",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625000170",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 830,
+ "charter_amend_txt": "data/agm_kosdaq/083790_CG인바이츠/20260625_20260625000170/정관의변경.txt",
+ "main_xml": "20260625000170.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260625000170.xml",
+   "bytes": 84579,
+   "sha256": "b4da9545ec4b0f6a703922bdf5b9043880a63fee133bb88999d4952f18298b3e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/083790_CG인바이츠/20260625_20260625000170",
+ "fetched_at": "2026-11-16T19:35:50"
+}

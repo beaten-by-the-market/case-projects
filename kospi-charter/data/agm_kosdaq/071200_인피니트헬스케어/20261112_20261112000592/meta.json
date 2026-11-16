@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261112000592",
+ "corp_code": "00435969",
+ "corp_name": "인피니트헬스케어",
+ "stock_code": "071200",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261112",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000592",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2179,
+ "charter_amend_txt": "data/agm_kosdaq/071200_인피니트헬스케어/20261112_20261112000592/정관의변경.txt",
+ "main_xml": "20261112000592.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261112000592.xml",
+   "bytes": 72119,
+   "sha256": "d5951d9f067b3d620bb9455021195303596d4129a231b156939bfc5602d96198"
+  }
+ ],
+ "folder": "data/agm_kosdaq/071200_인피니트헬스케어/20261112_20261112000592",
+ "fetched_at": "2026-11-16T19:40:47"
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "00370918",
+ "corp_name": "케이디켐",
+ "stock_code": "221980",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001049",
+ "dcmNo": "11151155",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001049&dcmNo=11151155",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001049&dcmNo=11151155&eleId=1&offset=596&length=318&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 36,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/221980_케이디켐/20260319_11151155",
+ "fetched_at": "2026-11-16T21:12:23",
+ "used_by_rcept_no": [
+  "20260319001049"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151155&flNm=%EC%BC%80%EC%9D%B4%EB%94%94%EC%BC%90%28%EC%A3%BC%29+%EC%A0%95%EA%B4%80+250328.pdf",
+   "flNm": "케이디켐(주) 정관 250328.pdf",
+   "bytes": 748381,
+   "sha256": "29f4b886d9b66e959692de80f889fb6b6bc8d84d080f59aba6fad38b3fc533bf",
+   "pages": 16,
+   "text_pages": 0,
+   "ocr_pages": 16
+  }
+ ],
+ "n_pdfs": 1
+}

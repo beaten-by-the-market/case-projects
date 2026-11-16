@@ -1,0 +1,24 @@
+{
+ "corp_code": "00449254",
+ "corp_name": "쎄트렉아이",
+ "stock_code": "099320",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316000706",
+ "dcmNo": "11125305",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000706&dcmNo=11125305",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000706&dcmNo=11125305&eleId=1&offset=596&length=21390&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13705,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/099320_쎄트렉아이/20260316_11125305",
+ "fetched_at": "2026-11-16T20:48:17",
+ "used_by_rcept_no": [
+  "20260406004277"
+ ]
+}

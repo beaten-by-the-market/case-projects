@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260707000076",
+ "corp_code": "01210190",
+ "corp_name": "모비릭스",
+ "stock_code": "348030",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260707",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707000076",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260707000076.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260707000076.xml",
+   "bytes": 79138,
+   "sha256": "7887e4ac0859b172d2047b9e9f5faa60099d040d99dfb7a8b8c43ae5dc2d5013"
+  }
+ ],
+ "folder": "data/agm_kosdaq/348030_모비릭스/20260707_20260707000076",
+ "fetched_at": "2026-11-16T19:36:31"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260604000495",
+ "corp_code": "00318662",
+ "corp_name": "CNT85",
+ "stock_code": "056730",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260604",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604000495",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260604000495.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260604000495.xml",
+   "bytes": 58183,
+   "sha256": "248badd8b0df7f9c7e4df2cc6c8506a48ef7b3589cbe1745040de64450d6a6bf"
+  }
+ ],
+ "folder": "data/agm_kosdaq/056730_CNT85/20260604_20260604000495",
+ "fetched_at": "2026-11-16T19:34:51"
+}

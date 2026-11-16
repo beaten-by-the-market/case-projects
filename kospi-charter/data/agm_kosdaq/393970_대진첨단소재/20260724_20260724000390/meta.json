@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260724000390",
+ "corp_code": "01549472",
+ "corp_name": "대진첨단소재",
+ "stock_code": "393970",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260724",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000390",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1775,
+ "charter_amend_txt": "data/agm_kosdaq/393970_대진첨단소재/20260724_20260724000390/정관의변경.txt",
+ "main_xml": "20260724000390.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260724000390.xml",
+   "bytes": 70618,
+   "sha256": "99321b8c935eb9fc11475a4d4aa43bb5cce9654151f5162c5e111ca92a393d8f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/393970_대진첨단소재/20260724_20260724000390",
+ "fetched_at": "2026-11-16T19:37:16"
+}

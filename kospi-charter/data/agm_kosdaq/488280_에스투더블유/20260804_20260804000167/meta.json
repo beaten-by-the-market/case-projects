@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260804000167",
+ "corp_code": "01803635",
+ "corp_name": "에스투더블유",
+ "stock_code": "488280",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260804",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000167",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260804000167.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260804000167.xml",
+   "bytes": 42993,
+   "sha256": "4d79a1c53dd48524fed55ebe41ca9150edd74c87227e623046daaa944f9be038"
+  }
+ ],
+ "folder": "data/agm_kosdaq/488280_에스투더블유/20260804_20260804000167",
+ "fetched_at": "2026-11-16T19:37:28"
+}

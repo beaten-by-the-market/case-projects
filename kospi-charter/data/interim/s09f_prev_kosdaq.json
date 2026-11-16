@@ -1,0 +1,433 @@
+{
+ "452200": {
+  "report_dividend_section": {
+   "rcept_no": "20260318001177",
+   "text": "배당관련 예측가능성 제공에 관한 사항\n가. 정관상 배당절차 개선방안 이행 가부\n구분\n결산배당\n분기ㆍ중간배당\n정관상 배당액 결정 기관\n주주총회\n주주총회\n정관상 배당기준일을 배당액 결정 이후로 정할 수 있는지 여부\nX\n-\n배당절차 개선방안 이행 관련 향후 계획\n현재 계획 없음\n현재 계획 없음\n나. 배당액 확정일 및 배당기준일 지정 현황\n구분\n결산월\n배당여부\n배당액확정일\n배당기준일\n배당 예측가능성제공여부\n비고\n결산배당\n2025.12\nX\n-\n2025.12.31\nX\n-\n결산배당\n2024.12\nX\n-\n2024.12.31\nX\n-\n결산배당\n2023.12\nX\n-\n2023.12.31\nX\n-\n3. 기타 참고사항(배당 관련 정관의 내용"
+  },
+  "notices": [
+   {
+    "rcept_no": "20260318000565",
+    "rcept_dt": "20260318",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "txt": null
+   },
+   {
+    "rcept_no": "20250313000922",
+    "rcept_dt": "20250313",
+    "report_nm": "주주총회소집공고",
+    "txt": null
+   }
+  ],
+  "output": {
+   "tag": "정관yes",
+   "route": "없음",
+   "basis_article": "",
+   "quotes": [
+    "정관상 배당기준일을 배당액 결정 이후로 정할 수 있는지 여부\nX",
+    "결산배당\n2025.12\nX\n-\n2025.12.31",
+    "배당절차 개선방안 이행 관련 향후 계획\n현재 계획 없음"
+   ],
+   "fixed_point": "",
+   "board_may_set": false,
+   "amend_note": "",
+   "interim": "확인필요",
+   "quarterly": "확인필요",
+   "confidence": "보통",
+   "note": "정관 원문이 없어 2026.03 사업보고서의 배당관련 예측가능성 표로 판별했다. 결산배당의 '정관상 배당기준일을 배당액 결정 이후로 정할 수 있는지 여부'가 X이고 최근 3년 배당기준일이 모두 12.31이므로 결산기말 고정(정관yes)으로 보되, 정관 문구를 직접 보지 못해 확신도는 보통으로 두고 분기·중간배당(표에서 '-')은 확인필요로 둔다."
+  },
+  "quotes": [
+   "정관상 배당기준일을 배당액 결정 이후로 정할 수 있는지 여부\nX",
+   "결산배당\n2025.12\nX\n-\n2025.12.31",
+   "배당절차 개선방안 이행 관련 향후 계획\n현재 계획 없음"
+  ],
+  "model": "claude-opus-5-5",
+  "runner": "claude-code-subagent",
+  "prompt_sha256": "f3cf17821a7e9bd23be7774cfeb6370024084e66d252b246cd6537cb80053974",
+  "at": "2026-11-16T23:24:55",
+  "mode": "report+notices"
+ },
+ "228670": {
+  "prev_rcept_no": "20230321000746",
+  "prev_rcept_dt": "20230321",
+  "prev_report_nm": "사업보고서 (2022.12)",
+  "charter_folder": "data/charter_kosdaq_prev/228670_레이/20230321_9080916",
+  "charter_content_type": "image",
+  "charter_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230321000746&dcmNo=9080916",
+  "charter_att_date": "20230321",
+  "charter_n_images": 14,
+  "charter_fulltext_txt": "data/charter_kosdaq_prev/228670_레이/20230321_9080916/charter_llm.txt",
+  "images": [
+   {
+    "file": "img/001.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0001.jpg",
+    "flNm": "s792090161323031610200_0001.jpg",
+    "alt": "이미지: s792090161323031610200_0001",
+    "bytes": 275630,
+    "sha256": "a882ed7f8fd5621157116ba9dc75f1de775d726340350948a7b35be5ff2385f1",
+    "width": 2634,
+    "height": 3723
+   },
+   {
+    "file": "img/002.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0002.jpg",
+    "flNm": "s792090161323031610200_0002.jpg",
+    "alt": "이미지: s792090161323031610200_0002",
+    "bytes": 289872,
+    "sha256": "018afa614d3587c65f36cebaf6b207950861c10b0ef4ae971254d15e476c7448",
+    "width": 2370,
+    "height": 3349
+   },
+   {
+    "file": "img/003.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0003.jpg",
+    "flNm": "s792090161323031610200_0003.jpg",
+    "alt": "이미지: s792090161323031610200_0003",
+    "bytes": 294546,
+    "sha256": "43c6c84e4a38134d9c742405d874baf9b4989557dc5fd4fce303c66d141c8b38",
+    "width": 2133,
+    "height": 3014
+   },
+   {
+    "file": "img/004.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0004.jpg",
+    "flNm": "s792090161323031610200_0004.jpg",
+    "alt": "이미지: s792090161323031610200_0004",
+    "bytes": 293691,
+    "sha256": "e57bfa73cd92415a8897f254bee1383aa3bc4bec29d5a57299af6400eaf0e0e3",
+    "width": 2133,
+    "height": 3014
+   },
+   {
+    "file": "img/005.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0005.jpg",
+    "flNm": "s792090161323031610200_0005.jpg",
+    "alt": "이미지: s792090161323031610200_0005",
+    "bytes": 285684,
+    "sha256": "b522b7f0e1c94d131795efb3170331cf5fca2985b5aa9047745729ab8d71a015",
+    "width": 2133,
+    "height": 3014
+   },
+   {
+    "file": "img/006.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0006.jpg",
+    "flNm": "s792090161323031610200_0006.jpg",
+    "alt": "이미지: s792090161323031610200_0006",
+    "bytes": 270432,
+    "sha256": "8a37bea1af92cbbf78faff537f1603887c065e38cb1e6bb3357fc7c025fe1f97",
+    "width": 2133,
+    "height": 3014
+   },
+   {
+    "file": "img/007.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0007.jpg",
+    "flNm": "s792090161323031610200_0007.jpg",
+    "alt": "이미지: s792090161323031610200_0007",
+    "bytes": 290516,
+    "sha256": "1001cc52e258917cf94108593e9d4dd5f733111b8ba63bf45fb738c4a98b6683",
+    "width": 2133,
+    "height": 3014
+   },
+   {
+    "file": "img/008.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0008.jpg",
+    "flNm": "s792090161323031610200_0008.jpg",
+    "alt": "이미지: s792090161323031610200_0008",
+    "bytes": 270582,
+    "sha256": "645eadfa68df0634d4b74f46e2a1b8878c6e07a58bd0f4a3caa3cfbb5531ea3a",
+    "width": 2133,
+    "height": 3014
+   },
+   {
+    "file": "img/009.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0009.jpg",
+    "flNm": "s792090161323031610200_0009.jpg",
+    "alt": "이미지: s792090161323031610200_0009",
+    "bytes": 303625,
+    "sha256": "d449108793ff4b4462d1cbb498c295d7d087b89f3b090deada4614842820719a",
+    "width": 2370,
+    "height": 3349
+   },
+   {
+    "file": "img/010.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0010.jpg",
+    "flNm": "s792090161323031610200_0010.jpg",
+    "alt": "이미지: s792090161323031610200_0010",
+    "bytes": 277635,
+    "sha256": "b25e5888496a568ae8a78aa56453ffa4a98b8f9ffe9a6cc0064c218ad6a9d47c",
+    "width": 2370,
+    "height": 3349
+   },
+   {
+    "file": "img/011.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0011.jpg",
+    "flNm": "s792090161323031610200_0011.jpg",
+    "alt": "이미지: s792090161323031610200_0011",
+    "bytes": 300935,
+    "sha256": "75c79c486ed9bb5f17e7a603b160669e9e2d914e1a32fff823736ddb03aa4aa3",
+    "width": 2370,
+    "height": 3349
+   },
+   {
+    "file": "img/012.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0012.jpg",
+    "flNm": "s792090161323031610200_0012.jpg",
+    "alt": "이미지: s792090161323031610200_0012",
+    "bytes": 283196,
+    "sha256": "4f31fafce231a2bdd9965e7561f19cd6aa86496b3b2c9a08e873c7677325f5d3",
+    "width": 2133,
+    "height": 3014
+   },
+   {
+    "file": "img/013.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0013.jpg",
+    "flNm": "s792090161323031610200_0013.jpg",
+    "alt": "이미지: s792090161323031610200_0013",
+    "bytes": 274175,
+    "sha256": "4ef9c899d01daf9f3708a3c86c97a3307d284f2a24d0bf46f93629252e319355",
+    "width": 2133,
+    "height": 3014
+   },
+   {
+    "file": "img/014.jpg",
+    "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=9080916&flNm=s792090161323031610200_0014.jpg",
+    "flNm": "s792090161323031610200_0014.jpg",
+    "alt": "이미지: s792090161323031610200_0014",
+    "bytes": 267129,
+    "sha256": "c9f0e90e462b323377fe5cb4974f25162a37b348637dbde9a1ed0064929c5a0f",
+    "width": 2370,
+    "height": 3349
+   }
+  ],
+  "notices": [
+   {
+    "rcept_no": "20260901000145",
+    "rcept_dt": "20260901",
+    "report_nm": "주주총회소집공고",
+    "txt": null
+   },
+   {
+    "rcept_no": "20260513000470",
+    "rcept_dt": "20260513",
+    "report_nm": "주주총회소집공고",
+    "txt": "data/agm_kosdaq_prev/228670_레이/20260513_20260513000470/정관의변경.txt",
+    "output": {
+     "changes_record_date": false,
+     "tag_after": "정관no",
+     "quotes_after": [],
+     "interim_after": "없음",
+     "quarterly_after": "없음",
+     "confidence": "보통",
+     "note": "정관의 변경 안건 발췌가 비어 있다(배당·기준일 키워드가 걸린 곳 없음). 결산배당 기준일 규정을 건드리지 않는 것으로 보아 정관no 유지."
+    },
+    "prompt_sha256": "043998edd8abc16bffa1bb8ea98c3d3af311921224a59f60e5d4a61b6bbb639e"
+   },
+   {
+    "rcept_no": "20260313000066",
+    "rcept_dt": "20260313",
+    "report_nm": "주주총회소집공고",
+    "txt": null
+   },
+   {
+    "rcept_no": "20250307000772",
+    "rcept_dt": "20250307",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "txt": "data/agm_kosdaq_prev/228670_레이/20250307_20250307000772/정관의변경.txt",
+    "output": {
+     "changes_record_date": false,
+     "tag_after": "정관no",
+     "quotes_after": [],
+     "interim_after": "없음",
+     "quarterly_after": "없음",
+     "confidence": "보통",
+     "note": "정관의 변경 안건 발췌가 비어 있다(배당·기준일 키워드가 걸린 곳 없음). 결산배당 기준일 규정을 건드리지 않는 것으로 보아 정관no 유지."
+    },
+    "prompt_sha256": "043998edd8abc16bffa1bb8ea98c3d3af311921224a59f60e5d4a61b6bbb639e"
+   },
+   {
+    "rcept_no": "20241002000278",
+    "rcept_dt": "20241002",
+    "report_nm": "주주총회소집공고",
+    "txt": "data/agm_kosdaq_prev/228670_레이/20241002_20241002000278/정관의변경.txt",
+    "output": {
+     "changes_record_date": false,
+     "tag_after": "정관no",
+     "quotes_after": [],
+     "interim_after": "없음",
+     "quarterly_after": "없음",
+     "confidence": "보통",
+     "note": "정관의 변경 안건 발췌가 비어 있다(배당·기준일 키워드가 걸린 곳 없음). 결산배당 기준일 규정을 건드리지 않는 것으로 보아 정관no 유지."
+    },
+    "prompt_sha256": "043998edd8abc16bffa1bb8ea98c3d3af311921224a59f60e5d4a61b6bbb639e"
+   },
+   {
+    "rcept_no": "20240730000381",
+    "rcept_dt": "20240731",
+    "report_nm": "주주총회소집공고",
+    "txt": null
+   },
+   {
+    "rcept_no": "20240315000219",
+    "rcept_dt": "20240315",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "txt": "data/agm_kosdaq_prev/228670_레이/20240315_20240315000219/정관의변경.txt",
+    "output": {
+     "changes_record_date": false,
+     "tag_after": "정관no",
+     "quotes_after": [],
+     "interim_after": "없음",
+     "quarterly_after": "없음",
+     "confidence": "보통",
+     "note": "정관의 변경 안건 발췌가 비어 있다(배당·기준일 키워드가 걸린 곳 없음). 결산배당 기준일 규정을 건드리지 않는 것으로 보아 정관no 유지."
+    },
+    "prompt_sha256": "043998edd8abc16bffa1bb8ea98c3d3af311921224a59f60e5d4a61b6bbb639e"
+   }
+  ],
+  "output": {
+   "tag": "정관no",
+   "route": "배당조항",
+   "basis_article": "제59조(이익배당) ③",
+   "quotes": [
+    "③ 제1항의 배당은 이사회 결의로 정하는 배당기준일 현재의 주주명부에 기재된 주주 또는 등록된 질권자에게 지급한다.",
+    "<주석> 제17조제1항에 따라 정한 정기주주총회의 기준일과 다른날로 배당기준일을 정할 수 있음.",
+    "① 회사는 의결권을 행사하거나 배당을 받을 자 기타 주주 또는 질권자로서 권리를 행사할 자를 정하기 위하여 이사회 결의로 일정한 기간을 정하여 주주명부의 기재변경을 정지하거나 일정한 날에 주주명부에 기재된 주주 또는 질권자를 그 권리를 행사할 주주 또는 질권자로 볼 수 있다."
+   ],
+   "fixed_point": "",
+   "board_may_set": true,
+   "amend_note": "",
+   "interim": "없음",
+   "quarterly": "없음",
+   "confidence": "높음",
+   "note": "결산배당 조(제59조 ③)가 이사회 결의로 정하는 배당기준일 현재 주주에게 지급한다고 하고 결산기말 고정 문구가 없으며, 제17조 기준일 조도 이사회 결의로 날을 정하게 해 정관no. 중간배당·분기배당 조는 없다(스캔 14쪽 직접 전사본 기준)."
+  },
+  "quotes": [
+   "③ 제1항의 배당은 이사회 결의로 정하는 배당기준일 현재의 주주명부에 기재된 주주 또는 등록된 질권자에게 지급한다.",
+   "<주석> 제17조제1항에 따라 정한 정기주주총회의 기준일과 다른날로 배당기준일을 정할 수 있음.",
+   "① 회사는 의결권을 행사하거나 배당을 받을 자 기타 주주 또는 질권자로서 권리를 행사할 자를 정하기 위하여 이사회 결의로 일정한 기간을 정하여 주주명부의 기재변경을 정지하거나 일정한 날에 주주명부에 기재된 주주 또는 질권자를 그 권리를 행사할 주주 또는 질권자로 볼 수 있다."
+  ],
+  "model": "claude-opus-5-5",
+  "runner": "claude-code-subagent",
+  "prompt_sha256": "f3cf17821a7e9bd23be7774cfeb6370024084e66d252b246cd6537cb80053974",
+  "at": "2026-11-16T23:24:55",
+  "mode": "excerpt"
+ },
+ "362320": {
+  "prev_rcept_no": "20240326000481",
+  "prev_rcept_dt": "20240326",
+  "prev_report_nm": "[기재정정]사업보고서 (2023.12)",
+  "charter_folder": "data/charter_kosdaq_prev/362320_청담글로벌/20240320_9737352",
+  "charter_content_type": "text",
+  "charter_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240320000957&dcmNo=9737352",
+  "charter_att_date": "20240320",
+  "charter_n_images": 0,
+  "charter_fulltext_txt": "data/charter_kosdaq_prev/362320_청담글로벌/20240320_9737352/charter.txt",
+  "images": [],
+  "notices": [
+   {
+    "rcept_no": "20260316000404",
+    "rcept_dt": "20260316",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "txt": "data/agm_kosdaq_prev/362320_청담글로벌/20260316_20260316000404/정관의변경.txt",
+    "output": {
+     "changes_record_date": false,
+     "tag_after": "정관yesorno",
+     "quotes_after": [],
+     "interim_after": "이사회결정",
+     "quarterly_after": "없음",
+     "confidence": "낮음",
+     "note": "입력의 정관의 변경 안건 발췌가 비어 있어 변경 전·후 문구를 볼 수 없으므로 결산배당 기준일 규정이 바뀌지 않는 것으로 보고 원래 태그를 유지했다. 소집공고 원문 확인이 필요하다."
+    },
+    "prompt_sha256": "043998edd8abc16bffa1bb8ea98c3d3af311921224a59f60e5d4a61b6bbb639e"
+   },
+   {
+    "rcept_no": "20250314000513",
+    "rcept_dt": "20250314",
+    "report_nm": "주주총회소집공고",
+    "txt": null
+   }
+  ],
+  "output": {
+   "tag": "정관yesorno",
+   "route": "배당조항→기준일조항 참조",
+   "basis_article": "제53조(이익배당) ③ (→ 제15조(주주명부의 폐쇄 및 기준일) ②)",
+   "quotes": [
+    "③ 제 1항의 배당은 결산기에 관한 정기주주총회에서 권리를 행사할 주주로 하거나 이사회 결의로 정하는 배당기준일 현재의 주주명부에 기재된 주주 또는 등록된 질권자에게 지급한다 .",
+    "② 회사는 매년 12월 31일 최종의 주주명부에 기재되어 있는 주주를 그 결산기에 관한 정기주주총회에서 권리를 행사할 주주로 한다 ."
+   ],
+   "fixed_point": "매년 12월 31일",
+   "board_may_set": true,
+   "amend_note": "",
+   "interim": "이사회결정",
+   "quarterly": "없음",
+   "confidence": "높음",
+   "note": "제53조 ③이 결산배당을 '결산기에 관한 정기주주총회에서 권리를 행사할 주주'(제15조 ②의 매년 12월 31일 최종 주주명부 주주) 또는 '이사회 결의로 정하는 배당기준일' 현재 주주에게 지급한다고 해 고정과 이사회 결정이 함께 살아 있으므로 정관yesorno다. 제15조 ② 단서도 배당받을 자를 이사회 결의로 정한 날의 주주로 볼 수 있게 하며, 중간배당(제54조)은 이사회 결의로 일정날의 주주에게 한다."
+  },
+  "quotes": [
+   "③ 제 1항의 배당은 결산기에 관한 정기주주총회에서 권리를 행사할 주주로 하거나 이사회 결의로 정하는 배당기준일 현재의 주주명부에 기재된 주주 또는 등록된 질권자에게 지급한다 .",
+   "② 회사는 매년 12월 31일 최종의 주주명부에 기재되어 있는 주주를 그 결산기에 관한 정기주주총회에서 권리를 행사할 주주로 한다 ."
+  ],
+  "model": "claude-opus-5-5",
+  "runner": "claude-code-subagent",
+  "prompt_sha256": "f3cf17821a7e9bd23be7774cfeb6370024084e66d252b246cd6537cb80053974",
+  "at": "2026-11-16T23:24:55",
+  "mode": "excerpt"
+ },
+ "067010": {
+  "prev_rcept_no": "20240613000361",
+  "prev_rcept_dt": "20240613",
+  "prev_report_nm": "사업보고서 (2024.03)",
+  "charter_folder": "data/charter_kosdaq_prev/067010_이씨에스/20240613_9986784",
+  "charter_content_type": "text",
+  "charter_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240613000361&dcmNo=9986784",
+  "charter_att_date": "20240613",
+  "charter_n_images": 0,
+  "charter_fulltext_txt": "data/charter_kosdaq_prev/067010_이씨에스/20240613_9986784/charter.txt",
+  "images": [],
+  "notices": [
+   {
+    "rcept_no": "20260604000158",
+    "rcept_dt": "20260604",
+    "report_nm": "주주총회소집공고",
+    "txt": "data/agm_kosdaq_prev/067010_이씨에스/20260604_20260604000158/정관의변경.txt",
+    "output": {
+     "changes_record_date": false,
+     "tag_after": "정관yes",
+     "quotes_after": [],
+     "interim_after": "이사회결정",
+     "quarterly_after": "없음",
+     "confidence": "낮음",
+     "note": "입력의 정관의 변경 안건 발췌가 비어 있어 변경 전·후 문구를 볼 수 없으므로 결산배당 기준일 규정이 바뀌지 않는 것으로 보고 원래 태그를 유지했다. 소집공고 원문 확인이 필요하다."
+    },
+    "prompt_sha256": "043998edd8abc16bffa1bb8ea98c3d3af311921224a59f60e5d4a61b6bbb639e"
+   },
+   {
+    "rcept_no": "20250605000045",
+    "rcept_dt": "20250605",
+    "report_nm": "주주총회소집공고",
+    "txt": null
+   }
+  ],
+  "output": {
+   "tag": "정관yes",
+   "route": "배당조항",
+   "basis_article": "제54조(이익배당) ②",
+   "quotes": [
+    "② 제1항의 배당은 매결산기말 현재의 주주명부에 기재된 주주 또는 등록된 질권자에게 지급한다."
+   ],
+   "fixed_point": "매결산기말",
+   "board_may_set": false,
+   "amend_note": "",
+   "interim": "이사회결정",
+   "quarterly": "없음",
+   "confidence": "높음",
+   "note": "제54조 ②가 결산배당을 매결산기말(3월 결산이므로 3월 31일) 현재 주주에게 지급한다고 고정하고 이사회가 결산배당 기준일을 따로 정할 수 있다는 문구가 없어 정관yes다. 제17조 ③의 이사회 기준일 지정은 임시주주총회 소집 기타 필요한 경우에 관한 것이고, 중간배당(제54조 ④)은 날짜 없이 상법 제462조의3(이사회 결의로 일정한 날)에 따른다."
+  },
+  "quotes": [
+   "② 제1항의 배당은 매결산기말 현재의 주주명부에 기재된 주주 또는 등록된 질권자에게 지급한다."
+  ],
+  "model": "claude-opus-5-5",
+  "runner": "claude-code-subagent",
+  "prompt_sha256": "f3cf17821a7e9bd23be7774cfeb6370024084e66d252b246cd6537cb80053974",
+  "at": "2026-11-16T23:24:55",
+  "mode": "excerpt"
+ }
+}

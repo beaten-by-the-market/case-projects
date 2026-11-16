@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260814003655",
+ "corp_code": "00915508",
+ "corp_name": "스퀘어텍",
+ "stock_code": "148250",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260814",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003655",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 50448,
+ "charter_amend_txt": "data/agm_kosdaq/148250_스퀘어텍/20260814_20260814003655/정관의변경.txt",
+ "main_xml": "20260814003655.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260814003655.xml",
+   "bytes": 224378,
+   "sha256": "2bc633341683b0eea2f4c7c5ef1b0e271fd668389d013cf6a4176587a783e7ea"
+  }
+ ],
+ "folder": "data/agm_kosdaq/148250_스퀘어텍/20260814_20260814003655",
+ "fetched_at": "2026-11-16T19:37:52"
+}

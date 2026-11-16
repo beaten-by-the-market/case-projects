@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260623000157",
+ "corp_code": "01265251",
+ "corp_name": "츌립앤사이언스",
+ "stock_code": "291650",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260623",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000157",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 535,
+ "charter_amend_txt": "data/agm_kosdaq/291650_츌립앤사이언스/20260623_20260623000157/정관의변경.txt",
+ "main_xml": "20260623000157.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260623000157.xml",
+   "bytes": 75145,
+   "sha256": "5fd059a2c4ecdb79ee9a2d8df41272a3a670dc3f251c077f3e59b45647690540"
+  }
+ ],
+ "folder": "data/agm_kosdaq/291650_츌립앤사이언스/20260623_20260623000157",
+ "fetched_at": "2026-11-16T19:35:42"
+}

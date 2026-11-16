@@ -1,0 +1,265 @@
+{
+ "corp_code": "01551042",
+ "corp_name": "애드포러스",
+ "stock_code": "397810",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000938",
+ "dcmNo": "11164598",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000938&dcmNo=11164598",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000938&dcmNo=11164598&eleId=1&offset=593&length=4329&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 24,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_0.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_0.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_0",
+   "bytes": 14632,
+   "sha256": "c6f2995dda6dce65635a546c9528f83bfc65b3b2dea661612d149c5891beaeec",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/002.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_1.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_1.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_1",
+   "bytes": 53887,
+   "sha256": "a360a8645b65bd7744f6574c07aab511ff7f9240debf567eb202e650815a6c15",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/003.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_2.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_2.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_2",
+   "bytes": 74187,
+   "sha256": "0a3b2d209e93c343ff0a062a71c6c94aa0cebf647bbbe1776d1fcd0ce0ea2340",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/004.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_3.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_3.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_3",
+   "bytes": 84420,
+   "sha256": "51c6c54bdf69e8378cf373c132b4ef320647de925a3111ac00494991fff316c3",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/005.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_4.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_4.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_4",
+   "bytes": 105744,
+   "sha256": "75ea1c496ed7910f0c8d4ed689f0177579ab2ff76306c0569230fe0d33b9f291",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/006.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_5.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_5.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_5",
+   "bytes": 97559,
+   "sha256": "08492f4ae2b85eb38b0048ca6fdfe23f57dc7f5316923954d97fec14c2273496",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/007.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_6.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_6.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_6",
+   "bytes": 90135,
+   "sha256": "f1bcd5cf632443a26b5106592b15293aa41d8d32c78b46786efb0d4dd06c6f3f",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/008.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_7.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_7.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_7",
+   "bytes": 99669,
+   "sha256": "1a7bef761e602ef6f9386ec0f5bedc6a088e5804c567108fc399eaeec3e8a9bf",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/009.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_8.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_8.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_8",
+   "bytes": 87469,
+   "sha256": "e855aec666daebbfab75e8435f6336273e073cb25a3a8ef9cb20d05880a817b2",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/010.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_9.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_9.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_9",
+   "bytes": 91217,
+   "sha256": "da381306af61a6830337005bda2f6c4e46192a6ac937e6c1b19bf9d53626991c",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/011.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_10.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_10.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_10",
+   "bytes": 91513,
+   "sha256": "b9b7c629e2984436304aeaabe187507d30edd07eacf784b2de4855372f612e77",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/012.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_11.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_11.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_11",
+   "bytes": 68246,
+   "sha256": "aaaa441427318f400fc84ca9d93bcd028da2c3511f6106c446edba8332120a3e",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/013.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_12.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_12.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_12",
+   "bytes": 92719,
+   "sha256": "f8b270a16196edb1537dd72a5f39626cede3f5196582b2506acc46884e3247db",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/014.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_13.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_13.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_13",
+   "bytes": 61637,
+   "sha256": "f4b1e36e0f65c693a607bf5d0b39e3aa751767f6c19f0501e82ec697b91d1354",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/015.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_14.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_14.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_14",
+   "bytes": 71071,
+   "sha256": "d368dffd5e7ab01706eef5acdbbdba651cb3f279227af836d7273f57ca4fa948",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/016.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_15.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_15.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_15",
+   "bytes": 64595,
+   "sha256": "d7b6e5b7c6b9062e85bf77d2070b12e974abe0808835d0f7323c6916e644fe91",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/017.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_16.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_16.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_16",
+   "bytes": 83834,
+   "sha256": "f88b598c9eb33442aa479ba83d1b6d19e5611cf7c0b780cadaca012186a2f946",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/018.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_17.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_17.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_17",
+   "bytes": 71673,
+   "sha256": "06683a1e5af18db82c723a87c1b65005eef3c403f18aa37a954cea149298cd74",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/019.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_18.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_18.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_18",
+   "bytes": 83817,
+   "sha256": "3312146872b49ca59c45bce6691f181906831734914c655f8e7d749a209f5b2a",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/020.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_19.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_19.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_19",
+   "bytes": 77120,
+   "sha256": "60fa0d0f3913efee581df20273771f595657c04999fb2ef56cb985ea32c63fef",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/021.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_20.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_20.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_20",
+   "bytes": 79888,
+   "sha256": "d963ecd43f3aa3c2d9a786d5f945ac1fe1e1db7b7f24e2a0761b5cbab215e552",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/022.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_21.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_21.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_21",
+   "bytes": 65706,
+   "sha256": "448772bdd6a1d6f0e06be55530103c1a0d203ca94da41a20e298059f378ad0de",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/023.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_22.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_22.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_22",
+   "bytes": 74385,
+   "sha256": "660ff9ef4b80e2814f9c6b678045b24ac21d3695c850b69e4f1fbc3f61f7da86",
+   "width": 595,
+   "height": 841
+  },
+  {
+   "file": "img/024.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164598&flNm=%28%EC%A3%BC%29%EC%95%A0%EB%93%9C%ED%8F%AC%EB%9F%AC%EC%8A%A4_%EC%A0%95%EA%B4%80_20230131_23.jpeg",
+   "flNm": "(주)애드포러스_정관_20230131_23.jpeg",
+   "alt": "이미지: (주)애드포러스_정관_20230131_23",
+   "bytes": 32719,
+   "sha256": "ec799f243b7f836ade8c86b1acebfcf28249b0ca88ef18c5045c5c1f05d994b9",
+   "width": 595,
+   "height": 841
+  }
+ ],
+ "folder": "data/charter_kosdaq/397810_애드포러스/20260323_11164598",
+ "fetched_at": "2026-11-16T21:47:45",
+ "used_by_rcept_no": [
+  "20260323000938"
+ ]
+}

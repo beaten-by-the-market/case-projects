@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261106000053",
+ "corp_code": "01546101",
+ "corp_name": "아이엠티",
+ "stock_code": "451220",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261106",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000053",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 209,
+ "charter_amend_txt": "data/agm_kosdaq/451220_아이엠티/20261106_20261106000053/정관의변경.txt",
+ "main_xml": "20261106000053.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261106000053.xml",
+   "bytes": 39517,
+   "sha256": "f9730fa23c2618793a2758e3d443ebb633f5a9d2ca760ed352a6ffd8c1c4e56d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/451220_아이엠티/20261106_20261106000053",
+ "fetched_at": "2026-11-16T19:40:33"
+}

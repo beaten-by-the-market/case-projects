@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260324000301",
+ "corp_code": "00815095",
+ "corp_name": "우리이앤엘하루틴",
+ "stock_code": "153490",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260324",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000301",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2925,
+ "charter_amend_txt": "data/agm_kosdaq/153490_우리이앤엘하루틴/20260324_20260324000301/정관의변경.txt",
+ "main_xml": "20260324000301.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260324000301.xml",
+   "bytes": 568182,
+   "sha256": "855cbecf439271db65c355af6d4c5f5cabf1a0bb66f9d3782686c3c132a0bad3"
+  }
+ ],
+ "folder": "data/agm_kosdaq/153490_우리이앤엘하루틴/20260324_20260324000301",
+ "fetched_at": "2026-11-16T19:33:16"
+}

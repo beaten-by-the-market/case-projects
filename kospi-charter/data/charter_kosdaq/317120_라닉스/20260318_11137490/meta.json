@@ -1,0 +1,37 @@
+{
+ "corp_code": "01327092",
+ "corp_name": "라닉스",
+ "stock_code": "317120",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000717",
+ "dcmNo": "11137490",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000717&dcmNo=11137490",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000717&dcmNo=11137490&eleId=1&offset=591&length=288&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 10,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/317120_라닉스/20260318_11137490",
+ "fetched_at": "2026-11-16T21:31:51",
+ "used_by_rcept_no": [
+  "20260318000717"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137490&flNm=%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "정관.pdf",
+   "bytes": 610108,
+   "sha256": "0b5e11f15847e2f8957977ac8a6d7209e7116a604e34c1200874afad237edc50",
+   "pages": 16,
+   "text_pages": 15,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "01152586",
+ "corp_name": "유일로보틱스",
+ "stock_code": "388720",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000929",
+ "dcmNo": "11138892",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000929&dcmNo=11138892",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000929&dcmNo=11138892&eleId=1&offset=597&length=33485&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14558,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/388720_유일로보틱스/20260318_11138892",
+ "fetched_at": "2026-11-16T21:45:24",
+ "used_by_rcept_no": [
+  "20260318000929"
+ ]
+}

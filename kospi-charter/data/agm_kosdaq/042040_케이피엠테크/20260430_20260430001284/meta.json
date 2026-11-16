@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260430001284",
+ "corp_code": "00206686",
+ "corp_name": "케이피엠테크",
+ "stock_code": "042040",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260430",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001284",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260430001284.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260430001284.xml",
+   "bytes": 46719,
+   "sha256": "4b0f3450ec1d874adc34fdb1363d80942b9273cf24a0b18c8d01012027e91660"
+  }
+ ],
+ "folder": "data/agm_kosdaq/042040_케이피엠테크/20260430_20260430001284",
+ "fetched_at": "2026-11-16T19:33:49"
+}

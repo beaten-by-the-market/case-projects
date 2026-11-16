@@ -1,0 +1,24 @@
+{
+ "corp_code": "01370517",
+ "corp_name": "스트라드비젼",
+ "stock_code": "475040",
+ "att_title": "2026.03.31 정관",
+ "att_date": "20260331",
+ "rcpNo": "20260331003309",
+ "dcmNo": "11209704",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331003309&dcmNo=11209704",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260331003309&dcmNo=11209704&eleId=1&offset=599&length=52911&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 27100,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/475040_스트라드비젼/20260331_11209704",
+ "fetched_at": "2026-11-16T22:01:16",
+ "used_by_rcept_no": [
+  "20260331003309"
+ ]
+}

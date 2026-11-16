@@ -1,0 +1,24 @@
+{
+ "corp_code": "01877126",
+ "corp_name": "키움제10호스팩",
+ "stock_code": "487720",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311003154",
+ "dcmNo": "11106129",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003154&dcmNo=11106129",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311003154&dcmNo=11106129&eleId=1&offset=603&length=24570&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11029,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/487720_키움제10호스팩/20260311_11106129",
+ "fetched_at": "2026-11-16T22:06:07",
+ "used_by_rcept_no": [
+  "20260311003154"
+ ]
+}

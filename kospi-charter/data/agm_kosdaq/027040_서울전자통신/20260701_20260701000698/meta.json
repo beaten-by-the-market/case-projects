@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260701000698",
+ "corp_code": "00130587",
+ "corp_name": "서울전자통신",
+ "stock_code": "027040",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260701",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000698",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2756,
+ "charter_amend_txt": "data/agm_kosdaq/027040_서울전자통신/20260701_20260701000698/정관의변경.txt",
+ "main_xml": "20260701000698.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260701000698.xml",
+   "bytes": 103486,
+   "sha256": "f7a0ba91ce2858f56cbd519f853540e6a3364dcbe4a0c244240f58fda0637bc1"
+  }
+ ],
+ "folder": "data/agm_kosdaq/027040_서울전자통신/20260701_20260701000698",
+ "fetched_at": "2026-11-16T19:36:24"
+}

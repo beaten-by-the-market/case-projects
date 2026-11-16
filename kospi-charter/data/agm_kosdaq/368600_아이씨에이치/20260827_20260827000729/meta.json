@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260827000729",
+ "corp_code": "01302853",
+ "corp_name": "아이씨에이치",
+ "stock_code": "368600",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260827",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827000729",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2982,
+ "charter_amend_txt": "data/agm_kosdaq/368600_아이씨에이치/20260827_20260827000729/정관의변경.txt",
+ "main_xml": "20260827000729.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260827000729.xml",
+   "bytes": 82015,
+   "sha256": "672313f9e6642593c58fb99e7bc9aedd7fd0cddef906682160e64fb1e9b3ae4d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/368600_아이씨에이치/20260827_20260827000729",
+ "fetched_at": "2026-11-16T19:38:24"
+}

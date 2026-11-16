@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260630000904",
+ "corp_code": "00230814",
+ "corp_name": "휴림에이텍",
+ "stock_code": "078590",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260630",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000904",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 671,
+ "charter_amend_txt": "data/agm_kosdaq/078590_휴림에이텍/20260630_20260630000904/정관의변경.txt",
+ "main_xml": "20260630000904.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260630000904.xml",
+   "bytes": 35635,
+   "sha256": "669f2b98818eb6317f34692d345a88de3d1f5d4d4f59d54e066d42e8905b6f33"
+  }
+ ],
+ "folder": "data/agm_kosdaq/078590_휴림에이텍/20260630_20260630000904",
+ "fetched_at": "2026-11-16T19:36:18"
+}

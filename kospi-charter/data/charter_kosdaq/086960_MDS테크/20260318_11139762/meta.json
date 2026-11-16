@@ -1,0 +1,38 @@
+{
+ "corp_code": "00445841",
+ "corp_name": "MDS테크",
+ "stock_code": "086960",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001050",
+ "dcmNo": "11139762",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001050&dcmNo=11139762",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001050&dcmNo=11139762&eleId=1&offset=596&length=24713&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14844,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/086960_MDS테크/20260318_11139762",
+ "fetched_at": "2026-11-16T20:41:12",
+ "used_by_rcept_no": [
+  "20260318001050"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139762&flNm=%5Bmds%ED%85%8C%ED%81%AC%5D+%EC%A0%95%EA%B4%80%28240328+%EA%B0%9C%EC%A0%95%29.pdf",
+   "flNm": "[mds테크] 정관(240328 개정).pdf",
+   "bytes": 237684,
+   "sha256": "89460d04ae8dddf9618a0f3396e341867536afeacf5068264de5041b33cb5cf2",
+   "pages": 18,
+   "text_pages": 17,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1,
+ "content_type_note": "본문 텍스트(공백 제외 14844자)와 같은 정관의 PDF 링크가 함께 있다 — R5-5 로 text. s04c 가 PDF 링크만 보고 pdf 로 바꾼 것을 되돌렸다(2026-11-16). PDF 글은 charter_pdf.txt"
+}

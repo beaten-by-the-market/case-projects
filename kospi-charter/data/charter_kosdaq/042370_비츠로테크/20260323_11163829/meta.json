@@ -1,0 +1,24 @@
+{
+ "corp_code": "00103644",
+ "corp_name": "비츠로테크",
+ "stock_code": "042370",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000806",
+ "dcmNo": "11163829",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000806&dcmNo=11163829",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000806&dcmNo=11163829&eleId=1&offset=593&length=24834&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13079,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/042370_비츠로테크/20260323_11163829",
+ "fetched_at": "2026-11-16T20:11:39",
+ "used_by_rcept_no": [
+  "20260323000806"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260710000308",
+ "corp_code": "01305869",
+ "corp_name": "세니젠",
+ "stock_code": "188260",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260710",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000308",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 518,
+ "charter_amend_txt": "data/agm_kosdaq/188260_세니젠/20260710_20260710000308/정관의변경.txt",
+ "main_xml": "20260710000308.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260710000308.xml",
+   "bytes": 108153,
+   "sha256": "8e51708810e8898af6fba91f43e780b33e935c7bd538c1b0c6a60ee33485b523"
+  }
+ ],
+ "folder": "data/agm_kosdaq/188260_세니젠/20260710_20260710000308",
+ "fetched_at": "2026-11-16T19:36:36"
+}

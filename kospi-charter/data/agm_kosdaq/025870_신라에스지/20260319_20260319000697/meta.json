@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260319000697",
+ "corp_code": "00136004",
+ "corp_name": "신라에스지",
+ "stock_code": "025870",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000697",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260319000697.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260319000697.xml",
+   "bytes": 1101372,
+   "sha256": "39d5549682a133296e8a7c0c4f8dee91ab209a3de9d66363e62cbd6c67bb3a82"
+  }
+ ],
+ "folder": "data/agm_kosdaq/025870_신라에스지/20260319_20260319000697",
+ "fetched_at": "2026-11-16T19:32:37"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261013000233",
+ "corp_code": "00156956",
+ "corp_name": "한국기업평가",
+ "stock_code": "034950",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261013",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000233",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261013000233.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261013000233.xml",
+   "bytes": 48021,
+   "sha256": "895a73b87653703e2d016aaf72b68c28a344f88ae76b235dd175cc9cc9fbae30"
+  }
+ ],
+ "folder": "data/agm_kosdaq/034950_한국기업평가/20261013_20261013000233",
+ "fetched_at": "2026-11-16T19:39:39"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "01835829",
+ "corp_name": "바로팜",
+ "stock_code": "0153R0",
+ "att_title": "2026.09.08 정관",
+ "att_date": "20260908",
+ "rcpNo": "20260908000417",
+ "dcmNo": "11571256",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000417&dcmNo=11571256",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260908000417&dcmNo=11571256&eleId=1&offset=594&length=28412&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15986,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_absent/0153R0_바로팜/20260908_11571256",
+ "fetched_at": "2026-11-17T00:50:04",
+ "used_by_stock_code": [
+  "0153R0"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00125822",
+ "corp_name": "삼보산업",
+ "stock_code": "009620",
+ "att_title": "2026.04.07 정관",
+ "att_date": "20260407",
+ "rcpNo": "20260407003361",
+ "dcmNo": "11278916",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407003361&dcmNo=11278916",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260407003361&dcmNo=11278916&eleId=1&offset=592&length=15560&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 8541,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/009620_삼보산업/20260407_11278916",
+ "fetched_at": "2026-11-16T19:49:17",
+ "used_by_rcept_no": [
+  "20260407003361"
+ ]
+}

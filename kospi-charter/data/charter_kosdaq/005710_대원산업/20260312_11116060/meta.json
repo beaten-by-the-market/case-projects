@@ -1,0 +1,24 @@
+{
+ "corp_code": "00111874",
+ "corp_name": "대원산업",
+ "stock_code": "005710",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312001127",
+ "dcmNo": "11116060",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001127&dcmNo=11116060",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001127&dcmNo=11116060&eleId=1&offset=595&length=19977&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 7676,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/005710_대원산업/20260312_11116060",
+ "fetched_at": "2026-11-16T19:45:26",
+ "used_by_rcept_no": [
+  "20260312001127"
+ ]
+}

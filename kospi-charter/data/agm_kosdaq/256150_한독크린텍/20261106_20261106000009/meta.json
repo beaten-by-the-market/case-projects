@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261106000009",
+ "corp_code": "01069736",
+ "corp_name": "한독크린텍",
+ "stock_code": "256150",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261106",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000009",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 561,
+ "charter_amend_txt": "data/agm_kosdaq/256150_한독크린텍/20261106_20261106000009/정관의변경.txt",
+ "main_xml": "20261106000009.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261106000009.xml",
+   "bytes": 148251,
+   "sha256": "834b2604edc8ec0b991d55ccef4148c9d9510f1cc0417178baece31f8ada05de"
+  }
+ ],
+ "folder": "data/agm_kosdaq/256150_한독크린텍/20261106_20261106000009",
+ "fetched_at": "2026-11-16T19:40:33"
+}

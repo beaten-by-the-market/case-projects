@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260811000292",
+ "corp_code": "01073261",
+ "corp_name": "동방메디컬",
+ "stock_code": "240550",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260811",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000292",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 646,
+ "charter_amend_txt": "data/agm_kosdaq/240550_동방메디컬/20260811_20260811000292/정관의변경.txt",
+ "main_xml": "20260811000292.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260811000292.xml",
+   "bytes": 78328,
+   "sha256": "83264019365e478ec6c05b3f2471a662d0917e4634adfb2e4a549468f17f554a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/240550_동방메디컬/20260811_20260811000292",
+ "fetched_at": "2026-11-16T19:37:40"
+}

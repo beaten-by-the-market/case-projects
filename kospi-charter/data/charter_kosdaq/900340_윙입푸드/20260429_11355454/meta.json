@@ -1,0 +1,45 @@
+{
+ "corp_code": "01328639",
+ "corp_name": "윙입푸드",
+ "stock_code": "900340",
+ "att_title": "2026.04.29 정관",
+ "att_date": "20260429",
+ "rcpNo": "20260429001131",
+ "dcmNo": "11355454",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429001131&dcmNo=11355454",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260429001131&dcmNo=11355454&eleId=1&offset=595&length=110981&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "mixed",
+ "text_chars": 60108,
+ "n_images": 2,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11355454&flNm=%EA%B4%91%EB%8F%99%EC%98%81%EC%97%85%EC%8B%9D%ED%92%88+%EC%A0%95%EA%B4%80.jpg",
+   "flNm": "광동영업식품 정관.jpg",
+   "alt": "이미지: 광동영업식품 정관",
+   "bytes": 133729,
+   "sha256": "81f24e4545a60969312b3c5a20bd1d4fbc87ad7261b3b4b19b04f2b322d6de48",
+   "width": 938,
+   "height": 1272
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11355454&flNm=%EC%A0%95%EA%B4%80+%EC%A0%9C3%EC%9E%A5+%ED%9A%8C%EC%82%AC%EA%B2%BD%EC%98%81%EB%B2%94%EC%9C%84%28%EB%B3%80%EA%B2%BD%ED%9B%84%29.jpg",
+   "flNm": "정관 제3장 회사경영범위(변경후).jpg",
+   "alt": "이미지: 정관 제3장 회사경영범위(변경후)",
+   "bytes": 74384,
+   "sha256": "9ccd3dce2738f78b17af80f1a27615f9bfaf615a82f637a3746e897b8cecc6d0",
+   "width": 920,
+   "height": 1313
+  }
+ ],
+ "folder": "data/charter_kosdaq/900340_윙입푸드/20260429_11355454",
+ "fetched_at": "2026-11-16T22:10:44",
+ "used_by_rcept_no": [
+  "20260429001131"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "corp_code": "01803635",
+ "corp_name": "에스투더블유",
+ "stock_code": "488280",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001533",
+ "dcmNo": "11143553",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001533&dcmNo=11143553",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001533&dcmNo=11143553&eleId=1&offset=599&length=29708&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "mixed",
+ "text_chars": 13192,
+ "n_images": 1,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143553&flNm=s2w_%EC%A0%95%EA%B4%80.jpg",
+   "flNm": "s2w_정관.jpg",
+   "alt": "이미지: s2w_정관",
+   "bytes": 57596,
+   "sha256": "a12272876c203057208bf20f4cbcc7e310ba46d4d6523a5976354a01af9fe79c",
+   "width": 599,
+   "height": 851
+  }
+ ],
+ "folder": "data/charter_kosdaq/488280_에스투더블유/20260318_11143553",
+ "fetched_at": "2026-11-16T22:06:24",
+ "used_by_rcept_no": [
+  "20260318001533"
+ ]
+}

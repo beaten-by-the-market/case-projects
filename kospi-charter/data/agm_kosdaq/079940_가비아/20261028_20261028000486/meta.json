@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261028000486",
+ "corp_code": "00506294",
+ "corp_name": "가비아",
+ "stock_code": "079940",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261028",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000486",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 415,
+ "charter_amend_txt": "data/agm_kosdaq/079940_가비아/20261028_20261028000486/정관의변경.txt",
+ "main_xml": "20261028000486.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261028000486.xml",
+   "bytes": 98825,
+   "sha256": "67c717b60dc2c1025f83f8dc9c49120c0ddcea9c72ac6485ce6f2c03f3ba3e9e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/079940_가비아/20261028_20261028000486",
+ "fetched_at": "2026-11-16T19:40:22"
+}

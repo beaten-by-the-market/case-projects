@@ -1,0 +1,37 @@
+{
+ "corp_code": "00788737",
+ "corp_name": "이퓨쳐",
+ "stock_code": "134060",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000488",
+ "dcmNo": "11136110",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000488&dcmNo=11136110",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000488&dcmNo=11136110&eleId=1&offset=594&length=288&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 10,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/134060_이퓨쳐/20260318_11136110",
+ "fetched_at": "2026-11-16T20:56:13",
+ "used_by_rcept_no": [
+  "20260318000488"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136110&flNm=%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "정관.pdf",
+   "bytes": 190271,
+   "sha256": "fc636fd4709c607b744afcaf4f7bb7eaf2dbda9a2e28516941f6b48736ebcfad",
+   "pages": 15,
+   "text_pages": 14,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

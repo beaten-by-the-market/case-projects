@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260325000907",
+ "corp_code": "00577335",
+ "corp_name": "대성하이텍",
+ "stock_code": "129920",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260325",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260325000907",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3278,
+ "charter_amend_txt": "data/agm_kosdaq/129920_대성하이텍/20260325_20260325000907/정관의변경.txt",
+ "main_xml": "20260325000907.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260325000907.xml",
+   "bytes": 214840,
+   "sha256": "b07dea322a9f2e668d5a434b81c473536f0836b91f1b9422f1fa84ecd5df65f6"
+  }
+ ],
+ "folder": "data/agm_kosdaq/129920_대성하이텍/20260325_20260325000907",
+ "fetched_at": "2026-11-16T19:33:22"
+}

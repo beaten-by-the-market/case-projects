@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260409001550",
+ "corp_code": "01283974",
+ "corp_name": "삐아",
+ "stock_code": "451250",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260409",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260409001550",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260409001550.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260409001550.xml",
+   "bytes": 41639,
+   "sha256": "561d6d72c75f0e29ce5b0c634a52bc4db50ae9b150f50b9f9a52993f1c54a44b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/451250_삐아/20260409_20260409001550",
+ "fetched_at": "2026-11-16T19:33:28"
+}

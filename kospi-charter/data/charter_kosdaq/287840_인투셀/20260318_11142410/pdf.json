@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142410&flNm=%EC%9D%B8%ED%88%AC%EC%85%80+%EC%A0%95%EA%B4%80_20250326.pdf",
+   "flNm": "인투셀 정관_20250326.pdf",
+   "bytes": 294636,
+   "sha256": "8f4bd766e9d0dfc3118f19646ffeaa85d16e95eed335f9f7b4d6559db99a6984",
+   "pages": 20,
+   "text_pages": 19,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 22242,
+ "pages": 20,
+ "text_pages": 19,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T22:14:36",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

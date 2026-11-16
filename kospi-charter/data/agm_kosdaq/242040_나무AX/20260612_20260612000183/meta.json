@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260612000183",
+ "corp_code": "01136348",
+ "corp_name": "나무AX",
+ "stock_code": "242040",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260612",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612000183",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3326,
+ "charter_amend_txt": "data/agm_kosdaq/242040_나무AX/20260612_20260612000183/정관의변경.txt",
+ "main_xml": "20260612000183.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260612000183.xml",
+   "bytes": 71639,
+   "sha256": "a28e486d9c0d72b58c7a2ef462dbc28fa0d686ad5fcd06abce49ab6612dff389"
+  }
+ ],
+ "folder": "data/agm_kosdaq/242040_나무AX/20260612_20260612000183",
+ "fetched_at": "2026-11-16T19:35:21"
+}

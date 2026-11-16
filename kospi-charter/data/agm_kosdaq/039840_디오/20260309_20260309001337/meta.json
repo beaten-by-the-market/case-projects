@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260309001337",
+ "corp_code": "00115931",
+ "corp_name": "디오",
+ "stock_code": "039840",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260309",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001337",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2414,
+ "charter_amend_txt": "data/agm_kosdaq/039840_디오/20260309_20260309001337/정관의변경.txt",
+ "main_xml": "20260309001337.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260309001337.xml",
+   "bytes": 1068965,
+   "sha256": "1c73a22918bc21d5442ae5a1e19892f6cb85046f13a54b229debba505e20c6cd"
+  }
+ ],
+ "folder": "data/agm_kosdaq/039840_디오/20260309_20260309001337",
+ "fetched_at": "2026-11-16T19:32:13"
+}

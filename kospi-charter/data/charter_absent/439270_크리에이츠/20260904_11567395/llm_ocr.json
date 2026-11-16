@@ -1,0 +1,28 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "546bc14471a27690",
+ "image": {
+  "long_edge": 2576,
+  "max_pixels": 3600000,
+  "gray": true,
+  "jpeg_quality": 85
+ },
+ "pages": [
+  {
+   "custom_id": "a6a4a5c986c26",
+   "file": "img/001.jpg",
+   "page": null,
+   "sha256": "ca067afe4c2da792e9e04d3ba0406de6804847840f856480b85a82f449ef3c93",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": null,
+   "output_tokens": null,
+   "chars": 23,
+   "batch": "agent"
+  }
+ ],
+ "total_chars": 23,
+ "n_errors": 0,
+ "created_at": "2026-11-17T01:21:07"
+}

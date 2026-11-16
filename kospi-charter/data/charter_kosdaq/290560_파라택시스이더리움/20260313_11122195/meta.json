@@ -1,0 +1,24 @@
+{
+ "corp_code": "01130849",
+ "corp_name": "파라택시스이더리움",
+ "stock_code": "290560",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313001246",
+ "dcmNo": "11122195",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001246&dcmNo=11122195",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313001246&dcmNo=11122195&eleId=1&offset=597&length=24913&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12351,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/290560_파라택시스이더리움/20260313_11122195",
+ "fetched_at": "2026-11-16T21:25:29",
+ "used_by_rcept_no": [
+  "20260324000582"
+ ]
+}

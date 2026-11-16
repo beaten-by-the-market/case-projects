@@ -1,0 +1,24 @@
+{
+ "corp_code": "00990819",
+ "corp_name": "아티스트스튜디오",
+ "stock_code": "200350",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000260",
+ "dcmNo": "11146481",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000260&dcmNo=11146481",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000260&dcmNo=11146481&eleId=1&offset=599&length=18950&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11667,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/200350_아티스트스튜디오/20260319_11146481",
+ "fetched_at": "2026-11-16T21:08:09",
+ "used_by_rcept_no": [
+  "20260319000260"
+ ]
+}

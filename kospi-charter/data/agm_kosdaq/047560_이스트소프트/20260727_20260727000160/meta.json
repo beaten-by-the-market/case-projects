@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260727000160",
+ "corp_code": "00273420",
+ "corp_name": "이스트소프트",
+ "stock_code": "047560",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260727",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000160",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260727000160.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260727000160.xml",
+   "bytes": 120432,
+   "sha256": "df2a44180aa71eebefc552dfb5fe5876e1da0e6299a1610ae68b2ffd75750d83"
+  }
+ ],
+ "folder": "data/agm_kosdaq/047560_이스트소프트/20260727_20260727000160",
+ "fetched_at": "2026-11-16T19:37:18"
+}

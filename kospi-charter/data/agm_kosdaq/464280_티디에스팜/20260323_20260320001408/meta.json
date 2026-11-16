@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260320001408",
+ "corp_code": "01232192",
+ "corp_name": "티디에스팜",
+ "stock_code": "464280",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001408",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 510,
+ "charter_amend_txt": "data/agm_kosdaq/464280_티디에스팜/20260323_20260320001408/정관의변경.txt",
+ "main_xml": "20260320001408.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260320001408.xml",
+   "bytes": 129754,
+   "sha256": "d6353d95186232fe46760f1b2fb7db126311584d3e2f1c34a233d573cbfa01a2"
+  }
+ ],
+ "folder": "data/agm_kosdaq/464280_티디에스팜/20260323_20260320001408",
+ "fetched_at": "2026-11-16T19:32:47"
+}

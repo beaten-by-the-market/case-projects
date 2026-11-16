@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260930000444",
+ "corp_code": "01405390",
+ "corp_name": "핌스",
+ "stock_code": "347770",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260930",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000444",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1529,
+ "charter_amend_txt": "data/agm_kosdaq/347770_핌스/20260930_20260930000444/정관의변경.txt",
+ "main_xml": "20260930000444.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260930000444.xml",
+   "bytes": 57045,
+   "sha256": "089d3912cc752d76a72770230b0d7fa1926bf926021befdce7a90dc159f4848c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/347770_핌스/20260930_20260930000444",
+ "fetched_at": "2026-11-16T19:39:29"
+}

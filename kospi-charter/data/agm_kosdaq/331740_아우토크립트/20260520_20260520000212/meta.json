@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260520000212",
+ "corp_code": "01649620",
+ "corp_name": "아우토크립트",
+ "stock_code": "331740",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260520",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260520000212",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1648,
+ "charter_amend_txt": "data/agm_kosdaq/331740_아우토크립트/20260520_20260520000212/정관의변경.txt",
+ "main_xml": "20260520000212.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260520000212.xml",
+   "bytes": 63639,
+   "sha256": "b4de826752e61977f4cdb704088820d7526b1c97af581f96b6602c1686c2f64f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/331740_아우토크립트/20260520_20260520000212",
+ "fetched_at": "2026-11-16T19:34:32"
+}

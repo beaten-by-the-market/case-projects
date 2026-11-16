@@ -1,0 +1,24 @@
+{
+ "corp_code": "01137295",
+ "corp_name": "프리시젼바이오",
+ "stock_code": "335810",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000631",
+ "dcmNo": "11132526",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000631&dcmNo=11132526",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000631&dcmNo=11132526&eleId=1&offset=595&length=19545&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10987,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/335810_프리시젼바이오/20260317_11132526",
+ "fetched_at": "2026-11-16T21:34:45",
+ "used_by_rcept_no": [
+  "20260317000631"
+ ]
+}

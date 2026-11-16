@@ -1,0 +1,463 @@
+{
+ "corp_code": "02042949",
+ "corp_name": "한화머시너리앤서비스홀딩스",
+ "stock_code": "0220W0",
+ "att_title": "2026.05.14 [정정] 계약서(계획서)",
+ "att_date": "20260514",
+ "rcpNo": "20260514000430",
+ "dcmNo": "11377947",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514000430&dcmNo=11377947",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260514000430&dcmNo=11377947&eleId=1&offset=616&length=62258&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260514000430&dcmNo=11377947&eleId=2&offset=62904&length=8468&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "mixed",
+ "text_chars": 13808,
+ "n_images": 44,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page1.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page1.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page1",
+   "bytes": 59519,
+   "sha256": "11ef2612c8421aae486a564eecf3915bb9b01dc7be0e764cb44b67c27972b481",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page2.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page2.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page2",
+   "bytes": 245615,
+   "sha256": "83ec2fe512b3a6ab4cedc0009d919fdbeac451eab805b8227936fe2f761acaa1",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page3.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page3.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page3",
+   "bytes": 270062,
+   "sha256": "ca2af071232d8ddcac24e040ca1545203a2abdc1c49e0281e193e4b809ce1301",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page4.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page4.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page4",
+   "bytes": 289751,
+   "sha256": "2cbbfcbcd34d2bb92a3bc5e9318674984a9af45a85ddf817e20a660798579c62",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page5.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page5.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page5",
+   "bytes": 285582,
+   "sha256": "0af8d57ee172c7917410c20ea72f4ff0fb76fb2bbe86c6477a0258a79ffcca73",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page6.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page6.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page6",
+   "bytes": 227078,
+   "sha256": "3104a4170f5ee7579cf2fcd73db263b1b5ffb1ae10a31e658b281c227f77385c",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page7.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page7.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page7",
+   "bytes": 234663,
+   "sha256": "89c5a56a310f214e756ae564c6cd19913e3dc43962e2ec0c52f309476771696d",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page8.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page8.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page8",
+   "bytes": 198042,
+   "sha256": "e6211d05fd1035e5a99c2ee45dd7f801a97011b5b5ed5d2e9f2c2d8566785c0c",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page9.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page9.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page9",
+   "bytes": 221380,
+   "sha256": "5416deec89beca47e7dc38e4a4ad69dbe2beff60a0ef509071cf3db33b0bf4fd",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page10.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page10.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page10",
+   "bytes": 223794,
+   "sha256": "9ea0c7e3ba2a02211fe2182d1e036fa9a37a1ef89baead9d377db5f4567b82ef",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page11.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page11.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page11",
+   "bytes": 302077,
+   "sha256": "fae918f8c5305f9ec36e90c07e5b320271731ef8db1d6ee1e0b12b94b04c083c",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page12.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page12.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page12",
+   "bytes": 228615,
+   "sha256": "66694c9c22e62d4d83f05ab463c222d02b848926f388cc0ed71d1982318005a0",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page13.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page13.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page13",
+   "bytes": 189156,
+   "sha256": "81c21829d98d705ddf17c6a2ecb1d767960358a79fa79327be031906a696e858",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page14.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page14.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page14",
+   "bytes": 209355,
+   "sha256": "514abd5d880a52159ef31c988357346793b2e37a16cebc5af466e6023d1506ba",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page15.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page15.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page15",
+   "bytes": 220045,
+   "sha256": "ecbd1c328f53dda5ceae835cb05af8bed717c9012cc14fb784fb267c9d9b765e",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page16.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page16.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page16",
+   "bytes": 210559,
+   "sha256": "f4a31caa5f71b6d28d2687c99c2c9a390be8a48c1f85a54501ab88afe1ed3de2",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page17.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page17.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page17",
+   "bytes": 231870,
+   "sha256": "ad8f38f26e3891206d5984e4533cf928a54a7d1b243465b625ab3e8e239c6acf",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page18.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page18.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page18",
+   "bytes": 220031,
+   "sha256": "6e70b46b66574d2d86cdc9f06655f32af3c10377887bb505b23bb6ad8309d47d",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page19.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page19.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page19",
+   "bytes": 108359,
+   "sha256": "5192286c5092a65920b50873d09163c65632d1cd6b305ec83021f3c7daeff923",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page20.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page20.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page20",
+   "bytes": 76870,
+   "sha256": "86edc74fd616efee7a84cef0b42ee69146d48ace2d07211cb41d9a17f421810f",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page21.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page21.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page21",
+   "bytes": 279034,
+   "sha256": "22c7eb58ce1d81929b838077d81c704efb5f99ee1bee0edbf5391101d1df3e90",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page22.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page22.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page22",
+   "bytes": 189169,
+   "sha256": "743e0839265ed7808dba997462cdffd3839c56e67c8df46edbca9cc910bb2625",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page23.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page23.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page23",
+   "bytes": 182118,
+   "sha256": "a8b86ecb31a5d15d7750bb0a2f79687151525e2f77d8a8906582ddcdfb6513f4",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/024.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page24.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page24.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page24",
+   "bytes": 173135,
+   "sha256": "1ab4c8fd34c4d2c404a796ae9b904e855f8261d54db27a4ca1d42c8ac5e1b84a",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/025.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page25.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page25.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page25",
+   "bytes": 237533,
+   "sha256": "8d1b1cd8b6c49a4cfbbbfd913b9d2791cc625cabe9e41de296de137e3cc31900",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/026.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page26.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page26.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page26",
+   "bytes": 275390,
+   "sha256": "c6dd1d4ff72ba63f0758ade1ebe363f4c0073606cc6da870b7a227502ed137ad",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/027.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page27.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page27.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page27",
+   "bytes": 280193,
+   "sha256": "13eaba141108451f3368e041b0a338393b1e3e57bf37ab63925f3fb6c05d4d69",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/028.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page28.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page28.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page28",
+   "bytes": 295479,
+   "sha256": "b73781ff86a314aaf83996f7e78553b41e6e3cd85f6be6c5aef7af5887a2e25a",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/029.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page29.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page29.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page29",
+   "bytes": 256745,
+   "sha256": "6c625f7469af9be9b5d11149ce8bbc7578e8ae7b4ffd77fdc1e63d6851dbb3b8",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/030.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page30.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page30.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page30",
+   "bytes": 238533,
+   "sha256": "a2a6d31f1decfe997d35c9ca1a8708ab28041811728d9c3aa3f3f9be4f779ebe",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/031.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page31.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page31.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page31",
+   "bytes": 193570,
+   "sha256": "52ab6926ffb0d03ee5ade882d3be696dc72c5371f739ffa0fc383896f29edc2c",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/032.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page32.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page32.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page32",
+   "bytes": 211470,
+   "sha256": "267c4cfae2ef7f796095ce8e3ebc180fc689894dd35454306537cf9821d59a9e",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/033.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page33.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page33.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page33",
+   "bytes": 202560,
+   "sha256": "50e8ae3a58e58398566738c6b89f291c3c85087ec253d53ceb39bbeb62e41746",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/034.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page34.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page34.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page34",
+   "bytes": 222909,
+   "sha256": "4e8dfceb2867eb6d93a8e2ba1dffe3f5c4e71f05a1d22c733f2b25ec5e4c79b9",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/035.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page35.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page35.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page35",
+   "bytes": 235539,
+   "sha256": "6eedb63b266fc6114b54c050bb5cab63d4b57f632de3ab15a969c6a2889c7590",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/036.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page36.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page36.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page36",
+   "bytes": 246648,
+   "sha256": "2ddbde091a82795f6b687e34d2cb47bb4704d9df68c4814f23508ab2c391ba1d",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/037.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page37.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page37.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page37",
+   "bytes": 201501,
+   "sha256": "d810ca5e48fa6905d8fef4c2b6b910e3a92d85bf14a1bf27656c57b6865935cb",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/038.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page38.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page38.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page38",
+   "bytes": 232793,
+   "sha256": "3cafa153358b9142845a3fc617088a7a332bda76c2b53d7a50a406e09b05187a",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/039.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page39.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page39.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page39",
+   "bytes": 180728,
+   "sha256": "e0b4add8a7f9abe849d668baaec17afc87795b7765f76dc08939140fe9ca52da",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/040.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page40.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page40.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page40",
+   "bytes": 62154,
+   "sha256": "98e20fb10132241de4e55e6010fbc07365321179280a20265aea172105c215d7",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/041.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page41.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page41.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page41",
+   "bytes": 47811,
+   "sha256": "49a2ec36877a749f5b889169270e8b947541c0cac0f88170e6acd8c0bdb2ec50",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/042.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page42.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page42.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page42",
+   "bytes": 67650,
+   "sha256": "29cc5178d741f95bb846ad224960eb2edddc4d714171c3d5397de8c8faa5ae8b",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/043.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page43.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page43.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page43",
+   "bytes": 91999,
+   "sha256": "a766b49d05e9fd5e81d14d293a5313d7a0aee7dba9682e699747d5b1b82cf47b",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/044.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page44.jpg",
+   "flNm": "(2026.05.14 수정)_분할계획서_page44.jpg",
+   "alt": "이미지: (2026.05.14 수정)_분할계획서_page44",
+   "bytes": 48368,
+   "sha256": "340c142193014ef27969b759cc2388b8952eac816a66afcabb48f8101da3e596",
+   "width": 992,
+   "height": 1403
+  }
+ ],
+ "folder": "data/charter_absent_src/0220W0_한화머시너리앤서비스홀딩스/20260514_11377947",
+ "fetched_at": "2026-11-17T01:06:57"
+}

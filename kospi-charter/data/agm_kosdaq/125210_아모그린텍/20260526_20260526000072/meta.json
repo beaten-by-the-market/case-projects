@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260526000072",
+ "corp_code": "00611912",
+ "corp_name": "아모그린텍",
+ "stock_code": "125210",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260526",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260526000072",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 266,
+ "charter_amend_txt": "data/agm_kosdaq/125210_아모그린텍/20260526_20260526000072/정관의변경.txt",
+ "main_xml": "20260526000072.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260526000072.xml",
+   "bytes": 43691,
+   "sha256": "6b2879b9f5be4af047bc02a65479f687c357a5db6516777046f3e939c4d5601f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/125210_아모그린텍/20260526_20260526000072",
+ "fetched_at": "2026-11-16T19:34:40"
+}

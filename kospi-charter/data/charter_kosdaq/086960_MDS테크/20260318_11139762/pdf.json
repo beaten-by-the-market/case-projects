@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139762&flNm=%5Bmds%ED%85%8C%ED%81%AC%5D+%EC%A0%95%EA%B4%80%28240328+%EA%B0%9C%EC%A0%95%29.pdf",
+   "flNm": "[mds테크] 정관(240328 개정).pdf",
+   "bytes": 237684,
+   "sha256": "89460d04ae8dddf9618a0f3396e341867536afeacf5068264de5041b33cb5cf2",
+   "pages": 18,
+   "text_pages": 17,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 14825,
+ "pages": 18,
+ "text_pages": 17,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T22:13:08",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

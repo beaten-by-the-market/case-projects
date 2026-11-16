@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261019000265",
+ "corp_code": "00378363",
+ "corp_name": "3S",
+ "stock_code": "060310",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261019",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000265",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 737,
+ "charter_amend_txt": "data/agm_kosdaq/060310_3S/20261019_20261019000265/정관의변경.txt",
+ "main_xml": "20261019000265.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261019000265.xml",
+   "bytes": 45163,
+   "sha256": "dbbd8cb3a58d3c61601692c1b93d5a327b79c34f0935c33af1fff9fbeee801e7"
+  }
+ ],
+ "folder": "data/agm_kosdaq/060310_3S/20261019_20261019000265",
+ "fetched_at": "2026-11-16T19:39:51"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260507000448",
+ "corp_code": "01467451",
+ "corp_name": "KT밀리의서재",
+ "stock_code": "418470",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260507",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000448",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260507000448.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260507000448.xml",
+   "bytes": 118871,
+   "sha256": "f9a10c99278b70c6d92cb9edc7795d463f91bd59ba821959a14592f286b359e2"
+  }
+ ],
+ "folder": "data/agm_kosdaq/418470_KT밀리의서재/20260507_20260507000448",
+ "fetched_at": "2026-11-16T19:34:11"
+}

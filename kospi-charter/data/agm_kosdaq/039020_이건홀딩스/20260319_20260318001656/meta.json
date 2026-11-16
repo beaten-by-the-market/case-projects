@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260318001656",
+ "corp_code": "00184889",
+ "corp_name": "이건홀딩스",
+ "stock_code": "039020",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001656",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1056,
+ "charter_amend_txt": "data/agm_kosdaq/039020_이건홀딩스/20260319_20260318001656/정관의변경.txt",
+ "main_xml": "20260318001656.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260318001656.xml",
+   "bytes": 1060556,
+   "sha256": "af6a8e45118264d95b0e18e68835261a76fbd77a0a0e8c3f734bb8ddfd048688"
+  }
+ ],
+ "folder": "data/agm_kosdaq/039020_이건홀딩스/20260319_20260318001656",
+ "fetched_at": "2026-11-16T19:32:34"
+}

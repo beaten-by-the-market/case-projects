@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260325000096",
+ "corp_code": "00108001",
+ "corp_name": "남화토건",
+ "stock_code": "091590",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260325",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260325000096",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 5121,
+ "charter_amend_txt": "data/agm_kosdaq/091590_남화토건/20260325_20260325000096/정관의변경.txt",
+ "main_xml": "20260325000096.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260325000096.xml",
+   "bytes": 187131,
+   "sha256": "74e5389fd6b5f294f49c4688247fbae350eacd1ef6fa28cda709cb1cd03efe4f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/091590_남화토건/20260325_20260325000096",
+ "fetched_at": "2026-11-16T19:33:19"
+}

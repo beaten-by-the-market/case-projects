@@ -1,0 +1,24 @@
+{
+ "corp_code": "00599106",
+ "corp_name": "네오리진",
+ "stock_code": "094860",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000036",
+ "dcmNo": "11154141",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000036&dcmNo=11154141",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000036&dcmNo=11154141&eleId=1&offset=597&length=19194&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12267,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/094860_네오리진/20260320_11154141",
+ "fetched_at": "2026-11-16T20:45:07",
+ "used_by_rcept_no": [
+  "20260320000036"
+ ]
+}

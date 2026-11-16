@@ -1,0 +1,160 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "546bc14471a27690",
+ "image": {
+  "long_edge": 2576,
+  "max_pixels": 3600000,
+  "gray": true,
+  "jpeg_quality": 85
+ },
+ "pages": [
+  {
+   "custom_id": "p03596",
+   "file": "img/001.jpg",
+   "page": null,
+   "sha256": "f5c0f3a356760edc327e28f2e5afba168734ecdb0a9c4db84ee7adc349802c6e",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 1685,
+   "output_tokens": 21,
+   "chars": 14,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  },
+  {
+   "custom_id": "p03597",
+   "file": "img/002.jpg",
+   "page": null,
+   "sha256": "1dff4f0df007c89cdf110dcef07f2b7e4153ea5ea9eab83082068937e5cb8a66",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 1685,
+   "output_tokens": 890,
+   "chars": 675,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  },
+  {
+   "custom_id": "p03598",
+   "file": "img/003.jpg",
+   "page": null,
+   "sha256": "e7fd85ba71576fbefcda751b60e50230eb935b2728696a0aeaa3a3b1ca3263fd",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 1685,
+   "output_tokens": 2000,
+   "chars": 1472,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  },
+  {
+   "custom_id": "p03599",
+   "file": "img/004.jpg",
+   "page": null,
+   "sha256": "2edce789ad274752cea1eed0c7ff94d0b3cceeefce45eb1c1508b73d232c1b50",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 1685,
+   "output_tokens": 2180,
+   "chars": 1646,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  },
+  {
+   "custom_id": "p03600",
+   "file": "img/005.jpg",
+   "page": null,
+   "sha256": "f92ea40b03bfdfb8782dead2a988ec93c78973cb6bf184a6dbecb0af75dace80",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 1685,
+   "output_tokens": 2104,
+   "chars": 1554,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  },
+  {
+   "custom_id": "p03601",
+   "file": "img/006.jpg",
+   "page": null,
+   "sha256": "788e34934e19ba39e349a1af83d0a8bde18c93f9a770f4a0992fadd0d975102d",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 1685,
+   "output_tokens": 1613,
+   "chars": 1249,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  },
+  {
+   "custom_id": "p03602",
+   "file": "img/007.jpg",
+   "page": null,
+   "sha256": "85a3d2ef3b389f8be9ccfb16ba92a05d336caa66e6da0b2581e4f4947e9c3cf5",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 1685,
+   "output_tokens": 1574,
+   "chars": 1187,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  },
+  {
+   "custom_id": "p03603",
+   "file": "img/008.jpg",
+   "page": null,
+   "sha256": "190e934513b431619c8e734499e77c791f9a1818dda672218380dc3fcfbd3f96",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 1685,
+   "output_tokens": 1406,
+   "chars": 1047,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  },
+  {
+   "custom_id": "p03604",
+   "file": "img/009.jpg",
+   "page": null,
+   "sha256": "313af17073cb8a4002fb817f4fbe9cf49f653e2245a06b5c4b961790f7f91347",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 1685,
+   "output_tokens": 1754,
+   "chars": 1299,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  },
+  {
+   "custom_id": "p03605",
+   "file": "img/010.jpg",
+   "page": null,
+   "sha256": "07fb6b1d8164bffba26240ebab92ea7feaf3730203fcb3b730e46415b13d5ff3",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 1685,
+   "output_tokens": 1737,
+   "chars": 1287,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  },
+  {
+   "custom_id": "p03606",
+   "file": "img/011.jpg",
+   "page": null,
+   "sha256": "f755ac3a8bd07eb343f18a2d0726232fcc22f60dc1c21a556d19a93db5273eec",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 1685,
+   "output_tokens": 1336,
+   "chars": 1024,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  },
+  {
+   "custom_id": "p03607",
+   "file": "img/012.jpg",
+   "page": null,
+   "sha256": "e61285993ec07e6cd0f622866ebe77238de9f9fc54233c9e5106904c72df4aa1",
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 1685,
+   "output_tokens": 1264,
+   "chars": 940,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  }
+ ],
+ "total_chars": 13394,
+ "n_errors": 0,
+ "created_at": "2026-11-16T22:38:03"
+}

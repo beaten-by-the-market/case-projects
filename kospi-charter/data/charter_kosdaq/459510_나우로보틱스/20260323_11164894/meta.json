@@ -1,0 +1,37 @@
+{
+ "corp_code": "01594791",
+ "corp_name": "나우로보틱스",
+ "stock_code": "459510",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000990",
+ "dcmNo": "11164894",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000990&dcmNo=11164894",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000990&dcmNo=11164894&eleId=1&offset=597&length=328&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 48,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/459510_나우로보틱스/20260323_11164894",
+ "fetched_at": "2026-11-16T21:57:09",
+ "used_by_rcept_no": [
+  "20260323000990"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164894&flNm=%28%EC%A3%BC%29%EB%82%98%EC%9A%B0%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4+%EC%A0%95%EA%B4%80%2825.12.19%29.pdf",
+   "flNm": "(주)나우로보틱스 정관(25.12.19).pdf",
+   "bytes": 3224109,
+   "sha256": "269ebc8b45034cd8deefb99c917aa135aec84b169b98c37273122269040d1a36",
+   "pages": 21,
+   "text_pages": 21,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

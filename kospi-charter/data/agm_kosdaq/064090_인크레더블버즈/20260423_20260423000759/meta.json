@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260423000759",
+ "corp_code": "00390408",
+ "corp_name": "인크레더블버즈",
+ "stock_code": "064090",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260423",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000759",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260423000759.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260423000759.xml",
+   "bytes": 152487,
+   "sha256": "197f73cdb246f3717c234f852e9e459b10135001f491e9f7d5bfe8abdf2644a8"
+  }
+ ],
+ "folder": "data/agm_kosdaq/064090_인크레더블버즈/20260423_20260423000759",
+ "fetched_at": "2026-11-16T19:33:39"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260327001750",
+ "corp_code": "01264872",
+ "corp_name": "이노뎁",
+ "stock_code": "303530",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260327",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260327001750",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260327001750.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260327001750.xml",
+   "bytes": 144414,
+   "sha256": "44ed8c0509589e1374b81840a253e817ed68ef7c96cea7b381423a8644b27e4c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/303530_이노뎁/20260327_20260327001750",
+ "fetched_at": "2026-11-16T19:33:26"
+}

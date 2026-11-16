@@ -1,0 +1,24 @@
+{
+ "corp_code": "01393721",
+ "corp_name": "포커스에이아이",
+ "stock_code": "331380",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001612",
+ "dcmNo": "11169022",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001612&dcmNo=11169022",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001612&dcmNo=11169022&eleId=1&offset=600&length=25315&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14109,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/331380_포커스에이아이/20260323_11169022",
+ "fetched_at": "2026-11-16T21:33:28",
+ "used_by_rcept_no": [
+  "20260323001612"
+ ]
+}

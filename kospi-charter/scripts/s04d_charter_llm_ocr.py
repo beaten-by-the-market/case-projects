@@ -352,10 +352,15 @@ def organize():
                               "chars": len(re.sub(r"\s", "", r.get("text") or "")), "batch": r.get("source")})
         chars = sum(p["chars"] for p in page_recs)
         errors = [p for p in page_recs if not p["ok"]]
-        write_json(d / "llm_ocr.json", {"model": MODEL, "effort": EFFORT, "prompt_sha256": hashlib.sha256(
+        rec = {"model": MODEL, "effort": EFFORT, "prompt_sha256": hashlib.sha256(
             (SYSTEM + PROMPT).encode()).hexdigest()[:16], "image": {"long_edge": LONG_EDGE, "max_pixels": MAX_PIX,
             "gray": True, "jpeg_quality": JPEG_Q}, "pages": page_recs, "total_chars": chars,
-            "n_errors": len(errors), "created_at": now_iso()})
+            "n_errors": len(errors), "created_at": now_iso()}
+        old = read_json(d / "llm_ocr.json") if (d / "llm_ocr.json").exists() else None
+        same = isinstance(old, dict) and {k: v for k, v in old.items() if k != "created_at"} == {
+            k: v for k, v in json.loads(json.dumps(rec, ensure_ascii=False)).items() if k != "created_at"}
+        if not same:                       # 다시 정리해 결과가 같으면 created_at 만 바뀌는 헛변경을 만들지 않는다
+            write_json(d / "llm_ocr.json", rec)
         index[folder] = {"llm_txt": f"{folder}/charter_llm.txt", "pages": len(items), "total_chars": chars,
                          "errors": len(errors)}
     write_json(INDEX_F, index)

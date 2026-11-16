@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142022&flNm=g2gbio_%EC%A0%95%EA%B4%80_20250328%EA%B0%9C%EC%A0%95_clean.pdf",
+   "flNm": "g2gbio_정관_20250328개정_clean.pdf",
+   "bytes": 452488,
+   "sha256": "3aa7d2e76f79aaf30964833623354b96e71ab8f3428b7ccd0d292b9839a49075",
+   "pages": 18,
+   "text_pages": 17,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 12463,
+ "pages": 18,
+ "text_pages": 17,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T22:17:28",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

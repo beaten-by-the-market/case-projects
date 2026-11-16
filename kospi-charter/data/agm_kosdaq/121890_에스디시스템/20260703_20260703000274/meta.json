@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260703000274",
+ "corp_code": "00604815",
+ "corp_name": "에스디시스템",
+ "stock_code": "121890",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260703",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000274",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4835,
+ "charter_amend_txt": "data/agm_kosdaq/121890_에스디시스템/20260703_20260703000274/정관의변경.txt",
+ "main_xml": "20260703000274.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260703000274.xml",
+   "bytes": 86385,
+   "sha256": "bb7a9a7b0561490e53b55ab2870d4d961b56896c4f8cd414ae044928a5033c90"
+  }
+ ],
+ "folder": "data/agm_kosdaq/121890_에스디시스템/20260703_20260703000274",
+ "fetched_at": "2026-11-16T19:36:26"
+}

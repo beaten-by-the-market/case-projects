@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260831000626",
+ "corp_code": "01311286",
+ "corp_name": "퀀타매트릭스",
+ "stock_code": "317690",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260831",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000626",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1045,
+ "charter_amend_txt": "data/agm_kosdaq/317690_퀀타매트릭스/20260831_20260831000626/정관의변경.txt",
+ "main_xml": "20260831000626.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260831000626.xml",
+   "bytes": 45369,
+   "sha256": "e91de3dac93b824b937702a9f094bcbf5093882557e3e769da94770daa87c935"
+  }
+ ],
+ "folder": "data/agm_kosdaq/317690_퀀타매트릭스/20260831_20260831000626",
+ "fetched_at": "2026-11-16T19:38:28"
+}

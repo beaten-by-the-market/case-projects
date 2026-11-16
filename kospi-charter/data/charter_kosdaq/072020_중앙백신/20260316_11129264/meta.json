@@ -1,0 +1,24 @@
+{
+ "corp_code": "00415327",
+ "corp_name": "중앙백신",
+ "stock_code": "072020",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001508",
+ "dcmNo": "11129264",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001508&dcmNo=11129264",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001508&dcmNo=11129264&eleId=1&offset=598&length=18703&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11344,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/072020_중앙백신/20260316_11129264",
+ "fetched_at": "2026-11-16T20:35:10",
+ "used_by_rcept_no": [
+  "20260316001508"
+ ]
+}

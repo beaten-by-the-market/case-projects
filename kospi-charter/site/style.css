@@ -81,11 +81,25 @@ a.loc { color: var(--link-local); }
 .tit .crumb { margin-left: auto; font-size: 12px; color: var(--muted); }
 .tit .crumb i { font-style: normal; margin: 0 6px; color: var(--faint); }
 .notice { margin: 8px 0; padding: 9px 14px; background: var(--panel); border: 1px solid #d0d3e8; font-size: 12px; overflow-wrap: anywhere; }
+.notice.absent { margin: 10px 0 0; font-size: 12px; }
+.notice.absent p { margin: 0; }
+.notice.absent p + p, .notice.absent details + p { margin-top: 6px; }
+.notice.absent details { margin-top: 6px; }
+.notice.absent summary { cursor: pointer; color: var(--link); font-weight: 600; }
+.notice.absent .grid { margin: 6px 0; background: #fff; }
+.notice.absent td.rs { white-space: normal; min-width: 300px; }
+.notice.absent td.rs.mid { min-width: 200px; max-width: 260px; }
+.notice.absent .tip { border-bottom: 1px dotted var(--muted); cursor: help; }
+.notice.absent details.misc { margin: 4px 0 0; }
+.notice.absent details.misc summary { color: var(--text); font-weight: 400; }
+.notice.absent details.misc ul { margin: 4px 0 6px; padding-left: 18px; columns: 2 340px; column-gap: 24px; }
+.notice.absent details.misc li { break-inside: avoid; }
+.notice.absent .st { margin-right: 4px; font-weight: 700; color: var(--ink); }
 .notice.warn { background: #fff4f2; border-color: #efb3ab; color: #9b2c22; }
 .desc { margin: 14px 0 0; font-size: 12px; color: var(--muted); }
 
 /* ── 요약 띠 ── */
-.summary { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); margin: 10px 0 18px; background: var(--panel);
+.summary { display: grid; grid-template-columns: repeat(var(--cards, 5), minmax(0, 1fr)); margin: 10px 0 18px; background: var(--panel);
   border-top: 1px solid var(--grid-top); border-bottom: 1px solid var(--grid-bottom); }
 .summary .cell { padding: 10px 14px 11px; border-left: 1px solid var(--grid-line); min-width: 0; }
 .summary .cell:first-child { border-left: 0; }
@@ -100,7 +114,7 @@ a.loc { color: var(--link-local); }
 .summary .trio i { font-style: normal; font-size: 11px; font-weight: 400; color: var(--muted); margin-left: 2px; }
 
 /* ── 탭 (tab_gray5) ── */
-.tabs { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2px; }
+.tabs { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(132px, 1fr)); gap: 2px; }
 .tabs button { display: block; width: 100%; border: 0; border-radius: 3px; background: var(--tab); color: var(--text); font-size: 13px;
   padding: 10px 6px 11px; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .tabs button:hover, .tabs li.on button { background: var(--tab-on); color: #fff; }
@@ -249,6 +263,67 @@ details.pvd > .pvbox { padding: 8px; }
 .footer b { color: #bbb; }
 .footer .indep { margin: 12px 0 0; padding-top: 12px; border-top: 1px solid #333; color: #fff; font-weight: 700; }
 
+/* ── 배당기준일 탭 (s10_dividend_site.py → dividend.js) ── */
+/* 태그 색: 범주 팔레트 앞 3칸 고정 순서 (dataviz 검증, 흰 바탕, CVD ΔE 9.2 이상). 청록은 대비 2.8:1 이라 글은 늘 잉크색, 색은 견본에만 */
+:root { --t-no: #2a78d6; --t-yes: #eb6834; --t-yesorno: #1baf7a; --t-chk: #9a9a9a; }
+.dtag { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; font-weight: 600; color: var(--ink); }
+.dtag i, .lgd .sw { width: 9px; height: 9px; border-radius: 2px; background: var(--t-chk); flex: none; display: inline-block; }
+.dtag.no i, .sw.no, .seg.no { background: var(--t-no); }
+.dtag.yes i, .sw.yes, .seg.yes { background: var(--t-yes); }
+.dtag.yesorno i, .sw.yesorno, .seg.yesorno { background: var(--t-yesorno); }
+.dtag.chk i, .sw.chk, .seg.chk { background: var(--t-chk); }
+.bk { display: inline-block; padding: 0 6px; border-radius: 3px; font-size: 11px; line-height: 18px; background: #eef0f6; color: var(--text); white-space: nowrap; }
+.bk.agm { background: var(--hl-bg); color: #8a5300; }
+.bk.prev { background: #ece8fb; color: #4b3aa3; }
+.grid td.ev, .grid td.wrap { white-space: normal; }
+.grid td.ev { min-width: 300px; max-width: 520px; }
+.grid td.wrap { min-width: 320px; line-height: 1.55; }
+td.ev .evt { display: block; font-size: 12px; color: var(--ink); }
+td.ev .evq { display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; font-size: 12px; line-height: 1.5; }
+td.ev .evref { display: block; margin-top: 4px; padding-left: 8px; border-left: 2px solid var(--grid-line); }
+td.ev .evthumb { display: block; max-width: 100%; max-height: 60px; object-fit: cover; object-position: top left; margin-top: 4px; border: 1px solid var(--grid-line); }
+b.ok { color: var(--ok); }
+.art { border: 1px solid var(--grid-line); margin: 0 0 12px; background: #fff; }
+.arthead { background: var(--th); padding: 6px 10px; font-weight: 700; font-size: 13px; border-bottom: 1px solid var(--grid-line); }
+.arttext { margin: 0; padding: 10px 12px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 13px; line-height: 1.7; font-family: var(--font); color: var(--text); }
+.arttext mark { background: #fff1a8; color: inherit; padding: 0 1px; }
+.crops { display: grid; gap: 8px; padding: 10px 10px 4px; }
+figure.crop { margin: 0; }
+figure.crop img { display: block; max-width: 100%; border: 1px solid var(--grid-line); }
+figure.crop.noimg img { display: none; }
+figure.crop figcaption { font-size: 11px; color: var(--muted); margin-top: 3px; }
+details.artx { padding: 0 10px 8px; }
+details.artx summary { cursor: pointer; font-size: 12px; color: var(--link); }
+table.amend td { white-space: normal; vertical-align: top; line-height: 1.55; }
+table.amend td.after { background: #f2f8ef; }
+/* 전체 취합 */
+.stiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); background: var(--panel); border-top: 2px solid var(--grid-top); margin: 8px 0 18px; }
+.stile { padding: 10px 14px 11px; border-left: 1px solid var(--grid-line); min-width: 0; }
+.stile:first-child { border-left: 0; }
+.stile .v { font-size: 24px; font-weight: 700; color: var(--ink); line-height: 1.4; font-variant-numeric: tabular-nums; }
+.stile .u { font-size: 13px; font-weight: 400; color: var(--muted); margin-left: 2px; }
+.stile .p { font-size: 13px; font-weight: 400; color: var(--muted); }
+.stile .s { font-size: 12px; color: var(--muted); }
+.lgd { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; font-size: 12px; color: var(--text); margin: 4px 0 10px; }
+.lgd .sw { margin-right: 5px; vertical-align: -1px; }
+.sbars { display: grid; gap: 12px; margin-bottom: 22px; }
+.sbrow { display: grid; grid-template-columns: 170px minmax(0, 1fr); align-items: start; gap: 12px; }
+.sbl { font-size: 13px; font-weight: 700; color: var(--ink); }
+.sbl .small { display: block; font-weight: 400; }
+.sb { display: flex; gap: 2px; height: 24px; }
+.seg { min-width: 2px; }
+.seg:first-child { border-radius: 4px 0 0 4px; }
+.seg:last-child { border-radius: 0 4px 4px 0; }
+.sbv { display: flex; gap: 2px; font-size: 12px; color: var(--ink); margin-top: 3px; font-variant-numeric: tabular-nums; }
+.sbv span { min-width: 0; overflow: hidden; white-space: nowrap; }
+.xtgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 24px; }
+.xtbox { min-width: 0; }
+.xtbox.wide { margin-top: 12px; }
+table.xt th.rh { text-align: left; font-weight: 400; background: var(--th); white-space: nowrap; padding: 6px 8px; border-top: 1px solid var(--grid-line); }
+table.xt tfoot td, table.xt tfoot th { border-top: 1px solid var(--grid-bottom); padding: 6px 6px; background: var(--th); }
+table.xt td.hi { background: var(--hl-bg); }
+table.xt td.hi, table.xt td.hi .small { color: var(--hl); font-weight: 700; }
+
 /* ── 좁은 화면 ── */
 @media (max-width: 960px) {
   .summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -273,9 +348,41 @@ details.pvd > .pvbox { padding: 8px; }
   .layer_box { width: 100%; height: 100%; max-height: none; border-radius: 0; }
   .layer_body { padding: 2px 12px 20px; }
 }
+/* 배당기준일 취합, 시장 고르기 (라디오 + :checked ~, 스크립트 없이) */
+.dvm-r { position: absolute; opacity: 0; pointer-events: none; }
+/* 시장 버튼은 크게: 세 칸 나란히, 고른 칸은 진한 바탕 (사용자 지시 2026-11-16) */
+.dvm-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); margin: 6px 0 18px; border: 2px solid var(--tab-on); border-radius: 6px; overflow: hidden; }
+.dvm-bar label { display: flex; justify-content: center; align-items: baseline; gap: 8px; padding: 13px 10px; border-left: 1px solid var(--tab-on);
+  background: #fff; color: var(--ink); font-size: 18px; font-weight: 700; cursor: pointer; }
+.dvm-bar label:first-child { border-left: 0; }
+.dvm-bar label .n { font-size: 13px; font-weight: 400; color: var(--muted); }
+.dvm-bar label:hover { background: var(--nav); }
+.dvm-p { display: none; }
+#dvm-0:checked ~ .dvm-p.dvm-0, #dvm-1:checked ~ .dvm-p.dvm-1, #dvm-2:checked ~ .dvm-p.dvm-2 { display: block; }
+#dvm-0:checked ~ .dvm-bar label[for="dvm-0"], #dvm-1:checked ~ .dvm-bar label[for="dvm-1"],
+#dvm-2:checked ~ .dvm-bar label[for="dvm-2"] { background: var(--tab-on); color: #fff; }
+#dvm-0:checked ~ .dvm-bar label[for="dvm-0"] .n, #dvm-1:checked ~ .dvm-bar label[for="dvm-1"] .n,
+#dvm-2:checked ~ .dvm-bar label[for="dvm-2"] .n { color: #fff; opacity: .85; }
+.dvm-r:focus-visible + .dvm-r, #dvm-0:focus-visible ~ .dvm-bar label[for="dvm-0"], #dvm-1:focus-visible ~ .dvm-bar label[for="dvm-1"],
+#dvm-2:focus-visible ~ .dvm-bar label[for="dvm-2"] { outline: 2px solid var(--link); outline-offset: 2px; }
+
+@media (max-width: 900px) {
+  .xtgrid { grid-template-columns: minmax(0, 1fr); }
+  .sbrow { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+}
 @media (max-width: 560px) {
   .tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stiles { grid-template-columns: minmax(0, 1fr); }
+  .stile { border-left: 0; border-top: 1px solid var(--grid-line); }
   .summary .v { font-size: 19px; }
   .paging .prev { margin-right: 8px; }
   .paging .next { margin-left: 8px; }
 }
+
+/* 합친 표 위 결과 파일 줄 */
+p.files { margin: 6px 0 0; }
+/* 배당기준일 탭 결산월: 사업보고서 제출 이후 결산월 변경 (빨간 글씨, 칸이 넓어지지 않게 줄바꿈) */
+.grid td .chg { display: inline-block; max-width: 8.5em; white-space: normal; line-height: 1.35; }
+/* 근거문서 칸: 사업보고서는 보통 글, 그 밖(증권신고서 등)은 눈에 띄게 */
+.srcd { font-size: 12px; white-space: nowrap; }
+.srcd.alt { padding: 1px 6px; border-radius: 3px; background: #fff1d6; color: var(--ink); font-weight: 700; }

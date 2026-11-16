@@ -1,0 +1,235 @@
+{
+ "corp_code": "01902990",
+ "corp_name": "KB제32호스팩",
+ "stock_code": "0037T0",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311004317",
+ "dcmNo": "11110250",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004317&dcmNo=11110250",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004317&dcmNo=11110250&eleId=1&offset=605&length=3401&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 21,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_01.jpg",
+   "flNm": "kb제32호스팩_정관_01.jpg",
+   "alt": "이미지: kb제32호스팩_정관_01",
+   "bytes": 149755,
+   "sha256": "a28296dbc497fa837705bc8ceaf893da0fe7cacfde947981fa7c067f99afab4e",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_02.jpg",
+   "flNm": "kb제32호스팩_정관_02.jpg",
+   "alt": "이미지: kb제32호스팩_정관_02",
+   "bytes": 154927,
+   "sha256": "11267ee9fe0b65ce186bcc4ae46ed580575a8df4d6c4463e450550cc2bf2e324",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_03.jpg",
+   "flNm": "kb제32호스팩_정관_03.jpg",
+   "alt": "이미지: kb제32호스팩_정관_03",
+   "bytes": 209934,
+   "sha256": "10fb65a362e4430827ecd0f93eac53e6ffc980fbc924fd80ab4412ae49d20222",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_04.jpg",
+   "flNm": "kb제32호스팩_정관_04.jpg",
+   "alt": "이미지: kb제32호스팩_정관_04",
+   "bytes": 208251,
+   "sha256": "398220c776cfac9609daf2a77f65e2facbc7381139d81e9fb33882ff3e3b854d",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_05.jpg",
+   "flNm": "kb제32호스팩_정관_05.jpg",
+   "alt": "이미지: kb제32호스팩_정관_05",
+   "bytes": 190352,
+   "sha256": "aaf35311d2438e62ca2f08b11474faa4aa59fff280c82931b753c247d6066810",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_06.jpg",
+   "flNm": "kb제32호스팩_정관_06.jpg",
+   "alt": "이미지: kb제32호스팩_정관_06",
+   "bytes": 180901,
+   "sha256": "fcde6ec94ad9e161a35f426a6802a668bcd47adedf6afd4e7c396fd7697cceeb",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_07.jpg",
+   "flNm": "kb제32호스팩_정관_07.jpg",
+   "alt": "이미지: kb제32호스팩_정관_07",
+   "bytes": 173924,
+   "sha256": "fdfece0cc909fa57de4289b7a55c972b596eda20010ab2d858031893422373e7",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_08.jpg",
+   "flNm": "kb제32호스팩_정관_08.jpg",
+   "alt": "이미지: kb제32호스팩_정관_08",
+   "bytes": 163004,
+   "sha256": "c68ce838f94988932598dcd649e3e482d2ed6a675d3ea98dc68cd112d1227b9f",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_09.jpg",
+   "flNm": "kb제32호스팩_정관_09.jpg",
+   "alt": "이미지: kb제32호스팩_정관_09",
+   "bytes": 186751,
+   "sha256": "2be74180a1671cc3373ab6905cd3a190b71d585ed4b429c089989e953e101dc1",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "kb제32호스팩_정관_10.jpg",
+   "alt": "이미지: kb제32호스팩_정관_10",
+   "bytes": 188801,
+   "sha256": "910cc911e41d6ffef6747febd73ed0c9c01cee3db5b1a1316835cae84b1d0248",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "kb제32호스팩_정관_11.jpg",
+   "alt": "이미지: kb제32호스팩_정관_11",
+   "bytes": 140584,
+   "sha256": "2cdff7b82f28518982d8a1aa30298e02b2861ab0a7c804419a38b41df047c690",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "kb제32호스팩_정관_12.jpg",
+   "alt": "이미지: kb제32호스팩_정관_12",
+   "bytes": 204635,
+   "sha256": "b35eeb3d97c431159495e0090a852069109ce9d629dddbf808fb6d0d377a719e",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "kb제32호스팩_정관_13.jpg",
+   "alt": "이미지: kb제32호스팩_정관_13",
+   "bytes": 162325,
+   "sha256": "9df34e062c42af5e00957fb03b1244c3398cf14b71e5124902823253ce2022fb",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "kb제32호스팩_정관_14.jpg",
+   "alt": "이미지: kb제32호스팩_정관_14",
+   "bytes": 177375,
+   "sha256": "db4b51a30ed3d76ca9d963c8ba5ba709b95ade454c561244bb5683bcaa1c82d3",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "kb제32호스팩_정관_15.jpg",
+   "alt": "이미지: kb제32호스팩_정관_15",
+   "bytes": 230063,
+   "sha256": "b4e8fb54764f7dab45719df5ef0ec2c2ab5ba8ebb32be6c28b5a431c77e1a687",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "kb제32호스팩_정관_16.jpg",
+   "alt": "이미지: kb제32호스팩_정관_16",
+   "bytes": 220131,
+   "sha256": "5d081e7d1f1831d2f8abbd6b35d2e478aa80641b168452c1a87a261e2f351d13",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "kb제32호스팩_정관_17.jpg",
+   "alt": "이미지: kb제32호스팩_정관_17",
+   "bytes": 228463,
+   "sha256": "dbab172023e19b039f6423f8503b9bea51432450a3cbd1c330964d8c75a872fb",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_18.jpg",
+   "flNm": "kb제32호스팩_정관_18.jpg",
+   "alt": "이미지: kb제32호스팩_정관_18",
+   "bytes": 210636,
+   "sha256": "1a5faba78e101bac677b80cb06c83273aa8a4086f7a8d487627eb5c49d12eca8",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_19.jpg",
+   "flNm": "kb제32호스팩_정관_19.jpg",
+   "alt": "이미지: kb제32호스팩_정관_19",
+   "bytes": 111877,
+   "sha256": "7d806e82f4ce80d6668998ccf954e9f8757e0367967064d13b553f57678cd822",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_20.jpg",
+   "flNm": "kb제32호스팩_정관_20.jpg",
+   "alt": "이미지: kb제32호스팩_정관_20",
+   "bytes": 159570,
+   "sha256": "6394352f4aa64a15ea09466bc09db8ec603504108ebafb90e7421cae6395a852",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11110250&flNm=kb%EC%A0%9C32%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_21.jpg",
+   "flNm": "kb제32호스팩_정관_21.jpg",
+   "alt": "이미지: kb제32호스팩_정관_21",
+   "bytes": 91227,
+   "sha256": "bd9eca7d7ea218f89d095d7fd29e553759ed591e30af5eb23eff959e8fa7252f",
+   "width": 1241,
+   "height": 1755
+  }
+ ],
+ "folder": "data/charter_kosdaq/0037T0_KB제32호스팩/20260311_11110250",
+ "fetched_at": "2026-11-16T19:44:36",
+ "used_by_rcept_no": [
+  "20260311004317"
+ ]
+}

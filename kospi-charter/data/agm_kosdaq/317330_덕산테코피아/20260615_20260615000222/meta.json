@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260615000222",
+ "corp_code": "01021666",
+ "corp_name": "덕산테코피아",
+ "stock_code": "317330",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260615",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000222",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260615000222.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260615000222.xml",
+   "bytes": 39132,
+   "sha256": "062901e82d9046b207be4c0dbc240c22177cfac692c67cb85905e2e7cd49266e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/317330_덕산테코피아/20260615_20260615000222",
+ "fetched_at": "2026-11-16T19:35:29"
+}

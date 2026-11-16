@@ -1,0 +1,24 @@
+{
+ "corp_code": "00363927",
+ "corp_name": "NE능률",
+ "stock_code": "053290",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000219",
+ "dcmNo": "11146313",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000219&dcmNo=11146313",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000219&dcmNo=11146313&eleId=1&offset=595&length=21182&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13715,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/053290_NE능률/20260319_11146313",
+ "fetched_at": "2026-11-16T20:17:50",
+ "used_by_rcept_no": [
+  "20260319000219"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260624000326",
+ "corp_code": "00205687",
+ "corp_name": "더라미",
+ "stock_code": "032860",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260624",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000326",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 200,
+ "charter_amend_txt": "data/agm_kosdaq/032860_더라미/20260624_20260624000326/정관의변경.txt",
+ "main_xml": "20260624000326.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260624000326.xml",
+   "bytes": 38339,
+   "sha256": "d494d44e5fc8feb275242a21df49987fd5bec001497b29bb8d47de4c5fc6a0f9"
+  }
+ ],
+ "folder": "data/agm_kosdaq/032860_더라미/20260624_20260624000326",
+ "fetched_at": "2026-11-16T19:35:48"
+}

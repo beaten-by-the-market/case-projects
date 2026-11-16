@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260611000477",
+ "corp_code": "00350048",
+ "corp_name": "오성첨단소재",
+ "stock_code": "052420",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260611",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260611000477",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260611000477.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260611000477.xml",
+   "bytes": 52728,
+   "sha256": "1d77a07840b3ab4658a0030fc062bbc9069e68bf06c7b06e96f7ad081977319f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/052420_오성첨단소재/20260611_20260611000477",
+ "fetched_at": "2026-11-16T19:35:19"
+}

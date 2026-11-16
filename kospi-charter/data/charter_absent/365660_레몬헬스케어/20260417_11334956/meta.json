@@ -1,0 +1,24 @@
+{
+ "corp_code": "01424261",
+ "corp_name": "레몬헬스케어",
+ "stock_code": "365660",
+ "att_title": "2026.04.17 정관",
+ "att_date": "20260417",
+ "rcpNo": "20260417000560",
+ "dcmNo": "11334956",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260417000560&dcmNo=11334956",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260417000560&dcmNo=11334956&eleId=1&offset=599&length=20212&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11479,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_absent/365660_레몬헬스케어/20260417_11334956",
+ "fetched_at": "2026-11-17T00:54:07",
+ "used_by_stock_code": [
+  "365660"
+ ]
+}

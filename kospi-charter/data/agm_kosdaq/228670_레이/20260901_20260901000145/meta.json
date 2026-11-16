@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260901000145",
+ "corp_code": "00828761",
+ "corp_name": "레이",
+ "stock_code": "228670",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260901",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000145",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260901000145.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260901000145.xml",
+   "bytes": 89131,
+   "sha256": "fcdee1d617f6c1faab30b7816f3debb7a1f3fc781faca07d76555719f21f0882"
+  }
+ ],
+ "folder": "data/agm_kosdaq/228670_레이/20260901_20260901000145",
+ "fetched_at": "2026-11-16T19:38:29"
+}

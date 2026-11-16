@@ -1,0 +1,24 @@
+{
+ "corp_code": "01253636",
+ "corp_name": "에르코스",
+ "stock_code": "435570",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000656",
+ "dcmNo": "11132722",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000656&dcmNo=11132722",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000656&dcmNo=11132722&eleId=1&offset=603&length=25656&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13942,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/435570_에르코스/20260317_11132722",
+ "fetched_at": "2026-11-16T21:52:53",
+ "used_by_rcept_no": [
+  "20260317000656"
+ ]
+}

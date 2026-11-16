@@ -1,0 +1,24 @@
+{
+ "corp_code": "01031229",
+ "corp_name": "한국비티비",
+ "stock_code": "219750",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000510",
+ "dcmNo": "11136265",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000510&dcmNo=11136265",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000510&dcmNo=11136265&eleId=1&offset=598&length=21810&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12409,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/219750_한국비티비/20260318_11136265",
+ "fetched_at": "2026-11-16T21:12:11",
+ "used_by_rcept_no": [
+  "20260331003468"
+ ]
+}

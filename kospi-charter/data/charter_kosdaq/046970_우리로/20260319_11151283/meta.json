@@ -1,0 +1,24 @@
+{
+ "corp_code": "00296005",
+ "corp_name": "우리로",
+ "stock_code": "046970",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001068",
+ "dcmNo": "11151283",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001068&dcmNo=11151283",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001068&dcmNo=11151283&eleId=1&offset=596&length=20409&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12663,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/046970_우리로/20260319_11151283",
+ "fetched_at": "2026-11-16T20:15:02",
+ "used_by_rcept_no": [
+  "20260319001068"
+ ]
+}

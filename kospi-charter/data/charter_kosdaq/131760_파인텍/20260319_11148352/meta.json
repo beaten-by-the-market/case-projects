@@ -1,0 +1,205 @@
+{
+ "corp_code": "00820352",
+ "corp_name": "파인텍",
+ "stock_code": "131760",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000647",
+ "dcmNo": "11148352",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000647&dcmNo=11148352",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000647&dcmNo=11148352&eleId=1&offset=596&length=2504&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 18,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=01.jpg",
+   "flNm": "01.jpg",
+   "alt": "이미지: 01",
+   "bytes": 146124,
+   "sha256": "80c3ac627575147f78bbceb6a49dd1b01ecc273dab91af6034ca3258f00f9e43",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=02.jpg",
+   "flNm": "02.jpg",
+   "alt": "이미지: 02",
+   "bytes": 304139,
+   "sha256": "5e172ccd8713151d296a829963e7824bb611c68a37555c4a04f0ef5643a37d96",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=03.jpg",
+   "flNm": "03.jpg",
+   "alt": "이미지: 03",
+   "bytes": 298693,
+   "sha256": "ce3c678c51a2292dce0318c790e67f5d57dd08e4ea0d939671d6a2a6af18de3a",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=04.jpg",
+   "flNm": "04.jpg",
+   "alt": "이미지: 04",
+   "bytes": 224438,
+   "sha256": "450492f389bab22d224c8680eb8855185c169f50205d1352fff194b664157262",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=05.jpg",
+   "flNm": "05.jpg",
+   "alt": "이미지: 05",
+   "bytes": 228319,
+   "sha256": "5efb7f8d39d53d95d3523c354daeb093ef537539c49ea639e47c57656c169c75",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=06.jpg",
+   "flNm": "06.jpg",
+   "alt": "이미지: 06",
+   "bytes": 226393,
+   "sha256": "73dcb8504744fbe554ee77913e2c394ffc0d5d49c9016b43fb0a541eee5175b5",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=07.jpg",
+   "flNm": "07.jpg",
+   "alt": "이미지: 07",
+   "bytes": 269117,
+   "sha256": "c6e4d4bb7b3aca7bfc88588c73b5aa9338fad700fdba2407df58dda515453fdb",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=08.jpg",
+   "flNm": "08.jpg",
+   "alt": "이미지: 08",
+   "bytes": 272934,
+   "sha256": "e964a929cf6ffb92bb8c5e49ff5d60a204606e9d4cf63c3ac713e35308f3fb8c",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=09.jpg",
+   "flNm": "09.jpg",
+   "alt": "이미지: 09",
+   "bytes": 289983,
+   "sha256": "3776050d7b314c3b894d3a96b47041d217c7eeef127a3595cca8ed285f4cfb05",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=10.jpg",
+   "flNm": "10.jpg",
+   "alt": "이미지: 10",
+   "bytes": 261147,
+   "sha256": "7cfc62b913156741f5813ead1d38207ffabe49715dfdabebcb0be06a652c77af",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=11.jpg",
+   "flNm": "11.jpg",
+   "alt": "이미지: 11",
+   "bytes": 293842,
+   "sha256": "a5fcd7463c06f20ab8423a45a52f668a82414e06577abcd99c353aecc41056a3",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=12.jpg",
+   "flNm": "12.jpg",
+   "alt": "이미지: 12",
+   "bytes": 254979,
+   "sha256": "033c4e9b9b30f168655f2636ba02df2eaff0b00f37b3edc219b363ac56cb56d5",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=13.jpg",
+   "flNm": "13.jpg",
+   "alt": "이미지: 13",
+   "bytes": 272524,
+   "sha256": "aad9e6d90700a368457121b7691fbdbfec5f3b18099438ff4fc8c4c699610192",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=14.jpg",
+   "flNm": "14.jpg",
+   "alt": "이미지: 14",
+   "bytes": 281278,
+   "sha256": "4e5142f2fc7af97054e554e8715d716cbfdee293b89823a36c07d3fa12a6817e",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=15.jpg",
+   "flNm": "15.jpg",
+   "alt": "이미지: 15",
+   "bytes": 260475,
+   "sha256": "7d76b6ec765da149e4f35ef8b57fc8e7aae061d69ecc1a2ee56db478194cebcf",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=16.jpg",
+   "flNm": "16.jpg",
+   "alt": "이미지: 16",
+   "bytes": 290105,
+   "sha256": "07cf324d551b6855fc91fc8e4ee06c3dd139cb0ae30e2ca1a4ea09d1d33e6793",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=17.jpg",
+   "flNm": "17.jpg",
+   "alt": "이미지: 17",
+   "bytes": 266329,
+   "sha256": "8f90290b10b8a70f088ff2c613d7ca9edfe18f942a12837ecf058d4869bf9d03",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148352&flNm=18.jpg",
+   "flNm": "18.jpg",
+   "alt": "이미지: 18",
+   "bytes": 217787,
+   "sha256": "2b3b0f3e364b93a04d7d906e42e30eff81a5da19e7251558a78b3306c501c29d",
+   "width": 2480,
+   "height": 3507
+  }
+ ],
+ "folder": "data/charter_kosdaq/131760_파인텍/20260319_11148352",
+ "fetched_at": "2026-11-16T20:56:07",
+ "used_by_rcept_no": [
+  "20260319000647"
+ ]
+}

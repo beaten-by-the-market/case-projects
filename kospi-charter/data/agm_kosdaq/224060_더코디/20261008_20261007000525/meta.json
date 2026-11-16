@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261007000525",
+ "corp_code": "00530413",
+ "corp_name": "더코디",
+ "stock_code": "224060",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261008",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000525",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2606,
+ "charter_amend_txt": "data/agm_kosdaq/224060_더코디/20261008_20261007000525/정관의변경.txt",
+ "main_xml": "20261007000525.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261007000525.xml",
+   "bytes": 82927,
+   "sha256": "d8c15602c744af71a122fceaabf7c74862bb1d9d1d17270ec9e852eadb75dc6c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/224060_더코디/20261008_20261007000525",
+ "fetched_at": "2026-11-16T19:39:35"
+}

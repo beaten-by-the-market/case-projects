@@ -1,0 +1,24 @@
+{
+ "corp_code": "01042085",
+ "corp_name": "엑셈",
+ "stock_code": "205100",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001293",
+ "dcmNo": "11141560",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001293&dcmNo=11141560",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001293&dcmNo=11141560&eleId=1&offset=590&length=19862&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12107,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/205100_엑셈/20260318_11141560",
+ "fetched_at": "2026-11-16T21:08:46",
+ "used_by_rcept_no": [
+  "20260318001293"
+ ]
+}

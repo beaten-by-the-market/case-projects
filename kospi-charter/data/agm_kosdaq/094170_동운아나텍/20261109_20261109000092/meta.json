@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261109000092",
+ "corp_code": "00695969",
+ "corp_name": "동운아나텍",
+ "stock_code": "094170",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261109",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000092",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261109000092.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261109000092.xml",
+   "bytes": 37121,
+   "sha256": "7d244eb5da0a5575df5cdbeb5e6038216bac29a3f96f492675923461544a9219"
+  }
+ ],
+ "folder": "data/agm_kosdaq/094170_동운아나텍/20261109_20261109000092",
+ "fetched_at": "2026-11-16T19:40:35"
+}

@@ -1,0 +1,158 @@
+{
+ "20260908000330": {
+  "rcept_no": "20260908000330",
+  "corp_code": "02042949",
+  "corp_name": "한화머시너리앤서비스홀딩스",
+  "stock_code": "0220W0",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260908",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000330",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 4709,
+  "charter_amend_txt": "data/agm_absent/0220W0_한화머시너리앤서비스홀딩스/20260908_20260908000330/정관의변경.txt",
+  "main_xml": "20260908000330.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260908000330.xml",
+    "bytes": 203310,
+    "sha256": "0d537a5ea0edc68b3f9e5057b995e2dcf069419e63081fab99ea5cb45018eca1"
+   }
+  ],
+  "folder": "data/agm_absent/0220W0_한화머시너리앤서비스홀딩스/20260908_20260908000330",
+  "fetched_at": "2026-11-17T01:11:09"
+ },
+ "20260914000387": {
+  "rcept_no": "20260914000387",
+  "corp_code": "01379129",
+  "corp_name": "매드업",
+  "stock_code": "0039P0",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20260914",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914000387",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3469,
+  "charter_amend_txt": "data/agm_absent/0039P0_매드업/20260914_20260914000387/정관의변경.txt",
+  "main_xml": "20260914000387.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20260914000387.xml",
+    "bytes": 67935,
+    "sha256": "92650055dea1a5044e4bdc06c17007da60584d0101bbffdce71efe313d0117e4"
+   }
+  ],
+  "folder": "data/agm_absent/0039P0_매드업/20260914_20260914000387",
+  "fetched_at": "2026-11-17T01:11:10"
+ },
+ "20261012000069": {
+  "rcept_no": "20261012000069",
+  "corp_code": "01501764",
+  "corp_name": "레메디",
+  "stock_code": "387690",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261012",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000069",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261012000069.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261012000069.xml",
+    "bytes": 54701,
+    "sha256": "59c99fc0e48f9773d95bfdd9c418fca25465e28cced82e73c08ee28bb3b9630b"
+   }
+  ],
+  "folder": "data/agm_absent/387690_레메디/20261012_20261012000069",
+  "fetched_at": "2026-11-17T01:11:10"
+ },
+ "20261106000089": {
+  "rcept_no": "20261106000089",
+  "corp_code": "01461730",
+  "corp_name": "딜리셔스",
+  "stock_code": "483350",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261106",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000089",
+  "agm_kind": "임시",
+  "has_charter_amend": true,
+  "detect": "code",
+  "n_sections": 1,
+  "section_chars": 3699,
+  "charter_amend_txt": "data/agm_absent/483350_딜리셔스/20261106_20261106000089/정관의변경.txt",
+  "main_xml": "20261106000089.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261106000089.xml",
+    "bytes": 85436,
+    "sha256": "34ebe7e7323597773a56a7d8174c73faf3f5b38651944d85c0d5ff75da55a3c7"
+   }
+  ],
+  "folder": "data/agm_absent/483350_딜리셔스/20261106_20261106000089",
+  "fetched_at": "2026-11-17T01:11:11"
+ },
+ "20261112000276": {
+  "rcept_no": "20261112000276",
+  "corp_code": "00624244",
+  "corp_name": "에이치엘지노믹스",
+  "stock_code": "0156T0",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261112",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000276",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261112000276.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261112000276.xml",
+    "bytes": 106572,
+    "sha256": "7491bdfdb496b258322c43f5a87a599a1e184ee31fd5bb4628aff2f5e7f05062"
+   }
+  ],
+  "folder": "data/agm_absent/0156T0_에이치엘지노믹스/20261112_20261112000276",
+  "fetched_at": "2026-11-17T01:11:11"
+ },
+ "20261113000714": {
+  "rcept_no": "20261113000714",
+  "corp_code": "01722066",
+  "corp_name": "빅웨이브로보틱스",
+  "stock_code": "0035S0",
+  "report_nm": "주주총회소집공고",
+  "rcept_dt": "20261113",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000714",
+  "agm_kind": "임시",
+  "has_charter_amend": false,
+  "detect": "",
+  "n_sections": 0,
+  "section_chars": 0,
+  "charter_amend_txt": null,
+  "main_xml": "20261113000714.xml",
+  "encoding": "utf-8",
+  "files": [
+   {
+    "name": "20261113000714.xml",
+    "bytes": 58313,
+    "sha256": "9caa1774001e6e45aa8eae51fc6c062109d37b3e7f44503d78f2cd5ef6c32bba"
+   }
+  ],
+  "folder": "data/agm_absent/0035S0_빅웨이브로보틱스/20261113_20261113000714",
+  "fetched_at": "2026-11-17T01:11:12"
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "corp_code": "02036869",
+ "corp_name": "아이엠스팩1호",
+ "stock_code": "0222E0",
+ "att_title": "2026.09.17 정관",
+ "att_date": "20260917",
+ "rcpNo": "20260917000220",
+ "dcmNo": "11583329",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000220&dcmNo=11583329",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000220&dcmNo=11583329&eleId=1&offset=599&length=3247&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 20,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%801.jpg",
+   "flNm": "정관1.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관1",
+   "bytes": 161570,
+   "sha256": "b92994cde79a7aa3b1b4ca5eadba382beea503765cefd2d512bb388947d210a3",
+   "width": 649,
+   "height": 919
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%802.jpg",
+   "flNm": "정관2.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관2",
+   "bytes": 207527,
+   "sha256": "9df356507b8d0a7e0451b43705e4bcb58a41555043e84486694218b2587cddc9",
+   "width": 651,
+   "height": 921
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%803.jpg",
+   "flNm": "정관3.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관3",
+   "bytes": 262822,
+   "sha256": "ff7b2016c846e440401f68c6090f23192c13716213ea1780332f70a158c674e4",
+   "width": 650,
+   "height": 923
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%804.jpg",
+   "flNm": "정관4.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관4",
+   "bytes": 231651,
+   "sha256": "84e0329e9e94021b8d9fd3b3eace8110b1b12b6d1a8a3dda622533886a14494c",
+   "width": 651,
+   "height": 922
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%805.jpg",
+   "flNm": "정관5.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관5",
+   "bytes": 233465,
+   "sha256": "eaf62ecd991e3f7783dde24c59b2972cb16aba10bcecde2feccf72e3983912e9",
+   "width": 651,
+   "height": 923
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%806.jpg",
+   "flNm": "정관6.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관6",
+   "bytes": 250087,
+   "sha256": "2ef23e4d3d93487dafeea14a70977633569caa58e2fca61baccc406a101c31a3",
+   "width": 652,
+   "height": 921
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%807.jpg",
+   "flNm": "정관7.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관7",
+   "bytes": 216156,
+   "sha256": "918c089cf78bf4d58398c94d6b68ea3b4e0f7ba0cb61aeccb26e0804e8fabd22",
+   "width": 651,
+   "height": 924
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%808.jpg",
+   "flNm": "정관8.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관8",
+   "bytes": 181574,
+   "sha256": "bd652e33ac82c34ea9f9a19a057cac8d8d98664ebe95afabaef317409436c38d",
+   "width": 653,
+   "height": 918
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%809.jpg",
+   "flNm": "정관9.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관9",
+   "bytes": 191920,
+   "sha256": "147032dfe3a17e042acaa80f8f2702fca8fbc9f8f2d4ee93a7b50190d3fbcf9a",
+   "width": 654,
+   "height": 922
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%8010.jpg",
+   "flNm": "정관10.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관10",
+   "bytes": 207208,
+   "sha256": "0d0b9816201d8799d242eaa9881de807bec166172e86a1c72ab2b2c6bf31d549",
+   "width": 651,
+   "height": 919
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%8011.jpg",
+   "flNm": "정관11.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관11",
+   "bytes": 208324,
+   "sha256": "9e06d76a8a2d613d25a6da85dba1a64b4ce3d62145b5aed731da489779173536",
+   "width": 652,
+   "height": 922
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%8012.jpg",
+   "flNm": "정관12.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관12",
+   "bytes": 196562,
+   "sha256": "84c96cc0ac86816c179c387da761425d7d6f17a148ae5ff410c64d806fd4d822",
+   "width": 651,
+   "height": 891
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%8013.jpg",
+   "flNm": "정관13.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관13",
+   "bytes": 222559,
+   "sha256": "f8bfc2f1a25ccc79eeee7b40f0aef4a23533c8fe4c6775bf2801c927573e6039",
+   "width": 651,
+   "height": 925
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%8014.jpg",
+   "flNm": "정관14.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관14",
+   "bytes": 200250,
+   "sha256": "dd162da4bcd46d51b761b6c56d494ebd5b2298f1142a76dbadcff2d95ee619b4",
+   "width": 648,
+   "height": 924
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%8015.jpg",
+   "flNm": "정관15.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관15",
+   "bytes": 259400,
+   "sha256": "1512f7f8a60610cad47d8ace5788ba97391a7adcbb03bdf61c4fb2f5574ae98f",
+   "width": 650,
+   "height": 920
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%8016.jpg",
+   "flNm": "정관16.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관16",
+   "bytes": 238458,
+   "sha256": "327f0fbf813234eb3a9d2b7674521af91c1887b29934a1dd2189ff5a9e5656e5",
+   "width": 650,
+   "height": 920
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%8017.jpg",
+   "flNm": "정관17.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관17",
+   "bytes": 273867,
+   "sha256": "2d279d900105ceb77e2ac8d7a0183dde327e3193f9418ce0bf6b83ce6a77ee92",
+   "width": 652,
+   "height": 920
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%8018.jpg",
+   "flNm": "정관18.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관18",
+   "bytes": 131522,
+   "sha256": "a336ac4ecabf182fcc44bdd8985313dd1de910056f4fe198ff683715cb61b027",
+   "width": 650,
+   "height": 922
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%8019.jpg",
+   "flNm": "정관19.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관19",
+   "bytes": 183357,
+   "sha256": "d866175c32e86640f239f87527022571efeb45c048dde9c6d538ea0663f722c5",
+   "width": 651,
+   "height": 920
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%8020.jpg",
+   "flNm": "정관20.jpg",
+   "alt": "이미지: 아이엠기업인수목적1호_정관20",
+   "bytes": 158675,
+   "sha256": "305f47ac2b081f5c868b1d142b0169f9f45c6208eacb92bd008ef4c93569b076",
+   "width": 650,
+   "height": 920
+  }
+ ],
+ "folder": "data/charter_absent/0222E0_아이엠스팩1호/20260917_11583329",
+ "fetched_at": "2026-11-17T00:56:31",
+ "used_by_stock_code": [
+  "0222E0"
+ ]
+}

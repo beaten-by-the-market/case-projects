@@ -1,0 +1,24 @@
+{
+ "corp_code": "01069736",
+ "corp_name": "한독크린텍",
+ "stock_code": "256150",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000700",
+ "dcmNo": "11132932",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000700&dcmNo=11132932",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000700&dcmNo=11132932&eleId=1&offset=596&length=17374&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9807,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/256150_한독크린텍/20260317_11132932",
+ "fetched_at": "2026-11-16T21:19:01",
+ "used_by_rcept_no": [
+  "20260317000700"
+ ]
+}

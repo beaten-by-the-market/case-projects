@@ -1,0 +1,215 @@
+{
+ "corp_code": "00917861",
+ "corp_name": "슈피겐코리아",
+ "stock_code": "192440",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001111",
+ "dcmNo": "11158558",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001111&dcmNo=11158558",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001111&dcmNo=11158558&eleId=1&offset=594&length=2816&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 19,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%281%29.jpg",
+   "flNm": "정관 (1).jpg",
+   "alt": "이미지: 정관 (1)",
+   "bytes": 176575,
+   "sha256": "edbbb5fbe918ee8c51d2de583a945f012c464d0d50632b8b2d4d7362cd7aef78",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%282%29.jpg",
+   "flNm": "정관 (2).jpg",
+   "alt": "이미지: 정관 (2)",
+   "bytes": 184963,
+   "sha256": "e6e4ad91290e426335ff098b19fe738dbd315fb68b6983bd35752d37ce116c0d",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%283%29.jpg",
+   "flNm": "정관 (3).jpg",
+   "alt": "이미지: 정관 (3)",
+   "bytes": 293704,
+   "sha256": "cea98d6b1c4a76d0caa290170ef8330134b3d05ad60775dbb01f5918b965dfac",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%284%29.jpg",
+   "flNm": "정관 (4).jpg",
+   "alt": "이미지: 정관 (4)",
+   "bytes": 238448,
+   "sha256": "11d320b65934cdbcc8cbc9dbf87fa096bf00feeba52f7b5a36c4f53697633cf5",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%285%29.jpg",
+   "flNm": "정관 (5).jpg",
+   "alt": "이미지: 정관 (5)",
+   "bytes": 249593,
+   "sha256": "f6f1858f35945a2de4687222ca04090a3c9065cf81007795e8610306a9bbcbd0",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%286%29.jpg",
+   "flNm": "정관 (6).jpg",
+   "alt": "이미지: 정관 (6)",
+   "bytes": 223968,
+   "sha256": "b78e3fc3ff5e3bd8a70994b17fe63ab8abb23c61565fadc4f2cfd8498625f48d",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%287%29.jpg",
+   "flNm": "정관 (7).jpg",
+   "alt": "이미지: 정관 (7)",
+   "bytes": 281904,
+   "sha256": "8b647c2ab7b24fb049f5725336c1c26bec5a67da8d6100d6ba24e8da0889ebee",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%288%29.jpg",
+   "flNm": "정관 (8).jpg",
+   "alt": "이미지: 정관 (8)",
+   "bytes": 237691,
+   "sha256": "1bae01065e7db59e03fa98d03e8b67b216d0f8e847e21d5b0457e9c74c441410",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%289%29.jpg",
+   "flNm": "정관 (9).jpg",
+   "alt": "이미지: 정관 (9)",
+   "bytes": 248792,
+   "sha256": "7a13eae57c9081ca8af1229863897bcbab9ede6e0fd29fbde77bc10335435fc6",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%2810%29.jpg",
+   "flNm": "정관 (10).jpg",
+   "alt": "이미지: 정관 (10)",
+   "bytes": 226371,
+   "sha256": "cae8648e1d1c692a5b6369975743a9b06966072ccdfc57c8d90c571148a310aa",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%2811%29.jpg",
+   "flNm": "정관 (11).jpg",
+   "alt": "이미지: 정관 (11)",
+   "bytes": 217123,
+   "sha256": "e43666c661d69550b31aaac86e3526099dc02c4bd0c36096b613a76d2656c3d1",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%2812%29.jpg",
+   "flNm": "정관 (12).jpg",
+   "alt": "이미지: 정관 (12)",
+   "bytes": 270414,
+   "sha256": "aa3c5987c8448c020c3844f6ec2761716a28f2ef0c3c7bcf61971b0bd09f6c72",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%2813%29.jpg",
+   "flNm": "정관 (13).jpg",
+   "alt": "이미지: 정관 (13)",
+   "bytes": 223241,
+   "sha256": "4202493197c5d2f8550579dc250532d521728adddf61d68437dd276b199bb16e",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%2814%29.jpg",
+   "flNm": "정관 (14).jpg",
+   "alt": "이미지: 정관 (14)",
+   "bytes": 231124,
+   "sha256": "a6c69bcbdcef3f7db8050aaaa1f74097fb27ff7066ca4bbb388f29bca449373e",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%2815%29.jpg",
+   "flNm": "정관 (15).jpg",
+   "alt": "이미지: 정관 (15)",
+   "bytes": 247383,
+   "sha256": "071c7987b7f5b3a58cbcd6ddd5cfc5d77c20273d5057eaabd60e8288e75f09ee",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%2816%29.jpg",
+   "flNm": "정관 (16).jpg",
+   "alt": "이미지: 정관 (16)",
+   "bytes": 243365,
+   "sha256": "2b8c4a6f480db32c093171aaaeb7e6ee802961c656dd5af6a6f8c37ebf2f9e9d",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%2817%29.jpg",
+   "flNm": "정관 (17).jpg",
+   "alt": "이미지: 정관 (17)",
+   "bytes": 191529,
+   "sha256": "283b06df9427aae37a385446b8add8e36b66e59163d45de6c6f7b4cf0bc66bb6",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%2818%29.jpg",
+   "flNm": "정관 (18).jpg",
+   "alt": "이미지: 정관 (18)",
+   "bytes": 144408,
+   "sha256": "09946f1ba05eeb61c48b5ccefeab2c46842126d9a3e1acb1e2d1583724835556",
+   "width": 1656,
+   "height": 2339
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158558&flNm=%EC%A0%95%EA%B4%80+%2819%29.jpg",
+   "flNm": "정관 (19).jpg",
+   "alt": "이미지: 정관 (19)",
+   "bytes": 275209,
+   "sha256": "f6033a3d22fd1b5e8eec8bd8eaa12d674d0679407346159bc9cf1142bf6748ee",
+   "width": 1656,
+   "height": 2339
+  }
+ ],
+ "folder": "data/charter_kosdaq/192440_슈피겐코리아/20260320_11158558",
+ "fetched_at": "2026-11-16T21:05:58",
+ "used_by_rcept_no": [
+  "20260320001111"
+ ]
+}

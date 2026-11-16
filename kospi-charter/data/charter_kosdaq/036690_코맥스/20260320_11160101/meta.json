@@ -1,0 +1,37 @@
+{
+ "corp_code": "00268118",
+ "corp_name": "코맥스",
+ "stock_code": "036690",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001378",
+ "dcmNo": "11160101",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001378&dcmNo=11160101",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001378&dcmNo=11160101&eleId=1&offset=596&length=338&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 54,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/036690_코맥스/20260320_11160101",
+ "fetched_at": "2026-11-16T20:06:01",
+ "used_by_rcept_no": [
+  "20260320001378"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160101&flNm=%EC%A0%95%EA%B4%80_%EC%BD%94%EB%A7%A5%EC%8A%A4_26%EB%85%84+1%EC%B0%A8+%EC%9E%84%EC%8B%9C%EC%A3%BC%EC%B4%9D+%ED%99%95%EC%A0%95_%28%EB%8C%80%EC%99%B8%EB%B9%84%29.pdf",
+   "flNm": "정관_코맥스_26년 1차 임시주총 확정_(대외비).pdf",
+   "bytes": 163893,
+   "sha256": "0688a1206a0fc25982bdc6de8fd5bb1a9a3583c0fbcff2636ce7319b567981e7",
+   "pages": 8,
+   "text_pages": 8,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260916000173",
+ "corp_code": "00982023",
+ "corp_name": "실리콘투",
+ "stock_code": "257720",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260916",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000173",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260916000173.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260916000173.xml",
+   "bytes": 74209,
+   "sha256": "7d561bbcb8300f89573ddbd6ba84fe06cf31fe5cacfe7e9a15ba7d38a6a61005"
+  }
+ ],
+ "folder": "data/agm_kosdaq/257720_실리콘투/20260916_20260916000173",
+ "fetched_at": "2026-11-16T19:38:52"
+}

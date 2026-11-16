@@ -1,0 +1,24 @@
+{
+ "corp_code": "01965698",
+ "corp_name": "엔에이치스팩33호",
+ "stock_code": "0130H0",
+ "att_title": "2026.02.11 정관",
+ "att_date": "20260211",
+ "rcpNo": "20260211000823",
+ "dcmNo": "11016918",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260211000823&dcmNo=11016918",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260211000823&dcmNo=11016918&eleId=1&offset=606&length=20795&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12031,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_absent/0130H0_엔에이치스팩33호/20260211_11016918",
+ "fetched_at": "2026-11-17T01:01:19",
+ "used_by_stock_code": [
+  "0130H0"
+ ]
+}

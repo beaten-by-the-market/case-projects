@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261007000123",
+ "corp_code": "00651017",
+ "corp_name": "나우IB",
+ "stock_code": "293580",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261007",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000123",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261007000123.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261007000123.xml",
+   "bytes": 58789,
+   "sha256": "252959246744f49c9e7bc5bb9262237b9122b310f73ed858c0f240b286142996"
+  }
+ ],
+ "folder": "data/agm_kosdaq/293580_나우IB/20261007_20261007000123",
+ "fetched_at": "2026-11-16T19:39:33"
+}

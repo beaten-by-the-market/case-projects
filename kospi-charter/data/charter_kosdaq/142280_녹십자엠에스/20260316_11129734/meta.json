@@ -1,0 +1,24 @@
+{
+ "corp_code": "00513948",
+ "corp_name": "녹십자엠에스",
+ "stock_code": "142280",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001623",
+ "dcmNo": "11129734",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001623&dcmNo=11129734",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001623&dcmNo=11129734&eleId=1&offset=597&length=20019&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9505,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/142280_녹십자엠에스/20260316_11129734",
+ "fetched_at": "2026-11-16T20:57:32",
+ "used_by_rcept_no": [
+  "20260316001623"
+ ]
+}

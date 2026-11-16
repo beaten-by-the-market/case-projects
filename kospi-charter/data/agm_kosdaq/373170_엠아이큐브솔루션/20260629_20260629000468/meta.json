@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260629000468",
+ "corp_code": "01497142",
+ "corp_name": "엠아이큐브솔루션",
+ "stock_code": "373170",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260629",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000468",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2204,
+ "charter_amend_txt": "data/agm_kosdaq/373170_엠아이큐브솔루션/20260629_20260629000468/정관의변경.txt",
+ "main_xml": "20260629000468.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260629000468.xml",
+   "bytes": 75980,
+   "sha256": "f50bb7fb57e0c7610feeb9e872bf1e20116d0285aa69607fa252f92defa94a44"
+  }
+ ],
+ "folder": "data/agm_kosdaq/373170_엠아이큐브솔루션/20260629_20260629000468",
+ "fetched_at": "2026-11-16T19:36:10"
+}

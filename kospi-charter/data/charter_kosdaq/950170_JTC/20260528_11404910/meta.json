@@ -1,0 +1,24 @@
+{
+ "corp_code": "01041828",
+ "corp_name": "JTC",
+ "stock_code": "950170",
+ "att_title": "2026.05.28 정관",
+ "att_date": "20260528",
+ "rcpNo": "20260528000907",
+ "dcmNo": "11404910",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528000907&dcmNo=11404910",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260528000907&dcmNo=11404910&eleId=1&offset=591&length=19288&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11018,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/950170_JTC/20260528_11404910",
+ "fetched_at": "2026-11-16T22:10:52",
+ "used_by_rcept_no": [
+  "20260528000907"
+ ]
+}

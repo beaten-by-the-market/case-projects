@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260320000922",
+ "corp_code": "00445160",
+ "corp_name": "APS이노베이션",
+ "stock_code": "079810",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260320",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000922",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2491,
+ "charter_amend_txt": "data/agm_kosdaq/079810_APS이노베이션/20260320_20260320000922/정관의변경.txt",
+ "main_xml": "20260320000922.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260320000922.xml",
+   "bytes": 248847,
+   "sha256": "710edb3e4a6742a02af88336dd9959eb2241190b61edb356d2b5339d29361824"
+  }
+ ],
+ "folder": "data/agm_kosdaq/079810_APS이노베이션/20260320_20260320000922",
+ "fetched_at": "2026-11-16T19:32:44"
+}

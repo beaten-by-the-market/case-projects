@@ -1,0 +1,37 @@
+{
+ "corp_code": "00364467",
+ "corp_name": "드림어스컴퍼니",
+ "stock_code": "060570",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000743",
+ "dcmNo": "11149008",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000743&dcmNo=11149008",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000743&dcmNo=11149008&eleId=1&offset=598&length=336&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 54,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/060570_드림어스컴퍼니/20260319_11149008",
+ "fetched_at": "2026-11-16T20:24:22",
+ "used_by_rcept_no": [
+  "20260319000743"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149008&flNm=%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC+%EB%93%9C%EB%A6%BC%EC%96%B4%EC%8A%A4%EC%BB%B4%ED%8D%BC%EB%8B%88+%EC%A0%95%EA%B4%80_2023.03.30.pdf",
+   "flNm": "주식회사 드림어스컴퍼니 정관_2023.03.30.pdf",
+   "bytes": 328934,
+   "sha256": "64afcd008d3ba663482844e5d2a8800adaec39a5f474d9ba7328a60beaec49b6",
+   "pages": 25,
+   "text_pages": 25,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

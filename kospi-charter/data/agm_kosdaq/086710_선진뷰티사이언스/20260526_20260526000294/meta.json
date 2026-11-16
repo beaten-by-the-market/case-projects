@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260526000294",
+ "corp_code": "00132202",
+ "corp_name": "선진뷰티사이언스",
+ "stock_code": "086710",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260526",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260526000294",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260526000294.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260526000294.xml",
+   "bytes": 200603,
+   "sha256": "678641b8ece0210992eb91da5ce31a5b1baca80f149ca14d831223a6772b0abd"
+  }
+ ],
+ "folder": "data/agm_kosdaq/086710_선진뷰티사이언스/20260526_20260526000294",
+ "fetched_at": "2026-11-16T19:34:40"
+}

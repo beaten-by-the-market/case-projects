@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260305000641",
+ "corp_code": "01949140",
+ "corp_name": "교보19호스팩",
+ "stock_code": "0098T0",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260305",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305000641",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260305000641.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260305000641.xml",
+   "bytes": 59663,
+   "sha256": "738b060c9f09264833cd2e7cdf43b273444941b90b64176bcf87c4c2da6cfec5"
+  }
+ ],
+ "folder": "data/agm_kosdaq/0098T0_교보19호스팩/20260305_20260305000641",
+ "fetched_at": "2026-11-16T19:32:11"
+}

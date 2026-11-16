@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260821000075",
+ "corp_code": "00138446",
+ "corp_name": "아가방컴퍼니",
+ "stock_code": "013990",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260821",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000075",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260821000075.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260821000075.xml",
+   "bytes": 46721,
+   "sha256": "a83333c30369a6c6192c55713bbd0c23fd8c7db5a91255641aa73638f694fe84"
+  }
+ ],
+ "folder": "data/agm_kosdaq/013990_아가방컴퍼니/20260821_20260821000075",
+ "fetched_at": "2026-11-16T19:38:17"
+}

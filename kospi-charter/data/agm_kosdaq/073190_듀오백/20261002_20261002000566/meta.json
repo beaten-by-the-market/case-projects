@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261002000566",
+ "corp_code": "00407771",
+ "corp_name": "듀오백",
+ "stock_code": "073190",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261002",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000566",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261002000566.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261002000566.xml",
+   "bytes": 34783,
+   "sha256": "a5f03a5842de4ed36d63ea2227c55cb7739246aad9bd6c554f6673609754be34"
+  }
+ ],
+ "folder": "data/agm_kosdaq/073190_듀오백/20261002_20261002000566",
+ "fetched_at": "2026-11-16T19:39:31"
+}

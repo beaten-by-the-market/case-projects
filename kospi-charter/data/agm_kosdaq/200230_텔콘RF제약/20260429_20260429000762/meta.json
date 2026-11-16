@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260429000762",
+ "corp_code": "00608802",
+ "corp_name": "텔콘RF제약",
+ "stock_code": "200230",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260429",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000762",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260429000762.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260429000762.xml",
+   "bytes": 78871,
+   "sha256": "252c06b5c7e6267286c2869829ce21df210a309d7f665c4815da154ac20c3593"
+  }
+ ],
+ "folder": "data/agm_kosdaq/200230_텔콘RF제약/20260429_20260429000762",
+ "fetched_at": "2026-11-16T19:33:47"
+}

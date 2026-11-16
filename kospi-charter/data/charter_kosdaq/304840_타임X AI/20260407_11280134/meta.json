@@ -1,0 +1,195 @@
+{
+ "corp_code": "01118281",
+ "corp_name": "타임X AI",
+ "stock_code": "304840",
+ "att_title": "2026.04.07 정관",
+ "att_date": "20260407",
+ "rcpNo": "20260407003703",
+ "dcmNo": "11280134",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407003703&dcmNo=11280134",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260407003703&dcmNo=11280134&eleId=1&offset=598&length=3444&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 17,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0001.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0001.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0001",
+   "bytes": 252063,
+   "sha256": "6b59664909ec67f23421096d5cdb8cd9e999ec8dc675754c83fde6eb88e115d4",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0002.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0002.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0002",
+   "bytes": 146148,
+   "sha256": "a2f30b7c5f29899c3a57f7d616637e263f3b0734dbe2c80b75c497a184fd4952",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0003.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0003.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0003",
+   "bytes": 280072,
+   "sha256": "9f1b3b3bf30d263138d6382fc4b6bb89d99df9ab4969666003dd8416eeb446e0",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0004.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0004.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0004",
+   "bytes": 269041,
+   "sha256": "52bbe2f3d964d418b12630a10f6b1fc3ed63ed871b5e6934507afabe75025899",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0005.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0005.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0005",
+   "bytes": 263338,
+   "sha256": "f00c27adceed812beeaa6e52d7dc538b4742a1023212b8950e4abd9a61857796",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0006.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0006.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0006",
+   "bytes": 287131,
+   "sha256": "e84d9823c323b8dea39b86a6dd550b3ac83fc044b6a7c52bc51a46c950b76c04",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0007.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0007.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0007",
+   "bytes": 174402,
+   "sha256": "081640aa63d66216301fb3ef01ff598ed6ec5e4c2e59fda84e411ee165e26e80",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0008.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0008.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0008",
+   "bytes": 247105,
+   "sha256": "feb752905ff954ce3dc8277aea9d5324c265cc0183105f693faeee32d9aa3ff0",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0009.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0009.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0009",
+   "bytes": 179155,
+   "sha256": "f36c4375f7532ca9f0e4ae49e021bdb71dfe9631df419e4d447c35728d17fa9e",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0010.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0010.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0010",
+   "bytes": 180687,
+   "sha256": "83f5946734b848610bb80ac656c2a6685f144b4eef8559805fb9845cfd87651e",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0011.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0011.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0011",
+   "bytes": 159305,
+   "sha256": "9030284b0242d3937b4d24afd24a480409972ded5c15a37907356eaf9aa8b0ff",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0012.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0012.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0012",
+   "bytes": 183621,
+   "sha256": "89e5ae6e73733156cbd367e2ff36013eb6719001f1920979fd85610f35d97531",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0013.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0013.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0013",
+   "bytes": 174648,
+   "sha256": "a89c7c6af6d9edea3dd1f8cd1d219cf5ca907448e1ccbc5e5b1e5339b056df0c",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0014.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0014.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0014",
+   "bytes": 220766,
+   "sha256": "b307b64e68fa028949dfceb098784937ffd33cf1582a0746e55314c4289c3d32",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0015.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0015.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0015",
+   "bytes": 168101,
+   "sha256": "b69922571411659969276daae3af794e644d34eeba2efa5bafa2b7ed454f82ae",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0016.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0016.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0016",
+   "bytes": 170834,
+   "sha256": "0f545a88df7d04b9419627a72c2dda0cd85b2684751d98570f3931e225fd069b",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11280134&flNm=%EC%A0%95%EA%B4%80_%ED%94%BC%ED%94%8C%EB%B0%94%EC%9D%B4%EC%98%A4_220728%28%ED%98%84%EC%9E%AC%29_page-0017.jpg",
+   "flNm": "정관_피플바이오_220728(현재)_page-0017.jpg",
+   "alt": "이미지: 정관_피플바이오_220728(현재)_page-0017",
+   "bytes": 107018,
+   "sha256": "d82561bce7b27cb2e81e45792b03cfa570f2795e8604f7b730733383a5a92aa5",
+   "width": 1241,
+   "height": 1755
+  }
+ ],
+ "folder": "data/charter_kosdaq/304840_타임X AI/20260407_11280134",
+ "fetched_at": "2026-11-16T21:29:23",
+ "used_by_rcept_no": [
+  "20260407003703"
+ ]
+}

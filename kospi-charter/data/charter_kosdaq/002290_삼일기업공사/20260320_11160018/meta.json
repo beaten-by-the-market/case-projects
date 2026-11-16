@@ -1,0 +1,24 @@
+{
+ "corp_code": "00127936",
+ "corp_name": "삼일기업공사",
+ "stock_code": "002290",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001358",
+ "dcmNo": "11160018",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001358&dcmNo=11160018",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001358&dcmNo=11160018&eleId=1&offset=597&length=8997&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 4093,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/002290_삼일기업공사/20260320_11160018",
+ "fetched_at": "2026-11-16T19:43:54",
+ "used_by_rcept_no": [
+  "20260320001358"
+ ]
+}

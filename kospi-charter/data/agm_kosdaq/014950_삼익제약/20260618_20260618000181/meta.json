@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260618000181",
+ "corp_code": "00127875",
+ "corp_name": "삼익제약",
+ "stock_code": "014950",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260618",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618000181",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 573,
+ "charter_amend_txt": "data/agm_kosdaq/014950_삼익제약/20260618_20260618000181/정관의변경.txt",
+ "main_xml": "20260618000181.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260618000181.xml",
+   "bytes": 43484,
+   "sha256": "3668c5d20c226db41a169d9dafc1bbc633d31eb9baef9f61c977ac46061c7947"
+  }
+ ],
+ "folder": "data/agm_kosdaq/014950_삼익제약/20260618_20260618000181",
+ "fetched_at": "2026-11-16T19:35:35"
+}

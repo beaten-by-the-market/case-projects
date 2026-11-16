@@ -1,0 +1,24 @@
+{
+ "corp_code": "00532855",
+ "corp_name": "한국유니온제약",
+ "stock_code": "080720",
+ "att_title": "2026.03.31 정관",
+ "att_date": "20260331",
+ "rcpNo": "20260331002001",
+ "dcmNo": "11205159",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331002001&dcmNo=11205159",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260331002001&dcmNo=11205159&eleId=1&offset=598&length=28731&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11928,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/080720_한국유니온제약/20260331_11205159",
+ "fetched_at": "2026-11-16T20:39:12",
+ "used_by_rcept_no": [
+  "20260331002001"
+ ]
+}

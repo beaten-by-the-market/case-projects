@@ -1,0 +1,24 @@
+{
+ "corp_code": "00110875",
+ "corp_name": "대신정보통신",
+ "stock_code": "020180",
+ "att_title": "2026.06.18 정관",
+ "att_date": "20260618",
+ "rcpNo": "20260618000361",
+ "dcmNo": "11438378",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618000361&dcmNo=11438378",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260618000361&dcmNo=11438378&eleId=1&offset=597&length=14551&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 8453,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/020180_대신정보통신/20260618_11438378",
+ "fetched_at": "2026-11-16T19:57:20",
+ "used_by_rcept_no": [
+  "20260814000272"
+ ]
+}

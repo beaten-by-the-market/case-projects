@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260811000493",
+ "corp_code": "00787057",
+ "corp_name": "휴맥스",
+ "stock_code": "115160",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260811",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000493",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260811000493.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260811000493.xml",
+   "bytes": 262807,
+   "sha256": "e1b263d5e18df7819c345f023a161eccfd445c028425b694d6f6671b5f199861"
+  }
+ ],
+ "folder": "data/agm_kosdaq/115160_휴맥스/20260811_20260811000493",
+ "fetched_at": "2026-11-16T19:37:41"
+}

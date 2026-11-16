@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260316000460",
+ "corp_code": "00364254",
+ "corp_name": "알티캐스트",
+ "stock_code": "085810",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260316",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000460",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260316000460.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260316000460.xml",
+   "bytes": 240866,
+   "sha256": "e76d6636c207cbb6ade7eded7391b079f709f666a3c4c9ba514e45764da07e8e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/085810_알티캐스트/20260316_20260316000460",
+ "fetched_at": "2026-11-16T19:32:24"
+}

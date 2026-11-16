@@ -1,0 +1,37 @@
+{
+ "corp_code": "01441611",
+ "corp_name": "원티드랩",
+ "stock_code": "376980",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001529",
+ "dcmNo": "11168335",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001529&dcmNo=11168335",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001529&dcmNo=11168335&eleId=1&offset=597&length=322&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 42,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/376980_원티드랩/20260323_11168335",
+ "fetched_at": "2026-11-16T21:43:46",
+ "used_by_rcept_no": [
+  "20260323001529"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168335&flNm=%EC%9B%90%ED%8B%B0%EB%93%9C%EB%9E%A9+%EC%A0%95%EA%B4%80_20230330_%EA%B0%9C%EC%A0%95.pdf",
+   "flNm": "원티드랩 정관_20230330_개정.pdf",
+   "bytes": 636894,
+   "sha256": "a6f4e42e5700730d651de533b02a704dd0df10b65ad1e108574e23a1284a9c07",
+   "pages": 16,
+   "text_pages": 0,
+   "ocr_pages": 16
+  }
+ ],
+ "n_pdfs": 1
+}

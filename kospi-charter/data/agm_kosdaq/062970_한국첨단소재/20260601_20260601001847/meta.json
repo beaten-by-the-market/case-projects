@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260601001847",
+ "corp_code": "00403766",
+ "corp_name": "한국첨단소재",
+ "stock_code": "062970",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260601",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601001847",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 215,
+ "charter_amend_txt": "data/agm_kosdaq/062970_한국첨단소재/20260601_20260601001847/정관의변경.txt",
+ "main_xml": "20260601001847.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260601001847.xml",
+   "bytes": 46917,
+   "sha256": "c9abf9b2437d68f94e1be20e3f0a9cb2de17b25da4e57c353f7fe248a6b62d6b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/062970_한국첨단소재/20260601_20260601001847",
+ "fetched_at": "2026-11-16T19:34:47"
+}

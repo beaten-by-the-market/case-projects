@@ -1,0 +1,175 @@
+{
+ "corp_code": "00660033",
+ "corp_name": "씨엔플러스",
+ "stock_code": "115530",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001545",
+ "dcmNo": "11168477",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001545&dcmNo=11168477",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001545&dcmNo=11168477&eleId=1&offset=593&length=2432&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 15,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_1.jpg",
+   "flNm": "정관(cnplus)_1.jpg",
+   "alt": "이미지: 정관(cnplus)_1",
+   "bytes": 37450,
+   "sha256": "8cce4db296caa9be8f8f0efceedbd2b6433e7fea0c54f4dee421889fb4459fe9",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_2.jpg",
+   "flNm": "정관(cnplus)_2.jpg",
+   "alt": "이미지: 정관(cnplus)_2",
+   "bytes": 233574,
+   "sha256": "f84cc9a53a3033c7ce16fb0567c889c61375bec0b80a8040b94dbfee97fff7c9",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_3.jpg",
+   "flNm": "정관(cnplus)_3.jpg",
+   "alt": "이미지: 정관(cnplus)_3",
+   "bytes": 302567,
+   "sha256": "257ff1ce92016c35470ebc1eaca1481b4d32508e838399e0f86c02c75d47212d",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_4.jpg",
+   "flNm": "정관(cnplus)_4.jpg",
+   "alt": "이미지: 정관(cnplus)_4",
+   "bytes": 100261,
+   "sha256": "e797fa53bfcaa39583f7ad6ebe5047b0076568e6830919d16360352a526ff03c",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_5.jpg",
+   "flNm": "정관(cnplus)_5.jpg",
+   "alt": "이미지: 정관(cnplus)_5",
+   "bytes": 123216,
+   "sha256": "c9d96afe899dd2a41a9051f18c9497acb179e612183e48064651e91a1485af97",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_6.jpg",
+   "flNm": "정관(cnplus)_6.jpg",
+   "alt": "이미지: 정관(cnplus)_6",
+   "bytes": 126498,
+   "sha256": "e77a69b40105f67b3fd39df614ae21a37a9960ec6d614a1dce91bf9563e65177",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_7.jpg",
+   "flNm": "정관(cnplus)_7.jpg",
+   "alt": "이미지: 정관(cnplus)_7",
+   "bytes": 88967,
+   "sha256": "3b665998a9af952f4e705d2041f1f099016f357f5c4d756f62192fe56e7e71e0",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_8.jpg",
+   "flNm": "정관(cnplus)_8.jpg",
+   "alt": "이미지: 정관(cnplus)_8",
+   "bytes": 123597,
+   "sha256": "1c083fc2e9e5bed660e3f8a993279394f0ddbb9105a1966ce60685c1e6e160ef",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_9.jpg",
+   "flNm": "정관(cnplus)_9.jpg",
+   "alt": "이미지: 정관(cnplus)_9",
+   "bytes": 110372,
+   "sha256": "a247b886a00ef369c2c33dcb556b53c9ffa9e9015f94105163fe1e6b9edc71af",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_10.jpg",
+   "flNm": "정관(cnplus)_10.jpg",
+   "alt": "이미지: 정관(cnplus)_10",
+   "bytes": 104174,
+   "sha256": "313bfbf681e0ffcb0c24682e6076c92090e508b62185e92ed240612cbe42b3cc",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_11.jpg",
+   "flNm": "정관(cnplus)_11.jpg",
+   "alt": "이미지: 정관(cnplus)_11",
+   "bytes": 307046,
+   "sha256": "b1db07b959e5c34068c9bc535ff641c18ebf2e799e8b6b102173a32291ba8df3",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_12.jpg",
+   "flNm": "정관(cnplus)_12.jpg",
+   "alt": "이미지: 정관(cnplus)_12",
+   "bytes": 93445,
+   "sha256": "b29471ceb229c8b3afdf6ef0825e17aaae5c449561d66a4fb6b885252c902508",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_13.jpg",
+   "flNm": "정관(cnplus)_13.jpg",
+   "alt": "이미지: 정관(cnplus)_13",
+   "bytes": 90422,
+   "sha256": "e72b20e7f0df67a00a046ed30605450b6b5cf87813edcdf3c1ab1b77026ab2c1",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_14.jpg",
+   "flNm": "정관(cnplus)_14.jpg",
+   "alt": "이미지: 정관(cnplus)_14",
+   "bytes": 93648,
+   "sha256": "453c01e63206b8cfe9047e6414e5fcd6e53fe1af0ffdeee3433d249941a82191",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168477&flNm=%EC%A0%95%EA%B4%80%28cnplus%29_15.jpg",
+   "flNm": "정관(cnplus)_15.jpg",
+   "alt": "이미지: 정관(cnplus)_15",
+   "bytes": 101383,
+   "sha256": "a80dc74731166bb02707f2b3eb28b13d44527278b90cec6ce755e64d90d46ef6",
+   "width": 793,
+   "height": 1121
+  }
+ ],
+ "folder": "data/charter_kosdaq/115530_씨엔플러스/20260323_11168477",
+ "fetched_at": "2026-11-16T20:52:09",
+ "used_by_rcept_no": [
+  "20260821000672"
+ ]
+}

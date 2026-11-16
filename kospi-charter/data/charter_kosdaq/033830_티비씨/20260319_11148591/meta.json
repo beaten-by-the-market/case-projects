@@ -1,0 +1,24 @@
+{
+ "corp_code": "00204642",
+ "corp_name": "티비씨",
+ "stock_code": "033830",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000683",
+ "dcmNo": "11148591",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000683&dcmNo=11148591",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000683&dcmNo=11148591&eleId=1&offset=594&length=15369&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9179,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/033830_티비씨/20260319_11148591",
+ "fetched_at": "2026-11-16T20:03:50",
+ "used_by_rcept_no": [
+  "20260319000683"
+ ]
+}

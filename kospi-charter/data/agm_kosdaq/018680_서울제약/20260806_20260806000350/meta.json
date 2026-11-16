@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260806000350",
+ "corp_code": "00131018",
+ "corp_name": "서울제약",
+ "stock_code": "018680",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260806",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000350",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3579,
+ "charter_amend_txt": "data/agm_kosdaq/018680_서울제약/20260806_20260806000350/정관의변경.txt",
+ "main_xml": "20260806000350.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260806000350.xml",
+   "bytes": 57087,
+   "sha256": "edd4df3aafa05eb6443bd9cd9ee63a671abdfce35dc9a992d6b25d9182797b05"
+  }
+ ],
+ "folder": "data/agm_kosdaq/018680_서울제약/20260806_20260806000350",
+ "fetched_at": "2026-11-16T19:37:34"
+}

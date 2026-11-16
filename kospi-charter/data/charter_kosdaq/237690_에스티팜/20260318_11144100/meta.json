@@ -1,0 +1,24 @@
+{
+ "corp_code": "00871833",
+ "corp_name": "에스티팜",
+ "stock_code": "237690",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001605",
+ "dcmNo": "11144100",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001605&dcmNo=11144100",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001605&dcmNo=11144100&eleId=1&offset=595&length=18247&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11239,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/237690_에스티팜/20260318_11144100",
+ "fetched_at": "2026-11-16T21:15:20",
+ "used_by_rcept_no": [
+  "20260602000343"
+ ]
+}

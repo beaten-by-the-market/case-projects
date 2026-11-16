@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260430000059",
+ "corp_code": "01003040",
+ "corp_name": "케이사인",
+ "stock_code": "192250",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260430",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430000059",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2802,
+ "charter_amend_txt": "data/agm_kosdaq/192250_케이사인/20260430_20260430000059/정관의변경.txt",
+ "main_xml": "20260430000059.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260430000059.xml",
+   "bytes": 54104,
+   "sha256": "c8cae51216accb6d993f3e17425c23d5f9b20971f4f80817cbf39efc8e359fda"
+  }
+ ],
+ "folder": "data/agm_kosdaq/192250_케이사인/20260430_20260430000059",
+ "fetched_at": "2026-11-16T19:33:48"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260605000429",
+ "corp_code": "01137383",
+ "corp_name": "카카오게임즈",
+ "stock_code": "293490",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260605",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000429",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 497,
+ "charter_amend_txt": "data/agm_kosdaq/293490_카카오게임즈/20260605_20260605000429/정관의변경.txt",
+ "main_xml": "20260605000429.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260605000429.xml",
+   "bytes": 103844,
+   "sha256": "6e4a4ee14b95a4d1d12950239a8a645d95534ba47c85ac50b1a75d860b46e253"
+  }
+ ],
+ "folder": "data/agm_kosdaq/293490_카카오게임즈/20260605_20260605000429",
+ "fetched_at": "2026-11-16T19:35:08"
+}

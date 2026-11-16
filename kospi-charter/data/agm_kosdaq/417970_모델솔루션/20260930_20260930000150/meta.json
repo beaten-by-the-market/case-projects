@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260930000150",
+ "corp_code": "00657783",
+ "corp_name": "모델솔루션",
+ "stock_code": "417970",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260930",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000150",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 711,
+ "charter_amend_txt": "data/agm_kosdaq/417970_모델솔루션/20260930_20260930000150/정관의변경.txt",
+ "main_xml": "20260930000150.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260930000150.xml",
+   "bytes": 48771,
+   "sha256": "475bf75bda39c588b931d130e6a7155a4e439aabe05b4e0f580f56ffad1a5ace"
+  }
+ ],
+ "folder": "data/agm_kosdaq/417970_모델솔루션/20260930_20260930000150",
+ "fetched_at": "2026-11-16T19:39:26"
+}

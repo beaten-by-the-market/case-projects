@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260625000294",
+ "corp_code": "00305941",
+ "corp_name": "노브랜드",
+ "stock_code": "145170",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260625",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625000294",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260625000294.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260625000294.xml",
+   "bytes": 86341,
+   "sha256": "75b04a943c1c52410af051e82e13306003878e5a68fef2bce4d9ed60cbb27b63"
+  }
+ ],
+ "folder": "data/agm_kosdaq/145170_노브랜드/20260625_20260625000294",
+ "fetched_at": "2026-11-16T19:35:51"
+}

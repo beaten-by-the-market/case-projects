@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260511000693",
+ "corp_code": "00307028",
+ "corp_name": "경남제약",
+ "stock_code": "053950",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260511",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511000693",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 577,
+ "charter_amend_txt": "data/agm_kosdaq/053950_경남제약/20260511_20260511000693/정관의변경.txt",
+ "main_xml": "20260511000693.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260511000693.xml",
+   "bytes": 45730,
+   "sha256": "57eb03ec9fcef655baebb6f39607769d95916ffea5ee9fac2e07d621152b59e4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/053950_경남제약/20260511_20260511000693",
+ "fetched_at": "2026-11-16T19:34:16"
+}

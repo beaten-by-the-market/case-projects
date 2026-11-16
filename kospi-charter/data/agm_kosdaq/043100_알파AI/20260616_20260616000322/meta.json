@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260616000322",
+ "corp_code": "00220109",
+ "corp_name": "알파AI",
+ "stock_code": "043100",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260616",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260616000322",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 627,
+ "charter_amend_txt": "data/agm_kosdaq/043100_알파AI/20260616_20260616000322/정관의변경.txt",
+ "main_xml": "20260616000322.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260616000322.xml",
+   "bytes": 66044,
+   "sha256": "5c755ff048e6062de0384a6b389b682342aa07eb5c4432017109361ab5c9247c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/043100_알파AI/20260616_20260616000322",
+ "fetched_at": "2026-11-16T19:35:34"
+}

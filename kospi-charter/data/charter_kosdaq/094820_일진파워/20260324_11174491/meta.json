@@ -1,0 +1,37 @@
+{
+ "corp_code": "00485177",
+ "corp_name": "일진파워",
+ "stock_code": "094820",
+ "att_title": "2026.03.24 정관",
+ "att_date": "20260324",
+ "rcpNo": "20260324001034",
+ "dcmNo": "11174491",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324001034&dcmNo=11174491",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260324001034&dcmNo=11174491&eleId=1&offset=595&length=334&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 54,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/094820_일진파워/20260324_11174491",
+ "fetched_at": "2026-11-16T20:45:00",
+ "used_by_rcept_no": [
+  "20260630000845"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174491&flNm=%EC%9D%BC%EC%A7%84%ED%8C%8C%EC%9B%8C+%EC%A0%95%EA%B4%80_rev.2023.12.29_%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "일진파워 정관_rev.2023.12.29_정관.pdf",
+   "bytes": 830454,
+   "sha256": "0472bd25b72392936757f76ca7ea62c4444fc22def501dce63ea89fa774f1be5",
+   "pages": 16,
+   "text_pages": 0,
+   "ocr_pages": 16
+  }
+ ],
+ "n_pdfs": 1
+}

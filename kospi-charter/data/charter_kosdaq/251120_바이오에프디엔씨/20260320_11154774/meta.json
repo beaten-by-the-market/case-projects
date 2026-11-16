@@ -1,0 +1,24 @@
+{
+ "corp_code": "01160974",
+ "corp_name": "바이오에프디엔씨",
+ "stock_code": "251120",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000265",
+ "dcmNo": "11154774",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000265&dcmNo=11154774",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000265&dcmNo=11154774&eleId=1&offset=599&length=25318&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11455,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/251120_바이오에프디엔씨/20260320_11154774",
+ "fetched_at": "2026-11-16T21:18:08",
+ "used_by_rcept_no": [
+  "20260320000265"
+ ]
+}

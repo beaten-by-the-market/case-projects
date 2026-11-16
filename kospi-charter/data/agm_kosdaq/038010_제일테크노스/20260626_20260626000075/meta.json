@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260626000075",
+ "corp_code": "00148595",
+ "corp_name": "제일테크노스",
+ "stock_code": "038010",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260626",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000075",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260626000075.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260626000075.xml",
+   "bytes": 38911,
+   "sha256": "14dea5acbd02b82b663a017fcfa78cc8117575adba084edcf5a6de4128dd8139"
+  }
+ ],
+ "folder": "data/agm_kosdaq/038010_제일테크노스/20260626_20260626000075",
+ "fetched_at": "2026-11-16T19:35:52"
+}

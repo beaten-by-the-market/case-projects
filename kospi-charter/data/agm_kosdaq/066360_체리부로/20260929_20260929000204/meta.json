@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260929000204",
+ "corp_code": "00216434",
+ "corp_name": "체리부로",
+ "stock_code": "066360",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260929",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000204",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1166,
+ "charter_amend_txt": "data/agm_kosdaq/066360_체리부로/20260929_20260929000204/정관의변경.txt",
+ "main_xml": "20260929000204.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260929000204.xml",
+   "bytes": 46336,
+   "sha256": "aab2291e58df1a7ec320a216441637992d58feb7639c738ff91fb6b5ec48a29c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/066360_체리부로/20260929_20260929000204",
+ "fetched_at": "2026-11-16T19:39:24"
+}

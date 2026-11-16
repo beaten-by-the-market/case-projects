@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260709000174",
+ "corp_code": "00104537",
+ "corp_name": "국영지앤엠",
+ "stock_code": "006050",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260709",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000174",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 212,
+ "charter_amend_txt": "data/agm_kosdaq/006050_국영지앤엠/20260709_20260709000174/정관의변경.txt",
+ "main_xml": "20260709000174.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260709000174.xml",
+   "bytes": 41138,
+   "sha256": "72130881c78b3042741bc403d7aec854ede79ea1790bb58db02de04f248c2200"
+  }
+ ],
+ "folder": "data/agm_kosdaq/006050_국영지앤엠/20260709_20260709000174",
+ "fetched_at": "2026-11-16T19:36:34"
+}

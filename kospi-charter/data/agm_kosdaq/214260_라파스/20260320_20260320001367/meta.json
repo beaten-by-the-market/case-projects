@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260320001367",
+ "corp_code": "01058101",
+ "corp_name": "라파스",
+ "stock_code": "214260",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260320",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001367",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 7110,
+ "charter_amend_txt": "data/agm_kosdaq/214260_라파스/20260320_20260320001367/정관의변경.txt",
+ "main_xml": "20260320001367.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260320001367.xml",
+   "bytes": 408254,
+   "sha256": "64b26f21e329a50a63ff9092b42243bb0769fb70999e84c10f1c76dffd42b18e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/214260_라파스/20260320_20260320001367",
+ "fetched_at": "2026-11-16T19:32:46"
+}

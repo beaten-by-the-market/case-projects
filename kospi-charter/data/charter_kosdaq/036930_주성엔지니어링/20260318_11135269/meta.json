@@ -1,0 +1,24 @@
+{
+ "corp_code": "00252135",
+ "corp_name": "주성엔지니어링",
+ "stock_code": "036930",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000323",
+ "dcmNo": "11135269",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000323&dcmNo=11135269",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000323&dcmNo=11135269&eleId=1&offset=598&length=31813&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14771,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/036930_주성엔지니어링/20260318_11135269",
+ "fetched_at": "2026-11-16T20:06:23",
+ "used_by_rcept_no": [
+  "20260318000323"
+ ]
+}

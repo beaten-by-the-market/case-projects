@@ -1,0 +1,39 @@
+{
+ "corp_code": "01880801",
+ "corp_name": "KB발해인프라",
+ "stock_code": "415640",
+ "att_title": "기타신고사항 '케이비발해인프라투융자회사 정관 일부 개정' 첨부 개정정관",
+ "att_date": "20260225",
+ "rcpNo": "20260225001757",
+ "dcmNo": null,
+ "att_url": "https://kind.krx.co.kr/external/2026/02/25/001757/20260225001091/%EB%B0%9C%ED%95%B4%EC%9D%B8%ED%94%84%EB%9D%BC%20%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_20260225.pdf",
+ "viewer_urls": [
+  null
+ ],
+ "n_nodes": 0,
+ "content_type": "pdf",
+ "text_chars": 0,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://kind.krx.co.kr/external/2026/02/25/001757/20260225001091/%EB%B0%9C%ED%95%B4%EC%9D%B8%ED%94%84%EB%9D%BC%20%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_20260225.pdf",
+   "flNm": "발해인프라 개정정관_20260225.pdf",
+   "bytes": 844299,
+   "sha256": "e3a68858941c33ebc289084d93fce8b26d30e97ff70dd15093aeb80f6956d149",
+   "pages": 24,
+   "text_pages": 23,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1,
+ "folder": "data/charter_absent/415640_KB발해인프라/20260225_kind",
+ "fetched_at": "2026-11-17T01:16:10",
+ "source_doc": "KIND 공시",
+ "source_note": "KIND 20260225001757 첨부(content_id 20260225001091). 앞선 개정 공지 20251117000589",
+ "used_by_stock_code": [
+  "415640"
+ ]
+}

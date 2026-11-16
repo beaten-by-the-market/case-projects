@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260630000977",
+ "corp_code": "00474588",
+ "corp_name": "한중엔시에스",
+ "stock_code": "107640",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260630",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000977",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260630000977.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260630000977.xml",
+   "bytes": 61803,
+   "sha256": "8ae050565c48546df49d504045dab6c6ed8d9852da810a766e3a4caf04586199"
+  }
+ ],
+ "folder": "data/agm_kosdaq/107640_한중엔시에스/20260630_20260630000977",
+ "fetched_at": "2026-11-16T19:36:19"
+}

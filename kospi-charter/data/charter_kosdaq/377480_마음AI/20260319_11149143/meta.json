@@ -1,0 +1,24 @@
+{
+ "corp_code": "01297898",
+ "corp_name": "마음AI",
+ "stock_code": "377480",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000767",
+ "dcmNo": "11149143",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000767&dcmNo=11149143",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000767&dcmNo=11149143&eleId=1&offset=597&length=21075&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12524,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/377480_마음AI/20260319_11149143",
+ "fetched_at": "2026-11-16T21:44:06",
+ "used_by_rcept_no": [
+  "20260319000767"
+ ]
+}

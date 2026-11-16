@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260930000217",
+ "corp_code": "01264438",
+ "corp_name": "자이언트스텝",
+ "stock_code": "289220",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260930",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000217",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 8348,
+ "charter_amend_txt": "data/agm_kosdaq/289220_자이언트스텝/20260930_20260930000217/정관의변경.txt",
+ "main_xml": "20260930000217.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260930000217.xml",
+   "bytes": 94462,
+   "sha256": "6443c439d4da5565c0b8fdff1682e2bb37584a8d6b4ecaed9073f2fe990fc29d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/289220_자이언트스텝/20260930_20260930000217",
+ "fetched_at": "2026-11-16T19:39:26"
+}

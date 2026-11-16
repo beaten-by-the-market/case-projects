@@ -1,0 +1,24 @@
+{
+ "corp_code": "01372782",
+ "corp_name": "엑스게이트",
+ "stock_code": "356680",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000875",
+ "dcmNo": "11138567",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000875&dcmNo=11138567",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000875&dcmNo=11138567&eleId=1&offset=596&length=33898&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13370,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/356680_엑스게이트/20260318_11138567",
+ "fetched_at": "2026-11-16T21:37:58",
+ "used_by_rcept_no": [
+  "20260318000875"
+ ]
+}

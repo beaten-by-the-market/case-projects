@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260615000424",
+ "corp_code": "01031502",
+ "corp_name": "코아시아씨엠",
+ "stock_code": "196450",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260615",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000424",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 208,
+ "charter_amend_txt": "data/agm_kosdaq/196450_코아시아씨엠/20260615_20260615000424/정관의변경.txt",
+ "main_xml": "20260615000424.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260615000424.xml",
+   "bytes": 41362,
+   "sha256": "1978702d9804363e263781909d83d5b5df1bb24121e02cff95b6c3a10802b1b9"
+  }
+ ],
+ "folder": "data/agm_kosdaq/196450_코아시아씨엠/20260615_20260615000424",
+ "fetched_at": "2026-11-16T19:35:30"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00605522",
+ "corp_name": "아리바이오홀딩스",
+ "stock_code": "290690",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000950",
+ "dcmNo": "11139048",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000950&dcmNo=11139048",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000950&dcmNo=11139048&eleId=1&offset=594&length=30918&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13816,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/290690_아리바이오홀딩스/20260318_11139048",
+ "fetched_at": "2026-11-16T21:25:47",
+ "used_by_rcept_no": [
+  "20260318000950"
+ ]
+}

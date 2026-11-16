@@ -1,0 +1,215 @@
+{
+ "corp_code": "00628860",
+ "corp_name": "네오위즈",
+ "stock_code": "095660",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001284",
+ "dcmNo": "11152918",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001284&dcmNo=11152918",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001284&dcmNo=11152918&eleId=1&offset=593&length=3424&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 19,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0001.jpg",
+   "flNm": "nwz 정관_240328_page-0001.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0001",
+   "bytes": 90723,
+   "sha256": "71b39b4c54acab41d9371ac7cf7801997877329e24c66f482c1b3d50036bb921",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0002.jpg",
+   "flNm": "nwz 정관_240328_page-0002.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0002",
+   "bytes": 187599,
+   "sha256": "d1a96a549177f7d604f746104aae8fbb8ed457c730d28429a13e26cc0e2e8ecb",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0003.jpg",
+   "flNm": "nwz 정관_240328_page-0003.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0003",
+   "bytes": 232706,
+   "sha256": "f28120ffd5079367eeae43ebff297bfa56e2d3d22090f5617090bcacae82b53d",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0004.jpg",
+   "flNm": "nwz 정관_240328_page-0004.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0004",
+   "bytes": 249070,
+   "sha256": "c64402556c0c97bb1e654b8d8abe990abb6acffc7460e614ae66fa76fd8ec236",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0005.jpg",
+   "flNm": "nwz 정관_240328_page-0005.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0005",
+   "bytes": 235384,
+   "sha256": "9c064ffe2a0b76983b52fa7b76d0a5240d3166910c7df62e1120a2bb1d9fb86e",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0006.jpg",
+   "flNm": "nwz 정관_240328_page-0006.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0006",
+   "bytes": 235506,
+   "sha256": "ba395a064335886c0b60cab756b881117933b614399ec9f09b37299ff9b53856",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0007.jpg",
+   "flNm": "nwz 정관_240328_page-0007.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0007",
+   "bytes": 286408,
+   "sha256": "fba0f3759ff7ef553ec156c1df3adeb16fc8a021e42c66a9e0d4ecb08dbe52c5",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0008.jpg",
+   "flNm": "nwz 정관_240328_page-0008.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0008",
+   "bytes": 269050,
+   "sha256": "f91f6c674ec97ec2d6ae2f73112258e200b7d2cb91120dcd8a575fd40c3e4f0e",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0009.jpg",
+   "flNm": "nwz 정관_240328_page-0009.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0009",
+   "bytes": 238548,
+   "sha256": "e6bc5f7a97ac66607fe09e34c688cdc9d3abf00d515da40a0379fee30f8049e0",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0010.jpg",
+   "flNm": "nwz 정관_240328_page-0010.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0010",
+   "bytes": 237793,
+   "sha256": "7872df43a4be8280469b09f4d5968b3a2708748952ece8300d2c139150c7a73d",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0011.jpg",
+   "flNm": "nwz 정관_240328_page-0011.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0011",
+   "bytes": 277935,
+   "sha256": "ec61d86c9d32b3c8638534fda5e1ff0fade2180ba66b8040d963e8f659c049e7",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0012.jpg",
+   "flNm": "nwz 정관_240328_page-0012.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0012",
+   "bytes": 235441,
+   "sha256": "b38245203b790f04ec343ab162c5a18d44091c720b968c826825c0ffd8fbe46d",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0013.jpg",
+   "flNm": "nwz 정관_240328_page-0013.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0013",
+   "bytes": 264747,
+   "sha256": "ee08c2bdf46ed99d7b4d7dd2678bc9df9c447ac65ee01e254758f8b96e4dd3df",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0014.jpg",
+   "flNm": "nwz 정관_240328_page-0014.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0014",
+   "bytes": 235933,
+   "sha256": "149b5be8217b0ec88195d03319170070a363ccbf571426b2bf61069611f94760",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0015.jpg",
+   "flNm": "nwz 정관_240328_page-0015.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0015",
+   "bytes": 300946,
+   "sha256": "47231ec40845c8d16abb3adc16fd29173a5f75fdb53607ab824ad546ae1ae9c4",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0016.jpg",
+   "flNm": "nwz 정관_240328_page-0016.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0016",
+   "bytes": 244134,
+   "sha256": "5d10ebd349beaecb80627adbcc51cf06b509717c12e2ce415f386a3c6d832882",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0017.jpg",
+   "flNm": "nwz 정관_240328_page-0017.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0017",
+   "bytes": 204989,
+   "sha256": "4d394ebdf9826a42d31555cbcae825c82fbc7d124a7718f2b03d31b809b17cc5",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0018.jpg",
+   "flNm": "nwz 정관_240328_page-0018.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0018",
+   "bytes": 248559,
+   "sha256": "591ac6b2e9273713583945feb50b0f1c87b93c8e626b9e7fd03748a4b14d16a0",
+   "width": 1242,
+   "height": 1755
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0019.jpg",
+   "flNm": "nwz 정관_240328_page-0019.jpg",
+   "alt": "이미지: nwz 정관_240328_page-0019",
+   "bytes": 100125,
+   "sha256": "6fa87cb48e911c4eb18705d688d6477df3af404fab5898981684bdd47541c8c9",
+   "width": 1242,
+   "height": 1755
+  }
+ ],
+ "folder": "data/charter_kosdaq/095660_네오위즈/20260319_11152918",
+ "fetched_at": "2026-11-16T20:45:41",
+ "used_by_rcept_no": [
+  "20260319001284"
+ ]
+}

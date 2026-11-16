@@ -1,0 +1,24 @@
+{
+ "corp_code": "00110884",
+ "corp_name": "엠젠솔루션",
+ "stock_code": "032790",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000990",
+ "dcmNo": "11157932",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000990&dcmNo=11157932",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000990&dcmNo=11157932&eleId=1&offset=596&length=26687&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12011,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/032790_엠젠솔루션/20260320_11157932",
+ "fetched_at": "2026-11-16T20:01:54",
+ "used_by_rcept_no": [
+  "20260320000990"
+ ]
+}

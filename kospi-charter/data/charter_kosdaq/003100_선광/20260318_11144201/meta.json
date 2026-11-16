@@ -1,0 +1,24 @@
+{
+ "corp_code": "00131896",
+ "corp_name": "선광",
+ "stock_code": "003100",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001613",
+ "dcmNo": "11144201",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001613&dcmNo=11144201",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001613&dcmNo=11144201&eleId=1&offset=593&length=21019&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11937,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/003100_선광/20260318_11144201",
+ "fetched_at": "2026-11-16T19:44:00",
+ "used_by_rcept_no": [
+  "20260529000793"
+ ]
+}

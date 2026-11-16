@@ -1,0 +1,215 @@
+{
+ "corp_code": "00454399",
+ "corp_name": "이상네트웍스",
+ "stock_code": "080010",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001231",
+ "dcmNo": "11166425",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001231&dcmNo=11166425",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001231&dcmNo=11166425&eleId=1&offset=597&length=2692&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 19,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_001.jpg",
+   "flNm": "page_001.jpg",
+   "alt": "이미지: page_001",
+   "bytes": 297560,
+   "sha256": "cfc26d35ac938cdaabd3083930126f44fe4b208fb7b340ce3e28375394ff728f",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_002.jpg",
+   "flNm": "page_002.jpg",
+   "alt": "이미지: page_002",
+   "bytes": 271258,
+   "sha256": "a107860b3be3eedc17481b30d860bcfcfd6cf079f04a8bfac74c0d19c4a6f69c",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_003.jpg",
+   "flNm": "page_003.jpg",
+   "alt": "이미지: page_003",
+   "bytes": 250025,
+   "sha256": "dfbb2b541118c9dba6a7b5b8d63642109663526390532f20dc65f9f16e81e0fc",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_004.jpg",
+   "flNm": "page_004.jpg",
+   "alt": "이미지: page_004",
+   "bytes": 238908,
+   "sha256": "2d8c98a62b9ec52745033f08c9c6b64e404621a425e826b22df5d5e138d950d4",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_005.jpg",
+   "flNm": "page_005.jpg",
+   "alt": "이미지: page_005",
+   "bytes": 248196,
+   "sha256": "bfec11e5498d6b4d885aae6aaed291e066e86a3b857726102919fe189938e662",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_006.jpg",
+   "flNm": "page_006.jpg",
+   "alt": "이미지: page_006",
+   "bytes": 277336,
+   "sha256": "4ba17ea755ad07f47003cee4ad1e47864d8eef33a93ebe7bce9d451773d78b20",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_007.jpg",
+   "flNm": "page_007.jpg",
+   "alt": "이미지: page_007",
+   "bytes": 251302,
+   "sha256": "6a7103e87db6f3f218b429fa0d10656de10d18df5ed5c8b17755971499fd4ccd",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_008.jpg",
+   "flNm": "page_008.jpg",
+   "alt": "이미지: page_008",
+   "bytes": 302403,
+   "sha256": "1874fbe12bc8218cdb26ca70c796e4f801fdfa147d39bff85d3846574df1fd9b",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_009.jpg",
+   "flNm": "page_009.jpg",
+   "alt": "이미지: page_009",
+   "bytes": 257209,
+   "sha256": "18861d6c91205737e82503bfba467b557cbb61b6160a35de9e9d795f67026b8e",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_010.jpg",
+   "flNm": "page_010.jpg",
+   "alt": "이미지: page_010",
+   "bytes": 299806,
+   "sha256": "50698416441c4b491484fc099fc3b5aae9eba6473ac2d2c7e9e5f4aacdb97581",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_011.jpg",
+   "flNm": "page_011.jpg",
+   "alt": "이미지: page_011",
+   "bytes": 301888,
+   "sha256": "89717c6ac003326f3f2f3f1c4b3573caffe5d1de5d1f09f70a849a4f081e29d4",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_012.jpg",
+   "flNm": "page_012.jpg",
+   "alt": "이미지: page_012",
+   "bytes": 268180,
+   "sha256": "ff53212dc4a01e9db6c04a504109d05cf0578f7786ae2bcc30db2029c76865d8",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_013.jpg",
+   "flNm": "page_013.jpg",
+   "alt": "이미지: page_013",
+   "bytes": 284579,
+   "sha256": "94aef400f76eb51023a77d5f586552900b742342c7117a6a76a463971e704648",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_014.jpg",
+   "flNm": "page_014.jpg",
+   "alt": "이미지: page_014",
+   "bytes": 297020,
+   "sha256": "d15fd47e0367ea23e311f30abba631529004d7c5afd7c131a223349334b864e3",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_015.jpg",
+   "flNm": "page_015.jpg",
+   "alt": "이미지: page_015",
+   "bytes": 248555,
+   "sha256": "a15dc4fcb8e39277ff83cf4ddd0796acf35d9b0814bc661626dbb526601ae966",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_016.jpg",
+   "flNm": "page_016.jpg",
+   "alt": "이미지: page_016",
+   "bytes": 252911,
+   "sha256": "e98b9e44edfe2ee41d66886a0d742df0cf90b11c6afe804f3e64418ac9c9b87c",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_017.jpg",
+   "flNm": "page_017.jpg",
+   "alt": "이미지: page_017",
+   "bytes": 304576,
+   "sha256": "692b4485c058b253a2a71e6d707f497370731503ee7a1e34da01ed0c95904da7",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_018.jpg",
+   "flNm": "page_018.jpg",
+   "alt": "이미지: page_018",
+   "bytes": 293318,
+   "sha256": "d9b7059d73b6bdb68142be525b5a787b526df17967c75b88d1c5a41cc936c92f",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166425&flNm=page_019.jpg",
+   "flNm": "page_019.jpg",
+   "alt": "이미지: page_019",
+   "bytes": 295187,
+   "sha256": "5383f8a2ce7f7bf179e24e51dc76adcbf303de3c76466f21af82ae89a37461ca",
+   "width": 2480,
+   "height": 3507
+  }
+ ],
+ "folder": "data/charter_kosdaq/080010_이상네트웍스/20260323_11166425",
+ "fetched_at": "2026-11-16T20:38:48",
+ "used_by_rcept_no": [
+  "20260323001231"
+ ]
+}

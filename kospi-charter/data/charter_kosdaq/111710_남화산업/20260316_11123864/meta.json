@@ -1,0 +1,24 @@
+{
+ "corp_code": "00245694",
+ "corp_name": "남화산업",
+ "stock_code": "111710",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316000265",
+ "dcmNo": "11123864",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000265&dcmNo=11123864",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000265&dcmNo=11123864&eleId=1&offset=596&length=20340&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12671,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/111710_남화산업/20260316_11123864",
+ "fetched_at": "2026-11-16T20:50:59",
+ "used_by_rcept_no": [
+  "20260316000265"
+ ]
+}

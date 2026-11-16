@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260305001551",
+ "corp_code": "01906598",
+ "corp_name": "하나35호스팩",
+ "stock_code": "0041L0",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260305",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001551",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260305001551.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260305001551.xml",
+   "bytes": 67630,
+   "sha256": "0c4aed18cb16a2c8c570cea0f247297b2be1ce958b42a2bb5d13494a7d00dfe6"
+  }
+ ],
+ "folder": "data/agm_kosdaq/0041L0_하나35호스팩/20260305_20260305001551",
+ "fetched_at": "2026-11-16T19:32:11"
+}

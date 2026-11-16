@@ -1,0 +1,24 @@
+{
+ "corp_code": "01801822",
+ "corp_name": "SK증권제13호스팩",
+ "stock_code": "473950",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316000720",
+ "dcmNo": "11125403",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000720&dcmNo=11125403",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000720&dcmNo=11125403&eleId=1&offset=604&length=20963&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11921,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/473950_SK증권제13호스팩/20260316_11125403",
+ "fetched_at": "2026-11-16T22:00:22",
+ "used_by_rcept_no": [
+  "20260316000720"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260619000086",
+ "corp_code": "01406265",
+ "corp_name": "와이랩",
+ "stock_code": "432430",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260619",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000086",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1163,
+ "charter_amend_txt": "data/agm_kosdaq/432430_와이랩/20260619_20260619000086/정관의변경.txt",
+ "main_xml": "20260619000086.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260619000086.xml",
+   "bytes": 123543,
+   "sha256": "63b27d34d02a70c2f491318b006ceb5a10b10b4300286daa10cd72f1055a39ee"
+  }
+ ],
+ "folder": "data/agm_kosdaq/432430_와이랩/20260619_20260619000086",
+ "fetched_at": "2026-11-16T19:35:36"
+}

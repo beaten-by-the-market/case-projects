@@ -1,0 +1,28 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "546bc14471a27690",
+ "image": {
+  "long_edge": 2576,
+  "max_pixels": 3600000,
+  "gray": true,
+  "jpeg_quality": 85
+ },
+ "pages": [
+  {
+   "custom_id": "p03373",
+   "file": "pdf/001.pdf",
+   "page": 1,
+   "sha256": null,
+   "ok": true,
+   "stop_reason": "end_turn",
+   "input_tokens": 5113,
+   "output_tokens": 14,
+   "chars": 6,
+   "batch": "msgbatch_01PSb7NJhHX5MBtq1LcGNenp"
+  }
+ ],
+ "total_chars": 6,
+ "n_errors": 0,
+ "created_at": "2026-11-16T22:38:03"
+}

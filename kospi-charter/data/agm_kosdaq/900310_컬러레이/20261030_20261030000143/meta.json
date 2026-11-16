@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261030000143",
+ "corp_code": "01236286",
+ "corp_name": "컬러레이",
+ "stock_code": "900310",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261030",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000143",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261030000143.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261030000143.xml",
+   "bytes": 92069,
+   "sha256": "bf39908a364f1a5057dbdec9f0e97effa4764b00cbc580de9ae1d45b09f20083"
+  }
+ ],
+ "folder": "data/agm_kosdaq/900310_컬러레이/20261030_20261030000143",
+ "fetched_at": "2026-11-16T19:40:25"
+}

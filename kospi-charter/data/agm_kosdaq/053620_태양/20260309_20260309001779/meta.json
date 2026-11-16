@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260309001779",
+ "corp_code": "00186717",
+ "corp_name": "태양",
+ "stock_code": "053620",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260309",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001779",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 416,
+ "charter_amend_txt": "data/agm_kosdaq/053620_태양/20260309_20260309001779/정관의변경.txt",
+ "main_xml": "20260309001779.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260309001779.xml",
+   "bytes": 87554,
+   "sha256": "bedd17aa7689fe8047db5c8b61c945f22a20e31d3cbc033f3e6ee4a5d3bc6c77"
+  }
+ ],
+ "folder": "data/agm_kosdaq/053620_태양/20260309_20260309001779",
+ "fetched_at": "2026-11-16T19:32:15"
+}

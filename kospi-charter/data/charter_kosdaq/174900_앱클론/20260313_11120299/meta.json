@@ -1,0 +1,24 @@
+{
+ "corp_code": "00991191",
+ "corp_name": "앱클론",
+ "stock_code": "174900",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313000798",
+ "dcmNo": "11120299",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000798&dcmNo=11120299",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313000798&dcmNo=11120299&eleId=1&offset=594&length=25286&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11810,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/174900_앱클론/20260313_11120299",
+ "fetched_at": "2026-11-16T21:01:42",
+ "used_by_rcept_no": [
+  "20260313000798"
+ ]
+}

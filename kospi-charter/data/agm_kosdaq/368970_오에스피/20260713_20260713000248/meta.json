@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260713000248",
+ "corp_code": "01491607",
+ "corp_name": "오에스피",
+ "stock_code": "368970",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260713",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000248",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 946,
+ "charter_amend_txt": "data/agm_kosdaq/368970_오에스피/20260713_20260713000248/정관의변경.txt",
+ "main_xml": "20260713000248.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260713000248.xml",
+   "bytes": 62624,
+   "sha256": "742742377ff1d1da29cfa7b3f9b423e370babd987110eae7b943ae5551c89f58"
+  }
+ ],
+ "folder": "data/agm_kosdaq/368970_오에스피/20260713_20260713000248",
+ "fetched_at": "2026-11-16T19:36:40"
+}

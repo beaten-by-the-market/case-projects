@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261016000304",
+ "corp_code": "01373709",
+ "corp_name": "아이씨티케이",
+ "stock_code": "456010",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261016",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000304",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261016000304.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261016000304.xml",
+   "bytes": 52510,
+   "sha256": "386a1729ec23954ec34137619834960966175676e0c4e75c8c9d707a2e1077b8"
+  }
+ ],
+ "folder": "data/agm_kosdaq/456010_아이씨티케이/20261016_20261016000304",
+ "fetched_at": "2026-11-16T19:39:48"
+}

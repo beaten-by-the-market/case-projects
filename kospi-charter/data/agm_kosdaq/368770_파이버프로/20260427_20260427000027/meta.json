@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260427000027",
+ "corp_code": "01513440",
+ "corp_name": "파이버프로",
+ "stock_code": "368770",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260427",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260427000027",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1234,
+ "charter_amend_txt": "data/agm_kosdaq/368770_파이버프로/20260427_20260427000027/정관의변경.txt",
+ "main_xml": "20260427000027.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260427000027.xml",
+   "bytes": 76138,
+   "sha256": "00bf7ccb26b9d0dee1c0dc2684d985861cde5a8292f0699a85739c7bb08aec6a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/368770_파이버프로/20260427_20260427000027",
+ "fetched_at": "2026-11-16T19:33:41"
+}

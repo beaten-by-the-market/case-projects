@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323000498",
+ "corp_code": "01110474",
+ "corp_name": "풍전약품",
+ "stock_code": "298060",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000498",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 379,
+ "charter_amend_txt": "data/agm_kosdaq/298060_풍전약품/20260323_20260323000498/정관의변경.txt",
+ "main_xml": "20260323000498.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323000498.xml",
+   "bytes": 224058,
+   "sha256": "caf868a39bd6f4f214041e7ff3ed6ccfd7ce175e7bf2967c17149881c093bfaf"
+  }
+ ],
+ "folder": "data/agm_kosdaq/298060_풍전약품/20260323_20260323000498",
+ "fetched_at": "2026-11-16T19:32:49"
+}

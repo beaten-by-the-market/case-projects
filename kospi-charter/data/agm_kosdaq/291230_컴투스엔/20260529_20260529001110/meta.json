@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260529001110",
+ "corp_code": "01276901",
+ "corp_name": "컴투스엔",
+ "stock_code": "291230",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260529",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001110",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260529001110.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260529001110.xml",
+   "bytes": 217464,
+   "sha256": "44d958c2f3b54f559998e61d50ef98eaa735267ce048ba8a506a0a50873d9bf7"
+  }
+ ],
+ "folder": "data/agm_kosdaq/291230_컴투스엔/20260529_20260529001110",
+ "fetched_at": "2026-11-16T19:34:45"
+}

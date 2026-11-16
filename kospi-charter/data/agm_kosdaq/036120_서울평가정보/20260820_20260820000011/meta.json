@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260820000011",
+ "corp_code": "00260745",
+ "corp_name": "서울평가정보",
+ "stock_code": "036120",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260820",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820000011",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260820000011.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260820000011.xml",
+   "bytes": 62234,
+   "sha256": "5f9c15b1a071749bb43a65afbadcf446348ef163525adf8214980d99562dd3ed"
+  }
+ ],
+ "folder": "data/agm_kosdaq/036120_서울평가정보/20260820_20260820000011",
+ "fetched_at": "2026-11-16T19:38:13"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260921000029",
+ "corp_code": "00109037",
+ "corp_name": "대성창투",
+ "stock_code": "027830",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260921",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000029",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 259,
+ "charter_amend_txt": "data/agm_kosdaq/027830_대성창투/20260921_20260921000029/정관의변경.txt",
+ "main_xml": "20260921000029.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260921000029.xml",
+   "bytes": 39063,
+   "sha256": "9a2da6c346e8a3199c418f34326d1086437c402e7cb482d0bae91bf86ede6784"
+  }
+ ],
+ "folder": "data/agm_kosdaq/027830_대성창투/20260921_20260921000029",
+ "fetched_at": "2026-11-16T19:39:15"
+}

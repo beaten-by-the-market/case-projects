@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260706000296",
+ "corp_code": "01416642",
+ "corp_name": "다보링크",
+ "stock_code": "340360",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260706",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000296",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 451,
+ "charter_amend_txt": "data/agm_kosdaq/340360_다보링크/20260706_20260706000296/정관의변경.txt",
+ "main_xml": "20260706000296.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260706000296.xml",
+   "bytes": 75372,
+   "sha256": "c7abb648b841f9d275504049916bf1a6c6ba7820736ffa60e3c7ed1b64ecb357"
+  }
+ ],
+ "folder": "data/agm_kosdaq/340360_다보링크/20260706_20260706000296",
+ "fetched_at": "2026-11-16T19:36:30"
+}

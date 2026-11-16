@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261106000057",
+ "corp_code": "01728167",
+ "corp_name": "아이지넷",
+ "stock_code": "462980",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261106",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000057",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261106000057.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261106000057.xml",
+   "bytes": 62990,
+   "sha256": "7bc5899b740d344e98b589656ee006b6890d284440659b44642938883636ca04"
+  }
+ ],
+ "folder": "data/agm_kosdaq/462980_아이지넷/20261106_20261106000057",
+ "fetched_at": "2026-11-16T19:40:34"
+}

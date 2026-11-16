@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260911000538",
+ "corp_code": "01498576",
+ "corp_name": "유디엠텍",
+ "stock_code": "389680",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260911",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000538",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2304,
+ "charter_amend_txt": "data/agm_kosdaq/389680_유디엠텍/20260911_20260911000538/정관의변경.txt",
+ "main_xml": "20260911000538.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260911000538.xml",
+   "bytes": 51444,
+   "sha256": "28092eeb4f5d1e3b8ccbecd9a9b804329cc9e6b647427baa482b598a71a52f41"
+  }
+ ],
+ "folder": "data/agm_kosdaq/389680_유디엠텍/20260911_20260911000538",
+ "fetched_at": "2026-11-16T19:38:48"
+}

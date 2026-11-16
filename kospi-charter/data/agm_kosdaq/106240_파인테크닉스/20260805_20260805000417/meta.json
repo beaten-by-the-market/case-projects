@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260805000417",
+ "corp_code": "00755739",
+ "corp_name": "파인테크닉스",
+ "stock_code": "106240",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260805",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000417",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2954,
+ "charter_amend_txt": "data/agm_kosdaq/106240_파인테크닉스/20260805_20260805000417/정관의변경.txt",
+ "main_xml": "20260805000417.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260805000417.xml",
+   "bytes": 57938,
+   "sha256": "ea09007d7e6efac51a41d0fdcac1aed9b1a677a18adf703db7e257b4b641e8e4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/106240_파인테크닉스/20260805_20260805000417",
+ "fetched_at": "2026-11-16T19:37:33"
+}

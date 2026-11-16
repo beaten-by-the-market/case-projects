@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260826000326",
+ "corp_code": "01042085",
+ "corp_name": "엑셈",
+ "stock_code": "205100",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260826",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000326",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 274,
+ "charter_amend_txt": "data/agm_kosdaq/205100_엑셈/20260826_20260826000326/정관의변경.txt",
+ "main_xml": "20260826000326.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260826000326.xml",
+   "bytes": 106601,
+   "sha256": "6c982bfec239295303e3b7359e3d6e13a50cca307b49ddca286ae6db9bbb0468"
+  }
+ ],
+ "folder": "data/agm_kosdaq/205100_엑셈/20260826_20260826000326",
+ "fetched_at": "2026-11-16T19:38:21"
+}

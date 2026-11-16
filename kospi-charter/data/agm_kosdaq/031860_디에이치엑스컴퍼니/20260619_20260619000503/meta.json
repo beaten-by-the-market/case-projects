@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260619000503",
+ "corp_code": "00180865",
+ "corp_name": "디에이치엑스컴퍼니",
+ "stock_code": "031860",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260619",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000503",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 575,
+ "charter_amend_txt": "data/agm_kosdaq/031860_디에이치엑스컴퍼니/20260619_20260619000503/정관의변경.txt",
+ "main_xml": "20260619000503.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260619000503.xml",
+   "bytes": 117154,
+   "sha256": "ada8fb3c1be498341af6f55ea5976c9b1ee41c1769dab1960aef4c004c251027"
+  }
+ ],
+ "folder": "data/agm_kosdaq/031860_디에이치엑스컴퍼니/20260619_20260619000503",
+ "fetched_at": "2026-11-16T19:35:40"
+}

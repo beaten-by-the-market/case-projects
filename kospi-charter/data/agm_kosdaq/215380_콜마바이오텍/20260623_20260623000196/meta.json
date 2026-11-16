@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260623000196",
+ "corp_code": "01065013",
+ "corp_name": "콜마바이오텍",
+ "stock_code": "215380",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260623",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000196",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 582,
+ "charter_amend_txt": "data/agm_kosdaq/215380_콜마바이오텍/20260623_20260623000196/정관의변경.txt",
+ "main_xml": "20260623000196.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260623000196.xml",
+   "bytes": 101620,
+   "sha256": "6b3971482fa026f007366060b1c9e5914c53fe2c2dbb97be0aa9cf196a913da0"
+  }
+ ],
+ "folder": "data/agm_kosdaq/215380_콜마바이오텍/20260623_20260623000196",
+ "fetched_at": "2026-11-16T19:35:42"
+}

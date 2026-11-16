@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260304001731",
+ "corp_code": "01866528",
+ "corp_name": "교보17호스팩",
+ "stock_code": "489210",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260304",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260304001731",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260304001731.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260304001731.xml",
+   "bytes": 74788,
+   "sha256": "03a86605fb7c222b5e44d3624f697ec277c534276aefd6985d1cc9508d240367"
+  }
+ ],
+ "folder": "data/agm_kosdaq/489210_교보17호스팩/20260304_20260304001731",
+ "fetched_at": "2026-11-16T19:32:09"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260914000147",
+ "corp_code": "00567222",
+ "corp_name": "우림피티에스",
+ "stock_code": "101170",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260914",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914000147",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 377,
+ "charter_amend_txt": "data/agm_kosdaq/101170_우림피티에스/20260914_20260914000147/정관의변경.txt",
+ "main_xml": "20260914000147.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260914000147.xml",
+   "bytes": 67561,
+   "sha256": "666e771310cc2b871859ded02f0d3ca49dad38ab3daac4abd63c4f71d08a078a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/101170_우림피티에스/20260914_20260914000147",
+ "fetched_at": "2026-11-16T19:38:49"
+}

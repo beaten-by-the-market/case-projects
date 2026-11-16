@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261015000261",
+ "corp_code": "00909835",
+ "corp_name": "차이커뮤니케이션",
+ "stock_code": "351870",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261015",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000261",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1246,
+ "charter_amend_txt": "data/agm_kosdaq/351870_차이커뮤니케이션/20261015_20261015000261/정관의변경.txt",
+ "main_xml": "20261015000261.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261015000261.xml",
+   "bytes": 56930,
+   "sha256": "c3bbb9ee8a0a19b3062ca3da79ee3c8ea7eafd31b84ab7aac18a6a706f4246a0"
+  }
+ ],
+ "folder": "data/agm_kosdaq/351870_차이커뮤니케이션/20261015_20261015000261",
+ "fetched_at": "2026-11-16T19:39:45"
+}

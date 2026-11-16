@@ -1,0 +1,24 @@
+{
+ "corp_code": "01267967",
+ "corp_name": "마이크로디지탈",
+ "stock_code": "305090",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001576",
+ "dcmNo": "11168767",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001576&dcmNo=11168767",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001576&dcmNo=11168767&eleId=1&offset=598&length=26819&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11812,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/305090_마이크로디지탈/20260323_11168767",
+ "fetched_at": "2026-11-16T21:29:25",
+ "used_by_rcept_no": [
+  "20260323001576"
+ ]
+}

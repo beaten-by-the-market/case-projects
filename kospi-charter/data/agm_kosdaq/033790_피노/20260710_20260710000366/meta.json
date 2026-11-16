@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260710000366",
+ "corp_code": "00276083",
+ "corp_name": "피노",
+ "stock_code": "033790",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260710",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000366",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3357,
+ "charter_amend_txt": "data/agm_kosdaq/033790_피노/20260710_20260710000366/정관의변경.txt",
+ "main_xml": "20260710000366.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260710000366.xml",
+   "bytes": 64694,
+   "sha256": "022fb8e3c72c266680e28c1a12802993367085dce99d5cb5c9096ba49c8f798b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/033790_피노/20260710_20260710000366",
+ "fetched_at": "2026-11-16T19:36:36"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00155373",
+ "corp_name": "풍강",
+ "stock_code": "093380",
+ "att_title": "2025.11.17 정관",
+ "att_date": "20251117",
+ "rcpNo": "20251117000158",
+ "dcmNo": "10885779",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251117000158&dcmNo=10885779",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20251117000158&dcmNo=10885779&eleId=1&offset=593&length=62968&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9112,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/093380_풍강/20251117_10885779",
+ "fetched_at": "2026-11-16T20:44:24",
+ "used_by_rcept_no": [
+  "20251117000158"
+ ]
+}

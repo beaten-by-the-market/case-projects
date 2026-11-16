@@ -1,0 +1,47 @@
+{
+ "corp_code": "01169434",
+ "corp_name": "오가닉티코스메틱",
+ "stock_code": "900300",
+ "att_title": "2026.04.30 정관",
+ "att_date": "20260430",
+ "rcpNo": "20260430001581",
+ "dcmNo": "11359748",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001581&dcmNo=11359748",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260430001581&dcmNo=11359748&eleId=1&offset=596&length=508&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 96,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/900300_오가닉티코스메틱/20260430_11359748",
+ "fetched_at": "2026-11-16T22:10:38",
+ "used_by_rcept_no": [
+  "20260430001581"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11359748&flNm=ogt_%EC%A0%95%EA%B4%80%282026.04.30%29_%EC%9B%90%EB%B3%B8.pdf",
+   "flNm": "ogt_정관(2026.04.30)_원본.pdf",
+   "bytes": 881902,
+   "sha256": "eb565580cc24fd1a8c310e414e6ebf68289944e6c623bd672a3d68184ea76efc",
+   "pages": 75,
+   "text_pages": 75,
+   "ocr_pages": 0
+  },
+  {
+   "file": "pdf/002.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11359748&flNm=ogt_%EC%A0%95%EA%B4%80%282026.04.30%29_%EB%B2%88%EC%97%AD%EB%B3%B8.pdf",
+   "flNm": "ogt_정관(2026.04.30)_번역본.pdf",
+   "bytes": 4041541,
+   "sha256": "1d8b5781462b984f55900b32ca76d5bf4c027a9b2609cf7c43ed3cd53cec9f51",
+   "pages": 63,
+   "text_pages": 63,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 2
+}

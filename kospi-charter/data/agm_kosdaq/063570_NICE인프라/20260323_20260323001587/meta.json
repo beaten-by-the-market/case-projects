@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323001587",
+ "corp_code": "00363769",
+ "corp_name": "NICE인프라",
+ "stock_code": "063570",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001587",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 6888,
+ "charter_amend_txt": "data/agm_kosdaq/063570_NICE인프라/20260323_20260323001587/정관의변경.txt",
+ "main_xml": "20260323001587.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323001587.xml",
+   "bytes": 503025,
+   "sha256": "f87d174cda09ff94b56ddb1a6f6693ad4e86846570ebf88b8e276ef11440a430"
+  }
+ ],
+ "folder": "data/agm_kosdaq/063570_NICE인프라/20260323_20260323001587",
+ "fetched_at": "2026-11-16T19:33:10"
+}

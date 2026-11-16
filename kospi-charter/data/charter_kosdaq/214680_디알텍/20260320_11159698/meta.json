@@ -1,0 +1,24 @@
+{
+ "corp_code": "01062867",
+ "corp_name": "디알텍",
+ "stock_code": "214680",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001313",
+ "dcmNo": "11159698",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001313&dcmNo=11159698",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001313&dcmNo=11159698&eleId=1&offset=596&length=18612&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10800,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/214680_디알텍/20260320_11159698",
+ "fetched_at": "2026-11-16T21:10:07",
+ "used_by_rcept_no": [
+  "20260320001313"
+ ]
+}

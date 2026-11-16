@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261012000284",
+ "corp_code": "01524118",
+ "corp_name": "나노팀",
+ "stock_code": "417010",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261012",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000284",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1113,
+ "charter_amend_txt": "data/agm_kosdaq/417010_나노팀/20261012_20261012000284/정관의변경.txt",
+ "main_xml": "20261012000284.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261012000284.xml",
+   "bytes": 47416,
+   "sha256": "c1080fe4843d63602b569fcec760a42746838a6b74e8e0036b20380b792f9907"
+  }
+ ],
+ "folder": "data/agm_kosdaq/417010_나노팀/20261012_20261012000284",
+ "fetched_at": "2026-11-16T19:39:37"
+}

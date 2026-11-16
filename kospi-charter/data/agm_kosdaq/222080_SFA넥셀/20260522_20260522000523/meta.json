@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260522000523",
+ "corp_code": "01090471",
+ "corp_name": "SFA넥셀",
+ "stock_code": "222080",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260522",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522000523",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1143,
+ "charter_amend_txt": "data/agm_kosdaq/222080_SFA넥셀/20260522_20260522000523/정관의변경.txt",
+ "main_xml": "20260522000523.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260522000523.xml",
+   "bytes": 88714,
+   "sha256": "b2e0257b41c8618bc64f1154ceaa1519f8fe4d21e3f9255ec99b00fd197f2ba5"
+  }
+ ],
+ "folder": "data/agm_kosdaq/222080_SFA넥셀/20260522_20260522000523",
+ "fetched_at": "2026-11-16T19:34:39"
+}

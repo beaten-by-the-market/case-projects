@@ -1,0 +1,24 @@
+{
+ "corp_code": "01025644",
+ "corp_name": "강스템바이오텍",
+ "stock_code": "217730",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001396",
+ "dcmNo": "11160303",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001396&dcmNo=11160303",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001396&dcmNo=11160303&eleId=1&offset=598&length=21856&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13394,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/217730_강스템바이오텍/20260320_11160303",
+ "fetched_at": "2026-11-16T21:11:11",
+ "used_by_rcept_no": [
+  "20260320001396"
+ ]
+}

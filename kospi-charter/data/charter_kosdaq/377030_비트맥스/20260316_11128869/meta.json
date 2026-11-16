@@ -1,0 +1,37 @@
+{
+ "corp_code": "01409095",
+ "corp_name": "비트맥스",
+ "stock_code": "377030",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001419",
+ "dcmNo": "11128869",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001419&dcmNo=11128869",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001419&dcmNo=11128869&eleId=1&offset=597&length=324&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 44,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/377030_비트맥스/20260316_11128869",
+ "fetched_at": "2026-11-16T21:43:48",
+ "used_by_rcept_no": [
+  "20260331003361"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11128869&flNm=%28%EC%A3%BC%29%EB%A7%A5%EC%8A%A4%ED%8A%B8_2025.07.14+%EA%B0%9C%EC%A0%95.pdf",
+   "flNm": "(주)맥스트_2025.07.14 개정.pdf",
+   "bytes": 547285,
+   "sha256": "db14f4e5113e366b1d77caf295a58be8d8ba6f5202a965295fd76b29cc7b911e",
+   "pages": 16,
+   "text_pages": 16,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260630001018",
+ "corp_code": "00793155",
+ "corp_name": "폴라리스AI핸디",
+ "stock_code": "220180",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260630",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630001018",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 952,
+ "charter_amend_txt": "data/agm_kosdaq/220180_폴라리스AI핸디/20260630_20260630001018/정관의변경.txt",
+ "main_xml": "20260630001018.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260630001018.xml",
+   "bytes": 41244,
+   "sha256": "9b6628e26ceafb622d05ed87ea10fbf6a1ce7a0b0ca1fe62850e1be5b70969f3"
+  }
+ ],
+ "folder": "data/agm_kosdaq/220180_폴라리스AI핸디/20260630_20260630001018",
+ "fetched_at": "2026-11-16T19:36:20"
+}

@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164125&flNm=%EB%8F%99%EC%9D%BC%EC%8A%A4%ED%8B%B8%EB%9F%AD%EC%8A%A4+%EC%A0%95%EA%B4%80%282025.03.31+%EA%B0%9C%EC%A0%95%29.pdf",
+   "flNm": "동일스틸럭스 정관(2025.03.31 개정).pdf",
+   "bytes": 128882,
+   "sha256": "fe0d3be30d39aad2a24d95d3d88c6a86dd3a2b7b87fec8a11baf12b21ec0321b",
+   "pages": 14,
+   "text_pages": 13,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 9991,
+ "pages": 14,
+ "text_pages": 13,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T22:11:10",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

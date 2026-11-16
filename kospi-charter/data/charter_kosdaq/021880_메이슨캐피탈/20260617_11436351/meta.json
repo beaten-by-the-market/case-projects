@@ -1,0 +1,24 @@
+{
+ "corp_code": "00136101",
+ "corp_name": "메이슨캐피탈",
+ "stock_code": "021880",
+ "att_title": "2026.06.17 정관",
+ "att_date": "20260617",
+ "rcpNo": "20260617000380",
+ "dcmNo": "11436351",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000380&dcmNo=11436351",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260617000380&dcmNo=11436351&eleId=1&offset=594&length=30812&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12151,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/021880_메이슨캐피탈/20260617_11436351",
+ "fetched_at": "2026-11-16T19:57:41",
+ "used_by_rcept_no": [
+  "20260617000380"
+ ]
+}

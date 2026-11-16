@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260703000505",
+ "corp_code": "01118281",
+ "corp_name": "타임X AI",
+ "stock_code": "304840",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260703",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000505",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 713,
+ "charter_amend_txt": "data/agm_kosdaq/304840_타임X AI/20260703_20260703000505/정관의변경.txt",
+ "main_xml": "20260703000505.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260703000505.xml",
+   "bytes": 38608,
+   "sha256": "2c4900c1b1a2d8f423a8f2d482387893181858e3923fd5134744c599b7f0b160"
+  }
+ ],
+ "folder": "data/agm_kosdaq/304840_타임X AI/20260703_20260703000505",
+ "fetched_at": "2026-11-16T19:36:26"
+}

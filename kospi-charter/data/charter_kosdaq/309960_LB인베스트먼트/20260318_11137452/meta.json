@@ -1,0 +1,38 @@
+{
+ "corp_code": "00231901",
+ "corp_name": "LB인베스트먼트",
+ "stock_code": "309960",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000708",
+ "dcmNo": "11137452",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000708&dcmNo=11137452",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000708&dcmNo=11137452&eleId=1&offset=596&length=28663&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14749,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/309960_LB인베스트먼트/20260318_11137452",
+ "fetched_at": "2026-11-16T21:30:45",
+ "used_by_rcept_no": [
+  "20260318000708"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137452&flNm=lb%EC%9D%B8%EB%B2%A0%EC%8A%A4%ED%8A%B8%EB%A8%BC%ED%8A%B8+%EC%A0%95%EA%B4%80%282026+%EA%B0%9C%EC%A0%95%29.pdf",
+   "flNm": "lb인베스트먼트 정관(2026 개정).pdf",
+   "bytes": 1023631,
+   "sha256": "4a3cfcd71e107c1725551fbdf0a1a285f69ef8a7d584913ba3cd50e88357c090",
+   "pages": 23,
+   "text_pages": 22,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1,
+ "content_type_note": "본문 텍스트(공백 제외 14749자)와 같은 정관의 PDF 링크가 함께 있다 — R5-5 로 text. s04c 가 PDF 링크만 보고 pdf 로 바꾼 것을 되돌렸다(2026-11-16). PDF 글은 charter_pdf.txt"
+}

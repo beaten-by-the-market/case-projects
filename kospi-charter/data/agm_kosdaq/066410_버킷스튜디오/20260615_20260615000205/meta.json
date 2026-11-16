@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260615000205",
+ "corp_code": "00378220",
+ "corp_name": "버킷스튜디오",
+ "stock_code": "066410",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260615",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000205",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260615000205.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260615000205.xml",
+   "bytes": 50245,
+   "sha256": "3a1ce7b86aa094da1ee3aaf242fac328b32b181aec6f191662d88ac0120e9571"
+  }
+ ],
+ "folder": "data/agm_kosdaq/066410_버킷스튜디오/20260615_20260615000205",
+ "fetched_at": "2026-11-16T19:35:28"
+}

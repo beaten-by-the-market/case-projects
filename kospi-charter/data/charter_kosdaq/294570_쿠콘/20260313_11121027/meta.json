@@ -1,0 +1,37 @@
+{
+ "corp_code": "01311055",
+ "corp_name": "쿠콘",
+ "stock_code": "294570",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313000968",
+ "dcmNo": "11121027",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000968&dcmNo=11121027",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313000968&dcmNo=11121027&eleId=1&offset=595&length=312&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 34,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/294570_쿠콘/20260313_11121027",
+ "fetched_at": "2026-11-16T21:27:36",
+ "used_by_rcept_no": [
+  "20260319001041"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11121027&flNm=%EC%BF%A0%EC%BD%98_%EC%A0%95%EA%B4%80_20250324.pdf",
+   "flNm": "쿠콘_정관_20250324.pdf",
+   "bytes": 196248,
+   "sha256": "86abc0a8aa95dbe34d130461eab4921c2d669b3939f8adad5589837b73f19d68",
+   "pages": 14,
+   "text_pages": 14,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261026000189",
+ "corp_code": "01075126",
+ "corp_name": "사토시홀딩스",
+ "stock_code": "223310",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261026",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000189",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 548,
+ "charter_amend_txt": "data/agm_kosdaq/223310_사토시홀딩스/20261026_20261026000189/정관의변경.txt",
+ "main_xml": "20261026000189.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261026000189.xml",
+   "bytes": 71671,
+   "sha256": "9b6a4b882bf57693d2b54c38f95fd17dfa95e9d694075baec743f945c4c179c5"
+  }
+ ],
+ "folder": "data/agm_kosdaq/223310_사토시홀딩스/20261026_20261026000189",
+ "fetched_at": "2026-11-16T19:40:19"
+}

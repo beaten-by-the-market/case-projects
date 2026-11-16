@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260610000195",
+ "corp_code": "01068348",
+ "corp_name": "러셀",
+ "stock_code": "217500",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260610",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000195",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260610000195.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260610000195.xml",
+   "bytes": 40568,
+   "sha256": "5f75c45f02cec0acd41d2d21a892399bcf9ae42289cf88b6a3d80b4f445e0ada"
+  }
+ ],
+ "folder": "data/agm_kosdaq/217500_러셀/20260610_20260610000195",
+ "fetched_at": "2026-11-16T19:35:16"
+}

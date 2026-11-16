@@ -1,0 +1,24 @@
+{
+ "corp_code": "01749559",
+ "corp_name": "엠에스바이오",
+ "stock_code": "0013Y0",
+ "att_title": "2026.09.07 정관",
+ "att_date": "20260907",
+ "rcpNo": "20260907000305",
+ "dcmNo": "11569589",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907000305&dcmNo=11569589",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260907000305&dcmNo=11569589&eleId=1&offset=599&length=22680&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13554,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_absent/0013Y0_엠에스바이오/20260907_11569589",
+ "fetched_at": "2026-11-17T00:51:21",
+ "used_by_stock_code": [
+  "0013Y0"
+ ]
+}

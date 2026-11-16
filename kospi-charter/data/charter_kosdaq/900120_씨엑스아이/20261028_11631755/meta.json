@@ -1,0 +1,24 @@
+{
+ "corp_code": "00800084",
+ "corp_name": "씨엑스아이",
+ "stock_code": "900120",
+ "att_title": "2026.10.28 정관",
+ "att_date": "20261028",
+ "rcpNo": "20261028000469",
+ "dcmNo": "11631755",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000469&dcmNo=11631755",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20261028000469&dcmNo=11631755&eleId=1&offset=593&length=181816&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 126027,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/900120_씨엑스아이/20261028_11631755",
+ "fetched_at": "2026-11-16T22:09:11",
+ "used_by_rcept_no": [
+  "20261028000469"
+ ]
+}

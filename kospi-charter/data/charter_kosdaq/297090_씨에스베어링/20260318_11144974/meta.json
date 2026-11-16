@@ -1,0 +1,24 @@
+{
+ "corp_code": "00765462",
+ "corp_name": "씨에스베어링",
+ "stock_code": "297090",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001679",
+ "dcmNo": "11144974",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001679&dcmNo=11144974",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001679&dcmNo=11144974&eleId=1&offset=594&length=18610&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11430,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/297090_씨에스베어링/20260318_11144974",
+ "fetched_at": "2026-11-16T21:27:44",
+ "used_by_rcept_no": [
+  "20260318001679"
+ ]
+}

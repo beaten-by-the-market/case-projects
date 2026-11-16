@@ -1,0 +1,24 @@
+{
+ "corp_code": "01543043",
+ "corp_name": "티앤이코리아",
+ "stock_code": "0053F0",
+ "att_title": "2026.09.03 정관",
+ "att_date": "20260903",
+ "rcpNo": "20260903000275",
+ "dcmNo": "11565828",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000275&dcmNo=11565828",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260903000275&dcmNo=11565828&eleId=1&offset=594&length=21651&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13111,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_absent/0053F0_티앤이코리아/20260903_11565828",
+ "fetched_at": "2026-11-17T00:51:01",
+ "used_by_stock_code": [
+  "0053F0"
+ ]
+}

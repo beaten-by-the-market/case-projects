@@ -1,0 +1,24 @@
+{
+ "corp_code": "01802928",
+ "corp_name": "코스모로보틱스",
+ "stock_code": "439960",
+ "att_title": "2026.02.11 정관",
+ "att_date": "20260211",
+ "rcpNo": "20260211001077",
+ "dcmNo": "11018065",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260211001077&dcmNo=11018065",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260211001077&dcmNo=11018065&eleId=1&offset=600&length=31107&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15163,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_absent/439960_코스모로보틱스/20260211_11018065",
+ "fetched_at": "2026-11-17T00:55:44",
+ "used_by_stock_code": [
+  "439960"
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "corp_code": "01586923",
+ "corp_name": "스카이랩스",
+ "stock_code": "386380",
+ "att_title": "2026.07.07 정관",
+ "att_date": "20260707",
+ "rcpNo": "20260707000316",
+ "dcmNo": "11466619",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707000316&dcmNo=11466619",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260707000316&dcmNo=11466619&eleId=1&offset=593&length=4069&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 23,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_01.jpg",
+   "flNm": "(주)스카이랩스_정관_01.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_01",
+   "bytes": 46728,
+   "sha256": "44b3a5531eaeb9d71faa50b912b9e079bbf315cf9733499b2c2fa74a87d0f753",
+   "width": 624,
+   "height": 836
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_02.jpg",
+   "flNm": "(주)스카이랩스_정관_02.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_02",
+   "bytes": 74202,
+   "sha256": "f34ac2ebec8bbe0a13f511ed5e86c972f01d61cbee6cac8300a416b70c4e655d",
+   "width": 624,
+   "height": 862
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_03.jpg",
+   "flNm": "(주)스카이랩스_정관_03.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_03",
+   "bytes": 107877,
+   "sha256": "d59c21878de683d08eaa9b61b2868fda695678b2cd7510b47dfe816ba482cee4",
+   "width": 594,
+   "height": 845
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_04.jpg",
+   "flNm": "(주)스카이랩스_정관_04.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_04",
+   "bytes": 100152,
+   "sha256": "638fa18ea0bc4cd394f021f3358939e80909a550567dfcd93d88ebcc2cd7c380",
+   "width": 593,
+   "height": 849
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_05.jpg",
+   "flNm": "(주)스카이랩스_정관_05.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_05",
+   "bytes": 92921,
+   "sha256": "636c633fda42eada6eb37845f5e1097587dfdfea2a080397f9e9c24454459029",
+   "width": 604,
+   "height": 845
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_06.jpg",
+   "flNm": "(주)스카이랩스_정관_06.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_06",
+   "bytes": 103855,
+   "sha256": "ea76428448344d6a23d52022763188efd0a6f40bff0b064e37273e43cda2c343",
+   "width": 600,
+   "height": 840
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_07.jpg",
+   "flNm": "(주)스카이랩스_정관_07.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_07",
+   "bytes": 101139,
+   "sha256": "c7b126ebe0a4963756780a8e5878865751f58c914b17d1fc020799226bc86544",
+   "width": 597,
+   "height": 854
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_08.jpg",
+   "flNm": "(주)스카이랩스_정관_08.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_08",
+   "bytes": 89306,
+   "sha256": "db91e28ede2dde45a52d64ce736c8fb3a22fda3a9ae08ad9f8a859623549694b",
+   "width": 602,
+   "height": 832
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_09.jpg",
+   "flNm": "(주)스카이랩스_정관_09.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_09",
+   "bytes": 97510,
+   "sha256": "753c8a636972255a5acfc438ca4fe700e32e7afbede2d40b803f5d763698d167",
+   "width": 597,
+   "height": 838
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "(주)스카이랩스_정관_10.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_10",
+   "bytes": 83028,
+   "sha256": "d5e613e227625ab547680dbc11940a4ad3905b45f80b1da3576e065ebd969db9",
+   "width": 601,
+   "height": 848
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "(주)스카이랩스_정관_11.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_11",
+   "bytes": 86378,
+   "sha256": "583a724ef4955262d6b4db1f3f1c0dd997f06e8d06a014ecbca251446b657b94",
+   "width": 580,
+   "height": 829
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "(주)스카이랩스_정관_12.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_12",
+   "bytes": 85260,
+   "sha256": "b9dd824d46ae78ed6b44f42676ce8ac6d2a69a7243f42095dfbb565b9ecaf28d",
+   "width": 620,
+   "height": 830
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "(주)스카이랩스_정관_13.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_13",
+   "bytes": 75484,
+   "sha256": "989fe23a1e462c63411407fe7a1a0e4e4c96e546f14289ad0b571e0e69fb9acd",
+   "width": 603,
+   "height": 827
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "(주)스카이랩스_정관_14.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_14",
+   "bytes": 77037,
+   "sha256": "2f4c92e62158ed14215764be9a528ed3b9d5c25d4cd04403bfab15e883bec4b4",
+   "width": 594,
+   "height": 813
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "(주)스카이랩스_정관_15.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_15",
+   "bytes": 65430,
+   "sha256": "a635b93cdfdbd08a3d23c9faca88d56a780ed048c3ede65dc81af8f82fc39cde",
+   "width": 602,
+   "height": 816
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "(주)스카이랩스_정관_16.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_16",
+   "bytes": 66328,
+   "sha256": "167c3acc26fbfd396f2d7314b2230f6323318fbac8a0a8adf20931ecf7c18f68",
+   "width": 600,
+   "height": 774
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "(주)스카이랩스_정관_17.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_17",
+   "bytes": 82139,
+   "sha256": "d1bbdcac19d71b7c2b47e50b821e47389b6e246479a1f29ae7fe848334878094",
+   "width": 590,
+   "height": 800
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_18.jpg",
+   "flNm": "(주)스카이랩스_정관_18.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_18",
+   "bytes": 76259,
+   "sha256": "13deaf8f775be5f307a448312b9df59a22ddc8bb1ff30317342a7710d35aceb3",
+   "width": 630,
+   "height": 848
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_19.jpg",
+   "flNm": "(주)스카이랩스_정관_19.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_19",
+   "bytes": 72582,
+   "sha256": "b9573ef34a70d7896de7ac690bf0b83bb40d865441a1e6e1ba3322fe8689f040",
+   "width": 604,
+   "height": 819
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_20.jpg",
+   "flNm": "(주)스카이랩스_정관_20.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_20",
+   "bytes": 76133,
+   "sha256": "e0dcecaac52226be05a2b56888624a2dcd5cab7a79ad19b90e0d78e70267aede",
+   "width": 618,
+   "height": 846
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_21.jpg",
+   "flNm": "(주)스카이랩스_정관_21.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_21",
+   "bytes": 57756,
+   "sha256": "a7bc32311efd5aa80c9394e5d4d1e6fc11c9d0fe3efe7649042750ce6001a567",
+   "width": 614,
+   "height": 835
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_22.jpg",
+   "flNm": "(주)스카이랩스_정관_22.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_22",
+   "bytes": 39566,
+   "sha256": "180c8536422c572f96253cae474764e671f4df59f1dcad9b40abc3b9d82030a5",
+   "width": 600,
+   "height": 846
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_23.jpg",
+   "flNm": "(주)스카이랩스_정관_23.jpg",
+   "alt": "이미지: (주)스카이랩스_정관_23",
+   "bytes": 27167,
+   "sha256": "57526215dc1acaed726affc4d70bf85e155c0ef41e809ac16c7f1dc8e20622f5",
+   "width": 620,
+   "height": 852
+  }
+ ],
+ "folder": "data/charter_absent/386380_스카이랩스/20260707_11466619",
+ "fetched_at": "2026-11-17T00:53:15",
+ "used_by_stock_code": [
+  "386380"
+ ]
+}

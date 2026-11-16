@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260521000126",
+ "corp_code": "01344831",
+ "corp_name": "딥노이드",
+ "stock_code": "315640",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260521",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260521000126",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260521000126.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260521000126.xml",
+   "bytes": 48504,
+   "sha256": "c68c45271f1b8cfac3c03f706c007e74e8fe0e9350e2c8a4a8bb76e09034ffe6"
+  }
+ ],
+ "folder": "data/agm_kosdaq/315640_딥노이드/20260521_20260521000126",
+ "fetched_at": "2026-11-16T19:34:34"
+}

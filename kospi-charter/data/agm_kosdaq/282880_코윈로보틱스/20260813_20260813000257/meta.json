@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260813000257",
+ "corp_code": "01211232",
+ "corp_name": "코윈로보틱스",
+ "stock_code": "282880",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260813",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813000257",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 905,
+ "charter_amend_txt": "data/agm_kosdaq/282880_코윈로보틱스/20260813_20260813000257/정관의변경.txt",
+ "main_xml": "20260813000257.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260813000257.xml",
+   "bytes": 34926,
+   "sha256": "1bc654a0dda7a144180f6149a73277658b5abb0b3114c4a4128ba644ee1c2439"
+  }
+ ],
+ "folder": "data/agm_kosdaq/282880_코윈로보틱스/20260813_20260813000257",
+ "fetched_at": "2026-11-16T19:37:45"
+}

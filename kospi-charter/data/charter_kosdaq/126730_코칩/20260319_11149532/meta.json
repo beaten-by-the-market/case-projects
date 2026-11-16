@@ -1,0 +1,24 @@
+{
+ "corp_code": "00446901",
+ "corp_name": "코칩",
+ "stock_code": "126730",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000835",
+ "dcmNo": "11149532",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000835&dcmNo=11149532",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000835&dcmNo=11149532&eleId=1&offset=590&length=21306&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12393,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/126730_코칩/20260319_11149532",
+ "fetched_at": "2026-11-16T20:55:08",
+ "used_by_rcept_no": [
+  "20260327000999"
+ ]
+}

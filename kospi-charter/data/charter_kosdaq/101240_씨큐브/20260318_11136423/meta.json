@@ -1,0 +1,45 @@
+{
+ "corp_code": "00520610",
+ "corp_name": "씨큐브",
+ "stock_code": "101240",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000535",
+ "dcmNo": "11136423",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000535&dcmNo=11136423",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000535&dcmNo=11136423&eleId=1&offset=595&length=19222&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "mixed",
+ "text_chars": 10732,
+ "n_images": 2,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136423&flNm=%EC%A0%95%EA%B4%80%EC%82%AC%EB%B3%B81.jpg",
+   "flNm": "정관사본1.jpg",
+   "alt": "이미지: 정관사본1",
+   "bytes": 264430,
+   "sha256": "d6e8a084327500113a18af5d30dea0b98660ca2f6be7b148d9de74b9b1192306",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136423&flNm=%EC%A0%95%EA%B4%80%EC%82%AC%EB%B3%B82.jpg",
+   "flNm": "정관사본2.jpg",
+   "alt": "이미지: 정관사본2",
+   "bytes": 248207,
+   "sha256": "bc5655bf2a9f4ca7321fedf6bc69aa636fda88584f83e41bc8a47d3f76b5d405",
+   "width": 2480,
+   "height": 3507
+  }
+ ],
+ "folder": "data/charter_kosdaq/101240_씨큐브/20260318_11136423",
+ "fetched_at": "2026-11-16T20:49:07",
+ "used_by_rcept_no": [
+  "20260318000535"
+ ]
+}

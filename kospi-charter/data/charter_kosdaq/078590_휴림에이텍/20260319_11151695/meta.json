@@ -1,0 +1,255 @@
+{
+ "corp_code": "00230814",
+ "corp_name": "휴림에이텍",
+ "stock_code": "078590",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001131",
+ "dcmNo": "11151695",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001131&dcmNo=11151695",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001131&dcmNo=11151695&eleId=1&offset=596&length=3969&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 23,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_1.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_1.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_1",
+   "bytes": 302866,
+   "sha256": "20a4a1ee0664960452b5d653da15b1c26394b21fdefc58a2b52f5077e6667484",
+   "width": 2927,
+   "height": 4138
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_2.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_2.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_2",
+   "bytes": 285956,
+   "sha256": "f34b342150381ed028ba42264c512c527f2d082e4f0b8ec3fd76108b9a7f1349",
+   "width": 2634,
+   "height": 3723
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_3.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_3.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_3",
+   "bytes": 274000,
+   "sha256": "b038f51052a2838630d9b9d69a371902b248615d2cbccba3d3a06b5e65f5c755",
+   "width": 2634,
+   "height": 3723
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_4.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_4.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_4",
+   "bytes": 302838,
+   "sha256": "80b3650ee30eceb1440d9b1f0c5f1ae6a22442a8064e1f6fdcf38bffa9f1d52f",
+   "width": 2370,
+   "height": 3349
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_5.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_5.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_5",
+   "bytes": 284850,
+   "sha256": "23f055da306cb3a4e41742d6cc1caa21c5717f4ac86091861337fcd5a569cdd3",
+   "width": 2133,
+   "height": 3014
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_6.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_6.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_6",
+   "bytes": 298395,
+   "sha256": "887c2258bdce7e4133ea207e622610edf697a02c48bc1a001af19760da6c1f0d",
+   "width": 2133,
+   "height": 3014
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_7.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_7.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_7",
+   "bytes": 263293,
+   "sha256": "4315641dc0f395cdc276d11482b9ffa7176d39fb40b1de389d01453da8020cbc",
+   "width": 2133,
+   "height": 3014
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_8.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_8.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_8",
+   "bytes": 260755,
+   "sha256": "6fc8b107be18754128c905b5cc7c9c12d5c7558add3acebde3526d03c245fe86",
+   "width": 2133,
+   "height": 3014
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_9.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_9.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_9",
+   "bytes": 275112,
+   "sha256": "639f3c7b22822735be23816f405fca7d67e4de03ef8559666a3899b47c62d74e",
+   "width": 2370,
+   "height": 3349
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_10.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_10.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_10",
+   "bytes": 274981,
+   "sha256": "6247745ecb81e879d72821419c61bd8423801e73e6bf8352395d5d313df24614",
+   "width": 2370,
+   "height": 3349
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_11.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_11.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_11",
+   "bytes": 274037,
+   "sha256": "25782fb8ce14f0c3dbd9b470f65fe047991ead82d33613ff8dc01e0957cccda0",
+   "width": 2133,
+   "height": 3014
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_12.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_12.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_12",
+   "bytes": 263402,
+   "sha256": "07165a7a55fe236226f76c59116c4f383c7cbbea86c90a1d13336615b384d9fe",
+   "width": 2133,
+   "height": 3014
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_13.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_13.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_13",
+   "bytes": 293232,
+   "sha256": "25da9738b2e0b9c07d780d4a547d0a92ef2ab75938f724a6a85362581b071584",
+   "width": 2370,
+   "height": 3349
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_14.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_14.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_14",
+   "bytes": 285472,
+   "sha256": "c7798d457a4a4b689323bf3ec3329906099373f1ecd7ded7faf933f782cc0acf",
+   "width": 2370,
+   "height": 3349
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_15.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_15.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_15",
+   "bytes": 304409,
+   "sha256": "ad1b534cd073eef28a4e9d418b34d649504a3acc4392041d9d6b2692a95a4979",
+   "width": 2634,
+   "height": 3723
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_16.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_16.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_16",
+   "bytes": 264740,
+   "sha256": "8e12a48c475cb03b0b7f32cdbdad16a334af49d2e54ed3016ac990cd7f8daf10",
+   "width": 2370,
+   "height": 3349
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_17.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_17.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_17",
+   "bytes": 261467,
+   "sha256": "2ab66af6f6c192ae108e3252a1ad59a01432db55a5eaa7d5128dbe292d86fd62",
+   "width": 2370,
+   "height": 3349
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_18.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_18.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_18",
+   "bytes": 277636,
+   "sha256": "44d653a8c4cf9b145e9856076a51fae41884fd3572263f403465af6c83c3d169",
+   "width": 2370,
+   "height": 3349
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_19.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_19.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_19",
+   "bytes": 262726,
+   "sha256": "e3bdcdace69b0508c1eabd1db2affda88134036949a52ddd49e8c8da9febd158",
+   "width": 2370,
+   "height": 3349
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_20.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_20.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_20",
+   "bytes": 294884,
+   "sha256": "1605298b48059639909b064afea22d29e03fb4508fbbfba3229523814ce49418",
+   "width": 2370,
+   "height": 3349
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_21.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_21.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_21",
+   "bytes": 271611,
+   "sha256": "36701c76f7745fd2bdc9ff96bb03b220934f54f1405025f04a8cd50fd270eb90",
+   "width": 2370,
+   "height": 3349
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_22.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_22.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_22",
+   "bytes": 292294,
+   "sha256": "f55f94f82aa062b1369db4d9bc6118965e02c298525d292e2a5535492605f41b",
+   "width": 2370,
+   "height": 3349
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151695&flNm=%EC%A0%95%EA%B4%80%28%ED%9C%B4%EB%A6%BC%EC%97%90%EC%9D%B4%ED%85%8D%29-%27250516_23.jpg",
+   "flNm": "정관(휴림에이텍)-'250516_23.jpg",
+   "alt": "이미지: 정관(휴림에이텍)-'250516_23",
+   "bytes": 280922,
+   "sha256": "95d6be63c32acc3637486fa89e089781dd1e4955df92c1a46a60342c51c733c8",
+   "width": 3253,
+   "height": 4599
+  }
+ ],
+ "folder": "data/charter_kosdaq/078590_휴림에이텍/20260319_11151695",
+ "fetched_at": "2026-11-16T20:37:02",
+ "used_by_rcept_no": [
+  "20260319001131"
+ ]
+}

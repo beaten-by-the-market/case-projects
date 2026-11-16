@@ -1,0 +1,37 @@
+{
+ "corp_code": "01565364",
+ "corp_name": "폴레드",
+ "stock_code": "487580",
+ "att_title": "2026.03.30 정관",
+ "att_date": "20260330",
+ "rcpNo": "20260330001188",
+ "dcmNo": "11196133",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330001188&dcmNo=11196133",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260330001188&dcmNo=11196133&eleId=1&offset=591&length=312&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 34,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/487580_폴레드/20260330_11196133",
+ "fetched_at": "2026-11-16T22:06:05",
+ "used_by_rcept_no": [
+  "20260330001188"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11196133&flNm=%ED%8F%B4%EB%A0%88%EB%93%9C_%EC%A0%95%EA%B4%80_2025.11.pdf",
+   "flNm": "폴레드_정관_2025.11.pdf",
+   "bytes": 257065,
+   "sha256": "938848edbfa4708d7005ffbfd8eb5e036e5e99a9e1f2e50a228aea4f323d8e55",
+   "pages": 22,
+   "text_pages": 22,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160101&flNm=%EC%A0%95%EA%B4%80_%EC%BD%94%EB%A7%A5%EC%8A%A4_26%EB%85%84+1%EC%B0%A8+%EC%9E%84%EC%8B%9C%EC%A3%BC%EC%B4%9D+%ED%99%95%EC%A0%95_%28%EB%8C%80%EC%99%B8%EB%B9%84%29.pdf",
+   "flNm": "정관_코맥스_26년 1차 임시주총 확정_(대외비).pdf",
+   "bytes": 163893,
+   "sha256": "0688a1206a0fc25982bdc6de8fd5bb1a9a3583c0fbcff2636ce7319b567981e7",
+   "pages": 8,
+   "text_pages": 8,
+   "ocr_pages": 0
+  }
+ ],
+ "total_chars": 9395,
+ "pages": 8,
+ "text_pages": 8,
+ "ocr_pages": 0,
+ "created_at": "2026-11-16T22:11:13",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": null
+ }
+}

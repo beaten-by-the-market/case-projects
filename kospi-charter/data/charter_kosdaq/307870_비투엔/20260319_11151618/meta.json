@@ -1,0 +1,24 @@
+{
+ "corp_code": "01326792",
+ "corp_name": "비투엔",
+ "stock_code": "307870",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001119",
+ "dcmNo": "11151618",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001119&dcmNo=11151618",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001119&dcmNo=11151618&eleId=1&offset=595&length=25454&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15373,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/307870_비투엔/20260319_11151618",
+ "fetched_at": "2026-11-16T21:29:48",
+ "used_by_rcept_no": [
+  "20260319001119"
+ ]
+}

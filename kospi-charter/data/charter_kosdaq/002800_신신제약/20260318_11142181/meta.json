@@ -1,0 +1,24 @@
+{
+ "corp_code": "00136448",
+ "corp_name": "신신제약",
+ "stock_code": "002800",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001364",
+ "dcmNo": "11142181",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001364&dcmNo=11142181",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001364&dcmNo=11142181&eleId=1&offset=595&length=20901&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9427,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/002800_신신제약/20260318_11142181",
+ "fetched_at": "2026-11-16T19:43:59",
+ "used_by_rcept_no": [
+  "20260318001364"
+ ]
+}

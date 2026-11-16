@@ -1,0 +1,215 @@
+{
+ "corp_code": "01408999",
+ "corp_name": "웨이버스",
+ "stock_code": "336060",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000548",
+ "dcmNo": "11136476",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000548&dcmNo=11136476",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000548&dcmNo=11136476&eleId=1&offset=597&length=3005&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 19,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%281%29.jpg",
+   "flNm": "웨이버스 정관 (1).jpg",
+   "alt": "이미지: 웨이버스 정관 (1)",
+   "bytes": 213360,
+   "sha256": "3d48ee78c9486ace02911bd6325bf797e1282676f33a37391ef37339252db05d",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%282%29.jpg",
+   "flNm": "웨이버스 정관 (2).jpg",
+   "alt": "이미지: 웨이버스 정관 (2)",
+   "bytes": 248476,
+   "sha256": "12dbc56795ff13ebbfdba39f563c2bf7bc456080ad976cdcc3b71f06e3476186",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%283%29.jpg",
+   "flNm": "웨이버스 정관 (3).jpg",
+   "alt": "이미지: 웨이버스 정관 (3)",
+   "bytes": 254878,
+   "sha256": "bb500f4d061fb2cd560fdabc2ddd0fc154dfff7ad1bc24c67bbf70ea2689ed58",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%284%29.jpg",
+   "flNm": "웨이버스 정관 (4).jpg",
+   "alt": "이미지: 웨이버스 정관 (4)",
+   "bytes": 285423,
+   "sha256": "51be0e5b85ae3c6e3e3b753df625da202a83de774b29651124c6c4e3f009e868",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%285%29.jpg",
+   "flNm": "웨이버스 정관 (5).jpg",
+   "alt": "이미지: 웨이버스 정관 (5)",
+   "bytes": 290234,
+   "sha256": "4e639a187aafdd606c1555f2dc6f671b71857aeaec8c04f280469f3874e88194",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%286%29.jpg",
+   "flNm": "웨이버스 정관 (6).jpg",
+   "alt": "이미지: 웨이버스 정관 (6)",
+   "bytes": 267277,
+   "sha256": "ec5e8447348c17f6b0d8dd9e61879e6155f33dbdb31b060604705851ed5649e5",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%287%29.jpg",
+   "flNm": "웨이버스 정관 (7).jpg",
+   "alt": "이미지: 웨이버스 정관 (7)",
+   "bytes": 273241,
+   "sha256": "fa71dbe42a2c3836505d03e925e2ef919ca385f65f8a85d63f1225b9f22e28ea",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%288%29.jpg",
+   "flNm": "웨이버스 정관 (8).jpg",
+   "alt": "이미지: 웨이버스 정관 (8)",
+   "bytes": 280223,
+   "sha256": "b976f81b83f354471ce815abcd642b7ca60f4751866d8c76192a73120b8a0a33",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%289%29.jpg",
+   "flNm": "웨이버스 정관 (9).jpg",
+   "alt": "이미지: 웨이버스 정관 (9)",
+   "bytes": 247430,
+   "sha256": "427902971cfef93a3badea6837eaac97f5535c4b269f91b3e7008a8e608386da",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%2810%29.jpg",
+   "flNm": "웨이버스 정관 (10).jpg",
+   "alt": "이미지: 웨이버스 정관 (10)",
+   "bytes": 253108,
+   "sha256": "2629608baba9496ade3f964fd565e45960f5a189feb8a4e5035c71cf02ecbc4d",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%2811%29.jpg",
+   "flNm": "웨이버스 정관 (11).jpg",
+   "alt": "이미지: 웨이버스 정관 (11)",
+   "bytes": 267394,
+   "sha256": "81c9ab95b7b91279f05fab21e9bcd9ca4b9f5740de216cd68faed7c35a240884",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%2812%29.jpg",
+   "flNm": "웨이버스 정관 (12).jpg",
+   "alt": "이미지: 웨이버스 정관 (12)",
+   "bytes": 304488,
+   "sha256": "cf7084227946e382b1a01e75b546e7606ea67a581ef1f1db730f1773534a6845",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%2813%29.jpg",
+   "flNm": "웨이버스 정관 (13).jpg",
+   "alt": "이미지: 웨이버스 정관 (13)",
+   "bytes": 288930,
+   "sha256": "ae1a4dcc0b92537f5e913d148fac2db0d915de1ed1929df1ac7289472289a0cc",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%2814%29.jpg",
+   "flNm": "웨이버스 정관 (14).jpg",
+   "alt": "이미지: 웨이버스 정관 (14)",
+   "bytes": 271808,
+   "sha256": "ff0ace07a174aff56624cbacea0f4bdfffb7680f919f1f66a25f6f7e424e8e10",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%2815%29.jpg",
+   "flNm": "웨이버스 정관 (15).jpg",
+   "alt": "이미지: 웨이버스 정관 (15)",
+   "bytes": 236986,
+   "sha256": "494f8d8f26c7ba229190647c378f5c7609b7b825773e62f76f756f77099e80a6",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%2816%29.jpg",
+   "flNm": "웨이버스 정관 (16).jpg",
+   "alt": "이미지: 웨이버스 정관 (16)",
+   "bytes": 278740,
+   "sha256": "2406f1409e2167a1a4a81f9b63127342d30d7caf31c1347f5aed5776385609c7",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%2817%29.jpg",
+   "flNm": "웨이버스 정관 (17).jpg",
+   "alt": "이미지: 웨이버스 정관 (17)",
+   "bytes": 297699,
+   "sha256": "319bb755b55425a936426dc1509573d96098b7f9ab8df463175f3da24e3ad064",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%2818%29.jpg",
+   "flNm": "웨이버스 정관 (18).jpg",
+   "alt": "이미지: 웨이버스 정관 (18)",
+   "bytes": 245330,
+   "sha256": "659930ea02a056fbdd93c64c827b3c2254f4ffbf30d6c86707ad279f43b37365",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136476&flNm=%EC%9B%A8%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%A0%95%EA%B4%80+%2819%29.jpg",
+   "flNm": "웨이버스 정관 (19).jpg",
+   "alt": "이미지: 웨이버스 정관 (19)",
+   "bytes": 272601,
+   "sha256": "c7e3cc39e0410f04141a16627e2319e1654f58c2cbc6dc969c9c862546b88ad5",
+   "width": 2480,
+   "height": 3508
+  }
+ ],
+ "folder": "data/charter_kosdaq/336060_웨이버스/20260318_11136476",
+ "fetched_at": "2026-11-16T21:35:02",
+ "used_by_rcept_no": [
+  "20260318000548"
+ ]
+}

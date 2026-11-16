@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170763&flNm=%EC%A0%95%EA%B4%80%28%ED%95%9C%EA%B8%80%29_20240329_%EC%A0%95%EA%B8%B0%EC%A3%BC%EC%B4%9D%EA%B0%9C%EC%A0%95%EB%B0%98%EC%98%81.pdf",
+   "flNm": "정관(한글)_20240329_정기주총개정반영.pdf",
+   "bytes": 325124,
+   "sha256": "369214c6d23b6c4c0ee676e6b356350c5d11a9218426a13d7c5f7eadaa03b102",
+   "pages": 15,
+   "text_pages": 14,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 10671,
+ "pages": 15,
+ "text_pages": 14,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T22:11:38",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

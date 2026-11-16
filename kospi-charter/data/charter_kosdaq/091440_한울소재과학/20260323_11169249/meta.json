@@ -1,0 +1,24 @@
+{
+ "corp_code": "00560122",
+ "corp_name": "한울소재과학",
+ "stock_code": "091440",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001643",
+ "dcmNo": "11169249",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001643&dcmNo=11169249",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001643&dcmNo=11169249&eleId=1&offset=597&length=24538&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15475,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/091440_한울소재과학/20260323_11169249",
+ "fetched_at": "2026-11-16T20:43:45",
+ "used_by_rcept_no": [
+  "20260323001643"
+ ]
+}

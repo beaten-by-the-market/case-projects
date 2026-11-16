@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261012000069",
+ "corp_code": "01501764",
+ "corp_name": "레메디",
+ "stock_code": "387690",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261012",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000069",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261012000069.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261012000069.xml",
+   "bytes": 54701,
+   "sha256": "59c99fc0e48f9773d95bfdd9c418fca25465e28cced82e73c08ee28bb3b9630b"
+  }
+ ],
+ "folder": "data/agm_absent/387690_레메디/20261012_20261012000069",
+ "fetched_at": "2026-11-17T01:11:10"
+}

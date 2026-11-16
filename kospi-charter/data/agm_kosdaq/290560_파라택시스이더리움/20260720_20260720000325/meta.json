@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260720000325",
+ "corp_code": "01130849",
+ "corp_name": "파라택시스이더리움",
+ "stock_code": "290560",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260720",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000325",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4680,
+ "charter_amend_txt": "data/agm_kosdaq/290560_파라택시스이더리움/20260720_20260720000325/정관의변경.txt",
+ "main_xml": "20260720000325.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260720000325.xml",
+   "bytes": 100812,
+   "sha256": "af6f94d605068efa983e41f9ec2e8a992cf5a0d896f531f02af7a4ffd72cacb1"
+  }
+ ],
+ "folder": "data/agm_kosdaq/290560_파라택시스이더리움/20260720_20260720000325",
+ "fetched_at": "2026-11-16T19:36:48"
+}

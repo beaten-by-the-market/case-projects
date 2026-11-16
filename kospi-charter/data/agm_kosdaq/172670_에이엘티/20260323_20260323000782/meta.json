@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323000782",
+ "corp_code": "00493325",
+ "corp_name": "에이엘티",
+ "stock_code": "172670",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000782",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1619,
+ "charter_amend_txt": "data/agm_kosdaq/172670_에이엘티/20260323_20260323000782/정관의변경.txt",
+ "main_xml": "20260323000782.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323000782.xml",
+   "bytes": 324523,
+   "sha256": "a853563711d277d4a5cca6952191c2019d4287f70ce50e1b3957fd396885909b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/172670_에이엘티/20260323_20260323000782",
+ "fetched_at": "2026-11-16T19:33:08"
+}

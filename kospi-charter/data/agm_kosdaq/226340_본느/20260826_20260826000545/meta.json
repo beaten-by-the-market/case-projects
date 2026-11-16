@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260826000545",
+ "corp_code": "01098792",
+ "corp_name": "본느",
+ "stock_code": "226340",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260826",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000545",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1584,
+ "charter_amend_txt": "data/agm_kosdaq/226340_본느/20260826_20260826000545/정관의변경.txt",
+ "main_xml": "20260826000545.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260826000545.xml",
+   "bytes": 116279,
+   "sha256": "3cc7b32b417803acab322fac21f763dfd72f2e5bb5c0538dbc8dd1372898ff4a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/226340_본느/20260826_20260826000545",
+ "fetched_at": "2026-11-16T19:38:21"
+}

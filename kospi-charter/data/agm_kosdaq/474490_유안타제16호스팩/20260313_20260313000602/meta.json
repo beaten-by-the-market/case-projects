@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260313000602",
+ "corp_code": "01804476",
+ "corp_name": "유안타제16호스팩",
+ "stock_code": "474490",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260313",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000602",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260313000602.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260313000602.xml",
+   "bytes": 83578,
+   "sha256": "eb898d8e64957a0f22a6be69c86eaa811f17a9f45e12bbc0991c9c2d459a2809"
+  }
+ ],
+ "folder": "data/agm_kosdaq/474490_유안타제16호스팩/20260313_20260313000602",
+ "fetched_at": "2026-11-16T19:32:21"
+}

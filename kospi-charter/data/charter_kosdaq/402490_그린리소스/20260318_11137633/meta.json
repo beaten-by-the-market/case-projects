@@ -1,0 +1,37 @@
+{
+ "corp_code": "01370863",
+ "corp_name": "그린리소스",
+ "stock_code": "402490",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000734",
+ "dcmNo": "11137633",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000734&dcmNo=11137633",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000734&dcmNo=11137633&eleId=1&offset=594&length=318&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 36,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/402490_그린리소스/20260318_11137633",
+ "fetched_at": "2026-11-16T21:48:57",
+ "used_by_rcept_no": [
+  "20260318000734"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137633&flNm=gr+-+%EC%A0%95%EA%B4%80%2820250926%29.pdf",
+   "flNm": "gr - 정관(20250926).pdf",
+   "bytes": 3456620,
+   "sha256": "c8316f6adb6b23a20dd005a4bf051c768140b250f9b643f24f88de68ebaf7f3a",
+   "pages": 21,
+   "text_pages": 0,
+   "ocr_pages": 21
+  }
+ ],
+ "n_pdfs": 1
+}

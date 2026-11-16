@@ -1,0 +1,205 @@
+{
+ "corp_code": "00351579",
+ "corp_name": "비트플래닛",
+ "stock_code": "049470",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001132",
+ "dcmNo": "11151703",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001132&dcmNo=11151703",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001132&dcmNo=11151703&eleId=1&offset=598&length=3575&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 18,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_1.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_1.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_1",
+   "bytes": 96751,
+   "sha256": "d759804eb8f508807a4b76857ea055e02b68d040b457434e07fd11868215843a",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_2.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_2.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_2",
+   "bytes": 205379,
+   "sha256": "0675f574c8e5e75ad41325279ea6dcb4522349466d341ecc52daabe55b5deb70",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_3.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_3.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_3",
+   "bytes": 257053,
+   "sha256": "5d27f310e48cfacab3cbab98c42924080fb3fd921deee33869becf584bd296b0",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_4.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_4.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_4",
+   "bytes": 108801,
+   "sha256": "b328e4bbdc719678bd10020b35092d4e84493f1d5b6feeecdf15e655cb1f4b77",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_5.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_5.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_5",
+   "bytes": 76178,
+   "sha256": "fef725374f5210fbb5fdef4c7b2327f2445d615c1da92f6a6f4adbf5d7466869",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_6.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_6.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_6",
+   "bytes": 98741,
+   "sha256": "a2fd8ac1a96ed131864678b90eef97d32c5c920b9f3daac5041a9cfd4870512e",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_7.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_7.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_7",
+   "bytes": 306424,
+   "sha256": "e668828635db91690d842d8a46f8e03c3e28a470ac3be999c523331f907117a4",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_8.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_8.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_8",
+   "bytes": 72811,
+   "sha256": "6d7cd7929b725be78fba621fcab54e55f21467da3b559411706bc7bc04506ebc",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_9.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_9.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_9",
+   "bytes": 70783,
+   "sha256": "7f909508edeb5a74346af9b7b4cba010e9d6dd9f04066d7685f474e24e7dc9c8",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_10.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_10.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_10",
+   "bytes": 66975,
+   "sha256": "a9aca4151bd3177003185143eb0f4a7c9918c2255339f0de1fb90efe3aaa8bc4",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_11.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_11.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_11",
+   "bytes": 72692,
+   "sha256": "0b9bcf79e406280a0083977c2bf3d91427bf881ee677ab468b23d2510fba6066",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_12.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_12.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_12",
+   "bytes": 282913,
+   "sha256": "f64abfcf216bae026335b0cbcc2e56536659fdacf73d9c4a22acb98d0af9283a",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_13.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_13.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_13",
+   "bytes": 76443,
+   "sha256": "f558c98beaa2813683887ca9507bb9ac2d2f115bce53332281ac4a86fc411fc4",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_14.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_14.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_14",
+   "bytes": 209558,
+   "sha256": "b6c0744aa0f4316b47b3285209330f6dfb074caac406c60e54a7f8fd06745655",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_15.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_15.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_15",
+   "bytes": 79906,
+   "sha256": "74c67c22da8390edc76238f661482e11902b52920b62eb2e8cf372d8784fe9c7",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_16.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_16.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_16",
+   "bytes": 306270,
+   "sha256": "d24ab469c37e605fd6df267d986c55b476d27985b046870fdcda9ab286a476e0",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_17.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_17.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_17",
+   "bytes": 201846,
+   "sha256": "c55ddd007129fdc9e7d82b67dab42254afece69cd383ebaafa80eddfb5f60e67",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151703&flNm=btc+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29-+bkl-251114%28clean%29_18.jpg",
+   "flNm": "btc 정관(개정)- bkl-251114(clean)_18.jpg",
+   "alt": "이미지: btc 정관(개정)- bkl-251114(clean)_18",
+   "bytes": 177403,
+   "sha256": "97ff82c830c4510879ff36bd135a94a6c0a97d4d8535c61f690b9bc1a74e0576",
+   "width": 793,
+   "height": 1122
+  }
+ ],
+ "folder": "data/charter_kosdaq/049470_비트플래닛/20260319_11151703",
+ "fetched_at": "2026-11-16T20:15:56",
+ "used_by_rcept_no": [
+  "20260319001132"
+ ]
+}

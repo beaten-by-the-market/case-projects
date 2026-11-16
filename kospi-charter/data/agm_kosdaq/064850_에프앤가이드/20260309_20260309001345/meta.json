@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260309001345",
+ "corp_code": "00331016",
+ "corp_name": "에프앤가이드",
+ "stock_code": "064850",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260309",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001345",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260309001345.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260309001345.xml",
+   "bytes": 156098,
+   "sha256": "273aa0ac690a121c5c3fa33e0196643b9fd2806a2516b440bbfce7f647ace804"
+  }
+ ],
+ "folder": "data/agm_kosdaq/064850_에프앤가이드/20260309_20260309001345",
+ "fetched_at": "2026-11-16T19:32:14"
+}

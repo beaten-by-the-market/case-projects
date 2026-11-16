@@ -1,0 +1,24 @@
+{
+ "corp_code": "00405278",
+ "corp_name": "KG파이낸셜",
+ "stock_code": "046440",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313001362",
+ "dcmNo": "11122834",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001362&dcmNo=11122834",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313001362&dcmNo=11122834&eleId=1&offset=601&length=29099&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12908,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/046440_KG파이낸셜/20260313_11122834",
+ "fetched_at": "2026-11-16T20:14:56",
+ "used_by_rcept_no": [
+  "20260313001362"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260428000524",
+ "corp_code": "00599285",
+ "corp_name": "서플러스글로벌",
+ "stock_code": "140070",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260428",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428000524",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260428000524.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260428000524.xml",
+   "bytes": 49366,
+   "sha256": "d5276c6102ed47ab59c527670bec14818ac8a90a790a8af14c4383cc7d5001ba"
+  }
+ ],
+ "folder": "data/agm_kosdaq/140070_서플러스글로벌/20260428_20260428000524",
+ "fetched_at": "2026-11-16T19:33:45"
+}

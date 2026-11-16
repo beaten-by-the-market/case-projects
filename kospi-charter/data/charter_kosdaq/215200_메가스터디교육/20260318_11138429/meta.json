@@ -1,0 +1,24 @@
+{
+ "corp_code": "01074862",
+ "corp_name": "메가스터디교육",
+ "stock_code": "215200",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000849",
+ "dcmNo": "11138429",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000849&dcmNo=11138429",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000849&dcmNo=11138429&eleId=1&offset=598&length=27308&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12767,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/215200_메가스터디교육/20260318_11138429",
+ "fetched_at": "2026-11-16T21:10:15",
+ "used_by_rcept_no": [
+  "20260326000491"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00231442",
+ "corp_name": "디지틀조선",
+ "stock_code": "033130",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000508",
+ "dcmNo": "11136246",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000508&dcmNo=11136246",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000508&dcmNo=11136246&eleId=1&offset=598&length=20225&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12277,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/033130_디지틀조선/20260318_11136246",
+ "fetched_at": "2026-11-16T20:02:12",
+ "used_by_rcept_no": [
+  "20260318000508"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00363486",
+ "corp_name": "로체시스템즈",
+ "stock_code": "071280",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000688",
+ "dcmNo": "11132898",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000688&dcmNo=11132898",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000688&dcmNo=11132898&eleId=1&offset=597&length=20254&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9262,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/071280_로체시스템즈/20260317_11132898",
+ "fetched_at": "2026-11-16T20:35:04",
+ "used_by_rcept_no": [
+  "20260317000688"
+ ]
+}

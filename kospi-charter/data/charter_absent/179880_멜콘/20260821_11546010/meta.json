@@ -1,0 +1,24 @@
+{
+ "corp_code": "01028933",
+ "corp_name": "멜콘",
+ "stock_code": "179880",
+ "att_title": "2026.08.21 정관",
+ "att_date": "20260821",
+ "rcpNo": "20260821000368",
+ "dcmNo": "11546010",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000368&dcmNo=11546010",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260821000368&dcmNo=11546010&eleId=1&offset=594&length=28068&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 16391,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_absent/179880_멜콘/20260821_11546010",
+ "fetched_at": "2026-11-17T00:51:27",
+ "used_by_stock_code": [
+  "179880"
+ ]
+}

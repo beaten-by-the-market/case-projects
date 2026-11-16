@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159139&flNm=250327_%EC%A0%95%EA%B4%80_%ED%8F%AC%EC%8A%A4%EB%B1%85%ED%81%AC.pdf",
+   "flNm": "250327_정관_포스뱅크.pdf",
+   "bytes": 509929,
+   "sha256": "cf426959246fb4357e3cbcdae9e19f005f263035a3abada78783c7aa35f140fb",
+   "pages": 23,
+   "text_pages": 23,
+   "ocr_pages": 0
+  }
+ ],
+ "total_chars": 14486,
+ "pages": 23,
+ "text_pages": 23,
+ "ocr_pages": 0,
+ "created_at": "2026-11-16T22:13:18",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": null
+ }
+}

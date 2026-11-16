@@ -1,0 +1,24 @@
+{
+ "corp_code": "01583652",
+ "corp_name": "모니터랩",
+ "stock_code": "434480",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312000469",
+ "dcmNo": "11113284",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000469&dcmNo=11113284",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000469&dcmNo=11113284&eleId=1&offset=592&length=19656&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12058,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/434480_모니터랩/20260312_11113284",
+ "fetched_at": "2026-11-16T21:52:51",
+ "used_by_rcept_no": [
+  "20260611000460"
+ ]
+}

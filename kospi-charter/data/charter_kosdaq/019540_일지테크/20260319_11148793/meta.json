@@ -1,0 +1,24 @@
+{
+ "corp_code": "00146560",
+ "corp_name": "일지테크",
+ "stock_code": "019540",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000717",
+ "dcmNo": "11148793",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000717&dcmNo=11148793",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000717&dcmNo=11148793&eleId=1&offset=595&length=22217&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10584,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/019540_일지테크/20260319_11148793",
+ "fetched_at": "2026-11-16T19:57:00",
+ "used_by_rcept_no": [
+  "20260319000717"
+ ]
+}

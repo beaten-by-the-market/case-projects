@@ -1,0 +1,37 @@
+{
+ "corp_code": "00964595",
+ "corp_name": "엔바이오니아",
+ "stock_code": "317870",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001145",
+ "dcmNo": "11151779",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001145&dcmNo=11151779",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001145&dcmNo=11151779&eleId=1&offset=597&length=320&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 40,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/317870_엔바이오니아/20260319_11151779",
+ "fetched_at": "2026-11-16T21:32:07",
+ "used_by_rcept_no": [
+  "20260319001145"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151779&flNm=%EC%97%94%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84+%EC%A0%95%EA%B4%80_20250328.pdf",
+   "flNm": "엔바이오니아 정관_20250328.pdf",
+   "bytes": 612855,
+   "sha256": "a698c1ae26ef27f1643eb3868f25e66aa8e0401f86b0e50d81279c88b94b8aa0",
+   "pages": 15,
+   "text_pages": 0,
+   "ocr_pages": 15
+  }
+ ],
+ "n_pdfs": 1
+}

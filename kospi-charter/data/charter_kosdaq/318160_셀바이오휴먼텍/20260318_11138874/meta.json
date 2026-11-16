@@ -1,0 +1,24 @@
+{
+ "corp_code": "01288410",
+ "corp_name": "셀바이오휴먼텍",
+ "stock_code": "318160",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000925",
+ "dcmNo": "11138874",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000925&dcmNo=11138874",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000925&dcmNo=11138874&eleId=1&offset=600&length=21582&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14218,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/318160_셀바이오휴먼텍/20260318_11138874",
+ "fetched_at": "2026-11-16T21:32:26",
+ "used_by_rcept_no": [
+  "20260325000792"
+ ]
+}

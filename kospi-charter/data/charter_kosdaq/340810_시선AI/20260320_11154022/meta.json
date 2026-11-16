@@ -1,0 +1,37 @@
+{
+ "corp_code": "01315042",
+ "corp_name": "시선AI",
+ "stock_code": "340810",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000005",
+ "dcmNo": "11154022",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000005&dcmNo=11154022",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000005&dcmNo=11154022&eleId=1&offset=599&length=322&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 40,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/340810_시선AI/20260320_11154022",
+ "fetched_at": "2026-11-16T21:35:47",
+ "used_by_rcept_no": [
+  "20260320000005"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154022&flNm=%EC%A0%95%EA%B4%80+20250326_v8+%28%EC%B5%9C%EC%A2%85%29.pdf",
+   "flNm": "정관 20250326_v8 (최종).pdf",
+   "bytes": 496995,
+   "sha256": "8deefa86681cedc6ee7c60d490259bc0804772c4fe1f16f11837fa691a7d12f4",
+   "pages": 13,
+   "text_pages": 13,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

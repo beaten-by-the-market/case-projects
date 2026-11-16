@@ -1,0 +1,24 @@
+{
+ "corp_code": "01182578",
+ "corp_name": "DH오토리드",
+ "stock_code": "290120",
+ "att_title": "2026.03.31 정관",
+ "att_date": "20260331",
+ "rcpNo": "20260331004980",
+ "dcmNo": "11216284",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331004980&dcmNo=11216284",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260331004980&dcmNo=11216284&eleId=1&offset=599&length=33153&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15486,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/290120_DH오토리드/20260331_11216284",
+ "fetched_at": "2026-11-16T21:25:21",
+ "used_by_rcept_no": [
+  "20260331004980"
+ ]
+}

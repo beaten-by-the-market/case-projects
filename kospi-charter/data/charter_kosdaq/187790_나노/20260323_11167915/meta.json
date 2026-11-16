@@ -1,0 +1,24 @@
+{
+ "corp_code": "00994994",
+ "corp_name": "나노",
+ "stock_code": "187790",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001464",
+ "dcmNo": "11167915",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001464&dcmNo=11167915",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001464&dcmNo=11167915&eleId=1&offset=593&length=22965&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14554,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/187790_나노/20260323_11167915",
+ "fetched_at": "2026-11-16T21:04:24",
+ "used_by_rcept_no": [
+  "20260323001464"
+ ]
+}

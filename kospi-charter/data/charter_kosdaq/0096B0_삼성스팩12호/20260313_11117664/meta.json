@@ -1,0 +1,255 @@
+{
+ "corp_code": "01946532",
+ "corp_name": "삼성스팩12호",
+ "stock_code": "0096B0",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260312001444",
+ "dcmNo": "11117664",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001444&dcmNo=11117664",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001444&dcmNo=11117664&eleId=1&offset=602&length=4024&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 23,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_01.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_01",
+   "bytes": 259562,
+   "sha256": "23a225a642925128bfa3cb75b5075d4d02c6038ec4c7fecb99db6024518d6ac8",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_02.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_02",
+   "bytes": 292452,
+   "sha256": "bbf5b47be1c997892f37186f150ae3f44aa9a9e51d7a9a989fcfbfd9f5ed595f",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_03.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_03",
+   "bytes": 304929,
+   "sha256": "0e3299231748064be4827ee5100224ee0da15ead4a7d3bdd4c97276ffdf50b22",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_04.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_04",
+   "bytes": 244568,
+   "sha256": "b85138b3a6e1230d7944a00a358e6ee0a69b611e3772ba26b3ed1f9d59c150d2",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_05.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_05",
+   "bytes": 240044,
+   "sha256": "14c4309312a2f0ce58efe7447132e6f0d42dc85a5b829e59e52a3c9239beaec7",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_06.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_06",
+   "bytes": 262263,
+   "sha256": "bc1cd6f97a0da51647e124601dfaa4e475a71742c4bc84f3907dd9f0dfbdc633",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_07.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_07",
+   "bytes": 252451,
+   "sha256": "3b8073f7486bf561bc7d308c8a93fb29c355be845ed0c9be0657ed85b1a30a33",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_08.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_08",
+   "bytes": 275170,
+   "sha256": "f5de471bbb2f5a3e043a6a6a682960a7a04072f7b5191e1b718a3780996d7a43",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_09.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_09",
+   "bytes": 277425,
+   "sha256": "7e44acce7acfb0c1abd2cbb9c7a65b79f4c1f4a23315c45340136f48ad22da1b",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_10.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_10",
+   "bytes": 273218,
+   "sha256": "836bab5fb28b1c0d9aa92e267cbf955ddc4b0846068d1e7f719ead18332e6b14",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_11.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_11",
+   "bytes": 292660,
+   "sha256": "f02f2c2c52cfd6b15b7717314d212a824e9875b4faf7d40033aa594bb4d08385",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_12.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_12",
+   "bytes": 282760,
+   "sha256": "323e813e6e1892f73ba0d5f3b5f8015509cdf959cc9bec7e30661484a606fdad",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_13.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_13",
+   "bytes": 288648,
+   "sha256": "9a252210fdd1966456cc361341e07cb4484af6de91eb79cc4045d1de1079d24b",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_14.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_14",
+   "bytes": 267610,
+   "sha256": "b85b38b7b993ba22f1c3b8dd4f8cc26472480125db13d73dad7d0498ea9a2236",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_15.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_15.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_15",
+   "bytes": 286909,
+   "sha256": "84cf577acb313559cdef239925141daca427dec6e0648493373b0b8e064b1022",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_16.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_16.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_16",
+   "bytes": 292453,
+   "sha256": "8027cc0a2c83100c3d8f5dd79f7fe2c3c23efab69884c39dd0bf7d9b3e76da79",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_17.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_17.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_17",
+   "bytes": 260277,
+   "sha256": "c5fd89cb418eb7f27ea797a744c0decf1f82854832412585ab184d6386bcffc7",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_18.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_18.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_18",
+   "bytes": 243184,
+   "sha256": "cb50b6d9bf59df957806e1ef769ce301e3408d880996ba0b55f0802f595a56a9",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_19.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_19.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_19",
+   "bytes": 266060,
+   "sha256": "2199f7af6af677e297dc19b8245c23d475945694d0b9dd160723d51fcc2e3fd4",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_20.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_20.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_20",
+   "bytes": 278345,
+   "sha256": "3b193e046b9e9b253718eada1316855d4c6f3d9ffbe461ec520e981c458da701",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_21.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_21.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_21",
+   "bytes": 296663,
+   "sha256": "eecd4cafe6b2a03eb7ce313ec9105db2b9a5af6677c5fe98de4252aa91d60457",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_22.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_22.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_22",
+   "bytes": 256195,
+   "sha256": "9453b23c31e5840659dda3dfd84c8b0b11046489d819447fc9adc3358750d2a1",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117664&flNm=%EC%82%BC%EC%84%B1%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8112%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_23.jpg",
+   "flNm": "삼성기업인수목적12호_정관_페이지_23.jpg",
+   "alt": "이미지: 삼성기업인수목적12호_정관_페이지_23",
+   "bytes": 258324,
+   "sha256": "493430e08cc0e8f25b429784de00706542726a9a12cb19b961d4d4fa7e574c13",
+   "width": 2480,
+   "height": 3508
+  }
+ ],
+ "folder": "data/charter_kosdaq/0096B0_삼성스팩12호/20260313_11117664",
+ "fetched_at": "2026-11-16T19:49:31",
+ "used_by_rcept_no": [
+  "20260320001155"
+ ]
+}

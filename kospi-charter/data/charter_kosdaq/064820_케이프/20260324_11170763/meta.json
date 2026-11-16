@@ -1,0 +1,37 @@
+{
+ "corp_code": "00152437",
+ "corp_name": "케이프",
+ "stock_code": "064820",
+ "att_title": "2026.03.24 정관",
+ "att_date": "20260324",
+ "rcpNo": "20260324000014",
+ "dcmNo": "11170763",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000014&dcmNo=11170763",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260324000014&dcmNo=11170763&eleId=1&offset=594&length=332&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 54,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/064820_케이프/20260324_11170763",
+ "fetched_at": "2026-11-16T20:25:33",
+ "used_by_rcept_no": [
+  "20260810000668"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170763&flNm=%EC%A0%95%EA%B4%80%28%ED%95%9C%EA%B8%80%29_20240329_%EC%A0%95%EA%B8%B0%EC%A3%BC%EC%B4%9D%EA%B0%9C%EC%A0%95%EB%B0%98%EC%98%81.pdf",
+   "flNm": "정관(한글)_20240329_정기주총개정반영.pdf",
+   "bytes": 325124,
+   "sha256": "369214c6d23b6c4c0ee676e6b356350c5d11a9218426a13d7c5f7eadaa03b102",
+   "pages": 15,
+   "text_pages": 14,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

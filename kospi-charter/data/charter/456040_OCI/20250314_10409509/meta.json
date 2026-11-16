@@ -1,0 +1,21 @@
+{
+ "corp_code": "01760738",
+ "corp_name": "OCI",
+ "stock_code": "456040",
+ "att_title": "2025.03.14 정관",
+ "att_date": "20250314",
+ "rcpNo": "20250314001304",
+ "dcmNo": "10409509",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250314001304&dcmNo=10409509",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250314001304&dcmNo=10409509&eleId=1&offset=594&length=312&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 34,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter/456040_OCI/20250314_10409509",
+ "fetched_at": "2026-11-16T20:32:46"
+}

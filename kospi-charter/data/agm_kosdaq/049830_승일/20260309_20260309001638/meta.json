@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260309001638",
+ "corp_code": "00135467",
+ "corp_name": "승일",
+ "stock_code": "049830",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260309",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001638",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 416,
+ "charter_amend_txt": "data/agm_kosdaq/049830_승일/20260309_20260309001638/정관의변경.txt",
+ "main_xml": "20260309001638.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260309001638.xml",
+   "bytes": 82206,
+   "sha256": "fa979684b6bb01c024c9e95f0b0a465a690dde0dcc8806f9d114890b8c4cd27e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/049830_승일/20260309_20260309001638",
+ "fetched_at": "2026-11-16T19:32:15"
+}

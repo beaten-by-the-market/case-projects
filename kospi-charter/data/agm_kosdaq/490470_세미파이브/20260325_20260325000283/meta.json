@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260325000283",
+ "corp_code": "01627363",
+ "corp_name": "세미파이브",
+ "stock_code": "490470",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260325",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260325000283",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260325000283.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260325000283.xml",
+   "bytes": 269412,
+   "sha256": "b240962d7b659f7052a6e71b7271517d72049231ce838a40a0b3357b06fa51fd"
+  }
+ ],
+ "folder": "data/agm_kosdaq/490470_세미파이브/20260325_20260325000283",
+ "fetched_at": "2026-11-16T19:33:20"
+}

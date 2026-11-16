@@ -1,0 +1,24 @@
+{
+ "corp_code": "00159731",
+ "corp_name": "글로본",
+ "stock_code": "019660",
+ "att_title": "2026.04.07 정관",
+ "att_date": "20260407",
+ "rcpNo": "20260407003557",
+ "dcmNo": "11279561",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407003557&dcmNo=11279561",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260407003557&dcmNo=11279561&eleId=1&offset=594&length=24332&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15010,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/019660_글로본/20260407_11279561",
+ "fetched_at": "2026-11-16T19:57:06",
+ "used_by_rcept_no": [
+  "20260407003557"
+ ]
+}

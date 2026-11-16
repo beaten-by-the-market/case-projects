@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260612000498",
+ "corp_code": "01226234",
+ "corp_name": "와이바이오로직스",
+ "stock_code": "338840",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260612",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612000498",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260612000498.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260612000498.xml",
+   "bytes": 57776,
+   "sha256": "9b11e45c5c44d02d08bd2fde1db59ec55911a48c9514f8bcef3282bf6a09c0f1"
+  }
+ ],
+ "folder": "data/agm_kosdaq/338840_와이바이오로직스/20260612_20260612000498",
+ "fetched_at": "2026-11-16T19:35:24"
+}

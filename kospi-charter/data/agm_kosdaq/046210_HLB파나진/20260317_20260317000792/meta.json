@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260317000792",
+ "corp_code": "00172079",
+ "corp_name": "HLB파나진",
+ "stock_code": "046210",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260317",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000792",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260317000792.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260317000792.xml",
+   "bytes": 426613,
+   "sha256": "85aff209a2ba9fe5c309702c84c3b33c9dda75e658047cee61511feecb77941a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/046210_HLB파나진/20260317_20260317000792",
+ "fetched_at": "2026-11-16T19:32:27"
+}

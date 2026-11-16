@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260324000551",
+ "corp_code": "00977641",
+ "corp_name": "하이로닉",
+ "stock_code": "149980",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260324",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000551",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3494,
+ "charter_amend_txt": "data/agm_kosdaq/149980_하이로닉/20260324_20260324000551/정관의변경.txt",
+ "main_xml": "20260324000551.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260324000551.xml",
+   "bytes": 325860,
+   "sha256": "0e6fbad33f1ec8cc582276af8a49e3e4a65ecc3624fe6be4e0f24f71804e9160"
+  }
+ ],
+ "folder": "data/agm_kosdaq/149980_하이로닉/20260324_20260324000551",
+ "fetched_at": "2026-11-16T19:33:17"
+}

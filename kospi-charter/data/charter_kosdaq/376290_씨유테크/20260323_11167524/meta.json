@@ -1,0 +1,24 @@
+{
+ "corp_code": "00575106",
+ "corp_name": "씨유테크",
+ "stock_code": "376290",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001411",
+ "dcmNo": "11167524",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001411&dcmNo=11167524",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001411&dcmNo=11167524&eleId=1&offset=596&length=17810&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10644,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/376290_씨유테크/20260323_11167524",
+ "fetched_at": "2026-11-16T21:42:21",
+ "used_by_rcept_no": [
+  "20260323001411"
+ ]
+}

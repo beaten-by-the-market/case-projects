@@ -1,0 +1,19 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168659&flNm=a01+%EC%A0%95%EA%B4%80_24.03.28+%EA%B0%9C%EC%A0%95%EB%B3%B8.pdf",
+   "flNm": "a01 정관_24.03.28 개정본.pdf",
+   "error": "PDF 아님 (text/html;charset=UTF-8)"
+  }
+ ],
+ "total_chars": 0,
+ "pages": 0,
+ "text_pages": 0,
+ "ocr_pages": 0,
+ "created_at": "2026-11-16T22:15:20",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": null
+ }
+}

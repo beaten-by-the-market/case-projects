@@ -1,0 +1,33 @@
+{
+ "corp_code": "01689035",
+ "corp_name": "민테크",
+ "stock_code": "452200",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001177",
+ "dcmNo": "11140698",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001177&dcmNo=11140698",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001177&dcmNo=11140698&eleId=1&offset=596&length=318&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 31,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/452200_민테크/20260318_11140698",
+ "fetched_at": "2026-11-16T21:55:24",
+ "used_by_rcept_no": [
+  "20260318001177"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140698&flNm=%EC%A0%95%EA%B4%80_20240329%28%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C%29.pdf",
+   "flNm": "정관_20240329(사업보고서).pdf",
+   "error": "PDF 아님 (text/html;charset=UTF-8)"
+  }
+ ],
+ "n_pdfs": 1
+}

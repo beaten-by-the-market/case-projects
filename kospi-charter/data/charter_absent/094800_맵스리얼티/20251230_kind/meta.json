@@ -1,0 +1,36 @@
+{
+ "corp_code": "00600013",
+ "corp_name": "맵스리얼티",
+ "stock_code": "094800",
+ "att_title": "기타신고사항 '정관 변경 안내의 건' 첨부 정관",
+ "att_date": "20251230",
+ "rcpNo": "20251230000116",
+ "dcmNo": null,
+ "att_url": "https://kind.krx.co.kr/external/2025/12/30/000116/20251230000287/%EC%A0%95%EA%B4%80_%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%A7%B5%EC%8A%A4%EB%A6%AC%EC%96%BC%ED%8B%B0%EB%B6%80%EB%8F%99%EC%82%B0%EA%B3%B5%EB%AA%A8%ED%88%AC%EC%9E%90%ED%9A%8C%EC%82%AC_20251230.docx",
+ "viewer_urls": [
+  "https://kind.krx.co.kr/external/2025/12/30/000116/20251230000287/90999.htm"
+ ],
+ "n_nodes": 0,
+ "content_type": "text",
+ "text_chars": 25570,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "docs": [
+  {
+   "file": "doc/001.docx",
+   "src_url": "https://kind.krx.co.kr/external/2025/12/30/000116/20251230000287/%EC%A0%95%EA%B4%80_%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%A7%B5%EC%8A%A4%EB%A6%AC%EC%96%BC%ED%8B%B0%EB%B6%80%EB%8F%99%EC%82%B0%EA%B3%B5%EB%AA%A8%ED%88%AC%EC%9E%90%ED%9A%8C%EC%82%AC_20251230.docx",
+   "flNm": "정관_미래에셋맵스리얼티부동산공모투자회사_20251230.docx",
+   "bytes": 102037,
+   "sha256": "1b47a421ade2acba4496a9e0ab5aff49ee5cb7260e6f9d3e7b29536b941e1467"
+  }
+ ],
+ "folder": "data/charter_absent/094800_맵스리얼티/20251230_kind",
+ "fetched_at": "2026-11-17T01:16:11",
+ "source_doc": "KIND 공시",
+ "source_note": "KIND 20251230000116 첨부(content_id 20251230000287): 정관(docx) · 정관변경 대비표 · 이사회의사록 중 정관",
+ "text_from": "docx (python-docx 문단·표)",
+ "used_by_stock_code": [
+  "094800"
+ ]
+}

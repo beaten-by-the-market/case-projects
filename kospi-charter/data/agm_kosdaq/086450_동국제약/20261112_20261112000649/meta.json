@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261112000649",
+ "corp_code": "00114808",
+ "corp_name": "동국제약",
+ "stock_code": "086450",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261112",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000649",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 761,
+ "charter_amend_txt": "data/agm_kosdaq/086450_동국제약/20261112_20261112000649/정관의변경.txt",
+ "main_xml": "20261112000649.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261112000649.xml",
+   "bytes": 66819,
+   "sha256": "0cb9c15180de381e4b9350a8a3c40598f636eb31e9bbc120ef8a5cec18928c45"
+  }
+ ],
+ "folder": "data/agm_kosdaq/086450_동국제약/20261112_20261112000649",
+ "fetched_at": "2026-11-16T19:40:48"
+}

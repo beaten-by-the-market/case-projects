@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260514000044",
+ "corp_code": "01207716",
+ "corp_name": "앱코",
+ "stock_code": "129890",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260514",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514000044",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 507,
+ "charter_amend_txt": "data/agm_kosdaq/129890_앱코/20260514_20260514000044/정관의변경.txt",
+ "main_xml": "20260514000044.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260514000044.xml",
+   "bytes": 43745,
+   "sha256": "c610c0c57bc7da17eb9df79ecf252d34b39fbef1688835f63e58e9bead7553e6"
+  }
+ ],
+ "folder": "data/agm_kosdaq/129890_앱코/20260514_20260514000044",
+ "fetched_at": "2026-11-16T19:34:23"
+}

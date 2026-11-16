@@ -1,0 +1,37 @@
+{
+ "corp_code": "01374443",
+ "corp_name": "인투셀",
+ "stock_code": "287840",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001392",
+ "dcmNo": "11142410",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001392&dcmNo=11142410",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001392&dcmNo=11142410&eleId=1&offset=591&length=314&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 34,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/287840_인투셀/20260318_11142410",
+ "fetched_at": "2026-11-16T21:23:53",
+ "used_by_rcept_no": [
+  "20260318001392"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142410&flNm=%EC%9D%B8%ED%88%AC%EC%85%80+%EC%A0%95%EA%B4%80_20250326.pdf",
+   "flNm": "인투셀 정관_20250326.pdf",
+   "bytes": 294636,
+   "sha256": "8f4bd766e9d0dfc3118f19646ffeaa85d16e95eed335f9f7b4d6559db99a6984",
+   "pages": 20,
+   "text_pages": 19,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "00308896",
+ "corp_name": "셀피글로벌",
+ "stock_code": "068940",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001695",
+ "dcmNo": "11169810",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001695&dcmNo=11169810",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001695&dcmNo=11169810&eleId=1&offset=598&length=320&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 40,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/068940_셀피글로벌/20260323_11169810",
+ "fetched_at": "2026-11-16T20:28:57",
+ "used_by_rcept_no": [
+  "20260323001695"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169810&flNm=%28%EC%A3%BC%29%EC%85%80%ED%94%BC%EA%B8%80%EB%A1%9C%EB%B2%8C+%EC%A0%95%EA%B4%80_251121.pdf",
+   "flNm": "(주)셀피글로벌 정관_251121.pdf",
+   "bytes": 3226324,
+   "sha256": "395f19fd8ad02a53b80acc2a0de41f7efcee25f1f6d51e8e6a3fec2b796519c0",
+   "pages": 19,
+   "text_pages": 0,
+   "ocr_pages": 19
+  }
+ ],
+ "n_pdfs": 1
+}

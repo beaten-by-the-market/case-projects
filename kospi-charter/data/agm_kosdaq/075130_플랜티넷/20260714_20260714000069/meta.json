@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260714000069",
+ "corp_code": "00490179",
+ "corp_name": "플랜티넷",
+ "stock_code": "075130",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260714",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000069",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1169,
+ "charter_amend_txt": "data/agm_kosdaq/075130_플랜티넷/20260714_20260714000069/정관의변경.txt",
+ "main_xml": "20260714000069.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260714000069.xml",
+   "bytes": 62703,
+   "sha256": "ab64bfeb16c4da39e85b5ca9e147c0d52ceccdad19423cea4483dbfb4be92856"
+  }
+ ],
+ "folder": "data/agm_kosdaq/075130_플랜티넷/20260714_20260714000069",
+ "fetched_at": "2026-11-16T19:36:42"
+}

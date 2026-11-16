@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168539&flNm=1.+%EC%A0%95%EA%B4%80%28%EC%9E%90%EC%9D%B4%EA%B8%80%29_20260309_%EC%9D%B4%EC%82%AC%EC%9D%98%EC%84%A0%EC%9E%84%EB%B0%8F%EA%B5%AC%EC%84%B1%EC%9B%90%EC%88%98%EB%B3%80%EA%B2%BD.pdf",
+   "flNm": "1. 정관(자이글)_20260309_이사의선임및구성원수변경.pdf",
+   "bytes": 119781,
+   "sha256": "bff89ba54429170f5c389092d990a4d3dc74d828e524422fba808811d974743a",
+   "pages": 17,
+   "text_pages": 16,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 13867,
+ "pages": 17,
+ "text_pages": 16,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T22:14:22",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

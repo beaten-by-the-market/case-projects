@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260928000381",
+ "corp_code": "01381805",
+ "corp_name": "아로마티카",
+ "stock_code": "0015N0",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260928",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928000381",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260928000381.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260928000381.xml",
+   "bytes": 55709,
+   "sha256": "6c155ec2806a519b9a8724d60817587ae3ad3e2702c7cd43e13de611499722b0"
+  }
+ ],
+ "folder": "data/agm_kosdaq/0015N0_아로마티카/20260928_20260928000381",
+ "fetched_at": "2026-11-16T19:39:24"
+}

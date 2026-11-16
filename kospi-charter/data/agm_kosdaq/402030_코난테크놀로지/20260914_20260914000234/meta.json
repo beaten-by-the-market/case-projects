@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260914000234",
+ "corp_code": "00601988",
+ "corp_name": "코난테크놀로지",
+ "stock_code": "402030",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260914",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914000234",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260914000234.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260914000234.xml",
+   "bytes": 70422,
+   "sha256": "560467cd933db1afa309d4af01952d9512d0a861052dfca7772aa04169f80ec2"
+  }
+ ],
+ "folder": "data/agm_kosdaq/402030_코난테크놀로지/20260914_20260914000234",
+ "fetched_at": "2026-11-16T19:38:50"
+}

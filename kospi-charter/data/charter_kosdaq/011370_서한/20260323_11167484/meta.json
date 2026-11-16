@@ -1,0 +1,24 @@
+{
+ "corp_code": "00131504",
+ "corp_name": "서한",
+ "stock_code": "011370",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001404",
+ "dcmNo": "11167484",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001404&dcmNo=11167484",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001404&dcmNo=11167484&eleId=1&offset=593&length=21107&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10664,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/011370_서한/20260323_11167484",
+ "fetched_at": "2026-11-16T19:52:44",
+ "used_by_rcept_no": [
+  "20260703000170"
+ ]
+}

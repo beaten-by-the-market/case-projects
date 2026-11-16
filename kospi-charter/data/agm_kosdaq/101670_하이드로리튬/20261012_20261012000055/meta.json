@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261012000055",
+ "corp_code": "00527491",
+ "corp_name": "하이드로리튬",
+ "stock_code": "101670",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261012",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000055",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 180,
+ "charter_amend_txt": "data/agm_kosdaq/101670_하이드로리튬/20261012_20261012000055/정관의변경.txt",
+ "main_xml": "20261012000055.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261012000055.xml",
+   "bytes": 52660,
+   "sha256": "3f89273f6e7f11c93d549ebd2a1539b9ff80cace087ab6d6dfd99cd37477836a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/101670_하이드로리튬/20261012_20261012000055",
+ "fetched_at": "2026-11-16T19:39:36"
+}

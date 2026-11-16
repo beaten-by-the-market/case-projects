@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260414001512",
+ "corp_code": "00527002",
+ "corp_name": "화인써키트",
+ "stock_code": "127980",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260414",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260414001512",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260414001512.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260414001512.xml",
+   "bytes": 47543,
+   "sha256": "8b9bd71f21a03bc440a3eef1917736e038928aa49b7f31d38f2314ee8c81c453"
+  }
+ ],
+ "folder": "data/agm_kosdaq/127980_화인써키트/20260414_20260414001512",
+ "fetched_at": "2026-11-16T19:33:31"
+}

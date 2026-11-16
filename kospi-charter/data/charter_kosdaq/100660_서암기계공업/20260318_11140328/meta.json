@@ -1,0 +1,37 @@
+{
+ "corp_code": "00166528",
+ "corp_name": "서암기계공업",
+ "stock_code": "100660",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001127",
+ "dcmNo": "11140328",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001127&dcmNo=11140328",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001127&dcmNo=11140328&eleId=1&offset=597&length=310&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 24,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/100660_서암기계공업/20260318_11140328",
+ "fetched_at": "2026-11-16T20:48:54",
+ "used_by_rcept_no": [
+  "20260318001127"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140328&flNm=%EC%A0%95%EA%B4%80%28%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C%29.pdf",
+   "flNm": "정관(사업보고서).pdf",
+   "bytes": 387139,
+   "sha256": "60d414fe5f77ff6b461f19a4be5332e8f8c0b52d07be04c11eff8fe61fffe9b0",
+   "pages": 16,
+   "text_pages": 16,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,35 @@
+{
+ "corp_code": "01540903",
+ "corp_name": "크리에이츠",
+ "stock_code": "439270",
+ "att_title": "2026.09.04 정관",
+ "att_date": "20260904",
+ "rcpNo": "20260904000286",
+ "dcmNo": "11567395",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000286&dcmNo=11567395",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260904000286&dcmNo=11567395&eleId=1&offset=598&length=31488&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "mixed",
+ "text_chars": 14660,
+ "n_images": 1,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11567395&flNm=%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4%EC%B8%A0+%EC%A0%95%EA%B4%80_26.03.27_%EB%82%A0%EC%9D%B8_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "크리에이츠 정관_26.03.27_날인_페이지_01.jpg",
+   "alt": "이미지: 크리에이츠 정관_26.03.27",
+   "bytes": 181120,
+   "sha256": "ca067afe4c2da792e9e04d3ba0406de6804847840f856480b85a82f449ef3c93",
+   "width": 2480,
+   "height": 3507
+  }
+ ],
+ "folder": "data/charter_absent/439270_크리에이츠/20260904_11567395",
+ "fetched_at": "2026-11-17T00:50:58",
+ "used_by_stock_code": [
+  "439270"
+ ]
+}

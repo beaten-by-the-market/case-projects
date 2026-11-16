@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://www.mkif.com/assets/mkif/ko-kr/investor-centre/public-filings-and-reports/2026/mkif-articles-of-incorporation.pdf",
+   "flNm": "mkif-articles-of-incorporation.pdf",
+   "bytes": 1103316,
+   "sha256": "2d8b01f9f241b1398c74a9fb725c45978c8d1eb60ba6557c9a06525dcd121dd1",
+   "pages": 44,
+   "text_pages": 43,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 27947,
+ "pages": 44,
+ "text_pages": 43,
+ "ocr_pages": 1,
+ "created_at": "2026-11-17T01:10:01",
+ "engine": {
+  "text": "PyMuPDF (s04c.extract)",
+  "ocr": "Windows.Media.Ocr ko"
+ }
+}

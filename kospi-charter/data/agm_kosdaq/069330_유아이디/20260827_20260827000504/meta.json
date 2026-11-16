@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260827000504",
+ "corp_code": "00400121",
+ "corp_name": "유아이디",
+ "stock_code": "069330",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260827",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827000504",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1203,
+ "charter_amend_txt": "data/agm_kosdaq/069330_유아이디/20260827_20260827000504/정관의변경.txt",
+ "main_xml": "20260827000504.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260827000504.xml",
+   "bytes": 47339,
+   "sha256": "0db5a7897b5c296c1cfd1c5ec325ea980b6d8a1f249fbbfed13674352260a788"
+  }
+ ],
+ "folder": "data/agm_kosdaq/069330_유아이디/20260827_20260827000504",
+ "fetched_at": "2026-11-16T19:38:24"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00255044",
+ "corp_name": "현대에이치티",
+ "stock_code": "039010",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001354",
+ "dcmNo": "11167154",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001354&dcmNo=11167154",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001354&dcmNo=11167154&eleId=1&offset=598&length=21915&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9662,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/039010_현대에이치티/20260323_11167154",
+ "fetched_at": "2026-11-16T20:09:50",
+ "used_by_rcept_no": [
+  "20260323001354"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "00492353",
+ "corp_name": "파이오링크",
+ "stock_code": "170790",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000730",
+ "dcmNo": "11156626",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000730&dcmNo=11156626",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000730&dcmNo=11156626&eleId=1&offset=596&length=322&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 42,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/170790_파이오링크/20260320_11156626",
+ "fetched_at": "2026-11-16T21:01:12",
+ "used_by_rcept_no": [
+  "20260320000730"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11156626&flNm=%EC%A0%95%EA%B4%80%28%ED%8C%8C%EC%9D%B4%EC%98%A4%EB%A7%81%ED%81%AC_250325+%EA%B0%9C%EC%A0%95%29.pdf",
+   "flNm": "정관(파이오링크_250325 개정).pdf",
+   "bytes": 260057,
+   "sha256": "4a7d2e84e841e7f6f1dfb48c9f2314ea558a23906e46ac6be4680b4941a6d988",
+   "pages": 16,
+   "text_pages": 15,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

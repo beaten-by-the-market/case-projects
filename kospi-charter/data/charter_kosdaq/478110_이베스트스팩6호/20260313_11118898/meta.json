@@ -1,0 +1,24 @@
+{
+ "corp_code": "01815764",
+ "corp_name": "이베스트스팩6호",
+ "stock_code": "478110",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313000402",
+ "dcmNo": "11118898",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000402&dcmNo=11118898",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313000402&dcmNo=11118898&eleId=1&offset=605&length=20080&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11641,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/478110_이베스트스팩6호/20260313_11118898",
+ "fetched_at": "2026-11-16T22:03:03",
+ "used_by_rcept_no": [
+  "20260313000402"
+ ]
+}

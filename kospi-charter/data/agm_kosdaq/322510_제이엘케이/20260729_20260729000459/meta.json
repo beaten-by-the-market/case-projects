@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260729000459",
+ "corp_code": "01153293",
+ "corp_name": "제이엘케이",
+ "stock_code": "322510",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260729",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000459",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260729000459.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260729000459.xml",
+   "bytes": 64219,
+   "sha256": "ff0a95ff2f52bd8dc8505c33bdbbc759958e42da27edd54a1513b14b2bcd8fe6"
+  }
+ ],
+ "folder": "data/agm_kosdaq/322510_제이엘케이/20260729_20260729000459",
+ "fetched_at": "2026-11-16T19:37:24"
+}

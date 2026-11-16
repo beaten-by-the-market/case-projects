@@ -1,0 +1,24 @@
+{
+ "corp_code": "01829819",
+ "corp_name": "아크릴",
+ "stock_code": "0007C0",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001538",
+ "dcmNo": "11143591",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001538&dcmNo=11143591",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001538&dcmNo=11143591&eleId=1&offset=596&length=22513&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12134,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/0007C0_아크릴/20260318_11143591",
+ "fetched_at": "2026-11-16T19:42:45",
+ "used_by_rcept_no": [
+  "20260318001538"
+ ]
+}

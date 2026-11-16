@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261109000111",
+ "corp_code": "00370006",
+ "corp_name": "iMBC",
+ "stock_code": "052220",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261109",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000111",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261109000111.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261109000111.xml",
+   "bytes": 60652,
+   "sha256": "30a47b1adcf166318d1433c95b3e5153c771bb270d8f3dd3859f1c12de374a9d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/052220_iMBC/20261109_20261109000111",
+ "fetched_at": "2026-11-16T19:40:36"
+}

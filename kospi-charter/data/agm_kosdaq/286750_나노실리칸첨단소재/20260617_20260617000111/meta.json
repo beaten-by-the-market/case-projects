@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260617000111",
+ "corp_code": "01136001",
+ "corp_name": "나노실리칸첨단소재",
+ "stock_code": "286750",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260617",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000111",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 254,
+ "charter_amend_txt": "data/agm_kosdaq/286750_나노실리칸첨단소재/20260617_20260617000111/정관의변경.txt",
+ "main_xml": "20260617000111.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260617000111.xml",
+   "bytes": 45004,
+   "sha256": "48d9fc9cf558768a357a05c61b6758302870be65508e3315da601c29096b14e4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/286750_나노실리칸첨단소재/20260617_20260617000111",
+ "fetched_at": "2026-11-16T19:35:35"
+}

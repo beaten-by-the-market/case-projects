@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260310002185",
+ "corp_code": "01910759",
+ "corp_name": "삼성스팩10호",
+ "stock_code": "0044K0",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260310",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002185",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260310002185.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260310002185.xml",
+   "bytes": 77170,
+   "sha256": "c32d2ab795e2eb0befb41adb4acb1aa53e491f2d21867c4a3287875f4ff2cc37"
+  }
+ ],
+ "folder": "data/agm_kosdaq/0044K0_삼성스팩10호/20260310_20260310002185",
+ "fetched_at": "2026-11-16T19:32:16"
+}

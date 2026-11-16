@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260330001556",
+ "corp_code": "00426068",
+ "corp_name": "엑시온그룹",
+ "stock_code": "069920",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260330",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330001556",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260330001556.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260330001556.xml",
+   "bytes": 315379,
+   "sha256": "4a7879c1e8d9c52757ae54c0f854b833bafadaf7665f1fdaf52e3fd6123f2a04"
+  }
+ ],
+ "folder": "data/agm_kosdaq/069920_엑시온그룹/20260330_20260330001556",
+ "fetched_at": "2026-11-16T19:33:27"
+}

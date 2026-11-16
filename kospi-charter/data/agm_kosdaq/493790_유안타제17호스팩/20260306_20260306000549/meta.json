@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260306000549",
+ "corp_code": "01872219",
+ "corp_name": "유안타제17호스팩",
+ "stock_code": "493790",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260306",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260306000549",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260306000549.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260306000549.xml",
+   "bytes": 71603,
+   "sha256": "3dad28a7a52705ff888bf31cb5657d79f2424be77532c9ee1f0b448204e77201"
+  }
+ ],
+ "folder": "data/agm_kosdaq/493790_유안타제17호스팩/20260306_20260306000549",
+ "fetched_at": "2026-11-16T19:32:12"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260810000653",
+ "corp_code": "00545114",
+ "corp_name": "랩지노믹스",
+ "stock_code": "084650",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260810",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000653",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 6096,
+ "charter_amend_txt": "data/agm_kosdaq/084650_랩지노믹스/20260810_20260810000653/정관의변경.txt",
+ "main_xml": "20260810000653.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260810000653.xml",
+   "bytes": 142894,
+   "sha256": "da010f8a68a407177905e796ec9bbaa40bd8f9e72b4b48cb2d75f553d005e881"
+  }
+ ],
+ "folder": "data/agm_kosdaq/084650_랩지노믹스/20260810_20260810000653",
+ "fetched_at": "2026-11-16T19:37:39"
+}

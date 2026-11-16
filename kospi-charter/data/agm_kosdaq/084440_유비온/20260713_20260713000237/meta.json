@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260713000237",
+ "corp_code": "00531078",
+ "corp_name": "유비온",
+ "stock_code": "084440",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260713",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000237",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 257,
+ "charter_amend_txt": "data/agm_kosdaq/084440_유비온/20260713_20260713000237/정관의변경.txt",
+ "main_xml": "20260713000237.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260713000237.xml",
+   "bytes": 52368,
+   "sha256": "a59f3eea99af27276a87280a1684ffb434f910d977f038c4888858fc1512a7cc"
+  }
+ ],
+ "folder": "data/agm_kosdaq/084440_유비온/20260713_20260713000237",
+ "fetched_at": "2026-11-16T19:36:39"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "01082418",
+ "corp_name": "SAMG엔터",
+ "stock_code": "419530",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000799",
+ "dcmNo": "11163778",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000799&dcmNo=11163778",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000799&dcmNo=11163778&eleId=1&offset=603&length=24106&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14459,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/419530_SAMG엔터/20260323_11163778",
+ "fetched_at": "2026-11-16T21:51:13",
+ "used_by_rcept_no": [
+  "20260323000799"
+ ]
+}

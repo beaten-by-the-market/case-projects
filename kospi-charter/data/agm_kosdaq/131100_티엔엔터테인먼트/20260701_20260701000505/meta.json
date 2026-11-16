@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260701000505",
+ "corp_code": "00814786",
+ "corp_name": "티엔엔터테인먼트",
+ "stock_code": "131100",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260701",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000505",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 198,
+ "charter_amend_txt": "data/agm_kosdaq/131100_티엔엔터테인먼트/20260701_20260701000505/정관의변경.txt",
+ "main_xml": "20260701000505.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260701000505.xml",
+   "bytes": 66167,
+   "sha256": "7bab482b92d023d20aa769b79ac81bf993938ab568eccf79680a9781d3c226a7"
+  }
+ ],
+ "folder": "data/agm_kosdaq/131100_티엔엔터테인먼트/20260701_20260701000505",
+ "fetched_at": "2026-11-16T19:36:22"
+}

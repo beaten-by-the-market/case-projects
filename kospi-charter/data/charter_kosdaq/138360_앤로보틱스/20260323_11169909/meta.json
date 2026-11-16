@@ -1,0 +1,24 @@
+{
+ "corp_code": "00808068",
+ "corp_name": "앤로보틱스",
+ "stock_code": "138360",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001704",
+ "dcmNo": "11169909",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001704&dcmNo=11169909",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001704&dcmNo=11169909&eleId=1&offset=596&length=72144&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12810,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/138360_앤로보틱스/20260323_11169909",
+ "fetched_at": "2026-11-16T20:56:37",
+ "used_by_rcept_no": [
+  "20260323001704"
+ ]
+}

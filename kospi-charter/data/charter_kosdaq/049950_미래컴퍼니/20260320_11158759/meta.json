@@ -1,0 +1,24 @@
+{
+ "corp_code": "00447760",
+ "corp_name": "미래컴퍼니",
+ "stock_code": "049950",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001141",
+ "dcmNo": "11158759",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001141&dcmNo=11158759",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001141&dcmNo=11158759&eleId=1&offset=596&length=20999&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11895,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/049950_미래컴퍼니/20260320_11158759",
+ "fetched_at": "2026-11-16T20:16:10",
+ "used_by_rcept_no": [
+  "20260320001141"
+ ]
+}

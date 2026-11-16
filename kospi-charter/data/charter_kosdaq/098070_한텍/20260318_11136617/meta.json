@@ -1,0 +1,24 @@
+{
+ "corp_code": "00404941",
+ "corp_name": "한텍",
+ "stock_code": "098070",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000570",
+ "dcmNo": "11136617",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000570&dcmNo=11136617",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000570&dcmNo=11136617&eleId=1&offset=593&length=27816&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13344,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/098070_한텍/20260318_11136617",
+ "fetched_at": "2026-11-16T20:46:52",
+ "used_by_rcept_no": [
+  "20260318000570"
+ ]
+}

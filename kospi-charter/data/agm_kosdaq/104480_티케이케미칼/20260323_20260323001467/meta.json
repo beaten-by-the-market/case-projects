@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323001467",
+ "corp_code": "00693554",
+ "corp_name": "티케이케미칼",
+ "stock_code": "104480",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001467",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1991,
+ "charter_amend_txt": "data/agm_kosdaq/104480_티케이케미칼/20260323_20260323001467/정관의변경.txt",
+ "main_xml": "20260323001467.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323001467.xml",
+   "bytes": 595515,
+   "sha256": "f276a340e7df0519deb15d4aee2aaa210e26a85a5e2b909fd11d2c6e4595918e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/104480_티케이케미칼/20260323_20260323001467",
+ "fetched_at": "2026-11-16T19:33:10"
+}

@@ -1,0 +1,265 @@
+{
+ "corp_code": "01948220",
+ "corp_name": "미래에셋비전스팩11호",
+ "stock_code": "0099W0",
+ "att_title": "2026.03.09 정관",
+ "att_date": "20260309",
+ "rcpNo": "20260309001206",
+ "dcmNo": "11099300",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001206&dcmNo=11099300",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260309001206&dcmNo=11099300&eleId=1&offset=608&length=4037&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 24,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_1.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_1",
+   "bytes": 143005,
+   "sha256": "481b880f66dfb48b4b7bfa4db624b360de08c431d8409624346cb3dadeb6f794",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_2.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_2",
+   "bytes": 158423,
+   "sha256": "bbc752c15f485b21515398a3c8c5679ae4afaec774ccfddcf523e028f4bf4510",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_3.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_3",
+   "bytes": 194496,
+   "sha256": "574036075954c05bc435a691cdc591ff84bd14f2da1522322430ba8b077868c0",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_4.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_4",
+   "bytes": 184129,
+   "sha256": "633153215aa69a917907c74f6404f1eb6a133282517ddb342227dc53ca4c09f4",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_5.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_5",
+   "bytes": 193085,
+   "sha256": "dac13bdef81bd6c9f46b430832ed2e2b4cddc0b06991ee6c6e71175a75cd8fa0",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_6.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_6",
+   "bytes": 173914,
+   "sha256": "54d47767f5bd05fc7ae7355b0b4dc0948602bef3da2c1039dca5b32100037361",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_7.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_7",
+   "bytes": 181985,
+   "sha256": "a0defa60ed490fc24edf69332793444a7d2532b6bb9424583f4eafffceba0786",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_8.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_8",
+   "bytes": 162185,
+   "sha256": "2f0e809b5e3f27cb65b98588f319eaca9fc116696b409c177abd0f27e98315f2",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_9.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_9",
+   "bytes": 167632,
+   "sha256": "a8348703704c74c2485438bd306ac67d1b114e033b64dfc117fa2269dab4475f",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_10.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_10",
+   "bytes": 166810,
+   "sha256": "02ecc37a3b22df4ab7597a58fd2b1ca4d10ea27b36bdb21dfb357c49c0d14e80",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_11.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_11",
+   "bytes": 170279,
+   "sha256": "b386d0b6096a15e37facefaf518bccbae96859533450a75b75ddcf45d3869ab4",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_12.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_12",
+   "bytes": 170785,
+   "sha256": "5b014a722e75fa47fe97eec68d066fe66042ad70de3d3b48cabeba0ddc884b40",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_13.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_13",
+   "bytes": 165134,
+   "sha256": "5e40fb9dbbe856590403b88b81bc806d47595184de3de0b45940a0fbde606f34",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_14.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_14",
+   "bytes": 155117,
+   "sha256": "6ef58a6d6d886a342088b0ffcf64164a3e499ad6a0f431d16dfe95a219cc6183",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_15.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_15",
+   "bytes": 177553,
+   "sha256": "809f6a2b57918a7ba6cf9994dcd2ce91a54a39504a639240d19cc7877f763b99",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_16.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_16",
+   "bytes": 153074,
+   "sha256": "025d8292a867230a1c394f4733d145a67e7a02bc383d561e504021e8bf2a9e9b",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_17.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_17",
+   "bytes": 218319,
+   "sha256": "efeb3dc36c134693d77c905a04f5293bfcdd528422295d458499ae23c85e0403",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_18.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_18.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_18",
+   "bytes": 188549,
+   "sha256": "78b4dd6ac15b35876001b74db4e4283e0a6f681568cb77da5bd158b9be0077a1",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_19.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_19.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_19",
+   "bytes": 213474,
+   "sha256": "62f1301397d664d7f627bab783d13c218cf59cf09cbb2f0c950fd1d623160d78",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_20.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_20.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_20",
+   "bytes": 216859,
+   "sha256": "cc5435288c2eb5a41156d547f63e38db7416ffd146af50b34b121da64459d71d",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_21.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_21.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_21",
+   "bytes": 143681,
+   "sha256": "1bed8838dbf8732257405fe6c5dd64e370c5682cd555d70228ec43415ac39b4f",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_22.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_22.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_22",
+   "bytes": 143163,
+   "sha256": "9758d1ac02a5a74b17b307459d9e10ce0d952b70728942ef64780dcfd1466701",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_23.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_23.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_23",
+   "bytes": 144338,
+   "sha256": "d79775aec81d6b7b63ae492accf6d3c65540d86c42591ffc7dd00570a826cd8d",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/024.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11099300&flNm=%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_24.jpg",
+   "flNm": "미래에셋비전스팩11호_정관_24.jpg",
+   "alt": "이미지: 미래에셋비전스팩11호_정관_24",
+   "bytes": 89397,
+   "sha256": "2f3700f7a5ce4aa2d7d2436ea31c066c5d0068bbdc1a0680fee830c057f8b583",
+   "width": 1190,
+   "height": 1682
+  }
+ ],
+ "folder": "data/charter_kosdaq/0099W0_미래에셋비전스팩11호/20260309_11099300",
+ "fetched_at": "2026-11-16T19:51:41",
+ "used_by_rcept_no": [
+  "20260309001206"
+ ]
+}

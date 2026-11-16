@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261113001301",
+ "corp_code": "00530121",
+ "corp_name": "디에스케이",
+ "stock_code": "109740",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261113",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001301",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261113001301.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261113001301.xml",
+   "bytes": 70816,
+   "sha256": "6de9ceafb7da93da618695c876a366bf7bd45d4c2867cb4d020a15f449ce7389"
+  }
+ ],
+ "folder": "data/agm_kosdaq/109740_디에스케이/20261113_20261113001301",
+ "fetched_at": "2026-11-16T19:40:51"
+}

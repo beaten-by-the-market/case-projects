@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260716000763",
+ "corp_code": "00173449",
+ "corp_name": "빌리언스",
+ "stock_code": "044480",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260716",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000763",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 550,
+ "charter_amend_txt": "data/agm_kosdaq/044480_빌리언스/20260716_20260716000763/정관의변경.txt",
+ "main_xml": "20260716000763.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260716000763.xml",
+   "bytes": 54395,
+   "sha256": "e61fe92138336379a5575da0a88a93db2d6525c2c88680254c206156d870b36d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/044480_빌리언스/20260716_20260716000763",
+ "fetched_at": "2026-11-16T19:36:47"
+}

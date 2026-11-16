@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260619000197",
+ "corp_code": "00158219",
+ "corp_name": "시그네틱스",
+ "stock_code": "033170",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260619",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000197",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 222,
+ "charter_amend_txt": "data/agm_kosdaq/033170_시그네틱스/20260619_20260619000197/정관의변경.txt",
+ "main_xml": "20260619000197.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260619000197.xml",
+   "bytes": 48339,
+   "sha256": "f84e747dcb617eaea6924fe981c76a9cbd9b9f0601c5fb0e9df2a73d34b79032"
+  }
+ ],
+ "folder": "data/agm_kosdaq/033170_시그네틱스/20260619_20260619000197",
+ "fetched_at": "2026-11-16T19:35:39"
+}

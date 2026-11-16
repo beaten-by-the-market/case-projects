@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260319000673",
+ "corp_code": "00265041",
+ "corp_name": "삼양케이씨아이",
+ "stock_code": "036670",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000673",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1271,
+ "charter_amend_txt": "data/agm_kosdaq/036670_삼양케이씨아이/20260319_20260319000673/정관의변경.txt",
+ "main_xml": "20260319000673.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260319000673.xml",
+   "bytes": 174628,
+   "sha256": "121f64f7542adf4768c35f81bede8b34019fa72f7b4343e325ae580572195381"
+  }
+ ],
+ "folder": "data/agm_kosdaq/036670_삼양케이씨아이/20260319_20260319000673",
+ "fetched_at": "2026-11-16T19:32:36"
+}

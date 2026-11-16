@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260320001023",
+ "corp_code": "00763701",
+ "corp_name": "헥토파이낸셜",
+ "stock_code": "234340",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260320",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001023",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 812,
+ "charter_amend_txt": "data/agm_kosdaq/234340_헥토파이낸셜/20260320_20260320001023/정관의변경.txt",
+ "main_xml": "20260320001023.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260320001023.xml",
+   "bytes": 315039,
+   "sha256": "5c9268701e597b88753013924f780d88ffee955b0d83fb48c90415e9f2549c26"
+  }
+ ],
+ "folder": "data/agm_kosdaq/234340_헥토파이낸셜/20260320_20260320001023",
+ "fetched_at": "2026-11-16T19:32:44"
+}

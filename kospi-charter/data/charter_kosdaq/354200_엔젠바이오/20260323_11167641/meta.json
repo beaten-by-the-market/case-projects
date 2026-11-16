@@ -1,0 +1,24 @@
+{
+ "corp_code": "01397903",
+ "corp_name": "엔젠바이오",
+ "stock_code": "354200",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001424",
+ "dcmNo": "11167641",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001424&dcmNo=11167641",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001424&dcmNo=11167641&eleId=1&offset=596&length=30914&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14163,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/354200_엔젠바이오/20260323_11167641",
+ "fetched_at": "2026-11-16T21:37:31",
+ "used_by_rcept_no": [
+  "20260323001424"
+ ]
+}

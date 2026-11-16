@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260727000333",
+ "corp_code": "00454937",
+ "corp_name": "덕신이피씨",
+ "stock_code": "090410",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260727",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000333",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 546,
+ "charter_amend_txt": "data/agm_kosdaq/090410_덕신이피씨/20260727_20260727000333/정관의변경.txt",
+ "main_xml": "20260727000333.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260727000333.xml",
+   "bytes": 49930,
+   "sha256": "65a5c985998fda227f211166761e2815a95276d5c850a23603465d101a3087cc"
+  }
+ ],
+ "folder": "data/agm_kosdaq/090410_덕신이피씨/20260727_20260727000333",
+ "fetched_at": "2026-11-16T19:37:20"
+}

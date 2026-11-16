@@ -1,0 +1,205 @@
+{
+ "corp_code": "01022902",
+ "corp_name": "애드바이오텍",
+ "stock_code": "179530",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000601",
+ "dcmNo": "11162732",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000601&dcmNo=11162732",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000601&dcmNo=11162732&eleId=1&offset=597&length=3359&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 18,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_1.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_1.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_1",
+   "bytes": 179522,
+   "sha256": "d30dc95dca35d9db237fd5ede4a8d87a6ea1cc14565933f20a1545ecb0f4da1e",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_2.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_2.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_2",
+   "bytes": 241663,
+   "sha256": "778418680702e09e48680eadba003649a012b13d0f853fbd9e81884e7846d480",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_3.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_3.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_3",
+   "bytes": 293373,
+   "sha256": "79a8992b90d0b854c9ee88062c0dcac829e7ed10a1ccf9dede2cea5dca609db2",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_4.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_4.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_4",
+   "bytes": 247765,
+   "sha256": "1005b92256ca621ecf9c7e8673820c5b75411058cccfbecd0c976595b48040cc",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_5.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_5.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_5",
+   "bytes": 295557,
+   "sha256": "3b1677f8cef590e4ee8b79839d34a9f9a962a929ca9c29b50b89f25f9ce9afe4",
+   "width": 1806,
+   "height": 2551
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_6.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_6.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_6",
+   "bytes": 284847,
+   "sha256": "cd1bfafec9205c06963d67f5f2d3fde8cff9d22c4ac30e90e988379998349996",
+   "width": 1806,
+   "height": 2551
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_7.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_7.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_7",
+   "bytes": 291977,
+   "sha256": "e5b94920b2d520c21c27dd518dca6618da015c42466fccb48527173b6809cf95",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_8.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_8.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_8",
+   "bytes": 279551,
+   "sha256": "82995af1693294e9b4339e5dab8c521444261d1b0d111393c094b0f7b3dac258",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_9.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_9.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_9",
+   "bytes": 285621,
+   "sha256": "edc4053bd14ce44b42e64b018a441961f663373e89f959c1bf970aa7dae3ddfb",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_10.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_10.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_10",
+   "bytes": 278586,
+   "sha256": "70ab92da1dfdb5bdf475bc6874b32cb5b39df759a03ff87b275962fb0c0cd957",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_11.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_11.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_11",
+   "bytes": 278822,
+   "sha256": "ea6e79e2659c0b62feced6a7ec5e8a6aa4676a2d62212df3b9e8ac5290b6e2ef",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_12.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_12.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_12",
+   "bytes": 257491,
+   "sha256": "2993ad56ed808ff440d4fd8f758d7427939ae39a4b349850a3a63c933d001611",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_13.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_13.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_13",
+   "bytes": 274020,
+   "sha256": "cc17122a5e11aea4115d8547ef9c4034ffb3374c146ef0e82432ab9aa14ed37b",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_14.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_14.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_14",
+   "bytes": 252063,
+   "sha256": "5ac668014156352a9c2e9be569a85bbeb816acde7e1e71b1f883b0a079f3a317",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_15.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_15.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_15",
+   "bytes": 283011,
+   "sha256": "0f931ce23cd7b69503d6befebc37dc9eae3e9b9733c007158f7cbc6eb565c1d6",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_16.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_16.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_16",
+   "bytes": 280631,
+   "sha256": "2dcc3c81415b1f6f50f759fcaf85ac8249c7b7cc89823f9d84ee627ff6fea853",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_17.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_17.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_17",
+   "bytes": 242133,
+   "sha256": "a572fc7175e7ff3b8beee20672abf76d734dadf460496ff4de0d1b01b564300e",
+   "width": 2479,
+   "height": 3504
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162732&flNm=%EC%95%A0%EB%93%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D+%EC%A0%95%EA%B4%80%2825.12.29%29_18.jpg",
+   "flNm": "애드바이오텍 정관(25.12.29)_18.jpg",
+   "alt": "이미지: 애드바이오텍 정관(25.12.29)_18",
+   "bytes": 283950,
+   "sha256": "d744803b1d990c16592df556061473fff3ceaa5848c669bcd426c0eb1296564c",
+   "width": 2479,
+   "height": 3504
+  }
+ ],
+ "folder": "data/charter_kosdaq/179530_애드바이오텍/20260323_11162732",
+ "fetched_at": "2026-11-16T21:02:29",
+ "used_by_rcept_no": [
+  "20260323000601"
+ ]
+}

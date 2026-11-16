@@ -1,0 +1,24 @@
+{
+ "corp_code": "00146427",
+ "corp_name": "한주에이알티",
+ "stock_code": "058450",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000278",
+ "dcmNo": "11135173",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000278&dcmNo=11135173",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000278&dcmNo=11135173&eleId=1&offset=597&length=22762&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14258,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/058450_한주에이알티/20260318_11135173",
+ "fetched_at": "2026-11-16T20:23:20",
+ "used_by_rcept_no": [
+  "20260318000278"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "01201970",
+ "corp_name": "셀레스트라",
+ "stock_code": "352770",
+ "att_title": "2026.04.07 정관",
+ "att_date": "20260407",
+ "rcpNo": "20260407002850",
+ "dcmNo": "11277337",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407002850&dcmNo=11277337",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260407002850&dcmNo=11277337&eleId=1&offset=596&length=312&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 34,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/352770_셀레스트라/20260407_11277337",
+ "fetched_at": "2026-11-16T21:37:01",
+ "used_by_rcept_no": [
+  "20260407002850"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11277337&flNm=%EC%A0%95%EA%B4%80_%EC%85%80%EB%A0%88%EC%8A%A4%ED%8A%B8%EB%9D%BC_2025.9.25.pdf",
+   "flNm": "정관_셀레스트라_2025.9.25.pdf",
+   "bytes": 291807,
+   "sha256": "13cba7bff2d0caef1cf83124131c9c567c66655041ade4455854bdbf1bd12d1f",
+   "pages": 19,
+   "text_pages": 19,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

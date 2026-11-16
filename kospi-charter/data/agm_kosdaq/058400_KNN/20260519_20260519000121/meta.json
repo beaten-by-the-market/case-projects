@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260519000121",
+ "corp_code": "00208134",
+ "corp_name": "KNN",
+ "stock_code": "058400",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260519",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519000121",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 712,
+ "charter_amend_txt": "data/agm_kosdaq/058400_KNN/20260519_20260519000121/정관의변경.txt",
+ "main_xml": "20260519000121.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260519000121.xml",
+   "bytes": 59836,
+   "sha256": "f4d9731ef17453e21da475609517e71358cb4dd723ad4510ef30b6acb48b2dba"
+  }
+ ],
+ "folder": "data/agm_kosdaq/058400_KNN/20260519_20260519000121",
+ "fetched_at": "2026-11-16T19:34:31"
+}

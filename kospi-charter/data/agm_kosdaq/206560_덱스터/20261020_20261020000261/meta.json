@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261020000261",
+ "corp_code": "01021949",
+ "corp_name": "덱스터",
+ "stock_code": "206560",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261020",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000261",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1236,
+ "charter_amend_txt": "data/agm_kosdaq/206560_덱스터/20261020_20261020000261/정관의변경.txt",
+ "main_xml": "20261020000261.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261020000261.xml",
+   "bytes": 88173,
+   "sha256": "8d80064042f2bbec2db662027bcba18031ae8eb32f6b55c5a81f3ae3adeb0031"
+  }
+ ],
+ "folder": "data/agm_kosdaq/206560_덱스터/20261020_20261020000261",
+ "fetched_at": "2026-11-16T19:39:53"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260320001139",
+ "corp_code": "00327819",
+ "corp_name": "선익시스템",
+ "stock_code": "171090",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260320",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001139",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2888,
+ "charter_amend_txt": "data/agm_kosdaq/171090_선익시스템/20260320_20260320001139/정관의변경.txt",
+ "main_xml": "20260320001139.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260320001139.xml",
+   "bytes": 1000286,
+   "sha256": "71da38c67d601047115b21a8e984310f2b966c6cb03ece4a386013a3a292cbcd"
+  }
+ ],
+ "folder": "data/agm_kosdaq/171090_선익시스템/20260320_20260320001139",
+ "fetched_at": "2026-11-16T19:32:45"
+}

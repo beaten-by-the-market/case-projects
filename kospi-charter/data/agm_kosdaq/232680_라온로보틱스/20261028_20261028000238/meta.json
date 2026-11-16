@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261028000238",
+ "corp_code": "00911229",
+ "corp_name": "라온로보틱스",
+ "stock_code": "232680",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261028",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000238",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261028000238.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261028000238.xml",
+   "bytes": 43759,
+   "sha256": "287e2b95c5089f6d2096bfec30bcf321d12ca21192f047d2a3e3c88ef4aa5c0e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/232680_라온로보틱스/20261028_20261028000238",
+ "fetched_at": "2026-11-16T19:40:21"
+}

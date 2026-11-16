@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260707000065",
+ "corp_code": "01234507",
+ "corp_name": "매일유업",
+ "stock_code": "267980",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260707",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707000065",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260707000065.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260707000065.xml",
+   "bytes": 64302,
+   "sha256": "8e7028b2253e6a9aaac241a0c228111e5b740959062d4a9dff11e7d784cad496"
+  }
+ ],
+ "folder": "data/agm_kosdaq/267980_매일유업/20260707_20260707000065",
+ "fetched_at": "2026-11-16T19:36:30"
+}

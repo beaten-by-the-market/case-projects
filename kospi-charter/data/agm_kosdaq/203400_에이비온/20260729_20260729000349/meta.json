@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260729000349",
+ "corp_code": "00977377",
+ "corp_name": "에이비온",
+ "stock_code": "203400",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260729",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000349",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 243,
+ "charter_amend_txt": "data/agm_kosdaq/203400_에이비온/20260729_20260729000349/정관의변경.txt",
+ "main_xml": "20260729000349.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260729000349.xml",
+   "bytes": 50703,
+   "sha256": "d9b43a83d74537197cb984fe7b6fbc89ff19bab8258021777430e3f8e4e6e962"
+  }
+ ],
+ "folder": "data/agm_kosdaq/203400_에이비온/20260729_20260729000349",
+ "fetched_at": "2026-11-16T19:37:23"
+}

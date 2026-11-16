@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260422000397",
+ "corp_code": "00870065",
+ "corp_name": "쓰리에이로직스",
+ "stock_code": "177900",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260422",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422000397",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260422000397.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260422000397.xml",
+   "bytes": 56417,
+   "sha256": "c740759906318831a73409825500bd7fc64a96e28e1f903184918adc69bcf303"
+  }
+ ],
+ "folder": "data/agm_kosdaq/177900_쓰리에이로직스/20260422_20260422000397",
+ "fetched_at": "2026-11-16T19:33:35"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260908000432",
+ "corp_code": "00660459",
+ "corp_name": "나노씨엠에스",
+ "stock_code": "247660",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260909",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000432",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1094,
+ "charter_amend_txt": "data/agm_kosdaq/247660_나노씨엠에스/20260909_20260908000432/정관의변경.txt",
+ "main_xml": "20260908000432.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260908000432.xml",
+   "bytes": 73442,
+   "sha256": "ed4679bae27e3ff870e262a3e233cfe4e42006a136f861fc25978e6879f59f6e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/247660_나노씨엠에스/20260909_20260908000432",
+ "fetched_at": "2026-11-16T19:38:42"
+}

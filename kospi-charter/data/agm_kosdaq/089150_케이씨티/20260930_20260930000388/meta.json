@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260930000388",
+ "corp_code": "00441447",
+ "corp_name": "케이씨티",
+ "stock_code": "089150",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260930",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000388",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260930000388.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260930000388.xml",
+   "bytes": 40770,
+   "sha256": "d37ae39b4e0281bdcbb9a9f0aeb5fdcdb54ec19e035bd08fdcbc0fd2367bf3dc"
+  }
+ ],
+ "folder": "data/agm_kosdaq/089150_케이씨티/20260930_20260930000388",
+ "fetched_at": "2026-11-16T19:39:28"
+}

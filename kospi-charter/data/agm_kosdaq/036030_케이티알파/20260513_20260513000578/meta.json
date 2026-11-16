@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260513000578",
+ "corp_code": "00260958",
+ "corp_name": "케이티알파",
+ "stock_code": "036030",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260513",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000578",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260513000578.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260513000578.xml",
+   "bytes": 78769,
+   "sha256": "1a39e13dbe6ee1222567b254cbd0b2e53a5358fc07b9c9d7881ff453a7c9ba7f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/036030_케이티알파/20260513_20260513000578",
+ "fetched_at": "2026-11-16T19:34:22"
+}

@@ -1,0 +1,175 @@
+{
+ "corp_code": "00153278",
+ "corp_name": "서연탑메탈",
+ "stock_code": "019770",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312000712",
+ "dcmNo": "11114164",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000712&dcmNo=11114164",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000712&dcmNo=11114164&eleId=1&offset=596&length=2929&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 15,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_01.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_01.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_01",
+   "bytes": 88700,
+   "sha256": "385039ba1fc1c305835b13e58e35d53047f342c07fa8b4d0e8027f169a46ba11",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_02.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_02.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_02",
+   "bytes": 185143,
+   "sha256": "e5921c99f0cc8960fb9932fb2b18a990b87aba0ccbcc1f2eba4d47e5581fb4ea",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_03.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_03.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_03",
+   "bytes": 220433,
+   "sha256": "de2c501a75812cda7c2be31798f8385e4e3ea94dd873f1e3c1a5b7c0b5395c3d",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_04.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_04.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_04",
+   "bytes": 250146,
+   "sha256": "79209f744738a1fe1cfac3fb1ca0dff24cafaa6ef6a5661923a23bfdd8bee8ff",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_05.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_05.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_05",
+   "bytes": 211082,
+   "sha256": "673249620825087e6603085548df721b0d29f406a80c69913cffa76fffa77b78",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_06.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_06.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_06",
+   "bytes": 199703,
+   "sha256": "d4abca0ab8b51f19bfb7d8632eb1e68dc9e0e4417c948058d4ec8b34af2f5f10",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_07.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_07.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_07",
+   "bytes": 225619,
+   "sha256": "8a79cb36371ee6d5f8fe5a7041a1b5eee09341ff8c903204e34e2e8cb1c6ae1e",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_08.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_08.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_08",
+   "bytes": 233991,
+   "sha256": "42cf87e081a177207a0a577042573c3eaa665d257ab3cf4a09f68d9249fb3efb",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_09.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_09.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_09",
+   "bytes": 198505,
+   "sha256": "a863493951db057985c506f2fcc4135d50cf1c186917594d4a00d3096d411d71",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_10.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_10.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_10",
+   "bytes": 234221,
+   "sha256": "6d881911a9ff05b7f4799260fe89e8b75dc0b2dffb15e2accb13f8377df0c04a",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_11.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_11.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_11",
+   "bytes": 213452,
+   "sha256": "fb8665696fab0c5669cca564ac5b426974a0ed0f0e169d6874762a331899aba0",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_12.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_12.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_12",
+   "bytes": 202813,
+   "sha256": "ccec7569e29548bc229aab7637abee3b4e5d5522b28b62e20807b491149a0da8",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_13.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_13.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_13",
+   "bytes": 254767,
+   "sha256": "64f01d9c0c346b1912de730ee5ae41c89aa38561e8e7b87bc7a788fc48095bbf",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_14.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_14.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_14",
+   "bytes": 154037,
+   "sha256": "0a523a1a0e96811ce92e993e1e72d76b650047eb4995ed2f57d5ad22bce51ba5",
+   "width": 1190,
+   "height": 1682
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114164&flNm=%EC%A0%95%EA%B4%80_%EC%A0%95%EA%B4%80%282022-03-18%EA%B0%9C%EC%A0%95%29_%EC%B5%9C%EC%A2%85+%ED%99%95%EC%A0%95%EB%B6%84_15.jpg",
+   "flNm": "정관_정관(2022-03-18개정)_최종 확정분_15.jpg",
+   "alt": "이미지: 정관_정관(2022-03-18개정)_최종 확정분_15",
+   "bytes": 280032,
+   "sha256": "4c814513c021e6914255636de94a437cbd37f6d6899ed2d9c89bed4c5d683d35",
+   "width": 1190,
+   "height": 1682
+  }
+ ],
+ "folder": "data/charter_kosdaq/019770_서연탑메탈/20260312_11114164",
+ "fetched_at": "2026-11-16T19:57:16",
+ "used_by_rcept_no": [
+  "20260312000712"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "00260745",
+ "corp_name": "서울평가정보",
+ "stock_code": "036120",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000571",
+ "dcmNo": "11162547",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000571&dcmNo=11162547",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000571&dcmNo=11162547&eleId=1&offset=597&length=288&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 10,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/036120_서울평가정보/20260323_11162547",
+ "fetched_at": "2026-11-16T20:05:25",
+ "used_by_rcept_no": [
+  "20260323000571"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162547&flNm=%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "정관.pdf",
+   "bytes": 349433,
+   "sha256": "178cd1d3b69831f20f7fbd18e60196c732a05be4686e51cbf489662186382e78",
+   "pages": 20,
+   "text_pages": 20,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261111000088",
+ "corp_code": "01187148",
+ "corp_name": "케어랩스",
+ "stock_code": "263700",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261111",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000088",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 581,
+ "charter_amend_txt": "data/agm_kosdaq/263700_케어랩스/20261111_20261111000088/정관의변경.txt",
+ "main_xml": "20261111000088.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261111000088.xml",
+   "bytes": 62520,
+   "sha256": "348b8dd24f8f7c2e847f3213c0c5a9bafd03fefa7c16449d9230382b95df6ae6"
+  }
+ ],
+ "folder": "data/agm_kosdaq/263700_케어랩스/20261111_20261111000088",
+ "fetched_at": "2026-11-16T19:40:40"
+}

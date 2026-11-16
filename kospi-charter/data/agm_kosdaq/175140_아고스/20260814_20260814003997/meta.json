@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260814003997",
+ "corp_code": "00861997",
+ "corp_name": "아고스",
+ "stock_code": "175140",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260814",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003997",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260814003997.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260814003997.xml",
+   "bytes": 58774,
+   "sha256": "b075f3062826839d1d8eccad8b06035a98d6ca651fa54baa52abb97a6c51cffe"
+  }
+ ],
+ "folder": "data/agm_kosdaq/175140_아고스/20260814_20260814003997",
+ "fetched_at": "2026-11-16T19:37:52"
+}

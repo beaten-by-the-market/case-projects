@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260624000400",
+ "corp_code": "00618410",
+ "corp_name": "KS인더스트리",
+ "stock_code": "101000",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260624",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000400",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260624000400.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260624000400.xml",
+   "bytes": 111353,
+   "sha256": "099bc66b6cbabbe5f39c05cee28e15656d879fb75945b1de03925cbc18ed2068"
+  }
+ ],
+ "folder": "data/agm_kosdaq/101000_KS인더스트리/20260624_20260624000400",
+ "fetched_at": "2026-11-16T19:35:49"
+}

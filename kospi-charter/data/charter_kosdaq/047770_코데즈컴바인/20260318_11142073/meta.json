@@ -1,0 +1,24 @@
+{
+ "corp_code": "00329093",
+ "corp_name": "코데즈컴바인",
+ "stock_code": "047770",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001354",
+ "dcmNo": "11142073",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001354&dcmNo=11142073",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001354&dcmNo=11142073&eleId=1&offset=597&length=18901&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11962,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/047770_코데즈컴바인/20260318_11142073",
+ "fetched_at": "2026-11-16T20:15:10",
+ "used_by_rcept_no": [
+  "20260318001354"
+ ]
+}

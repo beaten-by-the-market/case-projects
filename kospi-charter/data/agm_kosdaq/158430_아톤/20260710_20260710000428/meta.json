@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260710000428",
+ "corp_code": "00595182",
+ "corp_name": "아톤",
+ "stock_code": "158430",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260710",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000428",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2452,
+ "charter_amend_txt": "data/agm_kosdaq/158430_아톤/20260710_20260710000428/정관의변경.txt",
+ "main_xml": "20260710000428.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260710000428.xml",
+   "bytes": 132141,
+   "sha256": "537ed38e0cde959aaf8cf46a626ff78352e61760ce647df0296dc72d3caa98a6"
+  }
+ ],
+ "folder": "data/agm_kosdaq/158430_아톤/20260710_20260710000428",
+ "fetched_at": "2026-11-16T19:36:37"
+}

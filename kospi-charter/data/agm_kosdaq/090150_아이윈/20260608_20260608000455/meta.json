@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260608000455",
+ "corp_code": "00365624",
+ "corp_name": "아이윈",
+ "stock_code": "090150",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260608",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608000455",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2613,
+ "charter_amend_txt": "data/agm_kosdaq/090150_아이윈/20260608_20260608000455/정관의변경.txt",
+ "main_xml": "20260608000455.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260608000455.xml",
+   "bytes": 58806,
+   "sha256": "f40477e75ed155b9b531c8891e2c5cc67e901a3d94aed188784597d9ba0f8960"
+  }
+ ],
+ "folder": "data/agm_kosdaq/090150_아이윈/20260608_20260608000455",
+ "fetched_at": "2026-11-16T19:35:11"
+}

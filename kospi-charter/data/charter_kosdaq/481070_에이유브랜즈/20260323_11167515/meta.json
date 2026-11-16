@@ -1,0 +1,37 @@
+{
+ "corp_code": "01803927",
+ "corp_name": "에이유브랜즈",
+ "stock_code": "481070",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001409",
+ "dcmNo": "11167515",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001409&dcmNo=11167515",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001409&dcmNo=11167515&eleId=1&offset=599&length=346&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 65,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/481070_에이유브랜즈/20260323_11167515",
+ "fetched_at": "2026-11-16T22:04:46",
+ "used_by_rcept_no": [
+  "20260323001409"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167515&flNm=%28%EC%A3%BC%29%EC%97%90%EC%9D%B4%EC%9C%A0%EB%B8%8C%EB%9E%9C%EC%A6%88+%EC%A0%95%EA%B4%80_%EA%B0%9C%EC%A0%95_20250110.pdf",
+   "flNm": "(주)에이유브랜즈 정관_개정_20250110.pdf",
+   "bytes": 189042,
+   "sha256": "cfc93e0a559759d20e5a508ff69409d6eeebfeb5c1e944eb8eb9f2b31e60ae74",
+   "pages": 18,
+   "text_pages": 18,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

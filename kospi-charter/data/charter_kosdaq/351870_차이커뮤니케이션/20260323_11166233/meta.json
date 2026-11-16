@@ -1,0 +1,24 @@
+{
+ "corp_code": "00909835",
+ "corp_name": "차이커뮤니케이션",
+ "stock_code": "351870",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001199",
+ "dcmNo": "11166233",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001199&dcmNo=11166233",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001199&dcmNo=11166233&eleId=1&offset=599&length=24610&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14326,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/351870_차이커뮤니케이션/20260323_11166233",
+ "fetched_at": "2026-11-16T21:36:53",
+ "used_by_rcept_no": [
+  "20260323001199"
+ ]
+}

@@ -4,22 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>코스피 정관 목록</title>
-<meta name="description" content="최근 1년 사업보고서 최종본 목록과 코스피 회사 정관(Articles of Incorporation) 원문·주주총회 소집공고 정관변경 안건">
+<meta name="description" content="최근 1년 사업보고서 최종본 목록과 코스피·코스닥 회사 정관(Articles of Incorporation) 원문·주주총회 소집공고 정관변경 안건">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="header">
   <div class="headertop"><div class="in">
-    <h1 title="정관 (Articles of Incorporation)">코스피 정관 · 사업보고서 목록 <small>(최근 1년)</small></h1>
+    <h1 title="정관 (Articles of Incorporation)"><span data-cm>코스피</span> 정관 · 근거문서 목록 <small>(최근 1년)</small></h1>
     <div class="hinfo" id="hinfo"></div>
   </div></div>
   <div class="headerbottom"><div class="in" id="hbar"></div></div>
 </header>
 
 <main class="wrap">
-  <div class="tit"><h2 id="title">코스피 정관</h2><span class="crumb" id="crumb"></span></div>
+  <div class="tit"><h2 id="title">배당기준일</h2><span class="crumb" id="crumb"></span></div>
   <div id="notices"></div>
-  <section class="summary" id="summary" aria-label="요약"></section>
   <ul class="tabs" id="tabs" role="tablist"></ul>
   <div id="panes"></div>
 </main>
@@ -30,16 +29,24 @@
     <li>OpenDART: 사업보고서(A001)·주주총회소집공고(E006) 최종본 목록 <code>list.json</code>, 소집공고 원문 <code>document.xml</code></li>
     <li>DART 전자공시: 공시 화면의 본문(family)·첨부 목록(att), 정관 첨부 원문(viewer)과 스캔 이미지</li>
     <li>KIND: 기준일 현재 상장 목록 (소속시장·증권구분)</li>
+    <li>KIND: 주주총회결과 공시 (배당기준일 조항을 바꾼 정관 변경 안건의 가결 여부, 배당기준일 탭)</li>
+    <li>KIND: 상장법인목록 (지금 결산월, 배당기준일 탭의 결산월 비교)</li>
+    <li>배당기준일 분류: 정관 조항 발췌를 Claude Opus 5.5 가 판별하고 사람이 검토 (판별 지침·규제 연혁은 <code>.claude/skills/charter-dividend-record-date/</code>)</li>
   </ul>
   <h4>한계</h4>
   <ul>
     <li>소속시장(<code>market</code>)은 제출 당시가 아니라 <b>기준일 현재</b> KIND 상장 목록 기준이다. 제출 뒤 상장폐지·이전상장된 회사는 현재 시장으로 분류된다.</li>
+    <li>근거문서 표는 조회기간에 낸 사업보고서를 기본으로 한다. KIND <span data-cm>코스피</span> 상장회사 중 그 기간에 사업보고서가 없는 회사(신규상장 직후 회사·투자회사)는 정관을 찾은 다른 문서(증권신고서·모회사 분할공시·KIND 공시·홈페이지)를 근거문서로 1행씩 더했다. 정관을 찾지 못한 회사와 근거는 표 위 안내에 있다.</li>
+    <li>정관(Articles of Incorporation)·주주총회 소집공고는 <span data-cm>코스피</span> 회사만 모았다. 다른 시장 행의 정관·소집공고 칸은 비어 있다(근거 필터의 '모으지 않음').</li>
     <li>주주총회 소집공고는 최종본만, <b>소집공고 접수일</b>이 [사업보고서 원본 최초 접수일, 기준일] 안인 것만 센다 (양끝 포함).</li>
     <li>정관변경 안건 여부는 소집공고 원문의 '정관의 변경' 절이 있는지로 판정한다 (서식 코드 우선, 없으면 제목).</li>
     <li>DART 화면의 본문·첨부 목록은 수집시점(<span id="fetched-dart">수집 기록 없음</span>) 기준이다. 그 뒤 정정공시가 나오면 달라질 수 있다.</li>
-    <li>스캔 이미지 정관은 Claude Opus 5.5 가 직접 읽어 옮긴 글과 Windows 내장 OCR 결과를 함께 둔다. 둘 다 기계가 옮긴 글이므로 인용할 때는 이미지와 대조한다.</li>
-    <li>정관이 PDF 파일로 첨부된 경우는 PDF 글자층을 그대로 뽑았고, 글자층이 없는 쪽만 글자 인식했다.</li>
+    <li>스캔 이미지 정관은 Claude Opus 5.5 로 OCR 한 글을 보인다. 기계가 읽은 글이므로 인용할 때는 이미지와 대조한다. (Windows 내장 OCR 결과 <code>charter_ocr.txt</code> 는 데이터 폴더에만 둔다.)</li>
+    <li>정관이 PDF 파일로 첨부된 경우는 PDF 글자층을 그대로 뽑았고, 글자층이 없는 쪽은 Claude Opus 5.5 로 OCR 했다.</li>
     <li>스캔 이미지 파일은 git 에 올리지 않고, 화면에서는 DART 원본 주소로 바로 불러온다(이 컴퓨터에 파일이 있으면 그것을 먼저 쓴다). PDF 원본은 함께 올려 두었다.</li>
+    <li>배당기준일 탭의 결산월은 사업보고서 기준이다. KIND 상장법인목록의 지금 결산월과 다르면 빨간 글씨로 적고, 결산기가 여럿인 리츠(6개월·3개월)는 그 달들을 함께 적는다. '결산' 칸은 결산배당 기준일로, 정관의 '결산기말'은 결산월 말일로 풀었다.</li>
+    <li>배당기준일 분류는 결산배당 기준이다. 사업보고서 첨부 정관(대개 그해 정기주총 전 판)으로 정하고, 제출 뒤 주총에서 기준일 조항을 바꾼 회사는 KIND 주주총회결과로 가결을 확인해 반영했다. 정관이 '정할 수 있다'고 해도 실제로 배당액을 먼저 정했는지는 별개다.</li>
+    <li>배당기준일 탭의 스캔 정관 근거 그림은 해당 쪽을 Windows 내장 OCR 로 다시 읽어 조항 줄을 찾아 잘라 낸 것이다(못 찾으면 쪽 전체).</li>
   </ul>
   <p class="indep">출처: OpenDART·DART 전자공시·KIND</p>
 </div></footer>
@@ -56,6 +63,7 @@
 </div>
 
 <script src="data.js"></script>
+<script src="dividend.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

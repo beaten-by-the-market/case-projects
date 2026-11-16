@@ -1,0 +1,145 @@
+{
+ "corp_code": "01251489",
+ "corp_name": "라온피플",
+ "stock_code": "300120",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001204",
+ "dcmNo": "11166280",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001204&dcmNo=11166280",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001204&dcmNo=11166280&eleId=1&offset=597&length=1940&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 12,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166280&flNm=%EB%9D%BC%EC%98%A8%ED%94%BC%ED%94%8C+-+%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "라온피플 - 정관_1.jpg",
+   "alt": "이미지: 라온피플 - 정관_1",
+   "bytes": 257776,
+   "sha256": "4addb0a3a384532d68274e150f040b022b9c043a60a6b6eddf81f62cc8cfddc9",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166280&flNm=%EB%9D%BC%EC%98%A8%ED%94%BC%ED%94%8C+-+%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "라온피플 - 정관_2.jpg",
+   "alt": "이미지: 라온피플 - 정관_2",
+   "bytes": 69478,
+   "sha256": "84a2b0465473ff63728852e89f9a9319b48f1610b6ef658e6ab0ea21723e6e29",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166280&flNm=%EB%9D%BC%EC%98%A8%ED%94%BC%ED%94%8C+-+%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "라온피플 - 정관_3.jpg",
+   "alt": "이미지: 라온피플 - 정관_3",
+   "bytes": 63585,
+   "sha256": "fe9f8ed968d0612ffa2c0867eeca7fde844db8cb4c42822b16f446a6b27e549c",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166280&flNm=%EB%9D%BC%EC%98%A8%ED%94%BC%ED%94%8C+-+%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "라온피플 - 정관_4.jpg",
+   "alt": "이미지: 라온피플 - 정관_4",
+   "bytes": 70355,
+   "sha256": "b756df74551a940803a1ecb715ff281813f0f5ad5fb5b348d0277a9d933afac8",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166280&flNm=%EB%9D%BC%EC%98%A8%ED%94%BC%ED%94%8C+-+%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "라온피플 - 정관_5.jpg",
+   "alt": "이미지: 라온피플 - 정관_5",
+   "bytes": 301888,
+   "sha256": "94d958fbdb86023475afe04319150a5ba72d5ee6c807db9e8a5c76929cc530f2",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166280&flNm=%EB%9D%BC%EC%98%A8%ED%94%BC%ED%94%8C+-+%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "라온피플 - 정관_6.jpg",
+   "alt": "이미지: 라온피플 - 정관_6",
+   "bytes": 64477,
+   "sha256": "f078b0cd91dc16d580e49cdc3e8e212b352abec57a6bf7faa0bdca6a5de128bb",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166280&flNm=%EB%9D%BC%EC%98%A8%ED%94%BC%ED%94%8C+-+%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "라온피플 - 정관_7.jpg",
+   "alt": "이미지: 라온피플 - 정관_7",
+   "bytes": 62811,
+   "sha256": "cd96b8f7f6bd76c22fa1f878f09ee58059c14923721e4fb711ec049e3637fb89",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166280&flNm=%EB%9D%BC%EC%98%A8%ED%94%BC%ED%94%8C+-+%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "라온피플 - 정관_8.jpg",
+   "alt": "이미지: 라온피플 - 정관_8",
+   "bytes": 65393,
+   "sha256": "422cbcfb671f9f40b22abc465ed734e5a8d3dd2b720dfc1b84dbccd72ad8cbe4",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166280&flNm=%EB%9D%BC%EC%98%A8%ED%94%BC%ED%94%8C+-+%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "라온피플 - 정관_9.jpg",
+   "alt": "이미지: 라온피플 - 정관_9",
+   "bytes": 61976,
+   "sha256": "958d816a335330f25bb9a7f8baafe5bfc0e93aeba24eeeda01176e21696dd074",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166280&flNm=%EB%9D%BC%EC%98%A8%ED%94%BC%ED%94%8C+-+%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "라온피플 - 정관_10.jpg",
+   "alt": "이미지: 라온피플 - 정관_10",
+   "bytes": 286891,
+   "sha256": "c20eb152d3e1f1d91162dac032c4499cc0948adf82bb0be798ca1271ec74bfde",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166280&flNm=%EB%9D%BC%EC%98%A8%ED%94%BC%ED%94%8C+-+%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "라온피플 - 정관_11.jpg",
+   "alt": "이미지: 라온피플 - 정관_11",
+   "bytes": 247595,
+   "sha256": "90f1f4a41c1ac700d0ea5811678b79239f7645014c4b32015bd176f52df20890",
+   "width": 595,
+   "height": 842
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166280&flNm=%EB%9D%BC%EC%98%A8%ED%94%BC%ED%94%8C+-+%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "라온피플 - 정관_12.jpg",
+   "alt": "이미지: 라온피플 - 정관_12",
+   "bytes": 100518,
+   "sha256": "a858e27e1455d325e6e30c417c84d8b781e04f3f213782ad447f313fbf83c676",
+   "width": 595,
+   "height": 842
+  }
+ ],
+ "folder": "data/charter_kosdaq/300120_라온피플/20260323_11166280",
+ "fetched_at": "2026-11-16T21:28:34",
+ "used_by_rcept_no": [
+  "20260323001204"
+ ]
+}

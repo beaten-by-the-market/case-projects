@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260513000380",
+ "corp_code": "00471068",
+ "corp_name": "덕산하이메탈",
+ "stock_code": "077360",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260513",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000380",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 273,
+ "charter_amend_txt": "data/agm_kosdaq/077360_덕산하이메탈/20260513_20260513000380/정관의변경.txt",
+ "main_xml": "20260513000380.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260513000380.xml",
+   "bytes": 53581,
+   "sha256": "34e86bd0733745d0d0b48ea38718f3c318f4996c30317c080939856dfc4898f6"
+  }
+ ],
+ "folder": "data/agm_kosdaq/077360_덕산하이메탈/20260513_20260513000380",
+ "fetched_at": "2026-11-16T19:34:20"
+}

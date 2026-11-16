@@ -1,0 +1,24 @@
+{
+ "corp_code": "01109715",
+ "corp_name": "DSC인베스트먼트",
+ "stock_code": "241520",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001307",
+ "dcmNo": "11153114",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001307&dcmNo=11153114",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001307&dcmNo=11153114&eleId=1&offset=601&length=16527&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10454,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/241520_DSC인베스트먼트/20260319_11153114",
+ "fetched_at": "2026-11-16T21:16:01",
+ "used_by_rcept_no": [
+  "20260319001307"
+ ]
+}

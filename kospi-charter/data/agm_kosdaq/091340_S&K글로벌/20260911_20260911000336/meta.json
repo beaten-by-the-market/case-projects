@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260911000336",
+ "corp_code": "00580667",
+ "corp_name": "S&K글로벌",
+ "stock_code": "091340",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260911",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000336",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1067,
+ "charter_amend_txt": "data/agm_kosdaq/091340_S&K글로벌/20260911_20260911000336/정관의변경.txt",
+ "main_xml": "20260911000336.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260911000336.xml",
+   "bytes": 55998,
+   "sha256": "46c99aae4a06f17ecebc705b2adb8424e63edd8814ffaaefb0ec062ffa00ade4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/091340_S&K글로벌/20260911_20260911000336",
+ "fetched_at": "2026-11-16T19:38:46"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00815095",
+ "corp_name": "우리이앤엘하루틴",
+ "stock_code": "153490",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000560",
+ "dcmNo": "11162520",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000560&dcmNo=11162520",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000560&dcmNo=11162520&eleId=1&offset=596&length=18110&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11426,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/153490_우리이앤엘하루틴/20260323_11162520",
+ "fetched_at": "2026-11-16T20:58:50",
+ "used_by_rcept_no": [
+  "20260323000560"
+ ]
+}

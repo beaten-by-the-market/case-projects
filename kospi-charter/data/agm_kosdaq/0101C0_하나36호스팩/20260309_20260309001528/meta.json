@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260309001528",
+ "corp_code": "01949195",
+ "corp_name": "하나36호스팩",
+ "stock_code": "0101C0",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260309",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001528",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260309001528.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260309001528.xml",
+   "bytes": 73639,
+   "sha256": "80ec71e5a4f8d4a250a0d1bdf867ed35d9987d74d1edbf31d92a6a86b4e8bcd4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/0101C0_하나36호스팩/20260309_20260309001528",
+ "fetched_at": "2026-11-16T19:32:14"
+}

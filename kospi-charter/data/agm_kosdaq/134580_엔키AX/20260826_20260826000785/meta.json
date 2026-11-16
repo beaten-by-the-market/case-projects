@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260826000785",
+ "corp_code": "00608699",
+ "corp_name": "엔키AX",
+ "stock_code": "134580",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260826",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000785",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1286,
+ "charter_amend_txt": "data/agm_kosdaq/134580_엔키AX/20260826_20260826000785/정관의변경.txt",
+ "main_xml": "20260826000785.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260826000785.xml",
+   "bytes": 56000,
+   "sha256": "a05c6cf3168dda8287aec7bd5f5a04f53bca188a7bb68d474350e1282eab2464"
+  }
+ ],
+ "folder": "data/agm_kosdaq/134580_엔키AX/20260826_20260826000785",
+ "fetched_at": "2026-11-16T19:38:23"
+}

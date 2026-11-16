@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260320000191",
+ "corp_code": "01359736",
+ "corp_name": "프로이천",
+ "stock_code": "321260",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260320",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000191",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 803,
+ "charter_amend_txt": "data/agm_kosdaq/321260_프로이천/20260320_20260320000191/정관의변경.txt",
+ "main_xml": "20260320000191.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260320000191.xml",
+   "bytes": 214524,
+   "sha256": "aaa9065552ba95e627d22d63e14a12035d134b0eb95991ffceafc68152f46770"
+  }
+ ],
+ "folder": "data/agm_kosdaq/321260_프로이천/20260320_20260320000191",
+ "fetched_at": "2026-11-16T19:32:41"
+}

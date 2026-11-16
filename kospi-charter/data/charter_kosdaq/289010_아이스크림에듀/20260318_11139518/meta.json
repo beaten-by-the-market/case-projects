@@ -1,0 +1,185 @@
+{
+ "corp_code": "00983934",
+ "corp_name": "아이스크림에듀",
+ "stock_code": "289010",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001021",
+ "dcmNo": "11139518",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001021&dcmNo=11139518",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001021&dcmNo=11139518&eleId=1&offset=598&length=2329&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 16,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_01.jpg",
+   "flNm": "정관_01.jpg",
+   "alt": "이미지: 정관_01",
+   "bytes": 83397,
+   "sha256": "1de280f5bc9f24996ff163ba4cf84fd1e3ba4576e064d85e2d3f64b17381aa2d",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_02.jpg",
+   "flNm": "정관_02.jpg",
+   "alt": "이미지: 정관_02",
+   "bytes": 105033,
+   "sha256": "3773e5c8e40d928358f63b982938bac9fdc22fc74586eaec980129d71f20f3bd",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_03.jpg",
+   "flNm": "정관_03.jpg",
+   "alt": "이미지: 정관_03",
+   "bytes": 116421,
+   "sha256": "b3d370bd935314abc9a30a12040695fc566b08043dd166c9d669435595f493ab",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_04.jpg",
+   "flNm": "정관_04.jpg",
+   "alt": "이미지: 정관_04",
+   "bytes": 173010,
+   "sha256": "5caf8018f2ee7529f0d2b8999a291c1ef6436c49ea4f8f21885576212c98efc2",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_05.jpg",
+   "flNm": "정관_05.jpg",
+   "alt": "이미지: 정관_05",
+   "bytes": 187216,
+   "sha256": "333eac862d1ed29d3fbbe69b94d13dcdefc81678de7d30417feec806b58ed17b",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_06.jpg",
+   "flNm": "정관_06.jpg",
+   "alt": "이미지: 정관_06",
+   "bytes": 197111,
+   "sha256": "ad23570006c09a7e0c11fe3eb185659ff0efe60e4093eee64c68b5a71577f5bc",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_07.jpg",
+   "flNm": "정관_07.jpg",
+   "alt": "이미지: 정관_07",
+   "bytes": 162152,
+   "sha256": "df3d2571846ac9d6c5aed95a4f6e6e3332bd04ad861b872ff6619e23ae2444be",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_08.jpg",
+   "flNm": "정관_08.jpg",
+   "alt": "이미지: 정관_08",
+   "bytes": 166133,
+   "sha256": "08bfd5bcb8f0f2754922e23d8d55b66a5280d07abbe799953e55f032a02fa26e",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_09.jpg",
+   "flNm": "정관_09.jpg",
+   "alt": "이미지: 정관_09",
+   "bytes": 143234,
+   "sha256": "2d3e72954c6dc77126701a149c33784344266edc6db2e4bfded7cd4db758bcec",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "정관_10.jpg",
+   "alt": "이미지: 정관_10",
+   "bytes": 163629,
+   "sha256": "8e626f1ad39e2fcca1f2f99f1c0167ce2a7acba0bb68889f3afd1a426451b1e9",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "정관_11.jpg",
+   "alt": "이미지: 정관_11",
+   "bytes": 130888,
+   "sha256": "3360e04743df2613cc4e6aea67c4099bb3066634d0fb7b073a54c4e1e826ddea",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "정관_12.jpg",
+   "alt": "이미지: 정관_12",
+   "bytes": 157669,
+   "sha256": "ab2591a9adadf781cab6d70b97ae05c225e1320964e124406bee91e71b45d41b",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "정관_13.jpg",
+   "alt": "이미지: 정관_13",
+   "bytes": 144115,
+   "sha256": "fcdc797ae8ac7c146f948af34c80126d5bfdc35ae8a9098167e06cbf8619db2b",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "정관_14.jpg",
+   "alt": "이미지: 정관_14",
+   "bytes": 152977,
+   "sha256": "5ec005c207a088e44d23c77804c8380b707d8c493d416f0ff12c60300185268c",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "정관_15.jpg",
+   "alt": "이미지: 정관_15",
+   "bytes": 140222,
+   "sha256": "84bfb4100626a20c5c34c7150cd3737b050109ba393aa0cbbcf89a30165efd99",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11139518&flNm=%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "정관_16.jpg",
+   "alt": "이미지: 정관_16",
+   "bytes": 267369,
+   "sha256": "44239eaf97fef6b09b61d034f27269e67848d0db1617c0856354d1698e6d3ef3",
+   "width": 1191,
+   "height": 1684
+  }
+ ],
+ "folder": "data/charter_kosdaq/289010_아이스크림에듀/20260318_11139518",
+ "fetched_at": "2026-11-16T21:24:32",
+ "used_by_rcept_no": [
+  "20260318001021"
+ ]
+}

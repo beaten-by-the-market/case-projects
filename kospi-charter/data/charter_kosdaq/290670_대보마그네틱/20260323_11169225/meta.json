@@ -1,0 +1,24 @@
+{
+ "corp_code": "01259418",
+ "corp_name": "대보마그네틱",
+ "stock_code": "290670",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001639",
+ "dcmNo": "11169225",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001639&dcmNo=11169225",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001639&dcmNo=11169225&eleId=1&offset=597&length=25856&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11187,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/290670_대보마그네틱/20260323_11169225",
+ "fetched_at": "2026-11-16T21:25:45",
+ "used_by_rcept_no": [
+  "20260630001121"
+ ]
+}

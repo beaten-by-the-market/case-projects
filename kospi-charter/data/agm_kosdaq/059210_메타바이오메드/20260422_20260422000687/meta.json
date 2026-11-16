@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260422000687",
+ "corp_code": "00317681",
+ "corp_name": "메타바이오메드",
+ "stock_code": "059210",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260422",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422000687",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 9591,
+ "charter_amend_txt": "data/agm_kosdaq/059210_메타바이오메드/20260422_20260422000687/정관의변경.txt",
+ "main_xml": "20260422000687.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260422000687.xml",
+   "bytes": 91514,
+   "sha256": "c1728a6a09ef167a1550d4cf59354ad15350dad5e960f4fe05997c4ff0312dd5"
+  }
+ ],
+ "folder": "data/agm_kosdaq/059210_메타바이오메드/20260422_20260422000687",
+ "fetched_at": "2026-11-16T19:33:37"
+}

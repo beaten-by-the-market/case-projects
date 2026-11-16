@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260320001242",
+ "corp_code": "00492706",
+ "corp_name": "씨싸이트",
+ "stock_code": "109670",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260320",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001242",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 12041,
+ "charter_amend_txt": "data/agm_kosdaq/109670_씨싸이트/20260320_20260320001242/정관의변경.txt",
+ "main_xml": "20260320001242.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260320001242.xml",
+   "bytes": 257790,
+   "sha256": "b9c37614379fdf8ea70ea33273331d02feb15e47bb19d6b002f4d635051174c5"
+  }
+ ],
+ "folder": "data/agm_kosdaq/109670_씨싸이트/20260320_20260320001242",
+ "fetched_at": "2026-11-16T19:32:45"
+}

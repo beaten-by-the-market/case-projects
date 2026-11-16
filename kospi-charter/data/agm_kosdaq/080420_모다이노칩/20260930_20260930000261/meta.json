@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260930000261",
+ "corp_code": "00480048",
+ "corp_name": "모다이노칩",
+ "stock_code": "080420",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260930",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000261",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260930000261.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260930000261.xml",
+   "bytes": 214630,
+   "sha256": "40aafb2a7cd18b1f497fa72a06ac351e31acac11a424f1aa6eee2d4b8d267eab"
+  }
+ ],
+ "folder": "data/agm_kosdaq/080420_모다이노칩/20260930_20260930000261",
+ "fetched_at": "2026-11-16T19:39:27"
+}

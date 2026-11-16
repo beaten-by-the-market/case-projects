@@ -1,0 +1,24 @@
+{
+ "corp_code": "00531917",
+ "corp_name": "톱텍",
+ "stock_code": "108230",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001400",
+ "dcmNo": "11160336",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001400&dcmNo=11160336",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001400&dcmNo=11160336&eleId=1&offset=593&length=19609&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12404,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/108230_톱텍/20260320_11160336",
+ "fetched_at": "2026-11-16T20:50:13",
+ "used_by_rcept_no": [
+  "20260715000540"
+ ]
+}

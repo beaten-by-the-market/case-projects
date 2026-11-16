@@ -1,0 +1,24 @@
+{
+ "corp_code": "00145914",
+ "corp_name": "인터엠",
+ "stock_code": "017250",
+ "att_title": "2025.12.16 정관",
+ "att_date": "20251216",
+ "rcpNo": "20251216000322",
+ "dcmNo": "10926453",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251216000322&dcmNo=10926453",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20251216000322&dcmNo=10926453&eleId=1&offset=594&length=18072&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 8865,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/017250_인터엠/20251216_10926453",
+ "fetched_at": "2026-11-16T19:56:12",
+ "used_by_rcept_no": [
+  "20251217000580"
+ ]
+}

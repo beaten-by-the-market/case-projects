@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261111000266",
+ "corp_code": "00128175",
+ "corp_name": "원익큐브",
+ "stock_code": "014190",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261111",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000266",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 281,
+ "charter_amend_txt": "data/agm_kosdaq/014190_원익큐브/20261111_20261111000266/정관의변경.txt",
+ "main_xml": "20261111000266.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261111000266.xml",
+   "bytes": 51305,
+   "sha256": "6ca44e2a4158364c39c9bfed9592263c4cb8bc149af72b373597603fadec7833"
+  }
+ ],
+ "folder": "data/agm_kosdaq/014190_원익큐브/20261111_20261111000266",
+ "fetched_at": "2026-11-16T19:40:41"
+}

@@ -13,6 +13,25 @@ data/charter/**/img/
 # 추출한 정관의변경.txt·meta.json 은 커밋한다
 data/agm/**/*.xml
 
+# 코스닥 확장 (sNNk_kosdaq_*.py) — 코스피와 같은 규칙
+data/charter_kosdaq/**/img/
+data/agm_kosdaq/**/*.xml
+
+# 사업보고서 없는 회사의 정관 (s04e, 01 R8) — 코스피와 같은 규칙
+data/charter_absent/**/img/
+data/charter_absent_src/**/img/
+data/agm_absent/**/*.xml
+
+# 확인필요 회사의 전년도 정관 (s09f) — 코스피와 같은 규칙
+data/charter_prev/**/img/
+data/charter_kosdaq_prev/**/img/
+data/agm_pre/**/*.xml
+data/agm_kosdaq_pre/**/*.xml
+
+# 서브에이전트 작업 폴더 (pack 입력 in/ · 결과 out/) — 결과는 ingest 로 s09*_results·s09i_pre_agm·llm_ocr 에 들어가므로 커밋하지 않는다
+data/interim/*_agent*/
+data/interim/absent/ocr_agent/
+
 # 파이썬·노트북
 __pycache__/
 *.py[cod]

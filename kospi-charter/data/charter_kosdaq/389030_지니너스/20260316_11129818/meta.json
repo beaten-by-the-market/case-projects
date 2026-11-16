@@ -1,0 +1,37 @@
+{
+ "corp_code": "01494154",
+ "corp_name": "지니너스",
+ "stock_code": "389030",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001629",
+ "dcmNo": "11129818",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001629&dcmNo=11129818",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001629&dcmNo=11129818&eleId=1&offset=595&length=298&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 20,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/389030_지니너스/20260316_11129818",
+ "fetched_at": "2026-11-16T21:45:56",
+ "used_by_rcept_no": [
+  "20260316001629"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129818&flNm=%EC%A7%80%EB%8B%88%EB%84%88%EC%8A%A4_%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "지니너스_정관.pdf",
+   "bytes": 304004,
+   "sha256": "3a245c11d944a31c0e98049a0400f11dd3f49358cf79775d1ed7c16fa9a31585",
+   "pages": 16,
+   "text_pages": 16,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

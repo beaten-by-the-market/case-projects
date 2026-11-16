@@ -1,0 +1,37 @@
+{
+ "corp_code": "00331016",
+ "corp_name": "에프앤가이드",
+ "stock_code": "064850",
+ "att_title": "2026.03.09 정관",
+ "att_date": "20260309",
+ "rcpNo": "20260309001578",
+ "dcmNo": "11100523",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001578&dcmNo=11100523",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260309001578&dcmNo=11100523&eleId=1&offset=599&length=312&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 32,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/064850_에프앤가이드/20260309_11100523",
+ "fetched_at": "2026-11-16T20:25:35",
+ "used_by_rcept_no": [
+  "20260309001578"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11100523&flNm=2025+%EC%A0%95%EA%B4%80_%EC%97%90%ED%94%84%EC%95%A4%EA%B0%80%EC%9D%B4%EB%93%9C.pdf",
+   "flNm": "2025 정관_에프앤가이드.pdf",
+   "bytes": 3734456,
+   "sha256": "f736f8c9f631d7f325dbad97d002633bd30dffedbd8f2c91a00c6af3e27f0f54",
+   "pages": 25,
+   "text_pages": 0,
+   "ocr_pages": 25
+  }
+ ],
+ "n_pdfs": 1
+}

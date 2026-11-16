@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261015000426",
+ "corp_code": "00475718",
+ "corp_name": "이엠앤아이",
+ "stock_code": "083470",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261015",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000426",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2687,
+ "charter_amend_txt": "data/agm_kosdaq/083470_이엠앤아이/20261015_20261015000426/정관의변경.txt",
+ "main_xml": "20261015000426.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261015000426.xml",
+   "bytes": 84423,
+   "sha256": "c400908263aa39ffdde4bbc5057cf68bbb2983f75c1f382890e446b6e3c1400e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/083470_이엠앤아이/20261015_20261015000426",
+ "fetched_at": "2026-11-16T19:39:46"
+}

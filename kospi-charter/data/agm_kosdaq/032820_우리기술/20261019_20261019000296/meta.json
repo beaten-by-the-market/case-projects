@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261019000296",
+ "corp_code": "00231044",
+ "corp_name": "우리기술",
+ "stock_code": "032820",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261019",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000296",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261019000296.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261019000296.xml",
+   "bytes": 68121,
+   "sha256": "c1ce70ca564584e76f437ef0ba5bfa07f26afb609f286a15df4b59796b9bb0e3"
+  }
+ ],
+ "folder": "data/agm_kosdaq/032820_우리기술/20261019_20261019000296",
+ "fetched_at": "2026-11-16T19:39:52"
+}

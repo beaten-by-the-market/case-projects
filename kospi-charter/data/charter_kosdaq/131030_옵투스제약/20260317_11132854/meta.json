@@ -1,0 +1,24 @@
+{
+ "corp_code": "00831428",
+ "corp_name": "옵투스제약",
+ "stock_code": "131030",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000678",
+ "dcmNo": "11132854",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000678&dcmNo=11132854",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000678&dcmNo=11132854&eleId=1&offset=596&length=18805&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12247,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/131030_옵투스제약/20260317_11132854",
+ "fetched_at": "2026-11-16T20:55:41",
+ "used_by_rcept_no": [
+  "20260317000678"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260514000534",
+ "corp_code": "00298447",
+ "corp_name": "아모텍",
+ "stock_code": "052710",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260514",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514000534",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260514000534.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260514000534.xml",
+   "bytes": 47057,
+   "sha256": "70d68f3faceb1f94d2ad5b303002dbb4b897349306777e085646ae3540574315"
+  }
+ ],
+ "folder": "data/agm_kosdaq/052710_아모텍/20260514_20260514000534",
+ "fetched_at": "2026-11-16T19:34:24"
+}

@@ -1,0 +1,35 @@
+{
+ "corp_code": "01256864",
+ "corp_name": "에이비엘바이오",
+ "stock_code": "298380",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312000744",
+ "dcmNo": "11114266",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000744&dcmNo=11114266",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000744&dcmNo=11114266&eleId=1&offset=598&length=21367&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "mixed",
+ "text_chars": 11468,
+ "n_images": 1,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114266&flNm=%EC%A0%95%EA%B4%80.jpg",
+   "flNm": "정관.jpg",
+   "alt": "이미지: 정관",
+   "bytes": 29493,
+   "sha256": "f658c5cfce810907bf3f1db4aa2cf91a2f5d4a06d1710f60c39edea9b7533f0d",
+   "width": 643,
+   "height": 810
+  }
+ ],
+ "folder": "data/charter_kosdaq/298380_에이비엘바이오/20260312_11114266",
+ "fetched_at": "2026-11-16T21:27:56",
+ "used_by_rcept_no": [
+  "20260312000744"
+ ]
+}

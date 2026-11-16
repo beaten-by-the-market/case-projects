@@ -1,0 +1,24 @@
+{
+ "corp_code": "00158565",
+ "corp_name": "한국알콜",
+ "stock_code": "017890",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001201",
+ "dcmNo": "11140912",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001201&dcmNo=11140912",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001201&dcmNo=11140912&eleId=1&offset=597&length=24969&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11882,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/017890_한국알콜/20260318_11140912",
+ "fetched_at": "2026-11-16T19:56:26",
+ "used_by_rcept_no": [
+  "20260318001201"
+ ]
+}

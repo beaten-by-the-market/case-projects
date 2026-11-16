@@ -1,0 +1,35 @@
+{
+ "corp_code": "01813377",
+ "corp_name": "에이치엠씨제7호스팩",
+ "stock_code": "477340",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312000923",
+ "dcmNo": "11115121",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000923&dcmNo=11115121",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000923&dcmNo=11115121&eleId=1&offset=610&length=18033&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "mixed",
+ "text_chars": 11525,
+ "n_images": 1,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11115121&flNm=%EC%A0%95%EA%B4%80+%EB%82%A0%EC%9D%B8.jpg",
+   "flNm": "정관 날인.jpg",
+   "alt": "이미지: 정관 날인",
+   "bytes": 151800,
+   "sha256": "e0253265458b926fa43b329a7883644336b9daf40253cb837da8540d5e0f6edf",
+   "width": 1221,
+   "height": 710
+  }
+ ],
+ "folder": "data/charter_kosdaq/477340_에이치엠씨제7호스팩/20260312_11115121",
+ "fetched_at": "2026-11-16T22:02:10",
+ "used_by_rcept_no": [
+  "20260312000923"
+ ]
+}

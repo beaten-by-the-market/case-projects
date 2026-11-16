@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260513000371",
+ "corp_code": "01222432",
+ "corp_name": "에스제이그룹",
+ "stock_code": "306040",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260513",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000371",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260513000371.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260513000371.xml",
+   "bytes": 55926,
+   "sha256": "8e543f048cd00f517fca7a69bc0a8680f1f56fafdf79b3428eb17de20d427f87"
+  }
+ ],
+ "folder": "data/agm_kosdaq/306040_에스제이그룹/20260513_20260513000371",
+ "fetched_at": "2026-11-16T19:34:19"
+}

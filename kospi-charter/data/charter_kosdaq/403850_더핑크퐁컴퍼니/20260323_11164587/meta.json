@@ -1,0 +1,24 @@
+{
+ "corp_code": "01138364",
+ "corp_name": "더핑크퐁컴퍼니",
+ "stock_code": "403850",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000936",
+ "dcmNo": "11164587",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000936&dcmNo=11164587",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000936&dcmNo=11164587&eleId=1&offset=598&length=19430&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11242,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/403850_더핑크퐁컴퍼니/20260323_11164587",
+ "fetched_at": "2026-11-16T21:49:01",
+ "used_by_rcept_no": [
+  "20260323000936"
+ ]
+}

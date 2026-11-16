@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260522000218",
+ "corp_code": "00493185",
+ "corp_name": "제이스로보틱스",
+ "stock_code": "090470",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260522",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522000218",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260522000218.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260522000218.xml",
+   "bytes": 48426,
+   "sha256": "54e9f4dec5a540601d372dc5e8bc20635b34dad25881e953b17727b8fab11ce4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/090470_제이스로보틱스/20260522_20260522000218",
+ "fetched_at": "2026-11-16T19:34:36"
+}

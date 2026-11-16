@@ -1,0 +1,24 @@
+{
+ "corp_code": "01359736",
+ "corp_name": "프로이천",
+ "stock_code": "321260",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000879",
+ "dcmNo": "11157446",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000879&dcmNo=11157446",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000879&dcmNo=11157446&eleId=1&offset=596&length=21969&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11915,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/321260_프로이천/20260320_11157446",
+ "fetched_at": "2026-11-16T21:32:37",
+ "used_by_rcept_no": [
+  "20260320000879"
+ ]
+}

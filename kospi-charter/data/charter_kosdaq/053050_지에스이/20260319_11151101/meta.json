@@ -1,0 +1,24 @@
+{
+ "corp_code": "00351995",
+ "corp_name": "지에스이",
+ "stock_code": "053050",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001043",
+ "dcmNo": "11151101",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001043&dcmNo=11151101",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001043&dcmNo=11151101&eleId=1&offset=595&length=18627&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11679,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/053050_지에스이/20260319_11151101",
+ "fetched_at": "2026-11-16T20:17:27",
+ "used_by_rcept_no": [
+  "20260731000454"
+ ]
+}

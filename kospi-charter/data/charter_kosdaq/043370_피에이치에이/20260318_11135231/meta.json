@@ -1,0 +1,24 @@
+{
+ "corp_code": "00155151",
+ "corp_name": "피에이치에이",
+ "stock_code": "043370",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000311",
+ "dcmNo": "11135231",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000311&dcmNo=11135231",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000311&dcmNo=11135231&eleId=1&offset=597&length=17370&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10964,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/043370_피에이치에이/20260318_11135231",
+ "fetched_at": "2026-11-16T20:12:39",
+ "used_by_rcept_no": [
+  "20260318000311"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260609000423",
+ "corp_code": "01142075",
+ "corp_name": "핑거",
+ "stock_code": "163730",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260609",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609000423",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2836,
+ "charter_amend_txt": "data/agm_kosdaq/163730_핑거/20260609_20260609000423/정관의변경.txt",
+ "main_xml": "20260609000423.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260609000423.xml",
+   "bytes": 121463,
+   "sha256": "138e4ecb9044cf4dfc55d9328cd8b4d3ebcca566cf1e7ea90fe49b46f9548b12"
+  }
+ ],
+ "folder": "data/agm_kosdaq/163730_핑거/20260609_20260609000423",
+ "fetched_at": "2026-11-16T19:35:12"
+}

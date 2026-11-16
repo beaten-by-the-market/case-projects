@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260430001605",
+ "corp_code": "00104810",
+ "corp_name": "소노스퀘어",
+ "stock_code": "007720",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260430",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001605",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260430001605.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260430001605.xml",
+   "bytes": 36817,
+   "sha256": "4c7d40c9dcf346147c4b3a98728191582eba3e0daefc49e5abdd1a39fd1ff5aa"
+  }
+ ],
+ "folder": "data/agm_kosdaq/007720_소노스퀘어/20260430_20260430001605",
+ "fetched_at": "2026-11-16T19:33:50"
+}

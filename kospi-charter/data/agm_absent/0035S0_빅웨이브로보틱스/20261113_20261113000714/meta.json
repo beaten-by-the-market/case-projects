@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261113000714",
+ "corp_code": "01722066",
+ "corp_name": "빅웨이브로보틱스",
+ "stock_code": "0035S0",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261113",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000714",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261113000714.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261113000714.xml",
+   "bytes": 58313,
+   "sha256": "9caa1774001e6e45aa8eae51fc6c062109d37b3e7f44503d78f2cd5ef6c32bba"
+  }
+ ],
+ "folder": "data/agm_absent/0035S0_빅웨이브로보틱스/20261113_20261113000714",
+ "fetched_at": "2026-11-17T01:11:12"
+}

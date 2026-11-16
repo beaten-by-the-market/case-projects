@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260907000215",
+ "corp_code": "01383779",
+ "corp_name": "에스켐",
+ "stock_code": "475660",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260907",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907000215",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3787,
+ "charter_amend_txt": "data/agm_kosdaq/475660_에스켐/20260907_20260907000215/정관의변경.txt",
+ "main_xml": "20260907000215.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260907000215.xml",
+   "bytes": 99245,
+   "sha256": "eba6123cdcf0972c1118efaa61839e282aff7eddf075ce2cf2c8c987cae99e48"
+  }
+ ],
+ "folder": "data/agm_kosdaq/475660_에스켐/20260907_20260907000215",
+ "fetched_at": "2026-11-16T19:38:38"
+}

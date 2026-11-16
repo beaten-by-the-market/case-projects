@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261021000343",
+ "corp_code": "01290248",
+ "corp_name": "스코넥",
+ "stock_code": "276040",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261021",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000343",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261021000343.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261021000343.xml",
+   "bytes": 60171,
+   "sha256": "e784335c24a8e5f298a5501fe72f352c4ae8cb7bc61c93c908a2893db60f5ceb"
+  }
+ ],
+ "folder": "data/agm_kosdaq/276040_스코넥/20261021_20261021000343",
+ "fetched_at": "2026-11-16T19:40:11"
+}

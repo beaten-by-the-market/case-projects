@@ -1,0 +1,24 @@
+{
+ "corp_code": "00133876",
+ "corp_name": "세보엠이씨",
+ "stock_code": "011560",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001704",
+ "dcmNo": "11145287",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001704&dcmNo=11145287",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001704&dcmNo=11145287&eleId=1&offset=596&length=23692&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 8008,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/011560_세보엠이씨/20260318_11145287",
+ "fetched_at": "2026-11-16T19:52:45",
+ "used_by_rcept_no": [
+  "20260814000768"
+ ]
+}

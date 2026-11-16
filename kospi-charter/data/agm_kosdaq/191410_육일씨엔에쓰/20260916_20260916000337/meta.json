@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260916000337",
+ "corp_code": "00843900",
+ "corp_name": "육일씨엔에쓰",
+ "stock_code": "191410",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260916",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000337",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4464,
+ "charter_amend_txt": "data/agm_kosdaq/191410_육일씨엔에쓰/20260916_20260916000337/정관의변경.txt",
+ "main_xml": "20260916000337.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260916000337.xml",
+   "bytes": 66405,
+   "sha256": "2b59d079bffd5f61c8577009110de33f6ad02adae545c4e6488d31629a25135e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/191410_육일씨엔에쓰/20260916_20260916000337",
+ "fetched_at": "2026-11-16T19:38:52"
+}

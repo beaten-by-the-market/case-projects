@@ -1,0 +1,24 @@
+{
+ "corp_code": "01307335",
+ "corp_name": "나인앤컴퍼니",
+ "stock_code": "366030",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001324",
+ "dcmNo": "11166950",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001324&dcmNo=11166950",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001324&dcmNo=11166950&eleId=1&offset=597&length=20606&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12328,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/366030_나인앤컴퍼니/20260323_11166950",
+ "fetched_at": "2026-11-16T21:40:26",
+ "used_by_rcept_no": [
+  "20260323001324"
+ ]
+}

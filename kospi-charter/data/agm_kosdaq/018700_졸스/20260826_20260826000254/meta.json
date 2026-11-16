@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260826000254",
+ "corp_code": "00122205",
+ "corp_name": "졸스",
+ "stock_code": "018700",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260826",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000254",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260826000254.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260826000254.xml",
+   "bytes": 63966,
+   "sha256": "f22786eb4de82f05a8474e1f9e9f9f7dfc1c112e64439d1290a7804eea117210"
+  }
+ ],
+ "folder": "data/agm_kosdaq/018700_졸스/20260826_20260826000254",
+ "fetched_at": "2026-11-16T19:38:20"
+}

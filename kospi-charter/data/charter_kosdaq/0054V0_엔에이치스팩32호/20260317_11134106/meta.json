@@ -1,0 +1,24 @@
+{
+ "corp_code": "01931585",
+ "corp_name": "엔에이치스팩32호",
+ "stock_code": "0054V0",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000868",
+ "dcmNo": "11134106",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000868&dcmNo=11134106",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000868&dcmNo=11134106&eleId=1&offset=606&length=20240&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11831,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/0054V0_엔에이치스팩32호/20260317_11134106",
+ "fetched_at": "2026-11-16T19:45:22",
+ "used_by_rcept_no": [
+  "20260317000868"
+ ]
+}

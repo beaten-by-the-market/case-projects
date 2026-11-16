@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261113000299",
+ "corp_code": "00155948",
+ "corp_name": "로젠",
+ "stock_code": "033290",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261113",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000299",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 695,
+ "charter_amend_txt": "data/agm_kosdaq/033290_로젠/20261113_20261113000299/정관의변경.txt",
+ "main_xml": "20261113000299.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261113000299.xml",
+   "bytes": 80983,
+   "sha256": "f4266c0c52df1ea412f51f13c6a0770af2b7fe847beae710eff7de8adf6e338c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/033290_로젠/20261113_20261113000299",
+ "fetched_at": "2026-11-16T19:40:49"
+}

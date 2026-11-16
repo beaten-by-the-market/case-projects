@@ -1,0 +1,24 @@
+{
+ "corp_code": "01027794",
+ "corp_name": "브이원텍",
+ "stock_code": "251630",
+ "att_title": "2026.03.24 정관",
+ "att_date": "20260324",
+ "rcpNo": "20260324000049",
+ "dcmNo": "11170949",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000049&dcmNo=11170949",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260324000049&dcmNo=11170949&eleId=1&offset=597&length=21118&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11100,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/251630_브이원텍/20260324_11170949",
+ "fetched_at": "2026-11-16T21:18:12",
+ "used_by_rcept_no": [
+  "20260324000049"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "01397620",
+ "corp_name": "루닛",
+ "stock_code": "328130",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001574",
+ "dcmNo": "11168747",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001574&dcmNo=11168747",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001574&dcmNo=11168747&eleId=1&offset=595&length=37038&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15959,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/328130_루닛/20260323_11168747",
+ "fetched_at": "2026-11-16T21:33:10",
+ "used_by_rcept_no": [
+  "20260323001574"
+ ]
+}

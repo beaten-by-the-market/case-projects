@@ -1,0 +1,37 @@
+{
+ "corp_code": "01116265",
+ "corp_name": "카티스",
+ "stock_code": "140430",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000561",
+ "dcmNo": "11162533",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000561&dcmNo=11162533",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000561&dcmNo=11162533&eleId=1&offset=596&length=312&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 34,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/140430_카티스/20260323_11162533",
+ "fetched_at": "2026-11-16T20:57:06",
+ "used_by_rcept_no": [
+  "20260323000561"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162533&flNm=01_%EC%A0%95%EA%B4%80_20240315.pdf",
+   "flNm": "01_정관_20240315.pdf",
+   "bytes": 809111,
+   "sha256": "6a34106a53eed3d2377ce80c84ba41fadda679cedcad4e6e429c218b7c7e7984",
+   "pages": 19,
+   "text_pages": 18,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

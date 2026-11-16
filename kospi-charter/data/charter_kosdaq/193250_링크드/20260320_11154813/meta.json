@@ -1,0 +1,24 @@
+{
+ "corp_code": "01035678",
+ "corp_name": "링크드",
+ "stock_code": "193250",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000272",
+ "dcmNo": "11154813",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000272&dcmNo=11154813",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000272&dcmNo=11154813&eleId=1&offset=596&length=26893&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11453,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/193250_링크드/20260320_11154813",
+ "fetched_at": "2026-11-16T21:06:00",
+ "used_by_rcept_no": [
+  "20260320000272"
+ ]
+}

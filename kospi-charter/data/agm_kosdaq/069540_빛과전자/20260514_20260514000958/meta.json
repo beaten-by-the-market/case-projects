@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260514000958",
+ "corp_code": "00367482",
+ "corp_name": "빛과전자",
+ "stock_code": "069540",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260514",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514000958",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 311,
+ "charter_amend_txt": "data/agm_kosdaq/069540_빛과전자/20260514_20260514000958/정관의변경.txt",
+ "main_xml": "20260514000958.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260514000958.xml",
+   "bytes": 61306,
+   "sha256": "de691e4c15775cbb98514a13c861be60a7f9a18a1624a98d52231a99b6e1392d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/069540_빛과전자/20260514_20260514000958",
+ "fetched_at": "2026-11-16T19:34:27"
+}

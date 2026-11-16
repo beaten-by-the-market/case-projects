@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260520000266",
+ "corp_code": "00576789",
+ "corp_name": "디젠스",
+ "stock_code": "113810",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260520",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260520000266",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 202,
+ "charter_amend_txt": "data/agm_kosdaq/113810_디젠스/20260520_20260520000266/정관의변경.txt",
+ "main_xml": "20260520000266.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260520000266.xml",
+   "bytes": 42118,
+   "sha256": "1e048963b4db0cce7f3a7a9cbf0b647884e0e46c0955f568df75c030f64646bc"
+  }
+ ],
+ "folder": "data/agm_kosdaq/113810_디젠스/20260520_20260520000266",
+ "fetched_at": "2026-11-16T19:34:32"
+}

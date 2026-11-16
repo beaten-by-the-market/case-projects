@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260928000375",
+ "corp_code": "00110884",
+ "corp_name": "엠젠솔루션",
+ "stock_code": "032790",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260928",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928000375",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1269,
+ "charter_amend_txt": "data/agm_kosdaq/032790_엠젠솔루션/20260928_20260928000375/정관의변경.txt",
+ "main_xml": "20260928000375.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260928000375.xml",
+   "bytes": 84849,
+   "sha256": "3493d112a84e6ff51dac541859eb1da5261e76abcb001b3541b401c118a9829f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/032790_엠젠솔루션/20260928_20260928000375",
+ "fetched_at": "2026-11-16T19:39:23"
+}

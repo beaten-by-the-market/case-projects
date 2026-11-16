@@ -1,0 +1,24 @@
+{
+ "corp_code": "00259590",
+ "corp_name": "바른손이앤에이",
+ "stock_code": "035620",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001010",
+ "dcmNo": "11158065",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001010&dcmNo=11158065",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001010&dcmNo=11158065&eleId=1&offset=598&length=31957&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 16819,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/035620_바른손이앤에이/20260320_11158065",
+ "fetched_at": "2026-11-16T20:04:38",
+ "used_by_rcept_no": [
+  "20260320001010"
+ ]
+}

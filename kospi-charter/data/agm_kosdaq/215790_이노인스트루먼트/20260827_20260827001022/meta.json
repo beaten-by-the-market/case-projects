@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260827001022",
+ "corp_code": "01065679",
+ "corp_name": "이노인스트루먼트",
+ "stock_code": "215790",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260827",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827001022",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 185,
+ "charter_amend_txt": "data/agm_kosdaq/215790_이노인스트루먼트/20260827_20260827001022/정관의변경.txt",
+ "main_xml": "20260827001022.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260827001022.xml",
+   "bytes": 61372,
+   "sha256": "82872630f99396363ae6a5374ef7ee659477f00db95e4beb4dafc07232143d61"
+  }
+ ],
+ "folder": "data/agm_kosdaq/215790_이노인스트루먼트/20260827_20260827001022",
+ "fetched_at": "2026-11-16T19:38:26"
+}

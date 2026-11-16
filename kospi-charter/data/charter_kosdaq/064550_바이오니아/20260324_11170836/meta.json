@@ -1,0 +1,145 @@
+{
+ "corp_code": "00326731",
+ "corp_name": "바이오니아",
+ "stock_code": "064550",
+ "att_title": "2026.03.24 정관",
+ "att_date": "20260324",
+ "rcpNo": "20260324000023",
+ "dcmNo": "11170836",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000023&dcmNo=11170836",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260324000023&dcmNo=11170836&eleId=1&offset=596&length=1995&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 12,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170836&flNm=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84_%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "바이오니아_정관_1.jpg",
+   "alt": "이미지: 바이오니아_정관_1",
+   "bytes": 107647,
+   "sha256": "61b29ea0f8fb1d674dea9dd8918fee09f02fc69f18a02b1e914880a65c5c7881",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170836&flNm=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84_%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "바이오니아_정관_2.jpg",
+   "alt": "이미지: 바이오니아_정관_2",
+   "bytes": 164139,
+   "sha256": "053081c789479708a308aee89843c64181e7fa88faa220b280aaf71140f74f82",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170836&flNm=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84_%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "바이오니아_정관_3.jpg",
+   "alt": "이미지: 바이오니아_정관_3",
+   "bytes": 262452,
+   "sha256": "8c60f3f18a6a476bf5ac4cdfa131180c409050357ce4c432028fa9f75015c446",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170836&flNm=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84_%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "바이오니아_정관_4.jpg",
+   "alt": "이미지: 바이오니아_정관_4",
+   "bytes": 259154,
+   "sha256": "81769792e4a353fb2f7edd74e1f12e736c8fc2e5ab49863f43e5939d60506de3",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170836&flNm=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84_%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "바이오니아_정관_5.jpg",
+   "alt": "이미지: 바이오니아_정관_5",
+   "bytes": 224642,
+   "sha256": "465caf47eef2f720b94abeb7e24ff3058973471c417fdf801d33c831cc7d21fb",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170836&flNm=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84_%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "바이오니아_정관_6.jpg",
+   "alt": "이미지: 바이오니아_정관_6",
+   "bytes": 235204,
+   "sha256": "4b7457221a9649565f537ec57ecf3c07141aaa768d595635bb3b2cabd65cca78",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170836&flNm=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84_%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "바이오니아_정관_7.jpg",
+   "alt": "이미지: 바이오니아_정관_7",
+   "bytes": 204170,
+   "sha256": "ed9b5cab82f556c368dcfa30fc1e926410b097ceb859df76c13b201873fd44b9",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170836&flNm=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84_%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "바이오니아_정관_8.jpg",
+   "alt": "이미지: 바이오니아_정관_8",
+   "bytes": 215083,
+   "sha256": "d00cc332595819e8873f94f6a1a9cfcbda95f41b52f65fbca00975ac811e630f",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170836&flNm=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84_%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "바이오니아_정관_9.jpg",
+   "alt": "이미지: 바이오니아_정관_9",
+   "bytes": 215623,
+   "sha256": "21ea597b9c46358a76b69a48fee5e067f671230f3be9cc4ecaf37f354454eeee",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170836&flNm=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84_%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "바이오니아_정관_10.jpg",
+   "alt": "이미지: 바이오니아_정관_10",
+   "bytes": 214495,
+   "sha256": "7ca014fd8cfd1e03ecca0f67ccf76376571ae2bdf939977eaf8612cf253e97b3",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170836&flNm=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84_%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "바이오니아_정관_11.jpg",
+   "alt": "이미지: 바이오니아_정관_11",
+   "bytes": 152893,
+   "sha256": "e9dd39e52730f250087aefc3bcebe31f0d4139daf926fb94db81f657fc6b1a10",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170836&flNm=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84_%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "바이오니아_정관_12.jpg",
+   "alt": "이미지: 바이오니아_정관_12",
+   "bytes": 58357,
+   "sha256": "194a47c5db49519ab99692164f979c13389245c8df7f3492317563fb3ee0e3ef",
+   "width": 1191,
+   "height": 1684
+  }
+ ],
+ "folder": "data/charter_kosdaq/064550_바이오니아/20260324_11170836",
+ "fetched_at": "2026-11-16T20:25:27",
+ "used_by_rcept_no": [
+  "20260324001036"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323001439",
+ "corp_code": "00531865",
+ "corp_name": "유니테크노",
+ "stock_code": "241690",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001439",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4982,
+ "charter_amend_txt": "data/agm_kosdaq/241690_유니테크노/20260323_20260323001439/정관의변경.txt",
+ "main_xml": "20260323001439.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323001439.xml",
+   "bytes": 424446,
+   "sha256": "57b5570cfa9ac2953b29dabb375f7d263d6c6c4c3e3e8c4d09354cf5d0314792"
+  }
+ ],
+ "folder": "data/agm_kosdaq/241690_유니테크노/20260323_20260323001439",
+ "fetched_at": "2026-11-16T19:33:09"
+}

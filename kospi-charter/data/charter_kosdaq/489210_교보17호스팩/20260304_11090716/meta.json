@@ -1,0 +1,215 @@
+{
+ "corp_code": "01866528",
+ "corp_name": "교보17호스팩",
+ "stock_code": "489210",
+ "att_title": "2026.03.04 정관",
+ "att_date": "20260304",
+ "rcpNo": "20260304001729",
+ "dcmNo": "11090716",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260304001729&dcmNo=11090716",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260304001729&dcmNo=11090716&eleId=1&offset=604&length=3243&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 19,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "3. 교보17호_정관_페이지_01.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_01",
+   "bytes": 306964,
+   "sha256": "3d85f2b2572f4b06846e8fc825dbd93fba25108d795213a91b9a537c1b973375",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "3. 교보17호_정관_페이지_02.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_02",
+   "bytes": 248005,
+   "sha256": "ead4d0bc1e1b9c95b876231579c3e12be010dff4ee375d8471200b32bd11021d",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "3. 교보17호_정관_페이지_03.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_03",
+   "bytes": 270136,
+   "sha256": "31f6534a0dfea2bed601249efae7dd2ec4e5a7ccfec9451f4cffe544b92d73f5",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "3. 교보17호_정관_페이지_04.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_04",
+   "bytes": 240339,
+   "sha256": "05ce2f821fb39d09f1f94767307e5737d93b135f417d1aede88a8bbba02abbe2",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "3. 교보17호_정관_페이지_05.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_05",
+   "bytes": 263163,
+   "sha256": "5685472c64c2e646760427269cf4deed9ca5415f7fa9757d4eb424dae8d72a25",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "3. 교보17호_정관_페이지_06.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_06",
+   "bytes": 278262,
+   "sha256": "05a867aa168a3a615a8830929a94cbaf07056734fd86bda5ed20897421d4ddf6",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "3. 교보17호_정관_페이지_07.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_07",
+   "bytes": 259958,
+   "sha256": "9691043a9f7d8af0769cb530344d6fea2a560aac211b6d070a9aa99f76ac51fc",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "3. 교보17호_정관_페이지_08.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_08",
+   "bytes": 299497,
+   "sha256": "6b496a1b92eeffbb2a4b4561fe5ad0a50750085ebd064ebb73ac27cd007ec9f4",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "3. 교보17호_정관_페이지_09.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_09",
+   "bytes": 261895,
+   "sha256": "e80f656dbf604f732981a9d2a2da1bf50d4d540d7cc987529e9a8f7c0dcbdf4e",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "3. 교보17호_정관_페이지_10.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_10",
+   "bytes": 259794,
+   "sha256": "dde6cdeca5bbcf1773b8361564e8cf434663c5d34b6fe7054cfdaef31a1b39d4",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "3. 교보17호_정관_페이지_11.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_11",
+   "bytes": 254171,
+   "sha256": "a877616596f96cf91d24a625eacaaee5b3c8404f6559a773b74b21e69d8d1f88",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "3. 교보17호_정관_페이지_12.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_12",
+   "bytes": 236386,
+   "sha256": "a0111a739e0d1594a158112699cec05b775f070f5c95373fd398dcbadb68af4a",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "3. 교보17호_정관_페이지_13.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_13",
+   "bytes": 250723,
+   "sha256": "888d04cb7c50a6e361e60c2fd5e2821f96a584068631fae8a939793d37aee584",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "3. 교보17호_정관_페이지_14.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_14",
+   "bytes": 287471,
+   "sha256": "9ebe4a041e465b523b122e6840b8f2828761044745dde50ad154060905801ddb",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_15.jpg",
+   "flNm": "3. 교보17호_정관_페이지_15.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_15",
+   "bytes": 289501,
+   "sha256": "b57dec20fbab7f73a2bc795ea06fb1e7ca9e98178fbb271a74c3220750462ea6",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_16.jpg",
+   "flNm": "3. 교보17호_정관_페이지_16.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_16",
+   "bytes": 299674,
+   "sha256": "f16adffd21aef2b0db2b347a90643ea914195b3f737e74f6d070c62e84d8ce26",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_17.jpg",
+   "flNm": "3. 교보17호_정관_페이지_17.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_17",
+   "bytes": 238985,
+   "sha256": "30a311f475c19a8fbec866e4cb31f198b6eb62e2d7e78bd9bb1c38ab951b7306",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_18.jpg",
+   "flNm": "3. 교보17호_정관_페이지_18.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_18",
+   "bytes": 233816,
+   "sha256": "b7df79f326bf4262dc9852cb54b64ae4ed9179b1d246813f2a12b0416f2f9d9a",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11090716&flNm=3.+%EA%B5%90%EB%B3%B417%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_19.jpg",
+   "flNm": "3. 교보17호_정관_페이지_19.jpg",
+   "alt": "이미지: 3. 교보17호_정관_페이지_19",
+   "bytes": 287173,
+   "sha256": "104e71a3e30f64ec9f26026bd6d076871b67cc748597afb05fcc4a8f7a5a77dd",
+   "width": 2480,
+   "height": 3505
+  }
+ ],
+ "folder": "data/charter_kosdaq/489210_교보17호스팩/20260304_11090716",
+ "fetched_at": "2026-11-16T22:06:46",
+ "used_by_rcept_no": [
+  "20260304001729"
+ ]
+}

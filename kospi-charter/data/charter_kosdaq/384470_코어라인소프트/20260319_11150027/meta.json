@@ -1,0 +1,37 @@
+{
+ "corp_code": "01512575",
+ "corp_name": "코어라인소프트",
+ "stock_code": "384470",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000888",
+ "dcmNo": "11150027",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000888&dcmNo=11150027",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000888&dcmNo=11150027&eleId=1&offset=598&length=302&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 24,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/384470_코어라인소프트/20260319_11150027",
+ "fetched_at": "2026-11-16T21:45:06",
+ "used_by_rcept_no": [
+  "20260319000888"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150027&flNm=240329_%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "240329_정관.pdf",
+   "bytes": 564501,
+   "sha256": "1860d8a6e9ec9984abe97097f3db62be70b736eebe9ca8d400960605889299cf",
+   "pages": 19,
+   "text_pages": 17,
+   "ocr_pages": 2
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260729000537",
+ "corp_code": "00367695",
+ "corp_name": "에이전트AI",
+ "stock_code": "060900",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260730",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000537",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260729000537.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260729000537.xml",
+   "bytes": 92409,
+   "sha256": "f6f7c15a807cecd361d591a056603109bfd3f7e45d68639ea46b2928edf6b25a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/060900_에이전트AI/20260730_20260729000537",
+ "fetched_at": "2026-11-16T19:37:25"
+}

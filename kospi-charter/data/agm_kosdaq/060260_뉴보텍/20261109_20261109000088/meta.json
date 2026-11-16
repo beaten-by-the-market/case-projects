@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261109000088",
+ "corp_code": "00351375",
+ "corp_name": "뉴보텍",
+ "stock_code": "060260",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261109",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000088",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 288,
+ "charter_amend_txt": "data/agm_kosdaq/060260_뉴보텍/20261109_20261109000088/정관의변경.txt",
+ "main_xml": "20261109000088.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261109000088.xml",
+   "bytes": 49289,
+   "sha256": "b480638427b2303cb96df16ebd76ab82e520dda8633a51705620767acf083f46"
+  }
+ ],
+ "folder": "data/agm_kosdaq/060260_뉴보텍/20261109_20261109000088",
+ "fetched_at": "2026-11-16T19:40:35"
+}

@@ -1,0 +1,195 @@
+{
+ "corp_code": "01949584",
+ "corp_name": "IBKS제25호스팩",
+ "stock_code": "0099X0",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312000617",
+ "dcmNo": "11113852",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000617&dcmNo=11113852",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000617&dcmNo=11113852&eleId=1&offset=605&length=2975&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 17,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "ibks제25호스팩_정관_1.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_1",
+   "bytes": 212283,
+   "sha256": "622cd58f4bf28e37042418ab43176deacefc914f7f1488b8c116b073215a4514",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "ibks제25호스팩_정관_2.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_2",
+   "bytes": 276584,
+   "sha256": "ca173be5db8fb6de63304cafca42ad20139c13cfa7aa2c9f1490384ac527b12c",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "ibks제25호스팩_정관_3.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_3",
+   "bytes": 113303,
+   "sha256": "6a30ffa3d7171568ab4d917ead4258c5b0f61837b54eb4cd19985024950cc339",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "ibks제25호스팩_정관_4.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_4",
+   "bytes": 132898,
+   "sha256": "1ef272ce9bb19aeb3b3261ea051bba0a957997d8610356d52524aa63885d42e2",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "ibks제25호스팩_정관_5.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_5",
+   "bytes": 288270,
+   "sha256": "36c7319e1cb394abe71ff87163c2f061a5f6f791045680c53baf510f03ecde2d",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "ibks제25호스팩_정관_6.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_6",
+   "bytes": 121442,
+   "sha256": "8d1d45d675ba0544986c784178ab9e3b074f37684a5f5bb14918acb3feb816c9",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "ibks제25호스팩_정관_7.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_7",
+   "bytes": 260248,
+   "sha256": "804555f2e3e835953883a8d4368a858f3037caa037d8783150937497e2b105c6",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "ibks제25호스팩_정관_8.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_8",
+   "bytes": 268393,
+   "sha256": "baa86be9d120ad7f2c1b191fa5ae59aed7e90159e02245000f49000b5bdbd80d",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "ibks제25호스팩_정관_9.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_9",
+   "bytes": 112397,
+   "sha256": "87e4e6ba4bb2f6d6493c396b40c147df08a68d52006a5817b1927fc7d1b6eb75",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "ibks제25호스팩_정관_10.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_10",
+   "bytes": 117981,
+   "sha256": "b428440b063ded3b5613f9ee273280b04e185774e37d3467d411de941e3be7b7",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "ibks제25호스팩_정관_11.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_11",
+   "bytes": 265398,
+   "sha256": "6720295466b15bac5d8aae2613b79c991f9add90216521de8950afce7289e2d2",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "ibks제25호스팩_정관_12.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_12",
+   "bytes": 276767,
+   "sha256": "f480fa49a2b97e0fd6a2545485fca686fae498460e016ed406f3467d4d462880",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "ibks제25호스팩_정관_13.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_13",
+   "bytes": 125700,
+   "sha256": "0720d4083bbfeb49303dde7ef1aa246c77345257513eb6dd45fd2843b24e4c33",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "ibks제25호스팩_정관_14.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_14",
+   "bytes": 114627,
+   "sha256": "0adcdba567ad0e09a0cf9ae44e115dd9718ae8ca68d03ab5254805bf83c07949",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "ibks제25호스팩_정관_15.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_15",
+   "bytes": 302623,
+   "sha256": "5ec10a090413ebb72ba24ca92e10e21682b63309fb07f6f1b92947d5689604ef",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "ibks제25호스팩_정관_16.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_16",
+   "bytes": 131533,
+   "sha256": "b03aecbcbfa6dcf31cf35113c4892e62bac28c4f79737fca71e9cbf52504f3f8",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113852&flNm=ibks%EC%A0%9C25%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "ibks제25호스팩_정관_17.jpg",
+   "alt": "이미지: ibks제25호스팩_정관_17",
+   "bytes": 190004,
+   "sha256": "dcee9dc70d84973718193a650825fb65f297f63ca5dfa2d53150370bbebcfab3",
+   "width": 793,
+   "height": 1121
+  }
+ ],
+ "folder": "data/charter_kosdaq/0099X0_IBKS제25호스팩/20260312_11113852",
+ "fetched_at": "2026-11-16T19:51:52",
+ "used_by_rcept_no": [
+  "20260312000617"
+ ]
+}

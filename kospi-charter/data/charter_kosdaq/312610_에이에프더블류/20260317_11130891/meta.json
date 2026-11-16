@@ -1,0 +1,24 @@
+{
+ "corp_code": "01223219",
+ "corp_name": "에이에프더블류",
+ "stock_code": "312610",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000168",
+ "dcmNo": "11130891",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000168&dcmNo=11130891",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000168&dcmNo=11130891&eleId=1&offset=600&length=27881&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10627,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/312610_에이에프더블류/20260317_11130891",
+ "fetched_at": "2026-11-16T21:31:39",
+ "used_by_rcept_no": [
+  "20260317000168"
+ ]
+}

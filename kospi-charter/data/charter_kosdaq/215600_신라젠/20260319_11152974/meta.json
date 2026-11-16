@@ -1,0 +1,285 @@
+{
+ "corp_code": "00919966",
+ "corp_name": "신라젠",
+ "stock_code": "215600",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001291",
+ "dcmNo": "11152974",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001291&dcmNo=11152974",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001291&dcmNo=11152974&eleId=1&offset=594&length=3864&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 26,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_01.jpg",
+   "flNm": "신라젠정관_01.jpg",
+   "alt": "이미지: 신라젠정관_01",
+   "bytes": 264513,
+   "sha256": "9dc90a28686df3d6e5276d65c9cc3277d815f1d5a9878622e9ecd0e20ff46623",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_02.jpg",
+   "flNm": "신라젠정관_02.jpg",
+   "alt": "이미지: 신라젠정관_02",
+   "bytes": 105954,
+   "sha256": "f6bdbc2dcdd0beca79b923c191060576e85cc958559b6342171a8f47936f0d6e",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_03.jpg",
+   "flNm": "신라젠정관_03.jpg",
+   "alt": "이미지: 신라젠정관_03",
+   "bytes": 129608,
+   "sha256": "53ab675d9c60988325096be284c6762976c875941625496958d05088421f0292",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_04.jpg",
+   "flNm": "신라젠정관_04.jpg",
+   "alt": "이미지: 신라젠정관_04",
+   "bytes": 138710,
+   "sha256": "b732985333a796534eba8ec3a28a86385c709a4a8bc9e1de27409dc4474da995",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_05.jpg",
+   "flNm": "신라젠정관_05.jpg",
+   "alt": "이미지: 신라젠정관_05",
+   "bytes": 136546,
+   "sha256": "a0dd257b99fe8d894b461bccfee240245de332a01712c27a39115714609542dd",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_06.jpg",
+   "flNm": "신라젠정관_06.jpg",
+   "alt": "이미지: 신라젠정관_06",
+   "bytes": 137221,
+   "sha256": "9b22bfc1872380ae17876cac405d27bec8c43820be0669b3332a721c07a5206d",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_07.jpg",
+   "flNm": "신라젠정관_07.jpg",
+   "alt": "이미지: 신라젠정관_07",
+   "bytes": 133622,
+   "sha256": "8630c37e87fab902b9f98ac6ce8dfb7d9e04dda7d5b431d6272e7d959cbe3971",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_08.jpg",
+   "flNm": "신라젠정관_08.jpg",
+   "alt": "이미지: 신라젠정관_08",
+   "bytes": 132798,
+   "sha256": "87885161e13b921234da7caf26fd9c2037274cdd75f79775f5443bbd83a1bb00",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_09.jpg",
+   "flNm": "신라젠정관_09.jpg",
+   "alt": "이미지: 신라젠정관_09",
+   "bytes": 116658,
+   "sha256": "38449a5e547728b2adf0fa555a55ea90f04ce4f791f358fe6bade02200027d98",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "신라젠정관_10.jpg",
+   "alt": "이미지: 신라젠정관_10",
+   "bytes": 134827,
+   "sha256": "1e414e4df716a0c1bd3aa3c4d0bcafd1289b4b65f36a82ba53e6e639a0adb71e",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "신라젠정관_11.jpg",
+   "alt": "이미지: 신라젠정관_11",
+   "bytes": 145645,
+   "sha256": "f4fb2d3daeebc1a81069e46618a5e528feed60b3fd351264d1d8ff74b5a9bb46",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "신라젠정관_12.jpg",
+   "alt": "이미지: 신라젠정관_12",
+   "bytes": 138194,
+   "sha256": "cb4cee510d875cc17d345665d763b1e462bba225df309b11c616c053d7d0a7d0",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "신라젠정관_13.jpg",
+   "alt": "이미지: 신라젠정관_13",
+   "bytes": 136623,
+   "sha256": "97177473c28f1e9fe2615b134017b31a9a28425e360a0cae4f8d25483f26538b",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "신라젠정관_14.jpg",
+   "alt": "이미지: 신라젠정관_14",
+   "bytes": 142359,
+   "sha256": "7843d71b050fd6e1160ff53c072caf0c5a918ea314f6d374a5b661932e4c4a21",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "신라젠정관_15.jpg",
+   "alt": "이미지: 신라젠정관_15",
+   "bytes": 134561,
+   "sha256": "d1f3f5ee1a17f11da22da0397a87d73ba6d0ac589d1eef6215b2fb60070dc949",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "신라젠정관_16.jpg",
+   "alt": "이미지: 신라젠정관_16",
+   "bytes": 115793,
+   "sha256": "7df28ab8e6a0f0dab8f2cb7eb883f67984a51a0a6e1bf9567da5a9a2f2d84a54",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "신라젠정관_17.jpg",
+   "alt": "이미지: 신라젠정관_17",
+   "bytes": 127306,
+   "sha256": "80fd01bcceb0572b8c1d796e0379174da0a5a0a66778bd48f9f7cf0f2d9ba181",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_18.jpg",
+   "flNm": "신라젠정관_18.jpg",
+   "alt": "이미지: 신라젠정관_18",
+   "bytes": 124407,
+   "sha256": "7aac035c1451af8a5f4e3a185ef58dece70e0d78cff966adade9940fbbb6708d",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_19.jpg",
+   "flNm": "신라젠정관_19.jpg",
+   "alt": "이미지: 신라젠정관_19",
+   "bytes": 130815,
+   "sha256": "ae69bf12eb648d714bf2c858d7e7e71a53d229dfd277c02f18b971de5cdd188a",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_20.jpg",
+   "flNm": "신라젠정관_20.jpg",
+   "alt": "이미지: 신라젠정관_20",
+   "bytes": 123960,
+   "sha256": "6bf9a9b52dffb28df5e9e940f54e1379fbd2bec3e6120cd578e3a72ec2d7f8cc",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_21.jpg",
+   "flNm": "신라젠정관_21.jpg",
+   "alt": "이미지: 신라젠정관_21",
+   "bytes": 125731,
+   "sha256": "1e3dddf8ad20743b3fc55a0f680497c5cc1eaeb8f14ed4dda1cfce2d55a2dc00",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_22.jpg",
+   "flNm": "신라젠정관_22.jpg",
+   "alt": "이미지: 신라젠정관_22",
+   "bytes": 124048,
+   "sha256": "16575085e210e1418b93e77fa8987011f578f102c9b6668f2d6ca7c0260af8d7",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_23.jpg",
+   "flNm": "신라젠정관_23.jpg",
+   "alt": "이미지: 신라젠정관_23",
+   "bytes": 109640,
+   "sha256": "93b1dad07dd657cd5445eeeff089baed9478d53a62ddcd13700b2da6192d9ddc",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/024.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_24.jpg",
+   "flNm": "신라젠정관_24.jpg",
+   "alt": "이미지: 신라젠정관_24",
+   "bytes": 106200,
+   "sha256": "b6167e1b8d80a6b574dab3bb75ba1022b50558103f34e847e20fdb61183fb5aa",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/025.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_25.jpg",
+   "flNm": "신라젠정관_25.jpg",
+   "alt": "이미지: 신라젠정관_25",
+   "bytes": 273714,
+   "sha256": "bf7a8231082f2b8e23ff5974688af3196b89165d3d9d4b894c8b740eb149391a",
+   "width": 1224,
+   "height": 1584
+  },
+  {
+   "file": "img/026.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152974&flNm=%EC%8B%A0%EB%9D%BC%EC%A0%A0%EC%A0%95%EA%B4%80_26.jpg",
+   "flNm": "신라젠정관_26.jpg",
+   "alt": "이미지: 신라젠정관_26",
+   "bytes": 160041,
+   "sha256": "d745dbbca5f29f5279760df1f38699a79df4a109245e5765823eefe49d387c3f",
+   "width": 1224,
+   "height": 1584
+  }
+ ],
+ "folder": "data/charter_kosdaq/215600_신라젠/20260319_11152974",
+ "fetched_at": "2026-11-16T21:10:53",
+ "used_by_rcept_no": [
+  "20260319001291"
+ ]
+}

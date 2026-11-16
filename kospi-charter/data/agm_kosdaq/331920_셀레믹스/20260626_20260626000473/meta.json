@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260626000473",
+ "corp_code": "01114586",
+ "corp_name": "셀레믹스",
+ "stock_code": "331920",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260626",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000473",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1788,
+ "charter_amend_txt": "data/agm_kosdaq/331920_셀레믹스/20260626_20260626000473/정관의변경.txt",
+ "main_xml": "20260626000473.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260626000473.xml",
+   "bytes": 70794,
+   "sha256": "fef6f720b71c25bb568b5f9fac531735ef0a828f442b8afff8781acac6058f80"
+  }
+ ],
+ "folder": "data/agm_kosdaq/331920_셀레믹스/20260626_20260626000473",
+ "fetched_at": "2026-11-16T19:36:09"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260701000583",
+ "corp_code": "01230255",
+ "corp_name": "한울앤제주",
+ "stock_code": "276730",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260701",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000583",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 931,
+ "charter_amend_txt": "data/agm_kosdaq/276730_한울앤제주/20260701_20260701000583/정관의변경.txt",
+ "main_xml": "20260701000583.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260701000583.xml",
+   "bytes": 98312,
+   "sha256": "51fb60f6dad2efc77e0ff387d59b149b5596fe40232800ff67a6bd4b70a34931"
+  }
+ ],
+ "folder": "data/agm_kosdaq/276730_한울앤제주/20260701_20260701000583",
+ "fetched_at": "2026-11-16T19:36:23"
+}

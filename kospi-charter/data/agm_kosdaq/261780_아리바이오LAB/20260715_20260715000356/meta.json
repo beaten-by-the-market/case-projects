@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260715000356",
+ "corp_code": "01141599",
+ "corp_name": "아리바이오LAB",
+ "stock_code": "261780",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260715",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715000356",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 548,
+ "charter_amend_txt": "data/agm_kosdaq/261780_아리바이오LAB/20260715_20260715000356/정관의변경.txt",
+ "main_xml": "20260715000356.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260715000356.xml",
+   "bytes": 66967,
+   "sha256": "8520b70a6e8fbac1624f7240a9958a0cb308f2c36d9ceea26678510c705c641b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/261780_아리바이오LAB/20260715_20260715000356",
+ "fetched_at": "2026-11-16T19:36:44"
+}

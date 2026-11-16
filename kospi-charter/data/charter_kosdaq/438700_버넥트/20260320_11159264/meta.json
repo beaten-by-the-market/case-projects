@@ -1,0 +1,37 @@
+{
+ "corp_code": "01605529",
+ "corp_name": "버넥트",
+ "stock_code": "438700",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001235",
+ "dcmNo": "11159264",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001235&dcmNo=11159264",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001235&dcmNo=11159264&eleId=1&offset=594&length=310&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 32,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/438700_버넥트/20260320_11159264",
+ "fetched_at": "2026-11-16T21:52:57",
+ "used_by_rcept_no": [
+  "20260320001235"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159264&flNm=250331_%EB%B2%84%EB%84%A5%ED%8A%B8_%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "250331_버넥트_정관.pdf",
+   "bytes": 3461471,
+   "sha256": "1dc23ffd0a8529cae07cd9cd939247cde718b443f573018ad0798bb2c7cd8a79",
+   "pages": 17,
+   "text_pages": 0,
+   "ocr_pages": 17
+  }
+ ],
+ "n_pdfs": 1
+}

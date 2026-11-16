@@ -1,0 +1,24 @@
+{
+ "corp_code": "01344202",
+ "corp_name": "뷰노",
+ "stock_code": "338220",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000614",
+ "dcmNo": "11136838",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000614&dcmNo=11136838",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000614&dcmNo=11136838&eleId=1&offset=595&length=26737&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12770,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/338220_뷰노/20260318_11136838",
+ "fetched_at": "2026-11-16T21:35:10",
+ "used_by_rcept_no": [
+  "20260318000614"
+ ]
+}

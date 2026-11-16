@@ -1,0 +1,24 @@
+{
+ "corp_code": "00645089",
+ "corp_name": "NHN벅스",
+ "stock_code": "104200",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001403",
+ "dcmNo": "11142500",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001403&dcmNo=11142500",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001403&dcmNo=11142500&eleId=1&offset=595&length=28736&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13890,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/104200_NHN벅스/20260318_11142500",
+ "fetched_at": "2026-11-16T20:49:42",
+ "used_by_rcept_no": [
+  "20260814000419"
+ ]
+}

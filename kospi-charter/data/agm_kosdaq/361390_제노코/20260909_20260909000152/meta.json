@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260909000152",
+ "corp_code": "01014718",
+ "corp_name": "제노코",
+ "stock_code": "361390",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260909",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000152",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260909000152.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260909000152.xml",
+   "bytes": 102831,
+   "sha256": "41d398aeac2cece1c28a9c695d547736895a1c215a398ba464077a31fede897d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/361390_제노코/20260909_20260909000152",
+ "fetched_at": "2026-11-16T19:38:42"
+}

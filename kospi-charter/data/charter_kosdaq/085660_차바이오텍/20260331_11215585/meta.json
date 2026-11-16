@@ -1,0 +1,25 @@
+{
+ "corp_code": "00525679",
+ "corp_name": "차바이오텍",
+ "stock_code": "085660",
+ "att_title": "2026.03.31 [정정] 정관",
+ "att_date": "20260331",
+ "rcpNo": "20260331004822",
+ "dcmNo": "11215585",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331004822&dcmNo=11215585",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260331004822&dcmNo=11215585&eleId=1&offset=645&length=3026&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260331004822&dcmNo=11215585&eleId=2&offset=3701&length=23758&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "text",
+ "text_chars": 14863,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/085660_차바이오텍/20260331_11215585",
+ "fetched_at": "2026-11-16T20:40:32",
+ "used_by_rcept_no": [
+  "20260609000370"
+ ]
+}

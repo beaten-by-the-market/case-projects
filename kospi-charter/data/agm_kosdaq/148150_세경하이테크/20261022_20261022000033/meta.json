@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261022000033",
+ "corp_code": "00913689",
+ "corp_name": "세경하이테크",
+ "stock_code": "148150",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261022",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000033",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 204,
+ "charter_amend_txt": "data/agm_kosdaq/148150_세경하이테크/20261022_20261022000033/정관의변경.txt",
+ "main_xml": "20261022000033.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261022000033.xml",
+   "bytes": 43717,
+   "sha256": "b0cf9c5789598c7d0908ef430e96fbaf30a7f1f02bb2d356754e0c0a23de969b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/148150_세경하이테크/20261022_20261022000033",
+ "fetched_at": "2026-11-16T19:40:12"
+}

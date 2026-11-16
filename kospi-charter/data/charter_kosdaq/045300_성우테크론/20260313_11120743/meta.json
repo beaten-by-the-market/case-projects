@@ -1,0 +1,165 @@
+{
+ "corp_code": "00350482",
+ "corp_name": "성우테크론",
+ "stock_code": "045300",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313000899",
+ "dcmNo": "11120743",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000899&dcmNo=11120743",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313000899&dcmNo=11120743&eleId=1&offset=593&length=2428&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 14,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "정관변경(2018년)_페이지_01.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_01",
+   "bytes": 59258,
+   "sha256": "2d78ee5660c7db2f2cb26c03aad695a8b8e57d1bd4409ecd3a7723339ef3e364",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "정관변경(2018년)_페이지_02.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_02",
+   "bytes": 233590,
+   "sha256": "d35358c015c0902f21c024cec1837931a2f5811d73c9c0eeabb2cb4920d42b01",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "정관변경(2018년)_페이지_03.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_03",
+   "bytes": 295660,
+   "sha256": "9a21402b85e8861411ee6e14af1a4eee56663ae82cca4e34b4e7d356e681fd1b",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "정관변경(2018년)_페이지_04.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_04",
+   "bytes": 248329,
+   "sha256": "d0b4bbaeac9d8a73f599b7c28f7a5df97a1ff9e61764636cb8d6fc899e2ee426",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "정관변경(2018년)_페이지_05.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_05",
+   "bytes": 241151,
+   "sha256": "50cd129f5bda81252e4cab5e8418ca15e77b67d1f74bd65d5dda6719e760800f",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "정관변경(2018년)_페이지_06.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_06",
+   "bytes": 299211,
+   "sha256": "2b337c09a467316daa60d8974838495ba0dc64ff28ba8935c60dc624c1801908",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "정관변경(2018년)_페이지_07.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_07",
+   "bytes": 301794,
+   "sha256": "c5beb16a9974920b940e6c2c678e7084c5400e7887270c4e734522cf4f9eeef8",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "정관변경(2018년)_페이지_08.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_08",
+   "bytes": 223099,
+   "sha256": "03eb75df2c0baf707102e1a4b9a202b6923be01a3438a4ecc41db0166aca07fa",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "정관변경(2018년)_페이지_09.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_09",
+   "bytes": 259230,
+   "sha256": "787163cfaa92a2a18d4a8fdb9bb89913d65ec61b13a408da0fb63460cd856fa3",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "정관변경(2018년)_페이지_10.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_10",
+   "bytes": 291700,
+   "sha256": "83125e2194ece75736178b21e7380483ce5524ba319881b5bad386399bdda124",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "정관변경(2018년)_페이지_11.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_11",
+   "bytes": 287249,
+   "sha256": "20d94d559f71e2f434920b6e91aa11c94c875b87d49c0f40e64306fb99aca82b",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "정관변경(2018년)_페이지_12.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_12",
+   "bytes": 226866,
+   "sha256": "92d509985d46dcf2377bf26e37f049b66f98317391b7029521c22a9f4f065980",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "정관변경(2018년)_페이지_13.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_13",
+   "bytes": 159372,
+   "sha256": "852217b8e8552499453d53c01acb63568f473e3d4c498554436434f011796eda",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11120743&flNm=%EC%A0%95%EA%B4%80%EB%B3%80%EA%B2%BD%282018%EB%85%84%29_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "정관변경(2018년)_페이지_14.jpg",
+   "alt": "이미지: 정관변경(2018년)_페이지_14",
+   "bytes": 95442,
+   "sha256": "55ac6c52124e3ee673fa6f42907f9a37392215a1223c4226e137039bcae130da",
+   "width": 1653,
+   "height": 2337
+  }
+ ],
+ "folder": "data/charter_kosdaq/045300_성우테크론/20260313_11120743",
+ "fetched_at": "2026-11-16T20:14:25",
+ "used_by_rcept_no": [
+  "20260313000899"
+ ]
+}

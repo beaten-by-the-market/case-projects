@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260923000611",
+ "corp_code": "00156600",
+ "corp_name": "한주라이트메탈",
+ "stock_code": "198940",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260923",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923000611",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260923000611.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260923000611.xml",
+   "bytes": 48232,
+   "sha256": "7a7ef4c3639aa64c8ee87464d52f43cc119075010fba10475e9476febc438866"
+  }
+ ],
+ "folder": "data/agm_kosdaq/198940_한주라이트메탈/20260923_20260923000611",
+ "fetched_at": "2026-11-16T19:39:22"
+}

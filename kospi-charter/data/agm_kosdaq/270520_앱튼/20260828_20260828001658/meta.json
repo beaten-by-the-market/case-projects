@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260828001658",
+ "corp_code": "01228515",
+ "corp_name": "앱튼",
+ "stock_code": "270520",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260828",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828001658",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 159,
+ "charter_amend_txt": "data/agm_kosdaq/270520_앱튼/20260828_20260828001658/정관의변경.txt",
+ "main_xml": "20260828001658.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260828001658.xml",
+   "bytes": 84164,
+   "sha256": "58bf4b7f61af14cd3e1f0e043817ef8043863e7e677ad40c92a7201bf60c2e6a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/270520_앱튼/20260828_20260828001658",
+ "fetched_at": "2026-11-16T19:38:27"
+}

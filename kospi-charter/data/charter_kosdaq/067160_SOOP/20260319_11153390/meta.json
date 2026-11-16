@@ -1,0 +1,37 @@
+{
+ "corp_code": "00399694",
+ "corp_name": "SOOP",
+ "stock_code": "067160",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001348",
+ "dcmNo": "11153390",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001348&dcmNo=11153390",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001348&dcmNo=11153390&eleId=1&offset=592&length=302&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 24,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/067160_SOOP/20260319_11153390",
+ "fetched_at": "2026-11-16T20:27:26",
+ "used_by_rcept_no": [
+  "20260319001348"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153390&flNm=%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC_%EC%88%B2_%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "주식회사_숲_정관.pdf",
+   "bytes": 385611,
+   "sha256": "427b3e6c0f7edd53bcc85f850c887e30b472b98893b2e1619c5be894abf98be1",
+   "pages": 16,
+   "text_pages": 15,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

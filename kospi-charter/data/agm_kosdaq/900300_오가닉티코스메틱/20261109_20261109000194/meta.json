@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261109000194",
+ "corp_code": "01169434",
+ "corp_name": "오가닉티코스메틱",
+ "stock_code": "900300",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261109",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000194",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261109000194.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261109000194.xml",
+   "bytes": 116742,
+   "sha256": "f80a691140788026f7dc0d39562949fa2262470368e6fcfc9bb8dc1e1822f70b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/900300_오가닉티코스메틱/20261109_20261109000194",
+ "fetched_at": "2026-11-16T19:40:36"
+}

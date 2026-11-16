@@ -1,0 +1,24 @@
+{
+ "corp_code": "00141246",
+ "corp_name": "SGC E&C",
+ "stock_code": "016250",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311004333",
+ "dcmNo": "11110359",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004333&dcmNo=11110359",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004333&dcmNo=11110359&eleId=1&offset=600&length=29825&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14197,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/016250_SGC E&C/20260311_11110359",
+ "fetched_at": "2026-11-16T19:55:49",
+ "used_by_rcept_no": [
+  "20260311004333"
+ ]
+}

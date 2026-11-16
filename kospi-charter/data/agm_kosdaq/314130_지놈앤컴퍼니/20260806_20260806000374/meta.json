@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260806000374",
+ "corp_code": "01276026",
+ "corp_name": "지놈앤컴퍼니",
+ "stock_code": "314130",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260806",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000374",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 954,
+ "charter_amend_txt": "data/agm_kosdaq/314130_지놈앤컴퍼니/20260806_20260806000374/정관의변경.txt",
+ "main_xml": "20260806000374.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260806000374.xml",
+   "bytes": 79472,
+   "sha256": "d0e0b869f7e094595fc29b7896a6cb36fb621aabfc65acaadc0d543665737805"
+  }
+ ],
+ "folder": "data/agm_kosdaq/314130_지놈앤컴퍼니/20260806_20260806000374",
+ "fetched_at": "2026-11-16T19:37:35"
+}

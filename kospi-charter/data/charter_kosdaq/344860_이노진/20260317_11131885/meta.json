@@ -1,0 +1,24 @@
+{
+ "corp_code": "01419135",
+ "corp_name": "이노진",
+ "stock_code": "344860",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000491",
+ "dcmNo": "11131885",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000491&dcmNo=11131885",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000491&dcmNo=11131885&eleId=1&offset=594&length=20072&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12867,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/344860_이노진/20260317_11131885",
+ "fetched_at": "2026-11-16T21:35:53",
+ "used_by_rcept_no": [
+  "20260317000491"
+ ]
+}

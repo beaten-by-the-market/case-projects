@@ -1,0 +1,24 @@
+{
+ "corp_code": "01810477",
+ "corp_name": "노타",
+ "stock_code": "486990",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000756",
+ "dcmNo": "11163559",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000756&dcmNo=11163559",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000756&dcmNo=11163559&eleId=1&offset=595&length=25612&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14797,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/486990_노타/20260323_11163559",
+ "fetched_at": "2026-11-16T22:06:01",
+ "used_by_rcept_no": [
+  "20260323000987"
+ ]
+}

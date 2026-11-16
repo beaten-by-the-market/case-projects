@@ -1,0 +1,24 @@
+{
+ "corp_code": "00624749",
+ "corp_name": "에스피시스템스",
+ "stock_code": "317830",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001727",
+ "dcmNo": "11170182",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001727&dcmNo=11170182",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001727&dcmNo=11170182&eleId=1&offset=600&length=18710&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11050,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/317830_에스피시스템스/20260323_11170182",
+ "fetched_at": "2026-11-16T21:32:03",
+ "used_by_rcept_no": [
+  "20260323001727"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "01745173",
+ "corp_name": "이노테크",
+ "stock_code": "469610",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001122",
+ "dcmNo": "11165716",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001122&dcmNo=11165716",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001122&dcmNo=11165716&eleId=1&offset=595&length=25403&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14953,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/469610_이노테크/20260323_11165716",
+ "fetched_at": "2026-11-16T21:59:29",
+ "used_by_rcept_no": [
+  "20260617000355"
+ ]
+}

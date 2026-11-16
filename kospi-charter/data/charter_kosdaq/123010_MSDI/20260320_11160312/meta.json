@@ -1,0 +1,37 @@
+{
+ "corp_code": "00615723",
+ "corp_name": "MSDI",
+ "stock_code": "123010",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001397",
+ "dcmNo": "11160312",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001397&dcmNo=11160312",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001397&dcmNo=11160312&eleId=1&offset=596&length=300&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 20,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/123010_MSDI/20260320_11160312",
+ "fetched_at": "2026-11-16T20:53:32",
+ "used_by_rcept_no": [
+  "20260320001397"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160312&flNm=%EC%95%8C%EC%97%94%ED%8B%B0%EC%97%91%EC%8A%A4+%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "알엔티엑스 정관.pdf",
+   "bytes": 795261,
+   "sha256": "ded2d918838f0fcfc074ff9c5c09718bdba6274f74a870387fb92ee86b7f1b4c",
+   "pages": 17,
+   "text_pages": 0,
+   "ocr_pages": 17
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11174491&flNm=%EC%9D%BC%EC%A7%84%ED%8C%8C%EC%9B%8C+%EC%A0%95%EA%B4%80_rev.2023.12.29_%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "일진파워 정관_rev.2023.12.29_정관.pdf",
+   "bytes": 830454,
+   "sha256": "0472bd25b72392936757f76ca7ea62c4444fc22def501dce63ea89fa774f1be5",
+   "pages": 16,
+   "text_pages": 0,
+   "ocr_pages": 16
+  }
+ ],
+ "total_chars": 12688,
+ "pages": 16,
+ "text_pages": 0,
+ "ocr_pages": 16,
+ "created_at": "2026-11-16T22:13:17",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

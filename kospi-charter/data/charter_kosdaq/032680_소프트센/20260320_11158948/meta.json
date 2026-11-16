@@ -1,0 +1,24 @@
+{
+ "corp_code": "00204226",
+ "corp_name": "소프트센",
+ "stock_code": "032680",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001183",
+ "dcmNo": "11158948",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001183&dcmNo=11158948",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001183&dcmNo=11158948&eleId=1&offset=595&length=24529&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13271,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/032680_소프트센/20260320_11158948",
+ "fetched_at": "2026-11-16T20:01:50",
+ "used_by_rcept_no": [
+  "20260320001183"
+ ]
+}

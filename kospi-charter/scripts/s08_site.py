@@ -13,8 +13,13 @@ data/final/*.json 을 읽어 site/data.js 에 `window.DATA = {...};` 한 줄로 
 담는 것
   built      생성 시각
   manifest   data/final/manifest.json 그대로 (없으면 null)
-  tables     kospi_charter · annual_reports · agm_notices · charter_docs  →  {cols, rows, file, updated}
-             kospi_charter·charter_docs 에는 imgs = 스캔 이미지 **전체** [[폴더 기준 파일, DART 원본 주소], …] 를 붙인다 — meta.json 에서.
+  manifest_kosdaq  data/final/kosdaq_manifest.json 그대로 (없으면 null) — kind_kosdaq·fetched·counts
+  tables     kospi_charter · annual_reports · agm_notices · charter_docs · kospi_absent  →  {cols, rows, file, updated}
+             kosdaq_charter · kosdaq_agm_notices · kosdaq_charter_docs · kosdaq_absent  (코스닥, s07k — 표 이름 = 결과 파일 이름.
+             코스피 표와 섞지 않고 따로 넣는다. 사업보고서 표와 rcept_no 로 합치는 것은 app.js 가 한다)
+             kospi_absent = KIND 코스피 상장사 중 사업보고서가 없어 목록에 없는 회사와 근거 (s02b → s07), kosdaq_absent 는 s02c → s07k
+             absent_charter = 그중 신규상장·투자회사의 정관을 증권신고서·분할공시·KIND·홈페이지에서 찾은 것 (s04e → s07e, 두 시장 함께)
+             kospi_charter·charter_docs (코스닥 짝도) 에는 imgs = 스캔 이미지 **전체** [[폴더 기준 파일, DART 원본 주소], …] 를 붙인다 — meta.json 에서.
              화면은 로컬 파일을 먼저 띄우고, 없으면(GitHub Pages — img/ 는 git 제외) DART 원본 주소로 띄운다.
   missing    없는 결과 파일 이름
   local      경로 열이 가리키는 로컬 파일 확인 결과 (있음/없음 건수)
@@ -50,7 +55,25 @@ TABLES = {
     "charter_docs": ["corp_code", "corp_name", "stock_code", "att_title", "att_date", "rcpNo", "dcmNo", "att_url",
                      "content_type", "text_chars", "n_images", "n_image_errors", "n_nodes", "folder",
                      "used_by_rcept_no", "fetched_at"],
+    "kospi_absent": ["stock_code", "corp_name", "sec_group", "listed_date", "corp_code", "acc_mt", "reason_code", "reason",
+                     "n_annual_reports_all", "n_annual_reports_window", "last_annual_report_dt", "last_annual_report_nm",
+                     "first_fy_end", "first_report_due", "n_filings_window", "filing_forms_window", "last_filing_dt",
+                     "last_filing_nm", "last_filing_rcept_no", "kind_n_disclosures_window", "kind_misc_n",
+                     "kind_misc_groups", "kind_misc_kinds", "kind_misc_items", "dart_url"],
 }
+# 코스닥 (s07k) — 열은 코스피 짝과 같다. kosdaq_absent 만 corp_code_match_by·kind_titles_window 두 열이 더 있다
+TABLES.update({
+    "kosdaq_charter": TABLES["kospi_charter"],
+    "kosdaq_agm_notices": TABLES["agm_notices"],
+    "kosdaq_charter_docs": TABLES["charter_docs"],
+    "kosdaq_absent": TABLES["kospi_absent"][:-1] + ["corp_code_match_by", "kind_titles_window", "dart_url"],
+})
+# 사업보고서가 없어 목록에 없는 회사의 정관 (s04e → s07e) — 1행 = 회사, 근거문서(증권신고서 등) 열 + 정관·주총 열
+TABLES["absent_charter"] = (["market", "stock_code", "corp_name", "corp_code", "sec_group", "listed_date", "settle_month",
+                             "reason_code", "reason", "charter_source_doc", "charter_source_rcept_no", "charter_source_nm",
+                             "charter_source_dt", "charter_source_url"] + CHARTER + AGM)
+CHARTER_ROWS = ("kospi_charter", "kosdaq_charter", "absent_charter")   # 정관 열이 있는 행 → imgs·pdfs 를 charter_dir 기준으로
+DOC_ROWS = ("charter_docs", "kosdaq_charter_docs")      # 행 = 정관 문서 1건 → imgs·pdfs 를 folder 기준으로
 
 
 def clean(v):
@@ -118,13 +141,14 @@ def pack(rows: list[dict], known: list[str]) -> dict:
 
 def build(final: Path, root: Path, out: Path) -> None:
     t0 = time.time()
-    data = {"built": datetime.now().strftime("%Y-%m-%d %H:%M"), "manifest": None, "tables": {}, "missing": [],
-            "local": {}}
-    m = read_json(final / "manifest.json")
-    if isinstance(m, dict):
-        data["manifest"] = clean(m)
-    else:
-        data["missing"].append("manifest.json")
+    data = {"built": datetime.now().strftime("%Y-%m-%d %H:%M"), "manifest": None, "manifest_kosdaq": None,
+            "tables": {}, "missing": [], "local": {}}
+    for key, fname in (("manifest", "manifest.json"), ("manifest_kosdaq", "kosdaq_manifest.json")):
+        m = read_json(final / fname)
+        if isinstance(m, dict):
+            data[key] = clean(m)
+        else:
+            data["missing"].append(fname)
 
     cache: dict = {}
     pcache: dict = {}
@@ -135,13 +159,13 @@ def build(final: Path, root: Path, out: Path) -> None:
             data["missing"].append(f.name)
             continue
         rows = [r for r in rows if isinstance(r, dict)]
-        if name == "kospi_charter":
+        if name in CHARTER_ROWS:
             for r in rows:
                 if r.get("charter_img_dir") or (r.get("charter_n_images") or 0) > 0:
                     r["imgs"] = img_list(root, r.get("charter_dir"), cache)
                 if r.get("charter_pdf_txt"):
                     r["pdfs"] = pdf_list(root, r.get("charter_dir"), pcache)
-        elif name == "charter_docs":
+        elif name in DOC_ROWS:
             for r in rows:
                 if (r.get("n_images") or 0) > 0:
                     r["imgs"] = img_list(root, r.get("folder"), cache)
@@ -162,7 +186,12 @@ def build(final: Path, root: Path, out: Path) -> None:
         return {"paths": len(paths), "exists": have}
 
     for name, col in (("kospi_charter", "charter_txt"), ("kospi_charter", "charter_img_dir"),
-                      ("kospi_charter", "agm_charter_amend_txt"), ("agm_notices", "charter_amend_txt")):
+                      ("kospi_charter", "agm_charter_amend_txt"), ("agm_notices", "charter_amend_txt"),
+                      ("kosdaq_charter", "charter_txt"), ("kosdaq_charter", "charter_img_dir"),
+                      ("kosdaq_charter", "charter_fulltext_txt"), ("kosdaq_charter", "agm_charter_amend_txt"),
+                      ("kosdaq_agm_notices", "charter_amend_txt"),
+                      ("absent_charter", "charter_txt"), ("absent_charter", "charter_fulltext_txt"),
+                      ("absent_charter", "agm_charter_amend_txt")):
         c = count(name, col)
         if c:
             data["local"][f"{name}.{col}"] = c

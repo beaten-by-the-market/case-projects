@@ -1,0 +1,114 @@
+{
+ "generated_at": "2026-11-16T23:33:08",
+ "market": "코스닥",
+ "as_of": "2026-11-16",
+ "window": [
+  "2025-11-16",
+  "2026-11-16"
+ ],
+ "fetched": {
+  "dart_main": [
+   "2026-11-16T11:54:24",
+   "2026-11-16T19:30:59"
+  ],
+  "charter_docs": [
+   "2026-11-16T19:42:24",
+   "2026-11-16T22:11:00"
+  ],
+  "agm_xml": [
+   "2026-11-16T19:32:08",
+   "2026-11-16T22:18:54"
+  ]
+ },
+ "kind_kosdaq": {
+  "detail": {
+   "date": "2026-11-16",
+   "companies": 1833,
+   "groups": {
+    "기업인수목적회사": 70,
+    "외국주권": 11,
+    "주권": 1743,
+    "주식예탁증권": 9
+   },
+   "in_list": 1784,
+   "absent": 49
+  },
+  "summary": {
+   "date": "2026-11-13",
+   "file": "data/raw/kind/summary_20261113.csv",
+   "groups": {
+    "주권": {
+     "companies": 1742,
+     "issues": 1744
+    },
+    "기업인수목적회사": {
+     "companies": 70,
+     "issues": 70
+    },
+    "외국주권": {
+     "companies": 11,
+     "issues": 11
+    },
+    "소계": {
+     "companies": 1823,
+     "issues": 1825
+    },
+    "주식예탁증권(DR)": {
+     "companies": 9,
+     "issues": 9
+    }
+   },
+   "companies_with_dr": 1832,
+   "issues_with_dr": 1834
+  },
+  "absent_reason": {
+   "new_listing": 48,
+   "no_report_in_window": 1
+  }
+ },
+ "counts": {
+  "kosdaq_rows": 1784,
+  "sec_group": {
+   "주권": 1708,
+   "기업인수목적회사": 57,
+   "주식예탁증권": 8,
+   "외국주권": 11
+  },
+  "amend_tag": {
+   "(없음)": 1421,
+   "[기재정정]": 286,
+   "[첨부추가]": 36,
+   "[첨부정정]": 41
+  },
+  "kosdaq_absent": 49,
+  "kosdaq_charter_status": {
+   "ok": 1784
+  },
+  "charter_docs": 1784,
+  "charter_content_type": {
+   "text": 1390,
+   "image": 290,
+   "pdf": 93,
+   "mixed": 11
+  },
+  "charter_images": 5409,
+  "charter_ocr_docs": 301,
+  "charter_pdf_docs": 95,
+  "charter_llm_docs": 370,
+  "agm_notices": 720,
+  "agm_notices_with_charter_amend": 464,
+  "agm_notice_errors": 1,
+  "kosdaq_rows_agm_count": {
+   "0": 1192,
+   "1": 475,
+   "2": 106,
+   "3": 11
+  },
+  "kosdaq_rows_agm_charter_amend_count": {
+   "0": 1383,
+   "1": 343,
+   "2": 53,
+   "3": 5
+  }
+ }
+}

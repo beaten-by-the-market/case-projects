@@ -1,0 +1,37 @@
+{
+ "corp_code": "01141599",
+ "corp_name": "아리바이오LAB",
+ "stock_code": "261780",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000735",
+ "dcmNo": "11133157",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000735&dcmNo=11133157",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000735&dcmNo=11133157&eleId=1&offset=597&length=324&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 46,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/261780_아리바이오LAB/20260317_11133157",
+ "fetched_at": "2026-11-16T21:20:04",
+ "used_by_rcept_no": [
+  "20260317000735"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11133157&flNm=%5B%EC%B0%A8%EB%B0%B1%EC%8B%A0%EC%97%B0%EA%B5%AC%EC%86%8C%5D_%EC%A0%95%EA%B4%80_20230327.pdf",
+   "flNm": "[차백신연구소]_정관_20230327.pdf",
+   "bytes": 381601,
+   "sha256": "53231ea9206e4c1cf7036d372946ac8b17f9f5d1ebb71b42403d5d177abaaf68",
+   "pages": 23,
+   "text_pages": 23,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

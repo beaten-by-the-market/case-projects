@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260630000383",
+ "corp_code": "00262266",
+ "corp_name": "삼현",
+ "stock_code": "437730",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260630",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000383",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1711,
+ "charter_amend_txt": "data/agm_kosdaq/437730_삼현/20260630_20260630000383/정관의변경.txt",
+ "main_xml": "20260630000383.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260630000383.xml",
+   "bytes": 99590,
+   "sha256": "f2d837923c5177a0480cad710ec57cdd1dafb49fc74e0cc729eb8e0c5354f222"
+  }
+ ],
+ "folder": "data/agm_kosdaq/437730_삼현/20260630_20260630000383",
+ "fetched_at": "2026-11-16T19:36:14"
+}

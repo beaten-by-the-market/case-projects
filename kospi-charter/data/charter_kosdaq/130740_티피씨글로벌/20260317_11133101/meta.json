@@ -1,0 +1,24 @@
+{
+ "corp_code": "00578538",
+ "corp_name": "티피씨글로벌",
+ "stock_code": "130740",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000725",
+ "dcmNo": "11133101",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000725&dcmNo=11133101",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000725&dcmNo=11133101&eleId=1&offset=594&length=16074&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10486,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/130740_티피씨글로벌/20260317_11133101",
+ "fetched_at": "2026-11-16T20:55:39",
+ "used_by_rcept_no": [
+  "20260317000725"
+ ]
+}

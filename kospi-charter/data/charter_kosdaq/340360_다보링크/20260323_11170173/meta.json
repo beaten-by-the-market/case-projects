@@ -1,0 +1,37 @@
+{
+ "corp_code": "01416642",
+ "corp_name": "다보링크",
+ "stock_code": "340360",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001726",
+ "dcmNo": "11170173",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001726&dcmNo=11170173",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001726&dcmNo=11170173&eleId=1&offset=595&length=322&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 42,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/340360_다보링크/20260323_11170173",
+ "fetched_at": "2026-11-16T21:35:26",
+ "used_by_rcept_no": [
+  "20260323001726"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170173&flNm=%28%EC%A3%BC%29%EB%8B%A4%EB%B3%B4%EB%A7%81%ED%81%AC+%EC%A0%95%EA%B4%80_20260122.pdf",
+   "flNm": "(주)다보링크 정관_20260122.pdf",
+   "bytes": 435429,
+   "sha256": "51229c9fa1da68ec1f9d530abff5c2aa7bd5364b1bd0d574b81f20792d6f4776",
+   "pages": 21,
+   "text_pages": 20,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

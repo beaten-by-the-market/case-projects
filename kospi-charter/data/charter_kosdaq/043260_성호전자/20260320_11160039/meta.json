@@ -1,0 +1,145 @@
+{
+ "corp_code": "00317210",
+ "corp_name": "성호전자",
+ "stock_code": "043260",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001361",
+ "dcmNo": "11160039",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001361&dcmNo=11160039",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001361&dcmNo=11160039&eleId=1&offset=596&length=1958&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 12,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160039&flNm=%EC%A0%95%EA%B4%80_page-0001.jpg",
+   "flNm": "정관_page-0001.jpg",
+   "alt": "이미지: 정관_page-0001",
+   "bytes": 150295,
+   "sha256": "7cd4479dfa19b2d7c016a329f1755ae12461cbb892c9d6bd9ffd0750adb511d5",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160039&flNm=%EC%A0%95%EA%B4%80_page-0002.jpg",
+   "flNm": "정관_page-0002.jpg",
+   "alt": "이미지: 정관_page-0002",
+   "bytes": 211007,
+   "sha256": "38d36b7cf52cc212f19befab3f33f655e95a9d3acf4c6fffd261f9907bcb285d",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160039&flNm=%EC%A0%95%EA%B4%80_page-0003.jpg",
+   "flNm": "정관_page-0003.jpg",
+   "alt": "이미지: 정관_page-0003",
+   "bytes": 283491,
+   "sha256": "78ce4aee0fd4f66df947eff2829c4404b7d38b050fc966999382841f9522f620",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160039&flNm=%EC%A0%95%EA%B4%80_page-0004.jpg",
+   "flNm": "정관_page-0004.jpg",
+   "alt": "이미지: 정관_page-0004",
+   "bytes": 236583,
+   "sha256": "fb9fcd77ea616e603fa46ec2e9ecb708d3804fce3b7a0f76b810b70adca8dd32",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160039&flNm=%EC%A0%95%EA%B4%80_page-0005.jpg",
+   "flNm": "정관_page-0005.jpg",
+   "alt": "이미지: 정관_page-0005",
+   "bytes": 231744,
+   "sha256": "e066c9a65c03a45ede2f86ad71f4a3fcf2df1159bfaa4f94f867ea98dc5572bf",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160039&flNm=%EC%A0%95%EA%B4%80_page-0006.jpg",
+   "flNm": "정관_page-0006.jpg",
+   "alt": "이미지: 정관_page-0006",
+   "bytes": 219373,
+   "sha256": "809b4bf2f0ae4a72cbb2abe4b1be82589b51b8e35713533f76572aadc959205c",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160039&flNm=%EC%A0%95%EA%B4%80_page-0007.jpg",
+   "flNm": "정관_page-0007.jpg",
+   "alt": "이미지: 정관_page-0007",
+   "bytes": 188082,
+   "sha256": "0f38d1e0a120a5c525900261d14df620c9cc96dfa32bade8f3bf2875b4540749",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160039&flNm=%EC%A0%95%EA%B4%80_page-0008.jpg",
+   "flNm": "정관_page-0008.jpg",
+   "alt": "이미지: 정관_page-0008",
+   "bytes": 219229,
+   "sha256": "e194c6ca35562cc08e74ce7ee397397f965d18f17d0808be0407535c789748ca",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160039&flNm=%EC%A0%95%EA%B4%80_page-0009.jpg",
+   "flNm": "정관_page-0009.jpg",
+   "alt": "이미지: 정관_page-0009",
+   "bytes": 243232,
+   "sha256": "5b84ee55b7dfc59c053413c49aebc6dc5a17b5eb10d84a3e8f6b646183026849",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160039&flNm=%EC%A0%95%EA%B4%80_page-0010.jpg",
+   "flNm": "정관_page-0010.jpg",
+   "alt": "이미지: 정관_page-0010",
+   "bytes": 226068,
+   "sha256": "4bd638c8c0e3fad668865468e44e171dc97172b6a0aea1f9cec17fd88efce3d9",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160039&flNm=%EC%A0%95%EA%B4%80_page-0011.jpg",
+   "flNm": "정관_page-0011.jpg",
+   "alt": "이미지: 정관_page-0011",
+   "bytes": 172382,
+   "sha256": "c8bb83b79449c65096d8eb19e20b9eb00a6d2b231dba6c3ed843a8343929c257",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160039&flNm=%EC%A0%95%EA%B4%80_page-0012.jpg",
+   "flNm": "정관_page-0012.jpg",
+   "alt": "이미지: 정관_page-0012",
+   "bytes": 211197,
+   "sha256": "da1f6132bdf778b0781832cc8beed099248ceadca7a00a40be9de5feafb23c99",
+   "width": 1241,
+   "height": 1755
+  }
+ ],
+ "folder": "data/charter_kosdaq/043260_성호전자/20260320_11160039",
+ "fetched_at": "2026-11-16T20:12:33",
+ "used_by_rcept_no": [
+  "20260320001361"
+ ]
+}

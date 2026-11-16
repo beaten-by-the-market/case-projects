@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260814002005",
+ "corp_code": "01211889",
+ "corp_name": "이지스",
+ "stock_code": "261520",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260814",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002005",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2338,
+ "charter_amend_txt": "data/agm_kosdaq/261520_이지스/20260814_20260814002005/정관의변경.txt",
+ "main_xml": "20260814002005.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260814002005.xml",
+   "bytes": 46532,
+   "sha256": "dabdf06f02909e91c0814c471b677dfca88a0e33d9fb4575ac9bc16a626512d1"
+  }
+ ],
+ "folder": "data/agm_kosdaq/261520_이지스/20260814_20260814002005",
+ "fetched_at": "2026-11-16T19:37:51"
+}

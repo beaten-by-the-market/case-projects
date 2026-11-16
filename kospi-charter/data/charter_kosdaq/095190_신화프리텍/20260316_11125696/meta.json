@@ -1,0 +1,24 @@
+{
+ "corp_code": "00526951",
+ "corp_name": "신화프리텍",
+ "stock_code": "095190",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316000795",
+ "dcmNo": "11125696",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000795&dcmNo=11125696",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000795&dcmNo=11125696&eleId=1&offset=596&length=28879&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12700,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/095190_신화프리텍/20260316_11125696",
+ "fetched_at": "2026-11-16T20:45:13",
+ "used_by_rcept_no": [
+  "20260316000795"
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "corp_code": "01676642",
+ "corp_name": "사피엔반도체",
+ "stock_code": "452430",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000130",
+ "dcmNo": "11154378",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000130&dcmNo=11154378",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000130&dcmNo=11154378&eleId=1&offset=595&length=2260&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 14,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0001.jpg",
+   "flNm": "정관_page-0001.jpg",
+   "alt": "이미지: 정관_page-0001",
+   "bytes": 70263,
+   "sha256": "43ee16d145a62da2888a741cbe9cb16dc135d6012e988e10c47c45c6f59a8016",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0002.jpg",
+   "flNm": "정관_page-0002.jpg",
+   "alt": "이미지: 정관_page-0002",
+   "bytes": 254201,
+   "sha256": "4bb47a228130671775081fc370dc4b5721e815a2a11761df9021a7f9e15f8366",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0003.jpg",
+   "flNm": "정관_page-0003.jpg",
+   "alt": "이미지: 정관_page-0003",
+   "bytes": 288565,
+   "sha256": "b4aeb14d8b47207a3071646b006861c269203a351be0e3b7a3ae6d7ccdcd2fbd",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0004.jpg",
+   "flNm": "정관_page-0004.jpg",
+   "alt": "이미지: 정관_page-0004",
+   "bytes": 236548,
+   "sha256": "7ed87d41f708d07d5fe5247c4e4ded81f9def152d6fb209849d7c8df60152b00",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0005.jpg",
+   "flNm": "정관_page-0005.jpg",
+   "alt": "이미지: 정관_page-0005",
+   "bytes": 293042,
+   "sha256": "94dfde5d4dcb5897085477f3e0d62eaa37c2a7c8c3d2f795fd41bdbc328320a2",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0006.jpg",
+   "flNm": "정관_page-0006.jpg",
+   "alt": "이미지: 정관_page-0006",
+   "bytes": 290503,
+   "sha256": "dc609ed1e89b26ecc0b46b66f8d9cea9bd4d3ef476cd5538abc366c0a8fe3498",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0007.jpg",
+   "flNm": "정관_page-0007.jpg",
+   "alt": "이미지: 정관_page-0007",
+   "bytes": 275656,
+   "sha256": "7c1c96e30928aa235c4a231835e4fdd2324e27b7990cceabf89dfe40220fe931",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0008.jpg",
+   "flNm": "정관_page-0008.jpg",
+   "alt": "이미지: 정관_page-0008",
+   "bytes": 266225,
+   "sha256": "e912d2e13cee32da4caa9a0d4256c557607de16cd4309c867ec027d2b400dd1d",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0009.jpg",
+   "flNm": "정관_page-0009.jpg",
+   "alt": "이미지: 정관_page-0009",
+   "bytes": 246201,
+   "sha256": "6168a7b2f3c3e2409aceb6c3265278847fb1dcc783f7d561b2c253e6a3ca8f79",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0010.jpg",
+   "flNm": "정관_page-0010.jpg",
+   "alt": "이미지: 정관_page-0010",
+   "bytes": 221215,
+   "sha256": "5199f3b2419c2a35c34ab0493ba3c89b2ec318bcc5707afa16dc9807028e480b",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0011.jpg",
+   "flNm": "정관_page-0011.jpg",
+   "alt": "이미지: 정관_page-0011",
+   "bytes": 268773,
+   "sha256": "1a565d15713415255f3ce0d5fb519a7726159831dfdc35be88e35da0da4311a3",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0012.jpg",
+   "flNm": "정관_page-0012.jpg",
+   "alt": "이미지: 정관_page-0012",
+   "bytes": 272824,
+   "sha256": "8c3553dd4d6f8901b9a8234aeb8597ff1974811f76a7a7207528e9c3adbd88c9",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0013.jpg",
+   "flNm": "정관_page-0013.jpg",
+   "alt": "이미지: 정관_page-0013",
+   "bytes": 217063,
+   "sha256": "05ed429f3c16e4f1f79521c49cd48781e88c8e8edfbe03791ee422d5ec3bc286",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11154378&flNm=%EC%A0%95%EA%B4%80_page-0014.jpg",
+   "flNm": "정관_page-0014.jpg",
+   "alt": "이미지: 정관_page-0014",
+   "bytes": 166130,
+   "sha256": "82381eb8561bc61c6bb0d89661ada7006ca2491a26a1141d8360e3371a8a7cb0",
+   "width": 1241,
+   "height": 1755
+  }
+ ],
+ "folder": "data/charter_kosdaq/452430_사피엔반도체/20260320_11154378",
+ "fetched_at": "2026-11-16T21:55:48",
+ "used_by_rcept_no": [
+  "20260320000130"
+ ]
+}

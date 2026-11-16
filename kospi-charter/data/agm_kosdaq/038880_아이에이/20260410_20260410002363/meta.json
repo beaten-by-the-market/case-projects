@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260410002363",
+ "corp_code": "00252269",
+ "corp_name": "아이에이",
+ "stock_code": "038880",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260410",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260410002363",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1720,
+ "charter_amend_txt": "data/agm_kosdaq/038880_아이에이/20260410_20260410002363/정관의변경.txt",
+ "main_xml": "20260410002363.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260410002363.xml",
+   "bytes": 63935,
+   "sha256": "1f49276ea34277cb49d9949e946db1886a7e5ae8ed6787e225bd36b639af80c4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/038880_아이에이/20260410_20260410002363",
+ "fetched_at": "2026-11-16T19:33:29"
+}

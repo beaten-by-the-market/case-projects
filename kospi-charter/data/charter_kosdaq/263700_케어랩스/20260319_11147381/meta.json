@@ -1,0 +1,37 @@
+{
+ "corp_code": "01187148",
+ "corp_name": "케어랩스",
+ "stock_code": "263700",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000459",
+ "dcmNo": "11147381",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000459&dcmNo=11147381",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000459&dcmNo=11147381&eleId=1&offset=597&length=320&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 40,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/263700_케어랩스/20260319_11147381",
+ "fetched_at": "2026-11-16T21:20:40",
+ "used_by_rcept_no": [
+  "20260319000459"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11147381&flNm=%5B%EC%BC%80%EC%96%B4%EB%9E%A9%EC%8A%A4%5D+%EC%A0%95%EA%B4%80_20250327.pdf",
+   "flNm": "[케어랩스] 정관_20250327.pdf",
+   "bytes": 317288,
+   "sha256": "ac912148a3c734783d1aa7c571d980bbc525997f1b547a9ab550f8e7130ca422",
+   "pages": 28,
+   "text_pages": 27,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

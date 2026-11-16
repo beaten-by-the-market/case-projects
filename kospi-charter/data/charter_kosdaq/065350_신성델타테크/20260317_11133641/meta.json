@@ -1,0 +1,24 @@
+{
+ "corp_code": "00136226",
+ "corp_name": "신성델타테크",
+ "stock_code": "065350",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000805",
+ "dcmNo": "11133641",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000805&dcmNo=11133641",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000805&dcmNo=11133641&eleId=1&offset=597&length=16428&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9505,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/065350_신성델타테크/20260317_11133641",
+ "fetched_at": "2026-11-16T20:25:45",
+ "used_by_rcept_no": [
+  "20260317000805"
+ ]
+}

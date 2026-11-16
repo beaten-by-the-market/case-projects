@@ -1,0 +1,24 @@
+{
+ "corp_code": "01107665",
+ "corp_name": "크리스탈신소재",
+ "stock_code": "900250",
+ "att_title": "2026.04.20 정관",
+ "att_date": "20260420",
+ "rcpNo": "20260420000463",
+ "dcmNo": "11336943",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260420000463&dcmNo=11336943",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260420000463&dcmNo=11336943&eleId=1&offset=595&length=56151&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 32381,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/900250_크리스탈신소재/20260420_11336943",
+ "fetched_at": "2026-11-16T22:09:13",
+ "used_by_rcept_no": [
+  "20260420000463"
+ ]
+}

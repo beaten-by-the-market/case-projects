@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260929000577",
+ "corp_code": "00363510",
+ "corp_name": "제이케이시냅스",
+ "stock_code": "060230",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260929",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000577",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 686,
+ "charter_amend_txt": "data/agm_kosdaq/060230_제이케이시냅스/20260929_20260929000577/정관의변경.txt",
+ "main_xml": "20260929000577.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260929000577.xml",
+   "bytes": 139327,
+   "sha256": "c0f022d419f1603782a48be0d2ccd63419ebe55c36ac481b6f3a30406ce85560"
+  }
+ ],
+ "folder": "data/agm_kosdaq/060230_제이케이시냅스/20260929_20260929000577",
+ "fetched_at": "2026-11-16T19:39:25"
+}

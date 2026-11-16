@@ -1,0 +1,37 @@
+{
+ "corp_code": "01037214",
+ "corp_name": "킵스파마",
+ "stock_code": "256940",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000346",
+ "dcmNo": "11161674",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000346&dcmNo=11161674",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000346&dcmNo=11161674&eleId=1&offset=595&length=328&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 50,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/256940_킵스파마/20260323_11161674",
+ "fetched_at": "2026-11-16T21:19:07",
+ "used_by_rcept_no": [
+  "20260323000346"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161674&flNm=%ED%82%B5%EC%8A%A4%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8C%8C%EB%A7%88_%EC%A0%95%EA%B4%80_%EC%A0%9C17%ED%8C%90_250328.pdf",
+   "flNm": "킵스바이오파마_정관_제17판_250328.pdf",
+   "bytes": 320694,
+   "sha256": "f4d0bad100b4dcf31ad160de03dedf5f422f1d0714d9d7aa90a1703d6ad1f3fa",
+   "pages": 17,
+   "text_pages": 17,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

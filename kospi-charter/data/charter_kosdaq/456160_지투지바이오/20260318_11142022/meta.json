@@ -1,0 +1,37 @@
+{
+ "corp_code": "01577952",
+ "corp_name": "지투지바이오",
+ "stock_code": "456160",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001347",
+ "dcmNo": "11142022",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001347&dcmNo=11142022",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001347&dcmNo=11142022&eleId=1&offset=597&length=336&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 58,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/456160_지투지바이오/20260318_11142022",
+ "fetched_at": "2026-11-16T21:56:22",
+ "used_by_rcept_no": [
+  "20260318001347"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142022&flNm=g2gbio_%EC%A0%95%EA%B4%80_20250328%EA%B0%9C%EC%A0%95_clean.pdf",
+   "flNm": "g2gbio_정관_20250328개정_clean.pdf",
+   "bytes": 452488,
+   "sha256": "3aa7d2e76f79aaf30964833623354b96e71ab8f3428b7ccd0d292b9839a49075",
+   "pages": 18,
+   "text_pages": 17,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

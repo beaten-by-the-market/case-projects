@@ -1,0 +1,186 @@
+{
+ "corp_code": "02038566",
+ "corp_name": "네오뷰",
+ "stock_code": "0218L0",
+ "att_title": "2026.04.28 [정정] 계약서(계획서)",
+ "att_date": "20260428",
+ "rcpNo": "20260428000290",
+ "dcmNo": "11350108",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428000290&dcmNo=11350108",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260428000290&dcmNo=11350108&eleId=1&offset=617&length=11793&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260428000290&dcmNo=11350108&eleId=2&offset=12440&length=7745&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "image",
+ "text_chars": 0,
+ "n_images": 14,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+19.jpg",
+   "flNm": "분할계획서 19.jpg",
+   "alt": "이미지: 분할계획서 19",
+   "bytes": 171096,
+   "sha256": "f7084890aec96abadc87ca85f644cfb95153f6656ca6da88717350ff629a4591",
+   "width": 607,
+   "height": 822,
+   "src_page": 19
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+20.jpg",
+   "flNm": "분할계획서 20.jpg",
+   "alt": "이미지: 분할계획서 20",
+   "bytes": 207329,
+   "sha256": "dc17b431c18c7c6ca85e2a419ce551a04fafecdcc1442cce8011bd142581cd5d",
+   "width": 603,
+   "height": 822,
+   "src_page": 20
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+21.jpg",
+   "flNm": "분할계획서 21.jpg",
+   "alt": "이미지: 분할계획서 21",
+   "bytes": 81902,
+   "sha256": "61b654246f53cb22a7319133aab6288f5265ecd7aa02c94b9ec22978ad6171e8",
+   "width": 586,
+   "height": 818,
+   "src_page": 21
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+22.jpg",
+   "flNm": "분할계획서 22.jpg",
+   "alt": "이미지: 분할계획서 22",
+   "bytes": 297187,
+   "sha256": "e492c839b0d4254616d04ee080c5f3e7caac6c260f4a5f722f4d38f09dd10a9f",
+   "width": 598,
+   "height": 817,
+   "src_page": 22
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+23.jpg",
+   "flNm": "분할계획서 23.jpg",
+   "alt": "이미지: 분할계획서 23",
+   "bytes": 257600,
+   "sha256": "69d1db39b1e5e28d10dd356f7d7660ad1e9a45b0746184944c3095295ccdea11",
+   "width": 602,
+   "height": 808,
+   "src_page": 23
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+24.jpg",
+   "flNm": "분할계획서 24.jpg",
+   "alt": "이미지: 분할계획서 24",
+   "bytes": 253376,
+   "sha256": "b703278c3f9cb6b4b567638240130e84a9c8137465605e56ccd2b78e41ddb454",
+   "width": 587,
+   "height": 812,
+   "src_page": 24
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+25.jpg",
+   "flNm": "분할계획서 25.jpg",
+   "alt": "이미지: 분할계획서 25",
+   "bytes": 231943,
+   "sha256": "cdc33a1c5f760706fd9a7d9b259b8c5b9ffcf7e1ef914a461dd89e56315df583",
+   "width": 599,
+   "height": 823,
+   "src_page": 25
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+26.jpg",
+   "flNm": "분할계획서 26.jpg",
+   "alt": "이미지: 분할계획서 26",
+   "bytes": 195017,
+   "sha256": "1f2ee9d5e2f6a31c1fb353c194478a615de4d487a6416a5dac8672b0909ce2f4",
+   "width": 607,
+   "height": 824,
+   "src_page": 26
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+27.jpg",
+   "flNm": "분할계획서 27.jpg",
+   "alt": "이미지: 분할계획서 27",
+   "bytes": 174263,
+   "sha256": "60746dc9ed4e537714a1682bd467e540e70bf0f12157b392184a4361e7c42e15",
+   "width": 602,
+   "height": 818,
+   "src_page": 27
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+28.jpg",
+   "flNm": "분할계획서 28.jpg",
+   "alt": "이미지: 분할계획서 28",
+   "bytes": 211665,
+   "sha256": "82e57b1b7362370db0eb7267ef6a64140cbe12ba9cd5f96a020423fa5a4dac52",
+   "width": 587,
+   "height": 817,
+   "src_page": 28
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+29.jpg",
+   "flNm": "분할계획서 29.jpg",
+   "alt": "이미지: 분할계획서 29",
+   "bytes": 180386,
+   "sha256": "fa009833f881d3820fee3d68a9cc740a64e5235a7f49d63a2542d63b1ea44ae5",
+   "width": 601,
+   "height": 822,
+   "src_page": 29
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+30.jpg",
+   "flNm": "분할계획서 30.jpg",
+   "alt": "이미지: 분할계획서 30",
+   "bytes": 219374,
+   "sha256": "f42291dd0c13921f3e1d275624b03be3609ade07f0c5fba46e453515988dfd7a",
+   "width": 589,
+   "height": 836,
+   "src_page": 30
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+31.jpg",
+   "flNm": "분할계획서 31.jpg",
+   "alt": "이미지: 분할계획서 31",
+   "bytes": 235354,
+   "sha256": "eb69295228e510c0a6f0330bbd6dc89e889e407e204aa7d998048fa0b8c640b8",
+   "width": 565,
+   "height": 815,
+   "src_page": 31
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+32.jpg",
+   "flNm": "분할계획서 32.jpg",
+   "alt": "이미지: 분할계획서 32",
+   "bytes": 59388,
+   "sha256": "5dd4d2ce8bb2e9647cc8af832bbe56d766d86d8a2eb966d6d84a6a33c7ae34bb",
+   "width": 607,
+   "height": 806,
+   "src_page": 32
+  }
+ ],
+ "folder": "data/charter_absent/0218L0_네오뷰/20260428_11350108_p019-032",
+ "fetched_at": "2026-11-17T01:07:49",
+ "subset_of": "data/charter_absent_src/0218L0_네오뷰/20260428_11350108",
+ "subset_pages": [
+  19,
+  32
+ ],
+ "subset_part": "[첨부3] 분할신설회사 정관(안)",
+ "used_by_stock_code": [
+  "0218L0"
+ ]
+}

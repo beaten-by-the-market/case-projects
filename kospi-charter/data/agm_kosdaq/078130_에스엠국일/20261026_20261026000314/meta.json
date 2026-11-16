@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261026000314",
+ "corp_code": "00104573",
+ "corp_name": "에스엠국일",
+ "stock_code": "078130",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261026",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000314",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1052,
+ "charter_amend_txt": "data/agm_kosdaq/078130_에스엠국일/20261026_20261026000314/정관의변경.txt",
+ "main_xml": "20261026000314.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261026000314.xml",
+   "bytes": 54816,
+   "sha256": "92136d632147b3a2ff392ec62458a52ba25712062c04ed9b13c85e519473c52d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/078130_에스엠국일/20261026_20261026000314",
+ "fetched_at": "2026-11-16T19:40:21"
+}

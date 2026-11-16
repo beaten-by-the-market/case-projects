@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260612000614",
+ "corp_code": "01408999",
+ "corp_name": "웨이버스",
+ "stock_code": "336060",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260612",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612000614",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 13322,
+ "charter_amend_txt": "data/agm_kosdaq/336060_웨이버스/20260612_20260612000614/정관의변경.txt",
+ "main_xml": "20260612000614.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260612000614.xml",
+   "bytes": 92570,
+   "sha256": "96a0141c1ec259f6a121507ad18391a9ba0cb8c4df434e33b68ff82dd95ae79d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/336060_웨이버스/20260612_20260612000614",
+ "fetched_at": "2026-11-16T19:35:25"
+}

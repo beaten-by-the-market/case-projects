@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260623000067",
+ "corp_code": "00523936",
+ "corp_name": "HB솔루션",
+ "stock_code": "297890",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260623",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000067",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260623000067.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260623000067.xml",
+   "bytes": 37393,
+   "sha256": "5b0643c577614742a2fd6b2550a86f472c70f9982b221358f714efaa07b61a6c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/297890_HB솔루션/20260623_20260623000067",
+ "fetched_at": "2026-11-16T19:35:41"
+}

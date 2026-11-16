@@ -1,0 +1,24 @@
+{
+ "corp_code": "01311310",
+ "corp_name": "지아이텍",
+ "stock_code": "382480",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000728",
+ "dcmNo": "11137568",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000728&dcmNo=11137568",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000728&dcmNo=11137568&eleId=1&offset=595&length=18539&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12179,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/382480_지아이텍/20260318_11137568",
+ "fetched_at": "2026-11-16T21:44:28",
+ "used_by_rcept_no": [
+  "20260507000504"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260922000516",
+ "corp_code": "00249441",
+ "corp_name": "씨씨에스",
+ "stock_code": "066790",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260922",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000516",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 6014,
+ "charter_amend_txt": "data/agm_kosdaq/066790_씨씨에스/20260922_20260922000516/정관의변경.txt",
+ "main_xml": "20260922000516.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260922000516.xml",
+   "bytes": 102146,
+   "sha256": "60d4956acc9dc3672fc489a01418cf5fb856b211b8f3aa3486bafbdc3acee379"
+  }
+ ],
+ "folder": "data/agm_kosdaq/066790_씨씨에스/20260922_20260922000516",
+ "fetched_at": "2026-11-16T19:39:18"
+}

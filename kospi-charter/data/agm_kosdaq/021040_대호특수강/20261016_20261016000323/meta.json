@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261016000323",
+ "corp_code": "00166175",
+ "corp_name": "대호특수강",
+ "stock_code": "021040",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261016",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000323",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 181,
+ "charter_amend_txt": "data/agm_kosdaq/021040_대호특수강/20261016_20261016000323/정관의변경.txt",
+ "main_xml": "20261016000323.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261016000323.xml",
+   "bytes": 44841,
+   "sha256": "4229acfad2eb6339864e9f58a7f9fa22e72450ea24e94bc85aea8e7c26abb157"
+  }
+ ],
+ "folder": "data/agm_kosdaq/021040_대호특수강/20261016_20261016000323",
+ "fetched_at": "2026-11-16T19:39:49"
+}

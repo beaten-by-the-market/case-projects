@@ -1,0 +1,37 @@
+{
+ "corp_code": "01309388",
+ "corp_name": "LS티라유텍",
+ "stock_code": "322180",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311003536",
+ "dcmNo": "11107243",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003536&dcmNo=11107243",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311003536&dcmNo=11107243&eleId=1&offset=600&length=340&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 52,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/322180_LS티라유텍/20260311_11107243",
+ "fetched_at": "2026-11-16T21:32:44",
+ "used_by_rcept_no": [
+  "20260311003536"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11107243&flNm=20250320_%EC%A0%95%EA%B4%80_%ED%8B%B0%EB%9D%BC%EC%9C%A0%ED%85%8D_19%EA%B8%B0+%EA%B0%9C%EC%A0%95%EB%B3%B8.pdf",
+   "flNm": "20250320_정관_티라유텍_19기 개정본.pdf",
+   "bytes": 223550,
+   "sha256": "71834a8f7836e0abc46578990c6c628c8c4979d4a818feaf70173c0f8769452e",
+   "pages": 29,
+   "text_pages": 28,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

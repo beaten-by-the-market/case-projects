@@ -1,0 +1,24 @@
+{
+ "corp_code": "00977641",
+ "corp_name": "하이로닉",
+ "stock_code": "149980",
+ "att_title": "2026.03.24 정관",
+ "att_date": "20260324",
+ "rcpNo": "20260324000020",
+ "dcmNo": "11170811",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000020&dcmNo=11170811",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260324000020&dcmNo=11170811&eleId=1&offset=597&length=22324&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13666,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/149980_하이로닉/20260324_11170811",
+ "fetched_at": "2026-11-16T20:58:24",
+ "used_by_rcept_no": [
+  "20260716000527"
+ ]
+}

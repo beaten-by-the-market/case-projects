@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260826000612",
+ "corp_code": "01174038",
+ "corp_name": "자비스",
+ "stock_code": "254120",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260826",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000612",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4965,
+ "charter_amend_txt": "data/agm_kosdaq/254120_자비스/20260826_20260826000612/정관의변경.txt",
+ "main_xml": "20260826000612.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260826000612.xml",
+   "bytes": 82179,
+   "sha256": "a38d5486ff79eb27619c02c2577d0da69ce483253fdfb7fd69fb0e689e378936"
+  }
+ ],
+ "folder": "data/agm_kosdaq/254120_자비스/20260826_20260826000612",
+ "fetched_at": "2026-11-16T19:38:22"
+}

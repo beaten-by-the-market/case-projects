@@ -1,0 +1,175 @@
+{
+ "corp_code": "01385050",
+ "corp_name": "넥스트바이오메디컬",
+ "stock_code": "389650",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000917",
+ "dcmNo": "11150232",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000917&dcmNo=11150232",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000917&dcmNo=11150232&eleId=1&offset=602&length=2759&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 15,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_1.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_1.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_1",
+   "bytes": 75583,
+   "sha256": "257994f14d0417f9f0aa50236f874bc68cc132b54528e3176d323e87123ab8ed",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_2.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_2.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_2",
+   "bytes": 246917,
+   "sha256": "df67dd1f481241ea26f072609959e687c85e47196d3f2317f3a42002ad20c888",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_3.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_3.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_3",
+   "bytes": 132163,
+   "sha256": "4b6e461b42eacc1ff84b238c9f40c5b0fb7af601ffafd75aa40c27ce4899191f",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_4.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_4.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_4",
+   "bytes": 148908,
+   "sha256": "dd7d4534c228ae4f3be962eab0e7e3da9c6a78b6c1fdaf396ef4cc7b1489b019",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_5.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_5.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_5",
+   "bytes": 140813,
+   "sha256": "ac6f532bd8390de14d0becd7ed9647a6ec587f041677c5903baf0e923b6f7f01",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_6.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_6.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_6",
+   "bytes": 126973,
+   "sha256": "5c16b15a7256826bab3a17511e5384958f95353481528df97b58b13195cbc55f",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_7.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_7.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_7",
+   "bytes": 143560,
+   "sha256": "09691d65b7b22d022407b15260faf679e3af19c8dafe7085b326edcdad70c5d6",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_8.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_8.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_8",
+   "bytes": 123212,
+   "sha256": "6577ef0e73004720ca66efcc41756d9fa7634694c3a807bffb6ab3177b43be32",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_9.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_9.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_9",
+   "bytes": 105185,
+   "sha256": "048b7f22a4a4f6824b0cbf16a528af9d1c8d3eae7b6a7df28def421df1f3b0ac",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_10.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_10.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_10",
+   "bytes": 96013,
+   "sha256": "d72625dddcb5b2193e6dab8e4260cd656fc0cfb4f447fa6678ebe381d9ed9ab4",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_11.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_11.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_11",
+   "bytes": 102137,
+   "sha256": "d556db75d5ce1a8a3e353e6f5fc46c4d9e51420d179e22bac24ad5dbb9687b76",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_12.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_12.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_12",
+   "bytes": 122009,
+   "sha256": "e7e96400de9f55e66a6698f47e3689f8e47268730e6ab586ede5003a84b1d69c",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_13.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_13.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_13",
+   "bytes": 101736,
+   "sha256": "b13c274a4c7abe3e7fb044f4f54e409a9cc33159c8892daaa06eeeb9a570e6a8",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_14.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_14.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_14",
+   "bytes": 260015,
+   "sha256": "19b8f7fa001bb711ca83756ba2c8b294dff4b5308eae57f9e0f24ec4afab088d",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150232&flNm=20230918_%EC%A0%95%EA%B4%80%285%EC%B0%A8%EA%B0%9C%EC%A0%95_%ED%98%84%EC%9E%AC%29_15.jpg",
+   "flNm": "20230918_정관(5차개정_현재)_15.jpg",
+   "alt": "이미지: 20230918_정관(5차개정_현재)_15",
+   "bytes": 146009,
+   "sha256": "c73f70d0590364ddaa78d3a3bece0482819e4a054c3210e263726a8c1a60d9b7",
+   "width": 793,
+   "height": 1122
+  }
+ ],
+ "folder": "data/charter_kosdaq/389650_넥스트바이오메디컬/20260319_11150232",
+ "fetched_at": "2026-11-16T21:46:23",
+ "used_by_rcept_no": [
+  "20260320000422"
+ ]
+}

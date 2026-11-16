@@ -1,0 +1,37 @@
+{
+ "corp_code": "01142075",
+ "corp_name": "핑거",
+ "stock_code": "163730",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001250",
+ "dcmNo": "11166569",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001250&dcmNo=11166569",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001250&dcmNo=11166569&eleId=1&offset=593&length=303&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 32,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/163730_핑거/20260323_11166569",
+ "fetched_at": "2026-11-16T21:00:58",
+ "used_by_rcept_no": [
+  "20260323001250"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166569&flNm=%ED%95%91%EA%B1%B0+%EC%A0%95%EA%B4%80_24.03.26.pdf",
+   "flNm": "핑거 정관_24.03.26.pdf",
+   "bytes": 347778,
+   "sha256": "eec91b6ef145656c4907981f9bf6f10f4b67e0933b65e0dd8c179d723c3d308d",
+   "pages": 21,
+   "text_pages": 20,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

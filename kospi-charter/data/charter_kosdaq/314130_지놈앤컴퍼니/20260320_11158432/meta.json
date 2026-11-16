@@ -1,0 +1,37 @@
+{
+ "corp_code": "01276026",
+ "corp_name": "지놈앤컴퍼니",
+ "stock_code": "314130",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001084",
+ "dcmNo": "11158432",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001084&dcmNo=11158432",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001084&dcmNo=11158432&eleId=1&offset=599&length=320&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 40,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/314130_지놈앤컴퍼니/20260320_11158432",
+ "fetched_at": "2026-11-16T21:31:43",
+ "used_by_rcept_no": [
+  "20260320001084"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158432&flNm=%EC%A7%80%EB%86%88%EC%95%A4%EC%BB%B4%ED%8D%BC%EB%8B%88+%EC%A0%95%EA%B4%80_20250328.pdf",
+   "flNm": "지놈앤컴퍼니 정관_20250328.pdf",
+   "bytes": 1206946,
+   "sha256": "18898cbc0002242b524be60cfad3891ad2f7ca6e4b1569183f202ead25067879",
+   "pages": 22,
+   "text_pages": 0,
+   "ocr_pages": 22
+  }
+ ],
+ "n_pdfs": 1
+}

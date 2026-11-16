@@ -1,0 +1,24 @@
+{
+ "corp_code": "00530185",
+ "corp_name": "이엔에프테크놀로지",
+ "stock_code": "102710",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316000534",
+ "dcmNo": "11124774",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000534&dcmNo=11124774",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000534&dcmNo=11124774&eleId=1&offset=597&length=22155&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10112,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/102710_이엔에프테크놀로지/20260316_11124774",
+ "fetched_at": "2026-11-16T20:49:32",
+ "used_by_rcept_no": [
+  "20260316000534"
+ ]
+}

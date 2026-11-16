@@ -1,0 +1,235 @@
+{
+ "corp_code": "01787072",
+ "corp_name": "유진스팩10호",
+ "stock_code": "468760",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316000180",
+ "dcmNo": "11123603",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000180&dcmNo=11123603",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000180&dcmNo=11123603&eleId=1&offset=604&length=3897&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 21,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-0.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-0.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-0",
+   "bytes": 301857,
+   "sha256": "a0341c1439a10415731a11a8acf9ce21c8f901be9648d763b2b407622b60d6ec",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-1.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-1.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-1",
+   "bytes": 259958,
+   "sha256": "9a65080c5a192c9006ce7a86e2e15dccc8dd4cb7a76234add67a79ab8a30fd3c",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-2.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-2.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-2",
+   "bytes": 237668,
+   "sha256": "909fbf4ed836ebb747b4e24d0d5595e24e7e6ea273addd3849973f051d76e5d8",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-3.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-3.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-3",
+   "bytes": 242135,
+   "sha256": "26a8080a121d9c9d06c970577279e72019d0941dd60abf4b2cc2fb5cfb4f8c5e",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-4.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-4.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-4",
+   "bytes": 288391,
+   "sha256": "84ab569115dd6738b41a10dcefbe24eabdfc1de2e4da40f6cdd23fd887b1fc08",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-5.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-5.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-5",
+   "bytes": 290512,
+   "sha256": "167696d0ed84301ebcc9a7283818ae0291b460bd34e7b633a88821192620bbd7",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-6.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-6.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-6",
+   "bytes": 289879,
+   "sha256": "3b1b14e2089063e10d4c5c053fae49e3fca821d670c5d2f4c8ba80c2d53ac8d3",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-7.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-7.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-7",
+   "bytes": 291353,
+   "sha256": "5a87a3142d358b14b683d57a96ecf59f800dbbedcce653b75073b89fd5aae804",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-8.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-8.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-8",
+   "bytes": 268079,
+   "sha256": "1cdfede8e07fac8f6d34dd0730bbdb11b821fc287c6a2abc2359b6a5fd9f64ae",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-9.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-9.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-9",
+   "bytes": 274135,
+   "sha256": "6ed90e3c25e40938bb19c8863555cbff209e5319f300dfa28c2def0da95ec564",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-10.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-10.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-10",
+   "bytes": 234904,
+   "sha256": "e61a795025ad634f9d1573425aa5e0c5374a836eee882461515b38357d9330e9",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-11.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-11.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-11",
+   "bytes": 272961,
+   "sha256": "75783fd29e8dc6e4a361e4ebc5304ae4afade6ad25fa0621893ff57f17064dff",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-12.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-12.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-12",
+   "bytes": 265861,
+   "sha256": "a59d8da436edbba3f72334d5ac2ec2e09614e0f10d1f5448d798617fe4400028",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-13.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-13.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-13",
+   "bytes": 272069,
+   "sha256": "3f13c7cfa7365015cd8ef5138739cafb70907aed5229c50fc99cc0498058c319",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-14.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-14.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-14",
+   "bytes": 242132,
+   "sha256": "5d48d725066c691747988b0217e8e374fa00c53450d0ce6f28cd15b1dfe268db",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-15.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-15.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-15",
+   "bytes": 255419,
+   "sha256": "063546be9e54683e8a1daca71608c981fea6b38b6cc1ead73baf0a320193e2b4",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-16.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-16.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-16",
+   "bytes": 244101,
+   "sha256": "f48d0fc0ab135abf1f28e26e4b58f07c62efc6382c9faf5904877cc89e4069d0",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-17.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-17.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-17",
+   "bytes": 250041,
+   "sha256": "6cf130807e279116274aba9b574274ebf5add68b6f40d863e96b214b7e3bbe59",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-18.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-18.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-18",
+   "bytes": 297298,
+   "sha256": "1afc5a02e07d17ff5700272378292531bbf51d84103e34b24d82ab952f24cfa7",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-19.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-19.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-19",
+   "bytes": 305764,
+   "sha256": "ce2347b1055434fe7fd958d3dc55c6b67f56c2b734f3f1fd855ef9a26100c626",
+   "width": 2488,
+   "height": 3517
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11123603&flNm=%28%EC%9C%A0%EC%A7%84%EC%8A%A4%ED%8C%A910%ED%98%B8%29+%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-20.jpg",
+   "flNm": "(유진스팩10호) 정관_원본-이미지-20.jpg",
+   "alt": "이미지: (유진스팩10호) 정관_원본-이미지-20",
+   "bytes": 249261,
+   "sha256": "824f3bd077b8c8a379883a60b6b86a87e7ee8e4db4fda3ba08058b409353f889",
+   "width": 2488,
+   "height": 3517
+  }
+ ],
+ "folder": "data/charter_kosdaq/468760_유진스팩10호/20260316_11123603",
+ "fetched_at": "2026-11-16T21:59:07",
+ "used_by_rcept_no": [
+  "20260316000180"
+ ]
+}

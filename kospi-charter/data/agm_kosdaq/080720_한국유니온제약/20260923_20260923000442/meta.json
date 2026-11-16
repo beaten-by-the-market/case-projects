@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260923000442",
+ "corp_code": "00532855",
+ "corp_name": "한국유니온제약",
+ "stock_code": "080720",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260923",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923000442",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 57289,
+ "charter_amend_txt": "data/agm_kosdaq/080720_한국유니온제약/20260923_20260923000442/정관의변경.txt",
+ "main_xml": "20260923000442.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260923000442.xml",
+   "bytes": 76162,
+   "sha256": "7df36b25391a0851e91174ada614c5e62d31e195dbff15a55789e44cecea841d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/080720_한국유니온제약/20260923_20260923000442",
+ "fetched_at": "2026-11-16T19:39:20"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00181299",
+ "corp_name": "상아프론테크",
+ "stock_code": "089980",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001450",
+ "dcmNo": "11129039",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001450&dcmNo=11129039",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001450&dcmNo=11129039&eleId=1&offset=597&length=24316&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9592,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/089980_상아프론테크/20260316_11129039",
+ "fetched_at": "2026-11-16T20:43:27",
+ "used_by_rcept_no": [
+  "20260316001450"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "01462739",
+ "corp_name": "비아이매트릭스",
+ "stock_code": "413640",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001308",
+ "dcmNo": "11159663",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001308&dcmNo=11159663",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001308&dcmNo=11159663&eleId=1&offset=600&length=26362&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12072,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/413640_비아이매트릭스/20260320_11159663",
+ "fetched_at": "2026-11-16T21:50:13",
+ "used_by_rcept_no": [
+  "20260320001308"
+ ]
+}

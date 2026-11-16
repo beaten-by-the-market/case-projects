@@ -1,0 +1,24 @@
+{
+ "corp_code": "00450931",
+ "corp_name": "우양에이치씨",
+ "stock_code": "101970",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312001152",
+ "dcmNo": "11116177",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001152&dcmNo=11116177",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001152&dcmNo=11116177&eleId=1&offset=597&length=21089&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13038,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/101970_우양에이치씨/20260312_11116177",
+ "fetched_at": "2026-11-16T20:49:26",
+ "used_by_rcept_no": [
+  "20260312001152"
+ ]
+}

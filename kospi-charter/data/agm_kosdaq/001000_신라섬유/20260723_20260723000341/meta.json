@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260723000341",
+ "corp_code": "00135999",
+ "corp_name": "신라섬유",
+ "stock_code": "001000",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260723",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000341",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 208,
+ "charter_amend_txt": "data/agm_kosdaq/001000_신라섬유/20260723_20260723000341/정관의변경.txt",
+ "main_xml": "20260723000341.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260723000341.xml",
+   "bytes": 49105,
+   "sha256": "3c46188366d72677bc0206a2141a0d3881ac9f5b4bb0666875d5706b935b8f65"
+  }
+ ],
+ "folder": "data/agm_kosdaq/001000_신라섬유/20260723_20260723000341",
+ "fetched_at": "2026-11-16T19:37:10"
+}

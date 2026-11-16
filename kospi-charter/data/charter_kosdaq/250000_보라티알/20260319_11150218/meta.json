@@ -1,0 +1,24 @@
+{
+ "corp_code": "01124680",
+ "corp_name": "보라티알",
+ "stock_code": "250000",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000913",
+ "dcmNo": "11150218",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000913&dcmNo=11150218",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000913&dcmNo=11150218&eleId=1&offset=595&length=18330&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11748,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/250000_보라티알/20260319_11150218",
+ "fetched_at": "2026-11-16T21:17:00",
+ "used_by_rcept_no": [
+  "20260327001315"
+ ]
+}

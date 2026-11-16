@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260713000400",
+ "corp_code": "01124653",
+ "corp_name": "슈프리마",
+ "stock_code": "236200",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260713",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000400",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1770,
+ "charter_amend_txt": "data/agm_kosdaq/236200_슈프리마/20260713_20260713000400/정관의변경.txt",
+ "main_xml": "20260713000400.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260713000400.xml",
+   "bytes": 61354,
+   "sha256": "037cf991348409b1c3f44f346902d97f4a3ebe76e79fcc18007771666c7eedac"
+  }
+ ],
+ "folder": "data/agm_kosdaq/236200_슈프리마/20260713_20260713000400",
+ "fetched_at": "2026-11-16T19:36:40"
+}

@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168408&flNm=%28%EA%B0%9C%EC%A0%95%ED%9B%84%29%EC%A0%95%EA%B4%80%282025%EB%85%84+18%EC%B0%A8+%EA%B0%9C%EC%A0%95+20250331%29_final.pdf",
+   "flNm": "(개정후)정관(2025년 18차 개정 20250331)_final.pdf",
+   "bytes": 245941,
+   "sha256": "eb0983748b89aa0e36835730ce008be436458166133e11e392aa31059e7e9067",
+   "pages": 34,
+   "text_pages": 34,
+   "ocr_pages": 0
+  }
+ ],
+ "total_chars": 15415,
+ "pages": 34,
+ "text_pages": 34,
+ "ocr_pages": 0,
+ "created_at": "2026-11-16T22:13:40",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": null
+ }
+}

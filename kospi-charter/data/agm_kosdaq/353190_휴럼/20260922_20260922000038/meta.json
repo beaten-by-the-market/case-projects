@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260922000038",
+ "corp_code": "01453670",
+ "corp_name": "휴럼",
+ "stock_code": "353190",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260922",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000038",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2178,
+ "charter_amend_txt": "data/agm_kosdaq/353190_휴럼/20260922_20260922000038/정관의변경.txt",
+ "main_xml": "20260922000038.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260922000038.xml",
+   "bytes": 61963,
+   "sha256": "8fe9df881e7e515e3d45205838ecaae81946a127b23e72aa39fda4459e093212"
+  }
+ ],
+ "folder": "data/agm_kosdaq/353190_휴럼/20260922_20260922000038",
+ "fetched_at": "2026-11-16T19:39:17"
+}

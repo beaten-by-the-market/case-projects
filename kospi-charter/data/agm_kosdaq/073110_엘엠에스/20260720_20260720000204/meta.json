@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260720000204",
+ "corp_code": "00494218",
+ "corp_name": "엘엠에스",
+ "stock_code": "073110",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260720",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000204",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260720000204.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260720000204.xml",
+   "bytes": 46470,
+   "sha256": "1c46a976c037e4e35f5f2c3cdde9d1f1d385b26ee14fb87dd9ce01d858529452"
+  }
+ ],
+ "folder": "data/agm_kosdaq/073110_엘엠에스/20260720_20260720000204",
+ "fetched_at": "2026-11-16T19:36:48"
+}

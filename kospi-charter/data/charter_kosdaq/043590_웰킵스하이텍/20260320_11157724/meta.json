@@ -1,0 +1,35 @@
+{
+ "corp_code": "00260611",
+ "corp_name": "웰킵스하이텍",
+ "stock_code": "043590",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000938",
+ "dcmNo": "11157724",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000938&dcmNo=11157724",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000938&dcmNo=11157724&eleId=1&offset=597&length=22093&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "mixed",
+ "text_chars": 11939,
+ "n_images": 1,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11157724&flNm=%EB%A1%9C%EA%B3%A0.jpg",
+   "flNm": "로고.jpg",
+   "alt": "이미지: 로고",
+   "bytes": 13198,
+   "sha256": "a91bac59a4909c17b796fbdaa7ebead1fae339e770d62b2f30a20976a6b30567",
+   "width": 246,
+   "height": 97
+  }
+ ],
+ "folder": "data/charter_kosdaq/043590_웰킵스하이텍/20260320_11157724",
+ "fetched_at": "2026-11-16T20:12:42",
+ "used_by_rcept_no": [
+  "20260626000482"
+ ]
+}

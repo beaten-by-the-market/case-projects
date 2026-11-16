@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260521000601",
+ "corp_code": "01428948",
+ "corp_name": "오아",
+ "stock_code": "342870",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260521",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260521000601",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260521000601.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260521000601.xml",
+   "bytes": 102994,
+   "sha256": "9df2f95b25a7ad9c5109c2b318d3b5074e84fbd696574ef198f4f96f48375221"
+  }
+ ],
+ "folder": "data/agm_kosdaq/342870_오아/20260521_20260521000601",
+ "fetched_at": "2026-11-16T19:34:35"
+}

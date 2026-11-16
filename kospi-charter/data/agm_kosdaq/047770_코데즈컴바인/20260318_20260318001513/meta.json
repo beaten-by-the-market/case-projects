@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260318001513",
+ "corp_code": "00329093",
+ "corp_name": "코데즈컴바인",
+ "stock_code": "047770",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260318",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001513",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1205,
+ "charter_amend_txt": "data/agm_kosdaq/047770_코데즈컴바인/20260318_20260318001513/정관의변경.txt",
+ "main_xml": "20260318001513.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260318001513.xml",
+   "bytes": 228380,
+   "sha256": "3dd6530960d2be1479f1631e980acf26ff41a5bf55eed72dea345d658c5c0018"
+  }
+ ],
+ "folder": "data/agm_kosdaq/047770_코데즈컴바인/20260318_20260318001513",
+ "fetched_at": "2026-11-16T19:32:32"
+}

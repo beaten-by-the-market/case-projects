@@ -1,0 +1,24 @@
+{
+ "corp_code": "00264714",
+ "corp_name": "SG&G",
+ "stock_code": "040610",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000627",
+ "dcmNo": "11148222",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000627&dcmNo=11148222",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000627&dcmNo=11148222&eleId=1&offset=599&length=39128&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 16122,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/040610_SG&G/20260319_11148222",
+ "fetched_at": "2026-11-16T20:10:56",
+ "used_by_rcept_no": [
+  "20260319000627"
+ ]
+}

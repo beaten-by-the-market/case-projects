@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261016000024",
+ "corp_code": "00257732",
+ "corp_name": "한국정밀기계",
+ "stock_code": "101680",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261016",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000024",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261016000024.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261016000024.xml",
+   "bytes": 54710,
+   "sha256": "e4b04656f963a33f8fb41e17a368e4fb052f36055834d0b50f6406ca120f85d4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/101680_한국정밀기계/20261016_20261016000024",
+ "fetched_at": "2026-11-16T19:39:47"
+}

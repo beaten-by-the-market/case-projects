@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260827000806",
+ "corp_code": "00490090",
+ "corp_name": "이지케어텍",
+ "stock_code": "099750",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260827",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827000806",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260827000806.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260827000806.xml",
+   "bytes": 55309,
+   "sha256": "cfe6b9b2844b6deb4a1284a6c0ce12f221d086fa7e51b5b73fe5edabf914f41f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/099750_이지케어텍/20260827_20260827000806",
+ "fetched_at": "2026-11-16T19:38:25"
+}

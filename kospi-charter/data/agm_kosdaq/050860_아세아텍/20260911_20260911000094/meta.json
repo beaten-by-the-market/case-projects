@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260911000094",
+ "corp_code": "00138747",
+ "corp_name": "아세아텍",
+ "stock_code": "050860",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260911",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000094",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2727,
+ "charter_amend_txt": "data/agm_kosdaq/050860_아세아텍/20260911_20260911000094/정관의변경.txt",
+ "main_xml": "20260911000094.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260911000094.xml",
+   "bytes": 143973,
+   "sha256": "73f0bd84931c483827f5c307787c2af985abcc0503c6c8881a4d18123d904fcf"
+  }
+ ],
+ "folder": "data/agm_kosdaq/050860_아세아텍/20260911_20260911000094",
+ "fetched_at": "2026-11-16T19:38:45"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00171867",
+ "corp_name": "에스씨디",
+ "stock_code": "042110",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000765",
+ "dcmNo": "11149133",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000765&dcmNo=11149133",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000765&dcmNo=11149133&eleId=1&offset=597&length=19530&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12162,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/042110_에스씨디/20260319_11149133",
+ "fetched_at": "2026-11-16T20:11:37",
+ "used_by_rcept_no": [
+  "20260319000765"
+ ]
+}

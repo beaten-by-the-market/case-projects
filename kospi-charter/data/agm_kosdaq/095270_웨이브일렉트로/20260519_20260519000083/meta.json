@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260519000083",
+ "corp_code": "00526696",
+ "corp_name": "웨이브일렉트로",
+ "stock_code": "095270",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260519",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519000083",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260519000083.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260519000083.xml",
+   "bytes": 53308,
+   "sha256": "610bb521c7f569e79cbb90a984d9ae570b21af4039cee920035acc65e84dc642"
+  }
+ ],
+ "folder": "data/agm_kosdaq/095270_웨이브일렉트로/20260519_20260519000083",
+ "fetched_at": "2026-11-16T19:34:30"
+}

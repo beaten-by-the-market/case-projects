@@ -1,0 +1,37 @@
+{
+ "corp_code": "01063884",
+ "corp_name": "솔디펜스",
+ "stock_code": "215090",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001185",
+ "dcmNo": "11166137",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001185&dcmNo=11166137",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001185&dcmNo=11166137&eleId=1&offset=595&length=302&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 24,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/215090_솔디펜스/20260323_11166137",
+ "fetched_at": "2026-11-16T21:10:11",
+ "used_by_rcept_no": [
+  "20260323001185"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166137&flNm=%EC%A0%95%EA%B4%80_251211.pdf",
+   "flNm": "정관_251211.pdf",
+   "bytes": 847363,
+   "sha256": "b0bf6c6f40af7d7657a68df73c43a3c51a802c9691f62cee161a1856e1342f05",
+   "pages": 22,
+   "text_pages": 21,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261023000494",
+ "corp_code": "00683007",
+ "corp_name": "퀀텀레일",
+ "stock_code": "070300",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261026",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000494",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 211,
+ "charter_amend_txt": "data/agm_kosdaq/070300_퀀텀레일/20261026_20261023000494/정관의변경.txt",
+ "main_xml": "20261023000494.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261023000494.xml",
+   "bytes": 64650,
+   "sha256": "e69278cdcf508d17ba9263162cf6f8a87d3ef1b95c6da841c594450225947fc5"
+  }
+ ],
+ "folder": "data/agm_kosdaq/070300_퀀텀레일/20261026_20261023000494",
+ "fetched_at": "2026-11-16T19:40:18"
+}

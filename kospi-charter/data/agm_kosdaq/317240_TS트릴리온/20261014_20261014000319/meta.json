@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261014000319",
+ "corp_code": "01353024",
+ "corp_name": "TS트릴리온",
+ "stock_code": "317240",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261014",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000319",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 186,
+ "charter_amend_txt": "data/agm_kosdaq/317240_TS트릴리온/20261014_20261014000319/정관의변경.txt",
+ "main_xml": "20261014000319.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261014000319.xml",
+   "bytes": 106668,
+   "sha256": "a1e81453a070e6f944929cf5c44b5c07b8f46593e4ee664cb546ca047fff5efa"
+  }
+ ],
+ "folder": "data/agm_kosdaq/317240_TS트릴리온/20261014_20261014000319",
+ "fetched_at": "2026-11-16T19:39:41"
+}

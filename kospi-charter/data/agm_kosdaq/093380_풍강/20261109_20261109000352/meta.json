@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261109000352",
+ "corp_code": "00155373",
+ "corp_name": "풍강",
+ "stock_code": "093380",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261109",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000352",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261109000352.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261109000352.xml",
+   "bytes": 209947,
+   "sha256": "8e0c0d065887bb3a1f6cbea2def5622fdd3da8bb02a878dc6fe9d8aced8b47b1"
+  }
+ ],
+ "folder": "data/agm_kosdaq/093380_풍강/20261109_20261109000352",
+ "fetched_at": "2026-11-16T19:40:37"
+}

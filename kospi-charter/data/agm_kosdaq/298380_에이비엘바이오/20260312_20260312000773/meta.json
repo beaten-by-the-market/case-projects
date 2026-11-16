@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260312000773",
+ "corp_code": "01256864",
+ "corp_name": "에이비엘바이오",
+ "stock_code": "298380",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260312",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000773",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3471,
+ "charter_amend_txt": "data/agm_kosdaq/298380_에이비엘바이오/20260312_20260312000773/정관의변경.txt",
+ "main_xml": "20260312000773.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260312000773.xml",
+   "bytes": 817420,
+   "sha256": "15fa3df3c6ea5120cd65df25232caddc52e586113a1fe11348b76fc68282fb4d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/298380_에이비엘바이오/20260312_20260312000773",
+ "fetched_at": "2026-11-16T19:32:21"
+}

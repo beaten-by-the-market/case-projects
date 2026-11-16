@@ -1,0 +1,24 @@
+{
+ "corp_code": "00532059",
+ "corp_name": "그린생명과학",
+ "stock_code": "114450",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001189",
+ "dcmNo": "11152149",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001189&dcmNo=11152149",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001189&dcmNo=11152149&eleId=1&offset=598&length=14124&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 7139,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/114450_그린생명과학/20260319_11152149",
+ "fetched_at": "2026-11-16T20:51:30",
+ "used_by_rcept_no": [
+  "20260319001189"
+ ]
+}

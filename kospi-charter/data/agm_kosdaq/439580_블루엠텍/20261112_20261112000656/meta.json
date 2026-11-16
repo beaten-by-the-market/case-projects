@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261112000656",
+ "corp_code": "01559637",
+ "corp_name": "블루엠텍",
+ "stock_code": "439580",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261112",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000656",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261112000656.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261112000656.xml",
+   "bytes": 112613,
+   "sha256": "8aa080351950e16bdbc03887b4dace032003e47a29be286617c428a4700bbcc9"
+  }
+ ],
+ "folder": "data/agm_kosdaq/439580_블루엠텍/20261112_20261112000656",
+ "fetched_at": "2026-11-16T19:40:48"
+}

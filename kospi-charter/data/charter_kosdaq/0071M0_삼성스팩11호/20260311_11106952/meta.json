@@ -1,0 +1,255 @@
+{
+ "corp_code": "01935183",
+ "corp_name": "삼성스팩11호",
+ "stock_code": "0071M0",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311003469",
+ "dcmNo": "11106952",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003469&dcmNo=11106952",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311003469&dcmNo=11106952&eleId=1&offset=604&length=3858&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 23,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_01.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_01",
+   "bytes": 257161,
+   "sha256": "7b0bad05d44c77e72d883bf20bb96238417e0c241b6dc3285225e689869b2043",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_02.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_02",
+   "bytes": 277831,
+   "sha256": "2dc9510c73e3d0700a53f52b0f54d9250478af1d8e6799df279f05a5e11f9721",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_03.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_03",
+   "bytes": 288491,
+   "sha256": "9829dfe3f17a9e06686c65cb49bf4b1c64cd5bc0364057a1153d3aceee787a37",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_04.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_04",
+   "bytes": 302815,
+   "sha256": "99432cde0357efcb38864701731147d6f8c332c9ea28dfaea0abe01bd5a10c3b",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_05.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_05",
+   "bytes": 295133,
+   "sha256": "b30c360b4b0ed5f91601ceef80227272d857796d807688e8d0848f5043670f26",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_06.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_06",
+   "bytes": 250390,
+   "sha256": "b0728e131835903cbc357713a2a6b4dbe5547243cbc38b41272e5480b202c45a",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_07.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_07",
+   "bytes": 241369,
+   "sha256": "8bf4cc6ebfade5d039dc380dfe9abffabdda4b11dae0c91e3803270a83a1ce7b",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_08.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_08",
+   "bytes": 262920,
+   "sha256": "fc569d1f52e8a7e29eae4d3151ca32bf626f3c139ce1a6194a5673f25d453fbf",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_09.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_09",
+   "bytes": 264769,
+   "sha256": "d8c1f8c09f65f7b82c3e0dd09ef368cd36dca24c0190e35fec16361f8b5e8bc0",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_10.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_10",
+   "bytes": 261022,
+   "sha256": "e37d834b500a501ef88b150e88b5b33c2c6f6c49c621050729af190fc6d24863",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_11.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_11",
+   "bytes": 279007,
+   "sha256": "51488196dcbf5ed8671c7bf96ea415853f20dd755cf9cf758363fb5c8e4087aa",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_12.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_12",
+   "bytes": 270148,
+   "sha256": "9fd3bd2085d845817556c414582f31a5a6e87ddf40e72f1e610ce7ec973a6eb5",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_13.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_13",
+   "bytes": 274979,
+   "sha256": "c52871a54b5afea477fe67f1688fae06ca98c36ca0d6ad1d4590f943956ff759",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_14.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_14",
+   "bytes": 256180,
+   "sha256": "845c1cf76a872bd1d2127c7784e0a057c7859ad239961d791a8bbbe0b5c1e275",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_15.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_15.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_15",
+   "bytes": 273507,
+   "sha256": "3d89ac9e84fed958c2c874e97979e88f27c9052af861baf360e129cc0cc9ef77",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_16.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_16.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_16",
+   "bytes": 278585,
+   "sha256": "7e8741b754195e98867a41c80265ded8086afdbfd85cf2ad00632381f1ce332a",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_17.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_17.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_17",
+   "bytes": 248956,
+   "sha256": "4f0afc49b4403bbb7d85d7bf9e28fd5dcd9f5930551aff65bb12f8bac7fa3dd3",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_18.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_18.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_18",
+   "bytes": 298453,
+   "sha256": "f137d27d264cdbdf0f66192ffd17580c5231e7f5ade6886329202d4421d7c72e",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_19.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_19.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_19",
+   "bytes": 253740,
+   "sha256": "5039d7738d335ee6fa021102808d817061c25dc61a211ca763bec5ccdf2e252a",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_20.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_20.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_20",
+   "bytes": 264240,
+   "sha256": "77d413621ae3e2f3cf17da145bee9517dfe38ac3ca5f8a54cefec8163bb195a0",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_21.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_21.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_21",
+   "bytes": 281526,
+   "sha256": "9a3f939d5ef8c8cb151cf77ae6e5049b0d698b242eafaef48b8ed290b1947653",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_22.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_22.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_22",
+   "bytes": 238274,
+   "sha256": "4e67ff37615df8505fdf06528c2725f54a32247dfebee5f07012865d5549d37a",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11106952&flNm=%EC%82%BC%EC%84%B1%EC%8A%A4%ED%8C%A911%ED%98%B8_%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_23.jpg",
+   "flNm": "삼성스팩11호_정관_페이지_23.jpg",
+   "alt": "이미지: 삼성스팩11호_정관_페이지_23",
+   "bytes": 293722,
+   "sha256": "ecd86c5237b1158d64e9027a9923b54e64ab4b8d676988a450695c0c5530b599",
+   "width": 2480,
+   "height": 3508
+  }
+ ],
+ "folder": "data/charter_kosdaq/0071M0_삼성스팩11호/20260311_11106952",
+ "fetched_at": "2026-11-16T19:47:21",
+ "used_by_rcept_no": [
+  "20260316000888"
+ ]
+}

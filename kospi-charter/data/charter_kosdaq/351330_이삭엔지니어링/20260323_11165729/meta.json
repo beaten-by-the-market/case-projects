@@ -1,0 +1,24 @@
+{
+ "corp_code": "01135640",
+ "corp_name": "이삭엔지니어링",
+ "stock_code": "351330",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001123",
+ "dcmNo": "11165729",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001123&dcmNo=11165729",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001123&dcmNo=11165729&eleId=1&offset=599&length=17119&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10580,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/351330_이삭엔지니어링/20260323_11165729",
+ "fetched_at": "2026-11-16T21:36:51",
+ "used_by_rcept_no": [
+  "20260323001123"
+ ]
+}

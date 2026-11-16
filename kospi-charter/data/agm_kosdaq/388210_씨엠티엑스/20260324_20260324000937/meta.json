@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260324000937",
+ "corp_code": "01529982",
+ "corp_name": "씨엠티엑스",
+ "stock_code": "388210",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260324",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000937",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260324000937.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260324000937.xml",
+   "bytes": 118033,
+   "sha256": "9a4c177c3085cb438933c45e11d4d0ef4e3b320c181269d77249e8c5b28ee37c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/388210_씨엠티엑스/20260324_20260324000937",
+ "fetched_at": "2026-11-16T19:33:18"
+}

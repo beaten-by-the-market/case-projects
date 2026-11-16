@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260527000353",
+ "corp_code": "00297448",
+ "corp_name": "플래스크",
+ "stock_code": "041590",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260527",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260527000353",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260527000353.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260527000353.xml",
+   "bytes": 55378,
+   "sha256": "0a484b1d09a1bf2b147f2acb9ba00ab2f2b30ddd62b384a157acb2e895ccdb24"
+  }
+ ],
+ "folder": "data/agm_kosdaq/041590_플래스크/20260527_20260527000353",
+ "fetched_at": "2026-11-16T19:34:41"
+}

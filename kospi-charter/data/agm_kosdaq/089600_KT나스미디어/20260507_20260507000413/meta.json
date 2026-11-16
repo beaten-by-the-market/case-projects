@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260507000413",
+ "corp_code": "00486097",
+ "corp_name": "KT나스미디어",
+ "stock_code": "089600",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260507",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000413",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260507000413.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260507000413.xml",
+   "bytes": 52769,
+   "sha256": "665f9746986702d928354bee773ba16eef7bf60b5258119d47323d782382f2e9"
+  }
+ ],
+ "folder": "data/agm_kosdaq/089600_KT나스미디어/20260507_20260507000413",
+ "fetched_at": "2026-11-16T19:34:09"
+}

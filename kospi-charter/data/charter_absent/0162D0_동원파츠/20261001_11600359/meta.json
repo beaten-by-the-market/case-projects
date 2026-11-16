@@ -1,0 +1,24 @@
+{
+ "corp_code": "00784184",
+ "corp_name": "동원파츠",
+ "stock_code": "0162D0",
+ "att_title": "2026.10.01 정관",
+ "att_date": "20261001",
+ "rcpNo": "20261001000579",
+ "dcmNo": "11600359",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000579&dcmNo=11600359",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20261001000579&dcmNo=11600359&eleId=1&offset=597&length=31044&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13768,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_absent/0162D0_동원파츠/20261001_11600359",
+ "fetched_at": "2026-11-17T00:50:07",
+ "used_by_stock_code": [
+  "0162D0"
+ ]
+}

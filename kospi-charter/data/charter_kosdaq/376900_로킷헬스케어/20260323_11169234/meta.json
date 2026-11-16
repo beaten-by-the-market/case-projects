@@ -1,0 +1,215 @@
+{
+ "corp_code": "01335143",
+ "corp_name": "로킷헬스케어",
+ "stock_code": "376900",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001640",
+ "dcmNo": "11169234",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001640&dcmNo=11169234",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001640&dcmNo=11169234&eleId=1&offset=597&length=3433&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 19,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_01.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_01",
+   "bytes": 127626,
+   "sha256": "1ad528974d804ac2bc667f2ab7ea2687c04320eaaf9318bd85b6a0d9b952a3d5",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_02.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_02",
+   "bytes": 204151,
+   "sha256": "e5514b2e13c0f6d2018bc17de6a6a8784c941714cadce90e9a74507b8aa8ba9b",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_03.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_03",
+   "bytes": 208188,
+   "sha256": "4f3e5dd936c4191f91a94724c2cd46e65e0e6a23cf23be7de3e588673193dd5d",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_04.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_04",
+   "bytes": 222578,
+   "sha256": "7cc6a3cbb694485566233c272d5b0cecc38e5786f58f5daa604a3e13cda6b978",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_05.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_05",
+   "bytes": 231082,
+   "sha256": "c2fa6fe923034c401de7041166c18cdeafc72ace2a4420326676874ad41f05c0",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_06.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_06",
+   "bytes": 299232,
+   "sha256": "31883934cf719c9a8871872ccc4d2a8d7b158c05b0364f6a0a7c4bc8af3eac4e",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_07.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_07",
+   "bytes": 224901,
+   "sha256": "fe400eba5c1485e355e9882aa9b81b476c1f328341fb42c747f8d760b710b614",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_08.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_08",
+   "bytes": 303697,
+   "sha256": "dc3c49d5332603aa9e5000ebf6797b827850225ba3196ac748ed600ef660eec5",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_09.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_09",
+   "bytes": 295951,
+   "sha256": "09e0de1a1cb453b2d1a50109b3f9875a2299d2eb2037fabd987a350e4a3d380d",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_10.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_10",
+   "bytes": 222577,
+   "sha256": "08a8ab93a064bb5b17eb1248f38fe7480b87695cef76a5e553192a9e5c2524f7",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_11.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_11",
+   "bytes": 279801,
+   "sha256": "603d24bfe98277c05f3f1da6044113458c4a6221806fdf47dbd12aa361198833",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_12.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_12",
+   "bytes": 254870,
+   "sha256": "63d8ee87bfda6a2fbcb5238c405f17f83228e933b661d120cf2e06af66683466",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_13.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_13",
+   "bytes": 236932,
+   "sha256": "4d60c351a744bcc8a2e9e40e0f7a9eab4409d4b95aecfbaed7da115cd78bc046",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_14.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_14",
+   "bytes": 254823,
+   "sha256": "b72164a9f02a078ca5693535ae08c324a1e5e5389b0d27bda1ecd737eb52949f",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_15.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_15.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_15",
+   "bytes": 294794,
+   "sha256": "a6ec3d1b4f167901a4c317dd891173a6e2114c27acf464f8b49f0dda55fc5e8e",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_16.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_16.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_16",
+   "bytes": 257338,
+   "sha256": "b3f2c59c178147f42b86337f1c725f3f1e0461cad720acc8998bd2c1ba9451a9",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_17.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_17.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_17",
+   "bytes": 262116,
+   "sha256": "74a4fd98da5ba81e1a2984b1d2ff8bd9ec9e8673874ec1b413141595a68c1af5",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_18.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_18.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_18",
+   "bytes": 121262,
+   "sha256": "43dba593814572b1f6af78284dc450ea35395ee8b8c2014f448c7938593e8c73",
+   "width": 1655,
+   "height": 2339
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169234&flNm=2024.03.29+%EB%A1%9C%ED%82%B7+%EC%A0%95%EA%B4%80_%ED%8E%98%EC%9D%B4%EC%A7%80_19.jpg",
+   "flNm": "2024.03.29 로킷 정관_페이지_19.jpg",
+   "alt": "이미지: 2024.03.29 로킷 정관_페이지_19",
+   "bytes": 152014,
+   "sha256": "b153915cca717f2a6535d1fb77b9f44fd0f0e99c2cf2f27ab7c03a45704cb07a",
+   "width": 1655,
+   "height": 2339
+  }
+ ],
+ "folder": "data/charter_kosdaq/376900_로킷헬스케어/20260323_11169234",
+ "fetched_at": "2026-11-16T21:43:32",
+ "used_by_rcept_no": [
+  "20260731000634"
+ ]
+}

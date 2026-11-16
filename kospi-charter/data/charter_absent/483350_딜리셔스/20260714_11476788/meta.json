@@ -1,0 +1,216 @@
+{
+ "corp_code": "01461730",
+ "corp_name": "딜리셔스",
+ "stock_code": "483350",
+ "att_title": "2026.07.14 [정정] 정관",
+ "att_date": "20260714",
+ "rcpNo": "20260714000470",
+ "dcmNo": "11476788",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000470&dcmNo=11476788",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260714000470&dcmNo=11476788&eleId=1&offset=646&length=16623&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260714000470&dcmNo=11476788&eleId=2&offset=17299&length=3491&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "mixed",
+ "text_chars": 5196,
+ "n_images": 19,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-1.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-1.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-1",
+   "bytes": 136182,
+   "sha256": "242a53b314eeb80905de5de290ccf1f7df30252cf94b54e07c214707cf51afb8",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-2.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-2.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-2",
+   "bytes": 206081,
+   "sha256": "5d92203d9b9f908bf6d216d33fb1148d1811dcea134b59bc3fd5b6926151d895",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-3.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-3.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-3",
+   "bytes": 292009,
+   "sha256": "f9bc0b2798eaea8a24325dff5bb244c6da8ffde735abdebe986884e1fee79284",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-4.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-4.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-4",
+   "bytes": 214091,
+   "sha256": "4a772cf65b1102a7671c3fdceec8c631bcb46fed9034b7c1f185f268e4745162",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-5.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-5.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-5",
+   "bytes": 224215,
+   "sha256": "8c9de6d87ba7a845079ccb0207ccdf2994bb07c0a3541580d3dd71bccbb436db",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-6.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-6.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-6",
+   "bytes": 249730,
+   "sha256": "3c4be06ade5f2a7fff85a66f44711b7bd6489e633257cadceaf0ffd925713eb6",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-7.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-7.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-7",
+   "bytes": 206484,
+   "sha256": "7b73c7b51e0fde3775ba2923b581fb2a3d2622effcdadab35f0735ecb662efcd",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-8.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-8.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-8",
+   "bytes": 229749,
+   "sha256": "b2f35231f7f3d981fc2203dc12f59bfe65416e83ad6ff5fac969578db80e32f5",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-9.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-9.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-9",
+   "bytes": 208988,
+   "sha256": "179b33a7a8eaafe4cb8064c74298382cd2e18d25394a67f2b41c20eecec5693c",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-10.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-10.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-10",
+   "bytes": 286108,
+   "sha256": "4336f61e30c3bf8149e9a97b7760ca6f1768c2a8bdd8bf82daae4e6ac219ce76",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-11.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-11.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-11",
+   "bytes": 206960,
+   "sha256": "24a5c5cfd3d97701af7c8a0d0a57967b8a3f845896726113d6343107a56afeaf",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-12.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-12.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-12",
+   "bytes": 249742,
+   "sha256": "e5cdf2cee509521987600be253f3912e1b00c8216b86d0367a701bea444cc434",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-13.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-13.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-13",
+   "bytes": 272729,
+   "sha256": "4d0b482eadd168cd510442368ef47bca4dcc37241bb8d550a81755e14300f157",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-14.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-14.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-14",
+   "bytes": 278000,
+   "sha256": "4c714a8fbd6e0f27670274b11ccc73f3ce00a06571b672269ec589d89d5b6106",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-15.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-15.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-15",
+   "bytes": 200438,
+   "sha256": "d4e3a9518c1517996d204932bc80da8b5f5ed138c045fd89e92d77610d3141da",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-16.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-16.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-16",
+   "bytes": 277123,
+   "sha256": "1ca8c6aecfdb9c4da799f359d309c693c9a17a6cb66699a8c36834ca40f07f1b",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-17.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-17.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-17",
+   "bytes": 292245,
+   "sha256": "81d9e1605da6c3ebd798ed23d261ab55a011a5df2dacd3ced9ab66a0834c4d3f",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-18.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-18.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-18",
+   "bytes": 270799,
+   "sha256": "3d09c4ef61d99b20c86eaa59a897a22381dcf4b6101085e2e90c2ea774d3a428",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-19.jpg",
+   "flNm": "원본대조필 딜리셔스_정관_20260708-19.jpg",
+   "alt": "이미지: 원본대조필 딜리셔스_정관_20260708-19",
+   "bytes": 120664,
+   "sha256": "59edcecfa461cde37848181e1c6bef556cd606c6fb231bdec1dddecdd262c808",
+   "width": 1241,
+   "height": 1755
+  }
+ ],
+ "folder": "data/charter_absent/483350_딜리셔스/20260714_11476788",
+ "fetched_at": "2026-11-17T00:53:58",
+ "used_by_stock_code": [
+  "483350"
+ ]
+}

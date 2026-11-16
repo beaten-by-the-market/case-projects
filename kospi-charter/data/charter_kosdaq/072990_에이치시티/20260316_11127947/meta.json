@@ -1,0 +1,37 @@
+{
+ "corp_code": "00527464",
+ "corp_name": "에이치시티",
+ "stock_code": "072990",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001261",
+ "dcmNo": "11127947",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001261&dcmNo=11127947",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001261&dcmNo=11127947&eleId=1&offset=598&length=338&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 54,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/072990_에이치시티/20260316_11127947",
+ "fetched_at": "2026-11-16T20:35:20",
+ "used_by_rcept_no": [
+  "20260316001261"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11127947&flNm=%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC+%EC%97%90%EC%9D%B4%EC%B9%98%EC%8B%9C%ED%8B%B0+%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%2C+20250326%29.pdf",
+   "flNm": "주식회사 에이치시티 정관(개정, 20250326).pdf",
+   "bytes": 322742,
+   "sha256": "bf1f90350fa4024c5ce12c2d787426265ae2c4c9c1717306888ffbbbf4a6c94a",
+   "pages": 20,
+   "text_pages": 19,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

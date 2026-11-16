@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260703000618",
+ "corp_code": "00606886",
+ "corp_name": "엔지켐생명과학",
+ "stock_code": "183490",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260703",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000618",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2648,
+ "charter_amend_txt": "data/agm_kosdaq/183490_엔지켐생명과학/20260703_20260703000618/정관의변경.txt",
+ "main_xml": "20260703000618.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260703000618.xml",
+   "bytes": 123472,
+   "sha256": "d297012f05f74d0b8ba244516b86c8dfbc61e14555a73070efd4c012e202f590"
+  }
+ ],
+ "folder": "data/agm_kosdaq/183490_엔지켐생명과학/20260703_20260703000618",
+ "fetched_at": "2026-11-16T19:36:28"
+}

@@ -1,0 +1,225 @@
+{
+ "corp_code": "01963520",
+ "corp_name": "신한제17호스팩",
+ "stock_code": "0130D0",
+ "att_title": "2026.02.13 정관",
+ "att_date": "20260213",
+ "rcpNo": "20260213001450",
+ "dcmNo": "11024921",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260213001450&dcmNo=11024921",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260213001450&dcmNo=11024921&eleId=1&offset=605&length=3253&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 20,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+1.jpg",
+   "flNm": "신한제17호스팩_정관 1.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 1",
+   "bytes": 287559,
+   "sha256": "896c1bbc91c04c0b3e17c904ba504104531d544303edba594dc9b15358bdbd95",
+   "width": 996,
+   "height": 1410
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+2.jpg",
+   "flNm": "신한제17호스팩_정관 2.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 2",
+   "bytes": 89656,
+   "sha256": "90b9ce8a402fa6742c312e6d6094d77e9ef52cc8e03b6027d45ac7e96434b5f4",
+   "width": 1012,
+   "height": 1424
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+3.jpg",
+   "flNm": "신한제17호스팩_정관 3.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 3",
+   "bytes": 119357,
+   "sha256": "b1b90e1aaa563fed8c626574736d6eb73ad428bb3b2e6ff003b0febbed223547",
+   "width": 1006,
+   "height": 1422
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+4.jpg",
+   "flNm": "신한제17호스팩_정관 4.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 4",
+   "bytes": 123059,
+   "sha256": "2c331a1750b0e09bd187056b7f5119146c5268e9569a4239927927681d4fa3e2",
+   "width": 1012,
+   "height": 1424
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+5.jpg",
+   "flNm": "신한제17호스팩_정관 5.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 5",
+   "bytes": 95374,
+   "sha256": "42c17a62af3edee9d9c196dea34b49ca540dd8e41d0e9183308a4ab6ed37abf5",
+   "width": 1004,
+   "height": 1426
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+6.jpg",
+   "flNm": "신한제17호스팩_정관 6.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 6",
+   "bytes": 107713,
+   "sha256": "b3e1f2939c5cdf5eb16a6c0520f8524c319bd7f534518154df4e5edd2f12c74d",
+   "width": 1014,
+   "height": 1432
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+7.jpg",
+   "flNm": "신한제17호스팩_정관 7.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 7",
+   "bytes": 108135,
+   "sha256": "fa5e2428027323501a659844295a588c4df0d891ff41a037de7a2bb517c13627",
+   "width": 1018,
+   "height": 1424
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+8.jpg",
+   "flNm": "신한제17호스팩_정관 8.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 8",
+   "bytes": 92185,
+   "sha256": "47de948913e7b46b4d3d9a16bbe4815beef20d5062b70ff47b39ca85ed54ca94",
+   "width": 1008,
+   "height": 1424
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+9.jpg",
+   "flNm": "신한제17호스팩_정관 9.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 9",
+   "bytes": 102182,
+   "sha256": "3f7ace2b225be4a34e9160790352efb18a2cb2a151f5d7124ced0666fcbb37af",
+   "width": 1008,
+   "height": 1426
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+10.jpg",
+   "flNm": "신한제17호스팩_정관 10.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 10",
+   "bytes": 96725,
+   "sha256": "979bbd0fe5f252275794e4d9a9cfbac3c4f3284afbe4dfad6927c549f7ec07fc",
+   "width": 1016,
+   "height": 1430
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+11.jpg",
+   "flNm": "신한제17호스팩_정관 11.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 11",
+   "bytes": 102051,
+   "sha256": "311269124c0ba83e91c7ac7f2392b53eb06d6fd35eba6ccf6af94ff9cff7b8d6",
+   "width": 1006,
+   "height": 1424
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+12.jpg",
+   "flNm": "신한제17호스팩_정관 12.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 12",
+   "bytes": 108095,
+   "sha256": "95f57356827443e1395fc1c6486c354ac05e955f4873f48cc7c31f05d252aeb1",
+   "width": 1008,
+   "height": 1418
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+13.jpg",
+   "flNm": "신한제17호스팩_정관 13.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 13",
+   "bytes": 291405,
+   "sha256": "c74bac518282050d8f8e818f89d82dc8de6d01ce70d654f908e1f9d7c0f0ccde",
+   "width": 1008,
+   "height": 1416
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+14.jpg",
+   "flNm": "신한제17호스팩_정관 14.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 14",
+   "bytes": 100029,
+   "sha256": "8f1faff5a4a6a5bb3e144f183b706b3c56444efbbf2c134cd75c0dac9d2fd9e9",
+   "width": 1012,
+   "height": 1422
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+15.jpg",
+   "flNm": "신한제17호스팩_정관 15.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 15",
+   "bytes": 108877,
+   "sha256": "ef2f8ba5b1f94e9f12120ea2ae13f61bbcd29adee242e498d6f60f89fa3efb7f",
+   "width": 998,
+   "height": 1414
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+16.jpg",
+   "flNm": "신한제17호스팩_정관 16.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 16",
+   "bytes": 135205,
+   "sha256": "caf23d18c37d0bce5f57c544714472f23844cf51c8f2b2799f8dbd11aa7c9148",
+   "width": 992,
+   "height": 1414
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+17.jpg",
+   "flNm": "신한제17호스팩_정관 17.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 17",
+   "bytes": 128474,
+   "sha256": "8b36cdd5aac77dbda27bfc88d1a6f4f453127cf62e841fa016af8641d02588ab",
+   "width": 1004,
+   "height": 1418
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+18.jpg",
+   "flNm": "신한제17호스팩_정관 18.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 18",
+   "bytes": 121965,
+   "sha256": "582c9d7bd19269858c274a06dc0280af4c6ff23ec02a6590474f9682b0b525e3",
+   "width": 992,
+   "height": 1410
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+19.jpg",
+   "flNm": "신한제17호스팩_정관 19.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 19",
+   "bytes": 227153,
+   "sha256": "050304592b30b0d81846bc31bceb62fc5326d177b1dfd67c7f5548aac70e01d0",
+   "width": 1004,
+   "height": 1404
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+21.jpg",
+   "flNm": "신한제17호스팩_정관 21.jpg",
+   "alt": "이미지: 신한제17호스팩_정관 21",
+   "bytes": 80976,
+   "sha256": "ecf0113b48468a66388153945a7658f9159f2c233e39c71ad9c11a151b9f2d81",
+   "width": 1008,
+   "height": 1420
+  }
+ ],
+ "folder": "data/charter_absent/0130D0_신한제17호스팩/20260213_11024921",
+ "fetched_at": "2026-11-17T01:01:16",
+ "used_by_stock_code": [
+  "0130D0"
+ ]
+}

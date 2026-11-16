@@ -1,0 +1,155 @@
+{
+ "corp_code": "01658831",
+ "corp_name": "오름테라퓨틱",
+ "stock_code": "475830",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001320",
+ "dcmNo": "11153192",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001320&dcmNo=11153192",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001320&dcmNo=11153192&eleId=1&offset=599&length=2448&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 13,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0001.jpg",
+   "flNm": "정관(2025.08.01)_page-0001.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0001",
+   "bytes": 59880,
+   "sha256": "c73f169bf585008003bce188439c1e64c4e5e4993cd56b5a2fc2d0ed0f5cf53e",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0002.jpg",
+   "flNm": "정관(2025.08.01)_page-0002.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0002",
+   "bytes": 237888,
+   "sha256": "0550a86847ae45550e12b6b0adfef6696417f893e294c39f30e1ad6ad24a0bc9",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0003.jpg",
+   "flNm": "정관(2025.08.01)_page-0003.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0003",
+   "bytes": 300434,
+   "sha256": "b174af8285776f171408a1e0c6baca395efe14590fd9fa1b9f302a5c374a26d7",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0004.jpg",
+   "flNm": "정관(2025.08.01)_page-0004.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0004",
+   "bytes": 302217,
+   "sha256": "8582ce9314fc0a1d61ab052ece188a3ee696f0db7b9343fbbc889c8ec2cd00d2",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0005.jpg",
+   "flNm": "정관(2025.08.01)_page-0005.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0005",
+   "bytes": 303013,
+   "sha256": "1e642fd7ced1a35d0ab448e4808d668a54eb81faeb677dc066d718a24cd9317f",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0006.jpg",
+   "flNm": "정관(2025.08.01)_page-0006.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0006",
+   "bytes": 285469,
+   "sha256": "31dea0267b2e44317f73e036dba4e3efa5e25da2fa881aa7ef090025cc43cfaf",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0007.jpg",
+   "flNm": "정관(2025.08.01)_page-0007.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0007",
+   "bytes": 249006,
+   "sha256": "a46aa19bfebbed95e58182988044169aadc2148913d09be7cfeaab7fbf42f206",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0008.jpg",
+   "flNm": "정관(2025.08.01)_page-0008.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0008",
+   "bytes": 267469,
+   "sha256": "06905b5ef4ffa3c4c463d4c4488b76741cb764137be4b5c8aa74a8c9a5b71fff",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0009.jpg",
+   "flNm": "정관(2025.08.01)_page-0009.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0009",
+   "bytes": 230052,
+   "sha256": "9b5e9193977c30136e9ec27a665524c4a1b78d71fbae6707219085a63b5fb4b4",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0010.jpg",
+   "flNm": "정관(2025.08.01)_page-0010.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0010",
+   "bytes": 262266,
+   "sha256": "3cd52e140a245aa5f0ffea2c9a82875d997d4ed89f3c48501168d9cbf6ae3078",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0011.jpg",
+   "flNm": "정관(2025.08.01)_page-0011.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0011",
+   "bytes": 261258,
+   "sha256": "2bbaff810a2b47959dccc9dd52377a38da451f33f384568d4c8002df5df44342",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0012.jpg",
+   "flNm": "정관(2025.08.01)_page-0012.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0012",
+   "bytes": 227642,
+   "sha256": "b2b39ac1301212ed0178d9fe071a79daa269c2240c733a64ff2f84aa6870d75d",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153192&flNm=%EC%A0%95%EA%B4%80%282025.08.01%29_page-0013.jpg",
+   "flNm": "정관(2025.08.01)_page-0013.jpg",
+   "alt": "이미지: 정관(2025.08.01)_page-0013",
+   "bytes": 138974,
+   "sha256": "57d188cb1a220b85a0a521af0c10fcedfc498c92301c6fdcfd8f06df0ac74f30",
+   "width": 1240,
+   "height": 1753
+  }
+ ],
+ "folder": "data/charter_kosdaq/475830_오름테라퓨틱/20260319_11153192",
+ "fetched_at": "2026-11-16T22:01:49",
+ "used_by_rcept_no": [
+  "20260319001320"
+ ]
+}

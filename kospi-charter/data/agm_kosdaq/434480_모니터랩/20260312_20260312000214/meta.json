@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260312000214",
+ "corp_code": "01583652",
+ "corp_name": "모니터랩",
+ "stock_code": "434480",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260312",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000214",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4206,
+ "charter_amend_txt": "data/agm_kosdaq/434480_모니터랩/20260312_20260312000214/정관의변경.txt",
+ "main_xml": "20260312000214.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260312000214.xml",
+   "bytes": 197170,
+   "sha256": "94d51136b65e0ddf8e5c1727992ba8e16cb51e2857a883b71e1720f9b7af76dd"
+  }
+ ],
+ "folder": "data/agm_kosdaq/434480_모니터랩/20260312_20260312000214",
+ "fetched_at": "2026-11-16T19:32:19"
+}

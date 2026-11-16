@@ -1,0 +1,37 @@
+{
+ "corp_code": "00306870",
+ "corp_name": "손오공",
+ "stock_code": "066910",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000022",
+ "dcmNo": "11160625",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000022&dcmNo=11160625",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000022&dcmNo=11160625&eleId=1&offset=592&length=302&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 20,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/066910_손오공/20260323_11160625",
+ "fetched_at": "2026-11-16T20:27:02",
+ "used_by_rcept_no": [
+  "20260323000022"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11160625&flNm=8.+%EC%86%90%EC%98%A4%EA%B3%B5+%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "8. 손오공 정관.pdf",
+   "bytes": 3197061,
+   "sha256": "0cdba0463bcd4ef62f5118dc5cca14345bca645ff62f77aeab2b360d18e0517a",
+   "pages": 23,
+   "text_pages": 8,
+   "ocr_pages": 15
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260423000222",
+ "corp_code": "01063990",
+ "corp_name": "로보로보",
+ "stock_code": "215100",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260423",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000222",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260423000222.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260423000222.xml",
+   "bytes": 42199,
+   "sha256": "a87e9ddbba7e52ac55227f363f6af8ec2d048e8ba996fee4d19daf98337d8a71"
+  }
+ ],
+ "folder": "data/agm_kosdaq/215100_로보로보/20260423_20260423000222",
+ "fetched_at": "2026-11-16T19:33:38"
+}

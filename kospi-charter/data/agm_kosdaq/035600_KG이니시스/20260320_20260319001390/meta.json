@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260319001390",
+ "corp_code": "00264547",
+ "corp_name": "KG이니시스",
+ "stock_code": "035600",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260320",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001390",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4507,
+ "charter_amend_txt": "data/agm_kosdaq/035600_KG이니시스/20260320_20260319001390/정관의변경.txt",
+ "main_xml": "20260319001390.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260319001390.xml",
+   "bytes": 159694,
+   "sha256": "05661faff94ebbbb13d81fe2103fa7fc845ce62c3cd191c6cff0d63f114797dc"
+  }
+ ],
+ "folder": "data/agm_kosdaq/035600_KG이니시스/20260320_20260319001390",
+ "fetched_at": "2026-11-16T19:32:41"
+}

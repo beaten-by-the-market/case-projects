@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260623000317",
+ "corp_code": "01169267",
+ "corp_name": "세화피앤씨",
+ "stock_code": "252500",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260623",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000317",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 278,
+ "charter_amend_txt": "data/agm_kosdaq/252500_세화피앤씨/20260623_20260623000317/정관의변경.txt",
+ "main_xml": "20260623000317.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260623000317.xml",
+   "bytes": 54026,
+   "sha256": "b3c2d923370fc876c53151a7487cb3b569e03f9836fa46c96bc86a7674154e4b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/252500_세화피앤씨/20260623_20260623000317",
+ "fetched_at": "2026-11-16T19:35:46"
+}

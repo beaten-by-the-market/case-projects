@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261015000111",
+ "corp_code": "00204226",
+ "corp_name": "소프트센",
+ "stock_code": "032680",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261015",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000111",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 294,
+ "charter_amend_txt": "data/agm_kosdaq/032680_소프트센/20261015_20261015000111/정관의변경.txt",
+ "main_xml": "20261015000111.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261015000111.xml",
+   "bytes": 48516,
+   "sha256": "287964ba8ee30cd2994233b6fb269b6bfcb3d959b73463ba2fbd621b0ee78f65"
+  }
+ ],
+ "folder": "data/agm_kosdaq/032680_소프트센/20261015_20261015000111",
+ "fetched_at": "2026-11-16T19:39:43"
+}

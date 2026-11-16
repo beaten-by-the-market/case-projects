@@ -1,0 +1,37 @@
+{
+ "corp_code": "01493535",
+ "corp_name": "모비데이즈",
+ "stock_code": "363260",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001269",
+ "dcmNo": "11159422",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001269&dcmNo=11159422",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001269&dcmNo=11159422&eleId=1&offset=596&length=336&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 50,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/363260_모비데이즈/20260320_11159422",
+ "fetched_at": "2026-11-16T21:40:09",
+ "used_by_rcept_no": [
+  "20260320001269"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159422&flNm=%E2%97%8F+%EB%AA%A8%EB%B9%84%EB%8D%B0%EC%9D%B4%EC%A6%88+%EC%A0%95%EA%B4%80+%282025.11.21+%EA%B0%9C%EC%A0%95%29.pdf",
+   "flNm": "● 모비데이즈 정관 (2025.11.21 개정).pdf",
+   "bytes": 530301,
+   "sha256": "7d8aff15db81c9bd6668ca20c91322d7af7966fc529407ea7799643a0a51c70d",
+   "pages": 19,
+   "text_pages": 18,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260518000103",
+ "corp_code": "00152589",
+ "corp_name": "코리아나",
+ "stock_code": "027050",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260518",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000103",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 661,
+ "charter_amend_txt": "data/agm_kosdaq/027050_코리아나/20260518_20260518000103/정관의변경.txt",
+ "main_xml": "20260518000103.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260518000103.xml",
+   "bytes": 39378,
+   "sha256": "96bdcf8365302a0496ed81408fb2b8abb9ca83e9a8e2f77d2f29bd103f1054c4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/027050_코리아나/20260518_20260518000103",
+ "fetched_at": "2026-11-16T19:34:29"
+}

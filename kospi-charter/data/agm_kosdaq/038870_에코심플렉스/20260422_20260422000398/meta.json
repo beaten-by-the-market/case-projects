@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260422000398",
+ "corp_code": "00287812",
+ "corp_name": "에코심플렉스",
+ "stock_code": "038870",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260422",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422000398",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260422000398.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260422000398.xml",
+   "bytes": 60415,
+   "sha256": "847565a18f573ad0116cda5990aa33d56b5f3ae5a81f3905ced228f0b8faf8b6"
+  }
+ ],
+ "folder": "data/agm_kosdaq/038870_에코심플렉스/20260422_20260422000398",
+ "fetched_at": "2026-11-16T19:33:35"
+}

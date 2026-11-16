@@ -1,0 +1,24 @@
+{
+ "corp_code": "01468061",
+ "corp_name": "레뷰코퍼레이션",
+ "stock_code": "443250",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316000896",
+ "dcmNo": "11126176",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000896&dcmNo=11126176",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000896&dcmNo=11126176&eleId=1&offset=600&length=42031&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13887,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/443250_레뷰코퍼레이션/20260316_11126176",
+ "fetched_at": "2026-11-16T21:53:26",
+ "used_by_rcept_no": [
+  "20260316000896"
+ ]
+}

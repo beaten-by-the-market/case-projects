@@ -1,0 +1,33 @@
+{
+ "corp_code": "01534577",
+ "corp_name": "청담글로벌",
+ "stock_code": "362320",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001562",
+ "dcmNo": "11168659",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001562&dcmNo=11168659",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001562&dcmNo=11168659&eleId=1&offset=598&length=322&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 40,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/362320_청담글로벌/20260323_11168659",
+ "fetched_at": "2026-11-16T21:40:03",
+ "used_by_rcept_no": [
+  "20260323001562"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168659&flNm=a01+%EC%A0%95%EA%B4%80_24.03.28+%EA%B0%9C%EC%A0%95%EB%B3%B8.pdf",
+   "flNm": "a01 정관_24.03.28 개정본.pdf",
+   "error": "PDF 아님 (text/html;charset=UTF-8)"
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "01529982",
+ "corp_name": "씨엠티엑스",
+ "stock_code": "388210",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000962",
+ "dcmNo": "11164752",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000962&dcmNo=11164752",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000962&dcmNo=11164752&eleId=1&offset=598&length=306&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 26,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/388210_씨엠티엑스/20260323_11164752",
+ "fetched_at": "2026-11-16T21:45:20",
+ "used_by_rcept_no": [
+  "20260323000962"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164752&flNm=%28%EC%A3%BC%29%EC%94%A8%EC%97%A0%ED%8B%B0%EC%97%91%EC%8A%A4+%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "(주)씨엠티엑스 정관.pdf",
+   "bytes": 3566871,
+   "sha256": "d97f5c7417647f66c255c99200e14c9a3a442e52366e29e7fd15286b2d0e9df2",
+   "pages": 17,
+   "text_pages": 0,
+   "ocr_pages": 17
+  }
+ ],
+ "n_pdfs": 1
+}

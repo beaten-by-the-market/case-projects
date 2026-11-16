@@ -5,6 +5,7 @@
                                             위 목록의 코스피 행 + 정관 URL + 내려받은 원문 위치(상대경로 링크)
   data/final/charter_docs.json · .csv       정관 문서 단위 색인 (같은 정관을 여러 행이 쓰면 한 줄)
   data/final/agm_notices.json · .csv        주주총회소집공고 단위 색인 (정관의 변경 절 유무·txt 위치)
+  data/final/kospi_absent.json · .csv       KIND 코스피 상장사 중 사업보고서가 없어 목록에 없는 회사와 근거 (s02b)
   data/final/manifest.json                  기준일·조회기간·건수·출처·생성시각
 
 경로 열(charter_dir·charter_txt·charter_img_dir·charter_meta)은 이 케이스 폴더(kospi-charter/) 기준 상대경로다.
@@ -28,6 +29,11 @@ CH_COLS = ["charter_status", "charter_title", "charter_att_date", "charter_rcpNo
            "charter_fulltext_txt"]
 AGM_COLS = ["orig_rcept_no", "orig_rcept_dt", "agm_count", "agm_charter_amend_count", "agm_rcept_nos", "agm_kinds",
             "agm_charter_amend_rcept_nos", "agm_charter_amend_txt", "agm_charter_amend_dart_url", "agm_errors"]
+ABSENT_COLS = ["stock_code", "corp_name", "sec_group", "listed_date", "corp_code", "acc_mt", "reason_code", "reason",
+               "n_annual_reports_all", "n_annual_reports_window", "last_annual_report_dt", "last_annual_report_nm",
+               "first_fy_end", "first_report_due", "n_filings_window", "filing_forms_window", "last_filing_dt",
+               "last_filing_nm", "last_filing_rcept_no", "kind_n_disclosures_window", "kind_misc_n", "kind_misc_groups",
+               "kind_misc_kinds", "kind_misc_items"]
 LIST_COLS = {"agm_rcept_nos", "agm_kinds", "agm_charter_amend_rcept_nos", "agm_charter_amend_txt",
              "agm_charter_amend_dart_url", "used_by_rcept_no"}
 
@@ -201,7 +207,22 @@ def write_xlsx(path: Path, rows: list[dict], cols: list[str]):
         ws.column_dimensions[get_column_letter(j)].width = min(48, max(10, len(c) + 2))
     ws.freeze_panes = "C2"
     ws.auto_filter.ref = ws.dimensions
-    wb.save(path)
+    tmp = path.with_suffix(".tmp.xlsx")
+    wb.save(tmp)
+    if path.exists() and _xlsx_same(path, tmp):     # 내용이 같으면 기존 파일을 둔다 (생성 시각만 다른 헛변경 방지)
+        tmp.unlink()
+    else:
+        tmp.replace(path)
+
+
+def _xlsx_same(a: Path, b: Path) -> bool:
+    """두 xlsx 의 zip 안 파일이 문서 속성(docProps/core.xml — 생성·수정 시각)만 빼고 같은가."""
+    import zipfile
+
+    with zipfile.ZipFile(a) as za, zipfile.ZipFile(b) as zb:
+        na = sorted(n for n in za.namelist() if n != "docProps/core.xml")
+        nb = sorted(n for n in zb.namelist() if n != "docProps/core.xml")
+        return na == nb and all(za.read(n) == zb.read(n) for n in na)
 
 
 def main():
@@ -229,6 +250,21 @@ def main():
     write_json(FINAL / "agm_notices.json", notices)
     write_csv(FINAL / "agm_notices.csv", notices, ncols)
 
+    # KIND 코스피인데 사업보고서가 없어 목록에 없는 회사 (s02b) — 열 = ABSENT_COLS.
+    # 서식·제목별 건수는 JSON 은 사전, CSV 는 '이름 n건;…'. kind_misc_items 는 JSON [[날짜, KIND 접수번호, 제목], …], CSV '날짜 번호 제목;…'
+    ab = read_json(INTERIM / "s02b_kospi_absent.json") if (INTERIM / "s02b_kospi_absent.json").exists() else None
+    absent = []
+    for a in (ab or {}).get("absent", []):
+        r = {c: a.get(c) for c in ABSENT_COLS}
+        r["dart_url"] = main_url(a["last_filing_rcept_no"]) if a.get("last_filing_rcept_no") else None
+        absent.append(r)
+    write_json(FINAL / "kospi_absent.json", absent)
+    write_csv(FINAL / "kospi_absent.csv",
+              [{**r, **{c: ";".join(f"{k} {v}건" for k, v in (r[c] or {}).items())
+                        for c in ("filing_forms_window", "kind_misc_groups", "kind_misc_kinds")},
+                "kind_misc_items": ";".join(f"{d} {n} {t}" for d, n, t in (r["kind_misc_items"] or []))}
+               for r in absent], ABSENT_COLS + ["dart_url"])
+
     # 수집시점 — DART 화면·원문은 받은 때 기준이라 범위를 남긴다 (웹페이지 '한계'에 표시)
     def span(vals):
         v = sorted(x for x in vals if x)
@@ -243,11 +279,13 @@ def main():
     manifest = {
         "generated_at": now_iso(), "as_of": str(AS_OF), "window": [str(BGN), str(AS_OF)], "fetched": fetched,
         "source": {"list": "OpenDART list.json pblntf_detail_ty=A001 last_reprt_at=Y",
-                   "market": "KIND listed_issue_status — 기준일 현재 상장 목록 한 번 (제출 당시 아님)",
+                   "market": "KIND listed_issue_status: 기준일 현재 상장 목록 한 번 (제출 당시 아님)",
                    "rcept_no_new": "DART main.do <select id=family> 첫 옵션 ([첨부정정] 행만)",
                    "charter": "DART main.do <select id=att> (OpenDartReader.attach_docs 규칙) → viewer.do",
                    "agm": "OpenDART list.json E006 last_reprt_at=Y, 접수일 ∈ [원본 최초 접수일, 기준일] → document.xml, "
                           "TITLE@AASSOCNOTE=L0-0-2-2-0(정관의 변경)"},
+        "kind_kospi": ({"detail": ab["kind_detail"], "summary": ab["kind_summary"],
+                        "absent_reason": dict(Counter(a["reason_code"] for a in absent))} if ab else None),
         "counts": {
             "annual_reports": len(rows),
             "market": dict(Counter(r["market"] for r in rows)),
@@ -256,6 +294,7 @@ def main():
             "settle_month": {str(k): v for k, v in sorted(Counter(r["settle_month"] for r in rows).items())},
             "rcept_no_new_changed": sum(r["rcept_no_new"] != r["rcept_no"] for r in rows),
             "kospi_rows": len(kc),
+            "kospi_absent": len(absent),
             "kospi_charter_status": dict(Counter(r["charter_status"] for r in kc)),
             "charter_docs": len(drows),
             "charter_content_type": dict(Counter(d["content_type"] for d in drows)),

@@ -1,0 +1,24 @@
+{
+ "corp_code": "01341630",
+ "corp_name": "이노에이엑스",
+ "stock_code": "296640",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000491",
+ "dcmNo": "11136129",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000491&dcmNo=11136129",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000491&dcmNo=11136129&eleId=1&offset=595&length=18492&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11313,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/296640_이노에이엑스/20260318_11136129",
+ "fetched_at": "2026-11-16T21:27:42",
+ "used_by_rcept_no": [
+  "20260318000491"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261111000301",
+ "corp_code": "00587925",
+ "corp_name": "모아라이프플러스",
+ "stock_code": "142760",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261111",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000301",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261111000301.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261111000301.xml",
+   "bytes": 150440,
+   "sha256": "cd31dae24af44a7cd20416286c2f0a40554f47c2874d8cc3744d9cd59919fd7c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/142760_모아라이프플러스/20261111_20261111000301",
+ "fetched_at": "2026-11-16T19:40:42"
+}

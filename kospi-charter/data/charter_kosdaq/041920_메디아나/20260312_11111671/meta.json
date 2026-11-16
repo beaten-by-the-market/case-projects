@@ -1,0 +1,24 @@
+{
+ "corp_code": "00273439",
+ "corp_name": "메디아나",
+ "stock_code": "041920",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260311004653",
+ "dcmNo": "11111671",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004653&dcmNo=11111671",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004653&dcmNo=11111671&eleId=1&offset=597&length=25201&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11717,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/041920_메디아나/20260312_11111671",
+ "fetched_at": "2026-11-16T20:11:27",
+ "used_by_rcept_no": [
+  "20260311004653"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00939942",
+ "corp_name": "포시에스",
+ "stock_code": "189690",
+ "att_title": "2026.09.14 정관",
+ "att_date": "20260914",
+ "rcpNo": "20260914000282",
+ "dcmNo": "11578285",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914000282&dcmNo=11578285",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260914000282&dcmNo=11578285&eleId=1&offset=597&length=17855&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 10763,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/189690_포시에스/20260914_11578285",
+ "fetched_at": "2026-11-16T21:04:57",
+ "used_by_rcept_no": [
+  "20260914000282"
+ ]
+}

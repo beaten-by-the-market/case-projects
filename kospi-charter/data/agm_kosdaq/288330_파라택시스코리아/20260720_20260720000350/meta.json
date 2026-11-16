@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260720000350",
+ "corp_code": "01227039",
+ "corp_name": "파라택시스코리아",
+ "stock_code": "288330",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260720",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000350",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260720000350.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260720000350.xml",
+   "bytes": 49948,
+   "sha256": "1b8299d4892e08e1007e643079a3eaddfb84c60118b1df3dd5ed362f2d72e89f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/288330_파라택시스코리아/20260720_20260720000350",
+ "fetched_at": "2026-11-16T19:36:49"
+}

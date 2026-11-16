@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260615000105",
+ "corp_code": "00364467",
+ "corp_name": "드림어스컴퍼니",
+ "stock_code": "060570",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260615",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000105",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 309,
+ "charter_amend_txt": "data/agm_kosdaq/060570_드림어스컴퍼니/20260615_20260615000105/정관의변경.txt",
+ "main_xml": "20260615000105.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260615000105.xml",
+   "bytes": 54944,
+   "sha256": "c09882e101c2fffca2a8b834c0250a30fa2e543f22d2313b23b2143184f48c00"
+  }
+ ],
+ "folder": "data/agm_kosdaq/060570_드림어스컴퍼니/20260615_20260615000105",
+ "fetched_at": "2026-11-16T19:35:26"
+}

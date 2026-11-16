@@ -1,0 +1,25 @@
+{
+ "corp_code": "00439965",
+ "corp_name": "나노신소재",
+ "stock_code": "121600",
+ "att_title": "2026.03.30 [정정] 정관",
+ "att_date": "20260330",
+ "rcpNo": "20260330001721",
+ "dcmNo": "11198321",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330001721&dcmNo=11198321",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260330001721&dcmNo=11198321&eleId=1&offset=645&length=3194&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260330001721&dcmNo=11198321&eleId=2&offset=3869&length=19398&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "text",
+ "text_chars": 12104,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/121600_나노신소재/20260330_11198321",
+ "fetched_at": "2026-11-16T20:52:56",
+ "used_by_rcept_no": [
+  "20260330001721"
+ ]
+}

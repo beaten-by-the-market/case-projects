@@ -1,0 +1,24 @@
+{
+ "corp_code": "01381391",
+ "corp_name": "에스피소프트",
+ "stock_code": "443670",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000657",
+ "dcmNo": "11137123",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000657&dcmNo=11137123",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000657&dcmNo=11137123&eleId=1&offset=597&length=22926&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12462,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/443670_에스피소프트/20260318_11137123",
+ "fetched_at": "2026-11-16T21:53:28",
+ "used_by_rcept_no": [
+  "20260318000657"
+ ]
+}

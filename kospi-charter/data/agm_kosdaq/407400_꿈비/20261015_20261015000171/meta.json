@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261015000171",
+ "corp_code": "01586455",
+ "corp_name": "꿈비",
+ "stock_code": "407400",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261015",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000171",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261015000171.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261015000171.xml",
+   "bytes": 49538,
+   "sha256": "12b8f464784c308fe32f88ab8ccc6c82c5c0b742c9a943b1806367526cb7e4de"
+  }
+ ],
+ "folder": "data/agm_kosdaq/407400_꿈비/20261015_20261015000171",
+ "fetched_at": "2026-11-16T19:39:45"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260728000480",
+ "corp_code": "01359815",
+ "corp_name": "한울반도체",
+ "stock_code": "320000",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260728",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000480",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 869,
+ "charter_amend_txt": "data/agm_kosdaq/320000_한울반도체/20260728_20260728000480/정관의변경.txt",
+ "main_xml": "20260728000480.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260728000480.xml",
+   "bytes": 121767,
+   "sha256": "c7c862d56d9df051a6b9dbe8606ae5a82421ea0b587dda4f06acc79d8da81af0"
+  }
+ ],
+ "folder": "data/agm_kosdaq/320000_한울반도체/20260728_20260728000480",
+ "fetched_at": "2026-11-16T19:37:23"
+}

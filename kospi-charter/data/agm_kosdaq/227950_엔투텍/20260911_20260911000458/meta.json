@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260911000458",
+ "corp_code": "01105621",
+ "corp_name": "엔투텍",
+ "stock_code": "227950",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260911",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000458",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3558,
+ "charter_amend_txt": "data/agm_kosdaq/227950_엔투텍/20260911_20260911000458/정관의변경.txt",
+ "main_xml": "20260911000458.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260911000458.xml",
+   "bytes": 61370,
+   "sha256": "b5fdb544912d2e7deba2be7de7a25df552eb39804c9ef026a179f904ff135448"
+  }
+ ],
+ "folder": "data/agm_kosdaq/227950_엔투텍/20260911_20260911000458",
+ "fetched_at": "2026-11-16T19:38:48"
+}

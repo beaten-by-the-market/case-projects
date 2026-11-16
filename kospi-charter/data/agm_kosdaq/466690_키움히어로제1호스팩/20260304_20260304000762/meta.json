@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260304000762",
+ "corp_code": "01784677",
+ "corp_name": "키움히어로제1호스팩",
+ "stock_code": "466690",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260304",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260304000762",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260304000762.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260304000762.xml",
+   "bytes": 106350,
+   "sha256": "ac35c9b7352ea9774d66c5716496f0adab4e92ca2af0aa6007179eecbe9b0f9a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/466690_키움히어로제1호스팩/20260304_20260304000762",
+ "fetched_at": "2026-11-16T19:32:08"
+}

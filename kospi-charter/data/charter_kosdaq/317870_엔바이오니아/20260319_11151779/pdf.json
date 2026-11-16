@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151779&flNm=%EC%97%94%EB%B0%94%EC%9D%B4%EC%98%A4%EB%8B%88%EC%95%84+%EC%A0%95%EA%B4%80_20250328.pdf",
+   "flNm": "엔바이오니아 정관_20250328.pdf",
+   "bytes": 612855,
+   "sha256": "a698c1ae26ef27f1643eb3868f25e66aa8e0401f86b0e50d81279c88b94b8aa0",
+   "pages": 15,
+   "text_pages": 0,
+   "ocr_pages": 15
+  }
+ ],
+ "total_chars": 11709,
+ "pages": 15,
+ "text_pages": 0,
+ "ocr_pages": 15,
+ "created_at": "2026-11-16T22:14:58",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

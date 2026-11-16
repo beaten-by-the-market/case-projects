@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260814003207",
+ "corp_code": "00109781",
+ "corp_name": "대림제지",
+ "stock_code": "017650",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260814",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003207",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 305,
+ "charter_amend_txt": "data/agm_kosdaq/017650_대림제지/20260814_20260814003207/정관의변경.txt",
+ "main_xml": "20260814003207.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260814003207.xml",
+   "bytes": 78761,
+   "sha256": "6cd33a8cb17582350935631f487b574d30ce9727913d24cd4a748f6c24eeb293"
+  }
+ ],
+ "folder": "data/agm_kosdaq/017650_대림제지/20260814_20260814003207",
+ "fetched_at": "2026-11-16T19:37:52"
+}

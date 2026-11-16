@@ -1,0 +1,225 @@
+{
+ "corp_code": "00530121",
+ "corp_name": "디에스케이",
+ "stock_code": "109740",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001333",
+ "dcmNo": "11167020",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001333&dcmNo=11167020",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001333&dcmNo=11167020&eleId=1&offset=596&length=3726&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 20,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_01.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_01",
+   "bytes": 57034,
+   "sha256": "ce0c6268fcae0cf75b6c6d79492fce08dfd1c0466f18ee71bc6eddd97eaa1799",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_02.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_02",
+   "bytes": 141548,
+   "sha256": "d2150a8ae6b549b60519f98849b9d0b30a83371de73e680c2bacfd5b1c0790d1",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_03.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_03",
+   "bytes": 252925,
+   "sha256": "8eae595f1213c6306f7c5262773b23c0113da9a8bbb83fa530a9f4709db706c9",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_04.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_04",
+   "bytes": 229266,
+   "sha256": "e1f74f60ce5118a86bb101c4a34c2f7e78f64ea8d351ebbf3af3e90815aa6750",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_05.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_05",
+   "bytes": 225405,
+   "sha256": "13211cc980d3af1bfe82efedf3db368fd63ad10fed082dff22bffe5cd4676f46",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_06.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_06",
+   "bytes": 233094,
+   "sha256": "b6ca60556b075078d945a78e361c8aceb120363a0a4c8e694674c05b211e4214",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_07.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_07",
+   "bytes": 251410,
+   "sha256": "8641d8bc7aa773d48dabb6437dcb3d432137516cb0adc280fc0d9ce390f98011",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_08.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_08",
+   "bytes": 231356,
+   "sha256": "56a43ee40987f6273cee57ccdc65650f1e4934e72652079793a3abe21255d1c7",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_09.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_09",
+   "bytes": 302895,
+   "sha256": "938f94b32b5890fa48587556240f4fbe8ef3e90084b0104aedb508f4ecc5cb8a",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_10.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_10",
+   "bytes": 297051,
+   "sha256": "08e25fb9087ace1dbb8379fca474e63b60e4dbe98bb7b6ec09b1804e175c4824",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_11.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_11",
+   "bytes": 259753,
+   "sha256": "3c16d985ea45fe6616baed39cefd293c4c261c7289c34c816f4e2c833884e0f7",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_12.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_12",
+   "bytes": 235550,
+   "sha256": "a1c599302cb4a17b51bce6647ec410cacd023492679fc65cb9deca5aaced3015",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_13.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_13",
+   "bytes": 302593,
+   "sha256": "e841f0591673e83fa3d110f5280da81c5b5d1c6d87b42265348ecc061b2eca92",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_14.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_14",
+   "bytes": 263438,
+   "sha256": "3eb8a385c9c46cc7ca6890d7fa057d9e8fd05dd69e7eaea97061f0ac847be16f",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_15.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_15.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_15",
+   "bytes": 250684,
+   "sha256": "ee29153b5eaa7c4ab2eda7518062ca078008609af2120d891b3a3df7aa99febc",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_16.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_16.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_16",
+   "bytes": 297418,
+   "sha256": "729d13536da6e7291709882d87ce09890ef7ae757960de66ff6c7a7ba33e8ebe",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_17.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_17.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_17",
+   "bytes": 280677,
+   "sha256": "7cb33b045eb68a9a9bdb17e537eeb2632807ff2a5fd7d09234be235d41d40fdd",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_18.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_18.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_18",
+   "bytes": 301355,
+   "sha256": "ea5bc32658978e3e8394c5ac649b15e494a159c056b1ffe7ea64aa15df620cc3",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_19.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_19.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_19",
+   "bytes": 231495,
+   "sha256": "f8c0fd17e4668de31d236ddf8ded001cf501b2e9367631b412b0bf128a476e53",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167020&flNm=2025_%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_fn_250325_%ED%8E%98%EC%9D%B4%EC%A7%80_20.jpg",
+   "flNm": "2025_개정정관_fn_250325_페이지_20.jpg",
+   "alt": "이미지: 2025_개정정관_fn_250325_페이지_20",
+   "bytes": 124121,
+   "sha256": "a740360770dc751babcf4addf1ae4503a960164006bc6d168ce119b169f5a296",
+   "width": 1653,
+   "height": 2337
+  }
+ ],
+ "folder": "data/charter_kosdaq/109740_디에스케이/20260323_11167020",
+ "fetched_at": "2026-11-16T20:50:45",
+ "used_by_rcept_no": [
+  "20260323001333"
+ ]
+}

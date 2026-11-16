@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260910000216",
+ "corp_code": "01516890",
+ "corp_name": "E8",
+ "stock_code": "418620",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260910",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000216",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2490,
+ "charter_amend_txt": "data/agm_kosdaq/418620_E8/20260910_20260910000216/정관의변경.txt",
+ "main_xml": "20260910000216.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260910000216.xml",
+   "bytes": 64091,
+   "sha256": "0a6fae052f7c6e9ee300bb46fdb9e4b0f4ff07a48e1747b2acf435ee8f6fb7fe"
+  }
+ ],
+ "folder": "data/agm_kosdaq/418620_E8/20260910_20260910000216",
+ "fetched_at": "2026-11-16T19:38:43"
+}

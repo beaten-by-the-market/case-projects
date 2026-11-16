@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260723000186",
+ "corp_code": "01493535",
+ "corp_name": "모비데이즈",
+ "stock_code": "363260",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260723",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000186",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2001,
+ "charter_amend_txt": "data/agm_kosdaq/363260_모비데이즈/20260723_20260723000186/정관의변경.txt",
+ "main_xml": "20260723000186.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260723000186.xml",
+   "bytes": 114074,
+   "sha256": "a89d91eb0054f46f8e1d515532ed95193eee294191c8e44131787cc40fa60ece"
+  }
+ ],
+ "folder": "data/agm_kosdaq/363260_모비데이즈/20260723_20260723000186",
+ "fetched_at": "2026-11-16T19:37:10"
+}

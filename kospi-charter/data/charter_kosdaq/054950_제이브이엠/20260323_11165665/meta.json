@@ -1,0 +1,24 @@
+{
+ "corp_code": "00361381",
+ "corp_name": "제이브이엠",
+ "stock_code": "054950",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001116",
+ "dcmNo": "11165665",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001116&dcmNo=11165665",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001116&dcmNo=11165665&eleId=1&offset=596&length=28741&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12183,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/054950_제이브이엠/20260323_11165665",
+ "fetched_at": "2026-11-16T20:19:51",
+ "used_by_rcept_no": [
+  "20260325000430"
+ ]
+}

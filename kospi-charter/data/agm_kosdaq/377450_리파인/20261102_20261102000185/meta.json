@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261102000185",
+ "corp_code": "01210066",
+ "corp_name": "리파인",
+ "stock_code": "377450",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261102",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102000185",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 699,
+ "charter_amend_txt": "data/agm_kosdaq/377450_리파인/20261102_20261102000185/정관의변경.txt",
+ "main_xml": "20261102000185.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261102000185.xml",
+   "bytes": 77454,
+   "sha256": "f58696b7fc9f9bd17e62e5f1273d23b5ad5834317f2c943070c066aca9d89cde"
+  }
+ ],
+ "folder": "data/agm_kosdaq/377450_리파인/20261102_20261102000185",
+ "fetched_at": "2026-11-16T19:40:27"
+}

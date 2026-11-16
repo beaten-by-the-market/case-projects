@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261113001083",
+ "corp_code": "00556615",
+ "corp_name": "모바일어플라이언스",
+ "stock_code": "087260",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261113",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001083",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 746,
+ "charter_amend_txt": "data/agm_kosdaq/087260_모바일어플라이언스/20261113_20261113001083/정관의변경.txt",
+ "main_xml": "20261113001083.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261113001083.xml",
+   "bytes": 121365,
+   "sha256": "ffe2be1b1b42a1868b47cd4a899b26319c2d8545f396526cd5dbb4ba6075c65f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/087260_모바일어플라이언스/20261113_20261113001083",
+ "fetched_at": "2026-11-16T19:40:51"
+}

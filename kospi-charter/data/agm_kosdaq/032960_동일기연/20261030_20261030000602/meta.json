@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261030000602",
+ "corp_code": "00199076",
+ "corp_name": "동일기연",
+ "stock_code": "032960",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261030",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000602",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261030000602.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261030000602.xml",
+   "bytes": 39114,
+   "sha256": "fc5503d6793e1cd491ce558ca2207d36ae09e97957c1d1b3b2546c4b8cd70b4d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/032960_동일기연/20261030_20261030000602",
+ "fetched_at": "2026-11-16T19:40:26"
+}

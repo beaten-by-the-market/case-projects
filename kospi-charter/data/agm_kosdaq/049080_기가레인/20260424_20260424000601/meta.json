@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260424000601",
+ "corp_code": "00377018",
+ "corp_name": "기가레인",
+ "stock_code": "049080",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260424",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424000601",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 188,
+ "charter_amend_txt": "data/agm_kosdaq/049080_기가레인/20260424_20260424000601/정관의변경.txt",
+ "main_xml": "20260424000601.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260424000601.xml",
+   "bytes": 49173,
+   "sha256": "4201f858d226f72ab97b9160c95807675dbb4cf47b984cdbeb86800173fef684"
+  }
+ ],
+ "folder": "data/agm_kosdaq/049080_기가레인/20260424_20260424000601",
+ "fetched_at": "2026-11-16T19:33:40"
+}

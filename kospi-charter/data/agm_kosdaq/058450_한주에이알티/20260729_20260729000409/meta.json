@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260729000409",
+ "corp_code": "00146427",
+ "corp_name": "한주에이알티",
+ "stock_code": "058450",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260729",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000409",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1040,
+ "charter_amend_txt": "data/agm_kosdaq/058450_한주에이알티/20260729_20260729000409/정관의변경.txt",
+ "main_xml": "20260729000409.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260729000409.xml",
+   "bytes": 53941,
+   "sha256": "926e9f02e58af5b9a4bc569e740b31caa1fe5c60965348cf26fa0c0ce9562bea"
+  }
+ ],
+ "folder": "data/agm_kosdaq/058450_한주에이알티/20260729_20260729000409",
+ "fetched_at": "2026-11-16T19:37:24"
+}

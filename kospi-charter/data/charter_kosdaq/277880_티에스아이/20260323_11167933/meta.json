@@ -1,0 +1,37 @@
+{
+ "corp_code": "01139035",
+ "corp_name": "티에스아이",
+ "stock_code": "277880",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001468",
+ "dcmNo": "11167933",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001468&dcmNo=11167933",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001468&dcmNo=11167933&eleId=1&offset=598&length=328&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 42,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/277880_티에스아이/20260323_11167933",
+ "fetched_at": "2026-11-16T21:23:22",
+ "used_by_rcept_no": [
+  "20260323001468"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167933&flNm=03_%EC%A0%95%EA%B4%80_20250326_syh.pdf",
+   "flNm": "03_정관_20250326_syh.pdf",
+   "bytes": 534786,
+   "sha256": "4ff0c66377ddfb6cab5bd986f838d28c7eed888c343a9e0e56b8ec57bd14ec6f",
+   "pages": 18,
+   "text_pages": 17,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

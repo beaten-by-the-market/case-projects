@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260528000517",
+ "corp_code": "00151605",
+ "corp_name": "청보",
+ "stock_code": "013720",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260528",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528000517",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 693,
+ "charter_amend_txt": "data/agm_kosdaq/013720_청보/20260528_20260528000517/정관의변경.txt",
+ "main_xml": "20260528000517.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260528000517.xml",
+   "bytes": 66431,
+   "sha256": "dc1e2c5ddb4082e9ea0370e4462470ffb9445da30981b0dae2a82b4ed232406c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/013720_청보/20260528_20260528000517",
+ "fetched_at": "2026-11-16T19:34:43"
+}

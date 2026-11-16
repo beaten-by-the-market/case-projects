@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://kind.krx.co.kr/external/2026/02/25/001757/20260225001091/%EB%B0%9C%ED%95%B4%EC%9D%B8%ED%94%84%EB%9D%BC%20%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_20260225.pdf",
+   "flNm": "발해인프라 개정정관_20260225.pdf",
+   "bytes": 844299,
+   "sha256": "e3a68858941c33ebc289084d93fce8b26d30e97ff70dd15093aeb80f6956d149",
+   "pages": 24,
+   "text_pages": 23,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 13574,
+ "pages": 24,
+ "text_pages": 23,
+ "ocr_pages": 1,
+ "created_at": "2026-11-17T01:16:10",
+ "engine": {
+  "text": "PyMuPDF (s04c.extract)",
+  "ocr": "Windows.Media.Ocr ko"
+ }
+}

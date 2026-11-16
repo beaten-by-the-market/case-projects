@@ -1,0 +1,24 @@
+{
+ "corp_code": "00799539",
+ "corp_name": "제노레이",
+ "stock_code": "122310",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001414",
+ "dcmNo": "11153917",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001414&dcmNo=11153917",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001414&dcmNo=11153917&eleId=1&offset=595&length=27043&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11820,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/122310_제노레이/20260319_11153917",
+ "fetched_at": "2026-11-16T20:53:18",
+ "used_by_rcept_no": [
+  "20260327001840"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260316001606",
+ "corp_code": "00137289",
+ "corp_name": "이엘씨",
+ "stock_code": "041520",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260317",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001606",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1384,
+ "charter_amend_txt": "data/agm_kosdaq/041520_이엘씨/20260317_20260316001606/정관의변경.txt",
+ "main_xml": "20260316001606.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260316001606.xml",
+   "bytes": 405307,
+   "sha256": "16bdf55f12a314477fad3c50623d73dbaddfbe2475be59f93a405ae02918a7f8"
+  }
+ ],
+ "folder": "data/agm_kosdaq/041520_이엘씨/20260317_20260316001606",
+ "fetched_at": "2026-11-16T19:32:27"
+}

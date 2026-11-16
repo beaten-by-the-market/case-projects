@@ -1,0 +1,24 @@
+{
+ "corp_code": "00367385",
+ "corp_name": "효성오앤비",
+ "stock_code": "097870",
+ "att_title": "2026.09.18 정관",
+ "att_date": "20260918",
+ "rcpNo": "20260918000219",
+ "dcmNo": "11584807",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918000219&dcmNo=11584807",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260918000219&dcmNo=11584807&eleId=1&offset=596&length=17767&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9568,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/097870_효성오앤비/20260918_11584807",
+ "fetched_at": "2026-11-16T20:46:50",
+ "used_by_rcept_no": [
+  "20260918000219"
+ ]
+}

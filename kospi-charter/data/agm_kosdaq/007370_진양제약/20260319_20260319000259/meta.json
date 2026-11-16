@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260319000259",
+ "corp_code": "00150536",
+ "corp_name": "진양제약",
+ "stock_code": "007370",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000259",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1525,
+ "charter_amend_txt": "data/agm_kosdaq/007370_진양제약/20260319_20260319000259/정관의변경.txt",
+ "main_xml": "20260319000259.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260319000259.xml",
+   "bytes": 238097,
+   "sha256": "219fd754109d5b83537b4458612a549e5ad94f1e12cbf0d0558562dd752e1e17"
+  }
+ ],
+ "folder": "data/agm_kosdaq/007370_진양제약/20260319_20260319000259",
+ "fetched_at": "2026-11-16T19:32:36"
+}

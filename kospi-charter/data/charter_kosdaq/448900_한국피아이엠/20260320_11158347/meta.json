@@ -1,0 +1,37 @@
+{
+ "corp_code": "00765897",
+ "corp_name": "한국피아이엠",
+ "stock_code": "448900",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001061",
+ "dcmNo": "11158347",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001061&dcmNo=11158347",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001061&dcmNo=11158347&eleId=1&offset=597&length=328&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 50,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/448900_한국피아이엠/20260320_11158347",
+ "fetched_at": "2026-11-16T21:54:36",
+ "used_by_rcept_no": [
+  "20260320001061"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158347&flNm=%EC%A0%95%EA%B4%80_2022.11.18%EA%B0%9C%EC%A0%95%28%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84%29.pdf",
+   "flNm": "정관_2022.11.18개정(원본대조필).pdf",
+   "bytes": 3862774,
+   "sha256": "313f3d5ce91ab45c67aa3f48cf888fab5068bfafec8d9f5fab72714e754f4b81",
+   "pages": 18,
+   "text_pages": 0,
+   "ocr_pages": 18
+  }
+ ],
+ "n_pdfs": 1
+}

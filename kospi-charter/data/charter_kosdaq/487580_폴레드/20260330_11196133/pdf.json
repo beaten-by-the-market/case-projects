@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11196133&flNm=%ED%8F%B4%EB%A0%88%EB%93%9C_%EC%A0%95%EA%B4%80_2025.11.pdf",
+   "flNm": "폴레드_정관_2025.11.pdf",
+   "bytes": 257065,
+   "sha256": "938848edbfa4708d7005ffbfd8eb5e036e5e99a9e1f2e50a228aea4f323d8e55",
+   "pages": 22,
+   "text_pages": 22,
+   "ocr_pages": 0
+  }
+ ],
+ "total_chars": 12741,
+ "pages": 22,
+ "text_pages": 22,
+ "ocr_pages": 0,
+ "created_at": "2026-11-16T22:18:12",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": null
+ }
+}

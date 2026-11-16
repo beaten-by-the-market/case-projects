@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261015000416",
+ "corp_code": "00391197",
+ "corp_name": "하이퍼코퍼레이션",
+ "stock_code": "065650",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261015",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000416",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 450,
+ "charter_amend_txt": "data/agm_kosdaq/065650_하이퍼코퍼레이션/20261015_20261015000416/정관의변경.txt",
+ "main_xml": "20261015000416.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261015000416.xml",
+   "bytes": 72444,
+   "sha256": "953ca4eca4e5667bab3fd2db266be9454f716d394e97b6f37a6f5fce7f815182"
+  }
+ ],
+ "folder": "data/agm_kosdaq/065650_하이퍼코퍼레이션/20261015_20261015000416",
+ "fetched_at": "2026-11-16T19:39:46"
+}

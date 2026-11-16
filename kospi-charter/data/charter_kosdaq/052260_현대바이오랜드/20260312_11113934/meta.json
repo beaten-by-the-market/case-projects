@@ -1,0 +1,225 @@
+{
+ "corp_code": "00347062",
+ "corp_name": "현대바이오랜드",
+ "stock_code": "052260",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312000632",
+ "dcmNo": "11113934",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000632&dcmNo=11113934",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000632&dcmNo=11113934&eleId=1&offset=600&length=2828&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 20,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%281%29.jpg",
+   "flNm": "(1).jpg",
+   "alt": "이미지: (1)",
+   "bytes": 214644,
+   "sha256": "05057ae886bff715b37a4437f226f8194557683a0399698c0ab9cc429b37133a",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%282%29.jpg",
+   "flNm": "(2).jpg",
+   "alt": "이미지: (2)",
+   "bytes": 229620,
+   "sha256": "5a509d7aacf49d6cdabdbbab6184299da7c212c66958bdc6017accfb0a7d3aee",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%283%29.jpg",
+   "flNm": "(3).jpg",
+   "alt": "이미지: (3)",
+   "bytes": 211120,
+   "sha256": "12c8430a6b200767fc736da53cae0c11742da4e538aa63c152b615686c383913",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%284%29.jpg",
+   "flNm": "(4).jpg",
+   "alt": "이미지: (4)",
+   "bytes": 192773,
+   "sha256": "0712af22cb91aead47448403b3d8dbea9d6a44cc695f1d33f3e9e505991b6be6",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%285%29.jpg",
+   "flNm": "(5).jpg",
+   "alt": "이미지: (5)",
+   "bytes": 202518,
+   "sha256": "eda30e45c9019317e386b5e398475a5b5b8d140d0c910cebe5b84d4a5ad74003",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%286%29.jpg",
+   "flNm": "(6).jpg",
+   "alt": "이미지: (6)",
+   "bytes": 206208,
+   "sha256": "be59daa3ec067e2bc04bfe77fdc280fe4c846067f86bb49ebd9638bc32a44981",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%287%29.jpg",
+   "flNm": "(7).jpg",
+   "alt": "이미지: (7)",
+   "bytes": 190158,
+   "sha256": "8dadcf2c0bf509d1f78ac41bde761a5db07af2c28c4c5f5efd54d247669e617d",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%288%29.jpg",
+   "flNm": "(8).jpg",
+   "alt": "이미지: (8)",
+   "bytes": 204050,
+   "sha256": "b8f3bde76776bd5e20aa7b71393222d66b260ec947b153b07638567c579d4267",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%289%29.jpg",
+   "flNm": "(9).jpg",
+   "alt": "이미지: (9)",
+   "bytes": 251060,
+   "sha256": "ef6483b5dd004c32862e08acbdde319a6c0865643afe3862eb09be7da2c29716",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%2810%29.jpg",
+   "flNm": "(10).jpg",
+   "alt": "이미지: (10)",
+   "bytes": 213376,
+   "sha256": "ae73e7bf59c86da42c46be0061817978a92f00d2a29c988d0ad02f9cf67e04f7",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%2811%29.jpg",
+   "flNm": "(11).jpg",
+   "alt": "이미지: (11)",
+   "bytes": 252684,
+   "sha256": "c4cd5105084dd5edde10ba4575e9ec974efefb566651f1663ad60ca5863469af",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%2812%29.jpg",
+   "flNm": "(12).jpg",
+   "alt": "이미지: (12)",
+   "bytes": 183020,
+   "sha256": "e8c6af1bada0ad46708cd04eca63afaf8818787a1d7b3495c5be191c6f90b35d",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%2813%29.jpg",
+   "flNm": "(13).jpg",
+   "alt": "이미지: (13)",
+   "bytes": 289600,
+   "sha256": "084a280061fbdaa887600b134d115f78eefb540ba16128a9c6ad43afa25f77b1",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%2814%29.jpg",
+   "flNm": "(14).jpg",
+   "alt": "이미지: (14)",
+   "bytes": 217059,
+   "sha256": "e39e39bf2efb3e1c999551c610756c1a0e69f7aaa0d66f723d12a18e287c387d",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%2815%29.jpg",
+   "flNm": "(15).jpg",
+   "alt": "이미지: (15)",
+   "bytes": 298320,
+   "sha256": "5b98349477e19ce8861e634bc3a98ea987c754f9c13b1ecb542552db7fc9ee74",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%2816%29.jpg",
+   "flNm": "(16).jpg",
+   "alt": "이미지: (16)",
+   "bytes": 304357,
+   "sha256": "c36709b1cd9e282f66610266e31259bee4167e841c02a9488395918e7ed652a4",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%2817%29.jpg",
+   "flNm": "(17).jpg",
+   "alt": "이미지: (17)",
+   "bytes": 221875,
+   "sha256": "07742b6c0d292a2def7301d10c5c715a9d681f75d1f702aabab45b2890fb9cb4",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%2818%29.jpg",
+   "flNm": "(18).jpg",
+   "alt": "이미지: (18)",
+   "bytes": 271173,
+   "sha256": "03c824f373287e5f02c9c2db00b27b4466931d45bb6b14bc1084bad98a1c08ca",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%2819%29.jpg",
+   "flNm": "(19).jpg",
+   "alt": "이미지: (19)",
+   "bytes": 274930,
+   "sha256": "397933766b6fd5907fd9465e8605633a665ec96660d478da0f5ba6ef8e57aadd",
+   "width": 1191,
+   "height": 1684
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11113934&flNm=%2820%29.jpg",
+   "flNm": "(20).jpg",
+   "alt": "이미지: (20)",
+   "bytes": 109732,
+   "sha256": "9a5be7bac56c7fc26b51aba104093145091d1cd9ecb14c7847145bdc7f846197",
+   "width": 1191,
+   "height": 1684
+  }
+ ],
+ "folder": "data/charter_kosdaq/052260_현대바이오랜드/20260312_11113934",
+ "fetched_at": "2026-11-16T20:17:00",
+ "used_by_rcept_no": [
+  "20260312000632"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260602000285",
+ "corp_code": "01166109",
+ "corp_name": "예선테크",
+ "stock_code": "250930",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260602",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000285",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1804,
+ "charter_amend_txt": "data/agm_kosdaq/250930_예선테크/20260602_20260602000285/정관의변경.txt",
+ "main_xml": "20260602000285.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260602000285.xml",
+   "bytes": 51336,
+   "sha256": "54de90d7748af29aabbd644635395e843475662401dd89c267a429f01f02f90e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/250930_예선테크/20260602_20260602000285",
+ "fetched_at": "2026-11-16T19:34:49"
+}

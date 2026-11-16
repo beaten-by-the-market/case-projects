@@ -1,0 +1,37 @@
+{
+ "corp_code": "01708163",
+ "corp_name": "엔알비",
+ "stock_code": "475230",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001166",
+ "dcmNo": "11140601",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001166&dcmNo=11140601",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001166&dcmNo=11140601&eleId=1&offset=596&length=336&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 54,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/475230_엔알비/20260318_11140601",
+ "fetched_at": "2026-11-16T22:01:23",
+ "used_by_rcept_no": [
+  "20260318001166"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140601&flNm=%EC%97%94%EC%95%8C%EB%B9%84+%EC%A0%95%EA%B4%80%28250331%EC%8B%9C%ED%96%89%29_%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%82%A0%EC%9D%B8%EB%B3%B8.pdf",
+   "flNm": "엔알비 정관(250331시행)_원본대조필 날인본.pdf",
+   "bytes": 3777162,
+   "sha256": "a5c2adf7ec6dfe895a150d5c153e9d908386e9df5403ef990a256cc1313f31c7",
+   "pages": 20,
+   "text_pages": 0,
+   "ocr_pages": 20
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,185 @@
+{
+ "corp_code": "00444329",
+ "corp_name": "위메이드",
+ "stock_code": "112040",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000853",
+ "dcmNo": "11149713",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000853&dcmNo=11149713",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000853&dcmNo=11149713&eleId=1&offset=593&length=2489&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 16,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_1.jpg",
+   "flNm": "정관_위메이드_1.jpg",
+   "alt": "이미지: 정관_위메이드_1",
+   "bytes": 43910,
+   "sha256": "5192303e313df991ba947f2184880897e2e0d2f8f4c3bddf9308e0eb1563be64",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_2.jpg",
+   "flNm": "정관_위메이드_2.jpg",
+   "alt": "이미지: 정관_위메이드_2",
+   "bytes": 122429,
+   "sha256": "5ff815207ecc3b6257d10a2f9dbc2f2843a88eb7ae550c72ef9bf64ecbcb4912",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_3.jpg",
+   "flNm": "정관_위메이드_3.jpg",
+   "alt": "이미지: 정관_위메이드_3",
+   "bytes": 227025,
+   "sha256": "0a341b87523e796926cbe4c8ed400668b5c7f4ffe17cccceef0d039cffb50f2e",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_4.jpg",
+   "flNm": "정관_위메이드_4.jpg",
+   "alt": "이미지: 정관_위메이드_4",
+   "bytes": 239209,
+   "sha256": "8df4c7f28b352c8d3faf828a2d29ef4bcfc71a2bc5dab395210d372cbc0dc5e7",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_5.jpg",
+   "flNm": "정관_위메이드_5.jpg",
+   "alt": "이미지: 정관_위메이드_5",
+   "bytes": 243981,
+   "sha256": "1f4fd5d66e3175ffd8eb6f1082860cc7cf45ba759af7f29b551a29b74da54a6e",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_6.jpg",
+   "flNm": "정관_위메이드_6.jpg",
+   "alt": "이미지: 정관_위메이드_6",
+   "bytes": 198295,
+   "sha256": "50755dd6f19b98c5a0b015cf526bee5234fa333a52a7af00f4eae4d793b17afd",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_7.jpg",
+   "flNm": "정관_위메이드_7.jpg",
+   "alt": "이미지: 정관_위메이드_7",
+   "bytes": 232402,
+   "sha256": "8b3bc1bffc1584802d21e8e8ecc4b41f5573564a576765432d689f2dfbe8b7ce",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_8.jpg",
+   "flNm": "정관_위메이드_8.jpg",
+   "alt": "이미지: 정관_위메이드_8",
+   "bytes": 191813,
+   "sha256": "ac53f2e7541ff6c1286a35bca83b44caa5dd4fe4b4abba06b0c44786492d80a5",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_9.jpg",
+   "flNm": "정관_위메이드_9.jpg",
+   "alt": "이미지: 정관_위메이드_9",
+   "bytes": 168141,
+   "sha256": "9ea5ac39fa919028ec8a8f5704377e7e1d9166d8626eac4798903105b351d938",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_10.jpg",
+   "flNm": "정관_위메이드_10.jpg",
+   "alt": "이미지: 정관_위메이드_10",
+   "bytes": 190618,
+   "sha256": "48394c4fcad91f646654f8637bb05fab15fb89d364ed49327022af5f56ee180e",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_11.jpg",
+   "flNm": "정관_위메이드_11.jpg",
+   "alt": "이미지: 정관_위메이드_11",
+   "bytes": 169972,
+   "sha256": "f7097088a9e2864a6d07f81ebea5afa364a264999abc9d2aac9d5cfd88a42c29",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_12.jpg",
+   "flNm": "정관_위메이드_12.jpg",
+   "alt": "이미지: 정관_위메이드_12",
+   "bytes": 226499,
+   "sha256": "9dc1e0722d29f53b0540dca4356c3d4bb6be5df49e77d89ccedc37cc2edcb385",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_13.jpg",
+   "flNm": "정관_위메이드_13.jpg",
+   "alt": "이미지: 정관_위메이드_13",
+   "bytes": 180756,
+   "sha256": "a048aa0e727143facf7f4e7263d5e74758e7a229a52bacd1f007312f0d99b53e",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_14.jpg",
+   "flNm": "정관_위메이드_14.jpg",
+   "alt": "이미지: 정관_위메이드_14",
+   "bytes": 165041,
+   "sha256": "69d9689ca9ce64c8a5e8073f4344bae3d10f3902b28911f4e7853e473bceb5c2",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_15.jpg",
+   "flNm": "정관_위메이드_15.jpg",
+   "alt": "이미지: 정관_위메이드_15",
+   "bytes": 95836,
+   "sha256": "3503b548cc0bddc85a43d16bfe02061178fabfc41f179c838ffd0a44bc5fa33d",
+   "width": 1116,
+   "height": 1579
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11149713&flNm=%EC%A0%95%EA%B4%80_%EC%9C%84%EB%A9%94%EC%9D%B4%EB%93%9C_16.jpg",
+   "flNm": "정관_위메이드_16.jpg",
+   "alt": "이미지: 정관_위메이드_16",
+   "bytes": 86893,
+   "sha256": "7e55ee0c239639e66a56cfbd43ce3e8893eb3b05bb06a788c87eabe5c73b724e",
+   "width": 1116,
+   "height": 1579
+  }
+ ],
+ "folder": "data/charter_kosdaq/112040_위메이드/20260319_11149713",
+ "fetched_at": "2026-11-16T20:51:15",
+ "used_by_rcept_no": [
+  "20260319000853"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260806000470",
+ "corp_code": "00888347",
+ "corp_name": "휴젤",
+ "stock_code": "145020",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260806",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000470",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260806000470.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260806000470.xml",
+   "bytes": 173112,
+   "sha256": "bbfcc8b35799309cb8d657f65fb14886825e50220fffc5049180bb1c4656adeb"
+  }
+ ],
+ "folder": "data/agm_kosdaq/145020_휴젤/20260806_20260806000470",
+ "fetched_at": "2026-11-16T19:37:35"
+}

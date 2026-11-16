@@ -1,0 +1,375 @@
+{
+ "corp_code": "01513440",
+ "corp_name": "파이버프로",
+ "stock_code": "368770",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000249",
+ "dcmNo": "11135078",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000249&dcmNo=11135078",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000249&dcmNo=11135078&eleId=1&offset=598&length=7568&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 87,
+ "n_images": 35,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_01.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_01",
+   "bytes": 55305,
+   "sha256": "8e0e1fdccbefcdfa3745c9dc42dc3546c1689bb751ba195a79ff4ab5a2e8f737",
+   "width": 1241,
+   "height": 1766
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_02.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_02",
+   "bytes": 218233,
+   "sha256": "bbd11f10a43935c00a1eb1d3bf32511fa6c73e71f84e3c345f87bf862c4f5de9",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_03.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_03",
+   "bytes": 265623,
+   "sha256": "059cdcef64b554e83c20908f0179edd87fa6e99285b30a128c5f61bf9293290e",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_04.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_04",
+   "bytes": 253949,
+   "sha256": "a7d3e35fad68b10d972eb6ca8a2fad933cc698ee733bd5d60a8fa23c333330f4",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_05.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_05",
+   "bytes": 237720,
+   "sha256": "c45f207dbd08afba60e1b107de47dd1c4e7bcdfa393a897a0826640e515b814a",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_06.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_06",
+   "bytes": 231593,
+   "sha256": "e74d1f2ff09964e03f65e737c8e0e0013a88f993453532528016e6db7b57cfc5",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_07.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_07",
+   "bytes": 306106,
+   "sha256": "ad59c834426172f50dae891fa81f19d2c8e868b1c04f9bfcb7deb2c05713dec3",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_08.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_08",
+   "bytes": 305360,
+   "sha256": "ab18272fd8f1b1a78954908f3e5bbb4ee3de10c8770f31c211df958316a5bb49",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_09.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_09",
+   "bytes": 291565,
+   "sha256": "c1e27867f6876ec88f2e5d90440a36ba0ec5a8b02f98a2715903b299953b3cf4",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_10.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_10",
+   "bytes": 242643,
+   "sha256": "422624e54dec9bdfef93bfc2d37a31e811dea54ebc46fa7bd2ccf88bf2150b4d",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_11.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_11",
+   "bytes": 300344,
+   "sha256": "3fa929b483873074d393df0d537254e3518e3af4cbf1a7a5823377219b0d1a3f",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_12.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_12",
+   "bytes": 252360,
+   "sha256": "dbbca529f6abc6ef9fc3edeaac7f6d28ce755565126568daaedd52b056bc6dd8",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_13.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_13",
+   "bytes": 229812,
+   "sha256": "ba49690f0fc647f172d2eab388b0e003dd78d3af63aff404c5af7acb03cce994",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_14.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_14",
+   "bytes": 285666,
+   "sha256": "72428a14ed68f4bed0ef7fff330608d89376eb5d72cab64fcbbaeca538b7eb14",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_15.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_15.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_15",
+   "bytes": 232544,
+   "sha256": "f8b0a2bd30cc927dca1e91d11ce29d343ce9f029600cafc99458e072de550b73",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_16.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_16.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_16",
+   "bytes": 226129,
+   "sha256": "b3b31ea3b1fdcc1f9f71e2d1000af44eedb425f7f5235335c1cef48315b4c1ba",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%28%EC%A3%BC%29%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282025.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_17.jpg",
+   "flNm": "(주)파이버프로 회사 정관(2025.03.26.개정)_페이지_17.jpg",
+   "alt": "이미지: (주)파이버프로 회사 정관(2025.03.26.개정)_페이지_17",
+   "bytes": 186606,
+   "sha256": "bcbc7bff531621cd0572f24cd2ac7667d5ecb63b05b358734023e4fc11d61998",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_01.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_01",
+   "bytes": 88273,
+   "sha256": "91937bc0e01b25313c01c7b615da1d6d93ff1bef69fb4a7afa602651d1f319bb",
+   "width": 1654,
+   "height": 2327
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_02.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_02",
+   "bytes": 214929,
+   "sha256": "8e400e687de2c02133d294b41b5fe5b22c31d11154d1ee3886defb3ac8e2a1e7",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_03.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_03",
+   "bytes": 254713,
+   "sha256": "6fc04622f3bbbc6055a464480fbb794ddc7b8f3769a60b2e20e252b5fad9a424",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_04.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_04",
+   "bytes": 255057,
+   "sha256": "dad14dd0dc5af269891c3efb621ca9b042c02eb0c0afbced7bd963ea888276a3",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_05.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_05",
+   "bytes": 234970,
+   "sha256": "4ee2e6ceb17b968a35695eabcba00e9bb527d809adb5b8915d094175ce331638",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_06.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_06",
+   "bytes": 297594,
+   "sha256": "4b0be014feb53028f65c04d9351cb844d49dc84abdc54db2eb5ccd29ee49cc74",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/024.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_07.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_07",
+   "bytes": 299370,
+   "sha256": "5a913ddf9c489f31a8a14b52bd4bb9f0375fe99a0e4f2e6390cf89174548a913",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/025.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_08.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_08",
+   "bytes": 301903,
+   "sha256": "720ba5aa22129318f2de88a34856c87a82517b6820d5e359f79542ffb4a44ecf",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/026.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_09.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_09",
+   "bytes": 290565,
+   "sha256": "024e6773351e9570b336fefb84c93c96ed90ce241738e47f08ec066f0ea86c68",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/027.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_10.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_10",
+   "bytes": 268292,
+   "sha256": "b347d95e50087ea87acf25e1edc770b82966c34273890c1b311f67fa576bd8c3",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/028.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_11.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_11",
+   "bytes": 300083,
+   "sha256": "e1b9dfe9bd2b03a1c862d35fb122cdd250373a414c8c0921ce6579e93c0af4a3",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/029.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_12.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_12",
+   "bytes": 275972,
+   "sha256": "1f8018c8f4f9d1800047010cd84b0d5691d322eae2a5bf6e5c5e732dc7b463c7",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/030.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_13.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_13",
+   "bytes": 299132,
+   "sha256": "c7751c757fd9046a44172876d00067584810cfce3119780c66f86aaf6cbab078",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/031.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_14.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_14",
+   "bytes": 277632,
+   "sha256": "5d908879ed80c0f51198f50ab8bdd278dfb5388770b0c66194a73ec02343cb5e",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/032.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_15.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_15.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_15",
+   "bytes": 236254,
+   "sha256": "6a55b5ab681cf26481b90f76623e3a997673f8618ad287d6d577cc0550b38e30",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/033.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_16.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_16.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_16",
+   "bytes": 258276,
+   "sha256": "136c7721c637462e4f04691454127e34ac520e64d2c63f042173433e609ff0c3",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/034.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_17.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_17.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_17",
+   "bytes": 197429,
+   "sha256": "e77aa4079ec345311b168706eb49a7178df447f1c281da7bba0fd5a74a3033ea",
+   "width": 1654,
+   "height": 2339
+  },
+  {
+   "file": "img/035.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135078&flNm=%ED%8C%8C%EC%9D%B4%EB%B2%84%ED%94%84%EB%A1%9C+%ED%9A%8C%EC%82%AC+%EC%A0%95%EA%B4%80%282026.03.26.%EA%B0%9C%EC%A0%95%29_%ED%8E%98%EC%9D%B4%EC%A7%80_18.jpg",
+   "flNm": "파이버프로 회사 정관(2026.03.26.개정)_페이지_18.jpg",
+   "alt": "이미지: 파이버프로 회사 정관(2026.03.26.개정)_페이지_18",
+   "bytes": 119620,
+   "sha256": "3f430ad1dcfd104d0982893486dd133355898460156e827aff8bd9e418d6548a",
+   "width": 1654,
+   "height": 2339
+  }
+ ],
+ "folder": "data/charter_kosdaq/368770_파이버프로/20260318_11135078",
+ "fetched_at": "2026-11-16T21:41:01",
+ "used_by_rcept_no": [
+  "20260318000249"
+ ]
+}

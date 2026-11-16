@@ -1,0 +1,33 @@
+{
+ "corp_code": "00400060",
+ "corp_name": "이씨에스",
+ "stock_code": "067010",
+ "att_title": "2026.06.11 정관",
+ "att_date": "20260611",
+ "rcpNo": "20260611000424",
+ "dcmNo": "11428731",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260611000424&dcmNo=11428731",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260611000424&dcmNo=11428731&eleId=1&offset=598&length=288&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 10,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/067010_이씨에스/20260611_11428731",
+ "fetched_at": "2026-11-16T20:27:08",
+ "used_by_rcept_no": [
+  "20260611000424"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11428731&flNm=%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "정관.pdf",
+   "error": "PDF 아님 (text/html;charset=UTF-8)"
+  }
+ ],
+ "n_pdfs": 1
+}

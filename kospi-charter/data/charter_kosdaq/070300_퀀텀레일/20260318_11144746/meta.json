@@ -1,0 +1,24 @@
+{
+ "corp_code": "00683007",
+ "corp_name": "퀀텀레일",
+ "stock_code": "070300",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001662",
+ "dcmNo": "11144746",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001662&dcmNo=11144746",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001662&dcmNo=11144746&eleId=1&offset=597&length=28517&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 18324,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/070300_퀀텀레일/20260318_11144746",
+ "fetched_at": "2026-11-16T20:29:35",
+ "used_by_rcept_no": [
+  "20260318001662"
+ ]
+}

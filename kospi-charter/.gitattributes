@@ -1,0 +1,7 @@
+# 원본 파일은 줄바꿈 변환 없이 그대로 (안내 문구만 든 PDF 를 git 이 텍스트로 보는 일이 있다)
+*.pdf binary
+*.jpg binary
+*.png binary
+*.xlsx binary
+*.hwp binary
+*.zip binary

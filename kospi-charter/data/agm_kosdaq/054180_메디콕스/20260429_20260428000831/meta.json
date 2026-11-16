@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260428000831",
+ "corp_code": "00356839",
+ "corp_name": "메디콕스",
+ "stock_code": "054180",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260429",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428000831",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260428000831.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260428000831.xml",
+   "bytes": 100683,
+   "sha256": "d3cc76c1c65f5dc9edb209b43cdc370037f963d38db1e1a3a9a8210717a79989"
+  }
+ ],
+ "folder": "data/agm_kosdaq/054180_메디콕스/20260429_20260428000831",
+ "fetched_at": "2026-11-16T19:33:45"
+}

@@ -1,0 +1,175 @@
+{
+ "corp_code": "00265005",
+ "corp_name": "옴니시스템",
+ "stock_code": "057540",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001260",
+ "dcmNo": "11141303",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001260&dcmNo=11141303",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001260&dcmNo=11141303&eleId=1&offset=596&length=2285&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 15,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=%EC%A0%95%EA%B4%80001.jpg",
+   "flNm": "정관001.jpg",
+   "alt": "이미지: 정관001",
+   "bytes": 241546,
+   "sha256": "4024a81609acbd963d3c2e28f568a1c201fe411678a4e886e5b6664fb7a463d4",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image002.jpg",
+   "flNm": "image002.jpg",
+   "alt": "이미지: image002",
+   "bytes": 116347,
+   "sha256": "c67e8b41b7faf15296cb9cd44057536dfe6459bbcefdb0d49ed6c564a1081d9c",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image003.jpg",
+   "flNm": "image003.jpg",
+   "alt": "이미지: image003",
+   "bytes": 154621,
+   "sha256": "458dc2a01ee3edc328a4c2d4b1603ab1ac183990596b31c337b82e47b0abf87d",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image004.jpg",
+   "flNm": "image004.jpg",
+   "alt": "이미지: image004",
+   "bytes": 191855,
+   "sha256": "3c5b1ace6e22e174bee310ead2022fe47a74b48805a7d42b341bdbe14ae07503",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image005.jpg",
+   "flNm": "image005.jpg",
+   "alt": "이미지: image005",
+   "bytes": 219540,
+   "sha256": "4bdca49be0604ad1eb5e7a695cae1426596923a735a892b51fb1303563af3384",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image006.jpg",
+   "flNm": "image006.jpg",
+   "alt": "이미지: image006",
+   "bytes": 182794,
+   "sha256": "d7592851e989270f80de66e2c52da8b01867d4c41997581c748dfa41c45bce0e",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image007.jpg",
+   "flNm": "image007.jpg",
+   "alt": "이미지: image007",
+   "bytes": 214023,
+   "sha256": "4aba1dfcbfe03983100670156e0c2835c779b3692ed33dbd873adc21f55af9b3",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image008.jpg",
+   "flNm": "image008.jpg",
+   "alt": "이미지: image008",
+   "bytes": 148166,
+   "sha256": "7f6dcc40fbc208321e1ebb5af21271cf68747d9e8fd542be23d6b035cf5f587d",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image009.jpg",
+   "flNm": "image009.jpg",
+   "alt": "이미지: image009",
+   "bytes": 183099,
+   "sha256": "51bc874248a67590dce2877689e941622a5be9f07982aeb192e7ac9619df0814",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image010.jpg",
+   "flNm": "image010.jpg",
+   "alt": "이미지: image010",
+   "bytes": 169463,
+   "sha256": "bebb6c9d218e7dc68c3d710e7eff84ac37df1f71d72d8bf71ab39e83ed5406cc",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image011.jpg",
+   "flNm": "image011.jpg",
+   "alt": "이미지: image011",
+   "bytes": 185024,
+   "sha256": "2d827c2974f676489fd55322dfa5fb621731edf7b7a9676d3a0c3472a5d92827",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image012.jpg",
+   "flNm": "image012.jpg",
+   "alt": "이미지: image012",
+   "bytes": 150720,
+   "sha256": "a2d81d563703f6951cc72641638237b37c2f7687bf48184c546581080a3e5188",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image013.jpg",
+   "flNm": "image013.jpg",
+   "alt": "이미지: image013",
+   "bytes": 154327,
+   "sha256": "5b8f308064db3d1b74d003f6f054acc2269bce4203f0b1ac554bf68f0531c499",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image014.jpg",
+   "flNm": "image014.jpg",
+   "alt": "이미지: image014",
+   "bytes": 305958,
+   "sha256": "6cf9a9deef53aba0b1cca6377b2654eb2eed02d03ba32c81bea8274d8578d4ec",
+   "width": 992,
+   "height": 1403
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141303&flNm=image015.jpg",
+   "flNm": "image015.jpg",
+   "alt": "이미지: image015",
+   "bytes": 112060,
+   "sha256": "726648f7d50d68be8862f4a74f6b870a530c807ce5fa9eee9b36683ff54500ce",
+   "width": 992,
+   "height": 1403
+  }
+ ],
+ "folder": "data/charter_kosdaq/057540_옴니시스템/20260318_11141303",
+ "fetched_at": "2026-11-16T20:22:50",
+ "used_by_rcept_no": [
+  "20260318001260"
+ ]
+}

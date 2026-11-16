@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260413002239",
+ "corp_code": "00625942",
+ "corp_name": "한솔아이원스",
+ "stock_code": "114810",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260413",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260413002239",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 499,
+ "charter_amend_txt": "data/agm_kosdaq/114810_한솔아이원스/20260413_20260413002239/정관의변경.txt",
+ "main_xml": "20260413002239.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260413002239.xml",
+   "bytes": 52754,
+   "sha256": "54c983c57945bddf4156ab8d591ba1c2d1574f6afdef8188a376b0701e41ca57"
+  }
+ ],
+ "folder": "data/agm_kosdaq/114810_한솔아이원스/20260413_20260413002239",
+ "fetched_at": "2026-11-16T19:33:29"
+}

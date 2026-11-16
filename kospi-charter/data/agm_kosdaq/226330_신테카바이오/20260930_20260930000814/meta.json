@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260930000814",
+ "corp_code": "01344336",
+ "corp_name": "신테카바이오",
+ "stock_code": "226330",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260930",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000814",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4245,
+ "charter_amend_txt": "data/agm_kosdaq/226330_신테카바이오/20260930_20260930000814/정관의변경.txt",
+ "main_xml": "20260930000814.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260930000814.xml",
+   "bytes": 132822,
+   "sha256": "1077be6664aa1d35619bac11d7fcbd1066c0c8077a29071917229a8476452f44"
+  }
+ ],
+ "folder": "data/agm_kosdaq/226330_신테카바이오/20260930_20260930000814",
+ "fetched_at": "2026-11-16T19:39:30"
+}

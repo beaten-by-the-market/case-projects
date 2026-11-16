@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260703000547",
+ "corp_code": "01494118",
+ "corp_name": "노을",
+ "stock_code": "376930",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260703",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000547",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3539,
+ "charter_amend_txt": "data/agm_kosdaq/376930_노을/20260703_20260703000547/정관의변경.txt",
+ "main_xml": "20260703000547.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260703000547.xml",
+   "bytes": 86737,
+   "sha256": "356f735843b03ef774e8512249c5fa90e61f4d8e605bd8bd4a6ae748364aa476"
+  }
+ ],
+ "folder": "data/agm_kosdaq/376930_노을/20260703_20260703000547",
+ "fetched_at": "2026-11-16T19:36:27"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260727000258",
+ "corp_code": "01012066",
+ "corp_name": "HK이노엔",
+ "stock_code": "195940",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260727",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000258",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260727000258.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260727000258.xml",
+   "bytes": 59570,
+   "sha256": "0bb81908b80506430c9ab816a62669d6d0a0dd1e011712b242520e71b1c6412e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/195940_HK이노엔/20260727_20260727000258",
+ "fetched_at": "2026-11-16T19:37:20"
+}

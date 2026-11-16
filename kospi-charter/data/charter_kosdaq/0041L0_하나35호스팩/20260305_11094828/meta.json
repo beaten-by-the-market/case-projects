@@ -1,0 +1,24 @@
+{
+ "corp_code": "01906598",
+ "corp_name": "하나35호스팩",
+ "stock_code": "0041L0",
+ "att_title": "2026.03.05 정관",
+ "att_date": "20260305",
+ "rcpNo": "20260305001528",
+ "dcmNo": "11094828",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001528&dcmNo=11094828",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260305001528&dcmNo=11094828&eleId=1&offset=604&length=24198&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11638,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/0041L0_하나35호스팩/20260305_11094828",
+ "fetched_at": "2026-11-16T19:44:54",
+ "used_by_rcept_no": [
+  "20260305001528"
+ ]
+}

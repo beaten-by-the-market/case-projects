@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260804000374",
+ "corp_code": "00624518",
+ "corp_name": "다산솔루에타",
+ "stock_code": "154040",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260804",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000374",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 690,
+ "charter_amend_txt": "data/agm_kosdaq/154040_다산솔루에타/20260804_20260804000374/정관의변경.txt",
+ "main_xml": "20260804000374.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260804000374.xml",
+   "bytes": 44026,
+   "sha256": "5f4e015f5c3d4f6a21ef5b87cea399a6274547698ff40c9ff16d597303e45fb9"
+  }
+ ],
+ "folder": "data/agm_kosdaq/154040_다산솔루에타/20260804_20260804000374",
+ "fetched_at": "2026-11-16T19:37:29"
+}

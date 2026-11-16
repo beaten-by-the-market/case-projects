@@ -1,0 +1,24 @@
+{
+ "corp_code": "00360674",
+ "corp_name": "코위버",
+ "stock_code": "056360",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316000323",
+ "dcmNo": "11124062",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000323&dcmNo=11124062",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000323&dcmNo=11124062&eleId=1&offset=596&length=21654&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11451,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/056360_코위버/20260316_11124062",
+ "fetched_at": "2026-11-16T20:19:59",
+ "used_by_rcept_no": [
+  "20260316000323"
+ ]
+}

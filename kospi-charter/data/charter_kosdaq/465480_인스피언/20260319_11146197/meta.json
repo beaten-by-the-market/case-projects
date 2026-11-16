@@ -1,0 +1,37 @@
+{
+ "corp_code": "01284876",
+ "corp_name": "인스피언",
+ "stock_code": "465480",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000185",
+ "dcmNo": "11146197",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000185&dcmNo=11146197",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000185&dcmNo=11146197&eleId=1&offset=592&length=325&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 38,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/465480_인스피언/20260319_11146197",
+ "fetched_at": "2026-11-16T21:58:18",
+ "used_by_rcept_no": [
+  "20260319000185"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11146197&flNm=%EC%A0%95%EA%B4%80_%EC%9D%B8%EC%8A%A4%ED%94%BC%EC%96%B8_20250930.pdf",
+   "flNm": "정관_인스피언_20250930.pdf",
+   "bytes": 3377866,
+   "sha256": "920cba83d46bec26e30707e4f1ae964c559318b92b3c09079263dcfa8ab9d0b0",
+   "pages": 17,
+   "text_pages": 0,
+   "ocr_pages": 17
+  }
+ ],
+ "n_pdfs": 1
+}

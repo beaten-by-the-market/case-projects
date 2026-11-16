@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260611000544",
+ "corp_code": "00200275",
+ "corp_name": "YTN",
+ "stock_code": "040300",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260611",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260611000544",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260611000544.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260611000544.xml",
+   "bytes": 51451,
+   "sha256": "8e295c04307b427f3b62c0fa969896a601d21fb56eac4c130b9c791fa005cdb9"
+  }
+ ],
+ "folder": "data/agm_kosdaq/040300_YTN/20260611_20260611000544",
+ "fetched_at": "2026-11-16T19:35:19"
+}

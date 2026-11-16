@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260304000781",
+ "corp_code": "01910324",
+ "corp_name": "교보18호스팩",
+ "stock_code": "0041B0",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260304",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260304000781",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260304000781.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260304000781.xml",
+   "bytes": 77162,
+   "sha256": "8f33cea21d8aa168975c65a4b30a1a4ebfff7d6a678b3e716965b16d67b7da57"
+  }
+ ],
+ "folder": "data/agm_kosdaq/0041B0_교보18호스팩/20260304_20260304000781",
+ "fetched_at": "2026-11-16T19:32:08"
+}

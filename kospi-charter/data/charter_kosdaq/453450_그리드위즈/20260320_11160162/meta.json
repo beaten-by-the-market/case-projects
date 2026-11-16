@@ -1,0 +1,24 @@
+{
+ "corp_code": "01299203",
+ "corp_name": "그리드위즈",
+ "stock_code": "453450",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001386",
+ "dcmNo": "11160162",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001386&dcmNo=11160162",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001386&dcmNo=11160162&eleId=1&offset=598&length=31991&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14601,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/453450_그리드위즈/20260320_11160162",
+ "fetched_at": "2026-11-16T21:56:10",
+ "used_by_rcept_no": [
+  "20260619000475"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00580056",
+ "corp_name": "스맥",
+ "stock_code": "099440",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001679",
+ "dcmNo": "11169604",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001679&dcmNo=11169604",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001679&dcmNo=11169604&eleId=1&offset=593&length=19852&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11208,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/099440_스맥/20260323_11169604",
+ "fetched_at": "2026-11-16T20:48:25",
+ "used_by_rcept_no": [
+  "20260323001679"
+ ]
+}

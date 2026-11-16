@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260317000841",
+ "corp_code": "00927558",
+ "corp_name": "유바이오로직스",
+ "stock_code": "206650",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260317",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000841",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3671,
+ "charter_amend_txt": "data/agm_kosdaq/206650_유바이오로직스/20260317_20260317000841/정관의변경.txt",
+ "main_xml": "20260317000841.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260317000841.xml",
+   "bytes": 252099,
+   "sha256": "5967be6ca4effc7038394ca3ab96e793e62c599bf96d9dec603e7e9075bae046"
+  }
+ ],
+ "folder": "data/agm_kosdaq/206650_유바이오로직스/20260317_20260317000841",
+ "fetched_at": "2026-11-16T19:32:29"
+}

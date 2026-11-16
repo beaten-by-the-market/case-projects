@@ -1,0 +1,24 @@
+{
+ "corp_code": "00318662",
+ "corp_name": "CNT85",
+ "stock_code": "056730",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001655",
+ "dcmNo": "11144636",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001655&dcmNo=11144636",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001655&dcmNo=11144636&eleId=1&offset=596&length=30262&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13462,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/056730_CNT85/20260318_11144636",
+ "fetched_at": "2026-11-16T20:20:03",
+ "used_by_rcept_no": [
+  "20260318001655"
+ ]
+}

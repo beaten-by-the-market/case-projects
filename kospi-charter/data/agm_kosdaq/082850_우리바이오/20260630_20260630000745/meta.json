@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260630000745",
+ "corp_code": "00369107",
+ "corp_name": "우리바이오",
+ "stock_code": "082850",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260630",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000745",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 237,
+ "charter_amend_txt": "data/agm_kosdaq/082850_우리바이오/20260630_20260630000745/정관의변경.txt",
+ "main_xml": "20260630000745.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260630000745.xml",
+   "bytes": 71462,
+   "sha256": "3ed9992058f76190a048f017eb3bd757b85a924a3bd00834caf07c5b2c681aa4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/082850_우리바이오/20260630_20260630000745",
+ "fetched_at": "2026-11-16T19:36:16"
+}

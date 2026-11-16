@@ -1,0 +1,24 @@
+{
+ "corp_code": "00357740",
+ "corp_name": "NHN KCP",
+ "stock_code": "060250",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000635",
+ "dcmNo": "11136983",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000635&dcmNo=11136983",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000635&dcmNo=11136983&eleId=1&offset=600&length=19899&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12332,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/060250_NHN KCP/20260318_11136983",
+ "fetched_at": "2026-11-16T20:24:04",
+ "used_by_rcept_no": [
+  "20260318000635"
+ ]
+}

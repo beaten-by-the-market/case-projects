@@ -1,0 +1,24 @@
+{
+ "corp_code": "00228536",
+ "corp_name": "현대에버다임",
+ "stock_code": "041440",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313000755",
+ "dcmNo": "11120111",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000755&dcmNo=11120111",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313000755&dcmNo=11120111&eleId=1&offset=597&length=46576&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14932,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/041440_현대에버다임/20260313_11120111",
+ "fetched_at": "2026-11-16T20:11:04",
+ "used_by_rcept_no": [
+  "20260608000442"
+ ]
+}

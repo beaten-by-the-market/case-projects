@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260507000437",
+ "corp_code": "00778235",
+ "corp_name": "TS인베스트먼트",
+ "stock_code": "246690",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260507",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000437",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 833,
+ "charter_amend_txt": "data/agm_kosdaq/246690_TS인베스트먼트/20260507_20260507000437/정관의변경.txt",
+ "main_xml": "20260507000437.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260507000437.xml",
+   "bytes": 71198,
+   "sha256": "3419fcd76dea12474bd7a5d484b7bf1e210dc5bff726cedf1cde1cf9053b821c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/246690_TS인베스트먼트/20260507_20260507000437",
+ "fetched_at": "2026-11-16T19:34:10"
+}

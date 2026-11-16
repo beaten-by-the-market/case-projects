@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261015000047",
+ "corp_code": "00137012",
+ "corp_name": "에스앤더블류",
+ "stock_code": "103230",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261015",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000047",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261015000047.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261015000047.xml",
+   "bytes": 39730,
+   "sha256": "666a26f1bd63b044691d18e8e2fe47285e5d1bff572b979086cf7cc6404156e4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/103230_에스앤더블류/20261015_20261015000047",
+ "fetched_at": "2026-11-16T19:39:42"
+}

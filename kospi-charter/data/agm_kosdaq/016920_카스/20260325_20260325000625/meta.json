@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260325000625",
+ "corp_code": "00152260",
+ "corp_name": "카스",
+ "stock_code": "016920",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260325",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260325000625",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260325000625.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260325000625.xml",
+   "bytes": 405406,
+   "sha256": "f055ac20260ad24d82953dda10acacf297cd2b953aff25617081186c3e842131"
+  }
+ ],
+ "folder": "data/agm_kosdaq/016920_카스/20260325_20260325000625",
+ "fetched_at": "2026-11-16T19:33:22"
+}

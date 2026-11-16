@@ -1,0 +1,205 @@
+{
+ "corp_code": "01406265",
+ "corp_name": "와이랩",
+ "stock_code": "432430",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000281",
+ "dcmNo": "11161487",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000281&dcmNo=11161487",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000281&dcmNo=11161487&eleId=1&offset=594&length=2981&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 18,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "230105_와이랩_정관_1.jpg",
+   "alt": "이미지: 230105_와이랩_정관_1",
+   "bytes": 45672,
+   "sha256": "3b94d8e0fed559953efaab7064437e063e248a5477f0c03507a503e1fb0ca88b",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "230105_와이랩_정관_2.jpg",
+   "alt": "이미지: 230105_와이랩_정관_2",
+   "bytes": 157913,
+   "sha256": "ae8b6955f883570d277e05d5f90942d2a96a04f0781a5b06952423e06e89c153",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "230105_와이랩_정관_3.jpg",
+   "alt": "이미지: 230105_와이랩_정관_3",
+   "bytes": 280593,
+   "sha256": "f2e5ef8910d3a4324b2466c378671f6a153fff259ee317fa1c05f618237ff8c7",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "230105_와이랩_정관_4.jpg",
+   "alt": "이미지: 230105_와이랩_정관_4",
+   "bytes": 104035,
+   "sha256": "bb1a800eed24bb376fcea75341427081e6871a67f4455177e4e787f84c4389ec",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "230105_와이랩_정관_5.jpg",
+   "alt": "이미지: 230105_와이랩_정관_5",
+   "bytes": 98800,
+   "sha256": "3be8bb05c6c7a1b44b089886d31314f340faa00616e92a678bcd49ac043a52cc",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "230105_와이랩_정관_6.jpg",
+   "alt": "이미지: 230105_와이랩_정관_6",
+   "bytes": 116996,
+   "sha256": "646f4b38f4afb50ee29d622f50c36508ee890c941b051fe5f2eae09d8387fc8c",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "230105_와이랩_정관_7.jpg",
+   "alt": "이미지: 230105_와이랩_정관_7",
+   "bytes": 286703,
+   "sha256": "22e3e3e7065de3a8a386db5bf91167675dd9410a835a6250f21c4d508e8d042b",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "230105_와이랩_정관_8.jpg",
+   "alt": "이미지: 230105_와이랩_정관_8",
+   "bytes": 288885,
+   "sha256": "297caef86b4f76d7aac70fe9fd44fef0bd5d2c0b9a85e7f04f14e29af13ba1b7",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "230105_와이랩_정관_9.jpg",
+   "alt": "이미지: 230105_와이랩_정관_9",
+   "bytes": 289282,
+   "sha256": "340f0c7df3ae3f2dd2ba2fb222f0d468e86162ab173225084cf2ef40b8845732",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "230105_와이랩_정관_10.jpg",
+   "alt": "이미지: 230105_와이랩_정관_10",
+   "bytes": 291707,
+   "sha256": "543b8b767e7d3991ec587ed75924c8c9005d2c7b8247d109b1340940b3157e67",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "230105_와이랩_정관_11.jpg",
+   "alt": "이미지: 230105_와이랩_정관_11",
+   "bytes": 245354,
+   "sha256": "9adb47ce5fdb66ccd9e9ee48c1a36265b9574eb621badd7922bfe89bf8d6954d",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "230105_와이랩_정관_12.jpg",
+   "alt": "이미지: 230105_와이랩_정관_12",
+   "bytes": 214534,
+   "sha256": "fcb49655fd8c61b6c903bb2d85c45733893b8633f53843cb586701e67e624b4b",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "230105_와이랩_정관_13.jpg",
+   "alt": "이미지: 230105_와이랩_정관_13",
+   "bytes": 262327,
+   "sha256": "8b8f29e41098fb9f3dfdfa3e8a73197acad9d816b01f8fd6489f81c43d8238d1",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "230105_와이랩_정관_14.jpg",
+   "alt": "이미지: 230105_와이랩_정관_14",
+   "bytes": 271411,
+   "sha256": "d91e1410108be45cb0f2c87ec371adeae3291cf4474ac78370a9f20ab43408c0",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "230105_와이랩_정관_15.jpg",
+   "alt": "이미지: 230105_와이랩_정관_15",
+   "bytes": 303166,
+   "sha256": "4b9ed3cf1da5ed063575363fbfc6ef2aa4c3428fcd622693eed8b38c20cde413",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "230105_와이랩_정관_16.jpg",
+   "alt": "이미지: 230105_와이랩_정관_16",
+   "bytes": 238543,
+   "sha256": "facecafc266530c2edf5e5c915a088d33606159b5f0e8a1146f6813a9bade1eb",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "230105_와이랩_정관_17.jpg",
+   "alt": "이미지: 230105_와이랩_정관_17",
+   "bytes": 269128,
+   "sha256": "0870e1d1f17c9daa2a69ce613d740015444d355b72237cf254d279ba585ae47b",
+   "width": 793,
+   "height": 1123
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11161487&flNm=230105_%EC%99%80%EC%9D%B4%EB%9E%A9_%EC%A0%95%EA%B4%80_18.jpg",
+   "flNm": "230105_와이랩_정관_18.jpg",
+   "alt": "이미지: 230105_와이랩_정관_18",
+   "bytes": 87405,
+   "sha256": "f0b0ab2cd9f4f9a6587fa183decadbed27594dbbc8b64db78a61d968e653ee4a",
+   "width": 793,
+   "height": 1123
+  }
+ ],
+ "folder": "data/charter_kosdaq/432430_와이랩/20260323_11161487",
+ "fetched_at": "2026-11-16T21:52:43",
+ "used_by_rcept_no": [
+  "20260323000281"
+ ]
+}

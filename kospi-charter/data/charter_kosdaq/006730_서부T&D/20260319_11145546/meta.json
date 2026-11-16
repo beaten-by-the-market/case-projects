@@ -1,0 +1,135 @@
+{
+ "corp_code": "00130383",
+ "corp_name": "서부T&D",
+ "stock_code": "006730",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000002",
+ "dcmNo": "11145546",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000002&dcmNo=11145546",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000002&dcmNo=11145546&eleId=1&offset=596&length=2005&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 11,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11145546&flNm=%EC%84%9C%EB%B6%80%ED%8B%B0%EC%97%94%EB%94%94+%EC%A0%95%EA%B4%80%2820250326%29_01.jpg",
+   "flNm": "서부티엔디 정관(20250326)_01.jpg",
+   "alt": "이미지: 서부티엔디 정관(20250326)_01",
+   "bytes": 188379,
+   "sha256": "a194b9353935dde38dc0d154b8dbd45c082e01df2b5ce7e31d7ad721b13653d9",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11145546&flNm=%EC%84%9C%EB%B6%80%ED%8B%B0%EC%97%94%EB%94%94+%EC%A0%95%EA%B4%80%2820250326%29_02.jpg",
+   "flNm": "서부티엔디 정관(20250326)_02.jpg",
+   "alt": "이미지: 서부티엔디 정관(20250326)_02",
+   "bytes": 306330,
+   "sha256": "2e62462b3f4152356117903bf88392bc710fd2c2a9c75145873b91c7b404118f",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11145546&flNm=%EC%84%9C%EB%B6%80%ED%8B%B0%EC%97%94%EB%94%94+%EC%A0%95%EA%B4%80%2820250326%29_03.jpg",
+   "flNm": "서부티엔디 정관(20250326)_03.jpg",
+   "alt": "이미지: 서부티엔디 정관(20250326)_03",
+   "bytes": 132410,
+   "sha256": "f9657855fafe90520a6bfb19789cd1f040c1fc46f23f06504c7dd6a08416e04b",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11145546&flNm=%EC%84%9C%EB%B6%80%ED%8B%B0%EC%97%94%EB%94%94+%EC%A0%95%EA%B4%80%2820250326%29_04.jpg",
+   "flNm": "서부티엔디 정관(20250326)_04.jpg",
+   "alt": "이미지: 서부티엔디 정관(20250326)_04",
+   "bytes": 127791,
+   "sha256": "4945aefe892ca1f2f5158ceb16ea078129b4bd8712a72b165cfc9d2ae338fea3",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11145546&flNm=%EC%84%9C%EB%B6%80%ED%8B%B0%EC%97%94%EB%94%94+%EC%A0%95%EA%B4%80%2820250326%29_05.jpg",
+   "flNm": "서부티엔디 정관(20250326)_05.jpg",
+   "alt": "이미지: 서부티엔디 정관(20250326)_05",
+   "bytes": 114375,
+   "sha256": "44e44f46bda1646378dc8de51acf81588bed0bfa61eeb1c0a244d931b5f70712",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11145546&flNm=%EC%84%9C%EB%B6%80%ED%8B%B0%EC%97%94%EB%94%94+%EC%A0%95%EA%B4%80%2820250326%29_06.jpg",
+   "flNm": "서부티엔디 정관(20250326)_06.jpg",
+   "alt": "이미지: 서부티엔디 정관(20250326)_06",
+   "bytes": 140203,
+   "sha256": "fba3d7d743c1b8faf617ca6cc49527971691b07e65648ae557fccda4263b0d20",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11145546&flNm=%EC%84%9C%EB%B6%80%ED%8B%B0%EC%97%94%EB%94%94+%EC%A0%95%EA%B4%80%2820250326%29_07.jpg",
+   "flNm": "서부티엔디 정관(20250326)_07.jpg",
+   "alt": "이미지: 서부티엔디 정관(20250326)_07",
+   "bytes": 116848,
+   "sha256": "418da5b50f3896c1bcda83b6b16e16f2fe542ed9ef721a71f52d95667eec1436",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11145546&flNm=%EC%84%9C%EB%B6%80%ED%8B%B0%EC%97%94%EB%94%94+%EC%A0%95%EA%B4%80%2820250326%29_08.jpg",
+   "flNm": "서부티엔디 정관(20250326)_08.jpg",
+   "alt": "이미지: 서부티엔디 정관(20250326)_08",
+   "bytes": 129082,
+   "sha256": "ab1ddb7d77cbe278c2c6d0a544425e27b00f1dc16b10b2ed7baac8be5d125bbf",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11145546&flNm=%EC%84%9C%EB%B6%80%ED%8B%B0%EC%97%94%EB%94%94+%EC%A0%95%EA%B4%80%2820250326%29_09.jpg",
+   "flNm": "서부티엔디 정관(20250326)_09.jpg",
+   "alt": "이미지: 서부티엔디 정관(20250326)_09",
+   "bytes": 126132,
+   "sha256": "4870ae7b67dfcce712dba9366037cbf1644c20189fabb1ad70fd3c4c61d55fb8",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11145546&flNm=%EC%84%9C%EB%B6%80%ED%8B%B0%EC%97%94%EB%94%94+%EC%A0%95%EA%B4%80%2820250326%29_10.jpg",
+   "flNm": "서부티엔디 정관(20250326)_10.jpg",
+   "alt": "이미지: 서부티엔디 정관(20250326)_10",
+   "bytes": 124807,
+   "sha256": "217012a63f6380bc7c9220b3bccef03b750e610db972141249edbe789d234d94",
+   "width": 793,
+   "height": 1121
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11145546&flNm=%EC%84%9C%EB%B6%80%ED%8B%B0%EC%97%94%EB%94%94+%EC%A0%95%EA%B4%80%2820250326%29_11.jpg",
+   "flNm": "서부티엔디 정관(20250326)_11.jpg",
+   "alt": "이미지: 서부티엔디 정관(20250326)_11",
+   "bytes": 281268,
+   "sha256": "ee6c3ea404f59ad4a0d251d82a88e5b0bd039bd338ee6220b7cd853774ccb796",
+   "width": 793,
+   "height": 1121
+  }
+ ],
+ "folder": "data/charter_kosdaq/006730_서부T&D/20260319_11145546",
+ "fetched_at": "2026-11-16T19:46:00",
+ "used_by_rcept_no": [
+  "20260319000002"
+ ]
+}

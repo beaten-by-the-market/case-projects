@@ -1,0 +1,25 @@
+{
+ "corp_code": "00350020",
+ "corp_name": "파인디앤씨",
+ "stock_code": "049120",
+ "att_title": "2026.03.30 [정정] 정관",
+ "att_date": "20260330",
+ "rcpNo": "20260330001067",
+ "dcmNo": "11195812",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330001067&dcmNo=11195812",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260330001067&dcmNo=11195812&eleId=1&offset=645&length=8278&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260330001067&dcmNo=11195812&eleId=2&offset=8953&length=27657&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "text",
+ "text_chars": 13991,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/049120_파인디앤씨/20260330_11195812",
+ "fetched_at": "2026-11-16T20:15:39",
+ "used_by_rcept_no": [
+  "20260330001067"
+ ]
+}

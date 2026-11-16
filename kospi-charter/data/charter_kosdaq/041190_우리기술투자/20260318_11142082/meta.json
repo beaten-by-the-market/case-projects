@@ -1,0 +1,24 @@
+{
+ "corp_code": "00231664",
+ "corp_name": "우리기술투자",
+ "stock_code": "041190",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001355",
+ "dcmNo": "11142082",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001355&dcmNo=11142082",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001355&dcmNo=11142082&eleId=1&offset=597&length=24389&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9393,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/041190_우리기술투자/20260318_11142082",
+ "fetched_at": "2026-11-16T20:11:02",
+ "used_by_rcept_no": [
+  "20260318001355"
+ ]
+}

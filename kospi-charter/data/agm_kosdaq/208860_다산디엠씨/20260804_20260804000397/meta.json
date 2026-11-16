@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260804000397",
+ "corp_code": "01084364",
+ "corp_name": "다산디엠씨",
+ "stock_code": "208860",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260804",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000397",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 502,
+ "charter_amend_txt": "data/agm_kosdaq/208860_다산디엠씨/20260804_20260804000397/정관의변경.txt",
+ "main_xml": "20260804000397.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260804000397.xml",
+   "bytes": 39710,
+   "sha256": "aed82b897939658641efcdcac1fc65569d39fb2f83856c489061c7266788d44d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/208860_다산디엠씨/20260804_20260804000397",
+ "fetched_at": "2026-11-16T19:37:30"
+}

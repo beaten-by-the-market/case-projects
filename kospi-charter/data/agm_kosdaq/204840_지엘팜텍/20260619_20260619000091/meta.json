@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260619000091",
+ "corp_code": "01042359",
+ "corp_name": "지엘팜텍",
+ "stock_code": "204840",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260619",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000091",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 218,
+ "charter_amend_txt": "data/agm_kosdaq/204840_지엘팜텍/20260619_20260619000091/정관의변경.txt",
+ "main_xml": "20260619000091.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260619000091.xml",
+   "bytes": 35549,
+   "sha256": "cad83dafbadaf8140638001c832e192b175601a7536c43046eaafd0dd660c55d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/204840_지엘팜텍/20260619_20260619000091",
+ "fetched_at": "2026-11-16T19:35:37"
+}

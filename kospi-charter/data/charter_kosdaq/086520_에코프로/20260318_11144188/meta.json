@@ -1,0 +1,24 @@
+{
+ "corp_code": "00536541",
+ "corp_name": "에코프로",
+ "stock_code": "086520",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001612",
+ "dcmNo": "11144188",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001612&dcmNo=11144188",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001612&dcmNo=11144188&eleId=1&offset=592&length=23797&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12551,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/086520_에코프로/20260318_11144188",
+ "fetched_at": "2026-11-16T20:41:00",
+ "used_by_rcept_no": [
+  "20260318001612"
+ ]
+}

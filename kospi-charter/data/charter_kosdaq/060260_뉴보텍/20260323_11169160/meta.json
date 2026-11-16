@@ -1,0 +1,24 @@
+{
+ "corp_code": "00351375",
+ "corp_name": "뉴보텍",
+ "stock_code": "060260",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001632",
+ "dcmNo": "11169160",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001632&dcmNo=11169160",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001632&dcmNo=11169160&eleId=1&offset=591&length=21475&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13294,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/060260_뉴보텍/20260323_11169160",
+ "fetched_at": "2026-11-16T20:24:06",
+ "used_by_rcept_no": [
+  "20261113001383"
+ ]
+}

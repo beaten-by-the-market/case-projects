@@ -1,0 +1,195 @@
+{
+ "corp_code": "00138598",
+ "corp_name": "아비코전자",
+ "stock_code": "036010",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316000805",
+ "dcmNo": "11125725",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000805&dcmNo=11125725",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000805&dcmNo=11125725&eleId=1&offset=596&length=3214&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 17,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_01.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_01",
+   "bytes": 118048,
+   "sha256": "8be16d3172bf70a5e5b7cd6c27ca2c08c9559f701dcf32cbcae175572600b968",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_02.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_02.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_02",
+   "bytes": 150150,
+   "sha256": "24b80be754b0824f720558f7071f533e79862762c5c0d23e241e801ca47f94eb",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_03.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_03.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_03",
+   "bytes": 175925,
+   "sha256": "0f6de1aea7207681605b268bd448166e909f92dc5c18bf709cbe1483a174ab55",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_04.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_04",
+   "bytes": 213366,
+   "sha256": "2cf4a7af4aa85724cbe1539e0e3434be5a952e7c9f5230dd805093f4a9293f39",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_05.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_05.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_05",
+   "bytes": 241146,
+   "sha256": "55ec15d0a97d85f50b44b6b35b53500535c5ff9c45b9c8ab6305092354dc61ed",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_06.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_06.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_06",
+   "bytes": 188302,
+   "sha256": "7d51d3aca1d2237cbb4f9bd5db35a143fa9965e6a10adc47873a9b2587131271",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_07.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_07.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_07",
+   "bytes": 205787,
+   "sha256": "3822ae4a21c90400b361ac1ec2af2d0012f648977708957f23a1e5394799b8d5",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_08.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_08.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_08",
+   "bytes": 188744,
+   "sha256": "0dcca738ae9526adfec8776da4210869a7e279873bb44b2dd0e65790e8a15923",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_09.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_09.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_09",
+   "bytes": 213355,
+   "sha256": "e5c4d6b4e913bd0c97ceae26b02f6996d6d8650b08d118543dbbd44ff52c90ba",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_10.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_10.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_10",
+   "bytes": 196661,
+   "sha256": "bf0ab58e895251131b3176179618af04fbe478495370b994e6af018438a26848",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_11.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_11.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_11",
+   "bytes": 150475,
+   "sha256": "5ba7e23f3ab1bc87f9ca0c44738fc45be32a09571e078b422eed010b9fafb348",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_12.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_12.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_12",
+   "bytes": 188658,
+   "sha256": "de1f4598fca6f4c34b7d831f0bd8e192e7ee1d03ed4c730a0131f486b4b80019",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_13.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_13.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_13",
+   "bytes": 175551,
+   "sha256": "0a7828faaee0000027474a5eed445fc11f7a2ce0991c47951d3fe163d676313b",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_14.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_14.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_14",
+   "bytes": 205780,
+   "sha256": "2235117a3069c405a667e92ba04b93533a3115c72403fa9320aabc67c4dd1dbe",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_15.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_15.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_15",
+   "bytes": 195577,
+   "sha256": "cfbdfc753deacf5eaeb4890697b6c8925eda8cdf1fbb00c971b161d2c95dcebd",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_16.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_16.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_16",
+   "bytes": 209034,
+   "sha256": "886f490e7bd83417b1736fb0b82d7a6888fb6bd52baa21e99006e3f072b20c18",
+   "width": 1653,
+   "height": 2337
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125725&flNm=%EC%95%84%EB%B9%84%EC%BD%94%EC%A0%84%EC%9E%90+%EC%A0%95%EA%B4%80_2023.3.28%EA%B0%9C%EC%A0%95_%ED%8E%98%EC%9D%B4%EC%A7%80_17.jpg",
+   "flNm": "아비코전자 정관_2023.3.28개정_페이지_17.jpg",
+   "alt": "이미지: 아비코전자 정관_2023.3.28개정_페이지_17",
+   "bytes": 125730,
+   "sha256": "a3db17e3b9ef5229d0052331be90c56600920ee51113641ae1c8f649eebf7ded",
+   "width": 1653,
+   "height": 2337
+  }
+ ],
+ "folder": "data/charter_kosdaq/036010_아비코전자/20260316_11125725",
+ "fetched_at": "2026-11-16T20:04:58",
+ "used_by_rcept_no": [
+  "20260316000805"
+ ]
+}

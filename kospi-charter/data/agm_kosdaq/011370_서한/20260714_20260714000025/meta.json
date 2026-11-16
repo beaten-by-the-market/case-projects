@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260714000025",
+ "corp_code": "00131504",
+ "corp_name": "서한",
+ "stock_code": "011370",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260714",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000025",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 179,
+ "charter_amend_txt": "data/agm_kosdaq/011370_서한/20260714_20260714000025/정관의변경.txt",
+ "main_xml": "20260714000025.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260714000025.xml",
+   "bytes": 44199,
+   "sha256": "b9d1d7e7ee8d2fe367cbc94ce153ba838492d5bf770ba634d21b2186a1d304e1"
+  }
+ ],
+ "folder": "data/agm_kosdaq/011370_서한/20260714_20260714000025",
+ "fetched_at": "2026-11-16T19:36:41"
+}

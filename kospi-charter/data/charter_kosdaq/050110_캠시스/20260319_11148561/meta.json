@@ -1,0 +1,37 @@
+{
+ "corp_code": "00330044",
+ "corp_name": "캠시스",
+ "stock_code": "050110",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000679",
+ "dcmNo": "11148561",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000679&dcmNo=11148561",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000679&dcmNo=11148561&eleId=1&offset=591&length=318&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 40,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/050110_캠시스/20260319_11148561",
+ "fetched_at": "2026-11-16T20:16:16",
+ "used_by_rcept_no": [
+  "20260319001326"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148561&flNm=%EC%A0%95%EA%B4%80%28%EC%BA%A0%EC%8B%9C%EC%8A%A4%29_2021_0326.pdf",
+   "flNm": "정관(캠시스)_2021_0326.pdf",
+   "bytes": 363689,
+   "sha256": "1e69100574503c871075b7faaaf3863fdd1a7022713f0b81a988112ef1f3c3ef",
+   "pages": 19,
+   "text_pages": 19,
+   "ocr_pages": 0
+  }
+ ],
+ "n_pdfs": 1
+}

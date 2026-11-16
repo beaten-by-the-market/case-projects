@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260324000345",
+ "corp_code": "01020524",
+ "corp_name": "자이글",
+ "stock_code": "234920",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260324",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000345",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 910,
+ "charter_amend_txt": "data/agm_kosdaq/234920_자이글/20260324_20260324000345/정관의변경.txt",
+ "main_xml": "20260324000345.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260324000345.xml",
+   "bytes": 110680,
+   "sha256": "fd9eaeb93d449871603d400235e29d0fe363b6808b504ba3a3b237edbad0b5e3"
+  }
+ ],
+ "folder": "data/agm_kosdaq/234920_자이글/20260324_20260324000345",
+ "fetched_at": "2026-11-16T19:33:16"
+}

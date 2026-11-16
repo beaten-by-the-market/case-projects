@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260612000201",
+ "corp_code": "01035368",
+ "corp_name": "티에프이",
+ "stock_code": "425420",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260612",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612000201",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260612000201.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260612000201.xml",
+   "bytes": 38088,
+   "sha256": "fd1e964334ab0da32cf439467babd067cf145a03fe850cce0aad48ffde14a090"
+  }
+ ],
+ "folder": "data/agm_kosdaq/425420_티에프이/20260612_20260612000201",
+ "fetched_at": "2026-11-16T19:35:21"
+}

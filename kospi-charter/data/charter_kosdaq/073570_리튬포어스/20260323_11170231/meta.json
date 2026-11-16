@@ -1,0 +1,24 @@
+{
+ "corp_code": "00440712",
+ "corp_name": "리튬포어스",
+ "stock_code": "073570",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001735",
+ "dcmNo": "11170231",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001735&dcmNo=11170231",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001735&dcmNo=11170231&eleId=1&offset=596&length=29508&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13539,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/073570_리튬포어스/20260323_11170231",
+ "fetched_at": "2026-11-16T20:35:34",
+ "used_by_rcept_no": [
+  "20260323001735"
+ ]
+}

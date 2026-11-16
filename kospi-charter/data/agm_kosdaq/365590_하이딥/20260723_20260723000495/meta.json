@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260723000495",
+ "corp_code": "01505186",
+ "corp_name": "하이딥",
+ "stock_code": "365590",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260723",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000495",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3326,
+ "charter_amend_txt": "data/agm_kosdaq/365590_하이딥/20260723_20260723000495/정관의변경.txt",
+ "main_xml": "20260723000495.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260723000495.xml",
+   "bytes": 56001,
+   "sha256": "f31384447dff3690c759b6f15ac6beb84722a18384174abdc4b37435c8c6e681"
+  }
+ ],
+ "folder": "data/agm_kosdaq/365590_하이딥/20260723_20260723000495",
+ "fetched_at": "2026-11-16T19:37:13"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260515000526",
+ "corp_code": "01357765",
+ "corp_name": "큐라티스",
+ "stock_code": "348080",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260515",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515000526",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260515000526.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260515000526.xml",
+   "bytes": 60461,
+   "sha256": "03b73980fbbd13cee7fd3be54f83cd41550c612d6c0335a34172c9073acacdd1"
+  }
+ ],
+ "folder": "data/agm_kosdaq/348080_큐라티스/20260515_20260515000526",
+ "fetched_at": "2026-11-16T19:34:28"
+}

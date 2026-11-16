@@ -1,0 +1,37 @@
+{
+ "corp_code": "00811372",
+ "corp_name": "노바렉스",
+ "stock_code": "194700",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319000964",
+ "dcmNo": "11150577",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000964&dcmNo=11150577",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000964&dcmNo=11150577&eleId=1&offset=595&length=300&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 22,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/194700_노바렉스/20260319_11150577",
+ "fetched_at": "2026-11-16T21:06:07",
+ "used_by_rcept_no": [
+  "20260319000964"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11150577&flNm=%EC%A0%95%EA%B4%80%28%EB%85%B8%EB%B0%94%EB%A0%89%EC%8A%A4%29.pdf",
+   "flNm": "정관(노바렉스).pdf",
+   "bytes": 3304485,
+   "sha256": "fb390e7ff567cc7f13cb1575d967d62abb1ed18850e09995cc2bd04a9fc8f325",
+   "pages": 15,
+   "text_pages": 0,
+   "ocr_pages": 15
+  }
+ ],
+ "n_pdfs": 1
+}

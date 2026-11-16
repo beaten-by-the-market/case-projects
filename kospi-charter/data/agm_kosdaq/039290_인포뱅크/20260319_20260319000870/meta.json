@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260319000870",
+ "corp_code": "00243757",
+ "corp_name": "인포뱅크",
+ "stock_code": "039290",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000870",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2452,
+ "charter_amend_txt": "data/agm_kosdaq/039290_인포뱅크/20260319_20260319000870/정관의변경.txt",
+ "main_xml": "20260319000870.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260319000870.xml",
+   "bytes": 237572,
+   "sha256": "7120a6635252691af6d0b1a9ad4326b602025db1dae9b15570b361917fcbe3df"
+  }
+ ],
+ "folder": "data/agm_kosdaq/039290_인포뱅크/20260319_20260319000870",
+ "fetched_at": "2026-11-16T19:32:37"
+}

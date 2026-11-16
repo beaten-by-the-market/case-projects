@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261014000143",
+ "corp_code": "00453929",
+ "corp_name": "메디포스트",
+ "stock_code": "078160",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261014",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000143",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1252,
+ "charter_amend_txt": "data/agm_kosdaq/078160_메디포스트/20261014_20261014000143/정관의변경.txt",
+ "main_xml": "20261014000143.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261014000143.xml",
+   "bytes": 81369,
+   "sha256": "0348c927e0b9e570dea627e2213bf06048290a54ed725546565f30825f8ef7b1"
+  }
+ ],
+ "folder": "data/agm_kosdaq/078160_메디포스트/20261014_20261014000143",
+ "fetched_at": "2026-11-16T19:39:41"
+}

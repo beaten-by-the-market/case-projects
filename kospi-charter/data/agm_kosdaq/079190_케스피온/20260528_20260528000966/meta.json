@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260528000966",
+ "corp_code": "00479705",
+ "corp_name": "케스피온",
+ "stock_code": "079190",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260528",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528000966",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1612,
+ "charter_amend_txt": "data/agm_kosdaq/079190_케스피온/20260528_20260528000966/정관의변경.txt",
+ "main_xml": "20260528000966.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260528000966.xml",
+   "bytes": 61882,
+   "sha256": "827b1cccc526b74f01b195f22160b2bcff8a82f55df4f5a865ee143666737a40"
+  }
+ ],
+ "folder": "data/agm_kosdaq/079190_케스피온/20260528_20260528000966",
+ "fetched_at": "2026-11-16T19:34:44"
+}

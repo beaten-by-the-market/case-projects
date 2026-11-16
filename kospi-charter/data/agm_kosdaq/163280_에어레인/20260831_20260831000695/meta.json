@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260831000695",
+ "corp_code": "01663116",
+ "corp_name": "에어레인",
+ "stock_code": "163280",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260831",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000695",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260831000695.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260831000695.xml",
+   "bytes": 45202,
+   "sha256": "b99dbe73076829487a0938798f955b93bee9b165fba93c4fd62c026edf6f03bf"
+  }
+ ],
+ "folder": "data/agm_kosdaq/163280_에어레인/20260831_20260831000695",
+ "fetched_at": "2026-11-16T19:38:28"
+}

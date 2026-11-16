@@ -1,0 +1,24 @@
+{
+ "corp_code": "01467451",
+ "corp_name": "KT밀리의서재",
+ "stock_code": "418470",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000748",
+ "dcmNo": "11163498",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000748&dcmNo=11163498",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000748&dcmNo=11163498&eleId=1&offset=596&length=21864&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12397,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/418470_KT밀리의서재/20260323_11163498",
+ "fetched_at": "2026-11-16T21:50:48",
+ "used_by_rcept_no": [
+  "20260323000748"
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "corp_code": "00492894",
+ "corp_name": "젬백스",
+ "stock_code": "082270",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001156",
+ "dcmNo": "11158833",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001156&dcmNo=11158833",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001156&dcmNo=11158833&eleId=1&offset=597&length=9983&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "mixed",
+ "text_chars": 1253,
+ "n_images": 23,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-0.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-0.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-0",
+   "bytes": 176062,
+   "sha256": "3ea17377abd82ae4da592d7a55ada7d178103998258fa60c96fb36a015fbe36a",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-1.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-1.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-1",
+   "bytes": 269626,
+   "sha256": "0076c0d290510d707027558e1f5812502656567760260e2aa7b3c2f05d26d1d1",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-10.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-10.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-10",
+   "bytes": 267187,
+   "sha256": "85b93629f618eb6214d8df34325e2f42adf7b64456a647f1d1d2c1fea696bee7",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-11.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-11.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-11",
+   "bytes": 255968,
+   "sha256": "a4814cc2c0d6747882feaee157e9a3e448ae1f01f6dc464f2b18806828e6e57b",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-12.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-12.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-12",
+   "bytes": 262056,
+   "sha256": "93b014c965defe5539955d0605eeb0b22e5bbb87b89fbce7e6e068a95c086f70",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-13.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-13.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-13",
+   "bytes": 241402,
+   "sha256": "d1e311ea84601f4ea5bba5c7c7a46dd6317c9a0d3dadec5f263a818b9c3b25fc",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-14.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-14.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-14",
+   "bytes": 259672,
+   "sha256": "eae91312e90132c6ddbcb39cec103269daeb965441b5c17e35e0fa60747c669e",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-15.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-15.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-15",
+   "bytes": 245525,
+   "sha256": "29790c5b3c0a8e7216a9cdaaa8a5c35e6942d7560574027fb43a6dbfaf30d337",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-16.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-16.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-16",
+   "bytes": 248863,
+   "sha256": "06e324bbfa476d184ef3eb73684ffd54fd71aeeaf07179f47f73581d37a70dd0",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-17.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-17.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-17",
+   "bytes": 254086,
+   "sha256": "efc19836c757c437ecd9c24db5a11ba7ce03301f3e0b35ebd1e8b512f9a04fb3",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-18.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-18.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-18",
+   "bytes": 243483,
+   "sha256": "bfeddf56c428ba8b4ca79b23eb0c6a88f384b047b6f64ed21a9f231526b6dba3",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-19.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-19.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-19",
+   "bytes": 260351,
+   "sha256": "a8c48c07161c1ea68f7bd8e2f54c8d84ec2714ef60a70329d49046ceebbd595c",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-2.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-2.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-2",
+   "bytes": 256659,
+   "sha256": "ddf6b46dc1056433cb079b0fbe48325d6186f2fd7885e73d739b26cecc24b294",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-20.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-20.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-20",
+   "bytes": 262602,
+   "sha256": "90a85683d7429e69cbee55f22231995b04c055b7f005aa45279dfaeebc6ac42d",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-21.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-21.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-21",
+   "bytes": 307171,
+   "sha256": "2ee6783cd8044273ca14c510e07405baa52295544f9d0482eabaee81fc7e367c",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-22.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-22.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-22",
+   "bytes": 304771,
+   "sha256": "4573c3820828080d4854ba541067f82960b728294bb1abbf8c75987b0c8bbfc4",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-3.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-3.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-3",
+   "bytes": 301384,
+   "sha256": "29470538ffb252b80b00d37258e065552da22142e730d7f12801e2759d57be46",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-4.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-4.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-4",
+   "bytes": 247104,
+   "sha256": "96b26b7a13e2fd5b05299adcac5bc73e82f6399299a09f0355f599c69c109f48",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-5.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-5.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-5",
+   "bytes": 273091,
+   "sha256": "9ad5a14449bcf3e4efe99bcb889fa7d58ab7a6ab06ad1d73d471f8108af868fb",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-6.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-6.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-6",
+   "bytes": 268573,
+   "sha256": "b1029a9c5cee64bab221ee39c43ae6aa9ae12d6ffb3f0726a01c51d5520b3f6d",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-7.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-7.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-7",
+   "bytes": 278656,
+   "sha256": "0d1b13b63dce8b4bcf6a2b3b3b3a85160efbd6181ab132365ef9c735ea814d31",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-8.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-8.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-8",
+   "bytes": 282530,
+   "sha256": "2e86b8605d5febe9e11da46f3c957eaead108317f27de9591a72c2d861042733",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11158833&flNm=20251223_%EC%A0%AC%EB%B0%B1%EC%8A%A4%26%EC%B9%B4%EC%97%98+%EC%A0%95%EA%B4%80%28%EC%B5%9C%EC%A2%85%29_%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-9.jpg",
+   "flNm": "20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-9.jpg",
+   "alt": "이미지: 20251223_젬백스&카엘 정관(최종)_개정 정관-이미지-9",
+   "bytes": 274558,
+   "sha256": "6a0a9c157382e4adce88cab98e4f445841892f5c45e8958cd4d47b346b331b94",
+   "width": 2480,
+   "height": 3505
+  }
+ ],
+ "folder": "data/charter_kosdaq/082270_젬백스/20260320_11158833",
+ "fetched_at": "2026-11-16T20:39:48",
+ "used_by_rcept_no": [
+  "20260320001156"
+ ]
+}

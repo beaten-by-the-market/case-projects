@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260730000076",
+ "corp_code": "01064069",
+ "corp_name": "토박스코리아",
+ "stock_code": "215480",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260730",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000076",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 5370,
+ "charter_amend_txt": "data/agm_kosdaq/215480_토박스코리아/20260730_20260730000076/정관의변경.txt",
+ "main_xml": "20260730000076.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260730000076.xml",
+   "bytes": 75597,
+   "sha256": "821b9ab03840711f933fad6c9eeac919192373d1d7d54ad7a8f3c1f9fcd7942a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/215480_토박스코리아/20260730_20260730000076",
+ "fetched_at": "2026-11-16T19:37:25"
+}

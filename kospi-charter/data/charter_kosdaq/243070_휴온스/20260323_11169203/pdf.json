@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11169203&flNm=%5B%ED%9C%B4%EC%98%A8%EC%8A%A4%5D+%EA%B0%9C%EC%A0%95+%EC%A0%95%EA%B4%80_2025.03.26.pdf",
+   "flNm": "[휴온스] 개정 정관_2025.03.26.pdf",
+   "bytes": 608555,
+   "sha256": "715540f1e8a23241530fdc15b743e551cc22cebc698ab8036ce794373887abfa",
+   "pages": 20,
+   "text_pages": 19,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 13061,
+ "pages": 20,
+ "text_pages": 19,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T22:14:22",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

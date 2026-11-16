@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260417000662",
+ "corp_code": "00120906",
+ "corp_name": "에스아이리소스",
+ "stock_code": "065420",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260417",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260417000662",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 411,
+ "charter_amend_txt": "data/agm_kosdaq/065420_에스아이리소스/20260417_20260417000662/정관의변경.txt",
+ "main_xml": "20260417000662.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260417000662.xml",
+   "bytes": 94555,
+   "sha256": "397d339754b8e5c741de6c874a4fd008f5f4a31c6d5a22de625825c69b50f50d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/065420_에스아이리소스/20260417_20260417000662",
+ "fetched_at": "2026-11-16T19:33:33"
+}

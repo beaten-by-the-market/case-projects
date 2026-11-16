@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260605000317",
+ "corp_code": "01095704",
+ "corp_name": "케이엠제약",
+ "stock_code": "225430",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260605",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000317",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 626,
+ "charter_amend_txt": "data/agm_kosdaq/225430_케이엠제약/20260605_20260605000317/정관의변경.txt",
+ "main_xml": "20260605000317.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260605000317.xml",
+   "bytes": 260624,
+   "sha256": "ec6accf4c55f8709db96b355386ba7f1e2af14f42f6edf1b36f32f27a9eb102d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/225430_케이엠제약/20260605_20260605000317",
+ "fetched_at": "2026-11-16T19:35:08"
+}

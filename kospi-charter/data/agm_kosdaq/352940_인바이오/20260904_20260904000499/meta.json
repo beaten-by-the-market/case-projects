@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260904000499",
+ "corp_code": "00367871",
+ "corp_name": "인바이오",
+ "stock_code": "352940",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260904",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000499",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 962,
+ "charter_amend_txt": "data/agm_kosdaq/352940_인바이오/20260904_20260904000499/정관의변경.txt",
+ "main_xml": "20260904000499.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260904000499.xml",
+   "bytes": 39581,
+   "sha256": "b171eb747d8ece84992dad41894d3c7c222f9ccc9bfc31c3174d9735a9222d8b"
+  }
+ ],
+ "folder": "data/agm_kosdaq/352940_인바이오/20260904_20260904000499",
+ "fetched_at": "2026-11-16T19:38:36"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00799070",
+ "corp_name": "딥커머스",
+ "stock_code": "900110",
+ "att_title": "2026.04.29 정관",
+ "att_date": "20260429",
+ "rcpNo": "20260429001114",
+ "dcmNo": "11355392",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429001114&dcmNo=11355392",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260429001114&dcmNo=11355392&eleId=1&offset=597&length=246775&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 177600,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/900110_딥커머스/20260429_11355392",
+ "fetched_at": "2026-11-16T22:09:09",
+ "used_by_rcept_no": [
+  "20260429001114"
+ ]
+}

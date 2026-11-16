@@ -1,0 +1,24 @@
+{
+ "corp_code": "00957373",
+ "corp_name": "펨트론",
+ "stock_code": "168360",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000460",
+ "dcmNo": "11155500",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000460&dcmNo=11155500",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000460&dcmNo=11155500&eleId=1&offset=596&length=23054&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12299,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/168360_펨트론/20260320_11155500",
+ "fetched_at": "2026-11-16T21:01:06",
+ "used_by_rcept_no": [
+  "20260410001848"
+ ]
+}

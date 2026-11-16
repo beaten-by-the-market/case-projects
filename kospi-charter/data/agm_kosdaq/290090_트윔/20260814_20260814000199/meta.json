@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260814000199",
+ "corp_code": "01217014",
+ "corp_name": "트윔",
+ "stock_code": "290090",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260814",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000199",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 365,
+ "charter_amend_txt": "data/agm_kosdaq/290090_트윔/20260814_20260814000199/정관의변경.txt",
+ "main_xml": "20260814000199.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260814000199.xml",
+   "bytes": 69702,
+   "sha256": "34460e813bd806e35e17f5b0a7558600b9b8070a6850645f9a8d5827f88e99a9"
+  }
+ ],
+ "folder": "data/agm_kosdaq/290090_트윔/20260814_20260814000199",
+ "fetched_at": "2026-11-16T19:37:50"
+}

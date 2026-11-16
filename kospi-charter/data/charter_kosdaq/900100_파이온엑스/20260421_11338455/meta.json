@@ -1,0 +1,24 @@
+{
+ "corp_code": "00781202",
+ "corp_name": "파이온엑스",
+ "stock_code": "900100",
+ "att_title": "2026.04.21 정관",
+ "att_date": "20260421",
+ "rcpNo": "20260421000356",
+ "dcmNo": "11338455",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260421000356&dcmNo=11338455",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260421000356&dcmNo=11338455&eleId=1&offset=597&length=26031&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 16911,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/900100_파이온엑스/20260421_11338455",
+ "fetched_at": "2026-11-16T22:09:08",
+ "used_by_rcept_no": [
+  "20260421000356"
+ ]
+}

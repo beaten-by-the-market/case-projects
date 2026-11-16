@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260805000385",
+ "corp_code": "00205003",
+ "corp_name": "좋은사람들",
+ "stock_code": "033340",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260805",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000385",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 455,
+ "charter_amend_txt": "data/agm_kosdaq/033340_좋은사람들/20260805_20260805000385/정관의변경.txt",
+ "main_xml": "20260805000385.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260805000385.xml",
+   "bytes": 57460,
+   "sha256": "5288bfa89811148b0e4651edf6f0a271e08b80473e90a673b4aec74539e0cb6a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/033340_좋은사람들/20260805_20260805000385",
+ "fetched_at": "2026-11-16T19:37:32"
+}

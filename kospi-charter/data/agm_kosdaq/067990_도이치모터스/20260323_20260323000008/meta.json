@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260323000008",
+ "corp_code": "00449379",
+ "corp_name": "도이치모터스",
+ "stock_code": "067990",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260323",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000008",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2412,
+ "charter_amend_txt": "data/agm_kosdaq/067990_도이치모터스/20260323_20260323000008/정관의변경.txt",
+ "main_xml": "20260323000008.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260323000008.xml",
+   "bytes": 280474,
+   "sha256": "95eefa7899aed859aff68397ee8580e8e510cebc654ec8402c4d42656d209adf"
+  }
+ ],
+ "folder": "data/agm_kosdaq/067990_도이치모터스/20260323_20260323000008",
+ "fetched_at": "2026-11-16T19:32:47"
+}

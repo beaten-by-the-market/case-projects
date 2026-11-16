@@ -1,0 +1,24 @@
+{
+ "corp_code": "01189438",
+ "corp_name": "HLB바이오스텝",
+ "stock_code": "278650",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001696",
+ "dcmNo": "11145181",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001696&dcmNo=11145181",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001696&dcmNo=11145181&eleId=1&offset=599&length=29096&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13014,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/278650_HLB바이오스텝/20260318_11145181",
+ "fetched_at": "2026-11-16T21:23:27",
+ "used_by_rcept_no": [
+  "20260323000079"
+ ]
+}

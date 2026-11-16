@@ -1,0 +1,24 @@
+{
+ "corp_code": "02031369",
+ "corp_name": "인제니아테라퓨틱스",
+ "stock_code": "950260",
+ "att_title": "2026.06.10 정관",
+ "att_date": "20260610",
+ "rcpNo": "20260610000622",
+ "dcmNo": "11427160",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000622&dcmNo=11427160",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260610000622&dcmNo=11427160&eleId=1&offset=613&length=196988&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 28818,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_absent/950260_인제니아테라퓨틱스/20260610_11427160",
+ "fetched_at": "2026-11-17T01:01:22",
+ "used_by_stock_code": [
+  "950260"
+ ]
+}

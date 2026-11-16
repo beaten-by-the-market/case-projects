@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260305001393",
+ "corp_code": "01807729",
+ "corp_name": "하나33호스팩",
+ "stock_code": "475250",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260305",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001393",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260305001393.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260305001393.xml",
+   "bytes": 72143,
+   "sha256": "ac9a7a489dd4b826dd6bf97ba9e47dabcee1b0ed9c445fb4ebf40196e277dfca"
+  }
+ ],
+ "folder": "data/agm_kosdaq/475250_하나33호스팩/20260305_20260305001393",
+ "fetched_at": "2026-11-16T19:32:11"
+}

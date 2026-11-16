@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260610000367",
+ "corp_code": "01288827",
+ "corp_name": "HPSP",
+ "stock_code": "403870",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260610",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000367",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260610000367.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260610000367.xml",
+   "bytes": 49687,
+   "sha256": "48557cabf175f892385ccbf929c6e56b8dfcee76091dec6864a442a4abb8831c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/403870_HPSP/20260610_20260610000367",
+ "fetched_at": "2026-11-16T19:35:16"
+}

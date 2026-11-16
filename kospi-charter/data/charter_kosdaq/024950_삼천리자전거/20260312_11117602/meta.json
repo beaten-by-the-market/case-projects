@@ -1,0 +1,24 @@
+{
+ "corp_code": "00128607",
+ "corp_name": "삼천리자전거",
+ "stock_code": "024950",
+ "att_title": "2026.03.12 정관",
+ "att_date": "20260312",
+ "rcpNo": "20260312001435",
+ "dcmNo": "11117602",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001435&dcmNo=11117602",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001435&dcmNo=11117602&eleId=1&offset=595&length=19832&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12197,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/024950_삼천리자전거/20260312_11117602",
+ "fetched_at": "2026-11-16T19:58:37",
+ "used_by_rcept_no": [
+  "20260312001435"
+ ]
+}

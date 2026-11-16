@@ -1,0 +1,33 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11359748&flNm=ogt_%EC%A0%95%EA%B4%80%282026.04.30%29_%EC%9B%90%EB%B3%B8.pdf",
+   "flNm": "ogt_정관(2026.04.30)_원본.pdf",
+   "bytes": 881902,
+   "sha256": "eb565580cc24fd1a8c310e414e6ebf68289944e6c623bd672a3d68184ea76efc",
+   "pages": 75,
+   "text_pages": 75,
+   "ocr_pages": 0
+  },
+  {
+   "file": "pdf/002.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11359748&flNm=ogt_%EC%A0%95%EA%B4%80%282026.04.30%29_%EB%B2%88%EC%97%AD%EB%B3%B8.pdf",
+   "flNm": "ogt_정관(2026.04.30)_번역본.pdf",
+   "bytes": 4041541,
+   "sha256": "1d8b5781462b984f55900b32ca76d5bf4c027a9b2609cf7c43ed3cd53cec9f51",
+   "pages": 63,
+   "text_pages": 63,
+   "ocr_pages": 0
+  }
+ ],
+ "total_chars": 176446,
+ "pages": 138,
+ "text_pages": 138,
+ "ocr_pages": 0,
+ "created_at": "2026-11-16T22:18:28",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": null
+ }
+}

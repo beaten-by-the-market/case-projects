@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260825000428",
+ "corp_code": "01051472",
+ "corp_name": "젠큐릭스",
+ "stock_code": "229000",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260825",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000428",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260825000428.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260825000428.xml",
+   "bytes": 50731,
+   "sha256": "7b1451a1230d7daec59a54dc1acb23c20fa0e64a093e4ee684409b24982e99ca"
+  }
+ ],
+ "folder": "data/agm_kosdaq/229000_젠큐릭스/20260825_20260825000428",
+ "fetched_at": "2026-11-16T19:38:19"
+}

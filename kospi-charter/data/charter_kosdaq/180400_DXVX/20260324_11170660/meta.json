@@ -1,0 +1,24 @@
+{
+ "corp_code": "00995993",
+ "corp_name": "DXVX",
+ "stock_code": "180400",
+ "att_title": "2026.03.24 정관",
+ "att_date": "20260324",
+ "rcpNo": "20260324000002",
+ "dcmNo": "11170660",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000002&dcmNo=11170660",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260324000002&dcmNo=11170660&eleId=1&offset=599&length=20113&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12324,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/180400_DXVX/20260324_11170660",
+ "fetched_at": "2026-11-16T21:02:33",
+ "used_by_rcept_no": [
+  "20260324000002"
+ ]
+}

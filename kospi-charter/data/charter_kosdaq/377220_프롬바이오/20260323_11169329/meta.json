@@ -1,0 +1,24 @@
+{
+ "corp_code": "01217865",
+ "corp_name": "프롬바이오",
+ "stock_code": "377220",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001651",
+ "dcmNo": "11169329",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001651&dcmNo=11169329",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001651&dcmNo=11169329&eleId=1&offset=596&length=37843&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13272,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/377220_프롬바이오/20260323_11169329",
+ "fetched_at": "2026-11-16T21:43:50",
+ "used_by_rcept_no": [
+  "20260323001651"
+ ]
+}

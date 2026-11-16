@@ -519,9 +519,27 @@ def run_doc(ex: ThreadPoolExecutor, d: Path, meta: dict, workers: int) -> dict:
            "content_type": meta["content_type"], "pages": rec_pages,
            "total_chars": sum(r["chars"] for r in rec_pages), "errors": errors,
            "unplaced_images": unplaced, "doc_seconds": round(time.time() - t0, 2)}
+    if _unchanged(d, text, ocr):          # 다시 돌려 결과가 같으면(시각·소요 시간만 다름) 파일을 그대로 둔다 — git 에 헛변경이 안 생기게
+        return json.loads((d / "ocr.json").read_text(encoding="utf-8"))
     _write(d / "charter_ocr.txt", text)
     _write(d / "ocr.json", json.dumps(ocr, ensure_ascii=False, indent=1))   # 마지막에 쓴다 = 끝났다는 표시
     return ocr
+
+
+def _strip_timing(o: dict) -> dict:
+    o = {k: v for k, v in o.items() if k not in ("created_at", "doc_seconds")}
+    o["pages"] = [{k: v for k, v in p.items() if k != "seconds"} for p in o.get("pages", [])]
+    return o
+
+
+def _unchanged(d: Path, text: str, ocr: dict) -> bool:
+    f, t = d / "ocr.json", d / "charter_ocr.txt"
+    try:
+        old = json.loads(f.read_text(encoding="utf-8"))
+        return t.read_text(encoding="utf-8") == text and _strip_timing(old) == _strip_timing(
+            json.loads(json.dumps(ocr, ensure_ascii=False)))
+    except (OSError, json.JSONDecodeError):
+        return False
 
 
 def index_entry(d: Path, o: dict) -> dict:

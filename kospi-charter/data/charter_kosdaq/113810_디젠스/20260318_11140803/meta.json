@@ -1,0 +1,145 @@
+{
+ "corp_code": "00576789",
+ "corp_name": "디젠스",
+ "stock_code": "113810",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001189",
+ "dcmNo": "11140803",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001189&dcmNo=11140803",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001189&dcmNo=11140803&eleId=1&offset=596&length=1967&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 12,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140803&flNm=%EB%94%94%EC%A0%A0%EC%8A%A4%28%EC%A3%BC%29_%EC%A0%95%EA%B4%80_01.jpg",
+   "flNm": "디젠스(주)_정관_01.jpg",
+   "alt": "이미지: 디젠스(주)_정관_01",
+   "bytes": 85261,
+   "sha256": "d387f54fbc1f8595c084b3657fdedd79ca7fc019be773b9bfbd353d6ede51a0a",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140803&flNm=%EB%94%94%EC%A0%A0%EC%8A%A4%28%EC%A3%BC%29_%EC%A0%95%EA%B4%80_02.jpg",
+   "flNm": "디젠스(주)_정관_02.jpg",
+   "alt": "이미지: 디젠스(주)_정관_02",
+   "bytes": 266010,
+   "sha256": "5b04cbf3edab70bc9d01a38d9a11f6f0afc7801c36759111ce81cdaf16f3f37e",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140803&flNm=%EB%94%94%EC%A0%A0%EC%8A%A4%28%EC%A3%BC%29_%EC%A0%95%EA%B4%80_03.jpg",
+   "flNm": "디젠스(주)_정관_03.jpg",
+   "alt": "이미지: 디젠스(주)_정관_03",
+   "bytes": 277796,
+   "sha256": "26a156a7d5b77c06ef0364797cc325ae29c3d75270c338200ef568ac9e1459e3",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140803&flNm=%EB%94%94%EC%A0%A0%EC%8A%A4%28%EC%A3%BC%29_%EC%A0%95%EA%B4%80_04.jpg",
+   "flNm": "디젠스(주)_정관_04.jpg",
+   "alt": "이미지: 디젠스(주)_정관_04",
+   "bytes": 286048,
+   "sha256": "8287ceae8a448343fa9b2ffe7e8b1db13cf3f1aad4bc613ebbc2fc901cb516ce",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140803&flNm=%EB%94%94%EC%A0%A0%EC%8A%A4%28%EC%A3%BC%29_%EC%A0%95%EA%B4%80_05.jpg",
+   "flNm": "디젠스(주)_정관_05.jpg",
+   "alt": "이미지: 디젠스(주)_정관_05",
+   "bytes": 287176,
+   "sha256": "8d978d37191d3464488e224fa6bf70391fe880f1302b22f5d7bcdee49473d307",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140803&flNm=%EB%94%94%EC%A0%A0%EC%8A%A4%28%EC%A3%BC%29_%EC%A0%95%EA%B4%80_06.jpg",
+   "flNm": "디젠스(주)_정관_06.jpg",
+   "alt": "이미지: 디젠스(주)_정관_06",
+   "bytes": 273735,
+   "sha256": "00641d2f9dd34a970083ac58304f87bcdab1f3db7b99e60efd376e182049d209",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140803&flNm=%EB%94%94%EC%A0%A0%EC%8A%A4%28%EC%A3%BC%29_%EC%A0%95%EA%B4%80_07.jpg",
+   "flNm": "디젠스(주)_정관_07.jpg",
+   "alt": "이미지: 디젠스(주)_정관_07",
+   "bytes": 302843,
+   "sha256": "87ea8e1f24e6411d5cb07bd8775b80bb221d99fdd90073f80208d7b26531861e",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140803&flNm=%EB%94%94%EC%A0%A0%EC%8A%A4%28%EC%A3%BC%29_%EC%A0%95%EA%B4%80_08.jpg",
+   "flNm": "디젠스(주)_정관_08.jpg",
+   "alt": "이미지: 디젠스(주)_정관_08",
+   "bytes": 261916,
+   "sha256": "5f440b51dc8d138facc84432086901a1341623bc634fe968eb304f16c3121188",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140803&flNm=%EB%94%94%EC%A0%A0%EC%8A%A4%28%EC%A3%BC%29_%EC%A0%95%EA%B4%80_09.jpg",
+   "flNm": "디젠스(주)_정관_09.jpg",
+   "alt": "이미지: 디젠스(주)_정관_09",
+   "bytes": 256860,
+   "sha256": "a02f8c657174405cb1471403e1d3d113fb164e15430b6319c849f515ae604e37",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140803&flNm=%EB%94%94%EC%A0%A0%EC%8A%A4%28%EC%A3%BC%29_%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "디젠스(주)_정관_10.jpg",
+   "alt": "이미지: 디젠스(주)_정관_10",
+   "bytes": 306106,
+   "sha256": "924717238ae38f815b9600e79dd0c7d9eb2a8a49966ad022a41b9b5b3b64ab6d",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140803&flNm=%EB%94%94%EC%A0%A0%EC%8A%A4%28%EC%A3%BC%29_%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "디젠스(주)_정관_11.jpg",
+   "alt": "이미지: 디젠스(주)_정관_11",
+   "bytes": 243572,
+   "sha256": "2bb30cbb33d288419d1fbd6bb0a50465401ad4e612da0cfe7c6d8d642acff9c3",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11140803&flNm=%EB%94%94%EC%A0%A0%EC%8A%A4%28%EC%A3%BC%29_%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "디젠스(주)_정관_12.jpg",
+   "alt": "이미지: 디젠스(주)_정관_12",
+   "bytes": 147667,
+   "sha256": "ba5775a2823524c4cd1bfb2147ceb958da6926e3b3a34bd1c6e1eef18f5806a6",
+   "width": 1653,
+   "height": 2338
+  }
+ ],
+ "folder": "data/charter_kosdaq/113810_디젠스/20260318_11140803",
+ "fetched_at": "2026-11-16T20:51:26",
+ "used_by_rcept_no": [
+  "20260318001189"
+ ]
+}

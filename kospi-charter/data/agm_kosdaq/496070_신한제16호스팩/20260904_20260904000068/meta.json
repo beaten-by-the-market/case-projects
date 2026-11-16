@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260904000068",
+ "corp_code": "01875146",
+ "corp_name": "신한제16호스팩",
+ "stock_code": "496070",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260904",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000068",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260904000068.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260904000068.xml",
+   "bytes": 45258,
+   "sha256": "87d27159f848e84c4a5fc7013d3920976cbf9d9fbec950343ef10b4df0e24f35"
+  }
+ ],
+ "folder": "data/agm_kosdaq/496070_신한제16호스팩/20260904_20260904000068",
+ "fetched_at": "2026-11-16T19:38:34"
+}

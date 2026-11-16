@@ -1,0 +1,24 @@
+{
+ "corp_code": "00603348",
+ "corp_name": "케이아이엔엑스",
+ "stock_code": "093320",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001005",
+ "dcmNo": "11139452",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001005&dcmNo=11139452",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001005&dcmNo=11139452&eleId=1&offset=598&length=23446&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9590,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/093320_케이아이엔엑스/20260318_11139452",
+ "fetched_at": "2026-11-16T20:44:22",
+ "used_by_rcept_no": [
+  "20260318001005"
+ ]
+}

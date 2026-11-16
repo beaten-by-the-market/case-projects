@@ -1,0 +1,205 @@
+{
+ "corp_code": "00547510",
+ "corp_name": "툴젠",
+ "stock_code": "199800",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001030",
+ "dcmNo": "11151048",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001030&dcmNo=11151048",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001030&dcmNo=11151048&eleId=1&offset=593&length=2846&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 18,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_1.jpg",
+   "flNm": "(주)툴젠_정관_1.jpg",
+   "alt": "이미지: (주)툴젠_정관_1",
+   "bytes": 279547,
+   "sha256": "1fcd52089a4f5bd4a4f29179b4dd5f9ddce7a8f76cd533a0f2f4c8b49ebc0312",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_2.jpg",
+   "flNm": "(주)툴젠_정관_2.jpg",
+   "alt": "이미지: (주)툴젠_정관_2",
+   "bytes": 301933,
+   "sha256": "c476c796611869b18f6eb6e34b65af753af6d2641fa53ea83eac2526c372f54e",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_3.jpg",
+   "flNm": "(주)툴젠_정관_3.jpg",
+   "alt": "이미지: (주)툴젠_정관_3",
+   "bytes": 281775,
+   "sha256": "a0f8502660d0d658ee42cfdd44e83ab228e05b70552e2846dfeb62b9b2e63f3e",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_4.jpg",
+   "flNm": "(주)툴젠_정관_4.jpg",
+   "alt": "이미지: (주)툴젠_정관_4",
+   "bytes": 295528,
+   "sha256": "ab024fddf331e8ce7cf0664d24a53bdc2d2d91f34533bb3cc4b39c5957892f1a",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_5.jpg",
+   "flNm": "(주)툴젠_정관_5.jpg",
+   "alt": "이미지: (주)툴젠_정관_5",
+   "bytes": 264875,
+   "sha256": "cb0950fc502237cbf125dcf2b1577b132d28479dc64e56ff79d8f222df7abaab",
+   "width": 1807,
+   "height": 2554
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_6.jpg",
+   "flNm": "(주)툴젠_정관_6.jpg",
+   "alt": "이미지: (주)툴젠_정관_6",
+   "bytes": 264785,
+   "sha256": "2cce44a8229b2faaddd9144c4663bd341549e5d4a93d36e98ed074ffa7971581",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_7.jpg",
+   "flNm": "(주)툴젠_정관_7.jpg",
+   "alt": "이미지: (주)툴젠_정관_7",
+   "bytes": 294431,
+   "sha256": "f3c9be71097bc0e1c0d4bba5abba04892c28c3fd79f5dd2180e94b5a1b954d81",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_8.jpg",
+   "flNm": "(주)툴젠_정관_8.jpg",
+   "alt": "이미지: (주)툴젠_정관_8",
+   "bytes": 273612,
+   "sha256": "8d32ed7f505aac1bd1eaef53057c210fdc1893da237faffe99e7cd51fe9ac658",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_9.jpg",
+   "flNm": "(주)툴젠_정관_9.jpg",
+   "alt": "이미지: (주)툴젠_정관_9",
+   "bytes": 277241,
+   "sha256": "bebdc2a7bd54f6ea055d5005f9c0988042978c09ec49f74f6e8d6fe0bd04e534",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "(주)툴젠_정관_10.jpg",
+   "alt": "이미지: (주)툴젠_정관_10",
+   "bytes": 277534,
+   "sha256": "5f691476c51186ad48e075384daefd2f3e8e1fe149774b48280f4dd3d979516b",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "(주)툴젠_정관_11.jpg",
+   "alt": "이미지: (주)툴젠_정관_11",
+   "bytes": 268614,
+   "sha256": "584482f71a30316a2f8d5e7168912557ef3f0d3222eb095c4a318a81c1fd9d8d",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "(주)툴젠_정관_12.jpg",
+   "alt": "이미지: (주)툴젠_정관_12",
+   "bytes": 261889,
+   "sha256": "8060bf83650ed0915ffd195413b25e861293b219e8e3984a2feef87e04f7fac8",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "(주)툴젠_정관_13.jpg",
+   "alt": "이미지: (주)툴젠_정관_13",
+   "bytes": 279951,
+   "sha256": "fba34ca54ce9161a4df72a8c095c4ad9488c64fd006029051b460e494db04ac7",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "(주)툴젠_정관_14.jpg",
+   "alt": "이미지: (주)툴젠_정관_14",
+   "bytes": 267457,
+   "sha256": "ad70ecd218b0c43398e24d0931074cdb674d99f7a27845fd4e1a4d88dd3ee1ff",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "(주)툴젠_정관_15.jpg",
+   "alt": "이미지: (주)툴젠_정관_15",
+   "bytes": 263333,
+   "sha256": "9e76b0011209c1e2eb0ed9b0d757f7a758cf013f20d7c9cdf2896fe3701180db",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_16.jpg",
+   "flNm": "(주)툴젠_정관_16.jpg",
+   "alt": "이미지: (주)툴젠_정관_16",
+   "bytes": 266933,
+   "sha256": "9732424a81642d427eeeb886734c728e410773124bcf9664fe4ef3f7b410c07b",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_17.jpg",
+   "flNm": "(주)툴젠_정관_17.jpg",
+   "alt": "이미지: (주)툴젠_정관_17",
+   "bytes": 262895,
+   "sha256": "e3411185378bdba94eb87f760370361344a04a89a089c4725b0931de0af164d8",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11151048&flNm=%28%EC%A3%BC%29%ED%88%B4%EC%A0%A0_%EC%A0%95%EA%B4%80_18.jpg",
+   "flNm": "(주)툴젠_정관_18.jpg",
+   "alt": "이미지: (주)툴젠_정관_18",
+   "bytes": 274734,
+   "sha256": "7318c18fd6dcc3eafdff33835a69ddcf3062ea065e5bd6bb64f09bef913a2130",
+   "width": 2480,
+   "height": 3507
+  }
+ ],
+ "folder": "data/charter_kosdaq/199800_툴젠/20260319_11151048",
+ "fetched_at": "2026-11-16T21:07:51",
+ "used_by_rcept_no": [
+  "20260319001030"
+ ]
+}

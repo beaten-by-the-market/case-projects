@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260807000540",
+ "corp_code": "01847550",
+ "corp_name": "하나34호스팩",
+ "stock_code": "484130",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260807",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000540",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260807000540.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260807000540.xml",
+   "bytes": 39689,
+   "sha256": "e95d7e51dceefea2f4941ca1730e161c58ae42c87df57e662436e17401ee3358"
+  }
+ ],
+ "folder": "data/agm_kosdaq/484130_하나34호스팩/20260807_20260807000540",
+ "fetched_at": "2026-11-16T19:37:36"
+}

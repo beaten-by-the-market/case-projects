@@ -1,0 +1,24 @@
+{
+ "corp_code": "00863038",
+ "corp_name": "캐리",
+ "stock_code": "313760",
+ "att_title": "2026.04.07 정관",
+ "att_date": "20260407",
+ "rcpNo": "20260407003484",
+ "dcmNo": "11279309",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407003484&dcmNo=11279309",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260407003484&dcmNo=11279309&eleId=1&offset=593&length=31540&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14599,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/313760_캐리/20260407_11279309",
+ "fetched_at": "2026-11-16T21:31:41",
+ "used_by_rcept_no": [
+  "20260407003484"
+ ]
+}

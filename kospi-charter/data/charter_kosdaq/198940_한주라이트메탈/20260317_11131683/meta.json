@@ -1,0 +1,24 @@
+{
+ "corp_code": "00156600",
+ "corp_name": "한주라이트메탈",
+ "stock_code": "198940",
+ "att_title": "2026.03.17 정관",
+ "att_date": "20260317",
+ "rcpNo": "20260317000438",
+ "dcmNo": "11131683",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000438&dcmNo=11131683",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000438&dcmNo=11131683&eleId=1&offset=600&length=32822&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13000,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/198940_한주라이트메탈/20260317_11131683",
+ "fetched_at": "2026-11-16T21:06:48",
+ "used_by_rcept_no": [
+  "20260317000438"
+ ]
+}

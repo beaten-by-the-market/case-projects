@@ -1,0 +1,24 @@
+{
+ "corp_code": "00616290",
+ "corp_name": "이엠넷",
+ "stock_code": "123570",
+ "att_title": "2026.04.06 정관",
+ "att_date": "20260406",
+ "rcpNo": "20260406000001",
+ "dcmNo": "11255087",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260406000001&dcmNo=11255087",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260406000001&dcmNo=11255087&eleId=1&offset=594&length=21019&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12852,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/123570_이엠넷/20260406_11255087",
+ "fetched_at": "2026-11-16T20:53:42",
+ "used_by_rcept_no": [
+  "20260406000001"
+ ]
+}

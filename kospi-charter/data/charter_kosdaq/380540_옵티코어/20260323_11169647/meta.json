@@ -1,0 +1,24 @@
+{
+ "corp_code": "01506990",
+ "corp_name": "옵티코어",
+ "stock_code": "380540",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001681",
+ "dcmNo": "11169647",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001681&dcmNo=11169647",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001681&dcmNo=11169647&eleId=1&offset=595&length=33846&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 15059,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/380540_옵티코어/20260323_11169647",
+ "fetched_at": "2026-11-16T21:44:20",
+ "used_by_rcept_no": [
+  "20260323001681"
+ ]
+}

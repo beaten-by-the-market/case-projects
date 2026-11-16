@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260916000418",
+ "corp_code": "00203209",
+ "corp_name": "에쎈테크",
+ "stock_code": "043340",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260916",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000418",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 192,
+ "charter_amend_txt": "data/agm_kosdaq/043340_에쎈테크/20260916_20260916000418/정관의변경.txt",
+ "main_xml": "20260916000418.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260916000418.xml",
+   "bytes": 37280,
+   "sha256": "6bf8ebcafb8d56210033d3db7541893a31bdf8189d4fae5788dae7d124e8cac5"
+  }
+ ],
+ "folder": "data/agm_kosdaq/043340_에쎈테크/20260916_20260916000418",
+ "fetched_at": "2026-11-16T19:38:53"
+}

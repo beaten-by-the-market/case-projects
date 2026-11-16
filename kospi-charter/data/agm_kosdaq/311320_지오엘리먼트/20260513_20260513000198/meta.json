@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260513000198",
+ "corp_code": "00668965",
+ "corp_name": "지오엘리먼트",
+ "stock_code": "311320",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260513",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000198",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2755,
+ "charter_amend_txt": "data/agm_kosdaq/311320_지오엘리먼트/20260513_20260513000198/정관의변경.txt",
+ "main_xml": "20260513000198.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260513000198.xml",
+   "bytes": 68914,
+   "sha256": "7022d4aa48a3946130be41ebcf4b04132cb24d7d6fb7427727cb140a21941ed3"
+  }
+ ],
+ "folder": "data/agm_kosdaq/311320_지오엘리먼트/20260513_20260513000198",
+ "fetched_at": "2026-11-16T19:34:18"
+}

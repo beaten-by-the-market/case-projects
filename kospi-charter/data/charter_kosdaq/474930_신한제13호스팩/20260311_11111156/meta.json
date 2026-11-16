@@ -1,0 +1,24 @@
+{
+ "corp_code": "01807747",
+ "corp_name": "신한제13호스팩",
+ "stock_code": "474930",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311004530",
+ "dcmNo": "11111156",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004530&dcmNo=11111156",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311004530&dcmNo=11111156&eleId=1&offset=605&length=19859&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11539,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/474930_신한제13호스팩/20260311_11111156",
+ "fetched_at": "2026-11-16T22:01:14",
+ "used_by_rcept_no": [
+  "20260311004530"
+ ]
+}

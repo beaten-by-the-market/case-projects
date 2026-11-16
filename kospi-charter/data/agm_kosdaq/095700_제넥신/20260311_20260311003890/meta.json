@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260311003890",
+ "corp_code": "00545929",
+ "corp_name": "제넥신",
+ "stock_code": "095700",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260311",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003890",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1070,
+ "charter_amend_txt": "data/agm_kosdaq/095700_제넥신/20260311_20260311003890/정관의변경.txt",
+ "main_xml": "20260311003890.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260311003890.xml",
+   "bytes": 66984,
+   "sha256": "40a17ffbbcd10bcc5735b014c8b7fed124faa405bcf750b8c51a95508e091bc1"
+  }
+ ],
+ "folder": "data/agm_kosdaq/095700_제넥신/20260311_20260311003890",
+ "fetched_at": "2026-11-16T19:32:17"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00161781",
+ "corp_name": "아난티",
+ "stock_code": "025980",
+ "att_title": "2026.03.11 정관",
+ "att_date": "20260311",
+ "rcpNo": "20260311003981",
+ "dcmNo": "11108869",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003981&dcmNo=11108869",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311003981&dcmNo=11108869&eleId=1&offset=596&length=19507&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11661,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/025980_아난티/20260311_11108869",
+ "fetched_at": "2026-11-16T20:00:12",
+ "used_by_rcept_no": [
+  "20260311003981"
+ ]
+}

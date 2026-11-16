@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260826000309",
+ "corp_code": "01506990",
+ "corp_name": "옵티코어",
+ "stock_code": "380540",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260826",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000309",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260826000309.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260826000309.xml",
+   "bytes": 57535,
+   "sha256": "8a8ad46b6e13f48a8b6b57ee52737b15a6113a8082861c75cfe517638f283e79"
+  }
+ ],
+ "folder": "data/agm_kosdaq/380540_옵티코어/20260826_20260826000309",
+ "fetched_at": "2026-11-16T19:38:20"
+}

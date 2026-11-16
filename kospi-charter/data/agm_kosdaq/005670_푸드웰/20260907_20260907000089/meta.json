@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260907000089",
+ "corp_code": "00165103",
+ "corp_name": "푸드웰",
+ "stock_code": "005670",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260907",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907000089",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1363,
+ "charter_amend_txt": "data/agm_kosdaq/005670_푸드웰/20260907_20260907000089/정관의변경.txt",
+ "main_xml": "20260907000089.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260907000089.xml",
+   "bytes": 36940,
+   "sha256": "f5d30ec78a0a6e92151119d9d83b2edd7d186f5197f657993d2d7dfaac7825c7"
+  }
+ ],
+ "folder": "data/agm_kosdaq/005670_푸드웰/20260907_20260907000089",
+ "fetched_at": "2026-11-16T19:38:37"
+}

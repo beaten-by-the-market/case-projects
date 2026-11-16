@@ -20,6 +20,7 @@ cells = [
 |---|---|---|
 | s01 | 최근 1년 사업보고서 목록, **최종보고서만** (`final=True` = `last_reprt_at=Y`) | OpenDART `list.json` (A001) |
 | s02 | 소속시장 — **기준일 현재 상장사 목록 한 번** | KIND 상장종목현황 |
+| s02b | KIND 코스피 상장회사 중 목록에 없는 회사와 근거 (사업보고서 이력·대신 낸 공시) | OpenDART `list.json`·`company.json` · KIND 공시 상세검색 |
 | s03 | `[첨부정정]` 행의 `rcept_no_new` + 코스피 행의 첨부문서 목록 | DART `main.do` (`family`·`att` 선택상자) |
 | s04 | 코스피 행의 정관 원문(텍스트·스캔 이미지) 내려받기·정리 | DART `viewer.do`·`download.do` |
 | s04b | 스캔 이미지 정관 글자 인식(OCR) → `charter_ocr.txt` | Windows 내장 OCR (네트워크 없음) |
@@ -80,6 +81,17 @@ KIND 상장종목현황에서 기준일 현재 상장사 목록을 한 번 받�
     code("""import s02_market
 market = s02_market.main()
 pd.Series({k: v["market"] for k, v in market.items()}).value_counts()"""),
+
+    md("""## 2b. 코스피인데 목록에 없는 회사 (s02b)
+
+KIND 기준일 현재 코스피 상장회사 중 이 목록(최근 1년 사업보고서)에 행이 없는 회사를 골라 근거를 붙인다.
+OpenDART 로 ① 사업보고서 전체 이력(1999~) ② 조회기간의 모든 공시 ③ 결산월을, KIND 로 ④ 조회기간 공시 ⑤ '기타신고사항' 본문 제목을 본다.
+투자회사는 DART 사업보고서 대신 KIND '기타신고사항'으로 분기·결산 보고(영업보고서·자산운용보고서 게시, 감사보고서 제출 등)를 낸다
+(사용자 확인 2026-11-16). 결과는 s07 이 `data/final/kospi_absent.*` 로, 웹페이지는 사업보고서·정관 표 위 안내로 보여 준다."""),
+    code("""import s02b_kospi_absent
+absent = s02b_kospi_absent.main()
+pd.DataFrame(absent)[["stock_code", "corp_name", "sec_group", "listed_date", "n_annual_reports_all",
+                      "n_annual_reports_window", "kind_misc_n", "reason_code", "reason"]]"""),
 
     md("""## 3. `rcept_no_new`·첨부문서 목록 (s03)
 
@@ -241,7 +253,13 @@ for r in kc.itertuples():
     assert all(r.orig_rcept_dt <= dt[n] <= C.AS_OF.strftime("%Y%m%d") for n in r.agm_rcept_nos), r.rcept_no
     assert all((ROOT / p).exists() for p in r.agm_charter_amend_txt), r.rcept_no
 print("소집공고", len(notices), "· 정관변경 포함", int(notices.has_charter_amend.fillna(False).sum()),
-      "· 원문 오류", int(notices.error.notna().sum()))"""),
+      "· 원문 오류", int(notices.error.notna().sum()))
+# (6b) KIND 코스피 회사 = 코스피 행 + 목록에 없는 회사, 빠진 회사는 조회기간 사업보고서 0건(수집 누락 없음)
+ab = pd.read_json(C.FINAL / "kospi_absent.json", dtype=False)
+kk = json.loads((C.FINAL / "manifest.json").read_text(encoding="utf-8"))["kind_kospi"]["detail"]
+assert kk["companies"] == len(kc) + len(ab) and not set(ab.stock_code) & set(kc.stock_code)
+assert (ab.n_annual_reports_window == 0).all() and "report_in_window" not in set(ab.reason_code)
+print(f"KIND 코스피 {kk['companies']}사 = 목록 {len(kc)} + 없음 {len(ab)}", ab.reason_code.value_counts().to_dict())"""),
     code("""# (7) attach_docs() 대조 — 이 파이프라인의 첨부문서 파서가 OpenDartReader.attach_docs() 와 같은 목록을 내는지
 #     DART 에 직접 요청하므로 기본은 끈다. 확인할 때만 True.
 RUN_LIVE_CHECK = False

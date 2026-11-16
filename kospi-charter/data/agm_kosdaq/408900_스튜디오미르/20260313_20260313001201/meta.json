@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260313001201",
+ "corp_code": "01139965",
+ "corp_name": "스튜디오미르",
+ "stock_code": "408900",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260313",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001201",
+ "agm_kind": "정기",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260313001201.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260313001201.xml",
+   "bytes": 100770,
+   "sha256": "e13b6d4f7746a46def0be77ddff9c1bf264b5eeb5ebc38e55a67054ac1321d32"
+  }
+ ],
+ "folder": "data/agm_kosdaq/408900_스튜디오미르/20260313_20260313001201",
+ "fetched_at": "2026-11-16T19:32:22"
+}

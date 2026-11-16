@@ -1,0 +1,24 @@
+{
+ "corp_code": "00228350",
+ "corp_name": "신화인터텍",
+ "stock_code": "056700",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000583",
+ "dcmNo": "11136689",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000583&dcmNo=11136689",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000583&dcmNo=11136689&eleId=1&offset=593&length=15619&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 9358,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/056700_신화인터텍/20260318_11136689",
+ "fetched_at": "2026-11-16T20:20:01",
+ "used_by_rcept_no": [
+  "20260318000583"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260513000468",
+ "corp_code": "00204642",
+ "corp_name": "티비씨",
+ "stock_code": "033830",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260513",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000468",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 825,
+ "charter_amend_txt": "data/agm_kosdaq/033830_티비씨/20260513_20260513000468/정관의변경.txt",
+ "main_xml": "20260513000468.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260513000468.xml",
+   "bytes": 39789,
+   "sha256": "81a315c9ace2a63ca3ffb165f93eb6a0c840caaf675fe493936a3a956ce49e05"
+  }
+ ],
+ "folder": "data/agm_kosdaq/033830_티비씨/20260513_20260513000468",
+ "fetched_at": "2026-11-16T19:34:21"
+}

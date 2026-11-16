@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260702000412",
+ "corp_code": "01514005",
+ "corp_name": "크라우드웍스",
+ "stock_code": "355390",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260702",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702000412",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260702000412.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260702000412.xml",
+   "bytes": 74388,
+   "sha256": "d9b01448a8640234b49a3dac47381b8621ff14329f450fad810ffce0bafd6c9a"
+  }
+ ],
+ "folder": "data/agm_kosdaq/355390_크라우드웍스/20260702_20260702000412",
+ "fetched_at": "2026-11-16T19:36:25"
+}

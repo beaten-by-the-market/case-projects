@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260318001534",
+ "corp_code": "00258102",
+ "corp_name": "지엔코",
+ "stock_code": "065060",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260318",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001534",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2017,
+ "charter_amend_txt": "data/agm_kosdaq/065060_지엔코/20260318_20260318001534/정관의변경.txt",
+ "main_xml": "20260318001534.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260318001534.xml",
+   "bytes": 428481,
+   "sha256": "fcdc02943e2b1be39f0f143c7ab2a767c94d5f73680a416563b27e941b57a87e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/065060_지엔코/20260318_20260318001534",
+ "fetched_at": "2026-11-16T19:32:33"
+}

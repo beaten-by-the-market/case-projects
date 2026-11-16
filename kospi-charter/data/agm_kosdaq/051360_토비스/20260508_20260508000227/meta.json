@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260508000227",
+ "corp_code": "00390365",
+ "corp_name": "토비스",
+ "stock_code": "051360",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260508",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000227",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260508000227.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260508000227.xml",
+   "bytes": 289325,
+   "sha256": "dfa0c0891c2f23c91adea3cbffe4d2cf4934f93a43cb6ecdc6cd6632b6e2d1af"
+  }
+ ],
+ "folder": "data/agm_kosdaq/051360_토비스/20260508_20260508000227",
+ "fetched_at": "2026-11-16T19:34:12"
+}

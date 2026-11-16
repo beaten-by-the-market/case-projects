@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260813001305",
+ "corp_code": "00265005",
+ "corp_name": "옴니시스템",
+ "stock_code": "057540",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260813",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001305",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 232,
+ "charter_amend_txt": "data/agm_kosdaq/057540_옴니시스템/20260813_20260813001305/정관의변경.txt",
+ "main_xml": "20260813001305.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260813001305.xml",
+   "bytes": 49333,
+   "sha256": "f1726fdbb55cd0079fe5168b3c37c0ff9cd0b3b0f25a2d24bb7e13972c955077"
+  }
+ ],
+ "folder": "data/agm_kosdaq/057540_옴니시스템/20260813_20260813001305",
+ "fetched_at": "2026-11-16T19:37:48"
+}

@@ -1,0 +1,24 @@
+{
+ "corp_code": "00220686",
+ "corp_name": "에스피지",
+ "stock_code": "058610",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318000411",
+ "dcmNo": "11135667",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000411&dcmNo=11135667",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000411&dcmNo=11135667&eleId=1&offset=592&length=22444&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11919,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/058610_에스피지/20260318_11135667",
+ "fetched_at": "2026-11-16T20:23:24",
+ "used_by_rcept_no": [
+  "20260318000411"
+ ]
+}

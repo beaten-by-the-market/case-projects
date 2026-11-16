@@ -1,0 +1,255 @@
+{
+ "corp_code": "00210740",
+ "corp_name": "대화제약",
+ "stock_code": "067080",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323000941",
+ "dcmNo": "11164617",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000941&dcmNo=11164617",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323000941&dcmNo=11164617&eleId=1&offset=595&length=3408&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 23,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-1.jpg",
+   "flNm": "정관 23-1.jpg",
+   "alt": "이미지: 정관 23-1",
+   "bytes": 254977,
+   "sha256": "415eb18d4428ae6b11c17a6b8d6a727e0df9f3ebd4b2ed4a7d1caa6c5af41023",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-2.jpg",
+   "flNm": "정관 23-2.jpg",
+   "alt": "이미지: 정관 23-2",
+   "bytes": 268296,
+   "sha256": "74ef3f949b27caee5cdbdb350ecd57b4fd64cfff6f92004985c951b1632331ed",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-3.jpg",
+   "flNm": "정관 23-3.jpg",
+   "alt": "이미지: 정관 23-3",
+   "bytes": 302656,
+   "sha256": "471a981e13a9f88615ba5976411ed3d32c593431fa256796659b6fc93394426a",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-4.jpg",
+   "flNm": "정관 23-4.jpg",
+   "alt": "이미지: 정관 23-4",
+   "bytes": 251164,
+   "sha256": "9407477799163b90bc59c6071dcc320491cd019d4e03ade4ca555ceda16d513c",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-5.jpg",
+   "flNm": "정관 23-5.jpg",
+   "alt": "이미지: 정관 23-5",
+   "bytes": 294468,
+   "sha256": "2b9651f1a8dccb4d6d8547737135e70cdf184cf1fa1506653fc376527a1648b1",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-6.jpg",
+   "flNm": "정관 23-6.jpg",
+   "alt": "이미지: 정관 23-6",
+   "bytes": 274691,
+   "sha256": "cb0d1f4e68ef377f4440b312e1a6873f430e5c879bd41dda7eed0381d88d1206",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-7.jpg",
+   "flNm": "정관 23-7.jpg",
+   "alt": "이미지: 정관 23-7",
+   "bytes": 304445,
+   "sha256": "2e693e4d1f722f8de080679460866547e7a00309f43f75edad0ebf83e41f6ee1",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-8.jpg",
+   "flNm": "정관 23-8.jpg",
+   "alt": "이미지: 정관 23-8",
+   "bytes": 305340,
+   "sha256": "d2d8d4156f18c5429ef73bfd7681e84e8913c53e9b070fc84358f660e6453471",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-9.jpg",
+   "flNm": "정관 23-9.jpg",
+   "alt": "이미지: 정관 23-9",
+   "bytes": 236188,
+   "sha256": "62af428bd66b4c42d80ba1d0d10fde96c27d7216952f2349f09b0c9328ce6dfb",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-10.jpg",
+   "flNm": "정관 23-10.jpg",
+   "alt": "이미지: 정관 23-10",
+   "bytes": 285150,
+   "sha256": "acf5e4b54f2cdc866f4fbdc83d0d912a358689b6900b02561e79a6afbf26ab70",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-11.jpg",
+   "flNm": "정관 23-11.jpg",
+   "alt": "이미지: 정관 23-11",
+   "bytes": 290287,
+   "sha256": "5aff3517169c1ada3a02ddbd2eb713ca3af647bdb907677b416b645b7cd452b5",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-12.jpg",
+   "flNm": "정관 23-12.jpg",
+   "alt": "이미지: 정관 23-12",
+   "bytes": 234478,
+   "sha256": "9335dd444d0a2a2b26cddbab15b67eb7d26a9a91a5bf06b122c7e225a4f9d204",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-13.jpg",
+   "flNm": "정관 23-13.jpg",
+   "alt": "이미지: 정관 23-13",
+   "bytes": 294997,
+   "sha256": "393419fe4c3a1b54be12da278a802e25019ddd179903439150ae00d3f943f1f9",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-14.jpg",
+   "flNm": "정관 23-14.jpg",
+   "alt": "이미지: 정관 23-14",
+   "bytes": 292418,
+   "sha256": "a04de6c54f1ecfea96c9852493ccd13d08c9f42bbf0194455492c368382972d1",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-15.jpg",
+   "flNm": "정관 23-15.jpg",
+   "alt": "이미지: 정관 23-15",
+   "bytes": 271350,
+   "sha256": "af10ca7af63d7d072c8a677548c414a3d992fe3adbd07ba2b0747b1cecee37b3",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-16.jpg",
+   "flNm": "정관 23-16.jpg",
+   "alt": "이미지: 정관 23-16",
+   "bytes": 213398,
+   "sha256": "42b4e36af1729169add6c59ac6ea9e2f957b1bf62abb3884f0a36b3555b949ea",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-17.jpg",
+   "flNm": "정관 23-17.jpg",
+   "alt": "이미지: 정관 23-17",
+   "bytes": 297239,
+   "sha256": "1de2523cb5abc28b4a6329b181291800b5454e88e5a4460bb5e5292cc46f7409",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-18.jpg",
+   "flNm": "정관 23-18.jpg",
+   "alt": "이미지: 정관 23-18",
+   "bytes": 260345,
+   "sha256": "e4e24a1d5c37683ee2a9e582d7e21e3dfb2439cd9571bccd58d605f2bd9546b2",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-19.jpg",
+   "flNm": "정관 23-19.jpg",
+   "alt": "이미지: 정관 23-19",
+   "bytes": 298503,
+   "sha256": "2a465f84b9f7f3b41d5f628fa5caa881067e902a36198a807a24e6e35b7f456c",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-20.jpg",
+   "flNm": "정관 23-20.jpg",
+   "alt": "이미지: 정관 23-20",
+   "bytes": 253444,
+   "sha256": "ddd99735b22ea97ef77e4c0ea77be483877247c21b499f8c9b36c98979b6e353",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-21.jpg",
+   "flNm": "정관 23-21.jpg",
+   "alt": "이미지: 정관 23-21",
+   "bytes": 252502,
+   "sha256": "ccc9900143a117ca9b2605eb241984ec394698a286e14dbf2704e7b238444350",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-22.jpg",
+   "flNm": "정관 23-22.jpg",
+   "alt": "이미지: 정관 23-22",
+   "bytes": 238102,
+   "sha256": "32559282793544d6b42272e83a1f1af1153c60e1de8b56da38836dcef4b835ad",
+   "width": 2480,
+   "height": 3508
+  },
+  {
+   "file": "img/023.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11164617&flNm=%EC%A0%95%EA%B4%80+23-23.jpg",
+   "flNm": "정관 23-23.jpg",
+   "alt": "이미지: 정관 23-23",
+   "bytes": 176898,
+   "sha256": "59af58b57f6fbddf905c782f9166b8b2b0eb67ecbd2be554962067b9f5fcb640",
+   "width": 2480,
+   "height": 3508
+  }
+ ],
+ "folder": "data/charter_kosdaq/067080_대화제약/20260323_11164617",
+ "fetched_at": "2026-11-16T20:27:24",
+ "used_by_rcept_no": [
+  "20260323000941"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260918000306",
+ "corp_code": "00301422",
+ "corp_name": "스모트로닉",
+ "stock_code": "066590",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260918",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918000306",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 457,
+ "charter_amend_txt": "data/agm_kosdaq/066590_스모트로닉/20260918_20260918000306/정관의변경.txt",
+ "main_xml": "20260918000306.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260918000306.xml",
+   "bytes": 41445,
+   "sha256": "82144661d6e67797988db8b1a3d8cd695240c1f32604276cc53e7b42f265a700"
+  }
+ ],
+ "folder": "data/agm_kosdaq/066590_스모트로닉/20260918_20260918000306",
+ "fetched_at": "2026-11-16T19:39:13"
+}

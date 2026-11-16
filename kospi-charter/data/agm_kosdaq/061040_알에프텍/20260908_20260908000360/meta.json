@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260908000360",
+ "corp_code": "00309831",
+ "corp_name": "알에프텍",
+ "stock_code": "061040",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260908",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000360",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260908000360.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260908000360.xml",
+   "bytes": 145661,
+   "sha256": "e5fb485eefd18ff0fa231dcd299e90070f854a7cc332de0a2c27ef73c3042f40"
+  }
+ ],
+ "folder": "data/agm_kosdaq/061040_알에프텍/20260908_20260908000360",
+ "fetched_at": "2026-11-16T19:38:41"
+}

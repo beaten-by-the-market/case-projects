@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260813000396",
+ "corp_code": "00598198",
+ "corp_name": "컴퍼니케이",
+ "stock_code": "307930",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260813",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813000396",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260813000396.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260813000396.xml",
+   "bytes": 67894,
+   "sha256": "34e18458d6168a8c2873cbfec53233c7c7be53b5c4150cb1b2b5026f514e9b74"
+  }
+ ],
+ "folder": "data/agm_kosdaq/307930_컴퍼니케이/20260813_20260813000396",
+ "fetched_at": "2026-11-16T19:37:46"
+}

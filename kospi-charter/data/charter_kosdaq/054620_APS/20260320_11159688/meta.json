@@ -1,0 +1,245 @@
+{
+ "corp_code": "00296078",
+ "corp_name": "APS",
+ "stock_code": "054620",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001312",
+ "dcmNo": "11159688",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001312&dcmNo=11159688",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001312&dcmNo=11159688&eleId=1&offset=594&length=3702&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 22,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331_1.jpg",
+   "flNm": "aps-정관_250331_1.jpg",
+   "alt": "이미지: aps-정관_250331_1",
+   "bytes": 82845,
+   "sha256": "b62ad267801092f52877c7b48c5f1670714373925ee201090c985cbf00f40bd2",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331_2.jpg",
+   "flNm": "aps-정관_250331_2.jpg",
+   "alt": "이미지: aps-정관_250331_2",
+   "bytes": 144010,
+   "sha256": "cf03299cd2e56ef9fad3af09fcf275d97d6614ccaa8cc1804cb25cd93280924e",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331_3.jpg",
+   "flNm": "aps-정관_250331_3.jpg",
+   "alt": "이미지: aps-정관_250331_3",
+   "bytes": 164077,
+   "sha256": "fb0f7174dc9a1974803f2260f56062d5fc95a6c678c880d66aa4c8df8b0d3186",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331_4.jpg",
+   "flNm": "aps-정관_250331_4.jpg",
+   "alt": "이미지: aps-정관_250331_4",
+   "bytes": 156737,
+   "sha256": "b7075d5d133ea2a151e0a7ac870f8b7cb11020c04ecb6e54ec5ee12bd56159b0",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331_5.jpg",
+   "flNm": "aps-정관_250331_5.jpg",
+   "alt": "이미지: aps-정관_250331_5",
+   "bytes": 213388,
+   "sha256": "68708bb2a4eaf8d757cc4743fc1994e5b1618fb2ed77a9d0e3e9f60345082dc6",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331_6.jpg",
+   "flNm": "aps-정관_250331_6.jpg",
+   "alt": "이미지: aps-정관_250331_6",
+   "bytes": 258471,
+   "sha256": "7a1c0c83b31b3873579ba525e1708bd0cd436890ab310ebde8584d3aa5f3a925",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331_7.jpg",
+   "flNm": "aps-정관_250331_7.jpg",
+   "alt": "이미지: aps-정관_250331_7",
+   "bytes": 229120,
+   "sha256": "a5fca4937ecb5662f56f03deeb8a6d15fcaa4777afc7c867faf7e95ad6cd3e43",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331_8.jpg",
+   "flNm": "aps-정관_250331_8.jpg",
+   "alt": "이미지: aps-정관_250331_8",
+   "bytes": 228962,
+   "sha256": "0f3ce8e7781bea9e71ca2129b28848ca080a9a72492991dfa07f188ffa031f59",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331_9.jpg",
+   "flNm": "aps-정관_250331_9.jpg",
+   "alt": "이미지: aps-정관_250331_9",
+   "bytes": 242279,
+   "sha256": "115b8d4ad1afe8700f78174e664a7ab9fd4612e1c1429966b204a519cfc0a786",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331_10.jpg",
+   "flNm": "aps-정관_250331_10.jpg",
+   "alt": "이미지: aps-정관_250331_10",
+   "bytes": 205050,
+   "sha256": "2b2f5b46b2a340e86b457fdf2571eb1b535bb53fa08240a920c21be448495a62",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331_11.jpg",
+   "flNm": "aps-정관_250331_11.jpg",
+   "alt": "이미지: aps-정관_250331_11",
+   "bytes": 218752,
+   "sha256": "d01cc6eab498b2b42505afdf8f079058ff7c02f8e8534a85d68b26509615a8d4",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331-12.jpg",
+   "flNm": "aps-정관_250331-12.jpg",
+   "alt": "이미지: aps-정관_250331-12",
+   "bytes": 238590,
+   "sha256": "446c9aae5a2b8cadc479c4351fe3a19884d0cd4b7e25cd0f4a7567b993f49b28",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331-13.jpg",
+   "flNm": "aps-정관_250331-13.jpg",
+   "alt": "이미지: aps-정관_250331-13",
+   "bytes": 198572,
+   "sha256": "0ab98d22ef74966de7833fe71cf925412110919dd6f255574b5dbf8db903d83d",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331-14.jpg",
+   "flNm": "aps-정관_250331-14.jpg",
+   "alt": "이미지: aps-정관_250331-14",
+   "bytes": 187051,
+   "sha256": "365598dc029bc1c72abf3b239a53711739a9061a11f584f121044a91aa8f00fc",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331-15.jpg",
+   "flNm": "aps-정관_250331-15.jpg",
+   "alt": "이미지: aps-정관_250331-15",
+   "bytes": 182613,
+   "sha256": "051f107f55c7475f2d823435cbae153fce3045df453fca9c4b4e1b8b0e81fff6",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331-16.jpg",
+   "flNm": "aps-정관_250331-16.jpg",
+   "alt": "이미지: aps-정관_250331-16",
+   "bytes": 216241,
+   "sha256": "5125621cafe8c8b84bd10b7cf5a00c66cea9bb065b3ca37a3f7ea0bd6e17fa23",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331-17.jpg",
+   "flNm": "aps-정관_250331-17.jpg",
+   "alt": "이미지: aps-정관_250331-17",
+   "bytes": 219941,
+   "sha256": "49f97fc85908368b2e77eb81820f1797c513633231047ca2ae5fc748d8190155",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/018.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331-18.jpg",
+   "flNm": "aps-정관_250331-18.jpg",
+   "alt": "이미지: aps-정관_250331-18",
+   "bytes": 179416,
+   "sha256": "37c99d7d5b780ef96fd4664cf55386009119cad08621c92b77fea20ac2a978bf",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/019.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331-19.jpg",
+   "flNm": "aps-정관_250331-19.jpg",
+   "alt": "이미지: aps-정관_250331-19",
+   "bytes": 177798,
+   "sha256": "0906b2b8844e077eb67566970ea88a1fbdd652db04ff471261822681629fdc93",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/020.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331-20.jpg",
+   "flNm": "aps-정관_250331-20.jpg",
+   "alt": "이미지: aps-정관_250331-20",
+   "bytes": 195425,
+   "sha256": "da4faa631ff70a0cebe0029b9c7a54954198dfaf456b534e5a329c06fc37b9d7",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/021.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331-21.jpg",
+   "flNm": "aps-정관_250331-21.jpg",
+   "alt": "이미지: aps-정관_250331-21",
+   "bytes": 191101,
+   "sha256": "a9284bf788672ef9d9c497536f706397340605a166fc080791085bb5cd0709cb",
+   "width": 1241,
+   "height": 1755
+  },
+  {
+   "file": "img/022.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159688&flNm=aps-%EC%A0%95%EA%B4%80_250331-22.jpg",
+   "flNm": "aps-정관_250331-22.jpg",
+   "alt": "이미지: aps-정관_250331-22",
+   "bytes": 211098,
+   "sha256": "74ff3f942e8d026d8ca01dbdf42bfed5e62c3419d49b5d757db11bbaae7f271b",
+   "width": 1241,
+   "height": 1755
+  }
+ ],
+ "folder": "data/charter_kosdaq/054620_APS/20260320_11159688",
+ "fetched_at": "2026-11-16T20:19:12",
+ "used_by_rcept_no": [
+  "20260320001312"
+ ]
+}

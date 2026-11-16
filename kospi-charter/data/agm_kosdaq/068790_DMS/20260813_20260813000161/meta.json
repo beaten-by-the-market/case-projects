@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260813000161",
+ "corp_code": "00361594",
+ "corp_name": "DMS",
+ "stock_code": "068790",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260813",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813000161",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260813000161.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260813000161.xml",
+   "bytes": 51559,
+   "sha256": "6fa741c280e555125eb978020a4f93ad95641914ba878a13d37898703da25735"
+  }
+ ],
+ "folder": "data/agm_kosdaq/068790_DMS/20260813_20260813000161",
+ "fetched_at": "2026-11-16T19:37:44"
+}

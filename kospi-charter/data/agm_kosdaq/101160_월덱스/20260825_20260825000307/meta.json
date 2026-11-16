@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260825000307",
+ "corp_code": "00580065",
+ "corp_name": "월덱스",
+ "stock_code": "101160",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260825",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000307",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 622,
+ "charter_amend_txt": "data/agm_kosdaq/101160_월덱스/20260825_20260825000307/정관의변경.txt",
+ "main_xml": "20260825000307.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260825000307.xml",
+   "bytes": 54538,
+   "sha256": "4b0b5f9f479194144dcb7736c54cce10131cc3a4e1dc1fe9193c8b40433903a9"
+  }
+ ],
+ "folder": "data/agm_kosdaq/101160_월덱스/20260825_20260825000307",
+ "fetched_at": "2026-11-16T19:38:18"
+}

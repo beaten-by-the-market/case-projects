@@ -1,0 +1,37 @@
+{
+ "corp_code": "01110474",
+ "corp_name": "풍전약품",
+ "stock_code": "298060",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316001672",
+ "dcmNo": "11130159",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001672&dcmNo=11130159",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001672&dcmNo=11130159&eleId=1&offset=601&length=308&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 30,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/298060_풍전약품/20260316_11130159",
+ "fetched_at": "2026-11-16T21:27:54",
+ "used_by_rcept_no": [
+  "20260316001672"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11130159&flNm=%EC%A0%95%EA%B4%80%28%EC%97%90%EC%8A%A4%EC%94%A8%EC%97%A0%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99%29.pdf",
+   "flNm": "정관(에스씨엠생명과학).pdf",
+   "bytes": 215182,
+   "sha256": "a6c13a7cddb24986accb772327e63c390c26cfdc2c21e6452ee1de31526d92ce",
+   "pages": 17,
+   "text_pages": 16,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

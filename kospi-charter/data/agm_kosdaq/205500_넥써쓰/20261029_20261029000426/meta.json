@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261029000426",
+ "corp_code": "01042429",
+ "corp_name": "넥써쓰",
+ "stock_code": "205500",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261029",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000426",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2309,
+ "charter_amend_txt": "data/agm_kosdaq/205500_넥써쓰/20261029_20261029000426/정관의변경.txt",
+ "main_xml": "20261029000426.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261029000426.xml",
+   "bytes": 77520,
+   "sha256": "63cfe87456478160d15af633dcd1c7ced0cad2cf02e37706e4fc34b6bd080f2e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/205500_넥써쓰/20261029_20261029000426",
+ "fetched_at": "2026-11-16T19:40:24"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261113001446",
+ "corp_code": "00310156",
+ "corp_name": "셀루메드",
+ "stock_code": "049180",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20261113",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001446",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3098,
+ "charter_amend_txt": "data/agm_kosdaq/049180_셀루메드/20261113_20261113001446/정관의변경.txt",
+ "main_xml": "20261113001446.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261113001446.xml",
+   "bytes": 207752,
+   "sha256": "6b8fb682178c7737bb292b9a3e62608d628acde197e337b2bebccb21dc17909c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/049180_셀루메드/20261113_20261113001446",
+ "fetched_at": "2026-11-16T19:40:52"
+}

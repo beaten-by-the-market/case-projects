@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260515000129",
+ "corp_code": "00439965",
+ "corp_name": "나노신소재",
+ "stock_code": "121600",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260515",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515000129",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260515000129.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260515000129.xml",
+   "bytes": 50922,
+   "sha256": "15ddd8bdc32e168d2b847e9b7fba4c9bdc01bef999925679544e4de79964112f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/121600_나노신소재/20260515_20260515000129",
+ "fetched_at": "2026-11-16T19:34:27"
+}

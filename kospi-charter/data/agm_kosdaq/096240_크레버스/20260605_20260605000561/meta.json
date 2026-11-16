@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260605000561",
+ "corp_code": "00525882",
+ "corp_name": "크레버스",
+ "stock_code": "096240",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260605",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000561",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260605000561.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260605000561.xml",
+   "bytes": 70345,
+   "sha256": "a8f8c19ad197ab1730dcb8a7fef1b216a35bfbfbc1989ba83e5bdd785c45a13e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/096240_크레버스/20260605_20260605000561",
+ "fetched_at": "2026-11-16T19:35:09"
+}

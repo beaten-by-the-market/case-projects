@@ -1,0 +1,24 @@
+{
+ "corp_code": "00409788",
+ "corp_name": "비에이치아이",
+ "stock_code": "083650",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320000821",
+ "dcmNo": "11157099",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000821&dcmNo=11157099",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000821&dcmNo=11157099&eleId=1&offset=594&length=20586&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12773,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/083650_비에이치아이/20260320_11157099",
+ "fetched_at": "2026-11-16T20:40:08",
+ "used_by_rcept_no": [
+  "20260320000821"
+ ]
+}

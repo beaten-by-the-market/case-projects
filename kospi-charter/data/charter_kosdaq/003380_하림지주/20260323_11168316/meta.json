@@ -1,0 +1,215 @@
+{
+ "corp_code": "00148364",
+ "corp_name": "하림지주",
+ "stock_code": "003380",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001527",
+ "dcmNo": "11168316",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001527&dcmNo=11168316",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001527&dcmNo=11168316&eleId=1&offset=597&length=3177&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 19,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+2.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 2.jpeg",
+   "alt": "이미지: 하림지주 정관_1",
+   "bytes": 75631,
+   "sha256": "59d271532680bca03896ec9e472e9e72036aaa67b7c9221d894c1e3a106ab011",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/002.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+3.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 3.jpeg",
+   "alt": "이미지: 하림지주 정관_2",
+   "bytes": 291012,
+   "sha256": "c3103a47657d230cc8bcc8ee52fc5dca3eacf350fecbc1b8d95664eb3b17ee8d",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/003.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+4.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 4.jpeg",
+   "alt": "이미지: 하림지주 정관_3",
+   "bytes": 245461,
+   "sha256": "064338293698719dff9707dfdb6035d51d849f9e6b60f0ddca47e27e50702ee7",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/004.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+5.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 5.jpeg",
+   "alt": "이미지: 하림지주 정관_4",
+   "bytes": 293427,
+   "sha256": "0b61487a700f04deca7de68d057aabcce141219f5bc7956e748f6171f6ec7117",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/005.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+6.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 6.jpeg",
+   "alt": "이미지: 하림지주 정관_5",
+   "bytes": 278356,
+   "sha256": "4ccba79c8cd12195c9c9dba31b380d6ea93d50f37cf78d5946f6f8b54da60529",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/006.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+7.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 7.jpeg",
+   "alt": "이미지: 하림지주 정관_6",
+   "bytes": 233118,
+   "sha256": "75a153a3d1e2f3f47d8a137c081516cdf982e67c4cab7cc7d80a6410dfd0c8ba",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/007.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+8.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 8.jpeg",
+   "alt": "이미지: 하림지주 정관_7",
+   "bytes": 271312,
+   "sha256": "daa4ae6a4a2305d79aaff7322477c58095d180ae6f7f30e3609ed56458bc1d76",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/008.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+9.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 9.jpeg",
+   "alt": "이미지: 하림지주 정관_8",
+   "bytes": 250738,
+   "sha256": "0a18314ff43c5b20234c540ac39f8f5f2293aa1052cf905404c118863332ac72",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/009.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+10.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 10.jpeg",
+   "alt": "이미지: 하림지주 정관_9",
+   "bytes": 268092,
+   "sha256": "4991abe18fe43c3759e540e43063a5f7a41278c67d401db844ab260409b7572a",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/010.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+11.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 11.jpeg",
+   "alt": "이미지: 하림지주 정관_10",
+   "bytes": 239819,
+   "sha256": "e9e9ae3504a1240d1ff5b5113bc1275080e2416c5a87afb547ecdceaa08d704f",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/011.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+12.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 12.jpeg",
+   "alt": "이미지: 하림지주 정관_11",
+   "bytes": 256851,
+   "sha256": "150a55dd1a4605cf3f2e429ee513597314d236f708f9d34670d66db41f52d6b1",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/012.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+13.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 13.jpeg",
+   "alt": "이미지: 하림지주 정관_12",
+   "bytes": 284243,
+   "sha256": "3f9354c6e6360b24577d1eea3a50446bf8bb888f798a782ecba55c344fc521c7",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/013.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+14.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 14.jpeg",
+   "alt": "이미지: 하림지주 정관_13",
+   "bytes": 231793,
+   "sha256": "b2e71de63ed2a3c1bf8a6bd015ead07e4080c5ae6ea6490c9bccae04273eaf28",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/014.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+15.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 15.jpeg",
+   "alt": "이미지: 하림지주 정관_14",
+   "bytes": 233137,
+   "sha256": "478dfc073e46125cadb36cbd82cb60fb6f5d8695a03779f7ad5aa40cb9e2de1d",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/015.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+16.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 16.jpeg",
+   "alt": "이미지: 하림지주 정관_15",
+   "bytes": 273808,
+   "sha256": "1f5d08122b5b03cbf76fb120987fdc3ea0954194556b1da1c4a41d175b959979",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/016.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+17.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 17.jpeg",
+   "alt": "이미지: 하림지주 정관_16",
+   "bytes": 260649,
+   "sha256": "7b14c98cafe855ad1d1165f279df88ba24bfb28414a38d2cdfa6a0e1d69a28b6",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/017.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+18.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 18.jpeg",
+   "alt": "이미지: 하림지주 정관_17",
+   "bytes": 235190,
+   "sha256": "516331b31c7492762263b1b5518a10d5514533a1f2941ce0b0bb441bc6da1e6d",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/018.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+19.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 19.jpeg",
+   "alt": "이미지: 하림지주 정관_18",
+   "bytes": 242506,
+   "sha256": "e7c029e205b8f3c69d85b74300afc15b1c038e03e4c7c5b39d3ca244f89cce80",
+   "width": 1653,
+   "height": 2338
+  },
+  {
+   "file": "img/019.jpeg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168316&flNm=%28a-101%29+%EC%A0%95%EA%B4%80+%289%29+conv+20.jpeg",
+   "flNm": "(a-101) 정관 (9) conv 20.jpeg",
+   "alt": "이미지: 하림지주 정관_19",
+   "bytes": 210216,
+   "sha256": "9f9d19be3a14ab2a35de1b3b8c776ebcac46845b4a6bd365bccc97676acbb3be",
+   "width": 1653,
+   "height": 2338
+  }
+ ],
+ "folder": "data/charter_kosdaq/003380_하림지주/20260323_11168316",
+ "fetched_at": "2026-11-16T19:44:14",
+ "used_by_rcept_no": [
+  "20260323001527"
+ ]
+}

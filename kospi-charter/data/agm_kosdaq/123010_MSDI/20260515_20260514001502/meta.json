@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260514001502",
+ "corp_code": "00615723",
+ "corp_name": "MSDI",
+ "stock_code": "123010",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260515",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514001502",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1786,
+ "charter_amend_txt": "data/agm_kosdaq/123010_MSDI/20260515_20260514001502/정관의변경.txt",
+ "main_xml": "20260514001502.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260514001502.xml",
+   "bytes": 74932,
+   "sha256": "c678c0be34dc4492249ad01d1a71ac4d4d27c80b0b641c98434f70526674982f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/123010_MSDI/20260515_20260514001502",
+ "fetched_at": "2026-11-16T19:34:27"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260623000328",
+ "corp_code": "00231354",
+ "corp_name": "파워넷",
+ "stock_code": "037030",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260623",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000328",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 620,
+ "charter_amend_txt": "data/agm_kosdaq/037030_파워넷/20260623_20260623000328/정관의변경.txt",
+ "main_xml": "20260623000328.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260623000328.xml",
+   "bytes": 37228,
+   "sha256": "2a976d4fc533d80c42572800898e1f7cb04f43b6a58c8ca2d1c09777725eb0af"
+  }
+ ],
+ "folder": "data/agm_kosdaq/037030_파워넷/20260623_20260623000328",
+ "fetched_at": "2026-11-16T19:35:46"
+}

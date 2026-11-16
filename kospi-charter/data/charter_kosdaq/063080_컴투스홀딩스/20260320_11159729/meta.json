@@ -1,0 +1,24 @@
+{
+ "corp_code": "00535746",
+ "corp_name": "컴투스홀딩스",
+ "stock_code": "063080",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001317",
+ "dcmNo": "11159729",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001317&dcmNo=11159729",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001317&dcmNo=11159729&eleId=1&offset=595&length=30612&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14417,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/063080_컴투스홀딩스/20260320_11159729",
+ "fetched_at": "2026-11-16T20:24:59",
+ "used_by_rcept_no": [
+  "20260320001317"
+ ]
+}

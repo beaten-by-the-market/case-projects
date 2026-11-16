@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260721000242",
+ "corp_code": "01817920",
+ "corp_name": "페스카로",
+ "stock_code": "0015S0",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260721",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721000242",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260721000242.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260721000242.xml",
+   "bytes": 47787,
+   "sha256": "1dbe017e38aaa2e6a3a868b0a2319cab19920ad3602247c6d06155b07266cbb3"
+  }
+ ],
+ "folder": "data/agm_kosdaq/0015S0_페스카로/20260721_20260721000242",
+ "fetched_at": "2026-11-16T19:36:49"
+}

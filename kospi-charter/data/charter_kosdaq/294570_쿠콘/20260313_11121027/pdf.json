@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11121027&flNm=%EC%BF%A0%EC%BD%98_%EC%A0%95%EA%B4%80_20250324.pdf",
+   "flNm": "쿠콘_정관_20250324.pdf",
+   "bytes": 196248,
+   "sha256": "86abc0a8aa95dbe34d130461eab4921c2d669b3939f8adad5589837b73f19d68",
+   "pages": 14,
+   "text_pages": 14,
+   "ocr_pages": 0
+  }
+ ],
+ "total_chars": 13468,
+ "pages": 14,
+ "text_pages": 14,
+ "ocr_pages": 0,
+ "created_at": "2026-11-16T22:14:36",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": null
+ }
+}

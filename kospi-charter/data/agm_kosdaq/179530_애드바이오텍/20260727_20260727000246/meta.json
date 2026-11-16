@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260727000246",
+ "corp_code": "01022902",
+ "corp_name": "애드바이오텍",
+ "stock_code": "179530",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260727",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000246",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260727000246.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260727000246.xml",
+   "bytes": 100541,
+   "sha256": "ad23f73deee13cc7ee113d1f76ce4c073ead644d73d58c318d3573df88d6ad38"
+  }
+ ],
+ "folder": "data/agm_kosdaq/179530_애드바이오텍/20260727_20260727000246",
+ "fetched_at": "2026-11-16T19:37:19"
+}

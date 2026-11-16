@@ -1,0 +1,35 @@
+{
+ "corp_code": "01236286",
+ "corp_name": "컬러레이",
+ "stock_code": "900310",
+ "att_title": "2026.04.22 정관",
+ "att_date": "20260422",
+ "rcpNo": "20260422000692",
+ "dcmNo": "11341645",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422000692&dcmNo=11341645",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260422000692&dcmNo=11341645&eleId=1&offset=595&length=77986&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "mixed",
+ "text_chars": 50613,
+ "n_images": 1,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11341645&flNm=%EC%A0%95%EA%B4%80_%EC%B2%AB%ED%8E%98%EC%9D%B4%EC%A7%80.jpg",
+   "flNm": "정관_첫페이지.jpg",
+   "alt": "이미지: 정관_첫페이지",
+   "bytes": 264349,
+   "sha256": "a8d27bc873a06d3f39ae4319977a4bfc721d4d000a3d474d081cf0b39fe50f58",
+   "width": 2481,
+   "height": 3510
+  }
+ ],
+ "folder": "data/charter_kosdaq/900310_컬러레이/20260422_11341645",
+ "fetched_at": "2026-11-16T22:10:41",
+ "used_by_rcept_no": [
+  "20261102000181"
+ ]
+}

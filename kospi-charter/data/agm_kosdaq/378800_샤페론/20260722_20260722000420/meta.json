@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260722000420",
+ "corp_code": "01387164",
+ "corp_name": "샤페론",
+ "stock_code": "378800",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260722",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000420",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 263,
+ "charter_amend_txt": "data/agm_kosdaq/378800_샤페론/20260722_20260722000420/정관의변경.txt",
+ "main_xml": "20260722000420.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260722000420.xml",
+   "bytes": 56866,
+   "sha256": "ff62e31734e9cf4c469f5f9bba419b7edae643dcbeac5bd7c8c1a452e843a478"
+  }
+ ],
+ "folder": "data/agm_kosdaq/378800_샤페론/20260722_20260722000420",
+ "fetched_at": "2026-11-16T19:36:51"
+}

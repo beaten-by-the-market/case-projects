@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261013000082",
+ "corp_code": "00833064",
+ "corp_name": "엠플러스",
+ "stock_code": "259630",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261013",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000082",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 4220,
+ "charter_amend_txt": "data/agm_kosdaq/259630_엠플러스/20261013_20261013000082/정관의변경.txt",
+ "main_xml": "20261013000082.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261013000082.xml",
+   "bytes": 80689,
+   "sha256": "ef41c7160e405b13d5588bbfdb35d32b5ec79d32804c3f0ef09af0b0e22a4be1"
+  }
+ ],
+ "folder": "data/agm_kosdaq/259630_엠플러스/20261013_20261013000082",
+ "fetched_at": "2026-11-16T19:39:38"
+}

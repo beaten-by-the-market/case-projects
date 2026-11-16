@@ -1,0 +1,24 @@
+{
+ "corp_code": "01396676",
+ "corp_name": "일승",
+ "stock_code": "333430",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001235",
+ "dcmNo": "11166466",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001235&dcmNo=11166466",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001235&dcmNo=11166466&eleId=1&offset=593&length=20200&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12749,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/333430_일승/20260323_11166466",
+ "fetched_at": "2026-11-16T21:34:04",
+ "used_by_rcept_no": [
+  "20260323001235"
+ ]
+}

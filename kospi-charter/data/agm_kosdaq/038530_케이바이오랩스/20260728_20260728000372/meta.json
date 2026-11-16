@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260728000372",
+ "corp_code": "00255105",
+ "corp_name": "케이바이오랩스",
+ "stock_code": "038530",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260728",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000372",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 441,
+ "charter_amend_txt": "data/agm_kosdaq/038530_케이바이오랩스/20260728_20260728000372/정관의변경.txt",
+ "main_xml": "20260728000372.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260728000372.xml",
+   "bytes": 57693,
+   "sha256": "9755e5f95ec97ac2471ade07c835d748383e3573b96b6f6b0a01a433b7375dbb"
+  }
+ ],
+ "folder": "data/agm_kosdaq/038530_케이바이오랩스/20260728_20260728000372",
+ "fetched_at": "2026-11-16T19:37:22"
+}

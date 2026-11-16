@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125541&flNm=%28%EC%A3%BC%29%ED%81%90%EB%A6%AC%EC%98%A4%EC%8B%9C%EC%8A%A4+%EC%A0%95%EA%B4%80.pdf",
+   "flNm": "(주)큐리오시스 정관.pdf",
+   "bytes": 1018242,
+   "sha256": "63662bcb7b7c834b53ec917a0b05d8b355244c3413b38f9fd31247b5d8e6121b",
+   "pages": 20,
+   "text_pages": 0,
+   "ocr_pages": 20
+  }
+ ],
+ "total_chars": 15754,
+ "pages": 20,
+ "text_pages": 0,
+ "ocr_pages": 20,
+ "created_at": "2026-11-16T22:18:24",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

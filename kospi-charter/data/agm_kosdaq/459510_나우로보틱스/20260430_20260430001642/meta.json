@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260430001642",
+ "corp_code": "01594791",
+ "corp_name": "나우로보틱스",
+ "stock_code": "459510",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260430",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001642",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 351,
+ "charter_amend_txt": "data/agm_kosdaq/459510_나우로보틱스/20260430_20260430001642/정관의변경.txt",
+ "main_xml": "20260430001642.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260430001642.xml",
+   "bytes": 105473,
+   "sha256": "695b7c82b2684e523a68c4ad98a81608b0d8ec586d909e4280606fb18f2c0ef6"
+  }
+ ],
+ "folder": "data/agm_kosdaq/459510_나우로보틱스/20260430_20260430001642",
+ "fetched_at": "2026-11-16T19:33:51"
+}

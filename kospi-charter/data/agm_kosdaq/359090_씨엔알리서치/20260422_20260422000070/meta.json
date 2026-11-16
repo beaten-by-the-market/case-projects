@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260422000070",
+ "corp_code": "01487446",
+ "corp_name": "씨엔알리서치",
+ "stock_code": "359090",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260422",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422000070",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 266,
+ "charter_amend_txt": "data/agm_kosdaq/359090_씨엔알리서치/20260422_20260422000070/정관의변경.txt",
+ "main_xml": "20260422000070.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260422000070.xml",
+   "bytes": 61154,
+   "sha256": "db4c2e6b9959bc9ebc700c4c26fc268a0ce636d872477fdcd53325c388bdeea6"
+  }
+ ],
+ "folder": "data/agm_kosdaq/359090_씨엔알리서치/20260422_20260422000070",
+ "fetched_at": "2026-11-16T19:33:34"
+}

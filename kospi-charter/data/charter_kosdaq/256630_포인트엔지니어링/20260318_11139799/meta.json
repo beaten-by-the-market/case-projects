@@ -1,0 +1,24 @@
+{
+ "corp_code": "01179608",
+ "corp_name": "포인트엔지니어링",
+ "stock_code": "256630",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001054",
+ "dcmNo": "11139799",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001054&dcmNo=11139799",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001054&dcmNo=11139799&eleId=1&offset=596&length=30322&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 14861,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/256630_포인트엔지니어링/20260318_11139799",
+ "fetched_at": "2026-11-16T21:19:03",
+ "used_by_rcept_no": [
+  "20260318001054"
+ ]
+}

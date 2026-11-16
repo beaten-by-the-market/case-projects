@@ -1,0 +1,175 @@
+{
+ "corp_code": "00246417",
+ "corp_name": "이오테크닉스",
+ "stock_code": "039030",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001573",
+ "dcmNo": "11168738",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001573&dcmNo=11168738",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001573&dcmNo=11168738&eleId=1&offset=599&length=22483&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "mixed",
+ "text_chars": 10759,
+ "n_images": 15,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_01.jpg",
+   "flNm": "정관_01.jpg",
+   "alt": "이미지: 정관_01",
+   "bytes": 128649,
+   "sha256": "ff2e0599aee27571535595d39b71533e60571dc88a5a53b1902b7a61a4faa17a",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_02.jpg",
+   "flNm": "정관_02.jpg",
+   "alt": "이미지: 정관_02",
+   "bytes": 260525,
+   "sha256": "f5428cf2e43aabe5939f97b5bc32636bec778105da4872d580d964f786b23860",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_03.jpg",
+   "flNm": "정관_03.jpg",
+   "alt": "이미지: 정관_03",
+   "bytes": 225308,
+   "sha256": "754078d6b3a43e9119b5b654715f77c4fcfa35fd3dcad02e6adbfc0fa5ff63a2",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_04.jpg",
+   "flNm": "정관_04.jpg",
+   "alt": "이미지: 정관_04",
+   "bytes": 297953,
+   "sha256": "b4368cf395dc3222db0bf0eeae29cf70daa122dabb95f5fe1bb38c17625476e4",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_05.jpg",
+   "flNm": "정관_05.jpg",
+   "alt": "이미지: 정관_05",
+   "bytes": 225422,
+   "sha256": "b5b161f18ea47848f3807b35e7e752815dbdda8082da936d9fed2ac8982f4856",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_06.jpg",
+   "flNm": "정관_06.jpg",
+   "alt": "이미지: 정관_06",
+   "bytes": 277516,
+   "sha256": "339069b9deb9cec4313e782bea7cec43770d81cea26233eb8de61ab7550d105f",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_07.jpg",
+   "flNm": "정관_07.jpg",
+   "alt": "이미지: 정관_07",
+   "bytes": 293393,
+   "sha256": "e4cba7d2ee1e8cb60711008ac8ad18492cd40bd1f2e4ca2af86043cc2a59825f",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_08.jpg",
+   "flNm": "정관_08.jpg",
+   "alt": "이미지: 정관_08",
+   "bytes": 286290,
+   "sha256": "13ef7092291522caf241aed3e316aac7486304fdce281a9744e0ecf5b6147415",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_09.jpg",
+   "flNm": "정관_09.jpg",
+   "alt": "이미지: 정관_09",
+   "bytes": 281658,
+   "sha256": "94e361dbf88fa9a4576d4c4e1aa37b8991e5ebd2a5e8d3fa81aab903b709c1a6",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_10.jpg",
+   "flNm": "정관_10.jpg",
+   "alt": "이미지: 정관_10",
+   "bytes": 256359,
+   "sha256": "c5005602011e2534cdb04b309c7b7143743352eeec08596444355d83a8ba7a1d",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_11.jpg",
+   "flNm": "정관_11.jpg",
+   "alt": "이미지: 정관_11",
+   "bytes": 272726,
+   "sha256": "ef2b4ae7703a7360c2287c018acc8e99a5ab2db497ec3cafb4f8ef47788059c2",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_12.jpg",
+   "flNm": "정관_12.jpg",
+   "alt": "이미지: 정관_12",
+   "bytes": 277194,
+   "sha256": "a1cd80514e77a87a3f669e99b0dafe14fad7337ed3b6001d36cc4e44db2a8560",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_13.jpg",
+   "flNm": "정관_13.jpg",
+   "alt": "이미지: 정관_13",
+   "bytes": 247636,
+   "sha256": "596548ad25fd6bdbd08aa192a195e1bfff202a613f78794fb9c7cc6fe5ced77a",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_14.jpg",
+   "flNm": "정관_14.jpg",
+   "alt": "이미지: 정관_14",
+   "bytes": 269723,
+   "sha256": "d782cbcf56e47480a4316c1fea27694f42e85d63481d658012d3d7355ff9902a",
+   "width": 2480,
+   "height": 3507
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168738&flNm=%EC%A0%95%EA%B4%80_15.jpg",
+   "flNm": "정관_15.jpg",
+   "alt": "이미지: 정관_15",
+   "bytes": 265188,
+   "sha256": "4740557e4755f616b34f832f8ba6bdf0b2f4e0a9ba44f53b97ab815d4123f39c",
+   "width": 2480,
+   "height": 3507
+  }
+ ],
+ "folder": "data/charter_kosdaq/039030_이오테크닉스/20260323_11168738",
+ "fetched_at": "2026-11-16T20:10:01",
+ "used_by_rcept_no": [
+  "20260323001573"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "corp_code": "00111218",
+ "corp_name": "KD",
+ "stock_code": "044180",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001731",
+ "dcmNo": "11170206",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001731&dcmNo=11170206",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001731&dcmNo=11170206&eleId=1&offset=595&length=306&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 28,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/044180_KD/20260323_11170206",
+ "fetched_at": "2026-11-16T20:13:35",
+ "used_by_rcept_no": [
+  "20260601000703"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11170206&flNm=kd%28%EC%A3%BC%29%EC%A0%95%EA%B4%80_%EB%82%A0%EC%9D%B8%EB%B3%B8.pdf",
+   "flNm": "kd(주)정관_날인본.pdf",
+   "bytes": 2529921,
+   "sha256": "61522059179d23a91c1ae367c47ee58352ad98e50a980e953ba69c6fb9e23a4e",
+   "pages": 14,
+   "text_pages": 0,
+   "ocr_pages": 14
+  }
+ ],
+ "n_pdfs": 1
+}

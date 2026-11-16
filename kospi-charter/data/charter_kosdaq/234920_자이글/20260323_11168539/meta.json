@@ -1,0 +1,37 @@
+{
+ "corp_code": "01020524",
+ "corp_name": "자이글",
+ "stock_code": "234920",
+ "att_title": "2026.03.23 정관",
+ "att_date": "20260323",
+ "rcpNo": "20260323001551",
+ "dcmNo": "11168539",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001551&dcmNo=11168539",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001551&dcmNo=11168539&eleId=1&offset=591&length=356&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 68,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/234920_자이글/20260323_11168539",
+ "fetched_at": "2026-11-16T21:14:48",
+ "used_by_rcept_no": [
+  "20260323001551"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168539&flNm=1.+%EC%A0%95%EA%B4%80%28%EC%9E%90%EC%9D%B4%EA%B8%80%29_20260309_%EC%9D%B4%EC%82%AC%EC%9D%98%EC%84%A0%EC%9E%84%EB%B0%8F%EA%B5%AC%EC%84%B1%EC%9B%90%EC%88%98%EB%B3%80%EA%B2%BD.pdf",
+   "flNm": "1. 정관(자이글)_20260309_이사의선임및구성원수변경.pdf",
+   "bytes": 119781,
+   "sha256": "bff89ba54429170f5c389092d990a4d3dc74d828e524422fba808811d974743a",
+   "pages": 17,
+   "text_pages": 16,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260903000230",
+ "corp_code": "01049422",
+ "corp_name": "썸에이지",
+ "stock_code": "208640",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260903",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000230",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 364,
+ "charter_amend_txt": "data/agm_kosdaq/208640_썸에이지/20260903_20260903000230/정관의변경.txt",
+ "main_xml": "20260903000230.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260903000230.xml",
+   "bytes": 39078,
+   "sha256": "ad0202a6e8c8f81c47c8a8f840206b0c982750ade64416fc2fe7894e9a7214b4"
+  }
+ ],
+ "folder": "data/agm_kosdaq/208640_썸에이지/20260903_20260903000230",
+ "fetched_at": "2026-11-16T19:38:32"
+}

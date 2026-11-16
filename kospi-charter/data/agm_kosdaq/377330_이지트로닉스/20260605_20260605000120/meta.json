@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260605000120",
+ "corp_code": "01140837",
+ "corp_name": "이지트로닉스",
+ "stock_code": "377330",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260605",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000120",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260605000120.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260605000120.xml",
+   "bytes": 48062,
+   "sha256": "7aebfed203d890e4d8c073e9663edf5091eda3f3f4c0f2c1db46d73f85411c10"
+  }
+ ],
+ "folder": "data/agm_kosdaq/377330_이지트로닉스/20260605_20260605000120",
+ "fetched_at": "2026-11-16T19:34:52"
+}

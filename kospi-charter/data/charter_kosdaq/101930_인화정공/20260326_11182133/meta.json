@@ -1,0 +1,25 @@
+{
+ "corp_code": "00482426",
+ "corp_name": "인화정공",
+ "stock_code": "101930",
+ "att_title": "2026.03.26 [정정] 정관",
+ "att_date": "20260326",
+ "rcpNo": "20260326000737",
+ "dcmNo": "11182133",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326000737&dcmNo=11182133",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260326000737&dcmNo=11182133&eleId=1&offset=644&length=3302&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260326000737&dcmNo=11182133&eleId=2&offset=3976&length=16146&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "text",
+ "text_chars": 10724,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/101930_인화정공/20260326_11182133",
+ "fetched_at": "2026-11-16T20:49:24",
+ "used_by_rcept_no": [
+  "20260407001497"
+ ]
+}

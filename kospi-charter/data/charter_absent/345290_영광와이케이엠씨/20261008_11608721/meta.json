@@ -1,0 +1,195 @@
+{
+ "corp_code": "00960234",
+ "corp_name": "영광와이케이엠씨",
+ "stock_code": "345290",
+ "att_title": "2026.10.08 정관",
+ "att_date": "20261008",
+ "rcpNo": "20261008000649",
+ "dcmNo": "11608721",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000649&dcmNo=11608721",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20261008000649&dcmNo=11608721&eleId=1&offset=601&length=3367&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 17,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0001.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0001.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0001",
+   "bytes": 120738,
+   "sha256": "50c153915252cd38d78bdc3210b09cf6e59adef2e7ac04e5201607d24a493dd3",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0002.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0002.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0002",
+   "bytes": 161078,
+   "sha256": "d91eae703b6106fc3c7932f1ed1f7c0b40327bf165de6df9b27dd0ddb7ecd3bc",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0003.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0003.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0003",
+   "bytes": 213125,
+   "sha256": "50ab4b50f6bca8ac1f84f6185d6b29dc1ad3c70f121a0e0c716ce3174616bbb6",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0004.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0004.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0004",
+   "bytes": 276704,
+   "sha256": "7e2f334892b0ae50a1831e1fb1dff909fa5a55f20869da50cd26964e4f8c9bf6",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0005.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0005.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0005",
+   "bytes": 257572,
+   "sha256": "11f938e3da8b01b310546e6b88dc5a95adce0f3337c1760e612bcad3b0d436b1",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0006.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0006.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0006",
+   "bytes": 269345,
+   "sha256": "44d00860c8cf349ffc453fd4e75c411e6569a024321501241c12652c41f7aaf3",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0007.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0007.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0007",
+   "bytes": 220881,
+   "sha256": "4a9bcf077d5dd0167421ee512cb4a6c8923252d209fca50d341688206b8c06e3",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0008.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0008.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0008",
+   "bytes": 285832,
+   "sha256": "d935d4a8ad658fa9e962b9d3a4fc2542c59bea07022f3d555209bbd32205b909",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0009.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0009.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0009",
+   "bytes": 215633,
+   "sha256": "dadc7f58cc417e4c3c1103bb52829895e58bf1134fb6bf2e9c2aa5047e4bca6b",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0010.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0010.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0010",
+   "bytes": 245191,
+   "sha256": "564459cbf8b82e84cc627c99b44b7cae7af9828078b1ed566009ffb855f40944",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0011.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0011.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0011",
+   "bytes": 194756,
+   "sha256": "bde930739cd4c7b8167f32b67e66407e3fd8bfb34ac570ee6d6e31e92afbe52e",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0012.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0012.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0012",
+   "bytes": 235318,
+   "sha256": "c7e958517484f6ef559f6f1dd04ede212036945a3fff9aca7543853a6db46cdf",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0013.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0013.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0013",
+   "bytes": 170048,
+   "sha256": "c48a16c746a2256561d9cb6ee0fb9fa72cfef7e798f6a73213dfb05037f973bc",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0014.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0014.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0014",
+   "bytes": 250559,
+   "sha256": "eb6d18fcf97eb1a4d26222ab6216825dccc5addd99e7284c4af77b249ddfa944",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0015.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0015.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0015",
+   "bytes": 215675,
+   "sha256": "c33704e0bee755c46285b6d933b32385cc1379489efdf93a9948ee9e77135e4d",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0016.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0016.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0016",
+   "bytes": 185101,
+   "sha256": "b16017674dbd5a50fe30b9da5c4c75b768164ffe525b73f1f33e2e696ba76b83",
+   "width": 1240,
+   "height": 1753
+  },
+  {
+   "file": "img/017.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0017.jpg",
+   "flNm": "영광ykmc 정관(2026.07.29)_page-0017.jpg",
+   "alt": "이미지: 영광ykmc 정관(2026.07.29)_page-0017",
+   "bytes": 207445,
+   "sha256": "f5f73e2bd31a6ebcf8e37a10cde6a7039cec3aec68798f5f7bff32bb6baa3b34",
+   "width": 1240,
+   "height": 1753
+  }
+ ],
+ "folder": "data/charter_absent/345290_영광와이케이엠씨/20261008_11608721",
+ "fetched_at": "2026-11-17T00:49:50",
+ "used_by_stock_code": [
+  "345290"
+ ]
+}

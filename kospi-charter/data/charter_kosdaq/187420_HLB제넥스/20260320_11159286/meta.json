@@ -1,0 +1,24 @@
+{
+ "corp_code": "00983916",
+ "corp_name": "HLB제넥스",
+ "stock_code": "187420",
+ "att_title": "2026.03.20 정관",
+ "att_date": "20260320",
+ "rcpNo": "20260320001238",
+ "dcmNo": "11159286",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001238&dcmNo=11159286",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320001238&dcmNo=11159286&eleId=1&offset=601&length=29120&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 13211,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/187420_HLB제넥스/20260320_11159286",
+ "fetched_at": "2026-11-16T21:04:20",
+ "used_by_rcept_no": [
+  "20260320001238"
+ ]
+}

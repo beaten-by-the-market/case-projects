@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260415000235",
+ "corp_code": "00249502",
+ "corp_name": "골드앤에스",
+ "stock_code": "035290",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260415",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260415000235",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 207,
+ "charter_amend_txt": "data/agm_kosdaq/035290_골드앤에스/20260415_20260415000235/정관의변경.txt",
+ "main_xml": "20260415000235.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260415000235.xml",
+   "bytes": 44356,
+   "sha256": "559b4f10e2d3a53ea3b3fcaba9e01039721c79c82f8a9f191156b6e7db4fa5c5"
+  }
+ ],
+ "folder": "data/agm_kosdaq/035290_골드앤에스/20260415_20260415000235",
+ "fetched_at": "2026-11-16T19:33:32"
+}

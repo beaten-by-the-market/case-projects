@@ -1,0 +1,23 @@
+{
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11137452&flNm=lb%EC%9D%B8%EB%B2%A0%EC%8A%A4%ED%8A%B8%EB%A8%BC%ED%8A%B8+%EC%A0%95%EA%B4%80%282026+%EA%B0%9C%EC%A0%95%29.pdf",
+   "flNm": "lb인베스트먼트 정관(2026 개정).pdf",
+   "bytes": 1023631,
+   "sha256": "4a3cfcd71e107c1725551fbdf0a1a285f69ef8a7d584913ba3cd50e88357c090",
+   "pages": 23,
+   "text_pages": 22,
+   "ocr_pages": 1
+  }
+ ],
+ "total_chars": 14980,
+ "pages": 23,
+ "text_pages": 22,
+ "ocr_pages": 1,
+ "created_at": "2026-11-16T22:14:40",
+ "engine": {
+  "text": "PyMuPDF 1.28.0",
+  "ocr": "Windows.Media.Ocr ko (s04b 와 같은 설정)"
+ }
+}

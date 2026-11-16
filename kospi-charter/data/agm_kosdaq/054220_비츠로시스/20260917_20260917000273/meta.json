@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260917000273",
+ "corp_code": "00201432",
+ "corp_name": "비츠로시스",
+ "stock_code": "054220",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260917",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000273",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 684,
+ "charter_amend_txt": "data/agm_kosdaq/054220_비츠로시스/20260917_20260917000273/정관의변경.txt",
+ "main_xml": "20260917000273.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260917000273.xml",
+   "bytes": 89612,
+   "sha256": "bc09d45a407894fc729b5c64232e774395fb86c4ee0a6af9bfc167f08b89c225"
+  }
+ ],
+ "folder": "data/agm_kosdaq/054220_비츠로시스/20260917_20260917000273",
+ "fetched_at": "2026-11-16T19:39:09"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260728000245",
+ "corp_code": "00270113",
+ "corp_name": "멕아이씨에스",
+ "stock_code": "058110",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260728",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000245",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1094,
+ "charter_amend_txt": "data/agm_kosdaq/058110_멕아이씨에스/20260728_20260728000245/정관의변경.txt",
+ "main_xml": "20260728000245.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260728000245.xml",
+   "bytes": 56203,
+   "sha256": "6fcde0f44d63d73dbb2c733e4177d641d8ac25c2d26289a491e68486eeca0b7d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/058110_멕아이씨에스/20260728_20260728000245",
+ "fetched_at": "2026-11-16T19:37:21"
+}

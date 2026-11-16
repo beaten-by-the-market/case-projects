@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260923000457",
+ "corp_code": "00319272",
+ "corp_name": "성우",
+ "stock_code": "458650",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260923",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923000457",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1095,
+ "charter_amend_txt": "data/agm_kosdaq/458650_성우/20260923_20260923000457/정관의변경.txt",
+ "main_xml": "20260923000457.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260923000457.xml",
+   "bytes": 58044,
+   "sha256": "d33f26f4c0f166e148278adbb6ed2b7ec0097c6e397db4e9904a002995bc42aa"
+  }
+ ],
+ "folder": "data/agm_kosdaq/458650_성우/20260923_20260923000457",
+ "fetched_at": "2026-11-16T19:39:21"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260625000119",
+ "corp_code": "00520610",
+ "corp_name": "씨큐브",
+ "stock_code": "101240",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260625",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625000119",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260625000119.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260625000119.xml",
+   "bytes": 39793,
+   "sha256": "953829b1df2ec256f6dbf0b83866bfd7f6c72163edd7078ce6fc6d8124c51b20"
+  }
+ ],
+ "folder": "data/agm_kosdaq/101240_씨큐브/20260625_20260625000119",
+ "fetched_at": "2026-11-16T19:35:50"
+}

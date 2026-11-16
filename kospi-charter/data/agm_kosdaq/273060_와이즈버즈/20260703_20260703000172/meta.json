@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260703000172",
+ "corp_code": "01236532",
+ "corp_name": "와이즈버즈",
+ "stock_code": "273060",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260703",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000172",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 2044,
+ "charter_amend_txt": "data/agm_kosdaq/273060_와이즈버즈/20260703_20260703000172/정관의변경.txt",
+ "main_xml": "20260703000172.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260703000172.xml",
+   "bytes": 75128,
+   "sha256": "47205e00027ba453346e202c07b932716263c357ffe7e8d9c63efc84b6851ac0"
+  }
+ ],
+ "folder": "data/agm_kosdaq/273060_와이즈버즈/20260703_20260703000172",
+ "fetched_at": "2026-11-16T19:36:25"
+}

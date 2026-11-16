@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261023000368",
+ "corp_code": "00406329",
+ "corp_name": "루멘스바이오스",
+ "stock_code": "038060",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261023",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000368",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261023000368.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261023000368.xml",
+   "bytes": 56869,
+   "sha256": "7a0258c715a941ddddd65676dc9048ac0dcc9ce663c866baa9e6114295ec77fe"
+  }
+ ],
+ "folder": "data/agm_kosdaq/038060_루멘스바이오스/20261023_20261023000368",
+ "fetched_at": "2026-11-16T19:40:17"
+}

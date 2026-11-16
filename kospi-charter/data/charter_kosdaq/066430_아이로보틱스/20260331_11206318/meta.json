@@ -1,0 +1,25 @@
+{
+ "corp_code": "00370200",
+ "corp_name": "아이로보틱스",
+ "stock_code": "066430",
+ "att_title": "2026.03.31 [정정] 정관",
+ "att_date": "20260331",
+ "rcpNo": "20260331002343",
+ "dcmNo": "11206318",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331002343&dcmNo=11206318",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260331002343&dcmNo=11206318&eleId=1&offset=648&length=3048&dtd=dart4.xsd",
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260331002343&dcmNo=11206318&eleId=2&offset=3726&length=29420&dtd=dart4.xsd"
+ ],
+ "n_nodes": 2,
+ "content_type": "text",
+ "text_chars": 13480,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/066430_아이로보틱스/20260331_11206318",
+ "fetched_at": "2026-11-16T20:26:48",
+ "used_by_rcept_no": [
+  "20260331002343"
+ ]
+}

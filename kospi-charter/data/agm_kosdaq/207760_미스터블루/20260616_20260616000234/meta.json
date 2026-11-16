@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260616000234",
+ "corp_code": "01047840",
+ "corp_name": "미스터블루",
+ "stock_code": "207760",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260616",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260616000234",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 629,
+ "charter_amend_txt": "data/agm_kosdaq/207760_미스터블루/20260616_20260616000234/정관의변경.txt",
+ "main_xml": "20260616000234.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260616000234.xml",
+   "bytes": 58914,
+   "sha256": "09ec863c97bb799825e8c83a11d0bb394210a40e591662fbe06dc323a3171287"
+  }
+ ],
+ "folder": "data/agm_kosdaq/207760_미스터블루/20260616_20260616000234",
+ "fetched_at": "2026-11-16T19:35:34"
+}

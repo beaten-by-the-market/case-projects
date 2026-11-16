@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260724000421",
+ "corp_code": "01416572",
+ "corp_name": "세림B&G",
+ "stock_code": "340440",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260724",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000421",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 189,
+ "charter_amend_txt": "data/agm_kosdaq/340440_세림B&G/20260724_20260724000421/정관의변경.txt",
+ "main_xml": "20260724000421.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260724000421.xml",
+   "bytes": 45761,
+   "sha256": "5527396a7d4ce4c1f4123f7e47010914d2520be470d1d788d5b5071e7868bb3d"
+  }
+ ],
+ "folder": "data/agm_kosdaq/340440_세림B&G/20260724_20260724000421",
+ "fetched_at": "2026-11-16T19:37:17"
+}

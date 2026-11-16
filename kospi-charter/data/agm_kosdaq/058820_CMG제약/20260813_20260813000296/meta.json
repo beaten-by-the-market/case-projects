@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260813000296",
+ "corp_code": "00380429",
+ "corp_name": "CMG제약",
+ "stock_code": "058820",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260813",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813000296",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1263,
+ "charter_amend_txt": "data/agm_kosdaq/058820_CMG제약/20260813_20260813000296/정관의변경.txt",
+ "main_xml": "20260813000296.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260813000296.xml",
+   "bytes": 52056,
+   "sha256": "512bce51aafb549377684f5a7f4ba0cea4f4595045f052e8ff5f4896dc6a4ea6"
+  }
+ ],
+ "folder": "data/agm_kosdaq/058820_CMG제약/20260813_20260813000296",
+ "fetched_at": "2026-11-16T19:37:45"
+}

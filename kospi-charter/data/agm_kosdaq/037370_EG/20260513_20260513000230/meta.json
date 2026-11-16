@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260513000230",
+ "corp_code": "00261054",
+ "corp_name": "EG",
+ "stock_code": "037370",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260513",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000230",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1388,
+ "charter_amend_txt": "data/agm_kosdaq/037370_EG/20260513_20260513000230/정관의변경.txt",
+ "main_xml": "20260513000230.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260513000230.xml",
+   "bytes": 49548,
+   "sha256": "08d80ddec14eb6ae435b86674d8d07b22db1c4e7d5b6f0257af71079155ddd2c"
+  }
+ ],
+ "folder": "data/agm_kosdaq/037370_EG/20260513_20260513000230",
+ "fetched_at": "2026-11-16T19:34:19"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260320000396",
+ "corp_code": "00624998",
+ "corp_name": "제닉",
+ "stock_code": "123330",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260320",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000396",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 1297,
+ "charter_amend_txt": "data/agm_kosdaq/123330_제닉/20260320_20260320000396/정관의변경.txt",
+ "main_xml": "20260320000396.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260320000396.xml",
+   "bytes": 185164,
+   "sha256": "671aa5f2ab36446bb4545a94bfb0bc558937bbb4eda145794e226cefc8c4981f"
+  }
+ ],
+ "folder": "data/agm_kosdaq/123330_제닉/20260320_20260320000396",
+ "fetched_at": "2026-11-16T19:32:42"
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260522000433",
+ "corp_code": "01397903",
+ "corp_name": "엔젠바이오",
+ "stock_code": "354200",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260522",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522000433",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260522000433.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260522000433.xml",
+   "bytes": 46715,
+   "sha256": "7d64826ed333fca380026855583a05411c923fd45609800658fe9bb727f2cf54"
+  }
+ ],
+ "folder": "data/agm_kosdaq/354200_엔젠바이오/20260522_20260522000433",
+ "fetched_at": "2026-11-16T19:34:37"
+}

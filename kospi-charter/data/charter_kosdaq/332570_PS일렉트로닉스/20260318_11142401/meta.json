@@ -1,0 +1,165 @@
+{
+ "corp_code": "01015160",
+ "corp_name": "PS일렉트로닉스",
+ "stock_code": "332570",
+ "att_title": "2026.03.18 정관",
+ "att_date": "20260318",
+ "rcpNo": "20260318001391",
+ "dcmNo": "11142401",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001391&dcmNo=11142401",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001391&dcmNo=11142401&eleId=1&offset=594&length=2786&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 14,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713.jpg",
+   "flNm": "kakaotalk_20260317_184458713.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713",
+   "bytes": 127717,
+   "sha256": "1a408424826d53b14826ffb84d202372fdfc4586ea1a7931fdd2f2b858ba698d",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_01.jpg",
+   "flNm": "kakaotalk_20260317_184458713_01.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_01",
+   "bytes": 237030,
+   "sha256": "3f65f9c78b19d985fcd8c3b3b88fcb438f27fe6f9800e03a0563ee803e707966",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_02.jpg",
+   "flNm": "kakaotalk_20260317_184458713_02.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_02",
+   "bytes": 294270,
+   "sha256": "eb4fd18971eb06eaaf99fb324082275f6e22d0c80d6cc71e760f1fccf805881a",
+   "width": 1807,
+   "height": 2553
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_03.jpg",
+   "flNm": "kakaotalk_20260317_184458713_03.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_03",
+   "bytes": 282867,
+   "sha256": "56203913c2096178755bec917d075be0d910f370a7c20f19ef0a9334907ac8ba",
+   "width": 1807,
+   "height": 2553
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_04.jpg",
+   "flNm": "kakaotalk_20260317_184458713_04.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_04",
+   "bytes": 301914,
+   "sha256": "148670c96ce350c0d3e25d5077e1e843894d0b9d43402b96b82ecfc6356087b8",
+   "width": 1807,
+   "height": 2553
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_05.jpg",
+   "flNm": "kakaotalk_20260317_184458713_05.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_05",
+   "bytes": 287857,
+   "sha256": "fce9df2dafc3efd21aecf612acfa1d7a1367a8bca25cc7c15f445c7773a6ca57",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_06.jpg",
+   "flNm": "kakaotalk_20260317_184458713_06.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_06",
+   "bytes": 269355,
+   "sha256": "4c32eb3d440ec8382c74e7d001f1429fde24744d49df4531ff4bc2e8be24aff8",
+   "width": 1807,
+   "height": 2553
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_07.jpg",
+   "flNm": "kakaotalk_20260317_184458713_07.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_07",
+   "bytes": 275808,
+   "sha256": "5997a109809c5c2187d643ce419b879680501442b55d14b0f44fb7f115bca87b",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_08.jpg",
+   "flNm": "kakaotalk_20260317_184458713_08.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_08",
+   "bytes": 267536,
+   "sha256": "c10482bdd5122ea116a85cdfef1f334a87f6faa5e7a7324cbd4f2b8a36a84b89",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_09.jpg",
+   "flNm": "kakaotalk_20260317_184458713_09.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_09",
+   "bytes": 272217,
+   "sha256": "e47460596b5f813f29d93e7b8edaa23c79668c09b563dd91ce21da2d11211018",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_10.jpg",
+   "flNm": "kakaotalk_20260317_184458713_10.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_10",
+   "bytes": 264230,
+   "sha256": "3de746ef36f1f6412d1275f9bfb1ee277ec045a9099cdef86302e2b5726a4c5a",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_11.jpg",
+   "flNm": "kakaotalk_20260317_184458713_11.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_11",
+   "bytes": 291091,
+   "sha256": "a9ea2b7f52a890f51b1d9b7c439c8bf248ac7b00dba4bf1b763113bb6a67e370",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_12.jpg",
+   "flNm": "kakaotalk_20260317_184458713_12.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_12",
+   "bytes": 300073,
+   "sha256": "71fa1cc6fa2c4f1b524364f71905dffb83a5db0c70bbc7b72b44b03aae3a0710",
+   "width": 2480,
+   "height": 3505
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11142401&flNm=kakaotalk_20260317_184458713_13.jpg",
+   "flNm": "kakaotalk_20260317_184458713_13.jpg",
+   "alt": "이미지: kakaotalk_20260317_184458713_13",
+   "bytes": 244299,
+   "sha256": "289e5c491f88cf44ab95f38018c67c8862cd4aa85a5528eb152c348b7e9fcf6e",
+   "width": 2480,
+   "height": 3505
+  }
+ ],
+ "folder": "data/charter_kosdaq/332570_PS일렉트로닉스/20260318_11142401",
+ "fetched_at": "2026-11-16T21:33:50",
+ "used_by_rcept_no": [
+  "20260701000606"
+ ]
+}

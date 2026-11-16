@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260615000288",
+ "corp_code": "00959229",
+ "corp_name": "세종메디칼",
+ "stock_code": "258830",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260615",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000288",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3243,
+ "charter_amend_txt": "data/agm_kosdaq/258830_세종메디칼/20260615_20260615000288/정관의변경.txt",
+ "main_xml": "20260615000288.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260615000288.xml",
+   "bytes": 73047,
+   "sha256": "e670bd0bd1bdfdcbabe6dc481d859775ec8fb4f5e17806dcb268ffc372438618"
+  }
+ ],
+ "folder": "data/agm_kosdaq/258830_세종메디칼/20260615_20260615000288",
+ "fetched_at": "2026-11-16T19:35:29"
+}

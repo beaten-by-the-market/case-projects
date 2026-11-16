@@ -1,0 +1,24 @@
+{
+ "corp_code": "01217829",
+ "corp_name": "엔에프씨",
+ "stock_code": "265740",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313000481",
+ "dcmNo": "11119148",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000481&dcmNo=11119148",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313000481&dcmNo=11119148&eleId=1&offset=595&length=21709&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 11352,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/265740_엔에프씨/20260313_11119148",
+ "fetched_at": "2026-11-16T21:21:12",
+ "used_by_rcept_no": [
+  "20260313000481"
+ ]
+}

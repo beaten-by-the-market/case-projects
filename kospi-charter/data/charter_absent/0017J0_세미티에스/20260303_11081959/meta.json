@@ -1,0 +1,24 @@
+{
+ "corp_code": "01596221",
+ "corp_name": "세미티에스",
+ "stock_code": "0017J0",
+ "att_title": "2026.03.03 정관",
+ "att_date": "20260303",
+ "rcpNo": "20260303000253",
+ "dcmNo": "11081959",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260303000253&dcmNo=11081959",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260303000253&dcmNo=11081959&eleId=1&offset=598&length=51827&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 24312,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_absent/0017J0_세미티에스/20260303_11081959",
+ "fetched_at": "2026-11-17T00:55:28",
+ "used_by_stock_code": [
+  "0017J0"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260429001063",
+ "corp_code": "01031229",
+ "corp_name": "한국비티비",
+ "stock_code": "219750",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260429",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429001063",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 11997,
+ "charter_amend_txt": "data/agm_kosdaq/219750_한국비티비/20260429_20260429001063/정관의변경.txt",
+ "main_xml": "20260429001063.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260429001063.xml",
+   "bytes": 132936,
+   "sha256": "17891263f24d00f7b823421f9db542bc01d309f7e5d3672f668cc34b6ded2ee7"
+  }
+ ],
+ "folder": "data/agm_kosdaq/219750_한국비티비/20260429_20260429001063",
+ "fetched_at": "2026-11-16T19:33:47"
+}

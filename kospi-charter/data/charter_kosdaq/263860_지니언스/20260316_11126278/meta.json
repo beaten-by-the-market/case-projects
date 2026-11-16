@@ -1,0 +1,35 @@
+{
+ "corp_code": "00962223",
+ "corp_name": "지니언스",
+ "stock_code": "263860",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316000916",
+ "dcmNo": "11126278",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000916&dcmNo=11126278",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000916&dcmNo=11126278&eleId=1&offset=595&length=31781&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "mixed",
+ "text_chars": 13382,
+ "n_images": 1,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126278&flNm=%EC%A0%95%EA%B4%80_%EB%82%A0%EC%9D%B8.jpg",
+   "flNm": "정관_날인.jpg",
+   "alt": "이미지: 정관",
+   "bytes": 208889,
+   "sha256": "0a1041744c92fc0535384494a1b6b6a4e2e856f1e309144013ec6981f8d26469",
+   "width": 2480,
+   "height": 3507
+  }
+ ],
+ "folder": "data/charter_kosdaq/263860_지니언스/20260316_11126278",
+ "fetched_at": "2026-11-16T21:20:59",
+ "used_by_rcept_no": [
+  "20260316001331"
+ ]
+}

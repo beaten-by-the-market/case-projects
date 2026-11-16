@@ -1,0 +1,185 @@
+{
+ "corp_code": "01590528",
+ "corp_name": "아스테라시스",
+ "stock_code": "450950",
+ "att_title": "2026.03.16 정관",
+ "att_date": "20260316",
+ "rcpNo": "20260316000862",
+ "dcmNo": "11126029",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000862&dcmNo=11126029",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000862&dcmNo=11126029&eleId=1&offset=598&length=2434&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "image",
+ "text_chars": 2,
+ "n_images": 16,
+ "n_image_errors": 0,
+ "images": [
+  {
+   "file": "img/001.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page01_1.jpg",
+   "flNm": "page01_1.jpg",
+   "alt": "이미지: page01_1",
+   "bytes": 62662,
+   "sha256": "f953afcb9769272342e2a5e475c37617a1228c646e8a7d7d3f9b792a4997711c",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/002.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page02_1.jpg",
+   "flNm": "page02_1.jpg",
+   "alt": "이미지: page02_1",
+   "bytes": 205803,
+   "sha256": "da9642c508dc182e5049e020587a67b82e1c72675071471d73fe8613e064677b",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/003.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page03_1.jpg",
+   "flNm": "page03_1.jpg",
+   "alt": "이미지: page03_1",
+   "bytes": 136779,
+   "sha256": "b81dca715f8b51a6c63eed8450f7af7f4d5e1d2ad0eda4be713063af5b31502d",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/004.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page04_1.jpg",
+   "flNm": "page04_1.jpg",
+   "alt": "이미지: page04_1",
+   "bytes": 154029,
+   "sha256": "c120003b4c6f0f06a85e305ed2a7d56726ae7d4162729f265f277e120ad41c6a",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/005.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page05_1.jpg",
+   "flNm": "page05_1.jpg",
+   "alt": "이미지: page05_1",
+   "bytes": 125328,
+   "sha256": "0bf6e36c7d41cc042f8b7a339d7232ce26a170a33fe6e5c5905e0c639a9e87fc",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/006.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page06_1.jpg",
+   "flNm": "page06_1.jpg",
+   "alt": "이미지: page06_1",
+   "bytes": 168593,
+   "sha256": "9e10e5c5ba7ba21c0b7f389beea82e921a54877ee8e7019f11cebb6a338d0f16",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/007.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page07_1.jpg",
+   "flNm": "page07_1.jpg",
+   "alt": "이미지: page07_1",
+   "bytes": 128807,
+   "sha256": "2129f06f5faea7f96e0fa821173078e76c42c84606eb8b64f1d67cc37de2f22c",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/008.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page08_1.jpg",
+   "flNm": "page08_1.jpg",
+   "alt": "이미지: page08_1",
+   "bytes": 121920,
+   "sha256": "b002d90c04e8f21d704963392d5d92db20fbde158925694c99574387cce0d513",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/009.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page09_1.jpg",
+   "flNm": "page09_1.jpg",
+   "alt": "이미지: page09_1",
+   "bytes": 113759,
+   "sha256": "ef82d9f056d8ce47395e2f179b14b7723a45ee9f23a536cdc6d97489ed61e549",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/010.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page10_1.jpg",
+   "flNm": "page10_1.jpg",
+   "alt": "이미지: page10_1",
+   "bytes": 263303,
+   "sha256": "809cf4b5539eb559086467a186eaaf239016d39a8287dd31aee5b68ce5c30052",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/011.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page11_1.jpg",
+   "flNm": "page11_1.jpg",
+   "alt": "이미지: page11_1",
+   "bytes": 113716,
+   "sha256": "7c0dc5b0d1fb4e1692bbacb5cb76839a02adc40c15ec8059d3569fe088d6fad5",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/012.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page12_1.jpg",
+   "flNm": "page12_1.jpg",
+   "alt": "이미지: page12_1",
+   "bytes": 296238,
+   "sha256": "82f22613b5493b5bd07fdaad01ae949bb644d868e09871a26f37eb007eb54a7a",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/013.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page13_1.jpg",
+   "flNm": "page13_1.jpg",
+   "alt": "이미지: page13_1",
+   "bytes": 139096,
+   "sha256": "8533dba092ddfbd52f1eec7d78551013f1343bd6dd1d32d8a02f8012842ec335",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/014.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page14_1.jpg",
+   "flNm": "page14_1.jpg",
+   "alt": "이미지: page14_1",
+   "bytes": 286218,
+   "sha256": "c1f97af67654997b99423a1d1558d19a410b4544f6a7bcb1c3a7f7bd54d26996",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/015.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page15_1.jpg",
+   "flNm": "page15_1.jpg",
+   "alt": "이미지: page15_1",
+   "bytes": 128704,
+   "sha256": "ec4fd5b2122d49c9e5650e6363e2aa14451defdb7ee3998414ffc2beea34d7d9",
+   "width": 793,
+   "height": 1122
+  },
+  {
+   "file": "img/016.jpg",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126029&flNm=page16_1.jpg",
+   "flNm": "page16_1.jpg",
+   "alt": "이미지: page16_1",
+   "bytes": 44158,
+   "sha256": "e510bbb1b5383185180468289671794a612db935faaa9cf8031a519ee2a812f2",
+   "width": 793,
+   "height": 1122
+  }
+ ],
+ "folder": "data/charter_kosdaq/450950_아스테라시스/20260316_11126029",
+ "fetched_at": "2026-11-16T21:55:12",
+ "used_by_rcept_no": [
+  "20260327000068"
+ ]
+}

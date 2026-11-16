@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20261021000320",
+ "corp_code": "01042979",
+ "corp_name": "휴마시스",
+ "stock_code": "205470",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20261021",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000320",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20261021000320.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20261021000320.xml",
+   "bytes": 61533,
+   "sha256": "30d83f5e0234ddb31a80383f560bab05bdc7fac7ad9314fe7d5798a622cf8752"
+  }
+ ],
+ "folder": "data/agm_kosdaq/205470_휴마시스/20261021_20261021000320",
+ "fetched_at": "2026-11-16T19:40:11"
+}

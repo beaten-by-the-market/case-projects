@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260813001772",
+ "corp_code": "01051065",
+ "corp_name": "엔비티",
+ "stock_code": "236810",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260813",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001772",
+ "agm_kind": "임시",
+ "has_charter_amend": false,
+ "detect": "",
+ "n_sections": 0,
+ "section_chars": 0,
+ "charter_amend_txt": null,
+ "main_xml": "20260813001772.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260813001772.xml",
+   "bytes": 44682,
+   "sha256": "c05a0e06f0467dd9f58116045cdfdd25d76aa1cd309f67c053a2132ca6f32735"
+  }
+ ],
+ "folder": "data/agm_kosdaq/236810_엔비티/20260813_20260813001772",
+ "fetched_at": "2026-11-16T19:37:50"
+}

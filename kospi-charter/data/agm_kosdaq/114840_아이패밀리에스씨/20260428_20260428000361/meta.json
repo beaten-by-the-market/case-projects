@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260428000361",
+ "corp_code": "00692254",
+ "corp_name": "아이패밀리에스씨",
+ "stock_code": "114840",
+ "report_nm": "주주총회소집공고",
+ "rcept_dt": "20260428",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428000361",
+ "agm_kind": "임시",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 487,
+ "charter_amend_txt": "data/agm_kosdaq/114840_아이패밀리에스씨/20260428_20260428000361/정관의변경.txt",
+ "main_xml": "20260428000361.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260428000361.xml",
+   "bytes": 143702,
+   "sha256": "c5a292c2a863c1a194814c61cd346392c53e27d8cbc65bb2690067b293975c7e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/114840_아이패밀리에스씨/20260428_20260428000361",
+ "fetched_at": "2026-11-16T19:33:43"
+}

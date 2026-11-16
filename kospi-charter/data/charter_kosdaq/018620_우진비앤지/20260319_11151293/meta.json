@@ -1,0 +1,24 @@
+{
+ "corp_code": "00103547",
+ "corp_name": "우진비앤지",
+ "stock_code": "018620",
+ "att_title": "2026.03.19 정관",
+ "att_date": "20260319",
+ "rcpNo": "20260319001070",
+ "dcmNo": "11151293",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001070&dcmNo=11151293",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001070&dcmNo=11151293&eleId=1&offset=597&length=26787&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "text",
+ "text_chars": 12930,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/018620_우진비앤지/20260319_11151293",
+ "fetched_at": "2026-11-16T19:56:50",
+ "used_by_rcept_no": [
+  "20260319001070"
+ ]
+}

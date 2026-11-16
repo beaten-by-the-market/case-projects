@@ -1,0 +1,26 @@
+{
+ "rcept_no": "20260319000998",
+ "corp_code": "00408266",
+ "corp_name": "유니온바이오메트릭스",
+ "stock_code": "203450",
+ "report_nm": "[기재정정]주주총회소집공고",
+ "rcept_dt": "20260319",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000998",
+ "agm_kind": "정기",
+ "has_charter_amend": true,
+ "detect": "code",
+ "n_sections": 1,
+ "section_chars": 3884,
+ "charter_amend_txt": "data/agm_kosdaq/203450_유니온바이오메트릭스/20260319_20260319000998/정관의변경.txt",
+ "main_xml": "20260319000998.xml",
+ "encoding": "utf-8",
+ "files": [
+  {
+   "name": "20260319000998.xml",
+   "bytes": 259976,
+   "sha256": "e32d14f173c2aa852fdf331ea2535527df20872ff7b6014d962e394d6bb82b7e"
+  }
+ ],
+ "folder": "data/agm_kosdaq/203450_유니온바이오메트릭스/20260319_20260319000998",
+ "fetched_at": "2026-11-16T19:32:38"
+}

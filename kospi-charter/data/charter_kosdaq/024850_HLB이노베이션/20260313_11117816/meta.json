@@ -1,0 +1,37 @@
+{
+ "corp_code": "00155586",
+ "corp_name": "HLB이노베이션",
+ "stock_code": "024850",
+ "att_title": "2026.03.13 정관",
+ "att_date": "20260313",
+ "rcpNo": "20260313000003",
+ "dcmNo": "11117816",
+ "att_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000003&dcmNo=11117816",
+ "viewer_urls": [
+  "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260313000003&dcmNo=11117816&eleId=1&offset=596&length=323&dtd=dart4.xsd"
+ ],
+ "n_nodes": 1,
+ "content_type": "pdf",
+ "text_chars": 36,
+ "n_images": 0,
+ "n_image_errors": 0,
+ "images": [],
+ "folder": "data/charter_kosdaq/024850_HLB이노베이션/20260313_11117816",
+ "fetched_at": "2026-11-16T19:58:29",
+ "used_by_rcept_no": [
+  "20260629000350"
+ ],
+ "pdfs": [
+  {
+   "file": "pdf/001.pdf",
+   "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117816&flNm=%EC%A0%95%EA%B4%80%28250320%29.pdf",
+   "flNm": "정관(250320).pdf",
+   "bytes": 461637,
+   "sha256": "2445905dd3f8501b419940d107a68122d11c4fb7b9bcfeeea77f2810b64a0bc7",
+   "pages": 20,
+   "text_pages": 19,
+   "ocr_pages": 1
+  }
+ ],
+ "n_pdfs": 1
+}
