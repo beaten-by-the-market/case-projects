@@ -25,7 +25,7 @@ OpenDART 에서 **최근 1년(2025-11-16 ~ 2026-11-16) 사업보고서 최종본
 | 코스닥 스캔 쪽 Opus 전사 | **6,017쪽 / 370개 정관, 실패 0** (약 $98) |
 | 코스닥 원본 제출일 이후 소집공고 | **720건**, 그중 '정관의 변경' 절 **464건** (해당 회사 401사). 원문 없음 1(기준일 당일 접수) |
 | KIND 코스닥 상장회사 중 목록에 없는 회사 | **1,833사 중 49사** — 신규상장 48(주권 34 · 스팩 13 · DR 1) · 회생절차로 사업보고서 미제출 1(피씨엘) |
-| 사업보고서 없는 상장회사의 정관 (다른 근거문서) | **52/52사** — 증권신고서 47 · 모회사 분할공시 2 · KIND 공시 2 · 홈페이지 1 (코스피 4 · 코스닥 48, 피씨엘 제외) |
+| 사업보고서 없는 상장회사의 정관 (다른 근거문서) | **52/52사** — 증권신고서 47 · 모회사 분할공시 2 · 기타신고사항 2 · 홈페이지 1 (코스피 4 · 코스닥 48, 피씨엘 제외) |
 | 정관 결산배당 기준일 태그 (첨부 정관) | **정관no 437 · 정관yes 378 · 정관yesorno 7 · 확인필요 3** (LLM 약 $16, 사람 검토 41건) |
 | 결산배당 기준일 태그 (지금) | **정관no 449 · 정관yes 369 · 정관yesorno 7** — 제출 뒤 주총 가결 9사(KIND 주주총회결과 확인) · 확인필요 3사는 전년도 정관·소집공고로 |
 | 코스닥 결산배당 기준일 태그 (지금) | **정관no 758 · 정관yes 824 · 정관yesorno 202** (1,784사) — 서브에이전트 판별(API 비용 0) · 서식 판정 259건 중 39건 태그 조정 · 제출 뒤 주총 가결 16사 · 확인필요 4사는 전년도 정관·사업보고서 본문으로 |
@@ -47,7 +47,7 @@ OpenDART 에서 **최근 1년(2025-11-16 ~ 2026-11-16) 사업보고서 최종본
 | [`data/final/manifest.json`](data/final/manifest.json) | 기준일·조회기간·출처·건수 |
 | [`data/final/kosdaq_charter.json`](data/final/kosdaq_charter.json) · `.csv` · `.xlsx` · `kosdaq_charter_docs` · `kosdaq_agm_notices` · `kosdaq_absent` · `kosdaq_manifest.json` | 코스닥 — 열은 코스피 짝(`kospi_charter` · `charter_docs` · `agm_notices` · `kospi_absent` · `manifest`)과 같다 |
 | [`data/charter_kosdaq/`](data/charter_kosdaq/) · [`data/agm_kosdaq/`](data/agm_kosdaq/) | 코스닥 정관·소집공고 원문 — 폴더 구조는 `data/charter/` · `data/agm/` 과 같다 |
-| [`data/final/absent_charter.json`](data/final/absent_charter.json) · `.csv` | 사업보고서가 없어 빠진 신규상장·투자회사의 정관 — 근거문서(`charter_source_doc`: 증권신고서 · 분할공시(모회사) · KIND 공시 · 홈페이지) + 정관·주총 열. 원문은 `data/charter_absent/` · `data/agm_absent/` |
+| [`data/final/absent_charter.json`](data/final/absent_charter.json) · `.csv` | 사업보고서가 없어 빠진 신규상장·투자회사의 정관 — 근거문서(`charter_source_doc`: 증권신고서 · 분할공시(모회사) · 기타신고사항 · 홈페이지) + 정관·주총 열. 원문은 `data/charter_absent/` · `data/agm_absent/` |
 | [`data/final/charter_dividend_record_date.json`](data/final/charter_dividend_record_date.json) · `.csv` · `_kosdaq.json` · `_kosdaq.csv` · `_absent.json` · `_absent.csv`(사업보고서 없는 상장회사 52사) | 코스피·코스닥 정관 결산배당 기준일 태그 — `tag`·근거 조문·인용·중간/분기배당·검증·제출 뒤 안건(`tag_after_agm`). 열 설명은 docs/04 |
 | [`.claude/skills/charter-dividend-record-date/`](.claude/skills/charter-dividend-record-date/SKILL.md) | 태깅 스킬 — 판별 지침(LLM 프롬프트 원본)·배당기준일 규제 연혁. 원문 사본은 `source/regulation/` |
 

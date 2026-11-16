@@ -129,10 +129,10 @@
   const cdBy = new Map(CD.map((d) => [`${d.rcpNo}|${d.dcmNo}`, d]));
   const CHR_ORDER = ["text", "image", "pdf", "mixed", "empty", ...Object.keys(ST).filter((k) => k !== "ok")];
   const AGM_L = { amend: "정관변경 안건 있음", plain: "공고만 (정관변경 안건 없음)", none: "기간 안 공고 없음" };
-  // 사업보고서가 없는 상장회사의 정관 (absent_charter, e6 s08): 근거문서 = 증권신고서 · 분할공시(모회사) · KIND 공시 · 홈페이지
+  // 사업보고서가 없는 상장회사의 정관 (absent_charter, e6 s08): 근거문서 = 증권신고서 · 분할공시(모회사) · 기타신고사항 · 홈페이지
   const AC = rowsOf("absent_charter");
   const SRC_REP = "사업보고서";
-  const SRC_ORDER = [SRC_REP, "증권신고서", "분할공시(모회사)", "KIND 공시", "홈페이지"];
+  const SRC_ORDER = [SRC_REP, "증권신고서", "분할공시(모회사)", "기타신고사항", "홈페이지"];
   const chrOf = (k) => (!k ? "" : k.charter_status === "ok" ? k.charter_content_type || "empty" : k.charter_status || "not_processed");
   const agmOf = (k) => (!k || !("agm_count" in k || "agm_rcept_nos" in k) ? "" : amN(k) > 0 ? "amend" : agmN(k) > 0 ? "plain" : "none");
   {
@@ -403,8 +403,8 @@
     const refs = refArts(q, art, arts, r.quotes).map((x) => `<span class="evref"><b class="evt">→ ${esc(x.label)}${x.name ? ` (${esc(x.name)})` : ""}</b><span class="evq">${esc(x.text)}</span></span>`).join("");
     return `<b class="evt">${esc(art.title || "")}</b><span class="evq">${esc(q)}</span>${refs}${im ? `<img class="evthumb" src="${esc(href(im.crop))}" alt="${esc(`${art.title || ""} 스캔 ${im.page}쪽 해당 부분`)}" loading="lazy">` : ""}`;
   };
-  // 사업보고서가 없는 상장회사(absent)는 정관을 찾은 문서가 근거: 증권신고서 · 분할공시(모회사) · KIND 공시 · 홈페이지
-  const SRC_DOCS = ["증권신고서", "분할공시(모회사)", "KIND 공시", "홈페이지"];
+  // 사업보고서가 없는 상장회사(absent)는 정관을 찾은 문서가 근거: 증권신고서 · 분할공시(모회사) · 기타신고사항 · 홈페이지
+  const SRC_DOCS = ["증권신고서", "분할공시(모회사)", "기타신고사항", "홈페이지"];
   const isSrcDoc = (r) => SRC_DOCS.includes(r.basis_kind);
   const basisLinks = (r, short) => {
     const sep = short ? "<br>" : " · ";
@@ -622,7 +622,7 @@
       id: "list", label: "근거문서", table: "reports", csv: "charter_sources", title: "근거문서 · 정관",
       tip: `정관 (${AOI}) 을 찾은 근거문서 1건 = 1행 · 사업보고서가 기본, 사업보고서가 없는 상장회사는 증권신고서 등`,
       desc: `조회기간 안 사업보고서 최종본 전체(모든 시장), 1건 = 1행이다. ${CMS} 행에는 첨부 목록에서 찾은 정관(${AOI}) 원문과, 근거문서 원본 최초 접수일부터 기준일까지 접수된 주주총회 소집공고(최종본)를 붙였다. ` +
-        (AC.length ? `사업보고서가 없는 ${CMS} 상장회사(신규상장·투자회사) ${fmtN(AC.length)}사는 정관을 찾은 다른 문서(증권신고서·분할공시·KIND 공시·홈페이지)를 근거문서로 1행씩 더했다. '근거문서' 칸과 필터로 구분한다. ` : "") +
+        (AC.length ? `사업보고서가 없는 ${CMS} 상장회사(신규상장·투자회사) ${fmtN(AC.length)}사는 정관을 찾은 다른 문서(증권신고서·분할공시·기타신고사항·홈페이지)를 근거문서로 1행씩 더했다. '근거문서' 칸과 필터로 구분한다. ` : "") +
         "셋째 줄 근거 필터로 정관 원문 종류(텍스트·스캔 이미지·PDF)와 소집공고의 '정관의 변경' 안건 여부를 골라 본다. 시장은 기준일 현재 KIND 상장 목록 기준이다(제출 당시 아님). 행을 누르면 정관 본문 미리보기·스캔 이미지·소집공고 목록이 열린다.",
       filters: [
         [Q(), SEL("market", "시장", "market", { order: MKT, empty: "(빈 값)" }), SEL("src", "근거문서", "_src", { order: SRC_ORDER })],
@@ -634,7 +634,7 @@
       cols: [
         C_NO, { k: "market", t: "시장", c: "c", h: (r) => mk(r.market), v: (r) => { const i = MKT.indexOf(r.market); return i < 0 ? 9 : i; } },
         C_CODE, C_NAME,
-        { k: "_src", t: "근거문서", c: "c", title: "정관을 찾은 문서: 사업보고서, 사업보고서가 없는 회사는 증권신고서·분할공시(모회사)·KIND 공시·홈페이지", v: (r) => { const i = SRC_ORDER.indexOf(r._src); return i < 0 ? 9 : i; }, h: (r) => srcB(r._src) },
+        { k: "_src", t: "근거문서", c: "c", title: "정관을 찾은 문서: 사업보고서, 사업보고서가 없는 회사는 증권신고서·분할공시(모회사)·기타신고사항·홈페이지", v: (r) => { const i = SRC_ORDER.indexOf(r._src); return i < 0 ? 9 : i; }, h: (r) => srcB(r._src) },
         { k: "report_period", t: "결산기", c: "c mono", need: ["report_period", "report_nm"], title: "사업보고서 (결산기) · 정정구분, 근거문서가 사업보고서가 아니면 그 문서 이름",
           h: (r) => (r._abs ? `<span class="small">${e(r.charter_source_nm) || NA}</span>` : `${e(r.report_period) || e(stripTag(r.report_nm)) || NA}${tagB(r.amend_tag ?? tagOf(r.report_nm))}`) },
         { k: "rcept_dt", t: "접수일", c: "c mono", v: (r) => (r._abs ? String(r.charter_source_dt || "").replace(/-/g, "") : r.rcept_dt),

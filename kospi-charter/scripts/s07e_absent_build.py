@@ -5,7 +5,7 @@
 
   market · stock_code · corp_name · corp_code · sec_group · listed_date · settle_month(OpenDART company.json acc_mt)
   reason_code · reason                      빠진 이유 (kospi_absent · kosdaq_absent 그대로)
-  charter_source_doc                        근거문서: '증권신고서' · '분할공시(모회사)' · 'KIND 공시' · '홈페이지'
+  charter_source_doc                        근거문서: '증권신고서' · '분할공시(모회사)' · '기타신고사항' · '홈페이지'
   charter_source_rcept_no · _nm · _dt       근거문서 접수번호(DART·KIND, 홈페이지는 빈 값) · 이름 · 날짜(YYYYMMDD)
   charter_source_url                        근거문서 화면: DART main.do · KIND disclsviewer · 홈페이지 게시 화면
   CH_COLS                                   charter_url = 정관 첨부(DART att) 또는 원본 파일 주소(KIND·홈페이지)

@@ -1,4 +1,4 @@
-"""s04e 사업보고서가 없어 목록에 없는 회사의 정관 — 증권신고서 · 분할공시(모회사) · KIND 공시 · 홈페이지 (01 R8)
+"""s04e 사업보고서가 없어 목록에 없는 회사의 정관 — 증권신고서 · 분할공시(모회사) · 기타신고사항 · 홈페이지 (01 R8)
 
 사용자 지시(2026-11-17): KIND 상장회사인데 조회기간에 사업보고서가 없어 정관 표에 들어오지 못한 회사 중 **신규상장·투자회사**는
 증권신고서(또는 증권신고서 + 주총 소집공고)·홈페이지 등에서 정관을 찾아 지금 화면(근거문서 탭) 안에 넣는다.
@@ -10,7 +10,7 @@
   증권신고서         조회기간 OpenDART 공시(최종본, s02b·s02c 캐시) 중 보고서명에 '증권신고서'가 든 것의 가장 늦은 접수번호.
                      지분증권 · 증권예탁증권(DR) · 합병(스팩합병 상장) 모두. 그 main.do 의 att 에서 R5-2 로 정관을 고른다
   분할공시(모회사)   인적분할 재상장 — 자기 증권신고서가 없다. 모회사의 분할 공시(att 에 신설회사 정관) — MANUAL 에 손으로
-  KIND 공시          투자회사 — KIND '기타신고사항' 정관 개정 공지의 첨부 — MANUAL
+  기타신고사항       투자회사 — KIND '기타신고사항' 정관 개정 공지의 첨부 — MANUAL
   홈페이지           투자회사 — 회사 홈페이지에 게시한 정관 — MANUAL
 
 정관 받기·글은 코스피 규칙 그대로(R5): s04_charter.fetch_doc · s04c(PDF) · s04b(OCR) · s04d(Opus) 를 저장 위치만 바꿔 쓴다(_kosdaq.patch).
@@ -52,7 +52,7 @@ A_INTERIM = INTERIM / "absent"
 A_CHARTER = ROOT / "data" / "charter_absent"
 A_AGM = ROOT / "data" / "agm_absent"
 A_LLM = RAW / "llm_ocr_absent"
-DOCS = ("증권신고서", "분할공시(모회사)", "KIND 공시", "홈페이지")
+DOCS = ("증권신고서", "분할공시(모회사)", "기타신고사항", "홈페이지")
 TARGET_REASONS = ("new_listing", "no_annual_report")
 ABSENT = (("코스피", FINAL / "kospi_absent.json", RAW / "opendart_absent"),
           ("코스닥", FINAL / "kosdaq_absent.json", RAW / "opendart_absent_kosdaq"))
@@ -80,14 +80,14 @@ MANUAL: dict[str, dict] = {
                "nm": "MKIF 정관 (2026년 5월 11일 개정)", "dt": "20260511",
                "note": "KIND 기타신고사항 'MKIF 정관 일부 개정' 20260511000505: 개정된 정관을 MKIF 홈페이지에 게시"},
     # 투자회사 — KIND '기타신고사항' 정관 개정 공지의 '기타공시첨부서류'(문서 후보 둘째 content_id → searchContents 로 주소)
-    "415640": {"doc": "KIND 공시", "kind_acptno": "20260225001757", "dt": "20260225",
+    "415640": {"doc": "기타신고사항", "kind_acptno": "20260225001757", "dt": "20260225",
                "url": "https://kind.krx.co.kr/external/2026/02/25/001757/20260225001091/"
                       "%EB%B0%9C%ED%95%B4%EC%9D%B8%ED%94%84%EB%9D%BC%20%EA%B0%9C%EC%A0%95%EC%A0%95%EA%B4%80_20260225.pdf",
                "referer": "https://kind.krx.co.kr/external/2026/02/25/001757/20260225001091/90999.htm",
                "file_name": "발해인프라 개정정관_20260225.pdf",
                "nm": "기타신고사항 '케이비발해인프라투융자회사 정관 일부 개정' 첨부 개정정관",
                "note": "KIND 20260225001757 첨부(content_id 20260225001091). 앞선 개정 공지 20251117000589"},
-    "094800": {"doc": "KIND 공시", "kind_acptno": "20251230000116", "dt": "20251230",
+    "094800": {"doc": "기타신고사항", "kind_acptno": "20251230000116", "dt": "20251230",
                "url": "https://kind.krx.co.kr/external/2025/12/30/000116/20251230000287/"
                       "%EC%A0%95%EA%B4%80_%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%A7%B5%EC%8A%A4%EB%A6%AC%EC%96%BC%ED%8B%B0"
                       "%EB%B6%80%EB%8F%99%EC%82%B0%EA%B3%B5%EB%AA%A8%ED%88%AC%EC%9E%90%ED%9A%8C%EC%82%AC_20251230.docx",
@@ -286,7 +286,7 @@ def cmd_fetch(per_min: int):
     for p in plan:
         src = p.get("source") or {}
         rno = src.get("rcept_no")
-        if p["source_doc"] in ("KIND 공시", "홈페이지") and src.get("url"):
+        if p["source_doc"] in ("기타신고사항", "홈페이지") and src.get("url"):
             try:
                 m = fetch_file(p, src, Http(delay=2.0))
             except RuntimeError as e:

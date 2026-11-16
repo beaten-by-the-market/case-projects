@@ -157,7 +157,7 @@ def record_date(code: str, tag: str | None, fixed_point: str | None, month: int 
     return day if tag == "정관yes" else f"{day} 또는 이사회결정"
 
 
-SRC_KINDS = ("증권신고서", "분할공시(모회사)", "KIND 공시", "홈페이지")     # 사업보고서가 없어 정관을 찾은 문서 (absent_charter)
+SRC_KINDS = ("증권신고서", "분할공시(모회사)", "기타신고사항", "홈페이지")     # 사업보고서가 없어 정관을 찾은 문서 (absent_charter)
 CHARTER_OF = {"": "kospi_charter.json", "kosdaq": "kosdaq_charter.json", "absent": "absent_charter.json"}
 ABSENT_OF = {"": "kospi_absent.json", "kosdaq": "kosdaq_absent.json"}
 
