@@ -281,6 +281,9 @@ details.pvd > .pvbox { padding: 8px; }
 .grid td.ev { min-width: 300px; max-width: 520px; }
 .grid td.wrap { min-width: 320px; line-height: 1.55; }
 td.ev .evt { display: block; font-size: 12px; color: var(--ink); }
+td.ev .evt.evagm { display: inline; margin-right: 4px; color: crimson; font-weight: 700; }   /* 주주총회 안건으로 정한 행 */
+td.ev .evt.evalt { display: inline; margin-right: 4px; color: #5b2d8e; font-weight: 700; }   /* 첨부 정관을 못 읽어 다른 자료로 정한 행 */
+td.ev .evwhy { font-size: 11px; color: var(--ink); }
 td.ev .evq { display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; font-size: 12px; line-height: 1.5; }
 td.ev .evref { display: block; margin-top: 4px; padding-left: 8px; border-left: 2px solid var(--grid-line); }
 td.ev .evthumb { display: block; max-width: 100%; max-height: 60px; object-fit: cover; object-position: top left; margin-top: 4px; border: 1px solid var(--grid-line); }

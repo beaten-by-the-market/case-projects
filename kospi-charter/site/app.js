@@ -403,14 +403,25 @@
     }
     return out;
   };
+  // 첨부 정관을 읽을 수 없어 다른 자료로 정한 행(첨부 태그 확인필요): 쓴 자료 이름을 짙은 보라 라벨로(주총 안건은 크림슨), 이유는 작은 글씨 (사용자 결정 2026-11-17)
+  const unreadWhy = (r) => {
+    const k = (rowsOf("dividend_notes").find((n) => n.stock_code === r.stock_code && (!n.market || n.market === r.market) && /암호화|서비스하지|끊겨/.test(n.kind || "")) || {}).kind || "";
+    return /암호화/.test(k) ? "암호화된 PDF" : /서비스하지/.test(k) ? "DART 가 PDF 를 제공하지 않음" : /끊겨/.test(k) ? "정관 이미지가 중간에 끊겨 배당 조항이 없음" : "";
+  };
+  const altWhy = (r, tail) => {
+    const w = unreadWhy(r);
+    return `<span class="evwhy">(${r.basis_kind === "전년도 사업보고서" ? "올해 " : ""}첨부 정관을 읽을 수 없음${w ? `: ${esc(w)}` : ""}${tail ? `, ${tail}` : ""})</span>`;
+  };
   const evSnippet = (r) => {
     const ev = r.ev || {};
     if (ev.notices && ev.notices.length && ev.notices[0].rows.length) {
       const a = amendRow(ev.notices[0].rows[0]);
-      return `<b class="evt">안건 ${esc(a.art || "")}</b><span class="evq"><i class="small">변경 후</i> ${esc(a.after.replace(/ \/ /g, " "))}</span>`;
+      // 주총 안건으로 정한 행: 굵은 크림슨 '주주총회 안건' + 작은 글씨 까닭 (사용자 지시 2026-11-17, 정관 칸에는 태그만)
+      const why = r.tag === "확인필요" ? altWhy(r, "주주총회 안건으로 정함") : '<span class="evwhy">(사업보고서 첨부 정관이 주주총회를 통해 변경됨)</span>';
+      return `<b class="evt evagm">주주총회 안건</b>${why}<b class="evt">${esc(a.art || "")}</b><span class="evq"><i class="small">변경 후</i> ${esc(a.after.replace(/ \/ /g, " "))}</span>`;
     }
     const arts = ev.arts || [];
-    if (!arts.length) return ev.report ? `<b class="evt">사업보고서 본문</b><span class="evq">${esc(ev.report.slice(0, 200))}</span>` : NA;
+    if (!arts.length) return ev.report ? `<b class="evt${r.tag === "확인필요" ? " evalt" : ""}">사업보고서 본문</b>${r.tag === "확인필요" ? altWhy(r) : ""}<span class="evq">${esc(ev.report.slice(0, 200))}</span>` : NA;
     // 첫 인용(LLM 이 결정 문장부터 낸다)이 든 조를 보인다, 참조형이면 배당 조와 기준일 조가 둘 다 있다
     const sq = (s) => String(s || "").replace(/\s+/g, "");
     const q0 = sq((r.quotes || [])[0]).slice(0, 30);
@@ -418,7 +429,8 @@
     const q = (r.quotes || [])[0] || (art.marks || [])[0] || art.text.slice(0, 140);
     const im = (art.imgs || []).find((x) => x.crop);
     const refs = refArts(q, art, arts, r.quotes).map((x) => `<span class="evref"><b class="evt">→ ${esc(x.label)}${x.name ? ` (${esc(x.name)})` : ""}</b><span class="evq">${esc(x.text)}</span></span>`).join("");
-    return `<b class="evt">${esc(art.title || "")}</b><span class="evq">${esc(q)}</span>${refs}${im ? `<img class="evthumb" src="${esc(href(im.crop))}" alt="${esc(`${art.title || ""} 스캔 ${im.page}쪽 해당 부분`)}" loading="lazy">` : ""}`;
+    const alt = r.basis_kind === "전년도 사업보고서" ? `<b class="evt evalt">전년도 정관</b>${altWhy(r)}` : "";
+    return `${alt}<b class="evt">${esc(art.title || "")}</b><span class="evq">${esc(q)}</span>${refs}${im ? `<img class="evthumb" src="${esc(href(im.crop))}" alt="${esc(`${art.title || ""} 스캔 ${im.page}쪽 해당 부분`)}" loading="lazy">` : ""}`;
   };
   // 사업보고서가 없는 상장회사(absent)는 정관을 찾은 문서가 근거: 증권신고서 · 분할계획서 · 기타신고사항 · 홈페이지
   const SRC_DOCS = ["증권신고서", "분할계획서", "기타신고사항", "홈페이지"];
@@ -632,8 +644,8 @@
         C_CODE, C_NAME,
         { k: "settle_month", t: "결산월", c: "c", title: "사업보고서의 결산월 · 지금(KIND 상장법인목록) 결산월과 다르면 빨간 글씨", h: settleCell },
         { k: "tag_current", t: "정관", c: "c", v: (r) => DORD.indexOf(r.tag_current),
-          title: "정관의 결산배당 기준일 태그 (지금 유효) · N = 이사회가 정함 · Y = 정관상 결산일 고정 · YorN = 결산일 원칙, 이사회도 정할 수 있음 · 아래 작은 글씨 = 사업보고서 첨부 정관 태그가 다를 때",
-          h: (r) => `${dtag(r.tag_current)}${r.changed ? `<br><span class="small" title="사업보고서 첨부 정관">첨부 ${esc(TL(r.tag))} →</span>` : ""}` },
+          title: "정관의 결산배당 기준일 태그 (지금 유효) · N = 이사회가 정함 · Y = 정관상 결산일 고정 · YorN = 결산일 원칙, 이사회도 정할 수 있음 · 주총에서 바뀐 회사는 근거 문구 칸에 '주주총회 안건'",
+          h: (r) => dtag(r.tag_current) },
         { k: "filed", t: "신고", c: "c", td: (r) => FCMP_TD[r.filed_cmp] || "",
           v: (r) => (r.filed ? `${["불일치", "미입력", "일치"].indexOf(r.filed_cmp)}${FORD.indexOf(r.filed)}` : null),
           title: "회사가 상장공시시스템에 신고한 배당기준일 조건 (Y = 특정일 · N = 이사회 결의로 정한 날) · 빨간 바탕 = 정관과 불일치 · 회색 바탕 = 미입력 · 코스피만",
