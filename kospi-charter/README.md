@@ -25,12 +25,23 @@ OpenDART 에서 **최근 1년(2025-11-16 ~ 2026-11-16) 사업보고서 최종본
 | 코스닥 스캔 쪽 Opus 전사 | **6,017쪽 / 370개 정관, 실패 0** (약 $98) |
 | 코스닥 원본 제출일 이후 소집공고 | **720건**, 그중 '정관의 변경' 절 **464건** (해당 회사 401사). 원문 없음 1(기준일 당일 접수) |
 | KIND 코스닥 상장회사 중 목록에 없는 회사 | **1,833사 중 49사** — 신규상장 48(주권 34 · 스팩 13 · DR 1) · 회생절차로 사업보고서 미제출 1(피씨엘) |
-| 사업보고서 없는 상장회사의 정관 (다른 근거문서) | **52/52사** — 증권신고서 47 · 모회사 분할공시 2 · 기타신고사항 3 (코스피 4 · 코스닥 48, 피씨엘 제외) |
+| 사업보고서 없는 상장회사의 정관 (다른 근거문서) | **52/52사** — 증권신고서 47 · 분할계획서 2 · 기타신고사항 3 (코스피 4 · 코스닥 48, 피씨엘 제외) |
 | 정관 결산배당 기준일 태그 (첨부 정관) | **정관no 437 · 정관yes 378 · 정관yesorno 7 · 확인필요 3** (LLM 약 $16, 사람 검토 41건) |
 | 결산배당 기준일 태그 (지금) | **정관no 449 · 정관yes 369 · 정관yesorno 7** — 제출 뒤 주총 가결 9사(KIND 주주총회결과 확인) · 확인필요 3사는 전년도 정관·소집공고로 |
 | 코스닥 결산배당 기준일 태그 (지금) | **정관no 758 · 정관yes 824 · 정관yesorno 202** (1,784사) — 서브에이전트 판별(API 비용 0) · 서식 판정 259건 중 39건 태그 조정 · 제출 뒤 주총 가결 16사 · 확인필요 4사는 전년도 정관·사업보고서 본문으로 |
 
 자세한 건수와 확인한 사실은 [docs/03-검증기록.md](docs/03-검증기록.md), `data/final/manifest.json`(코스닥은 `kosdaq_manifest.json`).
+
+## 데이터 흐름
+
+![kospi-charter 데이터 흐름 — 출처·데이터·목적 → 업무 → LLM → 검증·합치기 → 결과](docs/img/data-flow.svg)
+
+위에서 아래로 읽는다. 받은 자료는 **쓰임새에 따라 네 갈래**로 나뉜다.
+**A 기준 설정**은 누구의 어느 시점 정관을 무슨 잣대로 볼지 정하는 자료다. **B 판별 원문**은 LLM 이 읽을 정관 글이고,
+**C 변경 추적**은 첨부 정관 뒤에 나온 '정관의 변경' 안건, **D 확인·대조**는 LLM 을 거치지 않고 결과를 맞춰 보는 자료다.
+LLM 은 스캔 쪽 전사, 결산배당 기준일 판별, 안건 판별 세 곳에만 쓴다. 판별 결과는 인용 대조·독립 규칙 판별·사람 검토·KIND 가결 확인을 거친 뒤
+첨부 정관 태그(`tag`)에 주총 안건과 대체 자료를 시점 순으로 더해 지금 태그(`tag_current`)가 된다.
+그림은 `python -X utf8 scripts/make_flow_svg.py` 로 다시 그린다(태그 건수는 `data/final` 에서 센다).
 
 ## 결과물
 
@@ -47,7 +58,7 @@ OpenDART 에서 **최근 1년(2025-11-16 ~ 2026-11-16) 사업보고서 최종본
 | [`data/final/manifest.json`](data/final/manifest.json) | 기준일·조회기간·출처·건수 |
 | [`data/final/kosdaq_charter.json`](data/final/kosdaq_charter.json) · `.csv` · `.xlsx` · `kosdaq_charter_docs` · `kosdaq_agm_notices` · `kosdaq_absent` · `kosdaq_manifest.json` | 코스닥 — 열은 코스피 짝(`kospi_charter` · `charter_docs` · `agm_notices` · `kospi_absent` · `manifest`)과 같다 |
 | [`data/charter_kosdaq/`](data/charter_kosdaq/) · [`data/agm_kosdaq/`](data/agm_kosdaq/) | 코스닥 정관·소집공고 원문 — 폴더 구조는 `data/charter/` · `data/agm/` 과 같다 |
-| [`data/final/absent_charter.json`](data/final/absent_charter.json) · `.csv` | 사업보고서가 없어 빠진 신규상장·투자회사의 정관 — 근거문서(`charter_source_doc`: 증권신고서 · 분할공시(모회사) · 기타신고사항 · 홈페이지) + 정관·주총 열. 원문은 `data/charter_absent/` · `data/agm_absent/` |
+| [`data/final/absent_charter.json`](data/final/absent_charter.json) · `.csv` | 사업보고서가 없어 빠진 신규상장·투자회사의 정관 — 근거문서(`charter_source_doc`: 증권신고서 · 분할계획서 · 기타신고사항 · 홈페이지) + 정관·주총 열. 원문은 `data/charter_absent/` · `data/agm_absent/` |
 | [`data/final/charter_dividend_record_date.json`](data/final/charter_dividend_record_date.json) · `.csv` · `_kosdaq.json` · `_kosdaq.csv` · `_absent.json` · `_absent.csv`(사업보고서 없는 상장회사 52사) | 코스피·코스닥 정관 결산배당 기준일 태그 — `tag`·근거 조문·인용·중간/분기배당·검증·제출 뒤 안건(`tag_after_agm`). 열 설명은 docs/04 |
 | [`.claude/skills/charter-dividend-record-date/`](.claude/skills/charter-dividend-record-date/SKILL.md) | 태깅 스킬 — 판별 지침(LLM 프롬프트 원본)·배당기준일 규제 연혁. 원문 사본은 `source/regulation/` |
 
@@ -113,7 +124,7 @@ cp .env.example .env                     # DART_API_KEY 넣기
 | 8 | `scripts/s08_site.py` | 웹페이지 데이터 `site/data.js` (코스피·코스닥 결과물 함께) | — |
 | 2c | `scripts/s02c_kosdaq_absent.py` | **코스닥** — KIND 코스닥 상장회사 중 목록에 없는 회사와 근거 (s02b 복사본) | OpenDART · KIND |
 | 2d | `scripts/s02d_kind_settle_month.py` | 지금 결산월 (KIND 상장법인목록, 코스피·코스닥) → 배당기준일 탭 결산월 비교 | KIND |
-| 2e | `scripts/s02e_check_group.py` | 확인그룹 — 사용자가 준 엑셀의 코스피 종목별 그룹 번호(이름은 싣지 않음) → 웹페이지 '확인그룹' 칸 | 엑셀 |
+| 2e | `scripts/s02e_check_group.py` | 확인그룹 — 사용자가 준 엑셀의 코스피 종목별 그룹 번호(이름은 싣지 않음) → 웹페이지 '확인그룹' 필터 | 엑셀 |
 | 3k·4k | `scripts/s03k_kosdaq_main.py` · `s04k_kosdaq_charter.py` | 코스닥 — 첨부문서 목록 · 정관 원문 | DART 웹 |
 | 4ck·4bk·4dk | `scripts/s04ck_kosdaq_pdf.py` · `s04bk_kosdaq_ocr.py` · `s04dk_kosdaq_llm.py` | 코스닥 — PDF 정관 · Windows OCR · Opus 전사(비용 발생) | DART 웹 · Windows OCR · Anthropic API |
 | 5k·6k | `scripts/s05k_kosdaq_agm_list.py` · `s06k_kosdaq_agm_xml.py` | 코스닥 — 소집공고 목록 · XML·정관의 변경 절 | OpenDART |
@@ -138,7 +149,7 @@ cp .env.example .env                     # DART_API_KEY 넣기
 
 원본 응답은 모두 `data/raw/`(캐시)·`data/charter/` 에 저장되고, 다시 돌리면 저장본을 읽는다. 기준일은 `scripts/_common.py`
 `AS_OF`(환경변수 `KC_AS_OF`). DART 는 IP 단위로 막으므로 다른 DART 수집과 동시에 돌리지 않는다.
-노트북은 `python scripts/make_notebook.py` 로 다시 만든다.
+노트북은 `python scripts/make_notebook.py` 로, README 데이터 흐름 그림(`docs/img/data-flow.svg`)은 `python -X utf8 scripts/make_flow_svg.py` 로 다시 만든다.
 
 ## 폴더
 

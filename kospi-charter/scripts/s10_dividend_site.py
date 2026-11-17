@@ -79,14 +79,24 @@ def pdf_meta(folder: str | None) -> dict:
     return {x["file"]: x.get("src_url") for x in m.get("pdfs") or []}
 
 
+def src_pages(folder: str | None) -> dict:
+    """잘라 낸 정관(분할계획서 쪽 등)의 그림 파일 → 원문 쪽 번호 (meta images[].src_page)."""
+    if not folder:
+        return {}
+    p = ROOT / folder / "meta.json"
+    m = read_json(p) if p.exists() else {}
+    return {x["file"]: x["src_page"] for x in m.get("images") or [] if x.get("src_page")}
+
+
 def articles_out(arts: list[dict], folder: str | None) -> list[dict]:
     pm = pdf_meta(folder)
+    sp = src_pages(folder)
     out = []
     for a in arts or []:
         out.append({
             "title": a.get("title"), "text": CTRL.sub(" ", a.get("text") or ""), "marks": a.get("marks") or [], "how": a.get("how"),
             "imgs": [{"page": i["page"], "crop": i.get("crop"), "src": i.get("src_url"), "file": i.get("file"),
-                      "how": i.get("how")} for i in a.get("images") or []],
+                      "how": i.get("how"), "src_page": sp.get(i.get("file"))} for i in a.get("images") or []],
             "pdf": [{"file": p["pdf"], "page": p["page"], "scanned": p.get("scanned"), "src": pm.get(p["pdf"])}
                     for p in a.get("pdf_pages") or []],
         })
@@ -108,6 +118,8 @@ def first_url(ev_arts: list[dict], viewer: str | None, charter_url: str | None) 
     for a in ev_arts:
         for im in a["imgs"]:
             if im.get("src"):
+                if im.get("src_page"):                       # 분할계획서에서 잘라 낸 신설회사 정관(안): 계획서 원문 쪽
+                    return im["src"], f"분할계획서 {im['src_page']}쪽 그림 (DART)"
                 return im["src"], f"정관 {im['page']}쪽 그림 (DART)"
         for p in a["pdf"]:
             if p.get("src"):
@@ -157,7 +169,7 @@ def record_date(code: str, tag: str | None, fixed_point: str | None, month: int 
     return day if tag == "정관yes" else f"{day} 또는 이사회결정"
 
 
-SRC_KINDS = ("증권신고서", "분할공시(모회사)", "기타신고사항", "홈페이지")     # 사업보고서가 없어 정관을 찾은 문서 (absent_charter)
+SRC_KINDS = ("증권신고서", "분할계획서", "기타신고사항", "홈페이지")     # 사업보고서가 없어 정관을 찾은 문서 (absent_charter)
 CHARTER_OF = {"": "kospi_charter.json", "kosdaq": "kosdaq_charter.json", "absent": "absent_charter.json"}
 ABSENT_OF = {"": "kospi_absent.json", "kosdaq": "kosdaq_absent.json"}
 

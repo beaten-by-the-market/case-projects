@@ -129,10 +129,10 @@
   const cdBy = new Map(CD.map((d) => [`${d.rcpNo}|${d.dcmNo}`, d]));
   const CHR_ORDER = ["text", "image", "pdf", "mixed", "empty", ...Object.keys(ST).filter((k) => k !== "ok")];
   const AGM_L = { amend: "정관변경 안건 있음", plain: "공고만 (정관변경 안건 없음)", none: "기간 안 공고 없음" };
-  // 사업보고서가 없는 상장회사의 정관 (absent_charter, e6 s08): 근거문서 = 증권신고서 · 분할공시(모회사) · 기타신고사항 · 홈페이지
+  // 사업보고서가 없는 상장회사의 정관 (absent_charter, e6 s08): 근거문서 = 증권신고서 · 분할계획서 · 기타신고사항 · 홈페이지
   const AC = rowsOf("absent_charter");
   const SRC_REP = "사업보고서";
-  const SRC_ORDER = [SRC_REP, "증권신고서", "분할공시(모회사)", "기타신고사항", "홈페이지"];
+  const SRC_ORDER = [SRC_REP, "증권신고서", "분할계획서", "기타신고사항", "홈페이지"];
   const chrOf = (k) => (!k ? "" : k.charter_status === "ok" ? k.charter_content_type || "empty" : k.charter_status || "not_processed");
   const agmOf = (k) => (!k || !("agm_count" in k || "agm_rcept_nos" in k) ? "" : amN(k) > 0 ? "amend" : agmN(k) > 0 ? "plain" : "none");
   {
@@ -403,9 +403,19 @@
     const refs = refArts(q, art, arts, r.quotes).map((x) => `<span class="evref"><b class="evt">→ ${esc(x.label)}${x.name ? ` (${esc(x.name)})` : ""}</b><span class="evq">${esc(x.text)}</span></span>`).join("");
     return `<b class="evt">${esc(art.title || "")}</b><span class="evq">${esc(q)}</span>${refs}${im ? `<img class="evthumb" src="${esc(href(im.crop))}" alt="${esc(`${art.title || ""} 스캔 ${im.page}쪽 해당 부분`)}" loading="lazy">` : ""}`;
   };
-  // 사업보고서가 없는 상장회사(absent)는 정관을 찾은 문서가 근거: 증권신고서 · 분할공시(모회사) · 기타신고사항 · 홈페이지
-  const SRC_DOCS = ["증권신고서", "분할공시(모회사)", "기타신고사항", "홈페이지"];
+  // 사업보고서가 없는 상장회사(absent)는 정관을 찾은 문서가 근거: 증권신고서 · 분할계획서 · 기타신고사항 · 홈페이지
+  const SRC_DOCS = ["증권신고서", "분할계획서", "기타신고사항", "홈페이지"];
   const isSrcDoc = (r) => SRC_DOCS.includes(r.basis_kind);
+  // 근거문서 안의 '그 회사 정관' 이름: 분할계획서면 분할신설회사 정관(안)(계획서 쪽), 합병 증권신고서의 존속회사 부분이면 그렇게 (모회사·스팩 정관과 헷갈리지 않게)
+  const srcCharterName = (r) => {
+    const ac = acBy.get(`${r.market}|${r.stock_code}`) || {};
+    const t = String(ac.charter_title || "");
+    const pg = t.match(/\((\d+)~(\d+)쪽\)/);
+    if (r.basis_kind === "분할계획서") return `분할신설회사 정관(안)${pg ? ` (계획서 ${pg[1]}~${pg[2]}쪽)` : ""}`;
+    if (t.includes("존속회사 정관 부분")) return "정관 (존속회사 부분)";
+    return "정관";
+  };
+  const srcDocTitle = (r) => (r.basis_kind === "분할계획서" ? `분할계획서 안 ${srcCharterName(r)}` : `${r.basis_kind} ${srcCharterName(r)}`);
   const basisLinks = (r, short) => {
     const sep = short ? "<br>" : " · ";
     const nd = r.basis_notice_rcept_no ? ymd(dateOfRno(r.basis_notice_rcept_no)) : "";
@@ -418,7 +428,7 @@
     } else if (isSrcDoc(r)) {
       const d = ymd(dateOfRno(r.basis_rcept_no));
       parts.push(ext(r.basis_doc_url, short ? `원문${d ? ` ${d}` : ""}` : `${esc(r.basis_kind)}${r.basis_rcept_no ? ` ${esc(r.basis_rcept_no)}` : ""}`, "정관을 찾은 근거문서 (사업보고서가 없는 회사)"));
-      if (!short && r.basis_charter_url && r.basis_charter_url !== r.basis_doc_url) parts.push(ext(r.basis_charter_url, "정관", `정관 (${AOI})`));
+      if (!short && r.basis_charter_url && r.basis_charter_url !== r.basis_doc_url) parts.push(ext(r.basis_charter_url, esc(srcCharterName(r)), `${srcCharterName(r)} (${AOI})`));
     } else {
       parts.push(ext(r.basis_doc_url, short ? (r.basis_prev_report_nm ? esc(r.basis_prev_report_nm).replace("사업보고서 ", "사업보고서<br>") : `사업보고서 ${ymd(dateOfRno(r.basis_rcept_no))}`)
         : `${esc(r.basis_prev_report_nm || "사업보고서")} ${esc(r.basis_rcept_no)}`, "DART 사업보고서"));
@@ -444,7 +454,7 @@
       ["결산월", settleCell(r)], ["증권구분", e(r.sec_group)],
       ["결산배당 기준일", e(r.final_record)], ["지금 결산월 (KIND)", r.settle_month_now ? `${esc(r.settle_month_now)}월` : ""],
       ["분류 결과 (지금)", dtag(r.tag_current), { hl: r.changed }],
-      [isSrcDoc(r) ? `${esc(r.basis_kind)} 정관` : "사업보고서 첨부 정관", `${dtag(r.tag)}${r.prev_tag ? ` <span class="small">· 전년도 정관 ${esc(r.prev_tag)}</span>` : ""}`],
+      [isSrcDoc(r) ? esc(srcDocTitle(r)) : "사업보고서 첨부 정관", `${dtag(r.tag)}${r.prev_tag ? ` <span class="small">· 전년도 정관 ${esc(r.prev_tag)}</span>` : ""}`],
       ["근거 조·항", e(r.basis_article)], ["정관이 고정한 시점", e(r.fixed_point)],
       ["중간배당 기준일", e(r.interim)], ["분기배당 기준일", e(r.quarterly)],
       ["판단 이유", e(r.note), { wide: true }],
@@ -473,7 +483,7 @@
         const src = im.crop ? href(im.crop) : im.src;
         if (!src) return "";
         return `<figure class="crop"><a href="${esc(im.src || src)}" target="_blank" rel="noopener" title="DART 원본 ${im.page}쪽 전체"><img src="${esc(src)}" data-alt="${esc(im.src || "")}" alt="${esc(`${a.title || ""}, 스캔 ${im.page}쪽`)}" loading="lazy"></a>
-          <figcaption>스캔 ${im.page}쪽${im.how === "lines" ? " · 해당 줄만 잘라 냄" : im.crop ? " · 쪽 전체" : " · DART 원본"} · ${ext(im.src, "DART 원본 쪽")}</figcaption></figure>`;
+          <figcaption>${im.src_page ? `분할계획서 ${im.src_page}쪽` : `스캔 ${im.page}쪽`}${im.how === "lines" ? " · 해당 줄만 잘라 냄" : im.crop ? " · 쪽 전체" : " · DART 원본"} · ${ext(im.src, "DART 원본 쪽")}</figcaption></figure>`;
       }).join("");
       const pdfs = (a.pdf || []).map((p) => ext(p.src ? `${p.src}#page=${p.page}` : "", `PDF ${p.page}쪽${p.scanned ? " (스캔)" : ""}`, "DART PDF")).join(" · ");
       return `<div class="art"><div class="arthead">${esc(a.title || "")}${a.how === "window" ? ' <span class="small">(조 머리를 못 찾아 인용 앞뒤를 잘라 보임)</span>' : ""}${pdfs ? ` <span class="small">${pdfs}</span>` : ""}</div>
@@ -485,7 +495,7 @@
       if (ev.report) h += sec("사업보고서 본문: 배당관련 예측가능성", `<pre class="arttext">${esc(ev.report)}</pre>`, ext(r.report_url, "DART 사업보고서"));
       if (arts) h += sec(r.prev_tag ? "안건 전 정관: 전년도 사업보고서 첨부" : "안건 전 정관: 사업보고서 첨부", arts, "인용 문장은 노란색");
     } else {
-      h += sec(r.basis_kind === "전년도 사업보고서" ? "근거 문구: 전년도 사업보고서 첨부 정관" : isSrcDoc(r) ? `근거 문구: ${esc(r.basis_kind)} 정관` : "근거 문구: 사업보고서 첨부 정관", arts || NA, "조항 단위 · 판별에 쓴 문장은 노란색");
+      h += sec(r.basis_kind === "전년도 사업보고서" ? "근거 문구: 전년도 사업보고서 첨부 정관" : isSrcDoc(r) ? `근거 문구: ${esc(srcDocTitle(r))}` : "근거 문구: 사업보고서 첨부 정관", arts || NA, "조항 단위 · 판별에 쓴 문장은 노란색");
     }
     return { title: r.corp_name, sub: `${r.stock_code || ""} · 결산배당 기준일 ${r.tag_current || ""}`, html: h };
   }
@@ -572,8 +582,6 @@
     for (const r of T[name].rows) r._cg = r.market === "코스피" ? (CG[r.stock_code] != null ? String(CG[r.stock_code]) : "") : CG_NONE;
     if (!T[name].cols.includes("_cg")) T[name].cols.push("_cg");
   }
-  const C_CG = { k: "_cg", t: "확인그룹", c: "c", title: "확인그룹 (코스피 종목별, 사용자 제공 엑셀) · 코스닥 등은 -",
-    v: (r) => (r._cg && r._cg !== CG_NONE ? Number(r._cg) : null), h: (r) => (r._cg ? esc(r._cg) : NA) };
   const F_CG = SEL("cg", "확인그룹", "_cg", { order: ["1", "2", "3", "4", "5", CG_NONE], fmt: (v) => (v === CG_NONE ? "- (코스피 아님)" : `${v}그룹`) });
 
   /* ---------- 탭 ---------- */
@@ -595,7 +603,7 @@
       sort: ["market", 1],
       cols: [
         C_NO, { k: "market", t: "시장", c: "c", h: (r) => mk(r.market), v: (r) => { const i = MKT.indexOf(r.market); return `${i < 0 ? 9 : i}${r.stock_code || ""}`; } },
-        C_CODE, C_NAME, C_CG,
+        C_CODE, C_NAME,
         { k: "settle_month", t: "결산월", c: "c", title: "사업보고서의 결산월 · 지금(KIND 상장법인목록) 결산월과 다르면 빨간 글씨", h: settleCell },
         { k: "tag_current", t: "분류 결과", c: "c", v: (r) => DORD.indexOf(r.tag_current), title: "지금 유효한 태그 · 아래 작은 글씨 = 사업보고서 첨부 정관 태그가 다를 때",
           h: (r) => `${dtag(r.tag_current)}${r.changed ? `<br><span class="small" title="사업보고서 첨부 정관">첨부 ${esc(r.tag || "")} →</span>` : ""}` },
@@ -623,7 +631,7 @@
       cols: [
         C_NO, { k: "market", t: "시장", c: "c", h: (n) => mk(n.market) },
         { k: "kind", t: "분류", c: "nm", v: (n) => (MKT.indexOf(n.market) + 1) * 1e5 + n.order * 1000 },
-        C_CODE, { k: "corp_name", t: "회사명", c: "nm" }, C_CG,
+        C_CODE, { k: "corp_name", t: "회사명", c: "nm" },
         { k: "tag", t: "첨부 정관", c: "c", h: (n) => (n.tag ? dtag(n.tag) : NA) },
         { k: "tag_current", t: "지금", c: "c", h: (n) => (n.tag_current ? dtag(n.tag_current) : NA) },
         { k: "text", t: "내용", c: "wrap" },
@@ -645,8 +653,8 @@
       sort: ["market", 1],
       cols: [
         C_NO, { k: "market", t: "시장", c: "c", h: (r) => mk(r.market), v: (r) => { const i = MKT.indexOf(r.market); return i < 0 ? 9 : i; } },
-        C_CODE, C_NAME, C_CG,
-        { k: "_src", t: "근거문서", c: "c", title: "정관을 찾은 문서: 사업보고서, 사업보고서가 없는 회사는 증권신고서·분할공시(모회사)·기타신고사항·홈페이지", v: (r) => { const i = SRC_ORDER.indexOf(r._src); return i < 0 ? 9 : i; }, h: (r) => srcB(r._src) },
+        C_CODE, C_NAME,
+        { k: "_src", t: "근거문서", c: "c", title: "정관을 찾은 문서: 사업보고서, 사업보고서가 없는 회사는 증권신고서·분할계획서·기타신고사항·홈페이지", v: (r) => { const i = SRC_ORDER.indexOf(r._src); return i < 0 ? 9 : i; }, h: (r) => srcB(r._src) },
         { k: "report_period", t: "결산기", c: "c mono", need: ["report_period", "report_nm"], title: "사업보고서 (결산기) · 정정구분, 근거문서가 사업보고서가 아니면 그 문서 이름",
           h: (r) => (r._abs ? `<span class="small">${e(r.charter_source_nm) || NA}</span>` : `${e(r.report_period) || e(stripTag(r.report_nm)) || NA}${tagB(r.amend_tag ?? tagOf(r.report_nm))}`) },
         { k: "rcept_dt", t: "접수일", c: "c mono", v: (r) => (r._abs ? String(r.charter_source_dt || "").replace(/-/g, "") : r.rcept_dt),
