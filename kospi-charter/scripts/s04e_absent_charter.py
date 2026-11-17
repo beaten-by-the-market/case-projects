@@ -124,6 +124,13 @@ def docx_lines(path: Path) -> list[str]:
                 if cells:
                     out.append(" | ".join(cells))
     return out
+# 합병 상장: 합병 증권신고서의 '정관' 첨부에 합병 당사 회사들의 정관이 한 파일로 묶여 있다 → 상장회사(존속회사) 부분만 쓴다.
+#   스팩 소멸합병(세미티에스 ← 엔에이치기업인수목적29호): 세미티에스가 존속회사, 스팩 정관은 뒤에 붙어 있다. 사용자 지시(2026-11-17)
+#   start·end = 그 부분의 처음·다음 회사 시작 표시(원문 글자 그대로). 분할재상장은 위 MANUAL 의 att_match·pages(분할계획서 쪽)로 한다
+TEXT_PART: dict[str, dict] = {
+    "0017J0": {"start": "[주식회사 세미티에스 정관]", "end": "[엔에이치기업인수목적29호 주식회사 정관]",
+               "part": "존속회사 세미티에스 정관 부분 (합병 상대 스팩 엔에이치기업인수목적29호 정관은 뺌)"},
+}
 A_SRC = ROOT / "data" / "charter_absent_src"        # 정관을 뽑아낸 원문 전체(분할계획서 등) — 정관 폴더와 따로
 
 
@@ -149,6 +156,27 @@ def make_subset(src: dict, pages: list[int], part: str) -> dict:
     meta.update(n_nodes=src.get("n_nodes"), content_type="image", text_chars=0, n_images=len(new_imgs),
                 n_image_errors=0, images=new_imgs, folder=d.relative_to(ROOT).as_posix(), fetched_at=src.get("fetched_at"),
                 subset_of=src["folder"], subset_pages=[a, b], subset_part=part)
+    write_json(d / "meta.json", meta)
+    return meta
+
+
+def make_text_part(src: dict, spec: dict) -> dict:
+    """텍스트 정관 원문(meta)에서 spec start~end 사이만 정관 문서로 만든다 — data/charter_absent/…/{첨부일자}_{dcmNo}_part/.
+    원문 폴더는 그대로 두고(subset_of), 머리 '정 관' 줄과 부분 이름 한 줄을 붙인다."""
+    sd = ROOT / src["folder"]
+    text = (sd / "charter.txt").read_text(encoding="utf-8")
+    i, j = text.find(spec["start"]), text.find(spec["end"])
+    if i < 0 or j <= i:
+        raise SystemExit(f"{src['corp_name']} 정관 부분 표시를 찾지 못함: {spec['start']} ~ {spec['end']}")
+    body = text[i:j].rstrip() + "\n"
+    d = A_CHARTER / sd.parent.name / f"{sd.name}_part"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "charter.txt").write_text(f"{spec['part']} · {src['att_title']}\n" + body, encoding="utf-8")
+    meta = {k: src[k] for k in ("corp_code", "corp_name", "stock_code", "att_title", "att_date", "rcpNo", "dcmNo", "att_url",
+                                "viewer_urls") if k in src}
+    meta.update(n_nodes=src.get("n_nodes"), content_type="text", text_chars=len("".join(body.split())), n_images=0,
+                n_image_errors=0, images=[], folder=d.relative_to(ROOT).as_posix(), fetched_at=src.get("fetched_at"),
+                subset_of=src["folder"], subset_part=spec["part"], subset_chars=[i, j])
     write_json(d / "meta.json", meta)
     return meta
 
@@ -335,16 +363,20 @@ def cmd_fetch(per_min: int):
                 patch(s4, CHARTER=A_CHARTER)
             else:
                 m = s4.fetch_doc(http, img_http, doc)
+                if p["stock_code"] in TEXT_PART:            # 합병 증권신고서 정관 첨부에 묶인 여러 회사 정관 → 존속회사 부분만
+                    m = make_text_part(m, TEXT_PART[p["stock_code"]])
         except RuntimeError as e:
             patch(s4, CHARTER=A_CHARTER)
             p["charter_status"] = "download_failed"
             print(f"  정관 받기 실패 {p['corp_name']}: {e}", flush=True)
             continue
-        key = f"{a['rcpNo']}_{a['dcmNo']}" + (f"_p{src['pages'][0]}-{src['pages'][1]}" if src.get("pages") else "")
+        key = (f"{a['rcpNo']}_{a['dcmNo']}" + (f"_p{src['pages'][0]}-{src['pages'][1]}" if src.get("pages") else "")
+               + ("_part" if p["stock_code"] in TEXT_PART else ""))
         m["used_by_stock_code"] = [p["stock_code"]]
         write_json(ROOT / m["folder"] / "meta.json", m)
         docs[key] = m
-        title = a["title"] + (f" {src['part']} ({src['pages'][0]}~{src['pages'][1]}쪽)" if src.get("pages") else "")
+        title = (a["title"] + (f" {src['part']} ({src['pages'][0]}~{src['pages'][1]}쪽)" if src.get("pages") else "")
+                 + (" (존속회사 정관 부분)" if p["stock_code"] in TEXT_PART else ""))
         p.update(charter_status="ok", doc_key=key, charter_title=title, charter_url=a["url"])
         print(f"  {p['market']} {p['corp_name']} {p['source_doc']} {rno} → {a['title']} · {m['content_type']} img={m['n_images']}",
               flush=True)
