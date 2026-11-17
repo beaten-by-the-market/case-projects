@@ -118,4 +118,5 @@ description: 한국 상장회사 정관(Articles of Incorporation)에서 결산�
   (사업보고서가 합병 전이면 합병 승인 주총의 '정관의 변경') · 투자회사 = KIND 기타신고사항 정관 개정 공지.
 - 보호 PDF(Azure Information Protection)처럼 본문을 읽을 수 없는 정관은 LLM 에 보내지 않고 `확인필요` 로 둔다.
 - 스캔 정관은 글자 인식 결과다. 인용할 때는 `charter_url` 의 원본 이미지와 대조한다.
-- LLM 호출은 비용이 든다(`.env` 의 `ANTHROPIC_API_KEY`). 새 표에 돌리기 전에 pilot 으로 회사당 비용을 확인한다.
+- 2026-11-17부터 Claude API 는 쓰지 않는다(사용자 지시). 판별·스캔 전사는 `pack` → 세션 안 서브에이전트 → `ingest` 로 한다.
+  옛 API 경로(pilot·submit·collect)는 기록으로만 남긴다.
