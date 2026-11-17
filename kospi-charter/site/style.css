@@ -51,8 +51,10 @@ body { margin: 0; background: var(--bg); color: var(--text); font: 13px/1.5 var(
 body.noscroll { overflow: hidden; }
 button, input, select { font-family: var(--font); }
 code { font-size: 11.5px; background: #eef0f6; padding: 0 3px; border-radius: 2px; overflow-wrap: anywhere; }
-.in { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
-.wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+/* 본문 폭: 표가 칸이 많아 큰 모니터에서는 넓게 쓰되, 아주 넓은 화면에서 퍼지지 않게 상한 (글 문단은 아래 --text-w) */
+:root { --page-w: 1680px; --text-w: 1208px; }
+.in { max-width: var(--page-w); margin: 0 auto; padding: 0 16px; }
+.wrap { max-width: var(--page-w); margin: 0 auto; padding: 0 16px; }
 .small { font-size: 12px; color: var(--muted); }
 .mono { font-variant-numeric: tabular-nums; letter-spacing: 0; }
 .na { color: var(--faint); }
@@ -257,7 +259,7 @@ details.pvd > .pvbox { padding: 8px; }
 .footer { margin-top: 56px; background: var(--foot); color: var(--foot-text); font-size: 12px; }
 .footer .in { padding: 24px 16px 28px; }
 .footer h4 { margin: 0 0 6px; font-size: 12px; color: var(--foot-strong); }
-.footer ul { margin: 0 0 14px; padding-left: 18px; }
+.footer ul { margin: 0 0 14px; padding-left: 18px; max-width: var(--text-w); }
 .footer li { margin: 2px 0; }
 .footer code { background: #222; color: #bbb; }
 .footer b { color: #bbb; }
