@@ -388,3 +388,31 @@ p.files { margin: 6px 0 0; }
 /* 근거문서 칸: 사업보고서는 보통 글, 그 밖(증권신고서 등)은 눈에 띄게 */
 .srcd { font-size: 12px; white-space: nowrap; }
 .srcd.alt { padding: 1px 6px; border-radius: 3px; background: #fff1d6; color: var(--ink); font-weight: 700; }
+
+/* ── 상장공시시스템 신고 대조 (배당기준일 탭): 정관과 불일치 = 빨간 바탕 · 미입력 = 회색 바탕 ── */
+.grid.rows tbody tr td.fmis, .grid.rows tbody tr:hover td.fmis, .grid.rows tbody tr.sel td.fmis { background: #fde2df; }
+.grid.rows tbody tr td.fnone, .grid.rows tbody tr:hover td.fnone, .grid.rows tbody tr.sel td.fnone { background: #e9e9ec; }
+
+/* ── 칸 선택 · 끌어서 순서 바꾸기 ── */
+.colpick { position: relative; display: inline-block; }
+.colpick > summary { list-style: none; display: inline-flex; align-items: center; height: 26px; border: 1px solid #cdcdcd; border-radius: 2px; background: #fff; color: #000;
+  font-size: 12px; padding: 0 10px; cursor: pointer; user-select: none; }
+.colpick > summary::-webkit-details-marker { display: none; }
+.colpick > summary::after { content: "\25BE"; margin-left: 5px; font-size: 10px; color: var(--muted); }
+.colpick[open] > summary { border-color: var(--ink); }
+.colpick .cpbox { position: absolute; right: 0; top: calc(100% + 4px); z-index: 30; width: 270px; max-height: 70vh; overflow: auto; background: #fff;
+  border: 1px solid #cdcdcd; box-shadow: 0 6px 18px rgba(0, 0, 0, .16); padding: 10px 12px 12px; }
+.colpick .cpbox p { margin: 0; }
+.cplist { list-style: none; margin: 8px 0 10px; padding: 0; }
+.cplist li { display: flex; align-items: center; gap: 6px; padding: 3px 4px; border-top: 2px solid transparent; border-bottom: 2px solid transparent; cursor: grab; font-size: 12px; }
+.cplist li:hover { background: var(--row-alt); }
+.cplist li label { flex: 1; cursor: pointer; }
+.cplist .grip { color: var(--muted); font-size: 12px; }
+.cplist li.drop-a { border-top-color: var(--cyan); }
+.cplist li.drop-b { border-bottom-color: var(--cyan); }
+.cpbtns { display: flex; gap: 6px; }
+.grid thead th[draggable="true"] { cursor: grab; }
+.grid thead th.sort[draggable="true"] { cursor: pointer; }
+.grid thead th.drop-a { box-shadow: inset 3px 0 0 var(--cyan); }
+.grid thead th.drop-b { box-shadow: inset -3px 0 0 var(--cyan); }
+.grid thead th.dragging, .cplist li.dragging { opacity: .45; }

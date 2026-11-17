@@ -169,6 +169,44 @@ def record_date(code: str, tag: str | None, fixed_point: str | None, month: int 
     return day if tag == "정관yes" else f"{day} 또는 이사회결정"
 
 
+# 상장공시시스템 배당기준일 신고 대조 (사용자 지시 2026-11-17, s02e): 화면 표기 정관 태그 → 신고 값
+#   일치  = 태그가 같고, Y 면 신고 배당기준일이 '결산' 날짜(final_record) 중 하나와 같다('말일'은 그 달 마지막 날).
+#           결산기가 여럿인지 모르는 리츠(settle_months 없음)는 결산기말 고정이면 결산월과 3개월 간격 달의 말일도 같은 것으로 본다.
+#   불일치 = 태그가 다르거나(정관 YorN 은 상장공시시스템에 YorN 이 없어 Y·N 어느 쪽이든 불일치) Y 인데 날짜가 다르다.
+#   미입력 = 신고가 없다. 코스피 밖(엑셀에 없음)은 빈 값.
+TAG_YN = {"정관no": "N", "정관yes": "Y", "정관yesorno": "YorN"}
+FILED_SRC = INTERIM / "s02e_check_group.json"
+_RD = re.compile(r"(\d{1,2})\s*월\s*(\d{1,2}\s*일|말일)")
+
+
+def filed_cmp(x: dict, f: dict | None) -> dict:
+    if not f:
+        return {"filed": None, "filed_date": None, "filed_cmp": None, "filed_why": None}
+    t, v, d = TAG_YN.get(x["tag_current"]), f["filed"], f.get("filed_date") or ""
+    out = {"filed": v, "filed_date": d or None}
+    if v == "미입력":
+        return {**out, "filed_cmp": "미입력", "filed_why": "상장공시시스템에 배당기준일 신고가 없다"}
+    if t != v:
+        why = f"정관 {t or x['tag_current']} · 신고 {v}"
+        if t == "YorN":
+            why += " (상장공시시스템에 YorN 이 없어 Y·N 중 하나로 신고)"
+        return {**out, "filed_cmp": "불일치", "filed_why": why}
+    if v != "Y" or not d:
+        return {**out, "filed_cmp": "일치", "filed_why": None}
+    y, m, dd = (int(s) for s in d.split("-"))
+    last = calendar.monthrange(y, m)[1]
+    fixed = [(int(a), "말일" if b == "말일" else int(b.replace("일", "").strip())) for a, b in _RD.findall(x.get("final_record") or "")]
+    ends = [(a, b) for a, b in fixed if b == "말일" or b == calendar.monthrange(2025, a)[1] or (a == 2 and b in (28, 29))]
+    if any(a == m and (b == dd or (b == "말일" and dd == last)) for a, b in fixed):
+        return {**out, "filed_cmp": "일치", "filed_why": None}
+    if not fixed:
+        return {**out, "filed_cmp": "일치", "filed_why": f"정관 날짜를 못 읽어 기준일은 대조하지 않음 ({x.get('final_record') or ''})"}
+    if (x.get("sec_group") == "부동산투자회사" and not x.get("settle_months") and ends and len(ends) == len(fixed) and dd == last
+            and any((m - a) % 3 == 0 for a, _ in ends)):
+        return {**out, "filed_cmp": "일치", "filed_why": f"리츠: 결산기가 여럿인 것으로 봄 (신고 {d} · 정관 {x['final_record']})"}
+    return {**out, "filed_cmp": "불일치", "filed_why": f"신고 기준일 {d} · 정관 {x['final_record']}"}
+
+
 SRC_KINDS = ("증권신고서", "분할계획서", "기타신고사항", "홈페이지")     # 사업보고서가 없어 정관을 찾은 문서 (absent_charter)
 CHARTER_OF = {"": "kospi_charter.json", "kosdaq": "kosdaq_charter.json", "absent": "absent_charter.json"}
 ABSENT_OF = {"": "kospi_absent.json", "kosdaq": "kosdaq_absent.json"}
@@ -462,6 +500,8 @@ def stats_of(out_rows: list[dict], rows: list[dict], klca: bool) -> dict:
                      Counter((x["tag_current"], 12 if x["settle_month"] == 12 else 0) for x in out_rows).items()],
         "x_route": ct("tag", "route", [dict(x, tag=r["tag"]) for x, r in zip(out_rows, rows)]),
         "x_ctype": ct("tag_current", "charter_content_type"),
+        "x_filed": ct("tag_current", "filed", [x for x in out_rows if x.get("filed")]),       # 정관 × 상장공시시스템 신고 (코스피)
+        "filed_cmp": Counter(x["filed_cmp"] for x in out_rows if x.get("filed_cmp")),
         "amend_year_no": sorted(amend_year.items()),
         "no_but_q_fixed": [x["stock_code"] for x in out_rows if x["tag_current"] == "정관no" and x["quarterly"] == "고정"],
         "no_but_i_fixed": [x["stock_code"] for x in out_rows if x["tag_current"] == "정관no" and x["interim"] == "고정"],
@@ -490,6 +530,9 @@ def main():
     for x in out_rows:
         for c in ("note", "attached_note", "reviewed_why", "agm_note"):
             x[c] = ocr_word(x[c])
+    fm = (_opt(FILED_SRC, {}) or {}).get("filed") or {}          # 상장공시시스템 신고 (s02e, 코스피만)
+    for x in out_rows:
+        x.update(filed_cmp(x, fm.get(x["stock_code"]) if x["market"] == "코스피" else None))
     stats = stats_of(out_rows, rows, klca=True)
     # 시장별 — 묶음이 아니라 행의 시장으로 (absent 묶음은 두 시장에 걸친다)
     mk_names = [m for m in ("코스피", "코스닥") if any(x["market"] == m for x in out_rows)]

@@ -1,11 +1,18 @@
-"""s02e 확인그룹 — 사용자가 준 '유가증권시장_확인자그룹.xlsx' 의 종목별 확인자그룹 번호
+"""s02e 확인그룹 · 상장공시시스템 배당기준일 신고 — 사용자가 준 코스피 종목별 엑셀
 
-사용자 지시(2026-11-17): 확인그룹 칼럼을 웹페이지 각 탭에 넣는다. 코스닥(과 그 밖의 시장)은 비어 있으므로 '-'.
-엑셀에는 확인자 이름도 있으나 웹페이지는 공개라 **그룹 번호만** 옮긴다(이름은 읽지도 쓰지도 않는다). 엑셀 파일은 커밋하지 않는다.
+사용자 지시(2026-11-17): 확인그룹을 웹페이지 필터로 둔다(코스닥 등은 '-').
+사용자 지시(2026-11-17, v2): 회사가 상장공시시스템에 신고한 배당기준일(엑셀 I열 '신고' · J열 '배당기준일')을 배당기준일 탭에 정관 태그와
+나란히 보여 불일치를 바로 찾게 한다. 엑셀은 확인자 이름(K~N열)만 빼고 공개해도 된다 → 이름을 뺀 사본
+`source/유가증권시장_확인그룹v2_이름제외.xlsx` 를 커밋하고, 이 스크립트는 그 사본을 읽는다(이름 열은 사본에 없다).
 
-입력  엑셀 경로 (기본 C:/Users/Peter/Downloads/유가증권시장_확인자그룹.xlsx, --src 로 바꿈) — 열 '종목코드' · '확인자그룹'
-출력  data/interim/s02e_check_group.json  {source, sha256, n, groups: {그룹: 회사 수}, check_group: {종목코드: 그룹(정수)}}
-      → s08 이 data.js 의 check_group 으로 넣는다
+입력  source/유가증권시장_확인그룹v2_이름제외.xlsx (--src 로 바꿈) — 열 '종목코드' · '확인자그룹' · '배당기준일 조건' · '신고' · '배당기준일'
+출력  data/interim/s02e_check_group.json
+      {source, sha256, n, groups: {그룹: 회사 수}, check_group: {종목코드: 그룹(정수)},
+       filed_n: {신고값: 회사 수}, filed: {종목코드: {filed: Y|N|YorN|미입력, filed_date: YYYY-MM-DD|"", filed_cond: H열}}}
+      → s08 이 data.js 의 check_group 으로, s10 이 dividend.js 배당기준일 표의 filed* 열로 넣는다
+
+신고 값: 엑셀 I열 그대로(Y · N · 미입력). 상장공시시스템에 아직 없는 'Y/N'(택일)이 나중에 들어오면 화면 표기와 같은 YorN 으로 읽는다.
+배당기준일(J열)은 '-'·빈칸이면 빈 값.
 
     python -X utf8 scripts/s02e_check_group.py [--src 경로]
 """
@@ -13,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -20,10 +28,11 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _common import INTERIM, read_json, write_json  # noqa: E402
+from _common import INTERIM, ROOT, read_json, write_json  # noqa: E402
 
-DEFAULT = Path(r"C:/Users/Peter/Downloads/유가증권시장_확인자그룹.xlsx")
+DEFAULT = ROOT / "source" / "유가증권시장_확인그룹v2_이름제외.xlsx"
 OUT = INTERIM / "s02e_check_group.json"
+FILED = {"Y": "Y", "N": "N", "Y/N": "YorN", "YORN": "YorN", "미입력": "미입력", "": "미입력"}   # 키는 대문자·공백 없앤 값
 
 
 def main() -> dict:
@@ -31,17 +40,28 @@ def main() -> dict:
     ap.add_argument("--src", default=str(DEFAULT))
     a, _ = ap.parse_known_args()
     src = Path(a.src)
-    df = pd.read_excel(src, dtype=str, usecols=["종목코드", "확인자그룹"])
-    groups = {}
-    for code, g in zip(df["종목코드"], df["확인자그룹"]):
-        code, g = str(code).strip().zfill(6), str(g).strip()
-        if code and g and g.lower() != "nan":
+    df = pd.read_excel(src, dtype=str, usecols=["종목코드", "확인자그룹", "배당기준일 조건", "신고", "배당기준일"]).fillna("")
+    groups, filed = {}, {}
+    for _, r in df.iterrows():
+        code = str(r["종목코드"]).strip().zfill(6)
+        if not code.strip("0"):
+            continue
+        g = str(r["확인자그룹"]).strip()
+        if g:
             groups[code] = int(float(g))
+        raw = str(r["신고"]).strip()
+        f = FILED.get(raw.upper().replace(" ", ""))
+        if f is None:
+            raise SystemExit(f"s02e: 알 수 없는 신고 값 {raw!r} ({code})")
+        d = str(r["배당기준일"]).strip()
+        d = d[:10] if re.fullmatch(r"\d{4}-\d{2}-\d{2}.*", d) else ""
+        filed[code] = {"filed": f, "filed_date": d, "filed_cond": str(r["배당기준일 조건"]).strip()}
     out = {"source": src.name, "sha256": hashlib.sha256(src.read_bytes()).hexdigest(), "n": len(groups),
-           "groups": {str(k): v for k, v in sorted(Counter(groups.values()).items())}, "check_group": dict(sorted(groups.items()))}
+           "groups": {str(k): v for k, v in sorted(Counter(groups.values()).items())}, "check_group": dict(sorted(groups.items())),
+           "filed_n": dict(Counter(x["filed"] for x in filed.values()).most_common()), "filed": dict(sorted(filed.items()))}
     if (read_json(OUT) if OUT.exists() else None) != out:
         write_json(OUT, out)
-    print(f"s02e 확인그룹 {out['n']}사 {out['groups']} → {OUT.name}")
+    print(f"s02e 확인그룹 {out['n']}사 {out['groups']} · 신고 {out['filed_n']} → {OUT.name}")
     return out
 
 

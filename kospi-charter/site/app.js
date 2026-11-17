@@ -68,6 +68,13 @@
       rows: t.rows.map((r) => { const o = {}; for (let i = 0; i < cols.length; i++) o[cols[i]] = r[i]; return o; }) };
   }
   const rowsOf = (n) => (T[n] ? T[n].rows : []);
+  // 정관 태그 화면 표기 (사용자 지시 2026-11-17): 정관no → N · 정관yes → Y · 정관yesorno → YorN. 데이터 값은 그대로 두고 화면·CSV 만 바꾼다.
+  // 판단 이유 같은 글 속 낱말은 '정관 N' 처럼 (어느 칸의 값인지 보이게)
+  const TAG_YN = { 정관no: "N", 정관yes: "Y", 정관yesorno: "YorN" };
+  const TL = (t) => TAG_YN[t] || t || "";
+  const tagWords = (x) => (typeof x === "string" ? x.replace(/정관(yesorno|yes|no)/g, (w) => `정관 ${TAG_YN[w]}`) : x);
+  for (const [name, keys] of [["dividend", ["note", "attached_note", "reviewed_why", "agm_note", "basis_note"]], ["dividend_notes", ["text", "kind"]]])
+    for (const r of rowsOf(name)) for (const k of keys) r[k] = tagWords(r[k]);
   const has = (n, col) => !!T[n] && T[n].cols.includes(col);
   const M = D.manifest || {};
   /* 정관을 모은 시장, 시장마다 정관·소집공고·정관 문서·빠진 회사 표와 manifest (코스닥 = kosdaq_* 표 · data.js 의 manifest_kosdaq).
@@ -106,6 +113,8 @@
   const charterBase = (r) => r.charter_dir || String(r.charter_img_dir || "").replace(/\/img\/?$/, "") || String(r.charter_txt || "").replace(/\/[^/]*$/, "");
   const xmlPath = (n) => (!n.main_xml ? "" : String(n.main_xml).includes("/") || !n.folder ? n.main_xml : `${n.folder}/${n.main_xml}`);
   const coll = new Intl.Collator("ko", { numeric: true });
+  // 종목코드는 글자 순서 그대로 (= 표준코드 순). 숫자 인식 정렬은 '0030R0' 을 30 으로 읽어 000020 과 000040 사이에 넣는다
+  const cmpRaw = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
 
   /* 정관 본문 파일 하나: 스캔 쪽은 Opus OCR, PDF 는 글자층(스캔 쪽은 Opus), 그 밖은 charter.txt.
      Windows OCR 결과(charter_ocr.txt)는 데이터 폴더에만 두고 화면에는 걸지 않는다 (사용자 결정 2026-11-16). */
@@ -147,7 +156,7 @@
         r._agm = agmOf(k);
         return r;
       }).concat(AC.map((a) => ({ ...a, _abs: true, _src: a.charter_source_doc || "그 밖", _chr: chrOf(a), _agm: agmOf(a) })))
-        .sort((x, y) => coll.compare(String(x.stock_code || "~"), String(y.stock_code || "~")) || coll.compare(String(x.rcept_no || x.charter_source_rcept_no || ""), String(y.rcept_no || y.charter_source_rcept_no || "")));
+        .sort((x, y) => cmpRaw(String(x.stock_code || "~"), String(y.stock_code || "~")) || coll.compare(String(x.rcept_no || x.charter_source_rcept_no || ""), String(y.rcept_no || y.charter_source_rcept_no || "")));
       T.reports = { cols: [...new Set([...src.cols, ...MARKETS.flatMap((x) => T[x.charter].cols), ...(T.absent_charter ? T.absent_charter.cols : []), "_src", "_chr", "_agm"])], rows,
         file: T.annual_reports ? ["annual_reports", ...MARKETS.map((x) => x.charter), ...(AC.length ? ["absent_charter"] : [])].join(" + ") : src.file, updated: src.updated };
     }
@@ -194,7 +203,7 @@
 
   /* ---------- 열 정의 ---------- */
   const C_NO = { t: "No", c: "c no", no: true, need: [] };
-  const C_CODE = { k: "stock_code", t: "종목코드", c: "c mono" };
+  const C_CODE = { k: "stock_code", t: "종목코드", c: "c mono", raw: true };
   const C_NAME = { k: "corp_name", t: "회사명", c: "nm stick" };
   const C_RNM = { k: "report_nm", t: "보고서명", h: (r) => `${esc(stripTag(r.report_nm))}${tagB(r.amend_tag ?? tagOf(r.report_nm))}` };
   const C_DT = (k, t) => ({ k, t, c: "c mono", h: (r) => (r[k] ? ymd(r[k]) : NA) });
@@ -325,7 +334,15 @@
   const DTAG_TIP = { 정관no: "이사회로 정하는 때: 정관이 결산배당 기준일을 날짜로 고정하지 않는다",
     정관yes: "정관상 결산일: 결산기말(또는 정관이 박아 둔 날) 현재 주주", 정관yesorno: "정관상 결산일 원칙, 단 이사회로 정하는 때에도 할 수 있다",
     확인필요: "원문 없음·결손" };
-  const dtag = (t) => (t ? `<span class="dtag ${DTAG[t] || "chk"}" title="${esc(DTAG_TIP[t] || "")}"><i></i>${esc(t)}</span>` : NA);
+  const dtag = (t) => (t ? `<span class="dtag ${DTAG[t] || "chk"}" title="${esc(TAG_YN[t] ? `${TL(t)}: ${DTAG_TIP[t]}` : DTAG_TIP[t] || "")}"><i></i>${esc(TL(t))}</span>` : NA);
+  const DORD_OPT = { 정관no: "N (이사회가 정함)", 정관yesorno: "YorN (결산일, 이사회도 가능)", 정관yes: "Y (결산일 고정)" };
+  // 상장공시시스템 신고 (s02e 엑셀 → s10 filed*, 코스피만): 정관 태그와 같은 색. 정관과 불일치면 칸 바탕 빨강, 미입력은 회색
+  const FORD = ["Y", "N", "YorN", "미입력"];
+  const FTAG = { N: "no", Y: "yes", YorN: "yesorno", 미입력: "chk" };
+  const FTIP = { N: "신고 N: 이사회 결의로 정한 날", Y: "신고 Y: 특정일", YorN: "신고 YorN: 특정일 또는 이사회 결의로 정한 날", 미입력: "상장공시시스템에 배당기준일 신고가 없다" };
+  const ftag = (v) => (v ? `<span class="dtag ${FTAG[v] || "chk"}" title="${esc(FTIP[v] || "")}"><i></i>${esc(v)}</span>` : NA);
+  const FCMP_TD = { 불일치: "fmis", 미입력: "fnone" };
+  const fcmpB = (r) => (r.filed_cmp === "불일치" ? `<b class="bad">불일치</b>` : r.filed_cmp === "미입력" ? '<span class="small">미입력</span>' : r.filed_cmp ? '<span class="ok small">일치</span>' : "");
   const BKC = { 사업보고서: "rep", "전년도 사업보고서": "prev", 주총소집공고: "agm", "주총소집공고+사업보고서 본문": "agm", "사업보고서 본문": "rep" };
   const bkB = (k) => (k ? `<span class="bk ${BKC[k] || ""}">${esc(k)}</span>` : NA);
   const reRx = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -453,14 +470,16 @@
       ["회사명", `<b>${e(r.corp_name)}</b>`], ["종목코드", mono(r.stock_code)],
       ["결산월", settleCell(r)], ["증권구분", e(r.sec_group)],
       ["결산배당 기준일", e(r.final_record)], ["지금 결산월 (KIND)", r.settle_month_now ? `${esc(r.settle_month_now)}월` : ""],
-      ["분류 결과 (지금)", dtag(r.tag_current), { hl: r.changed }],
-      [isSrcDoc(r) ? esc(srcDocTitle(r)) : "사업보고서 첨부 정관", `${dtag(r.tag)}${r.prev_tag ? ` <span class="small">· 전년도 정관 ${esc(r.prev_tag)}</span>` : ""}`],
+      ["정관 태그 (지금)", dtag(r.tag_current), { hl: r.changed }],
+      [isSrcDoc(r) ? esc(srcDocTitle(r)) : "사업보고서 첨부 정관", `${dtag(r.tag)}${r.prev_tag ? ` <span class="small">· 전년도 정관 ${esc(TL(r.prev_tag))}</span>` : ""}`],
+      r.filed ? ["상장공시시스템 신고", `${ftag(r.filed)}${r.filed_date ? ` ${mono(r.filed_date)}` : ""} ${fcmpB(r)}${r.filed_why ? `<br><span class="small">${esc(r.filed_why)}</span>` : ""}`,
+        { wide: true, hl: r.filed_cmp === "불일치" }] : null,
       ["근거 조·항", e(r.basis_article)], ["정관이 고정한 시점", e(r.fixed_point)],
       ["중간배당 기준일", e(r.interim)], ["분기배당 기준일", e(r.quarterly)],
       ["판단 이유", e(r.note), { wide: true }],
       r.attached_note ? ["첨부 정관 판단", `<span class="small">${e(r.attached_note)}</span>`, { wide: true }] : null,
       r.basis_note ? ["근거 메모", e(r.basis_note), { wide: true, hl: true }] : null,
-      r.reviewed_why ? ["사람 검토", `${e(r.reviewed_why)}${r.llm_tag !== r.tag ? ` <span class="small">(LLM ${esc(r.llm_tag)})</span>` : ""}`, { wide: true }] : null,
+      r.reviewed_why ? ["사람 검토", `${e(r.reviewed_why)}${r.llm_tag !== r.tag ? ` <span class="small">(LLM ${esc(TL(r.llm_tag))})</span>` : ""}`, { wide: true }] : null,
     ]));
     h += sec("분류 근거의 종류", kv([
       ["종류", bkB(r.basis_kind), { wide: true }],
@@ -497,7 +516,7 @@
     } else {
       h += sec(r.basis_kind === "전년도 사업보고서" ? "근거 문구: 전년도 사업보고서 첨부 정관" : isSrcDoc(r) ? `근거 문구: ${esc(srcDocTitle(r))}` : "근거 문구: 사업보고서 첨부 정관", arts || NA, "조항 단위 · 판별에 쓴 문장은 노란색");
     }
-    return { title: r.corp_name, sub: `${r.stock_code || ""} · 결산배당 기준일 ${r.tag_current || ""}`, html: h };
+    return { title: r.corp_name, sub: `${r.stock_code || ""} · 결산배당 기준일 ${TL(r.tag_current)}${r.filed ? ` · 신고 ${r.filed}${r.filed_cmp === "불일치" ? " (불일치)" : ""}` : ""}`, html: h };
   }
 
   // 시장 고르기, 라디오 + CSS(:checked ~) 로만 바꾼다 (custom 탭은 필터 줄이 없다)
@@ -523,11 +542,11 @@
       const tot = present.reduce((a, t) => a + (c[t] || 0), 0);
       const on = present.filter((t) => c[t]);
       return `<div class="sbrow"><div class="sbl">${label}<span class="small">${sub}</span></div><div>
-        <div class="sb" role="img" aria-label="${esc(`${label}: ${present.map((t) => `${t} ${c[t] || 0}사`).join(", ")}`)}">${
-          on.map((t) => `<span class="seg ${DTAG[t]}" style="flex:${c[t]}" title="${esc(`${label} · ${t} ${fmtN(c[t])}사 (${pct(c[t], tot)}%)`)}"></span>`).join("")}</div>
+        <div class="sb" role="img" aria-label="${esc(`${label}: ${present.map((t) => `${TL(t)} ${c[t] || 0}사`).join(", ")}`)}">${
+          on.map((t) => `<span class="seg ${DTAG[t]}" style="flex:${c[t]}" title="${esc(`${label} · ${TL(t)} ${fmtN(c[t])}사 (${pct(c[t], tot)}%)`)}"></span>`).join("")}</div>
         <div class="sbv">${on.map((t) => `<span style="flex:${c[t]}">${c[t] / tot >= 0.05 ? `<b>${fmtN(c[t])}</b> <span class="small">${pct(c[t], tot)}%</span>` : ""}</span>`).join("")}</div></div></div>`;
     };
-    const legend = `<div class="lgd">${present.map((t) => `<span><i class="sw ${DTAG[t]}"></i>${esc(t)}</span>`).join("")}<span class="small">막대 아래 숫자 = 회사 수와 비율 · 막대에 마우스를 올리면 태그별 값</span></div>`;
+    const legend = `<div class="lgd">${present.map((t) => `<span><i class="sw ${DTAG[t]}"></i>${esc(TL(t))}</span>`).join("")}<span class="small">막대 아래 숫자 = 회사 수와 비율 · 막대에 마우스를 올리면 태그별 값</span></div>`;
     const xt = (title, data, opt = {}) => {
       const rowsK = opt.rows || [...new Set(data.map((d) => String(d[1] ?? "")))];
       const cols = DORD.filter((t) => data.some((d) => d[0] === t && d[2]));
@@ -557,16 +576,19 @@
       <div class="sbars">${bar(esc(who), s.tag_current, `${fmtN(s.n)}사`)}</div>
       <div class="xtgrid">
       ${xt("결산배당 × 분기배당 기준일", s.x_quarterly, { rows: SUBO, hi: ["정관no", "고정"], hiTip: "결산배당은 이사회가 정하는데 분기배당은 3·6·9월 말 등으로 고정",
-        note: `<b class="hl">결산배당은 정관no 인데 분기배당 기준일은 고정(대개 3·6·9월 말)인 회사가 ${fmtN(qn)}사</b>다 (<a href="#div" data-go="div:qfix${esc(mq)}">배당기준일 탭에서 보기</a>). 결산배당 표준정관은 2023.2.8 에 바뀌었지만,
+        note: `<b class="hl">결산배당은 정관 N 인데 분기배당 기준일은 고정(대개 3·6·9월 말)인 회사가 ${fmtN(qn)}사</b>다 (<a href="#div" data-go="div:qfix${esc(mq)}">배당기준일 탭에서 보기</a>). 결산배당 표준정관은 2023.2.8 에 바뀌었지만,
           분기배당은 자본시장법 제165조의12 가 2025.1.21 에야 기준일을 풀었고 표준정관 분기배당 조는 2025.1.24 에 바뀌어 정비가 늦다. '없음'은 발췌에 분기배당 조가 보이지 않음.` })}
       ${xt("결산배당 × 중간배당 기준일", s.x_interim, { rows: SUBO, hi: ["정관no", "고정"], hiTip: "결산배당은 이사회가 정하는데 중간배당은 6월 30일 등으로 고정",
-        note: `결산배당 정관no 이면서 중간배당 기준일을 고정(대개 6월 30일)한 회사 ${fmtN(inn)}사. 중간배당(상법 제462조의3)은 법문이 원래 '이사회 결의로 일정한 날'이다.` })}
-      ${xt("증권구분 × 결산배당", s.x_sec_group, { note: "리츠(부동산투자회사)는 결산기가 6개월·3개월인 곳이 많아도 '매 결산기말 현재'면 정관yes." })}
+        note: `결산배당 정관 N 이면서 중간배당 기준일을 고정(대개 6월 30일)한 회사 ${fmtN(inn)}사. 중간배당(상법 제462조의3)은 법문이 원래 '이사회 결의로 일정한 날'이다.` })}
+      ${xt("증권구분 × 결산배당", s.x_sec_group, { note: "리츠(부동산투자회사)는 결산기가 6개월·3개월인 곳이 많아도 '매 결산기말 현재'면 정관 Y." })}
       ${xt("결산월 × 결산배당", s.x_settle, { rows: ["12월", "12월 아님"] })}
       ${xt("근거가 온 자리 × 첨부 정관 태그", s.x_route, { rows: ["배당조항", "배당조항→기준일조항 참조", "기준일조항(배당 명시)", "기준일조항(배당 명시 없음)", "없음"],
-        note: "참조형('제1항의 배당은 제13조 제1항에서 정한 날 현재…')은 2021~2023 표준정관 판이다. 참조된 조가 '이사회의 결의로 정한 날'뿐이면 정관no(HD현대 계열 등)." })}
+        note: "참조형('제1항의 배당은 제13조 제1항에서 정한 날 현재…')은 2021~2023 표준정관 판이다. 참조된 조가 '이사회의 결의로 정한 날'뿐이면 정관 N(HD현대 계열 등)." })}
       ${xt("정관 원문 종류 × 결산배당", s.x_ctype, { fmt: (v) => CT[v] || v })}
-      <div class="xtbox"><h4 class="sec">정관no 근거 조항의 개정 표시 연도</h4><div class="grid static"><table class="xt"><thead><tr><th></th><th>회사 수</th></tr></thead><tbody>${ay}</tbody></table></div>
+      ${(s.x_filed || []).length ? xt("상장공시시스템 신고 × 정관 (코스피)", s.x_filed, { rows: FORD.filter((v) => s.x_filed.some((d) => d[1] === v)), fmt: (v) => `신고 ${v}`,
+        note: `정관 N 은 신고 N, 정관 Y 는 신고 Y 면 맞다(신고 Y 는 신고 기준일도 정관 날짜와 대조). 정관 YorN 은 상장공시시스템에 YorN 이 없어 어느 쪽으로 신고했든 불일치로 센다.
+          <b class="hl">불일치 ${fmtN((s.filed_cmp || {}).불일치 || 0)}사 · 미입력 ${fmtN((s.filed_cmp || {}).미입력 || 0)}사</b> (<a href="#div" data-go="div:fcmp=@diff${esc(mq)}">배당기준일 탭에서 보기</a>).` }) : ""}
+      <div class="xtbox"><h4 class="sec">정관 N 근거 조항의 개정 표시 연도</h4><div class="grid static"><table class="xt"><thead><tr><th></th><th>회사 수</th></tr></thead><tbody>${ay}</tbody></table></div>
         <p class="small">근거 조항에 '&lt;개정 2024.3.22&gt;' 같은 표시가 붙은 경우만 연도가 있다. 표시 없는 정관이 많아 개정 시기 분포로 읽지 않는다.</p></div>
       <div class="xtbox"><h4 class="sec">분류 근거의 종류</h4><div class="grid static"><table class="xt"><thead><tr><th></th><th>회사 수</th></tr></thead><tbody>${bk}</tbody></table></div></div>
       </div>
@@ -589,30 +611,42 @@
     {
       id: "div", label: "배당기준일", table: "dividend", title: "배당기준일 (정관의 결산배당 기준일)",
       tip: `정관 (${AOI}) 의 결산배당을 받을 주주를 정하는 기준일 조항 분류`,
-      desc: `${esc(Object.keys(DVS.markets || { 코스피: 1 }).join("·"))} 회사마다 정관(${AOI})에서 결산배당을 받을 주주를 정하는 기준일 조항을 읽어 분류했다. 정관no = 이사회로 정하는 때 · 정관yes = 정관상 결산일(정관이 박은 날) · 정관yesorno = 정관상 결산일, 단 이사회로 정하는 때에도 할 수 있음. ` +
+      desc: `${esc(Object.keys(DVS.markets || { 코스피: 1 }).join("·"))} 회사마다 정관(${AOI})에서 결산배당을 받을 주주를 정하는 기준일 조항을 읽어 분류했다. '정관' 칸: N = 이사회로 정하는 때 · Y = 정관상 결산일(정관이 박은 날) · YorN = 정관상 결산일, 단 이사회로 정하는 때에도 할 수 있음. ` +
+        "코스피는 회사가 상장공시시스템에 신고한 배당기준일('신고' · '신고 기준일')을 나란히 두었다. 정관과 다르면 빨간 바탕, 미입력은 회색 바탕이고 '신고 대조' 필터로 골라 본다. " +
         "근거는 사업보고서 첨부 정관이고, 제출 뒤 주주총회에서 기준일 조항을 바꾼 회사는 그 소집공고와 KIND 주주총회결과(가결)로, 첨부 정관을 읽을 수 없던 회사는 전년도 정관·소집공고로 정했다. 근거 문구는 조항 단위이고 스캔 정관은 그 쪽의 해당 부분을 잘라 보인다. " +
         "판별은 코스피는 Claude API(Opus 5.5), 코스닥은 같은 지침·발췌로 Claude Code 서브에이전트(Opus 5.5)가 했다. 행을 누르면 조항 전문과 근거 링크가 열린다.",
       filters: [
-        [Q("회사명·종목코드"), SEL("market", "시장", "market", { order: MKT }), SEL("tag_current", "분류 결과", "tag_current", { order: DORD }), SEL("basis_kind", "근거 종류", "basis_kind", { order: Object.keys(BKC) })],
+        [Q("회사명·종목코드"), SEL("market", "시장", "market", { order: MKT }), SEL("tag_current", "정관", "tag_current", { order: DORD, fmt: (v) => DORD_OPT[v] || v }),
+          SEL("filed", "신고", "filed", { order: FORD, empty: "- (코스피 아님)" }),
+          SEL("fcmp", "신고 대조", "filed_cmp", { order: ["일치", "불일치", "미입력"], empty: "- (코스피 아님)",
+            extra: [{ v: "@diff", label: "불일치 + 미입력", test: (r) => r.filed_cmp === "불일치" || r.filed_cmp === "미입력" }] })],
         [F_MONTH, SEL("quarterly", "분기배당", "quarterly", { order: ["고정", "이사회결정", "혼합", "없음", "확인필요"] }),
           SEL("interim", "중간배당", "interim", { order: ["고정", "이사회결정", "혼합", "없음", "확인필요"] }), F_CG],
-        [SEL("sec_group", "증권구분", "sec_group"),
+        [SEL("basis_kind", "근거 종류", "basis_kind", { order: Object.keys(BKC) }), SEL("sec_group", "증권구분", "sec_group"),
           CHK("changed", "첨부 정관 대비", "지금 태그가 다른 회사", (r) => !!r.changed, ["changed"], "제출 뒤 주총에서 바뀌었거나 대체 자료로 정한 회사"),
-          CHK("qfix", "분기배당", "결산 정관no · 분기 고정", (r) => r.tag_current === "정관no" && r.quarterly === "고정", ["quarterly"], "결산배당은 이사회가 정하는데 분기배당은 고정")],
+          CHK("qfix", "분기배당", "결산 N · 분기 고정", (r) => r.tag_current === "정관no" && r.quarterly === "고정", ["quarterly"], "결산배당은 이사회가 정하는데 분기배당은 고정")],
       ],
       sort: ["market", 1],
       cols: [
-        C_NO, { k: "market", t: "시장", c: "c", h: (r) => mk(r.market), v: (r) => { const i = MKT.indexOf(r.market); return `${i < 0 ? 9 : i}${r.stock_code || ""}`; } },
+        C_NO, { k: "market", t: "시장", c: "c", raw: true, h: (r) => mk(r.market), v: (r) => { const i = MKT.indexOf(r.market); return `${i < 0 ? 9 : i}${r.stock_code || ""}`; } },
         C_CODE, C_NAME,
         { k: "settle_month", t: "결산월", c: "c", title: "사업보고서의 결산월 · 지금(KIND 상장법인목록) 결산월과 다르면 빨간 글씨", h: settleCell },
-        { k: "tag_current", t: "분류 결과", c: "c", v: (r) => DORD.indexOf(r.tag_current), title: "지금 유효한 태그 · 아래 작은 글씨 = 사업보고서 첨부 정관 태그가 다를 때",
-          h: (r) => `${dtag(r.tag_current)}${r.changed ? `<br><span class="small" title="사업보고서 첨부 정관">첨부 ${esc(r.tag || "")} →</span>` : ""}` },
+        { k: "tag_current", t: "정관", c: "c", v: (r) => DORD.indexOf(r.tag_current),
+          title: "정관의 결산배당 기준일 태그 (지금 유효) · N = 이사회가 정함 · Y = 정관상 결산일 고정 · YorN = 결산일 원칙, 이사회도 정할 수 있음 · 아래 작은 글씨 = 사업보고서 첨부 정관 태그가 다를 때",
+          h: (r) => `${dtag(r.tag_current)}${r.changed ? `<br><span class="small" title="사업보고서 첨부 정관">첨부 ${esc(TL(r.tag))} →</span>` : ""}` },
+        { k: "filed", t: "신고", c: "c", td: (r) => FCMP_TD[r.filed_cmp] || "",
+          v: (r) => (r.filed ? `${["불일치", "미입력", "일치"].indexOf(r.filed_cmp)}${FORD.indexOf(r.filed)}` : null),
+          title: "회사가 상장공시시스템에 신고한 배당기준일 조건 (Y = 특정일 · N = 이사회 결의로 정한 날) · 빨간 바탕 = 정관과 불일치 · 회색 바탕 = 미입력 · 코스피만",
+          h: (r) => (!r.filed ? NA : `${ftag(r.filed)}${r.filed_cmp === "불일치" ? `<br><span class="bad small" title="${esc(r.filed_why || "")}">불일치</span>`
+            : r.filed_cmp === "일치" && r.filed_why ? `<br><span class="small na" title="${esc(r.filed_why)}">참고</span>` : ""}`) },
+        { k: "filed_date", t: "신고 기준일", c: "c mono", td: (r) => (r.filed_cmp === "불일치" && /^신고 기준일/.test(r.filed_why || "") ? "fmis" : ""),
+          title: "상장공시시스템에 신고한 배당기준일 (신고 Y 만) · 빨간 바탕 = 정관 날짜와 다름", h: (r) => (r.filed_date ? esc(r.filed_date) : NA) },
         { t: "근거 문구 (조항)", c: "ev", need: ["ev"], title: "분류 근거가 된 조항 · 스캔 정관은 그 쪽의 해당 부분 그림 · 소집공고면 '정관의 변경' 대비표의 변경 후 문구. 행을 누르면 전문", h: evSnippet },
         { k: "ev_url", t: "해당 문구 URL", c: "c", title: "스캔 = 그 쪽 DART 원본 그림 · PDF = DART PDF 쪽 · 텍스트 = DART 정관 원문 · 소집공고 = DART 공고",
           h: (r) => ext(r.ev_url, esc((r.ev_label || "열기").replace(/ \(DART.*\)$/, "")), r.ev_label) },
         { k: "basis_kind", t: "근거 종류 · 문서", title: "분류 근거의 종류와 근거 문서 URL (소집공고면 KIND 결과공시도)", v: (r) => r.basis_kind,
           h: (r) => `${bkB(r.basis_kind)}<br><span class="small">${basisLinks(r, true)}</span>` },
-        { k: "final_record", t: "결산", c: "c", title: "결산배당 기준일: 정관no = 이사회결정, 정관yes = 정관이 고정한 날(결산기말이면 결산월 말일), 정관yesorno = 그 날 또는 이사회결정",
+        { k: "final_record", t: "결산", c: "c", title: "결산배당 기준일: N = 이사회결정, Y = 정관이 고정한 날(결산기말이면 결산월 말일), YorN = 그 날 또는 이사회결정",
           h: (r) => (!r.final_record ? NA : esc(r.final_record).replace(/ 또는 이사회결정$/, '<br><span class="small">또는 이사회결정</span>')) },
         { k: "quarterly", t: "분기", c: "c", title: "분기배당 기준일 (고정·이사회결정·혼합·없음)", h: (r) => (r.quarterly === "고정" && r.tag_current === "정관no" ? `<b class="hl">${esc(r.quarterly)}</b>` : e(r.quarterly) || NA) },
         { k: "interim", t: "중간", c: "c", title: "중간배당 기준일" },
@@ -733,9 +767,9 @@
       S[tab.id] = { tab, pane, rows: [], missing: true };
       return;
     }
-    const cols = tab.cols.filter((c) => visCol(c, t.cols));
+    const allCols = tab.cols.filter((c) => visCol(c, t.cols));
     const filters = tab.filters.map((row) => row.filter((f) => visFilter(f, t.cols))).filter((row) => row.length);
-    const sortKey = cols.some((c) => c.k === tab.sort[0]) ? tab.sort : [cols.find((c) => c.k)?.k, 1];
+    const sortKey = allCols.some((c) => c.k === tab.sort[0]) ? tab.sort : [allCols.find((c) => c.k)?.k, 1];
     pane.innerHTML = `
       <p class="desc">${esc(tab.desc)}</p>
       ${tab.extra ? tab.extra() : ""}
@@ -746,21 +780,20 @@
       <div class="toolbar">
         <span class="total" aria-live="polite"></span>
         <span class="right">
+          <details class="colpick"><summary title="보일 칸 고르기 · 끌어서 순서 바꾸기">칸 선택</summary><div class="cpbox"></div></details>
           <label class="small">쪽당 <select data-act="size">${[20, 50, 100, 300].map((n) => `<option value="${n}"${n === 50 ? " selected" : ""}>${n}행</option>`).join("")}</select></label>
           <button type="button" class="btn_down" data-act="csv" title="조회된 행 전체를 CSV(UTF-8 BOM)로 받기">${DL_ICON}다운로드(CSV)</button>
         </span>
       </div>
       <div class="grid rows"><table>
-        <thead><tr>${cols.map((c) => {
-          const cls = [c.k || c.v ? "sort" : "", c.c && c.c.includes("num") ? "num" : "", c.c && c.c.includes("stick") ? "stick" : ""].filter(Boolean).join(" ");
-          const key = c.k ? c.k : c.v ? `@${c.t}` : "";
-          return `<th${cls ? ` class="${cls}"` : ""}${key && !c.no ? ` data-k="${esc(key)}" aria-sort="none"` : ""}${c.title ? ` title="${esc(c.title)}"` : ""}>${esc(c.t)}</th>`;
-        }).join("")}</tr></thead>
+        <thead></thead>
         <tbody></tbody>
       </table></div>
       <div class="paging" role="navigation" aria-label="쪽 번호"></div>`;
-    const st = S[tab.id] = { tab, pane, rows: t.rows, cols, filters: filters.flat(), sort: sortKey, page: 1, size: 50, filtered: t.rows.slice(), sel: null,
-      tbody: $(".grid.rows tbody", pane), thead: $(".grid.rows thead", pane), total: $(".total", pane), paging: $(".paging", pane) };
+    const st = S[tab.id] = { tab, pane, rows: t.rows, allCols, cols: allCols, filters: filters.flat(), sort: sortKey, page: 1, size: 50, filtered: t.rows.slice(), sel: null,
+      tbody: $(".grid.rows tbody", pane), thead: $(".grid.rows thead", pane), total: $(".total", pane), paging: $(".paging", pane), colBox: $(".cpbox", pane) };
+    colState(st);
+    wireCols(st);
 
     const form = $("form", pane);
     form.addEventListener("submit", (ev) => { ev.preventDefault(); apply(tab.id); });
@@ -831,7 +864,7 @@
 
   function sortCol(st) {
     const k = st.sort[0];
-    return st.cols.find((c) => (c.k && c.k === k) || (!c.k && `@${c.t}` === k));
+    return st.allCols.find((c) => (c.k && c.k === k) || (!c.k && `@${c.t}` === k));
   }
 
   function sortRows(id) {
@@ -846,6 +879,7 @@
       if (xe || ye) return xe && ye ? 0 : xe ? 1 : -1;             // 빈 값은 늘 뒤로
       if (typeof x === "number" && typeof y === "number") return (x - y) * dir;
       if (typeof x === "boolean" || typeof y === "boolean") return (Number(x) - Number(y)) * dir;
+      if (c && c.raw) return cmpRaw(String(x), String(y)) * dir;
       return coll.compare(String(x), String(y)) * dir;
     });
   }
@@ -865,7 +899,7 @@
     const from = (st.page - 1) * st.size;
     const part = st.filtered.slice(from, from + st.size);
     st.tbody.innerHTML = part.length
-      ? part.map((r, i) => `<tr data-i="${from + i}" tabindex="0"${st.sel === r ? ' class="sel"' : ""}>${st.cols.map((c) => `<td${c.c ? ` class="${c.c}"` : ""}>${c.no ? from + i + 1 : cell(c, r)}</td>`).join("")}</tr>`).join("")
+      ? part.map((r, i) => `<tr data-i="${from + i}" tabindex="0"${st.sel === r ? ' class="sel"' : ""}>${st.cols.map((c) => { const k = [c.c, c.td && c.td(r)].filter(Boolean).join(" "); return `<td${k ? ` class="${k}"` : ""}>${c.no ? from + i + 1 : cell(c, r)}</td>`; }).join("")}</tr>`).join("")
       : `<tr class="empty"><td colspan="${st.cols.length}">조회 결과가 없습니다.</td></tr>`;
     st.total.innerHTML = `조회 결과 <b>${fmtN(n)}</b>건 <span class="small">/ 전체 ${fmtN(st.rows.length)}건 · ${fmtN(st.page)}/${fmtN(pages)}쪽</span>`;
     st.paging.innerHTML = pagingHtml(st.page, pages);
@@ -876,6 +910,106 @@
       th.setAttribute("aria-sort", on ? (st.sort[1] === 1 ? "ascending" : "descending") : "none");
     });
   }
+
+  /* ---------- 칸 고르기 · 순서 (사용자 지시 2026-11-17) ----------
+     '칸 선택' 체크로 숨기고, 표 머리글이나 그 목록을 끌어 순서를 바꾼다. 설정은 이 브라우저에만 저장(localStorage), '기본값으로'로 되돌린다.
+     No 칸은 늘 맨 앞. CSV 내려받기는 화면 설정과 관계없이 모든 열. */
+  const colKey = (c) => (c.no ? "@no" : c.k || `@${c.t}`);
+  const colsLs = (id) => `kc-cols:${id}`;
+  const lsGet = (k) => { try { return JSON.parse(localStorage.getItem(k) || "null"); } catch (_) { return null; } };
+  const lsSet = (k, v) => { try { if (v == null) localStorage.removeItem(k); else localStorage.setItem(k, JSON.stringify(v)); } catch (_) { /* 저장 못 하면 이번 화면에만 */ } };
+  const headHtml = (cols) => `<tr>${cols.map((c) => {
+    const cls = [c.k || c.v ? "sort" : "", c.c && c.c.includes("num") ? "num" : "", c.c && c.c.includes("stick") ? "stick" : ""].filter(Boolean).join(" ");
+    const key = c.k ? c.k : c.v ? `@${c.t}` : "";
+    return `<th${cls ? ` class="${cls}"` : ""}${key && !c.no ? ` data-k="${esc(key)}" aria-sort="none"` : ""} data-ck="${esc(colKey(c))}"${c.no ? "" : ' draggable="true"'}${
+      c.title ? ` title="${esc(`${c.title}\n(머리글을 끌어 순서를 바꿀 수 있다)`)}"` : ""}>${esc(c.t)}</th>`;
+  }).join("")}</tr>`;
+  const colBoxHtml = (st) => {
+    const by = new Map(st.allCols.map((c) => [colKey(c), c]));
+    return `<p class="small">체크 = 보이기 · 끌어서 순서 바꾸기(표 머리글을 끌어도 된다). 이 브라우저에만 저장된다.</p>
+      <ul class="cplist">${st.colOrder.filter((k) => k !== "@no").map((k) => `<li draggable="true" data-ck="${esc(k)}"><span class="grip" aria-hidden="true">⠿</span><label><input type="checkbox" data-ck="${esc(k)}"${st.colHidden.has(k) ? "" : " checked"}> ${esc(by.get(k).t)}</label></li>`).join("")}</ul>
+      <div class="cpbtns"><button type="button" class="btn_white" data-act="colall">모두 보이기</button><button type="button" class="btn_white" data-act="coldef">기본값으로</button></div>`;
+  };
+  function applyCols(st, save = true) {
+    const by = new Map(st.allCols.map((c) => [colKey(c), c]));
+    st.cols = st.colOrder.filter((k) => !st.colHidden.has(k)).map((k) => by.get(k));
+    if (save) {
+      const def = st.allCols.map(colKey);
+      lsSet(colsLs(st.tab.id), !st.colHidden.size && st.colOrder.join("|") === def.join("|") ? null : { order: st.colOrder, hidden: [...st.colHidden] });
+    }
+    st.thead.innerHTML = headHtml(st.cols);
+    st.colBox.innerHTML = colBoxHtml(st);
+  }
+  function colState(st) {
+    const def = st.allCols.map(colKey);
+    const saved = lsGet(colsLs(st.tab.id)) || {};
+    const order = (Array.isArray(saved.order) ? saved.order : []).filter((k) => def.includes(k));
+    def.forEach((k, i) => {                                   // 저장 뒤 새로 생긴 칸은 기본 순서의 앞 칸 뒤에
+      if (order.includes(k)) return;
+      const prev = def.slice(0, i).reverse().find((x) => order.includes(x));
+      order.splice(prev ? order.indexOf(prev) + 1 : 0, 0, k);
+    });
+    st.colOrder = def.includes("@no") ? ["@no", ...order.filter((k) => k !== "@no")] : order;
+    st.colHidden = new Set((Array.isArray(saved.hidden) ? saved.hidden : []).filter((k) => def.includes(k) && k !== "@no"));
+    applyCols(st, false);
+  }
+  function wireCols(st) {
+    let drag = null;
+    const target = (ev) => ev.target.closest("li[data-ck], th[data-ck]");
+    const after = (ev, el) => { const b = el.getBoundingClientRect(); return el.tagName === "TH" ? ev.clientX > b.left + b.width / 2 : ev.clientY > b.top + b.height / 2; };
+    const clear = () => $$(".drop-a, .drop-b, .dragging", st.pane).forEach((x) => x.classList.remove("drop-a", "drop-b", "dragging"));
+    for (const host of [st.thead, st.colBox]) {
+      host.addEventListener("dragstart", (ev) => {
+        const el = target(ev);
+        if (!el || el.dataset.ck === "@no") return;
+        drag = el.dataset.ck;
+        el.classList.add("dragging");
+        ev.dataTransfer.effectAllowed = "move";
+        try { ev.dataTransfer.setData("text/plain", drag); } catch (_) { /* 일부 브라우저 */ }
+      });
+      host.addEventListener("dragover", (ev) => {
+        const el = target(ev);
+        if (!drag || !el) return;
+        ev.preventDefault();
+        $$(".drop-a, .drop-b", st.pane).forEach((x) => x.classList.remove("drop-a", "drop-b"));
+        if (el.dataset.ck !== drag) el.classList.add(after(ev, el) ? "drop-b" : "drop-a");
+      });
+      host.addEventListener("drop", (ev) => {
+        const el = target(ev);
+        if (!drag || !el) return;
+        ev.preventDefault();
+        const from = drag, to = el.dataset.ck, aft = after(ev, el);
+        drag = null;
+        clear();
+        if (from === to) return;
+        const o = st.colOrder.filter((k) => k !== from);
+        let i = o.indexOf(to) + (aft ? 1 : 0);
+        if (o[0] === "@no" && i < 1) i = 1;                  // No 앞으로는 못 간다
+        o.splice(i, 0, from);
+        st.colOrder = o;
+        applyCols(st);
+        draw(st.tab.id);
+      });
+      host.addEventListener("dragend", () => { drag = null; clear(); });
+    }
+    st.colBox.addEventListener("change", (ev) => {
+      const cb = ev.target.closest("input[data-ck]");
+      if (!cb) return;
+      if (cb.checked) st.colHidden.delete(cb.dataset.ck); else st.colHidden.add(cb.dataset.ck);
+      applyCols(st);
+      draw(st.tab.id);
+    });
+    st.colBox.addEventListener("click", (ev) => {
+      const b = ev.target.closest("button[data-act]");
+      if (!b) return;
+      if (b.dataset.act === "coldef") st.colOrder = st.allCols.map(colKey);
+      st.colHidden.clear();
+      applyCols(st);
+      draw(st.tab.id);
+    });
+  }
+  // 열린 '칸 선택'은 바깥을 누르면 닫는다
+  document.addEventListener("click", (ev) => { $$("details.colpick[open]").forEach((d) => { if (!d.contains(ev.target)) d.open = false; }); });
 
   function pagingHtml(p, pages) {
     const s = Math.floor((p - 1) / 10) * 10 + 1, en = Math.min(pages, s + 9);
@@ -895,7 +1029,8 @@
       const s = String(v);
       return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
     };
-    const lines = [cols.map((c) => (c === "_cg" ? "check_group" : c)).join(","), ...st.filtered.map((r) => cols.map((c) => q(r[c])).join(","))];
+    const TAGC = new Set(["tag", "tag_current", "llm_tag", "rule_tag", "agm_tag_after", "prev_tag"]);    // 정관 태그는 화면 표기(N·Y·YorN)로
+    const lines = [cols.map((c) => (c === "_cg" ? "check_group" : c)).join(","), ...st.filtered.map((r) => cols.map((c) => q(TAGC.has(c) ? TL(r[c]) : r[c])).join(","))];
     const blob = new Blob(["﻿" + lines.join("\r\n") + "\r\n"], { type: "text/csv;charset=utf-8" });
     const stamp = String(M.as_of || D.built || "").replace(/\D/g, "").slice(0, 8);
     const a = document.createElement("a");

@@ -1,6 +1,6 @@
 {
- "source": "유가증권시장_확인자그룹.xlsx",
- "sha256": "1282f818d8fdee473e56a371479eeaad986af8716586fb4e089a2251d3e47388",
+ "source": "유가증권시장_확인그룹v2_이름제외.xlsx",
+ "sha256": "551dcbe013f6bb03ad2f8cf7b7db742c455c00a29e4d10109b08d6965a6cb816",
  "n": 829,
  "groups": {
   "1": 166,
@@ -839,5 +839,4157 @@
   "499790": 4,
   "900140": 5,
   "950210": 1
+ },
+ "filed_n": {
+  "N": 511,
+  "Y": 312,
+  "미입력": 6
+ },
+ "filed": {
+  "000020": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000040": {
+   "filed": "미입력",
+   "filed_date": "",
+   "filed_cond": ""
+  },
+  "000050": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000070": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000080": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000100": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000120": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000140": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000150": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000180": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000210": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000220": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000230": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000240": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000270": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000300": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000320": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000370": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000390": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000400": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000430": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000480": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000490": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000500": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000520": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000540": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000590": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000640": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000650": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000660": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000670": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000680": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000700": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000720": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000760": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000810": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000850": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000860": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000880": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000890": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "000910": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000950": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000970": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "000990": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001020": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001040": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001060": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001070": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001080": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001120": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001130": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001200": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001210": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001230": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001250": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001260": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001270": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001290": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001340": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001360": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001380": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001390": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001420": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001430": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001440": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001450": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001460": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001470": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001500": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001510": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001520": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001530": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001550": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001560": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001570": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001620": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001630": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001680": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001720": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001740": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001750": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001770": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001780": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001790": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001800": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "001820": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "001940": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002020": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002030": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002070": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002100": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002140": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002150": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002170": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002200": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002210": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002220": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002240": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002310": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002320": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002350": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002360": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002380": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002390": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002410": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002420": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002450": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002460": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002600": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002620": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002630": {
+   "filed": "Y",
+   "filed_date": "2027-03-31",
+   "filed_cond": "특정일"
+  },
+  "002690": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002700": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002710": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002720": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002760": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002780": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002790": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002810": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002820": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002840": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002870": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002880": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002900": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002920": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "002960": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "002990": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003000": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003010": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "003030": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003060": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003070": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003080": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003090": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "0030R0": {
+   "filed": "미입력",
+   "filed_date": "",
+   "filed_cond": ""
+  },
+  "003120": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "003160": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "003200": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003220": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003230": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003240": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003280": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003300": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003350": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003460": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003470": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003480": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "003490": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003520": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003530": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003540": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003550": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003570": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "003580": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "003610": {
+   "filed": "Y",
+   "filed_date": "2026-09-30",
+   "filed_cond": "특정일"
+  },
+  "003620": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "003650": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "003670": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003680": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "003690": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003720": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "003780": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003830": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "003850": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "003920": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "003960": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004000": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004020": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004060": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004080": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004090": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004100": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004140": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004150": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004170": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004250": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004270": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004310": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004360": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004370": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004380": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004410": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004430": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004440": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004450": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004490": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004540": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004560": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004690": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004700": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004710": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004720": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004770": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004800": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004830": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004840": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004870": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004890": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004910": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004920": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004960": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "004970": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004980": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "004990": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005010": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005070": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "005090": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "005180": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005250": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005300": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005320": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005360": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "005380": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005420": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "005430": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005440": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005490": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005500": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005610": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005680": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "005690": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005720": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005740": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005750": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005800": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005810": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005820": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "005830": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005850": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005870": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005880": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "005930": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "005940": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005950": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "005960": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "006040": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "006060": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "006090": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "006110": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "006120": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "006200": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "006220": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "006260": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "006280": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "006340": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "006360": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "006370": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "006400": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "006490": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "006570": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "006650": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "006660": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "006740": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "006800": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "006840": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "006880": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "006890": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "006980": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "007070": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "007110": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "007120": {
+   "filed": "미입력",
+   "filed_date": "",
+   "filed_cond": ""
+  },
+  "007160": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "007210": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "007280": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "007310": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "007340": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "007460": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "007540": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "007570": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "007590": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "007610": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "007660": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "007690": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "007700": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "007810": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "007860": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "007980": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "008040": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "008060": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "008250": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "008260": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "008350": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "008420": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "008490": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "008600": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "008700": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "008730": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "008770": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "008870": {
+   "filed": "Y",
+   "filed_date": "2026-09-30",
+   "filed_cond": "특정일"
+  },
+  "008930": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "008970": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009070": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "009140": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009150": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "009160": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "009180": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009190": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "009200": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009240": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009270": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009290": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009310": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "009320": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009410": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "009420": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009440": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009450": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009460": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "009470": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "009540": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009580": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009680": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "009770": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009810": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "009830": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009900": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "009970": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "010040": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "010060": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "010100": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "010120": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "010130": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "010140": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "010400": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "010580": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "010640": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "010660": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "010690": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "010770": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "010780": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "010820": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "010950": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "010960": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "011000": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "011070": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "011090": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "011150": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "011170": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "011200": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "011210": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "011230": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "011280": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "011300": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "011330": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "011390": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "011420": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "011500": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "011690": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "011700": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "011760": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "011780": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "011790": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "011810": {
+   "filed": "Y",
+   "filed_date": "2027-01-31",
+   "filed_cond": "특정일"
+  },
+  "011930": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "012030": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "0120G0": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "012160": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "012170": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "012200": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "012280": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "012320": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "012330": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "012450": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "012610": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "012630": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "012690": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "0126Z0": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "012750": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "012800": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "013000": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "013360": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "013520": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "013570": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "013580": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "013700": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "013870": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "013890": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "014130": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "014160": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "014280": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "014440": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "014530": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "014580": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "014680": {
+   "filed": "미입력",
+   "filed_date": "",
+   "filed_cond": ""
+  },
+  "014710": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "014790": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "014820": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "014830": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "014910": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "014990": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "015020": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "015230": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "015260": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "015360": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "015590": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "015760": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "015860": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "015890": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "016090": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "016360": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "016380": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "016450": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "016580": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "016590": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "016610": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "016710": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "016740": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "016800": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "016880": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "017040": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "017180": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "017370": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "017390": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "017550": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "017670": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "017800": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "017810": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "017860": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "017900": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "017940": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "017960": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "018250": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "018260": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "018470": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "018500": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "018670": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "018880": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "019170": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "019180": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "019490": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "019680": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "020000": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "020120": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "020150": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "020560": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "020760": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "021050": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "021240": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "021820": {
+   "filed": "Y",
+   "filed_date": "2027-06-30",
+   "filed_cond": "특정일"
+  },
+  "0220W0": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "022100": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "023000": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "023150": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "023350": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "023450": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "023530": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "023590": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "023800": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "023810": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "023960": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "024070": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "024090": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "024110": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "024720": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "024890": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "024900": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "025000": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "025530": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "025540": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "025560": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "025620": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "025750": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "025820": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "025860": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "025890": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "026890": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "026940": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "026960": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "027410": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "027740": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "027970": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "028050": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "028100": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "028260": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "028670": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "029460": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "029530": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "029780": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "030000": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "030190": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "030200": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "030210": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "030610": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "030720": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "031210": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "031430": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "031820": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "032350": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "032560": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "032640": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "032830": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "033240": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "033250": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "033270": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "033530": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "033780": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "033920": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "034020": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "034120": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "034220": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "034230": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "034310": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "034590": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "034730": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "034830": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "035000": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "035150": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "035250": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "035420": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "035510": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "035720": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "036420": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "036460": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "036530": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "036570": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "036580": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "037270": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "037560": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "037710": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "039130": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "039490": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "039570": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "041650": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "042660": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "042700": {
+   "filed": "Y",
+   "filed_date": "2027-03-07",
+   "filed_cond": "특정일"
+  },
+  "044380": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "044450": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "044820": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "047040": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "047050": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "047400": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "047810": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "049800": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "051600": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "051630": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "051900": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "051910": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "052690": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "053210": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "053690": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "055490": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "055550": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "058430": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "058650": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "058730": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "058850": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "058860": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "060980": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "062040": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "063160": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "064350": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "064400": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "064960": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "066570": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "066970": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "067830": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "068270": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "068290": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "069260": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "069460": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "069620": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "069640": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "069730": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "069960": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "070960": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "071050": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "071090": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "071320": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "071840": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "071950": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "071970": {
+   "filed": "Y",
+   "filed_date": "2027-01-31",
+   "filed_cond": "특정일"
+  },
+  "072130": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "072710": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "073240": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "074610": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "075180": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "075580": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "077500": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "077970": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "078000": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "078520": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "078930": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "079160": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "079430": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "079550": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "079900": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "079980": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "081000": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "081660": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "082740": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "083420": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "084010": {
+   "filed": "미입력",
+   "filed_date": "",
+   "filed_cond": ""
+  },
+  "084670": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "084680": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "084690": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "084870": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "085310": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "085620": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "086280": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "086790": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "088260": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "088350": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "088790": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "088980": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "089470": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "089590": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "089860": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "090080": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "090350": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "090370": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "090430": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "090460": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "091810": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "092200": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "092220": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "092230": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "092440": {
+   "filed": "Y",
+   "filed_date": "2027-03-31",
+   "filed_cond": "특정일"
+  },
+  "092780": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "092790": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "093050": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "093240": {
+   "filed": "Y",
+   "filed_date": "2027-06-30",
+   "filed_cond": "특정일"
+  },
+  "093370": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "094280": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "094800": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "095570": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "095720": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "096760": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "096770": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "097230": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "097520": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "097950": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "100090": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "100220": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "100250": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "100840": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "101140": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "101530": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "102260": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "102460": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "103140": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "103590": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "104700": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "105560": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "105630": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "105840": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "107590": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "108320": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "108670": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "109070": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "111110": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "111380": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "111770": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "112610": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "114090": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "117580": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "118000": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "119650": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "120030": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "120110": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "122900": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "123690": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "123700": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "123890": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "126560": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "126720": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "128820": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "128940": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "129260": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "130660": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "133820": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "134380": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "134790": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "136490": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "137310": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "138040": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "138930": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "139130": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "139480": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "139990": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "143210": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "145210": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "145270": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "145720": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "145990": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "155660": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "161000": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "161390": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "161890": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "163560": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "170900": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "175330": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "178920": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "180640": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "181710": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "183190": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "185750": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "192080": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "192400": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "192650": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "192820": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "194370": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "195870": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "200880": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "204320": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "207940": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "210540": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "210980": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "213500": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "214320": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "214330": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "214390": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "214420": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "217590": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "226320": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "227840": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "229640": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "234080": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "241560": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "241590": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "244920": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "248070": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "248170": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "249420": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "251270": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "259960": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "264900": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "267250": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "267260": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "267270": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "267290": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "267850": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "268280": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "271560": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "271940": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "271980": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "272210": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "272450": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "272550": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "278470": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "279570": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "280360": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "281820": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "282330": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "284740": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "285130": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "286940": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "293480": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "293940": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "294870": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "298000": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "298020": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "298040": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "298050": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "298690": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "300720": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "302440": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "306200": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "307950": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "308170": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "316140": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "317400": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "317450": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "322000": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "323410": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "326030": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "329180": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "330590": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "334890": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "336260": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "336370": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "338100": {
+   "filed": "Y",
+   "filed_date": "2026-11-30",
+   "filed_cond": "특정일"
+  },
+  "339770": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "344820": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "348950": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "350520": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "352820": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "353200": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "357120": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "357250": {
+   "filed": "Y",
+   "filed_date": "2026-11-30",
+   "filed_cond": "특정일"
+  },
+  "357430": {
+   "filed": "Y",
+   "filed_date": "2026-09-30",
+   "filed_cond": "특정일"
+  },
+  "361610": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "363280": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "365550": {
+   "filed": "Y",
+   "filed_date": "2026-11-30",
+   "filed_cond": "특정일"
+  },
+  "372910": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "373220": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "375500": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "377190": {
+   "filed": "Y",
+   "filed_date": "2026-09-30",
+   "filed_cond": "특정일"
+  },
+  "377300": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "377740": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "378850": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "381970": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "383220": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "383800": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "395400": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "396690": {
+   "filed": "Y",
+   "filed_date": "2026-09-30",
+   "filed_cond": "특정일"
+  },
+  "400760": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "402340": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "403550": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "404990": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "415640": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "417310": {
+   "filed": "Y",
+   "filed_date": "2026-11-30",
+   "filed_cond": "특정일"
+  },
+  "432320": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "439260": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "443060": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "446070": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "448730": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "450080": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "451800": {
+   "filed": "Y",
+   "filed_date": "2026-10-31",
+   "filed_cond": "특정일"
+  },
+  "452260": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "453340": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "454910": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "456040": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "457190": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "460850": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "460860": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "462520": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "462870": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "465770": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "475150": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "475560": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "480370": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "481850": {
+   "filed": "Y",
+   "filed_date": "2027-02-28",
+   "filed_cond": "특정일"
+  },
+  "483650": {
+   "filed": "미입력",
+   "filed_date": "",
+   "filed_cond": ""
+  },
+  "484870": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "487570": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "489790": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "499790": {
+   "filed": "Y",
+   "filed_date": "2026-12-31",
+   "filed_cond": "특정일"
+  },
+  "900140": {
+   "filed": "N",
+   "filed_date": "",
+   "filed_cond": "이사회 결의로 정한 날"
+  },
+  "950210": {
+   "filed": "Y",
+   "filed_date": "2026-06-30",
+   "filed_cond": "특정일"
+  }
  }
 }
