@@ -16,25 +16,24 @@
     "acptno": "20260428000657",
     "title": "임시주주총회결과",
     "time": "2026-04-28 16:41",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-04-28",
+    "charter_rows": 1
    },
    {
     "acptno": "20260617000464",
     "title": "임시주주총회결과",
     "time": "2026-06-17 16:26",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-06-17",
+    "charter_rows": 1
    },
    {
     "acptno": "20260617000678",
     "title": "임시주주총회결과",
     "time": "2026-06-17 18:12",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-06-17",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-04-28",
   "vote_record_date": "2026-04-06",
@@ -63,7 +62,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-04-28",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260611000654": {
   "stock_code": "026910",
@@ -77,7 +79,7 @@
   "result_time": "2026-06-26 15:15",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260626000663",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-06-26",
   "vote_record_date": "2026-05-22",
   "rows": [
    {
@@ -110,7 +112,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-06-26",
+  "results_in_window": [
+   {
+    "acptno": "20260626000663",
+    "title": "임시주주총회결과",
+    "time": "2026-06-26 15:15",
+    "meeting_day": "2026-06-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260513000230": {
   "stock_code": "037370",
@@ -124,7 +139,7 @@
   "result_time": "2026-05-29 11:00",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260529000375",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-05-29",
   "vote_record_date": "2026-05-06",
   "rows": [
    {
@@ -151,7 +166,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-05-29",
+  "results_in_window": [
+   {
+    "acptno": "20260529000375",
+    "title": "임시주주총회결과",
+    "time": "2026-05-29 11:00",
+    "meeting_day": "2026-05-29",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260506000541": {
   "stock_code": "058110",
@@ -165,7 +193,7 @@
   "result_time": "2026-05-18 14:17",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260518000475",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-05-18",
   "vote_record_date": "2026-04-16",
   "rows": [
    {
@@ -201,10 +229,23 @@
     "result": "미결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": null,
-  "note": "판정 안건 중 가결 아닌 것 있음 — 세부 안건 확인 필요",
-  "basis_box": null
+  "note": "판정 안건 중 가결 아닌 것 있음 — 서브에이전트 판별: 임시주총 소집공고 제1호 의안 '정관 일부 개정 승인의 건'(세부 안건 없음, 제55조 ③ 이사회가 배당기준일을 정하도록 변경 포함)이 결과 표 제1호 의안이며, 결과는 미결(정족수 미달)이라 가결되지 않았다.",
+  "basis_box": null,
+  "meeting_day": "2026-05-18",
+  "results_in_window": [
+   {
+    "acptno": "20260518000475",
+    "title": "임시주주총회결과",
+    "time": "2026-05-18 14:17",
+    "meeting_day": "2026-05-18",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260320001242": {
   "stock_code": "109670",
@@ -293,7 +334,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326000896",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 14:27",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260612000614": {
   "stock_code": "336060",
@@ -307,7 +361,7 @@
   "result_time": "2026-06-29 13:28",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260629000452",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-06-29",
   "vote_record_date": "2026-06-04",
   "rows": [
    {
@@ -334,7 +388,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-06-29",
+  "results_in_window": [
+   {
+    "acptno": "20260629000452",
+    "title": "임시주주총회결과",
+    "time": "2026-06-29 13:28",
+    "meeting_day": "2026-06-29",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260703000274": {
   "stock_code": "121890",
@@ -348,7 +415,7 @@
   "result_time": "2026-07-20 14:05",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260720000257",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-07-20",
   "vote_record_date": "2026-04-20",
   "rows": [
    {
@@ -375,7 +442,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-07-20",
+  "results_in_window": [
+   {
+    "acptno": "20260720000257",
+    "title": "임시주주총회결과",
+    "time": "2026-07-20 14:05",
+    "meeting_day": "2026-07-20",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260916000468": {
   "stock_code": "206400",
@@ -389,7 +469,7 @@
   "result_time": "2026-09-29 16:47",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260929000806",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-09-29",
   "vote_record_date": "2026-07-18",
   "rows": [
    {
@@ -458,7 +538,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-09-29",
+  "results_in_window": [
+   {
+    "acptno": "20260929000806",
+    "title": "임시주주총회결과",
+    "time": "2026-09-29 16:47",
+    "meeting_day": "2026-09-29",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260520000335": {
   "stock_code": "036620",
@@ -472,7 +565,7 @@
   "result_time": "2026-06-04 14:43",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260604000389",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-06-04",
   "vote_record_date": "2026-05-07",
   "rows": [
    {
@@ -499,7 +592,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-06-04",
+  "results_in_window": [
+   {
+    "acptno": "20260604000389",
+    "title": "임시주주총회결과",
+    "time": "2026-06-04 14:43",
+    "meeting_day": "2026-06-04",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260323000008": {
   "stock_code": "067990",
@@ -588,7 +694,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001155",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 14:58",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260319000033": {
   "stock_code": "067310",
@@ -677,7 +796,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 4 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002404",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 16:56",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260320000922": {
   "stock_code": "079810",
@@ -754,7 +886,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001100",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 14:37",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260319000673": {
   "stock_code": "036670",
@@ -825,7 +970,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30",
+  "meeting_day": "2026-03-23",
+  "results_in_window": [
+   {
+    "acptno": "20260323000617",
+    "title": "정기주주총회결과",
+    "time": "2026-03-23 14:29",
+    "meeting_day": "2026-03-23",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260630000383": {
   "stock_code": "437730",
@@ -839,7 +997,7 @@
   "result_time": "2026-07-15 18:02",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260715000824",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-07-15",
   "vote_record_date": "2026-06-15",
   "rows": [
    {
@@ -872,7 +1030,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-07-15",
+  "results_in_window": [
+   {
+    "acptno": "20260715000824",
+    "title": "임시주주총회결과",
+    "time": "2026-07-15 18:02",
+    "meeting_day": "2026-07-15",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20261007000264": {
   "stock_code": "403870",
@@ -886,7 +1057,7 @@
   "result_time": "2026-10-22 14:13",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20261022000251",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-10-22",
   "vote_record_date": "2026-09-15",
   "rows": [
    {
@@ -913,7 +1084,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-10-22",
+  "results_in_window": [
+   {
+    "acptno": "20261022000251",
+    "title": "임시주주총회결과",
+    "time": "2026-10-22 14:13",
+    "meeting_day": "2026-10-22",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260319001136": {
   "stock_code": "049630",
@@ -978,7 +1162,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327000921",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 14:08",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260527000604": {
   "stock_code": "297570",
@@ -997,18 +1194,17 @@
     "acptno": "20260612000547",
     "title": "임시주주총회결과",
     "time": "2026-06-12 14:44",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-06-12",
+    "charter_rows": 1
    },
    {
     "acptno": "20260807000408",
     "title": "임시주주총회결과",
     "time": "2026-08-07 14:44",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-08-07",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-06-12",
   "vote_record_date": "2026-05-15",
@@ -1145,7 +1341,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-06-12",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260811000700": {
   "stock_code": "023440",
@@ -1159,7 +1358,7 @@
   "result_time": "2026-08-26 17:03",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260826000680",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-08-26",
   "vote_record_date": "2026-05-26",
   "rows": [
    {
@@ -1180,7 +1379,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-08-26",
+  "results_in_window": [
+   {
+    "acptno": "20260826000680",
+    "title": "임시주주총회결과",
+    "time": "2026-08-26 17:03",
+    "meeting_day": "2026-08-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260515000683": {
   "stock_code": "025440",
@@ -1194,7 +1406,7 @@
   "result_time": "2026-06-01 11:13",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260601000357",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-06-01",
   "vote_record_date": "2026-05-08",
   "rows": [
    {
@@ -1227,7 +1439,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-06-01",
+  "results_in_window": [
+   {
+    "acptno": "20260601000357",
+    "title": "임시주주총회결과",
+    "time": "2026-06-01 11:13",
+    "meeting_day": "2026-06-01",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260923000442": {
   "stock_code": "080720",
@@ -1241,7 +1466,7 @@
   "result_time": "2026-10-08 16:18",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20261008000653",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-10-08",
   "vote_record_date": "2026-09-16",
   "rows": [
    {
@@ -1280,7 +1505,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-10-08",
+  "results_in_window": [
+   {
+    "acptno": "20261008000653",
+    "title": "임시주주총회결과",
+    "time": "2026-10-08 16:18",
+    "meeting_day": "2026-10-08",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260429001063": {
   "stock_code": "219750",
@@ -1294,7 +1532,7 @@
   "result_time": "2026-05-19 15:06",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260519000282",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-05-19",
   "vote_record_date": "2026-04-22",
   "rows": [
    {
@@ -1321,7 +1559,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-05-19",
+  "results_in_window": [
+   {
+    "acptno": "20260519000282",
+    "title": "임시주주총회결과",
+    "time": "2026-05-19 15:06",
+    "meeting_day": "2026-05-19",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20261103000169": {
   "stock_code": "464280",
@@ -1385,7 +1636,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001336",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:14",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260513000470": {
   "stock_code": "228670",
@@ -1399,7 +1663,7 @@
   "result_time": "2026-05-28 16:19",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260528000674",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-05-28",
   "vote_record_date": "2026-04-29",
   "rows": [
    {
@@ -1471,10 +1735,23 @@
     "result": "가결"
    }
   ],
-  "by_dividend_row": false,
-  "passed": null,
-  "note": "판정 안건 중 가결 아닌 것 있음 — 세부 안건 확인 필요",
-  "basis_box": null
+  "by_dividend_row": true,
+  "passed": true,
+  "note": "서브에이전트 판별: 배당기준일 안건 1-2, 1-3 가결 — 임시주총 소집공고 제1호 의안 '정관 일부 개정의 건'의 제1-1호(제36조, 주주제안)·1-2호(제33조)·1-3호(제49조)가 결과 표 1-1~1-3 행이다. 대비표가 없어 기준일 조항이 든 조문을 확인할 수 없지만, 1-1은 기타비상무이사 후보와 짝을 이룬 이사회 관련 주주제안으로 보여 회사 안건인 1-2·1-3(모두 가결)에 든 것으로 보았다. 1-1은 부결이라 그쪽이라면 결과가 달라진다.",
+  "basis_box": null,
+  "meeting_day": "2026-05-28",
+  "results_in_window": [
+   {
+    "acptno": "20260528000674",
+    "title": "임시주주총회결과",
+    "time": "2026-05-28 16:19",
+    "meeting_day": "2026-05-28",
+    "charter_rows": 3
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20250307000772": {
   "stock_code": "228670",
@@ -1491,11 +1768,61 @@
   "agm_date": "2025-03-24",
   "vote_record_date": null,
   "rows": [],
-  "charter_rows": [],
+  "charter_rows": [
+   {
+    "no": "제6호 의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   },
+   {
+    "no": "6-1호",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   },
+   {
+    "no": "6-2호",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   },
+   {
+    "no": "6-3호",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   },
+   {
+    "no": "6-4호",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   },
+   {
+    "no": "6-5호",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
   "by_dividend_row": false,
   "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
-  "basis_box": null
+  "note": "안건 표에서 정관 안건을 찾지 못함 — 서브에이전트 판별: 소집공고 제6호 의안 '정관 일부 변경의 건'은 조문별 세부 안건(6-1 제4조 공고방법, 6-2 제12조 주식매수선택권, 6-3 제26조 소집지, 6-4 제42조 이사회, 6-5 부칙)으로 나뉘었고 결과 글의 같은 번호에 대응하나, 어느 세부 안건도 이익배당·기준일·주주명부 조항이 아니고 대비표도 없어 기준일 조항 변경 행을 찾지 못했다(결과는 6-4호만 부결, 나머지 가결).",
+  "basis_box": null,
+  "meeting_day": "2025-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20250324000474",
+    "title": "정기주주총회결과",
+    "time": "2025-03-24 15:13",
+    "meeting_day": "2025-03-24",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20241002000278": {
   "stock_code": "228670",
@@ -1509,14 +1836,34 @@
   "result_time": "2024-10-17 16:46",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20241017000383",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2024-10-17",
   "vote_record_date": null,
   "rows": [],
-  "charter_rows": [],
-  "by_dividend_row": false,
-  "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
-  "basis_box": null
+  "charter_rows": [
+   {
+    "no": "제3호 의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "by_dividend_row": true,
+  "passed": true,
+  "note": "서브에이전트 판별: 배당기준일 안건 제3호 의안 가결 — 소집공고 제3호 의안 '정관 변경의 건'(세부 안건 없음)이 결과 글의 '제3호 의안: 정관 변경의 건'에 대응하며 '원안대로 가결'이다. 대비표가 없어 기준일 조항 포함 여부는 확인하지 못했고 세부 안건이 없으므로 정관 안건 전체를 기준으로 했다.",
+  "basis_box": null,
+  "meeting_day": "2024-10-17",
+  "results_in_window": [
+   {
+    "acptno": "20241017000383",
+    "title": "임시주주총회결과",
+    "time": "2024-10-17 16:46",
+    "meeting_day": "2024-10-17",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20240315000219": {
   "stock_code": "228670",
@@ -1533,11 +1880,31 @@
   "agm_date": "2024-03-29",
   "vote_record_date": null,
   "rows": [],
-  "charter_rows": [],
-  "by_dividend_row": false,
+  "charter_rows": [
+   {
+    "no": "제5호 의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "by_dividend_row": true,
   "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
-  "basis_box": null
+  "note": "판정 안건 중 가결 아닌 것 있음 — 서브에이전트 판별: 소집공고 제5호 의안 '정관변경의 건'(세부 안건 없음, 대비표의 배당 관련 행은 제18조 전환사채 배당 조항)이 결과 글의 '제5호 의안: 정관변경의 건'에 대응하며, '의결 정족수 미달로 부결'로 적혀 있다.",
+  "basis_box": null,
+  "meeting_day": "2024-03-29",
+  "results_in_window": [
+   {
+    "acptno": "20240329001837",
+    "title": "정기주주총회결과",
+    "time": "2024-03-29 14:37",
+    "meeting_day": "2024-03-29",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260316000404": {
   "stock_code": "362320",
@@ -1608,7 +1975,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001794",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:27",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260604000158": {
   "stock_code": "067010",
@@ -1661,7 +2041,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-06-19",
+  "results_in_window": [
+   {
+    "acptno": "20260619000416",
+    "title": "정기주주총회결과",
+    "time": "2026-06-19 10:52",
+    "meeting_day": "2026-06-19",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20251217000416": {
   "stock_code": "042520",
@@ -1714,7 +2107,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역' 관련, 당사는 이번 주주총회에서 '정관 일부 변경의 건'을 통해 이익배당 기준일을 이사회 결의로 정하고자 하여 '-'로 표기하였습니다."
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역' 관련, 당사는 이번 주주총회에서 '정관 일부 변경의 건'을 통해 이익배당 기준일을 이사회 결의로 정하고자 하여 '-'로 표기하였습니다.",
+  "meeting_day": "2025-12-26",
+  "results_in_window": [
+   {
+    "acptno": "20251226000399",
+    "title": "정기주주총회결과",
+    "time": "2025-12-26 14:14",
+    "meeting_day": "2025-12-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260227002074": {
   "stock_code": "044990",
@@ -1767,7 +2173,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-18",
+  "results_in_window": [
+   {
+    "acptno": "20260318000746",
+    "title": "정기주주총회결과",
+    "time": "2026-03-18 15:19",
+    "meeting_day": "2026-03-18",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260227007355": {
   "stock_code": "188260",
@@ -1844,7 +2263,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-17",
+  "results_in_window": [
+   {
+    "acptno": "20260317000948",
+    "title": "정기주주총회결과",
+    "time": "2026-03-17 17:06",
+    "meeting_day": "2026-03-17",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260303002460": {
   "stock_code": "328380",
@@ -1909,7 +2341,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-18",
+  "results_in_window": [
+   {
+    "acptno": "20260318002200",
+    "title": "정기주주총회결과",
+    "time": "2026-03-18 18:17",
+    "meeting_day": "2026-03-18",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260303002856": {
   "stock_code": "264450",
@@ -1928,18 +2373,17 @@
     "acptno": "20260318000804",
     "title": "정기주주총회결과",
     "time": "2026-03-18 15:32",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-18",
+    "charter_rows": 1
    },
    {
     "acptno": "20260319000185",
     "title": "정기주주총회결과",
     "time": "2026-03-19 10:37",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-18",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-18",
   "vote_record_date": "2025-12-31",
@@ -2004,7 +2448,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-18",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260303001678": {
   "stock_code": "078070",
@@ -2075,7 +2522,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-18",
+  "results_in_window": [
+   {
+    "acptno": "20260318000162",
+    "title": "정기주주총회결과",
+    "time": "2026-03-18 10:58",
+    "meeting_day": "2026-03-18",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260224001802": {
   "stock_code": "064760",
@@ -2152,7 +2612,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-18",
+  "results_in_window": [
+   {
+    "acptno": "20260318002084",
+    "title": "정기주주총회결과",
+    "time": "2026-03-18 19:16",
+    "meeting_day": "2026-03-18",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260304000302": {
   "stock_code": "322180",
@@ -2229,7 +2702,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-19",
+  "results_in_window": [
+   {
+    "acptno": "20260319001016",
+    "title": "정기주주총회결과",
+    "time": "2026-03-19 16:08",
+    "meeting_day": "2026-03-19",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001166": {
   "stock_code": "094360",
@@ -2248,18 +2734,17 @@
     "acptno": "20260324000636",
     "title": "정기주주총회결과",
     "time": "2026-03-24 15:11",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
    },
    {
     "acptno": "20260324000952",
     "title": "정기주주총회결과",
     "time": "2026-03-24 16:07",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": false,
   "ambiguous": true,
   "agm_date": "2026-03-24",
   "vote_record_date": "2025-12-31",
@@ -2318,7 +2803,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-24",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260304001366": {
   "stock_code": "036560",
@@ -2407,7 +2895,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-19",
+  "results_in_window": [
+   {
+    "acptno": "20260319000525",
+    "title": "정기주주총회결과",
+    "time": "2026-03-19 14:20",
+    "meeting_day": "2026-03-19",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260213001707": {
   "stock_code": "382800",
@@ -2514,7 +3015,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-1, 2-2, 2-6, 2-7 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-20",
+  "results_in_window": [
+   {
+    "acptno": "20260320000679",
+    "title": "정기주주총회결과",
+    "time": "2026-03-20 14:47",
+    "meeting_day": "2026-03-20",
+    "charter_rows": 4
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260304000323": {
   "stock_code": "211270",
@@ -2627,7 +3141,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 3-6호 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-20",
+  "results_in_window": [
+   {
+    "acptno": "20260320001935",
+    "title": "정기주주총회결과",
+    "time": "2026-03-20 18:17",
+    "meeting_day": "2026-03-20",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260305001071": {
   "stock_code": "136540",
@@ -2728,7 +3255,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-20",
+  "results_in_window": [
+   {
+    "acptno": "20260320000737",
+    "title": "정기주주총회결과",
+    "time": "2026-03-20 15:49",
+    "meeting_day": "2026-03-20",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260305001009": {
   "stock_code": "250060",
@@ -2811,7 +3351,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-20",
+  "results_in_window": [
+   {
+    "acptno": "20260320000383",
+    "title": "정기주주총회결과",
+    "time": "2026-03-20 12:13",
+    "meeting_day": "2026-03-20",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260304000862": {
   "stock_code": "025770",
@@ -2894,7 +3447,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역] 중 분기배당의 기준일 같은 경우, 당사의 정관상 분기배당 항목이 없어 해당없음'-' 표시했습니다.\n- 상기 '시가배당율(%)'은 배당기준일 전전거래일(배당부 종가일)부터 과거 1주일간(2025년 12월 22일 ~ 2025년 12월 28일)의 거래소시장에서 형성된 최종가격의 산술평균가격(7,770원))에 대한 1주당 배당금의 비율임.\n- 배당기준일 현재 배당 주식수는 35,190,684주(총발행주식수 37,444,271 중 자기주식 2,253,587주 제외 분)임."
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역] 중 분기배당의 기준일 같은 경우, 당사의 정관상 분기배당 항목이 없어 해당없음'-' 표시했습니다.\n- 상기 '시가배당율(%)'은 배당기준일 전전거래일(배당부 종가일)부터 과거 1주일간(2025년 12월 22일 ~ 2025년 12월 28일)의 거래소시장에서 형성된 최종가격의 산술평균가격(7,770원))에 대한 1주당 배당금의 비율임.\n- 배당기준일 현재 배당 주식수는 35,190,684주(총발행주식수 37,444,271 중 자기주식 2,253,587주 제외 분)임.",
+  "meeting_day": "2026-03-20",
+  "results_in_window": [
+   {
+    "acptno": "20260320001520",
+    "title": "정기주주총회결과",
+    "time": "2026-03-20 17:31",
+    "meeting_day": "2026-03-20",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260227006996": {
   "stock_code": "156100",
@@ -2965,7 +3531,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-20",
+  "results_in_window": [
+   {
+    "acptno": "20260320001294",
+    "title": "정기주주총회결과",
+    "time": "2026-03-20 16:32",
+    "meeting_day": "2026-03-20",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260305001195": {
   "stock_code": "005860",
@@ -3024,7 +3603,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-20",
+  "results_in_window": [
+   {
+    "acptno": "20260320001467",
+    "title": "정기주주총회결과",
+    "time": "2026-03-20 17:22",
+    "meeting_day": "2026-03-20",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260305000473": {
   "stock_code": "013720",
@@ -3113,7 +3705,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-20",
+  "results_in_window": [
+   {
+    "acptno": "20260320000437",
+    "title": "정기주주총회결과",
+    "time": "2026-03-20 13:33",
+    "meeting_day": "2026-03-20",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260306000378": {
   "stock_code": "215100",
@@ -3132,18 +3737,17 @@
     "acptno": "20260323000629",
     "title": "정기주주총회결과",
     "time": "2026-03-23 14:32",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-23",
+    "charter_rows": 1
    },
    {
     "acptno": "20260508000459",
     "title": "임시주주총회결과",
     "time": "2026-05-08 14:32",
-    "charter_rows": 0,
-    "related_to_notice": false
+    "meeting_day": "2026-05-08",
+    "charter_rows": 0
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-03-23",
   "vote_record_date": "2025-12-31",
@@ -3220,7 +3824,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-23",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260310002638": {
   "stock_code": "397030",
@@ -3297,7 +3904,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-25",
+  "results_in_window": [
+   {
+    "acptno": "20260325000377",
+    "title": "정기주주총회결과",
+    "time": "2026-03-25 13:29",
+    "meeting_day": "2026-03-25",
+    "charter_rows": 3
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260227006575": {
   "stock_code": "095610",
@@ -3368,7 +3988,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-23",
+  "results_in_window": [
+   {
+    "acptno": "20260323000980",
+    "title": "정기주주총회결과",
+    "time": "2026-03-23 15:46",
+    "meeting_day": "2026-03-23",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260306000491": {
   "stock_code": "045100",
@@ -3421,7 +4054,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-23",
+  "results_in_window": [
+   {
+    "acptno": "20260323000536",
+    "title": "정기주주총회결과",
+    "time": "2026-03-23 14:01",
+    "meeting_day": "2026-03-23",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260306000513": {
   "stock_code": "032540",
@@ -3480,7 +4126,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-23",
+  "results_in_window": [
+   {
+    "acptno": "20260323000919",
+    "title": "정기주주총회결과",
+    "time": "2026-03-23 15:29",
+    "meeting_day": "2026-03-23",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260305000078": {
   "stock_code": "155650",
@@ -3557,7 +4216,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-23",
+  "results_in_window": [
+   {
+    "acptno": "20260323001237",
+    "title": "정기주주총회결과",
+    "time": "2026-03-23 16:39",
+    "meeting_day": "2026-03-23",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260306000425": {
   "stock_code": "058630",
@@ -3628,7 +4300,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-23",
+  "results_in_window": [
+   {
+    "acptno": "20260323000571",
+    "title": "정기주주총회결과",
+    "time": "2026-03-23 14:11",
+    "meeting_day": "2026-03-23",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002552": {
   "stock_code": "111710",
@@ -3705,7 +4390,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000764",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 15:25",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260305000484": {
   "stock_code": "079650",
@@ -3758,7 +4456,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000849",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 15:36",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001737": {
   "stock_code": "036480",
@@ -3835,7 +4546,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30",
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324001106",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 16:18",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001513": {
   "stock_code": "061250",
@@ -3900,7 +4624,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30",
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000963",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 16:03",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001320": {
   "stock_code": "239340",
@@ -3971,7 +4708,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000318",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 11:25",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001535": {
   "stock_code": "416180",
@@ -4042,7 +4792,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000637",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 15:16",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002081": {
   "stock_code": "252990",
@@ -4101,7 +4864,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-25",
+  "results_in_window": [
+   {
+    "acptno": "20260325000436",
+    "title": "정기주주총회결과",
+    "time": "2026-03-25 13:57",
+    "meeting_day": "2026-03-25",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001343": {
   "stock_code": "123420",
@@ -4154,7 +4930,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000619",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 14:58",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001432": {
   "stock_code": "088130",
@@ -4219,7 +5008,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000981",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 16:05",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260213000509": {
   "stock_code": "068760",
@@ -4238,18 +5040,17 @@
     "acptno": "20260324001473",
     "title": "정기주주총회결과",
     "time": "2026-03-24 17:42",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
    },
    {
     "acptno": "20260324001776",
     "title": "정기주주총회결과",
     "time": "2026-03-24 18:59",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-24",
   "vote_record_date": "2025-12-31",
@@ -4326,7 +5127,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260309001552": {
   "stock_code": "239610",
@@ -4397,7 +5201,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324001347",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 17:11",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001884": {
   "stock_code": "053270",
@@ -4474,7 +5291,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324001724",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 18:17",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001596": {
   "stock_code": "240810",
@@ -4539,7 +5369,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000425",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 13:40",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001475": {
   "stock_code": "092730",
@@ -4604,7 +5447,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000662",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 15:09",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000905": {
   "stock_code": "054220",
@@ -4623,18 +5479,17 @@
     "acptno": "20260327002172",
     "title": "정기주주총회결과",
     "time": "2026-03-27 16:33",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
    },
    {
     "acptno": "20260526000278",
     "title": "임시주주총회결과",
     "time": "2026-05-26 13:37",
-    "charter_rows": 0,
-    "related_to_notice": false
+    "meeting_day": "2026-05-26",
+    "charter_rows": 0
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-03-27",
   "vote_record_date": "2025-12-31",
@@ -4699,7 +5554,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260227008542": {
   "stock_code": "255220",
@@ -4776,7 +5634,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000557",
+    "title": "정기주주총회결과(제17기)",
+    "time": "2026-03-24 14:49",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001625": {
   "stock_code": "020710",
@@ -4859,7 +5730,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000914",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 15:44",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001265": {
   "stock_code": "051390",
@@ -4924,7 +5808,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 제2-2호 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324001069",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 16:26",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001497": {
   "stock_code": "092870",
@@ -4977,7 +5874,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000725",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 15:12",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001373": {
   "stock_code": "289930",
@@ -5054,7 +5964,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326000727",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 14:05",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002358": {
   "stock_code": "044960",
@@ -5101,7 +6024,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-25",
+  "results_in_window": [
+   {
+    "acptno": "20260325000474",
+    "title": "정기주주총회결과",
+    "time": "2026-03-25 14:14",
+    "meeting_day": "2026-03-25",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260223001900": {
   "stock_code": "027580",
@@ -5190,7 +6126,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": null,
+  "results_in_window": [
+   {
+    "acptno": "20260326001169",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:37",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "관련공시",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002932": {
   "stock_code": "199730",
@@ -5249,7 +6198,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-25",
+  "results_in_window": [
+   {
+    "acptno": "20260325001424",
+    "title": "정기주주총회결과",
+    "time": "2026-03-25 17:52",
+    "meeting_day": "2026-03-25",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260306000883": {
   "stock_code": "008830",
@@ -5326,7 +6288,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001125",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 14:39",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002861": {
   "stock_code": "335810",
@@ -5379,7 +6354,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-25",
+  "results_in_window": [
+   {
+    "acptno": "20260325000894",
+    "title": "정기주주총회결과",
+    "time": "2026-03-25 16:13",
+    "meeting_day": "2026-03-25",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001805": {
   "stock_code": "049720",
@@ -5468,7 +6456,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-25",
+  "results_in_window": [
+   {
+    "acptno": "20260325000553",
+    "title": "정기주주총회결과",
+    "time": "2026-03-25 14:39",
+    "meeting_day": "2026-03-25",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001400": {
   "stock_code": "130740",
@@ -5533,7 +6534,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30",
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326000833",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 14:39",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260224004048": {
   "stock_code": "064240",
@@ -5652,7 +6666,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330002324",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 18:00",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 4
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003428": {
   "stock_code": "078890",
@@ -5717,7 +6744,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-25",
+  "results_in_window": [
+   {
+    "acptno": "20260325001015",
+    "title": "정기주주총회결과",
+    "time": "2026-03-25 16:46",
+    "meeting_day": "2026-03-25",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002788": {
   "stock_code": "049070",
@@ -5800,7 +6840,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-25",
+  "results_in_window": [
+   {
+    "acptno": "20260325000615",
+    "title": "정기주주총회결과",
+    "time": "2026-03-25 15:12",
+    "meeting_day": "2026-03-25",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003160": {
   "stock_code": "095340",
@@ -5919,7 +6972,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 7-7 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002558",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 17:39",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001353": {
   "stock_code": "396470",
@@ -5972,7 +7038,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역' 관련, 당사는 이번 주주총회에서 '정관 일부 변경의 건'을 통해 이익배당 기준일을 이사회 결의로 정하고자 하여 '-'로 표기하였습니다."
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역' 관련, 당사는 이번 주주총회에서 '정관 일부 변경의 건'을 통해 이익배당 기준일을 이사회 결의로 정하고자 하여 '-'로 표기하였습니다.",
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326003583",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 18:37",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316000935": {
   "stock_code": "023770",
@@ -6043,7 +7122,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001229",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:22",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003185": {
   "stock_code": "043370",
@@ -6144,7 +7236,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-3, 2-4 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326000379",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 11:32",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260305000843": {
   "stock_code": "163280",
@@ -6245,7 +7350,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-3호 의안 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002309",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 16:48",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000391": {
   "stock_code": "104830",
@@ -6316,7 +7434,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002632",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 18:09",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003768": {
   "stock_code": "046390",
@@ -6381,7 +7512,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001751",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:10",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000238": {
   "stock_code": "282880",
@@ -6470,7 +7614,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326000845",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 14:33",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004215": {
   "stock_code": "340440",
@@ -6529,7 +7686,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001212",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:19",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004088": {
   "stock_code": "098070",
@@ -6594,7 +7764,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002212",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 17:23",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260303002334": {
   "stock_code": "069080",
@@ -6695,7 +7878,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-1 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001855",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:05",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260225003634": {
   "stock_code": "060250",
@@ -6778,7 +7974,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001836",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 16:53",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004121": {
   "stock_code": "217270",
@@ -6867,7 +8076,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002411",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 17:31",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003604": {
   "stock_code": "309960",
@@ -6932,7 +8154,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002484",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 17:01",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004022": {
   "stock_code": "217820",
@@ -7003,7 +8238,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326003157",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 17:43",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001089": {
   "stock_code": "190510",
@@ -7080,7 +8328,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330000625",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 13:44",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003675": {
   "stock_code": "162300",
@@ -7145,7 +8406,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001330",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:30",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310003086": {
   "stock_code": "014190",
@@ -7222,7 +8496,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001633",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 16:05",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004270": {
   "stock_code": "356680",
@@ -7335,7 +8622,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-1, 2-3 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001686",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 16:38",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004512": {
   "stock_code": "347700",
@@ -7412,7 +8712,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002910",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 18:07",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260306000782": {
   "stock_code": "119500",
@@ -7477,7 +8790,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001607",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:49",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260227007640": {
   "stock_code": "001540",
@@ -7542,7 +8868,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326003484",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 18:39",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004109": {
   "stock_code": "289010",
@@ -7631,7 +8970,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001603",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 16:02",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003959": {
   "stock_code": "115160",
@@ -7696,7 +9048,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30",
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002566",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 17:03",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002775": {
   "stock_code": "391710",
@@ -7715,18 +9080,17 @@
     "acptno": "20260326000973",
     "title": "정기주주총회결과",
     "time": "2026-03-26 14:57",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
    },
    {
     "acptno": "20260330000736",
     "title": "정기주주총회결과",
     "time": "2026-03-30 14:10",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-26",
   "vote_record_date": "2025-12-31",
@@ -7779,7 +9143,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260309001911": {
   "stock_code": "036630",
@@ -7880,7 +9247,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 3 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001929",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 16:30",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004311": {
   "stock_code": "096250",
@@ -7899,18 +9279,17 @@
     "acptno": "20260326001599",
     "title": "정기주주총회결과",
     "time": "2026-03-26 15:50",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
    },
    {
     "acptno": "20260527000446",
     "title": "임시주주총회결과",
     "time": "2026-05-27 15:12",
-    "charter_rows": 0,
-    "related_to_notice": false
+    "meeting_day": "2026-05-27",
+    "charter_rows": 0
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-03-26",
   "vote_record_date": "2025-12-31",
@@ -7963,7 +9342,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-26",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260311003312": {
   "stock_code": "063760",
@@ -8034,7 +9416,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326000952",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 14:48",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003803": {
   "stock_code": "090470",
@@ -8105,7 +9500,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001130",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:36",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004282": {
   "stock_code": "213420",
@@ -8176,7 +9584,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002502",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 17:40",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000628": {
   "stock_code": "457370",
@@ -8253,7 +9674,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327000898",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 14:18",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004525": {
   "stock_code": "053950",
@@ -8272,18 +9706,17 @@
     "acptno": "20260326003505",
     "title": "정기주주총회결과",
     "time": "2026-03-26 18:41",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
    },
    {
     "acptno": "20260526000648",
     "title": "임시주주총회결과",
     "time": "2026-05-26 16:54",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-05-26",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-03-26",
   "vote_record_date": "2025-12-31",
@@ -8366,7 +9799,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n07-01\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n07-01\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-26",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260311004491": {
   "stock_code": "234100",
@@ -8437,21 +9873,32 @@
     "no": "2-1",
     "kind": "특별결의",
     "item": "제2-1호 의안 : 사업목적 추가의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "2-2",
     "kind": "특별결의",
     "item": "제2-2호 의안 : 주식병합에 따른 액면가액 변경",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    }
   ],
   "by_dividend_row": false,
-  "passed": true,
-  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 2-1, 2-2) 모두 가결",
-  "basis_box": null
+  "passed": null,
+  "note": "안건 표에서 정관 안건을 찾지 못함 — 서브에이전트 판별: 소집공고 제2호 의안 '정관 일부변경의 건'의 세부 안건 제2-1호(사업목적 추가)·제2-2호(주식병합에 따른 액면가액 변경)가 결과 표 2-1·2-2 행이고 둘 다 가결됐다. 그러나 대비표에 잡힌 행은 주식병합 기준일 관련 부칙과 권리배정기준일뿐이고 결산배당 기준일 조항 변경은 보이지 않아 해당 행을 정하지 못했다.",
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002666",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 17:05",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260311003326": {
   "stock_code": "019550",
@@ -8600,7 +10047,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326000843",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 14:28",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 6
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004359": {
   "stock_code": "115180",
@@ -8683,7 +10143,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002787",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 17:19",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004581": {
   "stock_code": "053300",
@@ -8772,7 +10245,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002305",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 17:03",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002904": {
   "stock_code": "101160",
@@ -8843,7 +10329,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326003404",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 18:37",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260303002692": {
   "stock_code": "086060",
@@ -8908,7 +10407,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 5-2 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326003409",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 18:39",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004357": {
   "stock_code": "052860",
@@ -8967,7 +10479,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002125",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 16:31",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003165": {
   "stock_code": "044490",
@@ -9026,7 +10551,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326003375",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 17:52",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003987": {
   "stock_code": "048770",
@@ -9085,7 +10623,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326000975",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 14:57",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002712": {
   "stock_code": "373200",
@@ -9174,35 +10725,44 @@
     "no": "6-1",
     "kind": "특별결의",
     "item": "사업목적 추가",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "6-2",
     "kind": "특별결의",
     "item": "사채 액면총액 증액",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "6-3",
     "kind": "특별결의",
     "item": "기타 상법 개정으로 인한 내용 반영",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "6-4",
     "kind": "특별결의",
     "item": "액면가 100원에서 500원으로 변경",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": true,
-  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 6-1, 6-2, 6-3, 6-4) 모두 가결",
-  "basis_box": null
+  "note": "서브에이전트 판별: 배당기준일 안건 6-3 가결 — 소집공고 제6호 의안 '정관 변경의 건'의 제6-1~6-4호가 결과 표 6-1~6-4에 같은 제목으로 대응하고, 기준일 조항(제14조 주주명부의 폐쇄 및 기준일, 정지기간 삭제)은 사업목적·사채·액면가가 아니므로 제6-3호 '기타 상법 개정으로 인한 내용 반영'에 든 것으로 보며, 6-1~6-4 모두 가결이다.",
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001015",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:06",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260311004421": {
   "stock_code": "134580",
@@ -9267,7 +10827,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326000678",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 13:53",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002964": {
   "stock_code": "140860",
@@ -9347,10 +10920,23 @@
     "result": "부결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": null,
-  "note": "판정 안건 중 가결 아닌 것 있음 — 세부 안건 확인 필요",
-  "basis_box": null
+  "note": "판정 안건 중 가결 아닌 것 있음 — 서브에이전트 판별: 소집공고 제6호 의안 '정관일부 개정의 건'(세부 안건 없음)이 결과 표 6 '정관 일부 개정의 건'에 대응하며, 세부 안건으로 나뉘지 않아 배당 관련 조항(제8조의2 종류주식 배당 등)도 이 행에 들었고 결과는 부결(행사 주식 기준 찬성 57.7%)이다.",
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001243",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:41",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260311003695": {
   "stock_code": "109080",
@@ -9517,7 +11103,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-1호 의안, 2-4호 의안, 2-12호 의안 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001016",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:10",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 3
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260304001348": {
   "stock_code": "300080",
@@ -9600,7 +11199,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 제2-1호 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327000683",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 13:23",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002275": {
   "stock_code": "311320",
@@ -9665,7 +11277,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30",
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327000976",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 14:22",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003633": {
   "stock_code": "148930",
@@ -9736,7 +11361,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327002314",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:42",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003954": {
   "stock_code": "096530",
@@ -9825,7 +11463,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327002536",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 17:15",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000274": {
   "stock_code": "424980",
@@ -9884,7 +11535,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327000795",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 13:59",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001370": {
   "stock_code": "263700",
@@ -9985,7 +11649,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001368",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 15:10",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000150": {
   "stock_code": "333050",
@@ -10074,7 +11751,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-7호 의안 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327000929",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 14:11",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260226004626": {
   "stock_code": "189330",
@@ -10169,7 +11859,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330000867",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 14:36",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003645": {
   "stock_code": "040610",
@@ -10252,7 +11955,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327002125",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:40",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 3
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000646": {
   "stock_code": "131370",
@@ -10311,7 +12027,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327002203",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 17:00",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312001047": {
   "stock_code": "018680",
@@ -10388,7 +12117,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001912",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:47",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316000768": {
   "stock_code": "0082N0",
@@ -10402,7 +12144,15 @@
   "result_time": "2026-03-30 11:23",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330000348",
   "n_results_in_window": 1,
-  "results_in_window": null,
+  "results_in_window": [
+   {
+    "acptno": "20260330000348",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 11:23",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
   "ambiguous": false,
   "agm_date": "2026-03-30",
   "vote_record_date": "2025-12-31",
@@ -10449,7 +12199,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260311004259": {
   "stock_code": "478340",
@@ -10502,7 +12255,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330000577",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 13:42",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260317000776": {
   "stock_code": "290740",
@@ -10579,7 +12345,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001282",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 15:04",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000550": {
   "stock_code": "159580",
@@ -10650,7 +12429,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327000774",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 13:56",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260304001428": {
   "stock_code": "011080",
@@ -10669,18 +12461,17 @@
     "acptno": "20260327003021",
     "title": "정기주주총회결과(제50기 정기주주총회)",
     "time": "2026-03-27 18:09",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
    },
    {
     "acptno": "20260330000428",
     "title": "정기주주총회결과(제50기 정기주주총회)",
     "time": "2026-03-30 11:40",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-27",
   "vote_record_date": "2025-12-31",
@@ -10769,7 +12560,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260313000017": {
   "stock_code": "204020",
@@ -10840,7 +12634,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001014",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 14:18",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002175": {
   "stock_code": "405000",
@@ -10899,7 +12706,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001482",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 15:27",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260213002006": {
   "stock_code": "342870",
@@ -10918,18 +12738,17 @@
     "acptno": "20260303000397",
     "title": "임시주주총회결과",
     "time": "2026-03-03 14:25",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-03",
+    "charter_rows": 1
    },
    {
     "acptno": "20260327003214",
     "title": "정기주주총회결과",
     "time": "2026-03-27 18:14",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-03-03",
   "vote_record_date": "2026-01-28",
@@ -10952,7 +12771,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n06-30\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n06-30\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30",
+  "meeting_day": "2026-03-03",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260312000186": {
   "stock_code": "222980",
@@ -11017,7 +12839,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001875",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:03",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312001380": {
   "stock_code": "194700",
@@ -11148,7 +12983,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-4 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001864",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 15:58",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002939": {
   "stock_code": "061040",
@@ -11243,7 +13091,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-2 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n06-30\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n06-30\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001486",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 15:23",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000743": {
   "stock_code": "021320",
@@ -11314,7 +13175,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001964",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:32",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003924": {
   "stock_code": "018620",
@@ -11397,7 +13271,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001544",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 15:38",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004185": {
   "stock_code": "032300",
@@ -11492,7 +13379,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 제2-3호의안 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001527",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 15:50",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000194": {
   "stock_code": "049520",
@@ -11569,7 +13469,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327002241",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 17:05",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312001360": {
   "stock_code": "114450",
@@ -11634,7 +13547,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001796",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:49",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001332": {
   "stock_code": "265520",
@@ -11705,7 +13631,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327000439",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 11:25",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260226006100": {
   "stock_code": "115450",
@@ -11830,7 +13769,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327002612",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 17:41",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 5
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312001002": {
   "stock_code": "095660",
@@ -11961,7 +13913,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327002919",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 17:36",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000809": {
   "stock_code": "241520",
@@ -12038,7 +14003,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001010",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 14:16",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000271": {
   "stock_code": "077360",
@@ -12057,25 +14035,24 @@
     "acptno": "20260327000878",
     "title": "정기주주총회결과",
     "time": "2026-03-27 14:01",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
    },
    {
     "acptno": "20260529000456",
     "title": "임시주주총회결과",
     "time": "2026-05-29 11:20",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-05-29",
+    "charter_rows": 1
    },
    {
     "acptno": "20260529000694",
     "title": "임시주주총회결과",
     "time": "2026-05-29 13:27",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-05-29",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-03-27",
   "vote_record_date": "2025-12-31",
@@ -12128,7 +14105,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260305001064": {
   "stock_code": "042420",
@@ -12187,21 +14167,32 @@
     "no": "2-1",
     "kind": "특별결의",
     "item": "상법 개정 반영의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "2-2",
     "kind": "특별결의",
     "item": "기타 조문 정비의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": true,
-  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 2-1, 2-2) 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "note": "서브에이전트 판별: 배당기준일 안건 2-2 가결 — 소집공고 제2호 의안 '정관 일부 변경의 건'의 제2-1호(개정 상법 반영)·제2-2호(기타 정관 변경)가 결과 표 2-1 '상법 개정 반영의 건'·2-2 '기타 조문 정비의 건'에 대응하고, 대비표의 배당 관련 조항(제44조 이익금 처분, 제45조의2 분기배당 → 중간배당·이사회 기준일)은 제2-2호에 들었으며 2-1·2-2 모두 가결이다.",
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327002928",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 17:36",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260312000573": {
   "stock_code": "067170",
@@ -12220,18 +14211,17 @@
     "acptno": "20260327002714",
     "title": "정기주주총회결과",
     "time": "2026-03-27 17:59",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
    },
    {
     "acptno": "20260515001864",
     "title": "임시주주총회결과",
     "time": "2026-05-15 16:15",
-    "charter_rows": 0,
-    "related_to_notice": false
+    "meeting_day": "2026-05-15",
+    "charter_rows": 0
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-03-27",
   "vote_record_date": "2025-12-31",
@@ -12332,7 +14322,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260313000073": {
   "stock_code": "475660",
@@ -12409,7 +14402,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331000923",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 13:33",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000182": {
   "stock_code": "041930",
@@ -12462,7 +14468,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330000522",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 13:13",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000477": {
   "stock_code": "193250",
@@ -12551,28 +14570,38 @@
     "no": "제2-1호",
     "kind": "특별결의",
     "item": "사업목적 추가의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제2-2호",
     "kind": "특별결의",
     "item": "주식 병합의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제2-3호",
     "kind": "특별결의",
     "item": "기타 조문 정비의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    }
   ],
   "by_dividend_row": false,
-  "passed": true,
-  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 제2-1호, 제2-2호, 제2-3호) 모두 가결",
-  "basis_box": null
+  "passed": null,
+  "note": "안건 표에서 정관 안건을 찾지 못함 — 서브에이전트 판별: 소집공고 제2호 의안 '정관 일부 변경의 건'의 제2-1호(사업목적 추가)·제2-2호(주식병합)·제2-3호(기타 조문 정비)가 결과 표 제2-1~2-3호이고 모두 가결됐다. 대비표에 잡힌 행은 주식병합의 신주배정 기준일·효력발생일뿐이고 결산배당 기준일 조항 변경은 보이지 않아 해당 행을 정하지 못했다.",
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330000832",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 14:36",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260312000622": {
   "stock_code": "054050",
@@ -12667,7 +14696,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001118",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 15:35",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000396": {
   "stock_code": "114840",
@@ -12686,18 +14728,17 @@
     "acptno": "20260327001404",
     "title": "정기주주총회결과",
     "time": "2026-03-27 15:22",
-    "charter_rows": 3,
-    "related_to_notice": true
+    "meeting_day": "2026-03-27",
+    "charter_rows": 3
    },
    {
     "acptno": "20260513000536",
     "title": "임시주주총회결과",
     "time": "2026-05-13 14:52",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-05-13",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-03-27",
   "vote_record_date": "2025-12-31",
@@ -12810,7 +14851,10 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 4-5, 4-6, 4-7 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-27",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260306000222": {
   "stock_code": "014950",
@@ -12875,35 +14919,44 @@
     "no": "2-1",
     "kind": "특별결의",
     "item": "사업목적 추가",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "2-2",
     "kind": "특별결의",
     "item": "이사의 보수한도",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "2-3",
     "kind": "특별결의",
     "item": "감사의 보수한도",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "2-4",
     "kind": "특별결의",
     "item": "관련 법령 반영 및 조문 정비",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": true,
-  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 2-1, 2-2, 2-3, 2-4) 모두 가결",
-  "basis_box": null
+  "note": "서브에이전트 판별: 배당기준일 안건 2-4 가결 — 소집공고 제2호 의안 '정관 일부 변경의 건'의 제2-1~2-4호가 결과 표 2-1~2-4에 같은 제목으로 대응하고, 기준일·배당 조항(제12조 동등배당, 제14조 주주명부의 폐쇄 및 기준일, 제49조 분기배당)은 목적이 '자본시장법 개정안 적용'·'조문 정리'라 제2-4호 '관련 법령 반영 및 조문 정비'에 들었으며 가결됐다.",
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331000473",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 11:06",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260313000357": {
   "stock_code": "067920",
@@ -12980,7 +15033,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001234",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:26",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000191": {
   "stock_code": "051160",
@@ -13051,7 +15117,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330000565",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 13:37",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313001141": {
   "stock_code": "277810",
@@ -13116,7 +15195,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001445",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:25",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312001306": {
   "stock_code": "042510",
@@ -13187,7 +15279,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001559",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:34",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000356": {
   "stock_code": "053800",
@@ -13252,7 +15357,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331000763",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 12:19",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002938": {
   "stock_code": "038500",
@@ -13359,7 +15477,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001351",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:09",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313001228": {
   "stock_code": "033340",
@@ -13430,7 +15561,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n06-30\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n06-30\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001279",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:05",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312001160": {
   "stock_code": "476080",
@@ -13507,7 +15651,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001252",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 15:52",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000684": {
   "stock_code": "035620",
@@ -13526,18 +15683,17 @@
     "acptno": "20260330002264",
     "title": "정기주주총회결과",
     "time": "2026-03-30 17:53",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
    },
    {
     "acptno": "20260330002430",
     "title": "정기주주총회결과",
     "time": "2026-03-30 19:42",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-30",
   "vote_record_date": "2025-12-31",
@@ -13617,10 +15773,13 @@
     "result": "부결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": null,
-  "note": "판정 안건 중 가결 아닌 것 있음 — 세부 안건 확인 필요",
-  "basis_box": null
+  "note": "판정 안건 중 가결 아닌 것 있음 — 서브에이전트 판별: 소집공고 제1호 의안 '정관 일부 변경의 건'(세부 안건 없음)이 결과 표 1호 '정관 일부 변경의 건'이고 결과는 부결이다(행사 주식 기준 찬성 88.2%이나 발행주식 기준 31.2%로 특별결의 미달). 대비표 파일이 없어 기준일 조항 내용은 확인하지 못했으나 정관 안건이 하나뿐이라 그 행으로 정했다.",
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "match_by": "주총일",
+  "judged_by": "서브에이전트"
  },
  "20260313000809": {
   "stock_code": "448900",
@@ -13703,7 +15862,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001912",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 17:36",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000436": {
   "stock_code": "099430",
@@ -13786,7 +15958,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001540",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:28",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000133": {
   "stock_code": "065530",
@@ -13833,7 +16018,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330000992",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 15:26",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000946": {
   "stock_code": "405920",
@@ -13892,7 +16090,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001908",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 17:03",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000817": {
   "stock_code": "294140",
@@ -13957,7 +16168,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001568",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:23",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313001116": {
   "stock_code": "032680",
@@ -14010,7 +16234,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330000910",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 14:47",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260209000735": {
   "stock_code": "053350",
@@ -14029,18 +16266,17 @@
     "acptno": "20260224001015",
     "title": "임시주주총회결과",
     "time": "2026-02-24 17:06",
-    "charter_rows": 0,
-    "related_to_notice": false
+    "meeting_day": "2026-02-24",
+    "charter_rows": 1
    },
    {
     "acptno": "20260330001343",
     "title": "정기주주총회결과",
     "time": "2026-03-30 16:06",
-    "charter_rows": 0,
-    "related_to_notice": false
+    "meeting_day": "2026-03-30",
+    "charter_rows": 0
    }
   ],
-  "matched_by_related": false,
   "ambiguous": false,
   "agm_date": "2026-02-24",
   "vote_record_date": null,
@@ -14087,7 +16323,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-02-24",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260313001146": {
   "stock_code": "214680",
@@ -14218,7 +16457,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001745",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 17:02",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001069": {
   "stock_code": "475460",
@@ -14295,7 +16547,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331003742",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 17:58",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260319001323": {
   "stock_code": "158430",
@@ -14384,7 +16649,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-4 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330002037",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 17:40",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260120000305": {
   "stock_code": "036690",
@@ -14403,27 +16681,36 @@
     "acptno": "20260204000503",
     "title": "임시주주총회결과",
     "time": "2026-02-04 14:51",
-    "charter_rows": 0,
-    "related_to_notice": true
+    "meeting_day": "2026-02-04",
+    "charter_rows": 0
    },
    {
     "acptno": "20260330001444",
     "title": "정기주주총회결과",
     "time": "2026-03-30 16:46",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-02-04",
   "vote_record_date": null,
   "rows": [],
-  "charter_rows": [],
-  "by_dividend_row": false,
-  "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
-  "basis_box": null
+  "charter_rows": [
+   {
+    "no": "제1호 의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "by_dividend_row": true,
+  "passed": true,
+  "note": "서브에이전트 판별: 배당기준일 안건 제1호 의안 가결 — 소집공고 제1호 의안 '정관 변경의 건'(세부 안건 없음)이 결과 글의 '제1호 의안 : 정관 변경의 건'에 대응하며 '원안대로 가결'이다. 대비표의 배당 조항은 제46조(이익배당) → 제52조로 조항번호만 바뀌고 '매 결산기말 현재' 기준 문구는 그대로다.",
+  "basis_box": null,
+  "meeting_day": "2026-02-04",
+  "match_by": "주총일",
+  "judged_by": "서브에이전트"
  },
  "20260313000513": {
   "stock_code": "036690",
@@ -14488,7 +16775,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001444",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:46",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313001027": {
   "stock_code": "123010",
@@ -14507,25 +16807,24 @@
     "acptno": "20260330002272",
     "title": "정기주주총회결과",
     "time": "2026-03-30 17:48",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
    },
    {
     "acptno": "20260413000510",
     "title": "정기주주총회결과",
     "time": "2026-04-13 15:52",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
    },
    {
     "acptno": "20260529001930",
     "title": "임시주주총회결과",
     "time": "2026-05-29 17:26",
-    "charter_rows": 0,
-    "related_to_notice": false
+    "meeting_day": "2026-05-29",
+    "charter_rows": 0
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-30",
   "vote_record_date": "2025-12-31",
@@ -14596,7 +16895,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260313000376": {
   "stock_code": "234030",
@@ -14667,7 +16969,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001726",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:49",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000994": {
   "stock_code": "270870",
@@ -14732,7 +17047,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001353",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:20",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001597": {
   "stock_code": "227950",
@@ -14827,7 +17155,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331002364",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 16:37",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001593": {
   "stock_code": "418550",
@@ -14898,7 +17239,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331004164",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 18:06",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001518": {
   "stock_code": "053060",
@@ -14987,7 +17341,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-4 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001283",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 14:41",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000679": {
   "stock_code": "474170",
@@ -15046,7 +17413,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001185",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 14:08",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316000766": {
   "stock_code": "215480",
@@ -15065,18 +17445,17 @@
     "acptno": "20260331002209",
     "title": "정기주주총회결과",
     "time": "2026-03-31 15:30",
-    "charter_rows": 3,
-    "related_to_notice": true
+    "meeting_day": "2026-03-31",
+    "charter_rows": 3
    },
    {
     "acptno": "20260514000565",
     "title": "임시주주총회결과",
     "time": "2026-05-14 14:47",
-    "charter_rows": 0,
-    "related_to_notice": false
+    "meeting_day": "2026-05-14",
+    "charter_rows": 0
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-03-31",
   "vote_record_date": "2025-12-31",
@@ -15225,7 +17604,10 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 제4-2호, 제4-3호, 제4-15호 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30",
+  "meeting_day": "2026-03-31",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260316000283": {
   "stock_code": "081180",
@@ -15296,7 +17678,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001326",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 14:36",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001247": {
   "stock_code": "044480",
@@ -15379,7 +17774,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331000921",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 13:19",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001640": {
   "stock_code": "042370",
@@ -15480,7 +17888,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 제2-7호 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331002380",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:49",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002994": {
   "stock_code": "066700",
@@ -15581,7 +18002,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-4 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001788",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:00",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316000758": {
   "stock_code": "023790",
@@ -15646,7 +18080,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001956",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:16",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316000909": {
   "stock_code": "310200",
@@ -15717,7 +18164,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331004093",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 17:35",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260105000376": {
   "stock_code": "195990",
@@ -15731,7 +18191,7 @@
   "result_time": "2026-01-23 14:49",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260123000326",
   "n_results_in_window": 1,
-  "agm_date": null,
+  "agm_date": "2026-01-23",
   "vote_record_date": null,
   "rows": [
    {
@@ -15842,84 +18302,86 @@
     "no": "제1-1호",
     "kind": "",
     "item": "제17조(주주명부의 폐쇄)",
-    "result": "부결",
-    "via": "notice_no"
+    "result": "부결"
    },
    {
     "no": "제1-2호",
     "kind": "",
     "item": "제26조(소집지)",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제1-3호",
     "kind": "",
     "item": "제33조(의결권의 대리행사)",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제1-4호",
     "kind": "",
     "item": "제35조(이사의 수 및 선임)",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제1-5호",
     "kind": "",
     "item": "제40조 (이사의 의무)",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제1-6호",
     "kind": "",
     "item": "제47조의2(이사의 책임감경)",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제1-7호",
     "kind": "",
     "item": "제48조(감사위원회의 구성)",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제1-8호",
     "kind": "",
     "item": "제48조의2 (감사위원의 분리선임·해임)",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제1-9호",
     "kind": "",
     "item": "제49조(감사위원회 대표의 선임)",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제1-10호",
     "kind": "",
     "item": "제54조(사업연도)",
-    "result": "부결",
-    "via": "notice_no"
+    "result": "부결"
    },
    {
     "no": "제1-11호",
     "kind": "",
     "item": "부 칙",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": null,
-  "note": "판정 안건 중 가결 아닌 것 있음 — 세부 안건 확인 필요",
-  "basis_box": null
+  "note": "판정 안건 중 가결 아닌 것 있음 — 서브에이전트 판별: 정정 소집공고 제1호 의안 '정관 일부 변경의 건'이 결과 표의 조문별 행 제1-1호~제1-11호에 대응하고, 기준일 조항(제17조 주주명부의 폐쇄: 12월 31일 → 3월 31일 기준일, 폐쇄 조항 삭제)은 제1-1호에 들었는데 부결됐다(관련 제54조 사업연도 변경 제1-10호도 부결).",
+  "basis_box": null,
+  "meeting_day": null,
+  "results_in_window": [
+   {
+    "acptno": "20260123000326",
+    "title": "임시주주총회결과",
+    "time": "2026-01-23 14:49",
+    "meeting_day": "2026-01-23",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "관련공시",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260316000650": {
   "stock_code": "239890",
@@ -15978,7 +18440,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001977",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:22",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001497": {
   "stock_code": "452450",
@@ -16169,7 +18644,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-3, 2-13 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001451",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 14:48",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000012": {
   "stock_code": "430690",
@@ -16222,21 +18710,32 @@
     "no": "2-1",
     "kind": "특별결의",
     "item": "[제2-1호 의안] 상법 개정에 따른 변경의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "2-2",
     "kind": "특별결의",
     "item": "[제2-2호 의안] 이사의 보수 관련 조항 변경의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": true,
-  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 2-1, 2-2) 모두 가결",
-  "basis_box": null
+  "note": "서브에이전트 판별: 배당기준일 안건 2-1 가결 — 소집공고 제2호 의안 '정관 일부 변경의 건'의 제2-1호(상법 개정에 따른 변경)·제2-2호(이사의 보수 관련 조항 변경)가 결과 표 2-1·2-2 행이다. 제54조(이익배당)·제14조(주주명부) 정비는 이사 보수와 무관하므로 2-1에 든 것으로 보았고, 2-1은 가결됐다(2-2도 가결이라 결과는 같다).",
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331000920",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 13:37",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260312000311": {
   "stock_code": "451760",
@@ -16319,7 +18818,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001691",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:21",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316000622": {
   "stock_code": "486990",
@@ -16390,7 +18902,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331000934",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 13:39",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004425": {
   "stock_code": "459510",
@@ -16409,18 +18934,17 @@
     "acptno": "20260331003482",
     "title": "정기주주총회결과",
     "time": "2026-03-31 17:23",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
    },
    {
     "acptno": "20260518000701",
     "title": "임시주주총회결과",
     "time": "2026-05-18 16:28",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-05-18",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-03-31",
   "vote_record_date": "2025-12-31",
@@ -16455,7 +18979,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260316001294": {
   "stock_code": "035290",
@@ -16474,18 +19001,17 @@
     "acptno": "20260331002499",
     "title": "정기주주총회결과",
     "time": "2026-03-31 16:49",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
    },
    {
     "acptno": "20260430000834",
     "title": "임시주주총회결과",
     "time": "2026-04-30 15:22",
-    "charter_rows": 1,
-    "related_to_notice": false
+    "meeting_day": "2026-04-30",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": false,
   "agm_date": "2026-03-31",
   "vote_record_date": "2025-12-31",
@@ -16538,7 +19064,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260316000867": {
   "stock_code": "204620",
@@ -16591,7 +19120,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331002166",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 16:14",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316000325": {
   "stock_code": "398120",
@@ -16668,7 +19210,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001278",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 14:21",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 3
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260317000300": {
   "stock_code": "217190",
@@ -16687,18 +19242,17 @@
     "acptno": "20260331001316",
     "title": "정기주주총회결과",
     "time": "2026-03-31 14:26",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
    },
    {
     "acptno": "20260331004712",
     "title": "정기주주총회결과",
     "time": "2026-03-31 18:45",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-31",
   "vote_record_date": "2025-12-31",
@@ -16745,7 +19299,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260316001079": {
   "stock_code": "205470",
@@ -16828,7 +19385,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331002210",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:30",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316000122": {
   "stock_code": "074600",
@@ -16893,7 +19463,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331003743",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 17:45",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000306": {
   "stock_code": "355390",
@@ -16958,7 +19541,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001348",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 14:25",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001259": {
   "stock_code": "052300",
@@ -17041,7 +19637,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331002028",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:55",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260317000399": {
   "stock_code": "274090",
@@ -17115,16 +19724,41 @@
     "result": "부결"
    },
    {
+    "no": "2-1",
+    "kind": "특별결의",
+    "item": "제2-1호: 개정 상법 반영",
+    "result": "부결"
+   },
+   {
+    "no": "2-2",
+    "kind": "특별결의",
+    "item": "제2-2호: 전환사채 발행한도 변경",
+    "result": "부결"
+   },
+   {
     "no": "2-3",
     "kind": "특별결의",
     "item": "제2-3호: 기타 정관 변경",
     "result": "부결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": null,
-  "note": "판정 안건 중 가결 아닌 것 있음 — 세부 안건 확인 필요",
-  "basis_box": null
+  "note": "판정 안건 중 가결 아닌 것 있음 — 서브에이전트 판별: 소집공고 제2호 의안 '정관 일부 변경의 건'과 세부 안건 제2-1호(개정 상법 반영)·2-2호(전환사채 발행한도)·2-3호(기타 정관 변경)가 결과 표 2·2-1·2-2·2-3 행이다. 대비표에서 제16조(주주명부의 기준일)·제54조(이익배당) 변경은 '제2-3호: 기타 정관 변경' 아래 '표준정관 반영'으로 들어 있고, 2-3은 의결정족수 미달로 부결됐다(정관 안건 전부 부결).",
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331004145",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 18:02",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260313000628": {
   "stock_code": "214150",
@@ -17213,7 +19847,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001151",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 14:03",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001456": {
   "stock_code": "293780",
@@ -17266,7 +19913,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001759",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:05",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001527": {
   "stock_code": "178320",
@@ -17331,7 +19991,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331002981",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 16:27",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001556": {
   "stock_code": "305090",
@@ -17396,7 +20069,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331003364",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 16:46",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000883": {
   "stock_code": "419540",
@@ -17449,7 +20135,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001214",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 14:27",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001218": {
   "stock_code": "196170",
@@ -17562,7 +20261,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331003683",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 17:45",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 3
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260305000402": {
   "stock_code": "059090",
@@ -17581,18 +20293,17 @@
     "acptno": "20260331004459",
     "title": "정기주주총회결과",
     "time": "2026-03-31 18:03",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
    },
    {
     "acptno": "20260401000174",
     "title": "정기주주총회결과",
     "time": "2026-04-01 09:33",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-31",
   "vote_record_date": "2025-12-31",
@@ -17699,7 +20410,10 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-4 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260316000911": {
   "stock_code": "091440",
@@ -17818,7 +20532,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 제2-3호 의안 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331002356",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:47",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001366": {
   "stock_code": "314140",
@@ -17907,7 +20634,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331000868",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 13:11",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000567": {
   "stock_code": "317530",
@@ -17984,7 +20724,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001304",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 14:23",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260303002812": {
   "stock_code": "032820",
@@ -18073,7 +20826,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331002922",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 16:47",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316000897": {
   "stock_code": "028300",
@@ -18192,7 +20958,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 4-6 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331000515",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 11:13",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316000313": {
   "stock_code": "050960",
@@ -18257,7 +21036,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": null,
+  "results_in_window": [
+   {
+    "acptno": "20260331001031",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 13:58",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "관련공시",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316000454": {
   "stock_code": "489460",
@@ -18328,7 +21120,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331003294",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 16:37",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001244": {
   "stock_code": "066790",
@@ -18420,10 +21225,23 @@
     "result": "미결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": null,
-  "note": "판정 안건 중 가결 아닌 것 있음 — 세부 안건 확인 필요",
-  "basis_box": null
+  "note": "판정 안건 중 가결 아닌 것 있음 — 서브에이전트 판별: 소집공고 발췌에는 제3·4호 의안만 보이지만 결과 표의 정관 안건은 2번 '정관 일부 변경의 건' 하나뿐(세부 안건 없음)이라 이 행으로 정했고, 결과는 미결(의결정족수 부족으로 불성립)이다. 대비표 발췌는 감자 기준일 표뿐이라 기준일 조항 내용은 확인하지 못했다.",
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260401000002",
+    "title": "정기주주총회결과",
+    "time": "2026-04-01 07:40",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260313000826": {
   "stock_code": "180400",
@@ -18506,7 +21324,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331004776",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 19:48",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002877": {
   "stock_code": "290650",
@@ -18613,42 +21444,50 @@
     "no": "2-1호 의안",
     "kind": "특별결의",
     "item": "주식등의 전자등록 관련 조문 정비의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "2-2호 의안",
     "kind": "특별결의",
     "item": "자기주식 소각 및 관리 근거 마련의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "2-3호 의안",
     "kind": "특별결의",
     "item": "사채 발행 한도 변경의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "2-4호 의안",
     "kind": "특별결의",
     "item": "상법 개정 내용 반영의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "2-5호 의안",
     "kind": "특별결의",
     "item": "이사의 책임감경 조문 신설의 건",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": true,
-  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 2-1호 의안, 2-2호 의안, 2-3호 의안, 2-4호 의안, 2-5호 의안) 모두 가결",
-  "basis_box": null
+  "note": "서브에이전트 판별: 배당기준일 안건 2-1호 의안 가결 — 소집공고 제2호 의안 '정관 일부 변경의 건'의 제2-1~2-5호가 결과 표 2-1호~2-5호 의안에 같은 제목으로 대응하고, 기준일 조항(제13조 주주명부의 폐쇄 및 기준일 → 기준일, 폐쇄 항 삭제)은 목적이 '주식등의 전자등록 관련 조문 정비'라 2-1호 의안에 들었으며 가결됐다.",
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001965",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:21",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260316001692": {
   "stock_code": "307180",
@@ -18719,7 +21558,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331002612",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 16:02",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001202": {
   "stock_code": "083660",
@@ -18796,7 +21648,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331002694",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 17:03",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260305000959": {
   "stock_code": "450950",
@@ -18861,7 +21726,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-24",
+  "results_in_window": [
+   {
+    "acptno": "20260324000590",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 14:43",
+    "meeting_day": "2026-03-24",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260305000091": {
   "stock_code": "024060",
@@ -18920,7 +21798,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001774",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:17",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001350": {
   "stock_code": "041460",
@@ -19015,7 +21906,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331003103",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 16:59",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002434": {
   "stock_code": "368600",
@@ -19068,7 +21972,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331000824",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 12:53",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004419": {
   "stock_code": "007330",
@@ -19087,18 +22004,17 @@
     "acptno": "20260326002424",
     "title": "정기주주총회결과",
     "time": "2026-03-26 16:59",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
    },
    {
     "acptno": "20260408000841",
     "title": "정기주주총회결과",
     "time": "2026-04-08 15:01",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-26",
   "vote_record_date": "2025-12-31",
@@ -19145,7 +22061,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260311003393": {
   "stock_code": "009300",
@@ -19164,18 +22083,17 @@
     "acptno": "20260327002284",
     "title": "정기주주총회결과",
     "time": "2026-03-27 16:53",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
    },
    {
     "acptno": "20260330000211",
     "title": "정기주주총회결과",
     "time": "2026-03-30 10:52",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-27",
   "vote_record_date": "2025-12-31",
@@ -19240,7 +22158,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260316001073": {
   "stock_code": "029480",
@@ -19299,7 +22220,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n12-31\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331001890",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:04",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260309001546": {
   "stock_code": "382480",
@@ -19370,7 +22304,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 4-4 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326003365",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 18:06",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260310002079": {
   "stock_code": "060850",
@@ -19435,7 +22382,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-25",
+  "results_in_window": [
+   {
+    "acptno": "20260325000506",
+    "title": "정기주주총회결과",
+    "time": "2026-03-25 14:24",
+    "meeting_day": "2026-03-25",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000562": {
   "stock_code": "469750",
@@ -19500,7 +22460,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n-\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330002256",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 18:02",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004051": {
   "stock_code": "003100",
@@ -19583,7 +22556,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326002104",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 16:43",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260224001227": {
   "stock_code": "119610",
@@ -19660,7 +22646,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001731",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 16:09",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311003951": {
   "stock_code": "109860",
@@ -19679,18 +22678,17 @@
     "acptno": "20260326000325",
     "title": "정기주주총회결과",
     "time": "2026-03-26 11:07",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
    },
    {
     "acptno": "20260331003365",
     "title": "정기주주총회결과",
     "time": "2026-03-31 16:38",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-26",
   "vote_record_date": "2025-12-31",
@@ -19731,7 +22729,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260313000199": {
   "stock_code": "464490",
@@ -19778,7 +22779,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "results_in_window": [
+   {
+    "acptno": "20260330001238",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:29",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260313000924": {
   "stock_code": "108230",
@@ -19797,18 +22811,17 @@
     "acptno": "20260330001606",
     "title": "정기주주총회결과",
     "time": "2026-03-30 16:46",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
    },
    {
     "acptno": "20260330002204",
     "title": "정기주주총회결과",
     "time": "2026-03-30 17:54",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-30",
   "vote_record_date": "2025-12-31",
@@ -19861,7 +22874,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-30",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260306000910": {
   "stock_code": "382150",
@@ -19926,7 +22942,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001076",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 14:33",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000177": {
   "stock_code": "115480",
@@ -19979,7 +23008,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326001692",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:50",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260311004179": {
   "stock_code": "242040",
@@ -20041,10 +23083,23 @@
     "result": "미결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": null,
-  "note": "판정 안건 중 가결 아닌 것 있음 — 세부 안건 확인 필요",
-  "basis_box": null
+  "note": "판정 안건 중 가결 아닌 것 있음 — 서브에이전트 판별: 소집공고 제2호 의안 '정관일부변경의 건'(세부 안건 없음, 제17조 주주명부 폐쇄 및 기준일 조항 변경 포함)이 결과 표 제2호의안 '정관 변경의 건'이며, 결과가 '미결'(비고: 의결정족수 미달로 부결)이라 가결되지 않았다. 다만 대비표상 변경은 주주명부 폐쇄 규정 삭제이고 12월 31일 기준일은 그대로다.",
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001823",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:50",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  },
  "20260304000915": {
   "stock_code": "066590",
@@ -20115,7 +23170,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-19",
+  "results_in_window": [
+   {
+    "acptno": "20260319000629",
+    "title": "정기주주총회결과",
+    "time": "2026-03-19 14:51",
+    "meeting_day": "2026-03-19",
+    "charter_rows": 2
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312000845": {
   "stock_code": "376900",
@@ -20228,7 +23296,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "results_in_window": [
+   {
+    "acptno": "20260331003907",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 18:04",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 4
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260605000378": {
   "stock_code": "020180",
@@ -20305,7 +23386,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-3 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-06-26",
+  "results_in_window": [
+   {
+    "acptno": "20260626000685",
+    "title": "정기주주총회결과",
+    "time": "2026-06-26 15:25",
+    "meeting_day": "2026-06-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260316001147": {
   "stock_code": "095270",
@@ -20324,18 +23418,17 @@
     "acptno": "20260331001921",
     "title": "정기주주총회결과",
     "time": "2026-03-31 15:28",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
    },
    {
     "acptno": "20260414000372",
     "title": "정기주주총회결과",
     "time": "2026-04-14 14:20",
-    "charter_rows": 1,
-    "related_to_notice": true
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
    }
   ],
-  "matched_by_related": true,
   "ambiguous": true,
   "agm_date": "2026-03-31",
   "vote_record_date": "2025-12-31",
@@ -20388,7 +23481,10 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-31",
+  "match_by": "주총일",
+  "judged_by": "제목"
  },
  "20260311004059": {
   "stock_code": "004650",
@@ -20531,7 +23627,20 @@
   "by_dividend_row": true,
   "passed": true,
   "note": "배당 관련 세부 안건 2-3 가결",
-  "basis_box": null
+  "basis_box": null,
+  "meeting_day": "2026-03-26",
+  "results_in_window": [
+   {
+    "acptno": "20260326003645",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 19:49",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260904000393": {
   "stock_code": "189690",
@@ -20614,7 +23723,20 @@
   "by_dividend_row": false,
   "passed": true,
   "note": "정관 안건 모두 가결",
-  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n06-30\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n06-30\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "meeting_day": "2026-09-22",
+  "results_in_window": [
+   {
+    "acptno": "20260922000140",
+    "title": "정기주주총회결과",
+    "time": "2026-09-22 11:06",
+    "meeting_day": "2026-09-22",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "제목"
  },
  "20260312001276": {
   "stock_code": "030530",
@@ -20697,34 +23819,43 @@
     "no": "제2-1호",
     "kind": "특별결의",
     "item": "사업목적 추가 및 변경",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제2-2호",
     "kind": "특별결의",
     "item": "개정 상법 반영",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제2-3호",
     "kind": "특별결의",
     "item": "감사 제도 변경",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    },
    {
     "no": "제2-4호",
     "kind": "특별결의",
     "item": "조문 일부 정비",
-    "result": "가결",
-    "via": "notice_no"
+    "result": "가결"
    }
   ],
-  "by_dividend_row": false,
+  "by_dividend_row": true,
   "passed": true,
-  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 제2-1호, 제2-2호, 제2-3호, 제2-4호) 모두 가결",
-  "basis_box": null
+  "note": "서브에이전트 판별: 배당기준일 안건 제2-1호, 제2-2호, 제2-3호, 제2-4호 가결 — 소집공고 제2호 의안 '정관 일부 변경의 건'의 세부 안건 제2-1~2-4호(사업목적, 개정 상법 반영, 감사 제도 변경, 조문 일부 정비)가 결과 표 제2-1~2-4호이고 모두 가결됐다. 대비표의 배당 관련 변경(제10조의2 신주 동등배당, 배당 기준일 언급)이 2-2호와 2-4호 중 어디에 들었는지 알 수 없어 정관 세부 안건 전체를 적었다.",
+  "basis_box": null,
+  "meeting_day": "2026-03-27",
+  "results_in_window": [
+   {
+    "acptno": "20260327001421",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 15:25",
+    "meeting_day": "2026-03-27",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "ambiguous": false,
+  "judged_by": "서브에이전트"
  }
 }

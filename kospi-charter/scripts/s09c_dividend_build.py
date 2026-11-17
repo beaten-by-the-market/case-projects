@@ -133,11 +133,19 @@ def INTERIM_OF(P: dict, name: str) -> Path:                       # noqa: N802 �
 
 
 def notice_meeting_day(rc: str) -> str | None:
-    """소집공고 원문의 주총 '일시' → YYYY-MM-DD (KIND 결과가 없을 때 주총이 기준일 전인지 보려고)."""
-    from s09e_agm_result_kind import notice_text
-    t = notice_text(rc) or ""
-    m = re.search(r"일\s*시\s*[:：]?\s*(\d{4})\s*[년.\-]\s*(\d{1,2})\s*[월.\-]\s*(\d{1,2})", t)
-    return f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
+    """소집공고 원문의 주총 '일시' → YYYY-MM-DD (KIND 결과가 없을 때 주총이 기준일 전인지 보려고). s09e 와 같은 규칙."""
+    from s09e_agm_result_kind import notice_meeting_day as nmd
+    return nmd(rc)
+
+
+def by_quote(rcs: list[str], quotes: list[str]) -> list[str]:
+    """한 회사의 소집공고 여럿을 한꺼번에 판별했으면(s09i·s09d) 판별 인용('변경 후' 문구)이 실제로 든 공고를 앞세운다.
+    코맥스: 1월 임시주총 공고는 배당 조 번호만 옮기고(기준일 문구 그대로) 3월 정기주총 공고가 기준일을 바꿨다 — 1월 공고가
+    KIND 로 가결 확인됐다고 근거로 쓰면 틀린다(2026-11-17)."""
+    def has(rc: str) -> bool:
+        fs = sorted((ROOT / "data").glob(f"agm*/*/*_{rc}/정관의변경.txt"))
+        return bool(quotes) and bool(fs) and any(quotes_ok([q], fs[0].read_text(encoding="utf-8")) for q in quotes)
+    return sorted(rcs, key=lambda rc: (not has(rc), rc))
 
 
 def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict | None, pre: dict | None = None) -> dict:
@@ -169,7 +177,7 @@ def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict 
             # 가결된 것으로 보고 주의 문구를 단다. KIND 가 부결·미결 등 '가결 아닌 것'을 적었으면(멕아이씨에스 정족수 미달 미결)
             # 확인된 사실이라 반영하지 않고, 주총이 기준일 뒤면(티디에스팜 2026-11-18) 아직 바뀌지 않았으므로 반영하지 않는다.
             note = res.get("note") or "KIND 결과 조회 없음"
-            day = res.get("agm_date") or notice_meeting_day(rc)
+            day = res.get("agm_date") or res.get("meeting_day") or notice_meeting_day(rc)
             if "가결 아닌 것" in note:
                 out["basis_note"] = f"소집공고 {rc} 안건은 기준일을 바꾸지만 KIND 결과에 가결이 아닌 정관 안건이 있어 반영하지 않음 ({note})"
                 return False
@@ -214,14 +222,14 @@ def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict 
     # 사업보고서보다 먼저 접수된 소집공고(s09i — 그해 정기주총) 안건: 첨부 정관은 주총 전 판이라 가결되면 그 뒤 태그
     po = (pre or {}).get("output") or {}
     if po.get("changes_record_date") and po.get("tag_after") and po.get("tag_after") != tag:
+        rcs = by_quote(sorted((pre or {}).get("rcept_nos") or []), po.get("quotes_after") or [])
         for assume in (False, True):
-            if any(use_notice(rc, po["tag_after"], "사업보고서보다 먼저 접수된 소집공고 안건(첨부 정관은 주총 전 판)", assume)
-                   for rc in sorted((pre or {}).get("rcept_nos") or [])):
+            if any(use_notice(rc, po["tag_after"], "사업보고서보다 먼저 접수된 소집공고 안건(첨부 정관은 주총 전 판)", assume) for rc in rcs):
                 break
     if ag and ag.get("changes_record_date") and ag.get("tag_after") and ag.get("tag_after") != out["tag_current"]:
-        rcs = later_amend(t)
+        rcs = by_quote(sorted(later_amend(t)), ag.get("quotes_after") or [])
         for assume in (False, True):
-            if any(use_notice(rc, ag["tag_after"], "사업보고서 제출 뒤 소집공고 안건", assume) for rc in sorted(rcs)):
+            if any(use_notice(rc, ag["tag_after"], "사업보고서 제출 뒤 소집공고 안건", assume) for rc in rcs):
                 break
     return out
 
