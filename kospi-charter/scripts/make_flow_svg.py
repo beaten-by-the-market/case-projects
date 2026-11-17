@@ -2,7 +2,7 @@
 
 위에서 아래로: ① 출처·데이터·목적(용도별 대분류 A~D) → ② 업무 → ③ LLM → ④ 검증·합치기 → ⑤ 결과.
 라이브러리 없이 SVG 를 손으로 짠다. 태그 건수·인용 대조는 data/final/charter_dividend_record_date{,_kosdaq,_absent}.json 에서 세고,
-나머지 숫자는 아래 상수(README · docs/03 · docs/04 와 같은 값)다. 상자 안 글은 글자 폭 어림으로 줄바꿈하고, 넘치면 경고를 찍는다.
+신고 대조 건수는 site/dividend.js, KIND 결과 판별 수는 data/interim/s09e_llm*.json 에서, 나머지 숫자는 아래 상수(README · docs/03 · docs/04 와 같은 값)다. 상자 안 글은 글자 폭 어림으로 줄바꿈하고, 넘치면 경고를 찍는다.
 
     python -X utf8 scripts/make_flow_svg.py
 """
@@ -30,6 +30,7 @@ CAT = {
 LLM_C, LLM_TINT, LLM_LINE, LLM_BOX = "#6941c6", "#f6f2fe", "#dacff7", "#ffffff"
 GRAY_TINT = "#f7f8fa"
 TAGC = {"정관no": "#2a78d6", "정관yes": "#eb6834", "정관yesorno": "#1baf7a"}  # site 와 같은 색 (docs/04 '태그 색')
+LBL = {"정관no": "N", "정관yes": "Y", "정관yesorno": "YorN"}  # 웹페이지 표기 (결과 파일 값은 그대로)
 
 W = 1200
 RAIL_X, RAIL_W = 24, 34
@@ -240,8 +241,8 @@ DATA = {
              body=["원본 최초 접수일 ~ 기준일 접수분", "코스피 247건 · 코스닥 720건",
                    "그중 '정관의 변경' 절 146 · 464건"],
              tag="용도", purpose="첨부 정관 뒤에 바뀐 조항 찾기"),
-        dict(src="OpenDART API · E006 document.xml", title="제출 전 정기주총 소집공고",
-             body=["원본 접수일 전 90일 안 접수분", "코스피 365건 · 코스닥 1,000건",
+        dict(src="OpenDART API · E006 document.xml", title="사업보고서보다 먼저 제출된 소집공고",
+             body=["원본 접수일 전 90일 안 접수분", "코스피 769건 · 코스닥 1,712건",
                    "정기주총 공고(주총 2주 전)가 사업보고서(1주 전)보다 먼저 나온다"],
              tag="용도", purpose="주총 전 판인 첨부 정관에 그 주총 개정 반영"),
     ],
@@ -249,12 +250,12 @@ DATA = {
         dict(src="KIND · 주주총회결과", title="안건 세부내역 가결여부",
              body=["기준일 조항을 바꾸는 안건마다"],
              tag="확인", purpose="안건이 실제로 통과됐나"),
-        dict(src="상장협 · 코스닥협 · 2026.4.14", title="정기주총 배당절차 정비 집계",
-             body=["유가 12월 결산 795사 중 501사 정비"],
-             tag="대조", purpose="결과 건수를 맞춰 볼 잣대"),
-        dict(src="KIND 상장법인목록 · 사용자 엑셀", title="표시용 보조 자료",
-             body=["지금 결산월 (제출 뒤 바뀐 3사)", "코스피 확인그룹 번호 (이름은 뺌)"],
-             tag="용도", purpose="웹페이지 칸 · 필터"),
+        dict(src="공시부 제출 · 상장공시시스템 (엑셀)", title="회사가 낸 배당기준일 조건",
+             body=["Y 특정일 · N 이사회 결의 (코스피 829)", "부정확한 경우가 많아 시장운영팀이", "정관과 눈으로 다시 검증해 왔다"],
+             tag="대조", purpose="신고가 정관과 맞나"),
+        dict(src="상장협·코스닥협 · KIND 상장법인목록", title="참고 자료",
+             body=["2026.3 말 정관 정비 55.3% 집계", "지금 결산월 (제출 뒤 바뀐 3사)"],
+             tag="용도", purpose="건수 대조 · 결산월 표시"),
     ],
 }
 
@@ -264,15 +265,33 @@ TASKS = {
     "B": [("s03", "첨부 목록에서 정관 찾기"), ("s04", "정관 원문 · 쪽 그림 받기"),
           ("s04c", "PDF 글자층 뽑기"), ("s04e", "증권신고서 등에서 정관"), ("s09f", "전년도 정관 · 대체 자료")],
     "C": [("s05", "소집공고 목록 · 회사별 셈 기간"), ("s06", "XML → '정관의 변경' 절 txt"),
-          ("s09i", "정기주총 공고도 같은 절 뽑기")],
-    "D": [("s09e", "KIND 결과 본문 → 안건별 가결"), ("s02d", "KIND 지금 결산월"),
-          ("s02e", "엑셀 → 확인그룹 번호만"), ("대조", "12월 결산 주권 건수 맞추기")],
+          ("s09i", "앞서 제출된 공고도 같은 절 뽑기")],
+    "D": [("s09e", "KIND 결과 본문 → 안건별 가결"), ("s02e", "제출 엑셀 읽기 (이름 칸 빼고)"),
+          ("s10", "정관 태그와 신고 대조"), ("s02d", "KIND 지금 결산월")],
 }
 
 # 건수 상수 (README · docs/04)
 SCAN_PAGES, SCAN_DOCS, SCAN_USD = "9,242", "551", "$149"      # 코스피 3,225쪽/181 + 코스닥 6,017쪽/370, $51 + $98
-CHANGED = {"s09i": 139, "s09d": 25, "s09f": 7}                 # tag → tag_current 가 바뀐 회사 (코스피+코스닥)
-AGM_PASS = "178건 중 172건 가결"                                    # 기준일을 바꾸는 안건의 KIND 가결 (코스피 72/74 · 코스닥 100/104)
+CHANGED = {"s09i": 148, "s09d": 25, "s09f": 7}                 # tag → tag_current 가 바뀐 회사 (코스피+코스닥)
+AGM_PASS = "212건 중 209건 가결"                                    # 기준일을 바꾸는 안건의 KIND 가결 (코스피 79/79 · 코스닥 130/133, docs/04)
+
+
+def kind_llm_count() -> int:
+    """s09e 서브에이전트가 판별한 KIND 주총 결과 수 — data/interim/s09e_llm{,_kosdaq}.json 항목 수."""
+    n = 0
+    for sfx in ("", "_kosdaq"):
+        f = ROOT / "data" / "interim" / f"s09e_llm{sfx}.json"
+        if f.exists():
+            n += len(json.loads(f.read_text("utf-8")))
+    return n
+
+
+def filed_counts():
+    """웹페이지 데이터(site/dividend.js)의 상장공시시스템 신고 대조 결과(filed_cmp) — 코스피만."""
+    txt = (ROOT / "site" / "dividend.js").read_text("utf-8")
+    t = json.loads(txt[txt.index("{"):txt.rindex("}") + 1])["tables"]["dividend"]
+    i = t["cols"].index("filed_cmp")
+    return Counter(r[i] for r in t["rows"] if r[i])
 
 
 def tag_counts():
@@ -291,6 +310,8 @@ def tag_counts():
 # ── 그리기 ────────────────────────────────────────────────────────────
 def build() -> tuple[str, int]:
     by_mkt, first, n_all, qok = tag_counts()
+    filed = filed_counts()
+    kind_llm = kind_llm_count()
     now = by_mkt["코스피"] + by_mkt["코스닥"]
 
     # 제목 · 기준 띠
@@ -362,7 +383,7 @@ def build() -> tuple[str, int]:
                         xb, BOXW, llm=False)
     hC, dC = note_box("안건 고르기 (LLM 아님)",
                       ["기준일 문구가 든 '정관의 변경' 절만", "+ 그 회사 첨부 정관 발췌",
-                       "제출 뒤 27 · 95사", "정기주총 89 · 234사 (코스피 · 코스닥)"], xc, BOXW, llm=False)
+                       "제출 뒤 공고 27 · 95사", "앞서 제출된 공고 171 · 398사"], xc, BOXW, llm=False)
     gapB = 34
     H3a = max(hA, hL1 + gapB + hEx, hC)
     t3b = t3 + H3a + 34
@@ -375,13 +396,13 @@ def build() -> tuple[str, int]:
     lab_w = max(tw(a, 12.5, True) for a, _ in L2_ROWS) + 16
     l2_lines = [(a, wrap(b, l2w - 24 - lab_w, 12.5)) for a, b in L2_ROWS]
     hL2 = 22 + 10 + sum(len(l) for _, l in l2_lines) * LH + (len(l2_lines) - 1) * 4 + 4
-    hL3, dL3 = note_box("LLM③ 안건 판별 · s09d · s09i",
-                        ["“원안대로 가결되면 태그는?”", "기준일 조항을 바꾸는 안건", "제출 뒤 10 · 23사", "정기주총 64 · 80사 (코스피 · 코스닥)",
-                         "서브에이전트 (코스피 제출 뒤만 API)"], xc, BOXW, llm=True)
+    hL3, dL3 = note_box("LLM③ 주총 안건·결과 판별",
+                        ["“원안대로 가결되면 태그는?” (s09d · s09i)", "바꾸는 안건: 제출 뒤 공고 10 · 23사", "앞서 제출된 공고 69 · 109사",
+                         f"KIND 결과 {kind_llm}건 가결 판별 (s09e)", "서브에이전트 (코스피 제출 뒤만 API)"], xc, BOXW, llm=True)
     H3b = max(hL2, hL3)
     S3b = t3b + H3b + 18
     rect(CX0, S3, CX1 - CX0, S3b - S3, LLM_TINT, LLM_LINE, rx=12)
-    text(CX0 + 14, S3 + 26, "LLM 은 세 곳에만 — ① 스캔 쪽 전사  ② 결산배당 기준일 판별  ③ 소집공고 안건 판별", 13.5, 700, LLM_C)
+    text(CX0 + 14, S3 + 26, "LLM 은 세 곳에만 — ① 스캔 쪽 전사  ② 결산배당 기준일 판별  ③ 주총 안건·결과 판별", 13.5, 700, LLM_C)
 
     dA(t3, hA)
     dL1(t3, hL1)
@@ -428,7 +449,7 @@ def build() -> tuple[str, int]:
     rect(cxd - pw / 2, mid - 13, pw, 24, PAPER, CAT["D"]["line"], rx=12)
     text(cxd, mid + 4, pill, 12, 700, CAT["D"]["c"], anchor="middle")
     label(cxd + 7, S4 - 12, "가결여부 · 집계")
-    text(CX1 - 14, S3 + 26, "2026-11-17 부터 유료 API 대신 서브에이전트: pack → 판별 → ingest", 12, 500, MUTED,
+    text(CX1 - 14, S3 + 26, "2026-11-17 부터 API 대신 서브에이전트", 12, 500, MUTED,
          anchor="end", halo=LLM_TINT)
 
     # ④ 검증 · 합치기
@@ -440,21 +461,22 @@ def build() -> tuple[str, int]:
     CHECKS = [
         ("A", "인용 대조", ["인용이 원문에 글자 그대로 있나", f"{qok:,} / {n_all:,} 일치"]),
         ("B", "독립 규칙 판별", ["정규식으로 따로 판별해 맞대 봄", "코스피 불일치 10건 = 규칙 쪽 오류"]),
-        ("C", "사람 검토 · 서식 판정", ["확신도 낮음 · 규칙 불일치 · 갈린 서식", "코스피 41건 검토 → 3건 고침", "코스닥 서식 259건 → 39건 고침"]),
-        ("D", "가결 확인 · s09e", ["KIND 에서 가결된 안건만 반영", f"안건 {AGM_PASS}"]),
+        ("C", "재검토 · 서식 판정", ["확신도 낮음 · 규칙 불일치 · 갈린 서식", "Claude 세션이 원문과 다시 대조", "코스피 41건 → 3건 고침", "코스닥 서식 259건 → 39건 고침"]),
+        ("D", "가결 확인 · 신고 대조", ["KIND 에서 가결된 안건만 반영", f"안건 {AGM_PASS}",
+                                   f"신고 일치 {filed['일치']:,} · 불일치 {filed['불일치']:,} · 미입력 {filed['미입력']:,}"]),
     ]
     t4 = S4 + 40
     chk = {k: note_box(t, ls, COLX[k] + PAD, BOXW, llm=False, tsize=13.5) for k, t, ls in CHECKS}
     H4a = max(h for h, _ in chk.values())
     t4b = t4 + H4a + 36
     NODES = [
-        ("tag · 첨부 정관", [f"정관no {first['정관no']:,} · 정관yes {first['정관yes']:,}",
-                          f"정관yesorno {first['정관yesorno']:,} · 확인필요 {first['확인필요']:,}"], False),
-        ("+ 정기주총 안건 가결", [f"s09i → {CHANGED['s09i']}사 바뀜", "주총 전 판 첨부 정관 보정"], False),
-        ("+ 제출 뒤 안건 가결", [f"s09d → {CHANGED['s09d']}사 바뀜", "사업보고서 뒤 임시·정기주총"], False),
+        ("tag · 첨부 정관", [f"N {first['정관no']:,} · Y {first['정관yes']:,}",
+                          f"YorN {first['정관yesorno']:,} · 확인필요 {first['확인필요']:,}"], False),
+        ("+ 앞서 제출된 공고 안건", [f"s09i → {CHANGED['s09i']}사 바뀜 (가결만)", "주총 전 판 첨부 정관 보정"], False),
+        ("+ 제출 뒤 공고 안건", [f"s09d → {CHANGED['s09d']}사 바뀜 (가결만)", "사업보고서 뒤 제출된 공고"], False),
         ("+ 확인필요 대체 자료", [f"s09f → {CHANGED['s09f']}사", "전년도 정관 · 본문 표"], False),
-        ("tag_current · 지금", [f"정관no {now['정관no']:,} · 정관yes {now['정관yes']:,}",
-                              f"정관yesorno {now['정관yesorno']:,} · 확인필요 {now['확인필요']:,}"], True),
+        ("tag_current · 지금", [f"N {now['정관no']:,} · Y {now['정관yes']:,}",
+                              f"YorN {now['정관yesorno']:,} · 확인필요 {now['확인필요']:,}"], True),
     ]
     nx0, nx1, ngap = CX0 + 14, CX1 - 14, 26
     nw = (nx1 - nx0 - ngap * (len(NODES) - 1)) / len(NODES)
@@ -492,8 +514,8 @@ def build() -> tuple[str, int]:
           ("charter_dividend_record_date", "태그 · 근거 조·항 · 인용 · 근거 문서 URL"),
           ("data/charter* · data/agm*", "정관 · 소집공고 원문, 회사·문서별 폴더")]
     R3 = [("근거문서 표", "회사 1행 — 정관 원문 · 소집공고 '정관의 변경' 미리보기"),
-          ("배당기준일", f"{n_all:,}행 — 태그 · 근거 문구 · 스캔 쪽 근거 그림 · 원문 URL"),
-          ("배당기준일 취합", "시장별 태그 구성 · 분기·중간배당 교차 · 상장협 대조"),
+          ("배당기준일", f"{n_all:,}행 — 태그 · 신고 대조(코스피, 불일치 빨강) · 근거 문구 · 근거 그림"),
+          ("배당기준일 취합", "시장별 태그 구성 · 신고 × 정관 교차표 · 분기·중간배당 교차"),
           ("배당 특이사항", "대체 자료 · 오기재 · 주총으로 바뀐 회사 등 286건")]
     HEADR = 32
 
@@ -547,10 +569,10 @@ def build() -> tuple[str, int]:
             sx += sw_
         yy += 30
     yy += 8
-    for tg, mean in (("정관no", "이사회가 기준일을 정함"), ("정관yes", "정관상 결산일로 고정"),
-                     ("정관yesorno", "결산일 원칙, 이사회도 정할 수 있음")):
+    for tg, mean in (("정관no", "이사회가 기준일을 정함 (정관no)"), ("정관yes", "정관상 결산일로 고정 (정관yes)"),
+                     ("정관yesorno", "결산일 원칙 + 이사회 (정관yesorno)")):
         rect(x + 12, yy - 10, 11, 11, TAGC[tg], rx=2)
-        s = f"{tg} {now[tg]:,}"
+        s = f"{LBL[tg]} {now[tg]:,}"
         text(x + 30, yy, s, 12.5, 700, INK)
         text(x + 30 + tw(s, 12.5, True) + 8, yy, mean, 12, 400, MUTED)
         wrap(f"{s} {mean}", rw - 42, 12.5)
@@ -583,8 +605,8 @@ def main() -> None:
         f'markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="{c}"/></marker>'
         for k, c in MARK.items())
     aria = ("kospi-charter 데이터 흐름: OpenDART·DART 공시 화면·KIND·규제 원문에서 받은 자료를 기준 설정·판별 원문·변경 추적·확인 대조 "
-            "네 갈래로 묶고, 스캔 전사·기준일 판별·안건 판별 세 곳에만 LLM 을 넣은 뒤, 인용 대조·규칙 판별·사람 검토·KIND 가결로 "
-            "검사해 지금 태그(tag_current)와 결과 파일·웹페이지를 만든다.")
+            "네 갈래로 묶고, 스캔 전사·기준일 판별·주총 안건·결과 판별 세 곳에만 LLM 을 넣은 뒤, 인용 대조·규칙 판별·재검토(Claude 원문 대조)·KIND 가결로 "
+            "검사해 지금 태그(tag_current, 화면 표기 N·Y·YorN)를 만들고, 회사가 공시부에 낸 배당기준일 조건과 대조해 결과 파일·웹페이지를 만든다.")
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
            f'aria-label="{escape(aria)}">\n<title>kospi-charter 데이터 흐름</title>\n'
            f'<style>text{{font-family:{FONT}}} .m{{font-family:{MONO}}}</style>\n'
