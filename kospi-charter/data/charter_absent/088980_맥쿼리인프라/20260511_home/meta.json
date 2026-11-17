@@ -4,7 +4,7 @@
  "stock_code": "088980",
  "att_title": "MKIF 정관 (2026년 5월 11일 개정)",
  "att_date": "20260511",
- "rcpNo": null,
+ "rcpNo": "20260511000505",
  "dcmNo": null,
  "att_url": "https://www.mkif.com/assets/mkif/ko-kr/investor-centre/public-filings-and-reports/2026/mkif-articles-of-incorporation.pdf",
  "viewer_urls": [
@@ -31,8 +31,8 @@
  "n_pdfs": 1,
  "folder": "data/charter_absent/088980_맥쿼리인프라/20260511_home",
  "fetched_at": "2026-11-17T01:10:01",
- "source_doc": "홈페이지",
- "source_note": "KIND 기타신고사항 'MKIF 정관 일부 개정' 20260511000505: 개정된 정관을 MKIF 홈페이지에 게시",
+ "source_doc": "기타신고사항",
+ "source_note": "KIND 20260511000505 기타신고사항 'MKIF 정관 일부 개정': 개정된 정관을 MKIF 홈페이지에 게시했다고 알림. 정관 파일은 그 홈페이지 게시본",
  "used_by_stock_code": [
   "088980"
  ]

@@ -73,12 +73,14 @@ MANUAL: dict[str, dict] = {
                "part": "[첨부3] 분할신설회사 정관(안)",
                "note": "KIND 재상장 20260723000896 · 토비스 증권신고서(분할) 20260428000591 · "
                        "자율공시 '인적분할신설회사 (주)네오뷰의 주권재상장 예비심사 결과' 20260312902115"},
-    # 투자회사 — 홈페이지 게시 정관 (홈페이지 검색 /api/search, 문서 종류 '정관')
-    "088980": {"doc": "홈페이지", "url": "https://www.mkif.com/assets/mkif/ko-kr/investor-centre/public-filings-and-reports/2026/"
-                                         "mkif-articles-of-incorporation.pdf",
+    # 투자회사: KIND 기타신고사항 'MKIF 정관 일부 개정'(2026-05-11)이 개정 정관을 홈페이지에 게시했다고 알린다 → 근거문서 = 기타신고사항,
+    # 정관 파일 = 홈페이지 게시본(공시에 첨부가 없다). 사용자 지적(2026-11-17)으로 '홈페이지'에서 바꿈. 폴더는 처음 받은 {dt}_home 그대로(folder_tag)
+    "088980": {"doc": "기타신고사항", "kind_acptno": "20260511000505", "folder_tag": "home",
+               "url": "https://www.mkif.com/assets/mkif/ko-kr/investor-centre/public-filings-and-reports/2026/"
+                      "mkif-articles-of-incorporation.pdf",
                "page": "https://www.mkif.com/ko/investor-centre/public-filings-and-reports.html",
-               "nm": "MKIF 정관 (2026년 5월 11일 개정)", "dt": "20260511",
-               "note": "KIND 기타신고사항 'MKIF 정관 일부 개정' 20260511000505: 개정된 정관을 MKIF 홈페이지에 게시"},
+               "nm": "기타신고사항 'MKIF 정관 일부 개정' (개정 정관은 MKIF 홈페이지 게시본)", "dt": "20260511",
+               "note": "KIND 20260511000505 기타신고사항 'MKIF 정관 일부 개정': 개정된 정관을 MKIF 홈페이지에 게시했다고 알림. 정관 파일은 그 홈페이지 게시본"},
     # 투자회사 — KIND '기타신고사항' 정관 개정 공지의 '기타공시첨부서류'(문서 후보 둘째 content_id → searchContents 로 주소)
     "415640": {"doc": "기타신고사항", "kind_acptno": "20260225001757", "dt": "20260225",
                "url": "https://kind.krx.co.kr/external/2026/02/25/001757/20260225001091/"
@@ -202,7 +204,7 @@ def fetch_file(p: dict, src: dict, http: Http) -> dict:
     from _common import safe_name
     from s04ck_kosdaq_pdf import CTRL
 
-    tag = "home" if p["source_doc"] == "홈페이지" else "kind"
+    tag = src.get("folder_tag") or ("home" if p["source_doc"] == "홈페이지" else "kind")   # 폴더 꼬리 (MANUAL 의 folder_tag 가 있으면 그것)
     d = A_CHARTER / f"{p['stock_code']}_{safe_name(p['corp_name'])}" / f"{src['dt']}_{tag}"
     if (d / "meta.json").exists():
         return read_json(d / "meta.json")

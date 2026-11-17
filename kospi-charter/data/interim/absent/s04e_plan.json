@@ -98,14 +98,16 @@
   "acc_mt": 12,
   "reason_code": "no_annual_report",
   "reason": "투자회사. DART 사업보고서 이력 없음(1999년 이후 0건). 대신 분기·결산 보고를 KIND '기타신고사항'으로 낸다. 조회기간 24건: 영업보고서 4 · 자산운용보고서 4 · 결산·감사 7 · 정관 변경 1 · 투자설명서 갱신 4 · 그 밖 4",
-  "source_doc": "홈페이지",
+  "source_doc": "기타신고사항",
   "source": {
-   "doc": "홈페이지",
+   "doc": "기타신고사항",
+   "kind_acptno": "20260511000505",
+   "folder_tag": "home",
    "url": "https://www.mkif.com/assets/mkif/ko-kr/investor-centre/public-filings-and-reports/2026/mkif-articles-of-incorporation.pdf",
    "page": "https://www.mkif.com/ko/investor-centre/public-filings-and-reports.html",
-   "nm": "MKIF 정관 (2026년 5월 11일 개정)",
+   "nm": "기타신고사항 'MKIF 정관 일부 개정' (개정 정관은 MKIF 홈페이지 게시본)",
    "dt": "20260511",
-   "note": "KIND 기타신고사항 'MKIF 정관 일부 개정' 20260511000505: 개정된 정관을 MKIF 홈페이지에 게시"
+   "note": "KIND 20260511000505 기타신고사항 'MKIF 정관 일부 개정': 개정된 정관을 MKIF 홈페이지에 게시했다고 알림. 정관 파일은 그 홈페이지 게시본"
   },
   "plan_status": "manual",
   "charter_status": "ok",

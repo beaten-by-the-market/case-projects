@@ -14,6 +14,7 @@ data/final/*.json 을 읽어 site/data.js 에 `window.DATA = {...};` 한 줄로 
   built      생성 시각
   manifest   data/final/manifest.json 그대로 (없으면 null)
   manifest_kosdaq  data/final/kosdaq_manifest.json 그대로 (없으면 null) — kind_kosdaq·fetched·counts
+  check_group      data/interim/s02e_check_group.json 의 {종목코드: 확인그룹} (코스피만, 없으면 {})
   tables     kospi_charter · annual_reports · agm_notices · charter_docs · kospi_absent  →  {cols, rows, file, updated}
              kosdaq_charter · kosdaq_agm_notices · kosdaq_charter_docs · kosdaq_absent  (코스닥, s07k — 표 이름 = 결과 파일 이름.
              코스피 표와 섞지 않고 따로 넣는다. 사업보고서 표와 rcept_no 로 합치는 것은 app.js 가 한다)
@@ -149,6 +150,9 @@ def build(final: Path, root: Path, out: Path) -> None:
             data[key] = clean(m)
         else:
             data["missing"].append(fname)
+    # 확인그룹 (s02e, 사용자가 준 엑셀의 코스피 종목별 그룹 번호): 웹페이지 각 탭의 '확인그룹' 칸. 없으면 비워 둔다
+    cg = read_json(root / "data" / "interim" / "s02e_check_group.json") if (root / "data" / "interim" / "s02e_check_group.json").exists() else None
+    data["check_group"] = (cg or {}).get("check_group") or {}
 
     cache: dict = {}
     pcache: dict = {}

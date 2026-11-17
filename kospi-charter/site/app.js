@@ -564,6 +564,18 @@
         <p class="small">12월 결산 상장사 기준, 리츠·스팩·외국사 등 제외, '기존 정관으로 가능한 회사'를 포함한 집계라 이 페이지의 ${esc(who)} ${fmtN(s.n)}사 태그와 모집단·기준이 다르므로 그대로 비교하지 않는다.</p></div>` : ""}`;
   }
 
+  /* ---------- 확인그룹 (s02e: 사용자가 준 엑셀의 코스피 종목별 그룹 번호, data.js check_group) ---------- */
+  const CG = D.check_group || {};
+  const CG_NONE = "-";                                   // 코스닥·코넥스 등 확인그룹이 없는 시장
+  for (const name of ["dividend", "dividend_notes", "reports"]) {
+    if (!T[name]) continue;
+    for (const r of T[name].rows) r._cg = r.market === "코스피" ? (CG[r.stock_code] != null ? String(CG[r.stock_code]) : "") : CG_NONE;
+    if (!T[name].cols.includes("_cg")) T[name].cols.push("_cg");
+  }
+  const C_CG = { k: "_cg", t: "확인그룹", c: "c", title: "확인그룹 (코스피 종목별, 사용자 제공 엑셀) · 코스닥 등은 -",
+    v: (r) => (r._cg && r._cg !== CG_NONE ? Number(r._cg) : null), h: (r) => (r._cg ? esc(r._cg) : NA) };
+  const F_CG = SEL("cg", "확인그룹", "_cg", { order: ["1", "2", "3", "4", "5", CG_NONE], fmt: (v) => (v === CG_NONE ? "- (코스피 아님)" : `${v}그룹`) });
+
   /* ---------- 탭 ---------- */
   const TABS = [
     {
@@ -575,7 +587,7 @@
       filters: [
         [Q("회사명·종목코드"), SEL("market", "시장", "market", { order: MKT }), SEL("tag_current", "분류 결과", "tag_current", { order: DORD }), SEL("basis_kind", "근거 종류", "basis_kind", { order: Object.keys(BKC) })],
         [F_MONTH, SEL("quarterly", "분기배당", "quarterly", { order: ["고정", "이사회결정", "혼합", "없음", "확인필요"] }),
-          SEL("interim", "중간배당", "interim", { order: ["고정", "이사회결정", "혼합", "없음", "확인필요"] })],
+          SEL("interim", "중간배당", "interim", { order: ["고정", "이사회결정", "혼합", "없음", "확인필요"] }), F_CG],
         [SEL("sec_group", "증권구분", "sec_group"),
           CHK("changed", "첨부 정관 대비", "지금 태그가 다른 회사", (r) => !!r.changed, ["changed"], "제출 뒤 주총에서 바뀌었거나 대체 자료로 정한 회사"),
           CHK("qfix", "분기배당", "결산 정관no · 분기 고정", (r) => r.tag_current === "정관no" && r.quarterly === "고정", ["quarterly"], "결산배당은 이사회가 정하는데 분기배당은 고정")],
@@ -583,7 +595,7 @@
       sort: ["market", 1],
       cols: [
         C_NO, { k: "market", t: "시장", c: "c", h: (r) => mk(r.market), v: (r) => { const i = MKT.indexOf(r.market); return `${i < 0 ? 9 : i}${r.stock_code || ""}`; } },
-        C_CODE, C_NAME,
+        C_CODE, C_NAME, C_CG,
         { k: "settle_month", t: "결산월", c: "c", title: "사업보고서의 결산월 · 지금(KIND 상장법인목록) 결산월과 다르면 빨간 글씨", h: settleCell },
         { k: "tag_current", t: "분류 결과", c: "c", v: (r) => DORD.indexOf(r.tag_current), title: "지금 유효한 태그 · 아래 작은 글씨 = 사업보고서 첨부 정관 태그가 다를 때",
           h: (r) => `${dtag(r.tag_current)}${r.changed ? `<br><span class="small" title="사업보고서 첨부 정관">첨부 ${esc(r.tag || "")} →</span>` : ""}` },
@@ -606,12 +618,12 @@
     {
       id: "divnote", label: "배당 특이사항", table: "dividend_notes", title: "배당기준일 특이사항",
       desc: "분류하면서 따로 적어 둘 회사들. 확인필요였던 회사는 전년도 사업보고서 정관·그 사이 소집공고·사업보고서 본문으로 데이터를 채웠고, 제출 뒤 주총에서 기준일 조항을 바꾼 회사는 KIND 주주총회결과로 가결을 확인했다. 행을 누르면 그 회사의 근거가 열린다.",
-      filters: [[Q("회사명·종목코드"), SEL("market", "시장", "market", { order: MKT }), SEL("kind", "분류", "kind")]],
+      filters: [[Q("회사명·종목코드"), SEL("market", "시장", "market", { order: MKT }), SEL("kind", "분류", "kind"), F_CG]],
       sort: ["kind", 1],
       cols: [
         C_NO, { k: "market", t: "시장", c: "c", h: (n) => mk(n.market) },
         { k: "kind", t: "분류", c: "nm", v: (n) => (MKT.indexOf(n.market) + 1) * 1e5 + n.order * 1000 },
-        C_CODE, { k: "corp_name", t: "회사명", c: "nm" },
+        C_CODE, { k: "corp_name", t: "회사명", c: "nm" }, C_CG,
         { k: "tag", t: "첨부 정관", c: "c", h: (n) => (n.tag ? dtag(n.tag) : NA) },
         { k: "tag_current", t: "지금", c: "c", h: (n) => (n.tag_current ? dtag(n.tag_current) : NA) },
         { k: "text", t: "내용", c: "wrap" },
@@ -625,7 +637,7 @@
         (AC.length ? `사업보고서가 없는 ${CMS} 상장회사(신규상장·투자회사) ${fmtN(AC.length)}사는 정관을 찾은 다른 문서(증권신고서·분할공시·기타신고사항·홈페이지)를 근거문서로 1행씩 더했다. '근거문서' 칸과 필터로 구분한다. ` : "") +
         "셋째 줄 근거 필터로 정관 원문 종류(텍스트·스캔 이미지·PDF)와 소집공고의 '정관의 변경' 안건 여부를 골라 본다. 시장은 기준일 현재 KIND 상장 목록 기준이다(제출 당시 아님). 행을 누르면 정관 본문 미리보기·스캔 이미지·소집공고 목록이 열린다.",
       filters: [
-        [Q(), SEL("market", "시장", "market", { order: MKT, empty: "(빈 값)" }), SEL("src", "근거문서", "_src", { order: SRC_ORDER })],
+        [Q(), SEL("market", "시장", "market", { order: MKT, empty: "(빈 값)" }), SEL("src", "근거문서", "_src", { order: SRC_ORDER }), F_CG],
         [SEL("sec_group", "증권구분", "sec_group", { empty: "목록에 없음" }), F_MONTH, F_YEAR, F_AMEND],
         [F_CHR, F_AGM, F_NEW],
       ],
@@ -633,7 +645,7 @@
       sort: ["market", 1],
       cols: [
         C_NO, { k: "market", t: "시장", c: "c", h: (r) => mk(r.market), v: (r) => { const i = MKT.indexOf(r.market); return i < 0 ? 9 : i; } },
-        C_CODE, C_NAME,
+        C_CODE, C_NAME, C_CG,
         { k: "_src", t: "근거문서", c: "c", title: "정관을 찾은 문서: 사업보고서, 사업보고서가 없는 회사는 증권신고서·분할공시(모회사)·기타신고사항·홈페이지", v: (r) => { const i = SRC_ORDER.indexOf(r._src); return i < 0 ? 9 : i; }, h: (r) => srcB(r._src) },
         { k: "report_period", t: "결산기", c: "c mono", need: ["report_period", "report_nm"], title: "사업보고서 (결산기) · 정정구분, 근거문서가 사업보고서가 아니면 그 문서 이름",
           h: (r) => (r._abs ? `<span class="small">${e(r.charter_source_nm) || NA}</span>` : `${e(r.report_period) || e(stripTag(r.report_nm)) || NA}${tagB(r.amend_tag ?? tagOf(r.report_nm))}`) },
@@ -868,14 +880,14 @@
   function downloadCsv(id) {
     const st = S[id];
     const t = T[st.tab.table];
-    const cols = t.cols.filter((c) => c !== "imgs" && c !== "pdfs" && !c.startsWith("_"));
+    const cols = t.cols.filter((c) => c !== "imgs" && c !== "pdfs" && (c === "_cg" || !c.startsWith("_")));   // 화면용 열은 빼되 확인그룹은 남긴다
     const q = (v) => {
       if (v == null) return "";
       if (Array.isArray(v)) v = v.join(";");
       const s = String(v);
       return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
     };
-    const lines = [cols.join(","), ...st.filtered.map((r) => cols.map((c) => q(r[c])).join(","))];
+    const lines = [cols.map((c) => (c === "_cg" ? "check_group" : c)).join(","), ...st.filtered.map((r) => cols.map((c) => q(r[c])).join(","))];
     const blob = new Blob(["﻿" + lines.join("\r\n") + "\r\n"], { type: "text/csv;charset=utf-8" });
     const stamp = String(M.as_of || D.built || "").replace(/\D/g, "").slice(0, 8);
     const a = document.createElement("a");
