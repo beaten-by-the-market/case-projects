@@ -203,6 +203,8 @@ def build(final: Path, root: Path, out: Path) -> None:
     out.parent.mkdir(parents=True, exist_ok=True)
     js = "window.DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":"), default=str) + ";\n"
     out.write_text(js, encoding="utf-8")
+    from _common import stamp_site_assets
+    stamp_site_assets()                 # index.html 의 파일 주소에 ?v=내용해시 (캐시 때문에 옛 파일이 보이지 않게)
     sizes = " · ".join(f"{k} {len(v['rows']):,}행" for k, v in data["tables"].items())
     print(f"{out} {len(js.encode('utf-8')) / 1e6:.2f}MB · {sizes or '표 없음'} · {time.time() - t0:.1f}초")
     if data["missing"]:

@@ -503,6 +503,8 @@ def main():
     }
     js = "window.DATA_DIV = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n"
     OUT.write_text(js, encoding="utf-8")
+    from _common import stamp_site_assets
+    stamp_site_assets()                 # index.html 의 파일 주소에 ?v=내용해시 (캐시 때문에 옛 파일이 보이지 않게)
     print(f"→ {OUT.relative_to(ROOT)} {len(js) / 1e6:.1f}MB · 행 {len(out_rows)} {dict(stats['markets'])} · 특이사항 {len(notes)} · "
           f"근거 그림 {sum(len(a['imgs']) for x in out_rows for a in x['ev']['arts'])}")
 

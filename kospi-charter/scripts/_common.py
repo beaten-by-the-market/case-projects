@@ -248,3 +248,25 @@ _BAD = re.compile(r'[<>:"/\\|?*\x00-\x1f]')
 
 def safe_name(s: str) -> str:
     return _BAD.sub("_", (s or "").strip()).rstrip(". ") or "_"
+
+
+def stamp_site_assets(site_dir: Path | None = None) -> dict:
+    """site/index.html 의 data.js · dividend.js · app.js · style.css 주소에 내용 해시(?v=8자리)를 붙인다.
+    GitHub Pages 는 파일을 10분 캐시하고 브라우저는 더 오래 들고 있기도 해서, 고친 파일이 바로 안 보이는 일을 막는다.
+    s08(data.js)·s10(dividend.js) 이 파일을 쓴 뒤 부른다. app.js·style.css 를 고친 뒤에는 둘 중 하나를 다시 돌리거나 이 함수를 부른다."""
+    import hashlib
+    import re as _re
+    site = site_dir or ROOT / "site"
+    idx = site / "index.html"
+    html = idx.read_text(encoding="utf-8")
+    vers = {}
+    for name in ("style.css", "data.js", "dividend.js", "app.js"):
+        f = site / name
+        if not f.exists():
+            continue
+        v = hashlib.sha1(f.read_bytes()).hexdigest()[:8]
+        vers[name] = v
+        html = _re.sub(r'((?:src|href)=")' + _re.escape(name) + r'(?:\?v=[0-9a-f]*)?(")', rf"\g<1>{name}?v={v}\g<2>", html)
+    if html != idx.read_text(encoding="utf-8"):
+        idx.write_text(html, encoding="utf-8")
+    return vers
