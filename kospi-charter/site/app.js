@@ -427,8 +427,8 @@
       const a = amendRow(ev.notices[0].rows[0]);
       // 주총 안건으로 정한 행: 굵은 크림슨 '주주총회 안건' + 작은 글씨 까닭 (사용자 지시 2026-11-17, 정관 칸에는 태그만)
       const why = r.tag === "확인필요" ? altWhy(r, "주주총회 안건으로 정함")
-        : r.basis_unconfirmed ? '<span class="evwhy">(사업보고서 첨부 정관이 주주총회를 통해 변경된 것으로 봄 · <b class="bad">KIND 주총 결과로 가결은 확인하지 못함</b>)</span>'
-        : '<span class="evwhy">(사업보고서 첨부 정관이 주주총회를 통해 변경됨)</span>';
+        : r.basis_unconfirmed ? '<span class="evwhy">(사업보고서 첨부 정관이 이후 주주총회를 통해 변경된 것으로 봄 · <b class="bad">KIND 주총 결과로 가결은 확인하지 못함</b>)</span>'
+        : '<span class="evwhy">(사업보고서 첨부 정관이 이후 주주총회를 통해 변경됨)</span>';
       return `<b class="evt evagm">주주총회 안건</b>${why}<b class="evt">${esc(a.art || "")}</b><span class="evq">${a.after ? `<i class="small">변경 후</i> ${esc(a.after.replace(/ \/ /g, " "))}`
         : `<i class="small">대비표 원문 (칸 구분 없음)</i> ${esc(String(ev.notices[0].rows[0].l || "").replace(/ \/ /g, " "))}`}</span>`;
     }
@@ -508,7 +508,7 @@
       ["판단 이유", e(r.note), { wide: true }],
       r.attached_note ? ["첨부 정관 판단", `<span class="small">${e(r.attached_note)}</span>`, { wide: true }] : null,
       r.basis_note ? ["근거 메모", e(r.basis_note), { wide: true, hl: true }] : null,
-      r.reviewed_why ? ["사람 검토", `${e(r.reviewed_why)}${r.llm_tag !== r.tag ? ` <span class="small">(LLM ${esc(TL(r.llm_tag))})</span>` : ""}`, { wide: true }] : null,
+      r.reviewed_why ? ["재검토 (Claude 원문 대조)", `${e(r.reviewed_why)}${r.llm_tag !== r.tag ? ` <span class="small">(LLM ${esc(TL(r.llm_tag))})</span>` : ""}`, { wide: true }] : null,
     ]));
     h += sec("분류 근거의 종류", kv([
       ["종류", bkB(r.basis_kind), { wide: true }],

@@ -36,6 +36,24 @@
   ]
  },
  {
+  "stock_code": "004310",
+  "corp_name": "현대약품",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 11,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260213",
+  "notices": [
+   {
+    "rcept_no": "20260209000449",
+    "rcept_dt": "20260209",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "현대약품",
+    "no_section": true
+   }
+  ]
+ },
+ {
   "stock_code": "003570",
   "corp_name": "SNT다이내믹스",
   "tag": "정관yes",
@@ -93,7 +111,7 @@
   "stock_code": "010640",
   "corp_name": "진양폴리우레탄",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260227",
@@ -111,7 +129,7 @@
   "stock_code": "051630",
   "corp_name": "진양화학",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260303",
@@ -129,7 +147,7 @@
   "stock_code": "003780",
   "corp_name": "진양산업",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260304",
@@ -165,7 +183,7 @@
   "stock_code": "006650",
   "corp_name": "대한유화",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260305",
@@ -176,6 +194,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "대한유화",
     "txt": "data/agm_pre/006650_대한유화/20260223_20260223003619/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "007690",
+  "corp_name": "국도화학",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260305",
+  "notices": [
+   {
+    "rcept_no": "20260226006483",
+    "rcept_dt": "20260226",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "국도화학",
+    "txt": "data/agm_pre/007690_국도화학/20260226_20260226006483/정관의변경.txt"
    }
   ]
  },
@@ -194,6 +230,42 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "미원화학",
     "txt": "data/agm_pre/134380_미원화학/20260224_20260224003340/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "012330",
+  "corp_name": "현대모비스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260309",
+  "notices": [
+   {
+    "rcept_no": "20260227008215",
+    "rcept_dt": "20260227",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "현대모비스",
+    "txt": "data/agm_pre/012330_현대모비스/20260227_20260227008215/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "014830",
+  "corp_name": "유니드",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260310",
+  "notices": [
+   {
+    "rcept_no": "20260304000321",
+    "rcept_dt": "20260304",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "유니드",
+    "txt": "data/agm_pre/014830_유니드/20260304_20260304000321/정관의변경.txt"
    }
   ]
  },
@@ -234,6 +306,42 @@
   ]
  },
  {
+  "stock_code": "003530",
+  "corp_name": "한화투자증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260310",
+  "notices": [
+   {
+    "rcept_no": "20260224004187",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한화투자증권",
+    "txt": "data/agm_pre/003530_한화투자증권/20260224_20260224004187/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "020150",
+  "corp_name": "롯데에너지머티리얼즈",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260310",
+  "notices": [
+   {
+    "rcept_no": "20260303003004",
+    "rcept_dt": "20260303",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "롯데에너지머티리얼즈",
+    "txt": "data/agm_pre/020150_롯데에너지머티리얼즈/20260303_20260303003004/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "018260",
   "corp_name": "삼성에스디에스",
   "tag": "정관yes",
@@ -248,6 +356,24 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "삼성에스디에스",
     "txt": "data/agm_pre/018260_삼성에스디에스/20260226_20260226004916/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "214320",
+  "corp_name": "이노션",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260310",
+  "notices": [
+   {
+    "rcept_no": "20260225002487",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "이노션",
+    "txt": "data/agm_pre/214320_이노션/20260225_20260225002487/정관의변경.txt"
    }
   ]
  },
@@ -306,6 +432,42 @@
   ]
  },
  {
+  "stock_code": "268280",
+  "corp_name": "미원에스씨",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260304001489",
+    "rcept_dt": "20260304",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "미원에스씨",
+    "txt": "data/agm_pre/268280_미원에스씨/20260304_20260304001489/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "034220",
+  "corp_name": "LG디스플레이",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260213002840",
+    "rcept_dt": "20260213",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LG디스플레이",
+    "txt": "data/agm_pre/034220_LG디스플레이/20260213_20260213002840/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "028050",
   "corp_name": "삼성E&A",
   "tag": "정관yes",
@@ -324,6 +486,24 @@
   ]
  },
  {
+  "stock_code": "025750",
+  "corp_name": "한솔홈데코",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260303002807",
+    "rcept_dt": "20260303",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한솔홈데코",
+    "txt": "data/agm_pre/025750_한솔홈데코/20260303_20260303002807/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "002200",
   "corp_name": "한국수출포장공업",
   "tag": "정관yes",
@@ -338,6 +518,150 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "한국수출포장공업",
     "txt": "data/agm_pre/002200_한국수출포장공업/20260303_20260303002281/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "029780",
+  "corp_name": "삼성카드",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260219002656",
+    "rcept_dt": "20260219",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "삼성카드",
+    "txt": "data/agm_pre/029780_삼성카드/20260219_20260219002656/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "071840",
+  "corp_name": "롯데하이마트",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260226006362",
+    "rcept_dt": "20260226",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "롯데하이마트",
+    "txt": "data/agm_pre/071840_롯데하이마트/20260226_20260226006362/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "103590",
+  "corp_name": "일진전기",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260304000350",
+    "rcept_dt": "20260304",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "일진전기",
+    "txt": "data/agm_pre/103590_일진전기/20260304_20260304000350/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "015860",
+  "corp_name": "일진홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260304000706",
+    "rcept_dt": "20260304",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "일진홀딩스",
+    "txt": "data/agm_pre/015860_일진홀딩스/20260304_20260304000706/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "271940",
+  "corp_name": "일진하이솔루스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260304000708",
+    "rcept_dt": "20260304",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "일진하이솔루스",
+    "txt": "data/agm_pre/271940_일진하이솔루스/20260304_20260304000708/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "081000",
+  "corp_name": "일진다이아",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260304001174",
+    "rcept_dt": "20260304",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "일진다이아",
+    "txt": "data/agm_pre/081000_일진다이아/20260304_20260304001174/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003460",
+  "corp_name": "유화증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260225005299",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "유화증권",
+    "txt": "data/agm_pre/003460_유화증권/20260225_20260225005299/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "014440",
+  "corp_name": "영보화학",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260303001835",
+    "rcept_dt": "20260303",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "영보화학",
+    "txt": "data/agm_pre/014440_영보화학/20260303_20260303001835/정관의변경.txt"
    }
   ]
  },
@@ -396,6 +720,42 @@
   ]
  },
  {
+  "stock_code": "007070",
+  "corp_name": "GS리테일",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260304001507",
+    "rcept_dt": "20260304",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "GS리테일",
+    "txt": "data/agm_pre/007070_GS리테일/20260304_20260304001507/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "005490",
+  "corp_name": "POSCO홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260219002856",
+    "rcept_dt": "20260219",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "POSCO홀딩스",
+    "txt": "data/agm_pre/005490_POSCO홀딩스/20260219_20260219002856/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "298020",
   "corp_name": "효성티앤씨",
   "tag": "정관yes",
@@ -410,6 +770,24 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "효성티앤씨",
     "txt": "data/agm_pre/298020_효성티앤씨/20260309_20260309001759/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "005300",
+  "corp_name": "롯데칠성음료",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260304001684",
+    "rcept_dt": "20260304",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "롯데칠성음료",
+    "txt": "data/agm_pre/005300_롯데칠성음료/20260304_20260304001684/정관의변경.txt"
    }
   ]
  },
@@ -432,6 +810,24 @@
   ]
  },
  {
+  "stock_code": "178920",
+  "corp_name": "PI첨단소재",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260305000515",
+    "rcept_dt": "20260305",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "PI첨단소재",
+    "txt": "data/agm_pre/178920_PI첨단소재/20260305_20260305000515/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "026960",
   "corp_name": "동서",
   "tag": "정관yes",
@@ -446,6 +842,42 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "동서",
     "txt": "data/agm_pre/026960_동서/20260305_20260305000546/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "373220",
+  "corp_name": "LG에너지솔루션",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260213002143",
+    "rcept_dt": "20260213",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LG에너지솔루션",
+    "txt": "data/agm_pre/373220_LG에너지솔루션/20260213_20260213002143/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003470",
+  "corp_name": "유안타증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260311004478",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "유안타증권",
+    "txt": "data/agm_pre/003470_유안타증권/20260311_20260311004478/정관의변경.txt"
    }
   ]
  },
@@ -504,6 +936,78 @@
   ]
  },
  {
+  "stock_code": "030210",
+  "corp_name": "다올투자증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260303003272",
+    "rcept_dt": "20260303",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "다올투자증권",
+    "txt": "data/agm_pre/030210_다올투자증권/20260303_20260303003272/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "002600",
+  "corp_name": "조흥",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260219002009",
+    "rcept_dt": "20260219",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "조흥",
+    "txt": "data/agm_pre/002600_조흥/20260219_20260219002009/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "018470",
+  "corp_name": "조일알미늄",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260305000743",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "조일알미늄",
+    "txt": "data/agm_pre/018470_조일알미늄/20260305_20260305000743/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "004690",
+  "corp_name": "삼천리",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260305001056",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "삼천리",
+    "txt": "data/agm_pre/004690_삼천리/20260305_20260305001056/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "023150",
   "corp_name": "MH에탄올",
   "tag": "정관yes",
@@ -525,7 +1029,7 @@
   "stock_code": "090350",
   "corp_name": "노루페인트",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260312",
@@ -536,6 +1040,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "노루페인트",
     "txt": "data/agm_pre/090350_노루페인트/20260304_20260304001295/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003670",
+  "corp_name": "포스코퓨처엠",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260224004492",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "포스코퓨처엠",
+    "txt": "data/agm_pre/003670_포스코퓨처엠/20260224_20260224004492/정관의변경.txt"
    }
   ]
  },
@@ -572,6 +1094,24 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "삼성물산",
     "txt": "data/agm_pre/028260_삼성물산/20260227_20260227008642/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "280360",
+  "corp_name": "롯데웰푸드",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260305000711",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "롯데웰푸드",
+    "txt": "data/agm_pre/280360_롯데웰푸드/20260305_20260305000711/정관의변경.txt"
    }
   ]
  },
@@ -630,10 +1170,28 @@
   ]
  },
  {
+  "stock_code": "306200",
+  "corp_name": "세아제강",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260213000806",
+    "rcept_dt": "20260213",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "세아제강",
+    "txt": "data/agm_pre/306200_세아제강/20260213_20260213000806/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "100250",
   "corp_name": "진양홀딩스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260305",
@@ -666,10 +1224,28 @@
   ]
  },
  {
+  "stock_code": "009140",
+  "corp_name": "케이아이이",
+  "tag": "정관yes",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260305001285",
+    "rcept_dt": "20260305",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "케이아이이",
+    "txt": "data/agm_pre/009140_케이아이이/20260305_20260305001285/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "005800",
   "corp_name": "신영와코루",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260312",
@@ -738,6 +1314,24 @@
   ]
  },
  {
+  "stock_code": "000270",
+  "corp_name": "기아",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260303002932",
+    "rcept_dt": "20260303",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "기아",
+    "txt": "data/agm_pre/000270_기아/20260303_20260303002932/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "005090",
   "corp_name": "SGC에너지",
   "tag": "정관yes",
@@ -774,6 +1368,24 @@
   ]
  },
  {
+  "stock_code": "000100",
+  "corp_name": "유한양행",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260213002139",
+    "rcept_dt": "20260213",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "유한양행",
+    "txt": "data/agm_pre/000100_유한양행/20260213_20260213002139/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "008700",
   "corp_name": "아남전자",
   "tag": "정관yes",
@@ -792,10 +1404,64 @@
   ]
  },
  {
+  "stock_code": "011070",
+  "corp_name": "LG이노텍",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260224002638",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LG이노텍",
+    "txt": "data/agm_pre/011070_LG이노텍/20260224_20260224002638/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "007340",
+  "corp_name": "DN오토모티브",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260305001348",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "DN오토모티브",
+    "txt": "data/agm_pre/007340_DN오토모티브/20260305_20260305001348/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "011170",
+  "corp_name": "롯데케미칼",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260305000395",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "롯데케미칼",
+    "txt": "data/agm_pre/011170_롯데케미칼/20260305_20260305000395/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "000320",
   "corp_name": "노루홀딩스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260312",
@@ -828,6 +1494,24 @@
   ]
  },
  {
+  "stock_code": "103140",
+  "corp_name": "풍산",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260219002639",
+    "rcept_dt": "20260219",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "풍산",
+    "txt": "data/agm_pre/103140_풍산/20260219_20260219002639/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "487570",
   "corp_name": "HS효성",
   "tag": "정관yes",
@@ -846,10 +1530,208 @@
   ]
  },
  {
+  "stock_code": "377300",
+  "corp_name": "카카오페이",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260220002235",
+    "rcept_dt": "20260220",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "카카오페이",
+    "txt": "data/agm_pre/377300_카카오페이/20260220_20260220002235/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "025000",
+  "corp_name": "KPX케미칼",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260305001042",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "KPX케미칼",
+    "txt": "data/agm_pre/025000_KPX케미칼/20260305_20260305001042/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "016360",
+  "corp_name": "삼성증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260223004027",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "삼성증권",
+    "txt": "data/agm_pre/016360_삼성증권/20260223_20260223004027/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "023530",
+  "corp_name": "롯데쇼핑",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260305001587",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "롯데쇼핑",
+    "txt": "data/agm_pre/023530_롯데쇼핑/20260305_20260305001587/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "005810",
+  "corp_name": "풍산홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260219002689",
+    "rcept_dt": "20260219",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "풍산홀딩스",
+    "txt": "data/agm_pre/005810_풍산홀딩스/20260219_20260219002689/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001450",
+  "corp_name": "현대해상",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260303002978",
+    "rcept_dt": "20260303",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "현대해상",
+    "txt": "data/agm_pre/001450_현대해상/20260303_20260303002978/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "286940",
+  "corp_name": "롯데이노베이트",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260224003563",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "롯데이노베이트",
+    "txt": "data/agm_pre/286940_롯데이노베이트/20260224_20260224003563/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "032640",
+  "corp_name": "LG유플러스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260223003574",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LG유플러스",
+    "txt": "data/agm_pre/032640_LG유플러스/20260223_20260223003574/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "460860",
+  "corp_name": "동국제강",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260306000244",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "동국제강",
+    "txt": "data/agm_pre/460860_동국제강/20260306_20260306000244/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "013890",
+  "corp_name": "지누스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260220001976",
+    "rcept_dt": "20260220",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "지누스",
+    "txt": "data/agm_pre/013890_지누스/20260220_20260220001976/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "071320",
+  "corp_name": "지역난방공사",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260311003359",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "지역난방공사",
+    "txt": "data/agm_pre/071320_지역난방공사/20260311_20260311003359/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "0120G0",
   "corp_name": "삼양바이오팜",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260313",
@@ -864,10 +1746,136 @@
   ]
  },
  {
+  "stock_code": "009180",
+  "corp_name": "한솔로지스틱스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260220002204",
+    "rcept_dt": "20260220",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한솔로지스틱스",
+    "txt": "data/agm_pre/009180_한솔로지스틱스/20260220_20260220002204/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "302440",
+  "corp_name": "SK바이오사이언스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260220002585",
+    "rcept_dt": "20260220",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "SK바이오사이언스",
+    "txt": "data/agm_pre/302440_SK바이오사이언스/20260220_20260220002585/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "035420",
+  "corp_name": "NAVER",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260305000834",
+    "rcept_dt": "20260305",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "NAVER",
+    "txt": "data/agm_pre/035420_NAVER/20260305_20260305000834/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "322000",
+  "corp_name": "HD현대에너지솔루션",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260226005305",
+    "rcept_dt": "20260226",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "HD현대에너지솔루션",
+    "txt": "data/agm_pre/322000_HD현대에너지솔루션/20260226_20260226005305/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "020000",
+  "corp_name": "한섬",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260223003055",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한섬",
+    "txt": "data/agm_pre/020000_한섬/20260223_20260223003055/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "272550",
+  "corp_name": "삼양패키징",
+  "tag": "확인필요",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260220001743",
+    "rcept_dt": "20260220",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "삼양패키징",
+    "txt": "data/agm_pre/272550_삼양패키징/20260220_20260220001743/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "281820",
+  "corp_name": "케이씨텍",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260304001634",
+    "rcept_dt": "20260304",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "케이씨텍",
+    "txt": "data/agm_pre/281820_케이씨텍/20260304_20260304001634/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "126560",
   "corp_name": "현대퓨처넷",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260313",
@@ -878,6 +1886,114 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "현대퓨처넷",
     "txt": "data/agm_pre/126560_현대퓨처넷/20260225_20260225004247/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "051910",
+  "corp_name": "LG화학",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260224004273",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LG화학",
+    "txt": "data/agm_pre/051910_LG화학/20260224_20260224004273/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "027740",
+  "corp_name": "마니커",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260306000947",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "마니커",
+    "txt": "data/agm_pre/027740_마니커/20260306_20260306000947/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000810",
+  "corp_name": "삼성화재해상보험",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260303002491",
+    "rcept_dt": "20260303",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "삼성화재해상보험",
+    "txt": "data/agm_pre/000810_삼성화재해상보험/20260303_20260303002491/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "316140",
+  "corp_name": "우리금융지주",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260227008132",
+    "rcept_dt": "20260227",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "우리금융지주",
+    "txt": "data/agm_pre/316140_우리금융지주/20260227_20260227008132/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "009580",
+  "corp_name": "무림P&P",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260224001819",
+    "rcept_dt": "20260224",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "무림P&P",
+    "txt": "data/agm_pre/009580_무림P&P/20260224_20260224001819/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003030",
+  "corp_name": "세아제강지주",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260306000802",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "세아제강지주",
+    "txt": "data/agm_pre/003030_세아제강지주/20260306_20260306000802/정관의변경.txt"
    }
   ]
  },
@@ -900,6 +2016,24 @@
   ]
  },
  {
+  "stock_code": "105840",
+  "corp_name": "우진",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260304000543",
+    "rcept_dt": "20260304",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "우진",
+    "txt": "data/agm_pre/105840_우진/20260304_20260304000543/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "010690",
   "corp_name": "화신",
   "tag": "정관yes",
@@ -914,6 +2048,42 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "화신",
     "txt": "data/agm_pre/010690_화신/20260309_20260309001191/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "002840",
+  "corp_name": "미원상사",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260306000265",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "미원상사",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "010960",
+  "corp_name": "삼호개발",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260309001657",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "삼호개발",
+    "txt": "data/agm_pre/010960_삼호개발/20260309_20260309001657/정관의변경.txt"
    }
   ]
  },
@@ -936,6 +2106,60 @@
   ]
  },
  {
+  "stock_code": "006220",
+  "corp_name": "제주은행",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260226006780",
+    "rcept_dt": "20260226",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "제주은행",
+    "txt": "data/agm_pre/006220_제주은행/20260226_20260226006780/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "096770",
+  "corp_name": "SK이노베이션",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260227008896",
+    "rcept_dt": "20260227",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "SK이노베이션",
+    "txt": "data/agm_pre/096770_SK이노베이션/20260227_20260227008896/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "064400",
+  "corp_name": "LG씨엔에스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260223000996",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LG씨엔에스",
+    "txt": "data/agm_pre/064400_LG씨엔에스/20260223_20260223000996/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "090080",
   "corp_name": "평화산업",
   "tag": "정관yes",
@@ -950,6 +2174,132 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "평화산업",
     "txt": "data/agm_pre/090080_평화산업/20260223_20260223003597/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "271980",
+  "corp_name": "제일약품",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260309001339",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "제일약품",
+    "txt": "data/agm_pre/271980_제일약품/20260309_20260309001339/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001510",
+  "corp_name": "SK증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260305001426",
+    "rcept_dt": "20260305",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "SK증권",
+    "txt": "data/agm_pre/001510_SK증권/20260305_20260305001426/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "089860",
+  "corp_name": "롯데렌탈",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260310002124",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "롯데렌탈",
+    "txt": "data/agm_pre/089860_롯데렌탈/20260310_20260310002124/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "267260",
+  "corp_name": "HD현대일렉트릭",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260223002953",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "HD현대일렉트릭",
+    "txt": "data/agm_pre/267260_HD현대일렉트릭/20260223_20260223002953/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "213500",
+  "corp_name": "한솔제지",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260220002187",
+    "rcept_dt": "20260220",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한솔제지",
+    "txt": "data/agm_pre/213500_한솔제지/20260220_20260220002187/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000500",
+  "corp_name": "가온전선",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260309001222",
+    "rcept_dt": "20260309",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "가온전선",
+    "txt": "data/agm_pre/000500_가온전선/20260309_20260309001222/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "051900",
+  "corp_name": "LG생활건강",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260223003794",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LG생활건강",
+    "txt": "data/agm_pre/051900_LG생활건강/20260223_20260223003794/정관의변경.txt"
    }
   ]
  },
@@ -972,6 +2322,114 @@
   ]
  },
  {
+  "stock_code": "453340",
+  "corp_name": "현대그린푸드",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260224001546",
+    "rcept_dt": "20260224",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "현대그린푸드",
+    "txt": "data/agm_pre/453340_현대그린푸드/20260224_20260224001546/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "037710",
+  "corp_name": "광주신세계",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260225005310",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "광주신세계",
+    "txt": "data/agm_pre/037710_광주신세계/20260225_20260225005310/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "004170",
+  "corp_name": "신세계",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260223003373",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "신세계",
+    "txt": "data/agm_pre/004170_신세계/20260223_20260223003373/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "097950",
+  "corp_name": "CJ제일제당",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260310002991",
+    "rcept_dt": "20260310",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "CJ제일제당",
+    "txt": "data/agm_pre/097950_CJ제일제당/20260310_20260310002991/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "023000",
+  "corp_name": "삼원강재",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260223002687",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "삼원강재",
+    "txt": "data/agm_pre/023000_삼원강재/20260223_20260223002687/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "035510",
+  "corp_name": "신세계I&C",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260224002953",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "신세계I&C",
+    "txt": "data/agm_pre/035510_신세계I&C/20260224_20260224002953/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "025820",
   "corp_name": "이구산업",
   "tag": "정관yes",
@@ -990,10 +2448,64 @@
   ]
  },
  {
+  "stock_code": "009200",
+  "corp_name": "무림페이퍼",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260220002602",
+    "rcept_dt": "20260220",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "무림페이퍼",
+    "txt": "data/agm_pre/009200_무림페이퍼/20260220_20260220002602/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003000",
+  "corp_name": "부광약품",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260309001744",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "부광약품",
+    "txt": "data/agm_pre/003000_부광약품/20260309_20260309001744/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "029460",
+  "corp_name": "케이씨",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260304001547",
+    "rcept_dt": "20260304",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "케이씨",
+    "txt": "data/agm_pre/029460_케이씨/20260304_20260304001547/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "129260",
   "corp_name": "인터지스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260316",
@@ -1011,6 +2523,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "인터지스",
     "txt": "data/agm_pre/129260_인터지스/20260305_20260305000844/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "055490",
+  "corp_name": "테이팩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260223004093",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "테이팩스",
+    "txt": "data/agm_pre/055490_테이팩스/20260223_20260223004093/정관의변경.txt"
    }
   ]
  },
@@ -1036,7 +2566,7 @@
   "stock_code": "005500",
   "corp_name": "삼진제약",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260316",
@@ -1069,6 +2599,24 @@
   ]
  },
  {
+  "stock_code": "002620",
+  "corp_name": "제일파마홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260309001363",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "제일파마홀딩스",
+    "txt": "data/agm_pre/002620_제일파마홀딩스/20260309_20260309001363/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "005960",
   "corp_name": "동부건설",
   "tag": "정관yes",
@@ -1087,10 +2635,46 @@
   ]
  },
  {
+  "stock_code": "229640",
+  "corp_name": "LS에코에너지",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260224002745",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LS에코에너지",
+    "txt": "data/agm_pre/229640_LS에코에너지/20260224_20260224002745/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "004560",
+  "corp_name": "현대비앤지스틸",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260223003797",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "현대비앤지스틸",
+    "txt": "data/agm_pre/004560_현대비앤지스틸/20260223_20260223003797/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "053690",
   "corp_name": "한미글로벌",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260316",
@@ -1105,10 +2689,64 @@
   ]
  },
  {
+  "stock_code": "031430",
+  "corp_name": "신세계인터내셔날",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260223003872",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "신세계인터내셔날",
+    "txt": "data/agm_pre/031430_신세계인터내셔날/20260223_20260223003872/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "068270",
+  "corp_name": "셀트리온",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260306000002",
+    "rcept_dt": "20260306",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "셀트리온",
+    "txt": "data/agm_pre/068270_셀트리온/20260306_20260306000002/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000120",
+  "corp_name": "CJ대한통운",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260309001727",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "CJ대한통운",
+    "txt": "data/agm_pre/000120_CJ대한통운/20260309_20260309001727/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "002320",
   "corp_name": "한진",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260316",
@@ -1119,6 +2757,114 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "한진",
     "txt": "data/agm_pre/002320_한진/20260309_20260309001906/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "210540",
+  "corp_name": "디와이파워",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260309001824",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "디와이파워",
+    "txt": "data/agm_pre/210540_디와이파워/20260309_20260309001824/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001430",
+  "corp_name": "세아베스틸지주",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260223003724",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "세아베스틸지주",
+    "txt": "data/agm_pre/001430_세아베스틸지주/20260223_20260223003724/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "443060",
+  "corp_name": "HD현대마린솔루션",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260223002367",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "HD현대마린솔루션",
+    "txt": "data/agm_pre/443060_HD현대마린솔루션/20260223_20260223002367/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "108670",
+  "corp_name": "LX하우시스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260306000833",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LX하우시스",
+    "txt": "data/agm_pre/108670_LX하우시스/20260306_20260306000833/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "016380",
+  "corp_name": "KG스틸",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260309001650",
+    "rcept_dt": "20260309",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "KG스틸",
+    "txt": "data/agm_pre/016380_KG스틸/20260309_20260309001650/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "004990",
+  "corp_name": "롯데지주",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260309001813",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "롯데지주",
+    "txt": "data/agm_pre/004990_롯데지주/20260309_20260309001813/정관의변경.txt"
    }
   ]
  },
@@ -1141,10 +2887,28 @@
   ]
  },
  {
+  "stock_code": "210980",
+  "corp_name": "SK디앤디",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260310002842",
+    "rcept_dt": "20260310",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "SK디앤디",
+    "no_section": true
+   }
+  ]
+ },
+ {
   "stock_code": "001620",
   "corp_name": "케이비아이동국실업",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260317",
@@ -1155,6 +2919,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "케이비아이동국실업",
     "txt": "data/agm_pre/001620_케이비아이동국실업/20260310_20260310002504/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "030610",
+  "corp_name": "교보증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260311003507",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "교보증권",
+    "txt": "data/agm_pre/030610_교보증권/20260311_20260311003507/정관의변경.txt"
    }
   ]
  },
@@ -1177,6 +2959,42 @@
   ]
  },
  {
+  "stock_code": "000660",
+  "corp_name": "SK하이닉스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260305001231",
+    "rcept_dt": "20260305",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "SK하이닉스",
+    "txt": "data/agm_pre/000660_SK하이닉스/20260305_20260305001231/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "042660",
+  "corp_name": "한화오션",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260304001631",
+    "rcept_dt": "20260304",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한화오션",
+    "txt": "data/agm_pre/042660_한화오션/20260304_20260304001631/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "024900",
   "corp_name": "디와이덕양",
   "tag": "정관yes",
@@ -1195,10 +3013,28 @@
   ]
  },
  {
+  "stock_code": "058430",
+  "corp_name": "포스코스틸리온",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260223001832",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "포스코스틸리온",
+    "txt": "data/agm_pre/058430_포스코스틸리온/20260223_20260223001832/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "015760",
   "corp_name": "한국전력공사",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260317",
@@ -1209,6 +3045,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "한국전력공사",
     "txt": "data/agm_pre/015760_한국전력공사/20260310_20260310002765/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001250",
+  "corp_name": "GS글로벌",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260226005854",
+    "rcept_dt": "20260226",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "GS글로벌",
+    "txt": "data/agm_pre/001250_GS글로벌/20260226_20260226005854/정관의변경.txt"
    }
   ]
  },
@@ -1306,7 +3160,7 @@
   "stock_code": "025540",
   "corp_name": "한국단자공업",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260312",
@@ -1321,10 +3175,100 @@
   ]
  },
  {
+  "stock_code": "460850",
+  "corp_name": "동국씨엠",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260309001914",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "동국씨엠",
+    "txt": "data/agm_pre/460850_동국씨엠/20260309_20260309001914/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "011210",
+  "corp_name": "현대위아",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260225003345",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "현대위아",
+    "txt": "data/agm_pre/011210_현대위아/20260225_20260225003345/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "083420",
+  "corp_name": "그린케미칼",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260310002017",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "그린케미칼",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "014790",
+  "corp_name": "HL D&I",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260225005028",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "HL D&I",
+    "txt": "data/agm_pre/014790_HL D&I/20260225_20260225005028/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "402340",
+  "corp_name": "SK스퀘어",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260227006590",
+    "rcept_dt": "20260227",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "SK스퀘어",
+    "txt": "data/agm_pre/402340_SK스퀘어/20260227_20260227006590/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "073240",
   "corp_name": "금호타이어",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260317",
@@ -1357,10 +3301,28 @@
   ]
  },
  {
+  "stock_code": "372910",
+  "corp_name": "한컴라이프케어",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260312000167",
+    "rcept_dt": "20260312",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한컴라이프케어",
+    "txt": "data/agm_pre/372910_한컴라이프케어/20260312_20260312000167/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "300720",
   "corp_name": "한일시멘트",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260317",
@@ -1389,6 +3351,60 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "디와이에이",
     "txt": "data/agm_pre/002880_디와이에이/20260310_20260310002915/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "006120",
+  "corp_name": "SK디스커버리",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260304001277",
+    "rcept_dt": "20260304",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "SK디스커버리",
+    "txt": "data/agm_pre/006120_SK디스커버리/20260304_20260304001277/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "044820",
+  "corp_name": "코스맥스비티아이",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260311004336",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "코스맥스비티아이",
+    "txt": "data/agm_pre/044820_코스맥스비티아이/20260311_20260311004336/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "161000",
+  "corp_name": "애경케미칼",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260311003331",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "애경케미칼",
+    "txt": "data/agm_pre/161000_애경케미칼/20260311_20260311003331/정관의변경.txt"
    }
   ]
  },
@@ -1425,6 +3441,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "성문전자",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "005690",
+  "corp_name": "파미셀",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225005474",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "파미셀",
+    "txt": "data/agm_pre/005690_파미셀/20260225_20260225005474/정관의변경.txt"
    }
   ]
  },
@@ -1468,7 +3502,7 @@
   "stock_code": "002710",
   "corp_name": "TCC스틸",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -1479,6 +3513,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "TCC스틸",
     "txt": "data/agm_pre/002710_TCC스틸/20260304_20260304001420/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "023450",
+  "corp_name": "동남합성",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003955",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "동남합성",
+    "txt": "data/agm_pre/023450_동남합성/20260311_20260311003955/정관의변경.txt"
    }
   ]
  },
@@ -1537,6 +3589,24 @@
   ]
  },
  {
+  "stock_code": "000390",
+  "corp_name": "SP삼화",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260223001848",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "SP삼화",
+    "txt": "data/agm_pre/000390_SP삼화/20260223_20260223001848/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "026940",
   "corp_name": "부국철강",
   "tag": "정관yes",
@@ -1591,6 +3661,60 @@
   ]
  },
  {
+  "stock_code": "381970",
+  "corp_name": "KG모빌리티플랫폼",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003283",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "KG모빌리티플랫폼",
+    "txt": "data/agm_pre/381970_KG모빌리티플랫폼/20260311_20260311003283/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "011090",
+  "corp_name": "에넥스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003741",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "에넥스",
+    "txt": "data/agm_pre/011090_에넥스/20260311_20260311003741/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "017670",
+  "corp_name": "SK텔레콤",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260305001441",
+    "rcept_dt": "20260305",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "SK텔레콤",
+    "txt": "data/agm_pre/017670_SK텔레콤/20260305_20260305001441/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "007570",
   "corp_name": "일양약품",
   "tag": "정관yes",
@@ -1627,6 +3751,60 @@
   ]
  },
  {
+  "stock_code": "010060",
+  "corp_name": "OCI홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310002469",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "OCI홀딩스",
+    "txt": "data/agm_pre/010060_OCI홀딩스/20260310_20260310002469/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "007310",
+  "corp_name": "오뚜기",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225001156",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "오뚜기",
+    "txt": "data/agm_pre/007310_오뚜기/20260225_20260225001156/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001120",
+  "corp_name": "LX인터내셔널",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260306000274",
+    "rcept_dt": "20260306",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "LX인터내셔널",
+    "txt": "data/agm_pre/001120_LX인터내셔널/20260306_20260306000274/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "017390",
   "corp_name": "서울도시가스",
   "tag": "정관yes",
@@ -1641,6 +3819,96 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "서울도시가스",
     "txt": "data/agm_pre/017390_서울도시가스/20260311_20260311003825/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "217590",
+  "corp_name": "티엠씨",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004640",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "티엠씨",
+    "txt": "data/agm_pre/217590_티엠씨/20260225_20260225004640/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "018880",
+  "corp_name": "한온시스템",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004210",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한온시스템",
+    "txt": "data/agm_pre/018880_한온시스템/20260311_20260311004210/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "033920",
+  "corp_name": "무학",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225005281",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "무학",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "002720",
+  "corp_name": "국제약품",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004372",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "국제약품",
+    "txt": "data/agm_pre/002720_국제약품/20260225_20260225004372/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "109070",
+  "corp_name": "주성코퍼레이션",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225002761",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "주성코퍼레이션",
+    "txt": "data/agm_pre/109070_주성코퍼레이션/20260225_20260225002761/정관의변경.txt"
    }
   ]
  },
@@ -1663,6 +3931,24 @@
   ]
  },
  {
+  "stock_code": "003280",
+  "corp_name": "흥아해운",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260317000852",
+    "rcept_dt": "20260317",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "흥아해운",
+    "txt": "data/agm_pre/003280_흥아해운/20260317_20260317000852/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "000080",
   "corp_name": "하이트진로",
   "tag": "정관yes",
@@ -1677,6 +3963,42 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "하이트진로",
     "txt": "data/agm_pre/000080_하이트진로/20260311_20260311003575/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "024110",
+  "corp_name": "기업은행",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004141",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "기업은행",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "002390",
+  "corp_name": "한독",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310003101",
+    "rcept_dt": "20260310",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한독",
+    "txt": "data/agm_pre/002390_한독/20260310_20260310003101/정관의변경.txt"
    }
   ]
  },
@@ -1699,10 +4021,28 @@
   ]
  },
  {
+  "stock_code": "027410",
+  "corp_name": "BGF",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004838",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "BGF",
+    "txt": "data/agm_pre/027410_BGF/20260225_20260225004838/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "084010",
   "corp_name": "대한제강",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -1713,6 +4053,60 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "대한제강",
     "txt": "data/agm_pre/084010_대한제강/20260310_20260310002455/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "005850",
+  "corp_name": "에스엘",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004008",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "에스엘",
+    "txt": "data/agm_pre/005850_에스엘/20260311_20260311004008/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "090430",
+  "corp_name": "아모레퍼시픽",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260309001451",
+    "rcept_dt": "20260309",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "아모레퍼시픽",
+    "txt": "data/agm_pre/090430_아모레퍼시픽/20260309_20260309001451/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "249420",
+  "corp_name": "일동제약",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004221",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "일동제약",
+    "txt": "data/agm_pre/249420_일동제약/20260225_20260225004221/정관의변경.txt"
    }
   ]
  },
@@ -1731,6 +4125,78 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "쏘카",
     "txt": "data/agm_pre/403550_쏘카/20260225_20260225003088/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001230",
+  "corp_name": "동국홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003904",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "동국홀딩스",
+    "txt": "data/agm_pre/001230_동국홀딩스/20260311_20260311003904/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "002790",
+  "corp_name": "아모레퍼시픽홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260309001457",
+    "rcept_dt": "20260309",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "아모레퍼시픽홀딩스",
+    "txt": "data/agm_pre/002790_아모레퍼시픽홀딩스/20260309_20260309001457/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "282330",
+  "corp_name": "BGF리테일",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004697",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "BGF리테일",
+    "txt": "data/agm_pre/282330_BGF리테일/20260225_20260225004697/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001200",
+  "corp_name": "유진증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260305001537",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "유진증권",
+    "txt": "data/agm_pre/001200_유진증권/20260305_20260305001537/정관의변경.txt"
    }
   ]
  },
@@ -1789,10 +4255,64 @@
   ]
  },
  {
+  "stock_code": "016610",
+  "corp_name": "DB증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004198",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "DB증권",
+    "txt": "data/agm_pre/016610_DB증권/20260311_20260311004198/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "204320",
+  "corp_name": "HL만도",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003837",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "HL만도",
+    "txt": "data/agm_pre/204320_HL만도/20260311_20260311003837/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "323410",
+  "corp_name": "카카오뱅크",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260305000006",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "카카오뱅크",
+    "txt": "data/agm_pre/323410_카카오뱅크/20260305_20260305000006/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "264900",
   "corp_name": "크라운제과",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -1803,6 +4323,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "크라운제과",
     "txt": "data/agm_pre/264900_크라운제과/20260311_20260311004367/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "081660",
+  "corp_name": "미스토홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004415",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "미스토홀딩스",
+    "txt": "data/agm_pre/081660_미스토홀딩스/20260225_20260225004415/정관의변경.txt"
    }
   ]
  },
@@ -1828,7 +4366,7 @@
   "stock_code": "005740",
   "corp_name": "크라운해태홀딩스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -1864,7 +4402,7 @@
   "stock_code": "082740",
   "corp_name": "한화엔진",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -1918,7 +4456,7 @@
   "stock_code": "013700",
   "corp_name": "까뮤이앤씨",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -1929,6 +4467,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "까뮤이앤씨",
     "txt": "data/agm_pre/013700_까뮤이앤씨/20260311_20260311003605/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "161390",
+  "corp_name": "한국타이어앤테크놀로지",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004197",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한국타이어앤테크놀로지",
+    "txt": "data/agm_pre/161390_한국타이어앤테크놀로지/20260311_20260311004197/정관의변경.txt"
    }
   ]
  },
@@ -1951,6 +4507,24 @@
   ]
  },
  {
+  "stock_code": "000210",
+  "corp_name": "DL",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225005901",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "DL",
+    "txt": "data/agm_pre/000210_DL/20260225_20260225005901/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "009680",
   "corp_name": "모토닉",
   "tag": "정관yes",
@@ -1965,6 +4539,60 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "모토닉",
     "txt": "data/agm_pre/009680_모토닉/20260311_20260311003574/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "007160",
+  "corp_name": "사조산업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003932",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "사조산업",
+    "txt": "data/agm_pre/007160_사조산업/20260311_20260311003932/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "005250",
+  "corp_name": "녹십자홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003982",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "녹십자홀딩스",
+    "txt": "data/agm_pre/005250_녹십자홀딩스/20260311_20260311003982/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000240",
+  "corp_name": "한국앤컴퍼니",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260312001166",
+    "rcept_dt": "20260312",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한국앤컴퍼니",
+    "txt": "data/agm_pre/000240_한국앤컴퍼니/20260312_20260312001166/정관의변경.txt"
    }
   ]
  },
@@ -2005,10 +4633,46 @@
   ]
  },
  {
+  "stock_code": "012800",
+  "corp_name": "대창",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003579",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대창",
+    "txt": "data/agm_pre/012800_대창/20260311_20260311003579/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "123890",
+  "corp_name": "한국자산신탁",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260306000540",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한국자산신탁",
+    "txt": "data/agm_pre/123890_한국자산신탁/20260306_20260306000540/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "101530",
   "corp_name": "해태제과식품",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2019,6 +4683,78 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "해태제과식품",
     "txt": "data/agm_pre/101530_해태제과식품/20260225_20260225005576/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "139480",
+  "corp_name": "이마트",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310003028",
+    "rcept_dt": "20260310",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "이마트",
+    "txt": "data/agm_pre/139480_이마트/20260310_20260310003028/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003550",
+  "corp_name": "LG",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225005289",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LG",
+    "txt": "data/agm_pre/003550_LG/20260225_20260225005289/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000020",
+  "corp_name": "동화약품",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003422",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "동화약품",
+    "txt": "data/agm_pre/000020_동화약품/20260311_20260311003422/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "047040",
+  "corp_name": "대우건설",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260304001608",
+    "rcept_dt": "20260304",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대우건설",
+    "txt": "data/agm_pre/047040_대우건설/20260304_20260304001608/정관의변경.txt"
    }
   ]
  },
@@ -2037,6 +4773,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "동일고무벨트",
     "txt": "data/agm_pre/163560_동일고무벨트/20260310_20260310002557/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "013570",
+  "corp_name": "디와이",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260309001749",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "디와이",
+    "txt": "data/agm_pre/013570_디와이/20260309_20260309001749/정관의변경.txt"
    }
   ]
  },
@@ -2095,6 +4849,42 @@
   ]
  },
  {
+  "stock_code": "137310",
+  "corp_name": "에스디바이오센서",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260304001291",
+    "rcept_dt": "20260304",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "에스디바이오센서",
+    "txt": "data/agm_pre/137310_에스디바이오센서/20260304_20260304001291/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "005610",
+  "corp_name": "삼립",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260309001223",
+    "rcept_dt": "20260309",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "삼립",
+    "txt": "data/agm_pre/005610_삼립/20260309_20260309001223/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "003680",
   "corp_name": "한성기업",
   "tag": "정관yes",
@@ -2113,10 +4903,28 @@
   ]
  },
  {
+  "stock_code": "000230",
+  "corp_name": "일동홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004452",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "일동홀딩스",
+    "txt": "data/agm_pre/000230_일동홀딩스/20260225_20260225004452/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "006090",
   "corp_name": "사조오양",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2127,6 +4935,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "사조오양",
     "txt": "data/agm_pre/006090_사조오양/20260225_20260225004581/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003230",
+  "corp_name": "삼양식품",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004079",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "삼양식품",
+    "txt": "data/agm_pre/003230_삼양식품/20260311_20260311004079/정관의변경.txt"
    }
   ]
  },
@@ -2152,7 +4978,7 @@
   "stock_code": "112610",
   "corp_name": "씨에스윈드",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2163,6 +4989,60 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "씨에스윈드",
     "txt": "data/agm_pre/112610_씨에스윈드/20260311_20260311003899/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001740",
+  "corp_name": "SK네트웍스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004664",
+    "rcept_dt": "20260312",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "SK네트웍스",
+    "txt": "data/agm_pre/001740_SK네트웍스/20260312_20260311004664/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "079160",
+  "corp_name": "CJ CGV",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004427",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "CJ CGV",
+    "txt": "data/agm_pre/079160_CJ CGV/20260311_20260311004427/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003490",
+  "corp_name": "대한항공",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260224003344",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대한항공",
+    "txt": "data/agm_pre/003490_대한항공/20260224_20260224003344/정관의변경.txt"
    }
   ]
  },
@@ -2185,6 +5065,60 @@
   ]
  },
  {
+  "stock_code": "002990",
+  "corp_name": "금호건설",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260305001589",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "금호건설",
+    "txt": "data/agm_pre/002990_금호건설/20260305_20260305001589/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "180640",
+  "corp_name": "한진칼",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225005184",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한진칼",
+    "txt": "data/agm_pre/180640_한진칼/20260225_20260225005184/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "138930",
+  "corp_name": "BNK금융지주",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260309001537",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "BNK금융지주",
+    "txt": "data/agm_pre/138930_BNK금융지주/20260309_20260309001537/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "069730",
   "corp_name": "DSR제강",
   "tag": "정관yes",
@@ -2203,6 +5137,24 @@
   ]
  },
  {
+  "stock_code": "034730",
+  "corp_name": "SK",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310002815",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "SK",
+    "txt": "data/agm_pre/034730_SK/20260310_20260310002815/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "000180",
   "corp_name": "성창기업지주",
   "tag": "정관yes",
@@ -2217,6 +5169,42 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "성창기업지주",
     "txt": "data/agm_pre/000180_성창기업지주/20260311_20260311004361/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "117580",
+  "corp_name": "대성에너지",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003570",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대성에너지",
+    "txt": "data/agm_pre/117580_대성에너지/20260311_20260311003570/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "251270",
+  "corp_name": "넷마블",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003998",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "넷마블",
+    "txt": "data/agm_pre/251270_넷마블/20260311_20260311003998/정관의변경.txt"
    }
   ]
  },
@@ -2242,7 +5230,7 @@
   "stock_code": "003090",
   "corp_name": "대웅",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2257,10 +5245,28 @@
   ]
  },
  {
+  "stock_code": "095570",
+  "corp_name": "AJ네트웍스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310002749",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "AJ네트웍스",
+    "txt": "data/agm_pre/095570_AJ네트웍스/20260310_20260310002749/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "041650",
   "corp_name": "상신브레이크",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2275,10 +5281,100 @@
   ]
  },
  {
+  "stock_code": "161890",
+  "corp_name": "한국콜마",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003742",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한국콜마",
+    "txt": "data/agm_pre/161890_한국콜마/20260311_20260311003742/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003200",
+  "corp_name": "일신방직",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225001641",
+    "rcept_dt": "20260225",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "일신방직",
+    "txt": "data/agm_pre/003200_일신방직/20260225_20260225001641/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "086280",
+  "corp_name": "현대글로비스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004391",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "현대글로비스",
+    "txt": "data/agm_pre/086280_현대글로비스/20260311_20260311004391/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "072710",
+  "corp_name": "농심홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003668",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "농심홀딩스",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "063160",
+  "corp_name": "종근당바이오",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225003644",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "종근당바이오",
+    "txt": "data/agm_pre/063160_종근당바이오/20260225_20260225003644/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "192650",
   "corp_name": "드림텍",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2307,6 +5403,60 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "엠씨넥스",
     "txt": "data/agm_pre/097520_엠씨넥스/20260310_20260310002839/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "452260",
+  "corp_name": "한화갤러리아",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260224003898",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한화갤러리아",
+    "txt": "data/agm_pre/452260_한화갤러리아/20260224_20260224003898/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "175330",
+  "corp_name": "JB금융지주",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260305001053",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "JB금융지주",
+    "txt": "data/agm_pre/175330_JB금융지주/20260305_20260305001053/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "002900",
+  "corp_name": "TYM",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004120",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "TYM",
+    "no_section": true
    }
   ]
  },
@@ -2347,10 +5497,82 @@
   ]
  },
  {
+  "stock_code": "010120",
+  "corp_name": "엘에스일렉트릭",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310002425",
+    "rcept_dt": "20260310",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "엘에스일렉트릭",
+    "txt": "data/agm_pre/010120_엘에스일렉트릭/20260310_20260310002425/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "294870",
+  "corp_name": "IPARK현대산업개발",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310002401",
+    "rcept_dt": "20260310",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "IPARK현대산업개발",
+    "txt": "data/agm_pre/294870_IPARK현대산업개발/20260310_20260310002401/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "012630",
+  "corp_name": "HDC",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260224003946",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "HDC",
+    "txt": "data/agm_pre/012630_HDC/20260224_20260224003946/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "336260",
+  "corp_name": "두산퓨얼셀",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004355",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "두산퓨얼셀",
+    "txt": "data/agm_pre/336260_두산퓨얼셀/20260311_20260311004355/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "011780",
   "corp_name": "금호석유화학",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2401,6 +5623,114 @@
   ]
  },
  {
+  "stock_code": "003960",
+  "corp_name": "사조대림",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260305001419",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "사조대림",
+    "txt": "data/agm_pre/003960_사조대림/20260305_20260305001419/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "039570",
+  "corp_name": "HDC랩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260224004398",
+    "rcept_dt": "20260224",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "HDC랩스",
+    "txt": "data/agm_pre/039570_HDC랩스/20260224_20260224004398/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "139990",
+  "corp_name": "아주스틸",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003894",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "아주스틸",
+    "txt": "data/agm_pre/139990_아주스틸/20260311_20260311003894/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "034830",
+  "corp_name": "한국토지신탁",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260313000075",
+    "rcept_dt": "20260313",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한국토지신탁",
+    "txt": "data/agm_pre/034830_한국토지신탁/20260313_20260313000075/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000640",
+  "corp_name": "동아제약",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004226",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "동아제약",
+    "txt": "data/agm_pre/000640_동아제약/20260225_20260225004226/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "108320",
+  "corp_name": "LX세미콘",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260224003570",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LX세미콘",
+    "txt": "data/agm_pre/108320_LX세미콘/20260224_20260224003570/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "183190",
   "corp_name": "아세아시멘트",
   "tag": "정관yes",
@@ -2415,6 +5745,96 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "아세아시멘트",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "170900",
+  "corp_name": "동아에스티",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004348",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "동아에스티",
+    "txt": "data/agm_pre/170900_동아에스티/20260225_20260225004348/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "069960",
+  "corp_name": "현대백화점",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225005400",
+    "rcept_dt": "20260225",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "현대백화점",
+    "txt": "data/agm_pre/069960_현대백화점/20260225_20260225005400/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "006280",
+  "corp_name": "녹십자",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004456",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "녹십자",
+    "txt": "data/agm_pre/006280_녹십자/20260311_20260311004456/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000430",
+  "corp_name": "대원강업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260305001084",
+    "rcept_dt": "20260305",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "대원강업",
+    "txt": "data/agm_pre/000430_대원강업/20260305_20260305001084/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "307950",
+  "corp_name": "현대오토에버",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225003206",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "현대오토에버",
+    "txt": "data/agm_pre/307950_현대오토에버/20260225_20260225003206/정관의변경.txt"
    }
   ]
  },
@@ -2473,6 +5893,114 @@
   ]
  },
  {
+  "stock_code": "096760",
+  "corp_name": "JW홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004503",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "JW홀딩스",
+    "txt": "data/agm_pre/096760_JW홀딩스/20260311_20260311004503/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "004980",
+  "corp_name": "성신양회",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260306000761",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "성신양회",
+    "txt": "data/agm_pre/004980_성신양회/20260306_20260306000761/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "234080",
+  "corp_name": "JW생명과학",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004538",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "JW생명과학",
+    "txt": "data/agm_pre/234080_JW생명과학/20260311_20260311004538/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "017800",
+  "corp_name": "현대엘리베이터",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310002816",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "현대엘리베이터",
+    "txt": "data/agm_pre/017800_현대엘리베이터/20260310_20260310002816/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "185750",
+  "corp_name": "종근당",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003926",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "종근당",
+    "txt": "data/agm_pre/185750_종근당/20260311_20260311003926/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "008970",
+  "corp_name": "KBI동양철관",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003492",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "KBI동양철관",
+    "no_section": true
+   }
+  ]
+ },
+ {
   "stock_code": "102260",
   "corp_name": "동성케미컬",
   "tag": "정관yes",
@@ -2491,6 +6019,78 @@
   ]
  },
  {
+  "stock_code": "005380",
+  "corp_name": "현대자동차",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260305001412",
+    "rcept_dt": "20260305",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "현대자동차",
+    "txt": "data/agm_pre/005380_현대자동차/20260305_20260305001412/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000720",
+  "corp_name": "현대건설",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260224003471",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "현대건설",
+    "txt": "data/agm_pre/000720_현대건설/20260224_20260224003471/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003220",
+  "corp_name": "대원제약",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004444",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "대원제약",
+    "txt": "data/agm_pre/003220_대원제약/20260311_20260311004444/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000860",
+  "corp_name": "강남제비스코",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260306000088",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "강남제비스코",
+    "txt": "data/agm_pre/000860_강남제비스코/20260306_20260306000088/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "044450",
   "corp_name": "KSS해운",
   "tag": "정관yes",
@@ -2505,6 +6105,186 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "KSS해운",
     "txt": "data/agm_pre/044450_KSS해운/20260311_20260311003478/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "018250",
+  "corp_name": "애경산업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003532",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "애경산업",
+    "txt": "data/agm_pre/018250_애경산업/20260311_20260311003532/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001520",
+  "corp_name": "동양",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004188",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "동양",
+    "txt": "data/agm_pre/001520_동양/20260311_20260311004188/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "058650",
+  "corp_name": "세아홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225005108",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "세아홀딩스",
+    "txt": "data/agm_pre/058650_세아홀딩스/20260225_20260225005108/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001440",
+  "corp_name": "대한전선",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003462",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대한전선",
+    "txt": "data/agm_pre/001440_대한전선/20260311_20260311003462/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "095720",
+  "corp_name": "웅진씽크빅",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004613",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "웅진씽크빅",
+    "txt": "data/agm_pre/095720_웅진씽크빅/20260311_20260311004613/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "033780",
+  "corp_name": "케이티앤지",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225005779",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "케이티앤지",
+    "txt": "data/agm_pre/033780_케이티앤지/20260225_20260225005779/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "035720",
+  "corp_name": "카카오",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004482",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "카카오",
+    "txt": "data/agm_pre/035720_카카오/20260311_20260311004482/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "014680",
+  "corp_name": "한솔케미칼",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310003035",
+    "rcept_dt": "20260310",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한솔케미칼",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "006260",
+  "corp_name": "LS",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260312001314",
+    "rcept_dt": "20260312",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "LS",
+    "txt": "data/agm_pre/006260_LS/20260312_20260312001314/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001500",
+  "corp_name": "현대차증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260312000387",
+    "rcept_dt": "20260312",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "현대차증권",
+    "txt": "data/agm_pre/001500_현대차증권/20260312_20260312000387/정관의변경.txt"
    }
   ]
  },
@@ -2530,7 +6310,7 @@
   "stock_code": "007700",
   "corp_name": "F&F 홀딩스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2541,6 +6321,67 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "F&F 홀딩스",
     "txt": "data/agm_pre/007700_F&F 홀딩스/20260224_20260224004122/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "011200",
+  "corp_name": "HMM",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004017",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "HMM",
+    "txt": "data/agm_pre/011200_HMM/20260311_20260311004017/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "036570",
+  "corp_name": "NC",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310002522",
+    "rcept_dt": "20260310",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "NC",
+    "txt": "data/agm_pre/036570_NC/20260310_20260310002522/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "024720",
+  "corp_name": "콜마홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310003090",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "콜마홀딩스",
+    "txt": "data/agm_pre/024720_콜마홀딩스/20260310_20260310003090/정관의변경.txt"
+   },
+   {
+    "rcept_no": "20260310003104",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "콜마홀딩스",
+    "txt": "data/agm_pre/024720_콜마홀딩스/20260311_20260310003104/정관의변경.txt"
    }
   ]
  },
@@ -2563,6 +6404,85 @@
   ]
  },
  {
+  "stock_code": "105630",
+  "corp_name": "한세실업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260305001630",
+    "rcept_dt": "20260305",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한세실업",
+    "txt": "data/agm_pre/105630_한세실업/20260305_20260305001630/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "047810",
+  "corp_name": "한국항공우주",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260303001967",
+    "rcept_dt": "20260303",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한국항공우주",
+    "no_section": true
+   },
+   {
+    "rcept_no": "20260306000544",
+    "rcept_dt": "20260306",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한국항공우주",
+    "txt": "data/agm_pre/047810_한국항공우주/20260306_20260306000544/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003830",
+  "corp_name": "대한화섬",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310002661",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대한화섬",
+    "txt": "data/agm_pre/003830_대한화섬/20260310_20260310002661/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "007980",
+  "corp_name": "TP",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310003002",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "TP",
+    "txt": "data/agm_pre/007980_TP/20260310_20260310003002/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "000140",
   "corp_name": "하이트진로홀딩스",
   "tag": "정관yes",
@@ -2581,10 +6501,100 @@
   ]
  },
  {
+  "stock_code": "214390",
+  "corp_name": "경보제약",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004961",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "경보제약",
+    "txt": "data/agm_pre/214390_경보제약/20260225_20260225004961/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "016880",
+  "corp_name": "웅진",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004663",
+    "rcept_dt": "20260312",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "웅진",
+    "txt": "data/agm_pre/016880_웅진/20260312_20260311004663/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003080",
+  "corp_name": "SB성보",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004249",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "SB성보",
+    "txt": "data/agm_pre/003080_SB성보/20260311_20260311004249/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "093370",
+  "corp_name": "후성",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260305001435",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "후성",
+    "txt": "data/agm_pre/093370_후성/20260305_20260305001435/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "047050",
+  "corp_name": "포스코인터내셔널",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260224003800",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "포스코인터내셔널",
+    "txt": "data/agm_pre/047050_포스코인터내셔널/20260224_20260224003800/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "000220",
   "corp_name": "유유제약",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2599,10 +6609,28 @@
   ]
  },
  {
+  "stock_code": "001040",
+  "corp_name": "CJ",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260309001891",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "CJ",
+    "txt": "data/agm_pre/001040_CJ/20260309_20260309001891/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "383220",
   "corp_name": "F&F",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2613,6 +6641,96 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "F&F",
     "txt": "data/agm_pre/383220_F&F/20260224_20260224003816/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "353200",
+  "corp_name": "대덕전자",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260305001617",
+    "rcept_dt": "20260305",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "대덕전자",
+    "txt": "data/agm_pre/353200_대덕전자/20260305_20260305001617/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "036420",
+  "corp_name": "콘텐트리중앙",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004236",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "콘텐트리중앙",
+    "txt": "data/agm_pre/036420_콘텐트리중앙/20260225_20260225004236/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000680",
+  "corp_name": "LS네트웍스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260306000920",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LS네트웍스",
+    "txt": "data/agm_pre/000680_LS네트웍스/20260306_20260306000920/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "181710",
+  "corp_name": "NHN",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225005678",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "NHN",
+    "txt": "data/agm_pre/181710_NHN/20260225_20260225005678/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "005180",
+  "corp_name": "빙그레",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003689",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "빙그레",
+    "txt": "data/agm_pre/005180_빙그레/20260311_20260311003689/정관의변경.txt"
    }
   ]
  },
@@ -2638,7 +6756,7 @@
   "stock_code": "069620",
   "corp_name": "대웅제약",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2653,10 +6771,28 @@
   ]
  },
  {
+  "stock_code": "001630",
+  "corp_name": "종근당홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225003126",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "종근당홀딩스",
+    "txt": "data/agm_pre/001630_종근당홀딩스/20260225_20260225003126/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "003300",
   "corp_name": "한일홀딩스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2671,10 +6807,136 @@
   ]
  },
  {
+  "stock_code": "016450",
+  "corp_name": "한세예스24홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004596",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한세예스24홀딩스",
+    "txt": "data/agm_pre/016450_한세예스24홀딩스/20260311_20260311004596/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001060",
+  "corp_name": "JW중외제약",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004558",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "JW중외제약",
+    "txt": "data/agm_pre/001060_JW중외제약/20260311_20260311004558/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "028100",
+  "corp_name": "동아지질",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003254",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "동아지질",
+    "txt": "data/agm_pre/028100_동아지질/20260311_20260311003254/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001360",
+  "corp_name": "삼성제약",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004532",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "삼성제약",
+    "txt": "data/agm_pre/001360_삼성제약/20260311_20260311004532/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000490",
+  "corp_name": "대동",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310002900",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대동",
+    "txt": "data/agm_pre/000490_대동/20260310_20260310002900/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001780",
+  "corp_name": "알루코",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003658",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "알루코",
+    "txt": "data/agm_pre/001780_알루코/20260311_20260311003658/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "454910",
+  "corp_name": "두산로보틱스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225005684",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "두산로보틱스",
+    "txt": "data/agm_pre/454910_두산로보틱스/20260225_20260225005684/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "010780",
   "corp_name": "아이에스동서",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2703,6 +6965,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "세우글로벌",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "009290",
+  "corp_name": "광동제약",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225005822",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "광동제약",
+    "txt": "data/agm_pre/009290_광동제약/20260225_20260225005822/정관의변경.txt"
    }
   ]
  },
@@ -2761,6 +7041,78 @@
   ]
  },
  {
+  "stock_code": "004150",
+  "corp_name": "한솔홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003962",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한솔홀딩스",
+    "txt": "data/agm_pre/004150_한솔홀딩스/20260311_20260311003962/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "008040",
+  "corp_name": "사조동아원",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004196",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "사조동아원",
+    "txt": "data/agm_pre/008040_사조동아원/20260311_20260311004196/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "023590",
+  "corp_name": "다우기술",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004340",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "다우기술",
+    "txt": "data/agm_pre/023590_다우기술/20260311_20260311004340/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001750",
+  "corp_name": "한양증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004413",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한양증권",
+    "txt": "data/agm_pre/001750_한양증권/20260311_20260311004413/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "000520",
   "corp_name": "삼일제약",
   "tag": "정관yes",
@@ -2782,7 +7134,7 @@
   "stock_code": "012170",
   "corp_name": "아센디오",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2814,7 +7166,7 @@
   "stock_code": "009420",
   "corp_name": "한올바이오파마",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2829,10 +7181,46 @@
   ]
  },
  {
+  "stock_code": "446070",
+  "corp_name": "유니드비티플러스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003380",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "유니드비티플러스",
+    "txt": "data/agm_pre/446070_유니드비티플러스/20260311_20260311003380/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "194370",
+  "corp_name": "제이에스코퍼레이션",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003169",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "제이에스코퍼레이션",
+    "txt": "data/agm_pre/194370_제이에스코퍼레이션/20260311_20260311003169/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "214330",
   "corp_name": "금호에이치티",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2843,6 +7231,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "금호에이치티",
     "txt": "data/agm_pre/214330_금호에이치티/20260311_20260311003992/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "462870",
+  "corp_name": "시프트업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310003067",
+    "rcept_dt": "20260310",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "시프트업",
+    "txt": "data/agm_pre/462870_시프트업/20260310_20260310003067/정관의변경.txt"
    }
   ]
  },
@@ -2886,7 +7292,7 @@
   "stock_code": "005430",
   "corp_name": "한국공항",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260318",
@@ -2937,6 +7343,24 @@
   ]
  },
  {
+  "stock_code": "002870",
+  "corp_name": "신풍",
+  "tag": "정관yes",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260311003387",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "신풍",
+    "txt": "data/agm_pre/002870_신풍/20260311_20260311003387/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "000760",
   "corp_name": "이화산업",
   "tag": "정관yes",
@@ -2958,7 +7382,7 @@
   "stock_code": "012610",
   "corp_name": "경인양행",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260319",
@@ -3063,6 +7487,24 @@
   ]
  },
  {
+  "stock_code": "009770",
+  "corp_name": "삼정펄프",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260317000535",
+    "rcept_dt": "20260317",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "삼정펄프",
+    "txt": "data/agm_pre/009770_삼정펄프/20260317_20260317000535/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "024070",
   "corp_name": "WISCOM",
   "tag": "정관yes",
@@ -3095,6 +7537,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "깨끗한나라",
     "txt": "data/agm_pre/004540_깨끗한나라/20260306_20260306000466/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "285130",
+  "corp_name": "SK케미칼",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260312000193",
+    "rcept_dt": "20260312",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "SK케미칼",
+    "txt": "data/agm_pre/285130_SK케미칼/20260312_20260312000193/정관의변경.txt"
    }
   ]
  },
@@ -3192,7 +7652,7 @@
   "stock_code": "012450",
   "corp_name": "한화에어로스페이스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260316",
@@ -3304,6 +7764,24 @@
   ]
  },
  {
+  "stock_code": "044380",
+  "corp_name": "주연테크",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000671",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "주연테크",
+    "txt": "data/agm_pre/044380_주연테크/20260312_20260312000671/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "130660",
   "corp_name": "한전산업",
   "tag": "정관yes",
@@ -3325,6 +7803,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "한전산업",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "072130",
+  "corp_name": "유엔젤",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260227006878",
+    "rcept_dt": "20260227",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "유엔젤",
+    "txt": "data/agm_pre/072130_유엔젤/20260227_20260227006878/정관의변경.txt"
    }
   ]
  },
@@ -3393,7 +7889,7 @@
   "stock_code": "035150",
   "corp_name": "백산",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260319",
@@ -3447,7 +7943,7 @@
   "stock_code": "032350",
   "corp_name": "롯데관광개발",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260319",
@@ -3512,6 +8008,60 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "삼화전기",
     "txt": "data/agm_pre/009470_삼화전기/20260313_20260313000452/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "004020",
+  "corp_name": "현대제철",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004706",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "현대제철",
+    "txt": "data/agm_pre/004020_현대제철/20260225_20260225004706/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "090370",
+  "corp_name": "메타랩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000670",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "메타랩스",
+    "txt": "data/agm_pre/090370_메타랩스/20260312_20260312000670/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "002170",
+  "corp_name": "SYTS",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312001125",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "SYTS",
+    "txt": "data/agm_pre/002170_SYTS/20260312_20260312001125/정관의변경.txt"
    }
   ]
  },
@@ -3588,10 +8138,28 @@
   ]
  },
  {
+  "stock_code": "344820",
+  "corp_name": "케이씨씨글라스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312001057",
+    "rcept_dt": "20260312",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "케이씨씨글라스",
+    "txt": "data/agm_pre/344820_케이씨씨글라스/20260312_20260312001057/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "465770",
   "corp_name": "STX그린로지스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260319",
@@ -3656,6 +8224,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "DRB동일",
     "txt": "data/agm_pre/004840_DRB동일/20260310_20260310002569/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "071050",
+  "corp_name": "한국금융지주",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000993",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한국금융지주",
+    "no_section": true
    }
   ]
  },
@@ -3735,7 +8321,7 @@
   "stock_code": "008490",
   "corp_name": "서흥",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관yesorno",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260319",
@@ -3753,7 +8339,7 @@
   "stock_code": "005870",
   "corp_name": "휴니드테크놀러지스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260319",
@@ -3782,6 +8368,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "에스제이엠",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "016090",
+  "corp_name": "대현",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312001198",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대현",
+    "txt": "data/agm_pre/016090_대현/20260312_20260312001198/정관의변경.txt"
    }
   ]
  },
@@ -3822,10 +8426,28 @@
   ]
  },
  {
+  "stock_code": "008060",
+  "corp_name": "대덕",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000170",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대덕",
+    "txt": "data/agm_pre/008060_대덕/20260312_20260312000170/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "028670",
   "corp_name": "팬오션",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260319",
@@ -3836,6 +8458,24 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "팬오션",
     "txt": "data/agm_pre/028670_팬오션/20260303_20260303002348/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "107590",
+  "corp_name": "미원홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000190",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "미원홀딩스",
+    "txt": "data/agm_pre/107590_미원홀딩스/20260312_20260312000190/정관의변경.txt"
    }
   ]
  },
@@ -3858,6 +8498,60 @@
   ]
  },
  {
+  "stock_code": "025560",
+  "corp_name": "미래산업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000918",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "미래산업",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "009240",
+  "corp_name": "한샘",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312001307",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한샘",
+    "txt": "data/agm_pre/009240_한샘/20260312_20260312001307/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001460",
+  "corp_name": "BYC",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260311003945",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "BYC",
+    "txt": "data/agm_pre/001460_BYC/20260311_20260311003945/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "155660",
   "corp_name": "DSR",
   "tag": "정관yes",
@@ -3876,6 +8570,24 @@
   ]
  },
  {
+  "stock_code": "005750",
+  "corp_name": "대림바스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000909",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대림바스",
+    "txt": "data/agm_pre/005750_대림바스/20260312_20260312000909/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "012200",
   "corp_name": "계양전기",
   "tag": "정관yes",
@@ -3890,6 +8602,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "계양전기",
     "txt": "data/agm_pre/012200_계양전기/20260311_20260311004635/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "034120",
+  "corp_name": "SBS",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260316001502",
+    "rcept_dt": "20260316",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "SBS",
+    "txt": "data/agm_pre/034120_SBS/20260316_20260316001502/정관의변경.txt"
    }
   ]
  },
@@ -3984,6 +8714,42 @@
   ]
  },
  {
+  "stock_code": "009970",
+  "corp_name": "영원무역홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312001113",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "영원무역홀딩스",
+    "txt": "data/agm_pre/009970_영원무역홀딩스/20260312_20260312001113/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "241560",
+  "corp_name": "두산밥캣",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000719",
+    "rcept_dt": "20260312",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "두산밥캣",
+    "txt": "data/agm_pre/241560_두산밥캣/20260312_20260312000719/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "025620",
   "corp_name": "차AI헬스케어",
   "tag": "정관yes",
@@ -4005,7 +8771,7 @@
   "stock_code": "034230",
   "corp_name": "파라다이스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260319",
@@ -4038,6 +8804,24 @@
   ]
  },
  {
+  "stock_code": "064350",
+  "corp_name": "현대로템",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260226002495",
+    "rcept_dt": "20260226",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "현대로템",
+    "txt": "data/agm_pre/064350_현대로템/20260226_20260226002495/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "001130",
   "corp_name": "대한제분",
   "tag": "정관yes",
@@ -4059,7 +8843,7 @@
   "stock_code": "111770",
   "corp_name": "영원무역",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260319",
@@ -4110,6 +8894,24 @@
   ]
  },
  {
+  "stock_code": "017940",
+  "corp_name": "E1",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000269",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "E1",
+    "txt": "data/agm_pre/017940_E1/20260312_20260312000269/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "005680",
   "corp_name": "삼영전자공업",
   "tag": "정관yes",
@@ -4124,6 +8926,78 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "삼영전자공업",
     "txt": "data/agm_pre/005680_삼영전자공업/20260312_20260312000998/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "006570",
+  "corp_name": "대림통상",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312001028",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대림통상",
+    "txt": "data/agm_pre/006570_대림통상/20260312_20260312001028/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "097230",
+  "corp_name": "HJ중공업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000143",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "HJ중공업",
+    "txt": "data/agm_pre/097230_HJ중공업/20260312_20260312000143/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "039130",
+  "corp_name": "하나투어",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260313001265",
+    "rcept_dt": "20260313",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "하나투어",
+    "txt": "data/agm_pre/039130_하나투어/20260313_20260313001265/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "111380",
+  "corp_name": "동인기연",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000491",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "동인기연",
+    "txt": "data/agm_pre/111380_동인기연/20260312_20260312000491/정관의변경.txt"
    }
   ]
  },
@@ -4167,7 +9041,7 @@
   "stock_code": "363280",
   "corp_name": "티와이홀딩스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260320",
@@ -4178,6 +9052,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "티와이홀딩스",
     "txt": "data/agm_pre/363280_티와이홀딩스/20260312_20260312000776/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "036580",
+  "corp_name": "팜스코",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260227001360",
+    "rcept_dt": "20260227",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "팜스코",
+    "txt": "data/agm_pre/036580_팜스코/20260227_20260227001360/정관의변경.txt"
    }
   ]
  },
@@ -4200,6 +9092,78 @@
   ]
  },
  {
+  "stock_code": "014130",
+  "corp_name": "한익스프레스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000842",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한익스프레스",
+    "txt": "data/agm_pre/014130_한익스프레스/20260312_20260312000842/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "078520",
+  "corp_name": "에이블씨엔씨",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260312001335",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "에이블씨엔씨",
+    "txt": "data/agm_pre/078520_에이블씨엔씨/20260312_20260312001335/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "450080",
+  "corp_name": "에코프로머티",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260225006068",
+    "rcept_dt": "20260226",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "에코프로머티",
+    "txt": "data/agm_pre/450080_에코프로머티/20260226_20260225006068/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "128820",
+  "corp_name": "대성산업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000759",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대성산업",
+    "txt": "data/agm_pre/128820_대성산업/20260312_20260312000759/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "002700",
   "corp_name": "신일전자",
   "tag": "정관yes",
@@ -4214,6 +9178,42 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "신일전자",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "010950",
+  "corp_name": "S-Oil",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260227006711",
+    "rcept_dt": "20260227",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "S-Oil",
+    "txt": "data/agm_pre/010950_S-Oil/20260227_20260227006711/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "136490",
+  "corp_name": "선진",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260227008369",
+    "rcept_dt": "20260227",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "선진",
+    "txt": "data/agm_pre/136490_선진/20260227_20260227008369/정관의변경.txt"
    }
   ]
  },
@@ -4290,6 +9290,78 @@
   ]
  },
  {
+  "stock_code": "352820",
+  "corp_name": "하이브",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260310003084",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "하이브",
+    "txt": "data/agm_pre/352820_하이브/20260310_20260310003084/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "329180",
+  "corp_name": "HD현대중공업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260227005715",
+    "rcept_dt": "20260227",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "HD현대중공업",
+    "txt": "data/agm_pre/329180_HD현대중공업/20260227_20260227005715/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "267250",
+  "corp_name": "HD현대",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260226006307",
+    "rcept_dt": "20260226",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "HD현대",
+    "txt": "data/agm_pre/267250_HD현대/20260226_20260226006307/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003060",
+  "corp_name": "에이프로젠바이오로직스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260313001196",
+    "rcept_dt": "20260313",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "에이프로젠바이오로직스",
+    "txt": "data/agm_pre/003060_에이프로젠바이오로직스/20260313_20260313001196/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "011690",
   "corp_name": "와이투솔루션",
   "tag": "정관yes",
@@ -4326,6 +9398,42 @@
   ]
  },
  {
+  "stock_code": "293480",
+  "corp_name": "하나제약",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260313000575",
+    "rcept_dt": "20260313",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "하나제약",
+    "txt": "data/agm_pre/293480_하나제약/20260313_20260313000575/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "009540",
+  "corp_name": "HD한국조선해양",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260226005691",
+    "rcept_dt": "20260226",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "HD한국조선해양",
+    "txt": "data/agm_pre/009540_HD한국조선해양/20260226_20260226005691/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "092200",
   "corp_name": "디아이씨",
   "tag": "정관yes",
@@ -4340,6 +9448,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "디아이씨",
     "txt": "data/agm_pre/092200_디아이씨/20260313_20260313000485/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "013870",
+  "corp_name": "지엠비코리아",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260317000352",
+    "rcept_dt": "20260317",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "지엠비코리아",
+    "txt": "data/agm_pre/013870_지엠비코리아/20260317_20260317000352/정관의변경.txt"
    }
   ]
  },
@@ -4362,6 +9488,24 @@
   ]
  },
  {
+  "stock_code": "128940",
+  "corp_name": "한미약품",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260316001152",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한미약품",
+    "txt": "data/agm_pre/128940_한미약품/20260316_20260316001152/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "005880",
   "corp_name": "대한해운",
   "tag": "정관yes",
@@ -4376,6 +9520,60 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "대한해운",
     "txt": "data/agm_pre/005880_대한해운/20260317_20260317000751/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "008930",
+  "corp_name": "한미사이언스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260316001193",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한미사이언스",
+    "txt": "data/agm_pre/008930_한미사이언스/20260316_20260316001193/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "092230",
+  "corp_name": "KPX홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260305001164",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "KPX홀딩스",
+    "txt": "data/agm_pre/092230_KPX홀딩스/20260305_20260305001164/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "034020",
+  "corp_name": "두산에너빌리티",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260312001003",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "두산에너빌리티",
+    "txt": "data/agm_pre/034020_두산에너빌리티/20260312_20260312001003/정관의변경.txt"
    }
   ]
  },
@@ -4412,6 +9610,42 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "이연제약",
     "txt": "data/agm_pre/102460_이연제약/20260312_20260312000571/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "037270",
+  "corp_name": "YG PLUS",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000587",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "YG PLUS",
+    "txt": "data/agm_pre/037270_YG PLUS/20260312_20260312000587/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "480370",
+  "corp_name": "씨케이솔루션",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260313000861",
+    "rcept_dt": "20260313",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "씨케이솔루션",
+    "txt": "data/agm_pre/480370_씨케이솔루션/20260313_20260313000861/정관의변경.txt"
    }
   ]
  },
@@ -4524,6 +9758,24 @@
   ]
  },
  {
+  "stock_code": "084870",
+  "corp_name": "티비에이치글로벌",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316000594",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "티비에이치글로벌",
+    "txt": "data/agm_pre/084870_티비에이치글로벌/20260316_20260316000594/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "100090",
   "corp_name": "SK오션플랜트",
   "tag": "정관yes",
@@ -4538,6 +9790,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "SK오션플랜트",
     "txt": "data/agm_pre/100090_SK오션플랜트/20260312_20260312000420/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "439260",
+  "corp_name": "대한조선",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316000214",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대한조선",
+    "txt": "data/agm_pre/439260_대한조선/20260316_20260316000214/정관의변경.txt"
    }
   ]
  },
@@ -4560,10 +9830,71 @@
   ]
  },
  {
+  "stock_code": "031210",
+  "corp_name": "서울보증보험",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260108000234",
+    "rcept_dt": "20260108",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "서울보증보험",
+    "no_section": true
+   },
+   {
+    "rcept_no": "20260312000524",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "서울보증보험",
+    "txt": "data/agm_pre/031210_서울보증보험/20260312_20260312000524/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "077970",
+  "corp_name": "STX엔진",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316001015",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "STX엔진",
+    "txt": "data/agm_pre/077970_STX엔진/20260316_20260316001015/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "017860",
+  "corp_name": "DS단석",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260304000867",
+    "rcept_dt": "20260304",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "DS단석",
+    "txt": "data/agm_pre/017860_DS단석/20260304_20260304000867/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "002820",
   "corp_name": "SUN&L",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260323",
@@ -4574,6 +9905,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "SUN&L",
     "txt": "data/agm_pre/002820_SUN&L/20260316_20260316000869/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "058850",
+  "corp_name": "KTcs",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260313000721",
+    "rcept_dt": "20260313",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "KTcs",
+    "txt": "data/agm_pre/058850_KTcs/20260313_20260313000721/정관의변경.txt"
    }
   ]
  },
@@ -4610,6 +9959,78 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "동일제강",
     "txt": "data/agm_pre/002690_동일제강/20260316_20260316000735/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "007120",
+  "corp_name": "미래아이앤지",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316001052",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "미래아이앤지",
+    "txt": "data/agm_pre/007120_미래아이앤지/20260316_20260316001052/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "339770",
+  "corp_name": "교촌에프앤비",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316000790",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "교촌에프앤비",
+    "txt": "data/agm_pre/339770_교촌에프앤비/20260316_20260316000790/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "009900",
+  "corp_name": "명신산업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260311003549",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "명신산업",
+    "txt": "data/agm_pre/009900_명신산업/20260311_20260311003549/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "035250",
+  "corp_name": "강원랜드",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260313000340",
+    "rcept_dt": "20260313",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "강원랜드",
+    "txt": "data/agm_pre/035250_강원랜드/20260313_20260313000340/정관의변경.txt"
    }
   ]
  },
@@ -4668,6 +10089,24 @@
   ]
  },
  {
+  "stock_code": "021240",
+  "corp_name": "코웨이",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260224003842",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "코웨이",
+    "txt": "data/agm_pre/021240_코웨이/20260224_20260224003842/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "033250",
   "corp_name": "체시스",
   "tag": "정관yes",
@@ -4682,6 +10121,60 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "체시스",
     "txt": "data/agm_pre/033250_체시스/20260316_20260316001557/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "475560",
+  "corp_name": "더본코리아",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260310002818",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "더본코리아",
+    "txt": "data/agm_pre/475560_더본코리아/20260310_20260310002818/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000150",
+  "corp_name": "두산",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316001003",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "두산",
+    "txt": "data/agm_pre/000150_두산/20260316_20260316001003/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "010400",
+  "corp_name": "우진아이엔에스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260313000035",
+    "rcept_dt": "20260313",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "우진아이엔에스",
+    "no_section": true
    }
   ]
  },
@@ -4761,7 +10254,7 @@
   "stock_code": "036460",
   "corp_name": "한국가스공사",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260323",
@@ -4779,7 +10272,7 @@
   "stock_code": "070960",
   "corp_name": "모나용평",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260323",
@@ -4808,6 +10301,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "DB",
     "txt": "data/agm_pre/012030_DB/20260316_20260316001185/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "090460",
+  "corp_name": "비에이치",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003328",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "비에이치",
+    "txt": "data/agm_pre/090460_비에이치/20260311_20260311003328/정관의변경.txt"
    }
   ]
  },
@@ -4848,6 +10359,60 @@
   ]
  },
  {
+  "stock_code": "016710",
+  "corp_name": "대성홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312000589",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대성홀딩스",
+    "txt": "data/agm_pre/016710_대성홀딩스/20260312_20260312000589/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "075580",
+  "corp_name": "세진중공업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316000936",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "세진중공업",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "214420",
+  "corp_name": "토니모리",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260313001022",
+    "rcept_dt": "20260313",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "토니모리",
+    "txt": "data/agm_pre/214420_토니모리/20260313_20260313001022/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "002070",
   "corp_name": "비비안",
   "tag": "정관yes",
@@ -4862,6 +10427,78 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "비비안",
     "txt": "data/agm_pre/002070_비비안/20260316_20260316001019/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "079550",
+  "corp_name": "LIG디펜스앤에어로스페이스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260227006218",
+    "rcept_dt": "20260227",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LIG디펜스앤에어로스페이스",
+    "txt": "data/agm_pre/079550_LIG디펜스앤에어로스페이스/20260227_20260227006218/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "278470",
+  "corp_name": "에이피알",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260227003494",
+    "rcept_dt": "20260227",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "에이피알",
+    "txt": "data/agm_pre/278470_에이피알/20260227_20260227003494/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000700",
+  "corp_name": "유수홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260311004514",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "유수홀딩스",
+    "txt": "data/agm_pre/000700_유수홀딩스/20260311_20260311004514/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "383800",
+  "corp_name": "LX홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260224003801",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LX홀딩스",
+    "txt": "data/agm_pre/383800_LX홀딩스/20260224_20260224003801/정관의변경.txt"
    }
   ]
  },
@@ -4887,7 +10524,7 @@
   "stock_code": "000070",
   "corp_name": "삼양홀딩스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260323",
@@ -4898,6 +10535,24 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "삼양홀딩스",
     "txt": "data/agm_pre/000070_삼양홀딩스/20260318_20260318001049/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "126720",
+  "corp_name": "수산인더스트리",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316000339",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "수산인더스트리",
+    "txt": "data/agm_pre/126720_수산인더스트리/20260316_20260316000339/정관의변경.txt"
    }
   ]
  },
@@ -4923,7 +10578,7 @@
   "stock_code": "011760",
   "corp_name": "현대코퍼레이션",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260323",
@@ -4934,6 +10589,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "현대코퍼레이션",
     "txt": "data/agm_pre/011760_현대코퍼레이션/20260224_20260224004087/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "058860",
+  "corp_name": "KTis",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260311004054",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "KTis",
+    "txt": "data/agm_pre/058860_KTis/20260311_20260311004054/정관의변경.txt"
    }
   ]
  },
@@ -4974,10 +10647,28 @@
   ]
  },
  {
+  "stock_code": "007210",
+  "corp_name": "벽산",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316001139",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "벽산",
+    "txt": "data/agm_pre/007210_벽산/20260316_20260316001139/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "227840",
   "corp_name": "현대코퍼레이션홀딩스",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260323",
@@ -5010,6 +10701,78 @@
   ]
  },
  {
+  "stock_code": "007460",
+  "corp_name": "에이프로젠",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316001441",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "에이프로젠",
+    "txt": "data/agm_pre/007460_에이프로젠/20260316_20260316001441/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "006840",
+  "corp_name": "AK홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316000332",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "AK홀딩스",
+    "txt": "data/agm_pre/006840_AK홀딩스/20260316_20260316000332/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "023800",
+  "corp_name": "인지컨트롤스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316001021",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "인지컨트롤스",
+    "txt": "data/agm_pre/023800_인지컨트롤스/20260316_20260316001021/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "009320",
+  "corp_name": "아진전자부품",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260317000465",
+    "rcept_dt": "20260317",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "아진전자부품",
+    "txt": "data/agm_pre/009320_아진전자부품/20260317_20260317000465/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "085310",
   "corp_name": "엔케이",
   "tag": "정관yes",
@@ -5024,6 +10787,78 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "엔케이",
     "txt": "data/agm_pre/085310_엔케이/20260316_20260316000995/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "031820",
+  "corp_name": "아이티센씨티에스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316000464",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "아이티센씨티에스",
+    "txt": "data/agm_pre/031820_아이티센씨티에스/20260316_20260316000464/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "017810",
+  "corp_name": "풀무원",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260227008619",
+    "rcept_dt": "20260227",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "풀무원",
+    "txt": "data/agm_pre/017810_풀무원/20260227_20260227008619/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "030200",
+  "corp_name": "케이티",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316001040",
+    "rcept_dt": "20260316",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "케이티",
+    "txt": "data/agm_pre/030200_케이티/20260316_20260316001040/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "279570",
+  "corp_name": "케이뱅크",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260311004617",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "케이뱅크",
+    "txt": "data/agm_pre/279570_케이뱅크/20260311_20260311004617/정관의변경.txt"
    }
   ]
  },
@@ -5049,7 +10884,7 @@
   "stock_code": "004920",
   "corp_name": "씨아이테크",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260323",
@@ -5060,6 +10895,24 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "씨아이테크",
     "txt": "data/agm_pre/004920_씨아이테크/20260316_20260316000607/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003240",
+  "corp_name": "태광산업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260313001279",
+    "rcept_dt": "20260313",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "태광산업",
+    "txt": "data/agm_pre/003240_태광산업/20260313_20260313001279/정관의변경.txt"
    }
   ]
  },
@@ -5078,6 +10931,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "DYP",
     "txt": "data/agm_pre/092780_DYP/20260316_20260316001260/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001390",
+  "corp_name": "KG케미칼",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260317000666",
+    "rcept_dt": "20260317",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "KG케미칼",
+    "txt": "data/agm_pre/001390_KG케미칼/20260317_20260317000666/정관의변경.txt"
    }
   ]
  },
@@ -5136,6 +11007,67 @@
   ]
  },
  {
+  "stock_code": "002020",
+  "corp_name": "코오롱",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316001220",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "코오롱",
+    "txt": "data/agm_pre/002020_코오롱/20260316_20260316001220/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "145210",
+  "corp_name": "다이나믹디자인",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260318000830",
+    "rcept_dt": "20260318",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "다이나믹디자인",
+    "txt": "data/agm_pre/145210_다이나믹디자인/20260318_20260318000830/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "069460",
+  "corp_name": "대호에이엘",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260324",
+  "notices": [
+   {
+    "rcept_no": "20260219002179",
+    "rcept_dt": "20260219",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대호에이엘",
+    "txt": "data/agm_pre/069460_대호에이엘/20260219_20260219002179/정관의변경.txt"
+   },
+   {
+    "rcept_no": "20260317000032",
+    "rcept_dt": "20260317",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "대호에이엘",
+    "txt": "data/agm_pre/069460_대호에이엘/20260317_20260317000032/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "071950",
   "corp_name": "코아스",
   "tag": "정관yes",
@@ -5157,7 +11089,7 @@
   "stock_code": "011330",
   "corp_name": "유니켐",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260323",
@@ -5168,6 +11100,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "유니켐",
     "txt": "data/agm_pre/011330_유니켐/20260227_20260227008901/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "317450",
+  "corp_name": "명인제약",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260309001131",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "명인제약",
+    "txt": "data/agm_pre/317450_명인제약/20260309_20260309001131/정관의변경.txt"
    }
   ]
  },
@@ -5190,6 +11140,24 @@
   ]
  },
  {
+  "stock_code": "013580",
+  "corp_name": "계룡건설산업",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004020",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "계룡건설산업",
+    "txt": "data/agm_pre/013580_계룡건설산업/20260311_20260311004020/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "002030",
   "corp_name": "아세아",
   "tag": "정관yes",
@@ -5204,6 +11172,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "아세아",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "004710",
+  "corp_name": "한솔테크닉스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260213001763",
+    "rcept_dt": "20260213",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한솔테크닉스",
+    "txt": "data/agm_pre/004710_한솔테크닉스/20260213_20260213001763/정관의변경.txt"
    }
   ]
  },
@@ -5229,6 +11215,42 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "한전기술",
     "txt": "data/agm_pre/052690_한전기술/20260316_20260316001183/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001680",
+  "corp_name": "대상",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260313000837",
+    "rcept_dt": "20260313",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "대상",
+    "txt": "data/agm_pre/001680_대상/20260313_20260313000837/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "084690",
+  "corp_name": "대상홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260313000992",
+    "rcept_dt": "20260313",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "대상홀딩스",
+    "txt": "data/agm_pre/084690_대상홀딩스/20260313_20260313000992/정관의변경.txt"
    }
   ]
  },
@@ -5272,7 +11294,7 @@
   "stock_code": "489790",
   "corp_name": "한화비전",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260316",
@@ -5323,6 +11345,67 @@
   ]
  },
  {
+  "stock_code": "000370",
+  "corp_name": "한화손해보험",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260310",
+  "notices": [
+   {
+    "rcept_no": "20260225004678",
+    "rcept_dt": "20260225",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한화손해보험",
+    "txt": "data/agm_pre/000370_한화손해보험/20260225_20260225004678/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "120110",
+  "corp_name": "코오롱인더",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260320",
+  "notices": [
+   {
+    "rcept_no": "20260226005122",
+    "rcept_dt": "20260226",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "코오롱인더",
+    "txt": "data/agm_pre/120110_코오롱인더/20260226_20260226005122/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "101140",
+  "corp_name": "인바이오젠",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260212000958",
+    "rcept_dt": "20260212",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "인바이오젠",
+    "no_section": true
+   },
+   {
+    "rcept_no": "20260316000455",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "인바이오젠",
+    "txt": "data/agm_pre/101140_인바이오젠/20260316_20260316000455/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "075180",
   "corp_name": "새론오토모티브",
   "tag": "정관yes",
@@ -5359,6 +11442,114 @@
   ]
  },
  {
+  "stock_code": "088350",
+  "corp_name": "한화생명",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260309001843",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "한화생명",
+    "txt": "data/agm_pre/088350_한화생명/20260309_20260309001843/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "003690",
+  "corp_name": "코리안리",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260318001492",
+    "rcept_dt": "20260318",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "코리안리",
+    "txt": "data/agm_pre/003690_코리안리/20260318_20260318001492/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "005830",
+  "corp_name": "DB손해보험",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260303002699",
+    "rcept_dt": "20260303",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "DB손해보험",
+    "txt": "data/agm_pre/005830_DB손해보험/20260303_20260303002699/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "032830",
+  "corp_name": "삼성생명",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260219002857",
+    "rcept_dt": "20260219",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "삼성생명",
+    "txt": "data/agm_pre/032830_삼성생명/20260219_20260219002857/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "000400",
+  "corp_name": "롯데손해보험",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260312001250",
+    "rcept_dt": "20260312",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "롯데손해보험",
+    "txt": "data/agm_pre/000400_롯데손해보험/20260312_20260312001250/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "069260",
+  "corp_name": "티케이지휴켐스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225005329",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "티케이지휴켐스",
+    "txt": "data/agm_pre/069260_티케이지휴켐스/20260225_20260225005329/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "036530",
   "corp_name": "SNT홀딩스",
   "tag": "정관yes",
@@ -5373,6 +11564,78 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "SNT홀딩스",
     "txt": "data/agm_pre/036530_SNT홀딩스/20260212_20260212000302/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "009450",
+  "corp_name": "경동나비엔",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004958",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "경동나비엔",
+    "txt": "data/agm_pre/009450_경동나비엔/20260225_20260225004958/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "001270",
+  "corp_name": "부국증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260311004468",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "부국증권",
+    "txt": "data/agm_pre/001270_부국증권/20260311_20260311004468/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "138040",
+  "corp_name": "메리츠금융지주",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004433",
+    "rcept_dt": "20260311",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "메리츠금융지주",
+    "txt": "data/agm_pre/138040_메리츠금융지주/20260311_20260311004433/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "483650",
+  "corp_name": "달바글로벌",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260317000103",
+    "rcept_dt": "20260317",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "달바글로벌",
+    "txt": "data/agm_pre/483650_달바글로벌/20260317_20260317000103/정관의변경.txt"
    }
   ]
  },
@@ -5413,6 +11676,78 @@
   ]
  },
  {
+  "stock_code": "011000",
+  "corp_name": "진원생명과학",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260407",
+  "notices": [
+   {
+    "rcept_no": "20260316000664",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "진원생명과학",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "119650",
+  "corp_name": "KC코트렐",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260407",
+  "notices": [
+   {
+    "rcept_no": "20260316000138",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "KC코트렐",
+    "txt": "data/agm_pre/119650_KC코트렐/20260316_20260316000138/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "006490",
+  "corp_name": "프리티",
+  "tag": "정관yes",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260407",
+  "notices": [
+   {
+    "rcept_no": "20260309001214",
+    "rcept_dt": "20260309",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "프리티",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "035000",
+  "corp_name": "HS애드",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260213002597",
+    "rcept_dt": "20260213",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "HS애드",
+    "txt": "data/agm_pre/035000_HS애드/20260213_20260213002597/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "092790",
   "corp_name": "넥스틸",
   "tag": "정관yes",
@@ -5427,6 +11762,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "넥스틸",
     "txt": "data/agm_pre/092790_넥스틸/20260316_20260316000799/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "022100",
+  "corp_name": "포스코DX",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260225004735",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "포스코DX",
+    "txt": "data/agm_pre/022100_포스코DX/20260225_20260225004735/정관의변경.txt"
    }
   ]
  },
@@ -5449,6 +11802,24 @@
   ]
  },
  {
+  "stock_code": "900140",
+  "corp_name": "엘브이엠씨",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "외국주권",
+  "orig_rcept_dt": "20260428",
+  "notices": [
+   {
+    "rcept_no": "20260323000827",
+    "rcept_dt": "20260323",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "엘브이엠씨",
+    "txt": "data/agm_pre/900140_엘브이엠씨/20260323_20260323000827/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "002460",
   "corp_name": "HS화성",
   "tag": "정관yes",
@@ -5463,6 +11834,42 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "HS화성",
     "txt": "data/agm_pre/002460_HS화성/20260312_20260312000246/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "091810",
+  "corp_name": "트리니티항공",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260227008834",
+    "rcept_dt": "20260227",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "트리니티항공",
+    "txt": "data/agm_pre/091810_트리니티항공/20260227_20260227008834/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "272210",
+  "corp_name": "한화시스템",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260306000236",
+    "rcept_dt": "20260306",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한화시스템",
+    "txt": "data/agm_pre/272210_한화시스템/20260306_20260306000236/정관의변경.txt"
    }
   ]
  },
@@ -5485,6 +11892,24 @@
   ]
  },
  {
+  "stock_code": "139130",
+  "corp_name": "iM금융지주",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310002988",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "iM금융지주",
+    "txt": "data/agm_pre/139130_iM금융지주/20260310_20260310002988/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "207940",
   "corp_name": "삼성바이오로직스",
   "tag": "정관yes",
@@ -5503,6 +11928,42 @@
   ]
  },
  {
+  "stock_code": "089590",
+  "corp_name": "제주항공",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311003732",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "제주항공",
+    "txt": "data/agm_pre/089590_제주항공/20260311_20260311003732/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "259960",
+  "corp_name": "크래프톤",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260309001693",
+    "rcept_dt": "20260309",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "크래프톤",
+    "txt": "data/agm_pre/259960_크래프톤/20260309_20260309001693/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "0126Z0",
   "corp_name": "삼성에피스홀딩스",
   "tag": "정관yes",
@@ -5517,6 +11978,42 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "삼성에피스홀딩스",
     "txt": "data/agm_pre/0126Z0_삼성에피스홀딩스/20260227_20260227006817/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "334890",
+  "corp_name": "이지스밸류플러스리츠",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 2,
+  "sec_group": "부동산투자회사",
+  "orig_rcept_dt": "20260521",
+  "notices": [
+   {
+    "rcept_no": "20260514000760",
+    "rcept_dt": "20260514",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "이지스밸류플러스리츠",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "293940",
+  "corp_name": "신한알파리츠",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 3,
+  "sec_group": "부동산투자회사",
+  "orig_rcept_dt": "20260528",
+  "notices": [
+   {
+    "rcept_no": "20260522000360",
+    "rcept_dt": "20260522",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "신한알파리츠",
+    "no_section": true
    }
   ]
  },
@@ -5542,6 +12039,42 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "DKME",
     "txt": "data/agm_pre/015590_DKME/20260317_20260316001678/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "021050",
+  "corp_name": "서원",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260313000470",
+    "rcept_dt": "20260313",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "서원",
+    "txt": "data/agm_pre/021050_서원/20260313_20260313000470/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "093050",
+  "corp_name": "LF",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260226004757",
+    "rcept_dt": "20260226",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "LF",
+    "txt": "data/agm_pre/093050_LF/20260226_20260226004757/정관의변경.txt"
    }
   ]
  },
@@ -5582,6 +12115,42 @@
   ]
  },
  {
+  "stock_code": "005010",
+  "corp_name": "휴스틸",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316001436",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "휴스틸",
+    "txt": "data/agm_pre/005010_휴스틸/20260316_20260316001436/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "267270",
+  "corp_name": "HD건설기계",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260225004969",
+    "rcept_dt": "20260225",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "HD건설기계",
+    "txt": "data/agm_pre/267270_HD건설기계/20260225_20260225004969/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "377190",
   "corp_name": "디앤디플랫폼리츠",
   "tag": "정관yes",
@@ -5607,6 +12176,42 @@
   ]
  },
  {
+  "stock_code": "049800",
+  "corp_name": "우진플라임",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260306000637",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "우진플라임",
+    "txt": "data/agm_pre/049800_우진플라임/20260306_20260306000637/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "015360",
+  "corp_name": "INVENI",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260310",
+  "notices": [
+   {
+    "rcept_no": "20260223002782",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "INVENI",
+    "txt": "data/agm_pre/015360_INVENI/20260223_20260223002782/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "003160",
   "corp_name": "디아이",
   "tag": "정관yes",
@@ -5625,6 +12230,24 @@
   ]
  },
  {
+  "stock_code": "079900",
+  "corp_name": "전진건설로봇",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004050",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "전진건설로봇",
+    "txt": "data/agm_pre/079900_전진건설로봇/20260311_20260311004050/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "006660",
   "corp_name": "삼성공조",
   "tag": "정관yes",
@@ -5638,6 +12261,24 @@
     "rcept_dt": "20260312",
     "report_nm": "주주총회소집공고",
     "corp_name": "삼성공조",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "114090",
+  "corp_name": "GKL",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260313000201",
+    "rcept_dt": "20260313",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "GKL",
     "no_section": true
    }
   ]
@@ -5661,6 +12302,42 @@
   ]
  },
  {
+  "stock_code": "019680",
+  "corp_name": "대교",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260309001617",
+    "rcept_dt": "20260309",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "대교",
+    "txt": "data/agm_pre/019680_대교/20260309_20260309001617/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "011790",
+  "corp_name": "SKC",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260304001019",
+    "rcept_dt": "20260304",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "SKC",
+    "txt": "data/agm_pre/011790_SKC/20260304_20260304001019/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "092440",
   "corp_name": "기신정기",
   "tag": "정관yes",
@@ -5675,6 +12352,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "기신정기",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "001720",
+  "corp_name": "신영증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 3,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260611",
+  "notices": [
+   {
+    "rcept_no": "20260604000413",
+    "rcept_dt": "20260604",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "신영증권",
+    "txt": "data/agm_pre/001720_신영증권/20260604_20260604000413/정관의변경.txt"
    }
   ]
  },
@@ -5740,6 +12435,24 @@
   ]
  },
  {
+  "stock_code": "105560",
+  "corp_name": "KB금융",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260306000847",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "KB금융",
+    "txt": "data/agm_pre/105560_KB금융/20260306_20260306000847/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "100220",
   "corp_name": "비상교육",
   "tag": "정관yes",
@@ -5772,6 +12485,60 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "유성기업",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "001290",
+  "corp_name": "상상인증권",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260310002730",
+    "rcept_dt": "20260310",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "상상인증권",
+    "txt": "data/agm_pre/001290_상상인증권/20260310_20260310002730/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "317400",
+  "corp_name": "자이에스앤디",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260223003326",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "자이에스앤디",
+    "txt": "data/agm_pre/317400_자이에스앤디/20260223_20260223003326/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "009440",
+  "corp_name": "KC그린홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260316001145",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "KC그린홀딩스",
+    "txt": "data/agm_pre/009440_KC그린홀딩스/20260316_20260316001145/정관의변경.txt"
    }
   ]
  },
@@ -5812,6 +12579,24 @@
   ]
  },
  {
+  "stock_code": "006360",
+  "corp_name": "GS건설",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260223004100",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "GS건설",
+    "txt": "data/agm_pre/006360_GS건설/20260223_20260223004100/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "024890",
   "corp_name": "대원화성",
   "tag": "정관yes",
@@ -5826,6 +12611,49 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "대원화성",
     "txt": "data/agm_pre/024890_대원화성/20260311_20260311003446/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "008600",
+  "corp_name": "윌비스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260114000300",
+    "rcept_dt": "20260114",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "윌비스",
+    "txt": "data/agm_pre/008600_윌비스/20260114_20260114000300/정관의변경.txt"
+   },
+   {
+    "rcept_no": "20260316001094",
+    "rcept_dt": "20260316",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "윌비스",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "066570",
+  "corp_name": "LG전자",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260213001665",
+    "rcept_dt": "20260213",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "LG전자",
+    "txt": "data/agm_pre/066570_LG전자/20260213_20260213001665/정관의변경.txt"
    }
   ]
  },
@@ -5887,6 +12715,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "디씨엠",
     "txt": "data/agm_pre/024090_디씨엠/20260304_20260304000441/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "192080",
+  "corp_name": "더블유게임즈",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260311004409",
+    "rcept_dt": "20260311",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "더블유게임즈",
+    "txt": "data/agm_pre/192080_더블유게임즈/20260311_20260311004409/정관의변경.txt"
    }
   ]
  },
@@ -5963,6 +12809,42 @@
   ]
  },
  {
+  "stock_code": "060980",
+  "corp_name": "HL홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260317000618",
+    "rcept_dt": "20260317",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "HL홀딩스",
+    "txt": "data/agm_pre/060980_HL홀딩스/20260317_20260317000618/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "018670",
+  "corp_name": "SK가스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260227008667",
+    "rcept_dt": "20260227",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "SK가스",
+    "txt": "data/agm_pre/018670_SK가스/20260227_20260227008667/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "007610",
   "corp_name": "선도전기",
   "tag": "정관yes",
@@ -5981,6 +12863,42 @@
   ]
  },
  {
+  "stock_code": "010130",
+  "corp_name": "고려아연",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260305001616",
+    "rcept_dt": "20260305",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "고려아연",
+    "txt": "data/agm_pre/010130_고려아연/20260305_20260305001616/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "007540",
+  "corp_name": "샘표",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260313",
+  "notices": [
+   {
+    "rcept_no": "20260306000142",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "샘표",
+    "txt": "data/agm_pre/007540_샘표/20260306_20260306000142/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "000970",
   "corp_name": "한국주철관공업",
   "tag": "정관yes",
@@ -5995,6 +12913,42 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "한국주철관공업",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "066970",
+  "corp_name": "엘앤에프",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260306000198",
+    "rcept_dt": "20260306",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "엘앤에프",
+    "txt": "data/agm_pre/066970_엘앤에프/20260306_20260306000198/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "089470",
+  "corp_name": "HDC현대EP",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260223002792",
+    "rcept_dt": "20260223",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "HDC현대EP",
+    "txt": "data/agm_pre/089470_HDC현대EP/20260223_20260223002792/정관의변경.txt"
    }
   ]
  },
@@ -6053,6 +13007,24 @@
   ]
  },
  {
+  "stock_code": "004000",
+  "corp_name": "롯데정밀화학",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260311",
+  "notices": [
+   {
+    "rcept_no": "20260225005719",
+    "rcept_dt": "20260225",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "롯데정밀화학",
+    "txt": "data/agm_pre/004000_롯데정밀화학/20260225_20260225005719/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "226320",
   "corp_name": "잇츠한불",
   "tag": "정관yes",
@@ -6071,10 +13043,28 @@
   ]
  },
  {
+  "stock_code": "005440",
+  "corp_name": "현대지에프홀딩스",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260319",
+  "notices": [
+   {
+    "rcept_no": "20260226005966",
+    "rcept_dt": "20260226",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "현대지에프홀딩스",
+    "txt": "data/agm_pre/005440_현대지에프홀딩스/20260226_20260226005966/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "009270",
   "corp_name": "신원",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 12,
   "sec_group": "주권",
   "orig_rcept_dt": "20260319",
@@ -6103,6 +13093,78 @@
     "report_nm": "[기재정정]주주총회소집공고",
     "corp_name": "삼익악기",
     "txt": "data/agm_pre/002450_삼익악기/20260317_20260317000108/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "375500",
+  "corp_name": "DL이앤씨",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260317",
+  "notices": [
+   {
+    "rcept_no": "20260224004334",
+    "rcept_dt": "20260224",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "DL이앤씨",
+    "txt": "data/agm_pre/375500_DL이앤씨/20260224_20260224004334/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "006980",
+  "corp_name": "우성",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260312",
+  "notices": [
+   {
+    "rcept_no": "20260305001142",
+    "rcept_dt": "20260305",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "우성",
+    "txt": "data/agm_pre/006980_우성/20260305_20260305001142/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "086790",
+  "corp_name": "하나금융지주",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260227007762",
+    "rcept_dt": "20260227",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "하나금융지주",
+    "txt": "data/agm_pre/086790_하나금융지주/20260227_20260227007762/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "357120",
+  "corp_name": "코람코라이프인프라리츠",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 5,
+  "sec_group": "부동산투자회사",
+  "orig_rcept_dt": "20260814",
+  "notices": [
+   {
+    "rcept_no": "20260810000528",
+    "rcept_dt": "20260810",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "코람코라이프인프라리츠",
+    "no_section": true
    }
   ]
  },
@@ -6138,6 +13200,24 @@
     "rcept_dt": "20260807",
     "report_nm": "주주총회소집공고",
     "corp_name": "미래에셋맵스리츠",
+    "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "404990",
+  "corp_name": "신한서부티엔디리츠",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 6,
+  "sec_group": "부동산투자회사",
+  "orig_rcept_dt": "20260831",
+  "notices": [
+   {
+    "rcept_no": "20260824000257",
+    "rcept_dt": "20260824",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "신한서부티엔디리츠",
     "no_section": true
    }
   ]
@@ -6179,6 +13259,24 @@
   ]
  },
  {
+  "stock_code": "001080",
+  "corp_name": "MH머트리얼즈",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 6,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260910",
+  "notices": [
+   {
+    "rcept_no": "20260903000222",
+    "rcept_dt": "20260903",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "MH머트리얼즈",
+    "txt": "data/agm_pre/001080_MH머트리얼즈/20260903_20260903000222/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "350520",
   "corp_name": "이지스레지던스리츠",
   "tag": "정관yes",
@@ -6193,6 +13291,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "이지스레지던스리츠",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "400760",
+  "corp_name": "NH올원리츠",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 6,
+  "sec_group": "부동산투자회사",
+  "orig_rcept_dt": "20260911",
+  "notices": [
+   {
+    "rcept_no": "20260904000448",
+    "rcept_dt": "20260904",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "NH올원리츠",
+    "txt": "data/agm_pre/400760_NH올원리츠/20260904_20260904000448/정관의변경.txt"
    }
   ]
  },
@@ -6218,6 +13334,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "형지엘리트",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "330590",
+  "corp_name": "롯데리츠",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 6,
+  "sec_group": "부동산투자회사",
+  "orig_rcept_dt": "20260921",
+  "notices": [
+   {
+    "rcept_no": "20260914000412",
+    "rcept_dt": "20260914",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "롯데리츠",
+    "txt": "data/agm_pre/330590_롯데리츠/20260914_20260914000412/정관의변경.txt"
    }
   ]
  },
@@ -6265,6 +13399,24 @@
   ]
  },
  {
+  "stock_code": "145720",
+  "corp_name": "덴티움",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260323",
+  "notices": [
+   {
+    "rcept_no": "20260309001209",
+    "rcept_dt": "20260309",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "덴티움",
+    "txt": "data/agm_pre/145720_덴티움/20260309_20260309001209/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "348950",
   "corp_name": "제이알글로벌리츠",
   "tag": "정관yes",
@@ -6290,10 +13442,28 @@
   ]
  },
  {
+  "stock_code": "055550",
+  "corp_name": "신한지주",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260318",
+  "notices": [
+   {
+    "rcept_no": "20260303003230",
+    "rcept_dt": "20260303",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "신한지주",
+    "txt": "data/agm_pre/055550_신한지주/20260303_20260303003230/정관의변경.txt"
+   }
+  ]
+ },
+ {
   "stock_code": "448730",
   "corp_name": "삼성FN리츠",
   "tag": "정관yes",
-  "tag_current": "정관yes",
+  "tag_current": "정관no",
   "settle_month": 7,
   "sec_group": "부동산투자회사",
   "orig_rcept_dt": "20261007",
@@ -6318,6 +13488,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "삼성FN리츠",
     "txt": "data/agm_pre/448730_삼성FN리츠/20260930_20260930000131/정관의변경.txt"
+   }
+  ]
+ },
+ {
+  "stock_code": "432320",
+  "corp_name": "KB스타리츠",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 7,
+  "sec_group": "부동산투자회사",
+  "orig_rcept_dt": "20261022",
+  "notices": [
+   {
+    "rcept_no": "20261015000298",
+    "rcept_dt": "20261015",
+    "report_nm": "주주총회소집공고",
+    "corp_name": "KB스타리츠",
+    "no_section": true
    }
   ]
  },
@@ -6361,6 +13549,24 @@
     "report_nm": "주주총회소집공고",
     "corp_name": "대신밸류리츠",
     "no_section": true
+   }
+  ]
+ },
+ {
+  "stock_code": "009830",
+  "corp_name": "한화솔루션",
+  "tag": "정관no",
+  "tag_current": "정관no",
+  "settle_month": 12,
+  "sec_group": "주권",
+  "orig_rcept_dt": "20260316",
+  "notices": [
+   {
+    "rcept_no": "20260313000385",
+    "rcept_dt": "20260313",
+    "report_nm": "[기재정정]주주총회소집공고",
+    "corp_name": "한화솔루션",
+    "txt": "data/agm_pre/009830_한화솔루션/20260313_20260313000385/정관의변경.txt"
    }
   ]
  },

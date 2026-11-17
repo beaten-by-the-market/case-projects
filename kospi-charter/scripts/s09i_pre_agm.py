@@ -4,7 +4,7 @@
     59사 모자랐다. s05·s06(→ s09d)은 사업보고서 원본 최초 접수일 **뒤** 소집공고만 모은다. 정기주총 소집공고(주총 2주 전)는 대개
     사업보고서(주총 1주 전)보다 먼저 나오므로, 그 주총에서 기준일 조항을 바꾼 회사는 첨부 정관(주총 전 판) 태그에 머물러 있었다.
 
-대상  지금 태그(s09c tag_current)가 정관yes·정관yesorno 이고 근거가 첨부 정관(basis_kind=사업보고서)인 회사.
+대상  근거가 첨부 정관 · 소집공고(basis_kind=사업보고서 · 주총소집공고)인 회사 전부 (처음엔 정관yes·정관yesorno 만 — 2026-11-17 넓힘).
       소집공고는 OpenDART 목록 캐시(data/raw/opendart_list/E006_Y_*.json — s05·s05k 가 받아 둔 시장 전체 목록, 호출 없음)에서
       원본 접수일 전 WINDOW 일 안에 접수된 것(정정은 최종본만 — 캐시가 last_reprt_at=Y).
 단계
@@ -63,7 +63,10 @@ def targets(sfx: str) -> list[dict]:
     out = []
     for r in rows:
         code = r["stock_code"]
-        if r["tag_current"] not in ("정관yes", "정관yesorno") or r["basis_kind"] != "사업보고서":
+        # 모든 태그 (사용자 지시 2026-11-17 "사업보고서보다 먼저 제출된 소집공고도, 뒤에 제출된 소집공고도 모두 봐야 지금 정관을 안다").
+        # 처음(상장협 대조)엔 정관yes·정관yesorno 만 봐서 첨부 정관이 정관no 인 회사의 앞 공고(no → yesorno·yes)를 놓칠 수 있었다.
+        # 근거가 첨부 정관 · 소집공고인 회사 — 전년도 정관 · 사업보고서 본문(확인필요 대체)은 s09f 가 본다.
+        if r["basis_kind"] not in ("사업보고서", "주총소집공고"):
             continue
         c = charter.get(code) or {}
         orig = c.get("orig_rcept_dt") or r["rcept_no"][:8]

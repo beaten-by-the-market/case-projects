@@ -32,7 +32,7 @@
     <li>KIND: 주주총회결과 공시 (배당기준일 조항을 바꾼 정관 변경 안건의 가결 여부, 배당기준일 탭)</li>
     <li>KIND: 상장법인목록 (지금 결산월, 배당기준일 탭의 결산월 비교)</li>
     <li>확인그룹 필터 · 상장공시시스템 신고: 코스피 종목별 확인그룹 엑셀(확인자 이름을 뺀 사본 <code>source/유가증권시장_확인그룹v2_이름제외.xlsx</code>)의 그룹 번호(1~5)와, 회사가 상장공시시스템에 신고한 배당기준일 조건(신고 Y = 특정일 · N = 이사회 결의로 정한 날 · 미입력)과 배당기준일. 코스닥 등 다른 시장은 '-'</li>
-    <li>배당기준일 분류: 정관 조항 발췌를 Claude Opus 5.5 가 판별하고 사람이 검토. 화면 표기 N · Y · YorN 은 결과 파일 값 정관no · 정관yes · 정관yesorno (판별 지침·규제 연혁은 <code>.claude/skills/charter-dividend-record-date/</code>)</li>
+    <li>배당기준일 분류: 정관 조항 발췌를 Claude Opus 5.5 가 판별하고, 판별이 갈리거나 애매한 곳은 Claude 가 정관 원문과 다시 대조해 정했다(사람이 검토하지는 않았다). 화면 표기 N · Y · YorN 은 결과 파일 값 정관no · 정관yes · 정관yesorno (판별 지침·규제 연혁은 <code>.claude/skills/charter-dividend-record-date/</code>)</li>
   </ul>
   <h4>한계</h4>
   <ul>
@@ -66,7 +66,7 @@
 </div>
 
 <script src="data.js?v=4b635fe1"></script>
-<script src="dividend.js?v=f9521f47"></script>
-<script src="app.js?v=665eee67"></script>
+<script src="dividend.js?v=c0cdda8b"></script>
+<script src="app.js?v=ecb6f56b"></script>
 </body>
 </html>
