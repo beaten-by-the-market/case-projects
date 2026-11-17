@@ -283,6 +283,7 @@ details.pvd > .pvbox { padding: 8px; }
 td.ev .evt { display: block; font-size: 12px; color: var(--ink); }
 td.ev .evt.evagm { display: inline; margin-right: 4px; color: crimson; font-weight: 700; }   /* 주주총회 안건으로 정한 행 */
 td.ev .evt.evalt { display: inline; margin-right: 4px; color: #5b2d8e; font-weight: 700; }   /* 첨부 정관을 못 읽어 다른 자료로 정한 행 */
+td.ev .evt.evfail { display: inline; margin-right: 4px; color: #555b66; font-weight: 700; }   /* 기준일 변경 안건이 부결·미결이라 반영하지 않은 행 */
 td.ev .evwhy { font-size: 11px; color: var(--ink); }
 td.ev .evq { display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; font-size: 12px; line-height: 1.5; }
 td.ev .evref { display: block; margin-top: 4px; padding-left: 8px; border-left: 2px solid var(--grid-line); }

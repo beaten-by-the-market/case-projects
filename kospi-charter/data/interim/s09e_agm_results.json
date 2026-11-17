@@ -75,7 +75,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제1-5호",
+    "kind": "특별결의",
+    "item": "배당제도 개선의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260323000285": {
   "stock_code": "361610",
@@ -177,7 +185,8 @@
   ],
   "match_by": "순서",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260318000726": {
   "stock_code": "000890",
@@ -267,7 +276,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260318001106": {
   "stock_code": "145990",
@@ -370,7 +380,8 @@
   "basis_box": "정관상 기준일 설정 및 변경 세부내역] 추가\n4. 정정사항\n정정항목\n정정전\n정정후\n[정관상 기준일 설정 및 변경 세부내역]\n-\n정기주주총회 소집을 위한 권리주주 확정 기준일 : 12/31\n이익배당 기준일 : 해당사항없음\n-\n정기주주총회 결과\n1. 재무제표\n승인\n제 15기\n(단위 : 백만원)\n가. 연결\n- 자산총계\n3,625,449\n- 매출액\n2,562,500\n- 부채총계\n1,840,403\n- 영업이익\n111,725\n- 자본금\n53,417\n- 당기순이익\n-302,363\n- 자본총계\n1,785,046\n*주당순이익(원)\n-31,276\n나. 개별(별도)\n- 자산총계\n2,917,062\n- 매출액\n1,897,133\n- 부채총계\n1,496,663\n- 영업이익\n65,682\n- 자본금\n53,417\n- 당기순이익\n-318,2",
   "meeting_day": "2026-03-26",
   "match_by": "주총일",
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260706000216": {
   "stock_code": "002870",
@@ -418,7 +429,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260319001036": {
   "stock_code": "026890",
@@ -520,7 +532,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-4",
+    "kind": "특별결의",
+    "item": "배당절차 개선 반영의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260319000749": {
   "stock_code": "004490",
@@ -683,7 +703,15 @@
   "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
   "meeting_day": "2026-03-27",
   "match_by": "주총일",
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제2-10호",
+    "kind": "특별결의",
+    "item": "배당 제도 개선",
+    "result": "가결"
+   }
+  ]
  },
  "20260316001356": {
   "stock_code": "033270",
@@ -785,7 +813,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260511000721": {
   "stock_code": "006490",
@@ -900,7 +929,8 @@
   "basis_box": null,
   "meeting_day": "2026-05-26",
   "match_by": "주총일",
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260319001178": {
   "stock_code": "003350",
@@ -996,7 +1026,21 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-4",
+    "kind": "특별결의",
+    "item": "배당기준일 변경의 건",
+    "result": "가결"
+   },
+   {
+    "no": "2-5",
+    "kind": "특별결의",
+    "item": "중간배당 관련 변경의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260220001743": {
   "stock_code": "272550",
@@ -1086,7 +1130,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260309001374": {
   "stock_code": "475150",
@@ -1152,7 +1197,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260306000749": {
   "stock_code": "456040",
@@ -1272,7 +1318,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "서브에이전트"
+  "judged_by": "서브에이전트",
+  "dividend_rows": [
+   {
+    "no": "2-2",
+    "kind": "특별결의",
+    "item": "상법 개정 등에 따른 정관 변경의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20240314000643": {
   "stock_code": "456040",
@@ -1350,7 +1404,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260220001216": {
   "stock_code": "010640",
@@ -1422,7 +1477,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260220000495": {
   "stock_code": "051630",
@@ -1506,7 +1562,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-1",
+    "kind": "특별결의",
+    "item": "정관일부 변경의 건 (배당절차 개선의 건)",
+    "result": "가결"
+   }
+  ]
  },
  "20260225003855": {
   "stock_code": "003780",
@@ -1579,7 +1643,8 @@
   "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
   "meeting_day": "2026-03-12",
   "match_by": "주총일",
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260223003619": {
   "stock_code": "006650",
@@ -1669,7 +1734,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "1-5",
+    "kind": "특별결의",
+    "item": "배당절차 개선의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260226004916": {
   "stock_code": "018260",
@@ -1777,7 +1850,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260305000546": {
   "stock_code": "026960",
@@ -1843,7 +1917,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260304001295": {
   "stock_code": "090350",
@@ -1933,7 +2008,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260305001061": {
   "stock_code": "010820",
@@ -2005,7 +2081,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260223002008": {
   "stock_code": "100250",
@@ -2077,7 +2154,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260219002312": {
   "stock_code": "005800",
@@ -2149,7 +2227,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260305001170": {
   "stock_code": "000320",
@@ -2227,7 +2306,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260305000787": {
   "stock_code": "008260",
@@ -2299,7 +2379,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260220001936": {
   "stock_code": "0120G0",
@@ -2371,7 +2452,8 @@
   "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
   "meeting_day": "2026-03-23",
   "match_by": "주총일",
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260225004247": {
   "stock_code": "126560",
@@ -2449,7 +2531,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260305000844": {
   "stock_code": "129260",
@@ -2557,7 +2640,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-3",
+    "kind": "특별결의",
+    "item": "제2-3호 의안: 배당기준일 관련 규정 변경의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260223003160": {
   "stock_code": "005500",
@@ -2641,7 +2732,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "1-2",
+    "kind": "특별결의",
+    "item": "공고 및 배당절차 개선 관련 정관 변경의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260309001892": {
   "stock_code": "192400",
@@ -2737,7 +2836,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260304001552": {
   "stock_code": "053690",
@@ -2857,7 +2957,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-4",
+    "kind": "특별결의",
+    "item": "배당에 관한 사항",
+    "result": "가결"
+   }
+  ]
  },
  "20260309001906": {
   "stock_code": "002320",
@@ -2977,7 +3085,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-2",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건 -배당기준일 유연화 및 동등배당 관련 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260310002504": {
   "stock_code": "001620",
@@ -3067,7 +3183,15 @@
   ],
   "match_by": "관련공시",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제2-3호 의안",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건 - 제2-3호 : 배당기준일 분리",
+    "result": "가결"
+   }
+  ]
  },
  "20260310002765": {
   "stock_code": "015760",
@@ -3141,7 +3265,8 @@
   "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
   "meeting_day": "2026-03-25",
   "match_by": "주총일",
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260310003081": {
   "stock_code": "000670",
@@ -3321,7 +3446,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "서브에이전트"
+  "judged_by": "서브에이전트",
+  "dividend_rows": [
+   {
+    "no": "제2-6호",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건 (현물배당 도입을 위한 정관 일부 변경)",
+    "result": "부결"
+   }
+  ]
  },
  "20260212001098": {
   "stock_code": "025540",
@@ -3405,7 +3538,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260311004309": {
   "stock_code": "073240",
@@ -3483,7 +3617,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260225005763": {
   "stock_code": "300720",
@@ -3591,7 +3726,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260311003175": {
   "stock_code": "001380",
@@ -3687,7 +3823,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260311003297": {
   "stock_code": "001560",
@@ -3747,7 +3884,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260304001420": {
   "stock_code": "002710",
@@ -3849,7 +3987,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-5",
+    "kind": "특별결의",
+    "item": "정관일부변경의건: 배당기준일분리",
+    "result": "가결"
+   }
+  ]
  },
  "20260311003575": {
   "stock_code": "000080",
@@ -3939,7 +4085,21 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "서브에이전트"
+  "judged_by": "서브에이전트",
+  "dividend_rows": [
+   {
+    "no": "2-1",
+    "kind": "특별결의",
+    "item": "제2-1호 의안 : 개정 상법 반영을 위한 정관 변경의 건",
+    "result": "가결"
+   },
+   {
+    "no": "2-3",
+    "kind": "특별결의",
+    "item": "제2-3호 의안 : 회사 운영 효율성 제고를 위한 정관 변경의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260310002455": {
   "stock_code": "084010",
@@ -4011,7 +4171,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260311004367": {
   "stock_code": "264900",
@@ -4089,7 +4250,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260311004392": {
   "stock_code": "005740",
@@ -4167,7 +4329,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260309001804": {
   "stock_code": "082740",
@@ -4329,7 +4492,21 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-6",
+    "kind": "보통결의",
+    "item": "정관 일부 변경의 건 - 배당절차 개선 반영",
+    "result": "가결"
+   },
+   {
+    "no": "2-7",
+    "kind": "보통결의",
+    "item": "정관 일부 변경의 건 - 동등배당 기준 반영",
+    "result": "가결"
+   }
+  ]
  },
  "20260311003605": {
   "stock_code": "013700",
@@ -4407,7 +4584,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-2",
+    "kind": "특별결의",
+    "item": "정관 일부 변경 - 배당절차 개선",
+    "result": "가결"
+   }
+  ]
  },
  "20260225005576": {
   "stock_code": "101530",
@@ -4503,7 +4688,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260225004581": {
   "stock_code": "006090",
@@ -4606,7 +4792,8 @@
   "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n03-31\n2분기\n06-30\n3분기\n09-30",
   "meeting_day": "2026-03-26",
   "match_by": "주총일",
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260311003899": {
   "stock_code": "112610",
@@ -4702,7 +4889,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제2-4호",
+    "kind": "특별결의",
+    "item": "배당절차 개선 반영",
+    "result": "가결"
+   }
+  ]
  },
  "20260225006045": {
   "stock_code": "003090",
@@ -4786,7 +4981,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제1-2호",
+    "kind": "특별결의",
+    "item": "배당 예측가능성 제고 관련 일부 변경의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260225003608": {
   "stock_code": "041650",
@@ -4858,7 +5061,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-2",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건 -배당절차 개선의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260309001593": {
   "stock_code": "192650",
@@ -4930,7 +5141,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260310002839": {
   "stock_code": "097520",
@@ -5002,7 +5214,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260311003757": {
   "stock_code": "011780",
@@ -5117,7 +5330,8 @@
   "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
   "meeting_day": "2026-03-26",
   "match_by": "주총일",
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260311004490": {
   "stock_code": "284740",
@@ -5219,7 +5433,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260224004122": {
   "stock_code": "007700",
@@ -5303,7 +5518,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제2-5호",
+    "kind": "특별결의",
+    "item": "배당절차 개선 반영의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260310002372": {
   "stock_code": "000220",
@@ -5375,7 +5598,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260224003816": {
   "stock_code": "383220",
@@ -5471,7 +5695,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제2-6호",
+    "kind": "특별결의",
+    "item": "배당절차 개선 반영의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260225006062": {
   "stock_code": "069620",
@@ -5585,7 +5817,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제1-3호",
+    "kind": "특별결의",
+    "item": "배당 예측가능성 제고 관련 정관 일부 변경의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260225005371": {
   "stock_code": "003300",
@@ -5669,7 +5909,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260311004411": {
   "stock_code": "010780",
@@ -5741,7 +5982,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260311004472": {
   "stock_code": "012170",
@@ -5814,7 +6056,8 @@
   "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
   "meeting_day": "2026-03-26",
   "match_by": "주총일",
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260225005862": {
   "stock_code": "009420",
@@ -5904,7 +6147,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260311003992": {
   "stock_code": "214330",
@@ -6030,7 +6274,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "3-2",
+    "kind": "특별결의",
+    "item": "배당절차 개선의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260224003976": {
   "stock_code": "005430",
@@ -6126,7 +6378,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-1",
+    "kind": "특별결의",
+    "item": "배당기준일 유연화",
+    "result": "가결"
+   }
+  ]
  },
  "20260311003370": {
   "stock_code": "012610",
@@ -6228,7 +6488,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-5",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건 - 배당 관련 조항 정비의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260306000466": {
   "stock_code": "004540",
@@ -6306,7 +6574,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260305000784": {
   "stock_code": "008420",
@@ -6378,7 +6647,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260312000863": {
   "stock_code": "001790",
@@ -6468,7 +6738,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260306000355": {
   "stock_code": "011500",
@@ -6564,7 +6835,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260309001870": {
   "stock_code": "012450",
@@ -6708,7 +6980,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-7",
+    "kind": "특별결의",
+    "item": "제2호 의안 : 정관 일부 변경의 건 - 제2-7호 : 배당절차 개선 반영",
+    "result": "가결"
+   }
+  ]
  },
  "20260128000250": {
   "stock_code": "130660",
@@ -6776,7 +7056,8 @@
   "basis_box": null,
   "meeting_day": "2026-02-12",
   "match_by": "주총일",
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260312000713": {
   "stock_code": "035150",
@@ -6860,7 +7141,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260312000669": {
   "stock_code": "032350",
@@ -6932,7 +7214,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260312000439": {
   "stock_code": "004410",
@@ -7034,7 +7317,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260312000353": {
   "stock_code": "465770",
@@ -7118,7 +7402,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제2-2호",
+    "kind": "특별결의",
+    "item": "이익 배당 조문 정비",
+    "result": "가결"
+   }
+  ]
  },
  "20260226005910": {
   "stock_code": "008490",
@@ -7214,7 +7506,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제2-2호",
+    "kind": "특별결의",
+    "item": "주주총회시 권리행사 주주에 대한 기준일 등 개정",
+    "result": "가결"
+   }
+  ]
  },
  "20260312001228": {
   "stock_code": "005870",
@@ -7286,7 +7586,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260303002348": {
   "stock_code": "028670",
@@ -7382,7 +7683,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260312000010": {
   "stock_code": "002240",
@@ -7478,7 +7780,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260224003119": {
   "stock_code": "034230",
@@ -7658,7 +7961,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260312001098": {
   "stock_code": "111770",
@@ -7778,7 +8082,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제2-1호",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건 (배당기준일)",
+    "result": "가결"
+   }
+  ]
  },
  "20260312000906": {
   "stock_code": "004380",
@@ -7892,7 +8204,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제2-2호",
+    "kind": "특별결의",
+    "item": "주주명부 확정 기준일 관련 조문 정비",
+    "result": "가결"
+   }
+  ]
  },
  "20260312000776": {
   "stock_code": "363280",
@@ -7976,7 +8296,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260317000751": {
   "stock_code": "005880",
@@ -8072,7 +8393,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260316000869": {
   "stock_code": "002820",
@@ -8144,7 +8466,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260316001462": {
   "stock_code": "378850",
@@ -8228,7 +8551,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "제1-1호 의안",
+    "kind": "특별결의",
+    "item": "신주의 배당기산일 관련 정관 정비의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260317000708": {
   "stock_code": "013520",
@@ -8312,7 +8643,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-1",
+    "kind": "특별결의",
+    "item": "- 제2-1호 의안 : 정관 일부변경의 건 신주의 배당기산일 관련 정관 정비의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260316000637": {
   "stock_code": "036460",
@@ -8415,7 +8754,8 @@
   "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
   "meeting_day": "2026-03-31",
   "match_by": "주총일",
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260320000592": {
   "stock_code": "070960",
@@ -8511,7 +8851,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-3",
+    "kind": "특별결의",
+    "item": "정관일부 변경의 건 - 이익배당 절차 변경",
+    "result": "가결"
+   }
+  ]
  },
  "20260318001049": {
   "stock_code": "000070",
@@ -8595,7 +8943,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260224004087": {
   "stock_code": "011760",
@@ -8697,7 +9046,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-1",
+    "kind": "특별결의",
+    "item": "배당절차 개선 관련 변경",
+    "result": "가결"
+   }
+  ]
  },
  "20260224004181": {
   "stock_code": "227840",
@@ -8787,7 +9144,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-1",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건 - 배당절차 개선 관련 변경",
+    "result": "가결"
+   }
+  ]
  },
  "20260316000995": {
   "stock_code": "085310",
@@ -8859,7 +9224,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260316000607": {
   "stock_code": "004920",
@@ -8949,7 +9315,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260310002109": {
   "stock_code": "071950",
@@ -9027,7 +9394,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260227008901": {
   "stock_code": "011330",
@@ -9190,7 +9558,8 @@
   "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
   "meeting_day": "2026-03-31",
   "match_by": "주총일",
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260306000526": {
   "stock_code": "489790",
@@ -9328,7 +9697,15 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": [
+   {
+    "no": "2-6",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건 - 배당절차 개선의 건",
+    "result": "가결"
+   }
+  ]
  },
  "20260227005695": {
   "stock_code": "079980",
@@ -9442,7 +9819,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260226005440": {
   "stock_code": "009270",
@@ -9514,7 +9892,8 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  },
  "20260930000131": {
   "stock_code": "448730",
@@ -9616,6 +9995,7 @@
   ],
   "match_by": "주총일",
   "ambiguous": false,
-  "judged_by": "제목"
+  "judged_by": "제목",
+  "dividend_rows": []
  }
 }

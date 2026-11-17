@@ -201,7 +201,7 @@ def choose(rc: str, metas: list[dict]) -> dict:
     return {**base, "result_acptno": first["acptno"], "result_title": first["title"], "result_time": first["time"],
             "result_url": KIND_VIEW.format(first["acptno"]), "agm_date": result_meeting_day(txt) or nd,
             "vote_record_date": m_rec.group(1) if m_rec else None,
-            "rows": rows, "charter_rows": crow, "by_dividend_row": bool(drow), "passed": passed, "note": note,
+            "rows": rows, "charter_rows": crow, "dividend_rows": drow, "by_dividend_row": bool(drow), "passed": passed, "note": note,
             "ambiguous": len(with_c) > 1, "basis_box": txt[i:i + 400].split("\n※")[0] if i >= 0 else None,
             "judged_by": "서브에이전트" if pick else "제목"}
 

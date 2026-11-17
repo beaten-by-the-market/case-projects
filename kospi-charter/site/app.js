@@ -412,7 +412,16 @@
     const w = unreadWhy(r);
     return `<span class="evwhy">(${r.basis_kind === "전년도 사업보고서" ? "올해 " : ""}첨부 정관을 읽을 수 없음${w ? `: ${esc(w)}` : ""}${tail ? `, ${tail}` : ""})</span>`;
   };
-  const evSnippet = (r) => {
+  // 기준일을 바꾸는 안건이 부결·미결(또는 주총이 기준일 뒤)이라 반영하지 않은 회사: 근거 문구 맨 위 회색 라벨 (사용자 지시 2026-11-17)
+  const failLabel = (r) => (r.basis_failed || []).map((f) => {
+    const mtg = String(f.result_title || "주주총회").replace(/\s*결과.*$/, "");
+    const why = /정족수/.test(f.why || "") ? " (정족수 미달)" : "";
+    const body = f.result === "기준일 뒤 주총" ? `${esc(f.agm_date || "")} 주총이 기준일 뒤라 아직 반영하지 않음`
+      : `${esc(f.agm_date || "")} ${esc(mtg)}에서 기준일 조항 변경 안건이 ${esc(f.result)}${why} → 사업보고서 첨부 정관 기준`;
+    return `<b class="evt evfail">주주총회 안건 ${esc(f.result === "기준일 뒤 주총" ? "예정" : f.result)}</b><span class="evwhy">(${body})</span>`;
+  }).join("");
+  const evSnippet = (r) => failLabel(r) + evSnippetCore(r);
+  const evSnippetCore = (r) => {
     const ev = r.ev || {};
     if (ev.notices && ev.notices.length && ev.notices[0].rows.length) {
       const a = amendRow(ev.notices[0].rows[0]);
@@ -465,6 +474,11 @@
       parts.push(ext(r.basis_doc_url, short ? (r.basis_prev_report_nm ? esc(r.basis_prev_report_nm).replace("사업보고서 ", "사업보고서<br>") : `사업보고서 ${ymd(dateOfRno(r.basis_rcept_no))}`)
         : `${esc(r.basis_prev_report_nm || "사업보고서")} ${esc(r.basis_rcept_no)}`, "DART 사업보고서"));
       if (!short && r.basis_charter_url) parts.push(ext(r.basis_charter_url, "정관 첨부", `DART 정관 첨부 (${AOI})`));
+    }
+    for (const f of r.basis_failed || []) {      // 반영하지 않은 기준일 변경 안건의 소집공고 · 결과공시
+      const word = f.result === "기준일 뒤 주총" ? "주총 예정" : f.result;
+      parts.push(ext(f.url, short ? `소집공고 ${ymd(dateOfRno(f.rcept_no))} (${esc(word)})` : `주주총회소집공고 ${ymd(dateOfRno(f.rcept_no))} · ${esc(f.rcept_no)} (기준일 변경 안건 ${esc(word)})`, "DART 주주총회소집공고"));
+      if (f.result_url) parts.push(ext(f.result_url, short ? `결과공시 ${esc(f.agm_date || "")}` : `${esc(f.result_title || "주주총회결과")} ${esc(f.agm_date || "")} · ${esc(f.result_acptno || "")}`, "KIND 주주총회결과 공시"));
     }
     return parts.filter((x) => x && x !== NA).join(sep);
   };

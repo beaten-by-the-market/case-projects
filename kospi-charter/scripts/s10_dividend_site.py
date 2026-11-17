@@ -301,7 +301,8 @@ def market_rows(sfx: str, market: str | None) -> dict:
             "basis_result_title": r["basis_result_title"], "basis_agm_date": r["basis_agm_date"],
             "basis_result_rows": [[x["no"], x["item"], x["result"]] for x in res.get("charter_rows") or []],
             "basis_note": r["basis_note"],
-            "basis_unconfirmed": bool(r.get("basis_unconfirmed")),   # 소집공고 안건대로 바뀐 것으로 보되 KIND 결과로 가결은 확인 못함 (s09c)
+            "basis_unconfirmed": bool(r.get("basis_unconfirmed")),
+            "basis_failed": r.get("basis_failed") or [],      # 반영하지 않은 기준일 변경 안건 (부결·미결·기준일 뒤 주총)   # 소집공고 안건대로 바뀐 것으로 보되 KIND 결과로 가결은 확인 못함 (s09c)
             "basis_notice_when": when,       # pre = 사업보고서보다 먼저 접수된 소집공고(그해 정기주총) · post = 제출 뒤
             "ev_url": ev_url, "ev_label": ev_label,
             "basis_article": article, "quotes": r["quotes"] if not (pv and pv.get("output")) else (pv["output"].get("quotes") or []),
@@ -352,7 +353,7 @@ def unconfirmed_notes(M: dict, add) -> None:
         when = "사업보고서보다 먼저 접수된" if a.get("from") == "s09i" else "사업보고서 제출 뒤"
         why = (f"KIND {a.get('result_title') or ''}: {a.get('note') or ''}" if a.get("result_acptno")
                else "공고 뒤 80일 안에 KIND 주주총회결과 공시가 없다")
-        add("주총 안건 가결 확인 못 함", a["stock_code"], f"{when} 소집공고 {rc} 의 '정관의 변경' 안건이 결산배당 기준일을 바꾸지만 {why}. "
+        add("주총 안건 가결 확인 못 함", a["stock_code"], f"{when} 소집공고 {rc} 의 '정관의 변경' 안건이 결산배당 기준일을 바꾸지만 {why.rstrip('.')}. "
             f"그래서 지금 태그는 첨부 정관 기준({(by.get(a['stock_code']) or {}).get('tag_current')})으로 둔다.", 3)
 
 

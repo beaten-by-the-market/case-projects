@@ -160,7 +160,13 @@ def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict 
            "basis_doc_url": DART_MAIN.format(t["rcept_no"]), "basis_charter_url": t["charter_url"],
            "basis_notice_rcept_no": None, "basis_notice_url": None, "basis_result_acptno": None, "basis_result_url": None,
            "basis_result_title": None, "basis_agm_date": None, "basis_prev_report_nm": None, "basis_note": None,
-           "basis_unconfirmed": False}       # True = 소집공고 안건대로 바뀐 것으로 보되 KIND 결과로 가결은 확인하지 못함
+           "basis_unconfirmed": False,       # True = 소집공고 안건대로 바뀐 것으로 보되 KIND 결과로 가결은 확인하지 못함
+           "basis_failed": []}               # 기준일을 바꾸는 안건인데 부결·미결이거나 주총이 기준일 뒤라 반영하지 않은 소집공고 (웹페이지 라벨)
+
+    def failed(rc: str, res: dict, word: str, day: str | None) -> None:
+        out["basis_failed"].append({"rcept_no": rc, "url": DART_MAIN.format(rc), "result_acptno": res.get("result_acptno"),
+                                    "result_url": res.get("result_url"), "result_title": res.get("result_title"),
+                                    "agm_date": day, "result": word, "why": res.get("note")})
     if t.get("charter_source_doc"):         # 사업보고서가 없는 회사(absent_charter) — 정관을 찾은 문서가 근거
         out.update(basis_kind=t["charter_source_doc"], basis_rcept_no=t.get("charter_source_rcept_no") or None,
                    basis_doc_url=t.get("charter_source_url"),
@@ -180,9 +186,12 @@ def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict 
             day = res.get("agm_date") or res.get("meeting_day") or notice_meeting_day(rc)
             if "가결 아닌 것" in note:
                 out["basis_note"] = f"소집공고 {rc} 안건은 기준일을 바꾸지만 KIND 결과에 가결이 아닌 정관 안건이 있어 반영하지 않음 ({note})"
+                rs = {r.get("result") or "" for r in (res.get("dividend_rows") or res.get("charter_rows") or [])}
+                failed(rc, res, "부결" if any("부결" in x for x in rs) else "미결" if any("미결" in x for x in rs) else "가결 아님", day)
                 return False
             if not day or day > AS_OF.isoformat():
                 out["basis_note"] = (f"소집공고 {rc} 안건은 기준일을 바꾸지만 주총({day or '날짜 모름'})이 기준일({AS_OF}) 뒤라 반영하지 않음")
+                failed(rc, res, "기준일 뒤 주총", day)
                 return False
             out.update(tag_current=new_tag, basis_kind="주총소집공고", basis_notice_rcept_no=rc,
                        basis_notice_url=DART_MAIN.format(rc), basis_result_acptno=res.get("result_acptno"),
@@ -231,6 +240,8 @@ def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict 
         for assume in (False, True):
             if any(use_notice(rc, ag["tag_after"], "사업보고서 제출 뒤 소집공고 안건", assume) for rc in rcs):
                 break
+    if out["basis_notice_rcept_no"]:          # 다른 공고 안건이 반영됐으면 그것이 근거 — 반영 못 한 공고 라벨은 달지 않는다
+        out["basis_failed"] = []
     return out
 
 
@@ -336,7 +347,8 @@ def main():
         w = csv.DictWriter(f, fieldnames=cols)
         w.writeheader()
         for r in rows:
-            w.writerow({k: (";".join(v) if isinstance(v, list) else v) for k, v in r.items()})
+            w.writerow({k: (json.dumps(v, ensure_ascii=False) if isinstance(v, list) and any(isinstance(x, dict) for x in v)
+                            else ";".join(map(str, v)) if isinstance(v, list) else v) for k, v in r.items()})   # basis_failed 는 JSON 글
     sm = {
         "built_at": now_iso(), "n": len(rows),
         "tag": Counter(r["tag"] for r in rows), "llm_tag": Counter(r["llm_tag"] for r in rows),
