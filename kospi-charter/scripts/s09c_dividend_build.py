@@ -31,7 +31,7 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _common import ROOT, now_iso, read_json, write_json  # noqa: E402
+from _common import AS_OF, ROOT, now_iso, read_json, write_json  # noqa: E402
 import s09a_dividend_excerpt as X  # noqa: E402
 from s09b_dividend_tag_llm import TAGS as L_TAGS, read_results  # noqa: E402
 
@@ -132,6 +132,14 @@ def INTERIM_OF(P: dict, name: str) -> Path:                       # noqa: N802 �
     return P["results"].parent / f"{stem}{sfx}.{ext}"
 
 
+def notice_meeting_day(rc: str) -> str | None:
+    """소집공고 원문의 주총 '일시' → YYYY-MM-DD (KIND 결과가 없을 때 주총이 기준일 전인지 보려고)."""
+    from s09e_agm_result_kind import notice_text
+    t = notice_text(rc) or ""
+    m = re.search(r"일\s*시\s*[:：]?\s*(\d{4})\s*[년.\-]\s*(\d{1,2})\s*[월.\-]\s*(\d{1,2})", t)
+    return f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
+
+
 def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict | None, pre: dict | None = None) -> dict:
     """지금 유효한 태그와 그 근거 (사용자 지시 2026-11-16 — 웹페이지 '분류근거의 종류').
 
@@ -143,17 +151,37 @@ def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict 
     out = {"tag_current": tag, "basis_kind": "사업보고서", "basis_rcept_no": t["rcept_no"],
            "basis_doc_url": DART_MAIN.format(t["rcept_no"]), "basis_charter_url": t["charter_url"],
            "basis_notice_rcept_no": None, "basis_notice_url": None, "basis_result_acptno": None, "basis_result_url": None,
-           "basis_result_title": None, "basis_agm_date": None, "basis_prev_report_nm": None, "basis_note": None}
+           "basis_result_title": None, "basis_agm_date": None, "basis_prev_report_nm": None, "basis_note": None,
+           "basis_unconfirmed": False}       # True = 소집공고 안건대로 바뀐 것으로 보되 KIND 결과로 가결은 확인하지 못함
     if t.get("charter_source_doc"):         # 사업보고서가 없는 회사(absent_charter) — 정관을 찾은 문서가 근거
         out.update(basis_kind=t["charter_source_doc"], basis_rcept_no=t.get("charter_source_rcept_no") or None,
                    basis_doc_url=t.get("charter_source_url"),
                    basis_note=f"사업보고서 없음({t.get('reason') or ''}) → {t['charter_source_doc']} 정관")
 
-    def use_notice(rc: str, new_tag: str, why: str) -> bool:
+    def use_notice(rc: str, new_tag: str, why: str, assume: bool = True) -> bool:
+        """assume=False 면 KIND 로 가결을 확인한 공고만. 여러 공고 중 확인된 것을 먼저 쓰려고 두 번 돈다(코스닥 코맥스)."""
         res = agm_res.get(rc) or {}
-        if not res.get("passed"):
-            out["basis_note"] = f"소집공고 {rc} 안건은 기준일을 바꾸지만 KIND 결과로 가결을 확인하지 못해 반영하지 않음 ({res.get('note')})"
+        if not res.get("passed") and not assume:
+            out["basis_note"] = f"소집공고 {rc} 안건은 기준일을 바꾸지만 KIND 결과로 가결을 확인하지 못함 ({res.get('note')})"
             return False
+        if not res.get("passed"):
+            # 사용자 지시(2026-11-17): 결과 공시에서 정관 안건을 '못 찾은' 것일 뿐이면(결과 공시 없음 · 표에 정관 안건 없음) 안건대로
+            # 가결된 것으로 보고 주의 문구를 단다. KIND 가 부결·미결 등 '가결 아닌 것'을 적었으면(멕아이씨에스 정족수 미달 미결)
+            # 확인된 사실이라 반영하지 않고, 주총이 기준일 뒤면(티디에스팜 2026-11-18) 아직 바뀌지 않았으므로 반영하지 않는다.
+            note = res.get("note") or "KIND 결과 조회 없음"
+            day = res.get("agm_date") or notice_meeting_day(rc)
+            if "가결 아닌 것" in note:
+                out["basis_note"] = f"소집공고 {rc} 안건은 기준일을 바꾸지만 KIND 결과에 가결이 아닌 정관 안건이 있어 반영하지 않음 ({note})"
+                return False
+            if not day or day > AS_OF.isoformat():
+                out["basis_note"] = (f"소집공고 {rc} 안건은 기준일을 바꾸지만 주총({day or '날짜 모름'})이 기준일({AS_OF}) 뒤라 반영하지 않음")
+                return False
+            out.update(tag_current=new_tag, basis_kind="주총소집공고", basis_notice_rcept_no=rc,
+                       basis_notice_url=DART_MAIN.format(rc), basis_result_acptno=res.get("result_acptno"),
+                       basis_result_url=res.get("result_url"), basis_result_title=res.get("result_title"),
+                       basis_agm_date=day, basis_unconfirmed=True,
+                       basis_note=f"{why} · KIND 주주총회결과로 가결을 확인하지 못함({note}) → 소집공고 안건대로 바뀐 것으로 봄")
+            return True
         out.update(tag_current=new_tag, basis_kind="주총소집공고", basis_notice_rcept_no=rc,
                    basis_notice_url=DART_MAIN.format(rc), basis_result_acptno=res["result_acptno"],
                    basis_result_url=res["result_url"], basis_result_title=res.get("result_title"),
@@ -186,13 +214,14 @@ def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict 
     # 사업보고서보다 먼저 접수된 소집공고(s09i — 그해 정기주총) 안건: 첨부 정관은 주총 전 판이라 가결되면 그 뒤 태그
     po = (pre or {}).get("output") or {}
     if po.get("changes_record_date") and po.get("tag_after") and po.get("tag_after") != tag:
-        for rc in sorted((pre or {}).get("rcept_nos") or []):
-            if use_notice(rc, po["tag_after"], "사업보고서보다 먼저 접수된 소집공고 안건(첨부 정관은 주총 전 판)"):
+        for assume in (False, True):
+            if any(use_notice(rc, po["tag_after"], "사업보고서보다 먼저 접수된 소집공고 안건(첨부 정관은 주총 전 판)", assume)
+                   for rc in sorted((pre or {}).get("rcept_nos") or [])):
                 break
     if ag and ag.get("changes_record_date") and ag.get("tag_after") and ag.get("tag_after") != out["tag_current"]:
         rcs = later_amend(t)
-        for rc in sorted(rcs):
-            if use_notice(rc, ag["tag_after"], "사업보고서 제출 뒤 소집공고 안건"):
+        for assume in (False, True):
+            if any(use_notice(rc, ag["tag_after"], "사업보고서 제출 뒤 소집공고 안건", assume) for rc in sorted(rcs)):
                 break
     return out
 

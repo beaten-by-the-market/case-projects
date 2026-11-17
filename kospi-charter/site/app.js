@@ -417,8 +417,11 @@
     if (ev.notices && ev.notices.length && ev.notices[0].rows.length) {
       const a = amendRow(ev.notices[0].rows[0]);
       // 주총 안건으로 정한 행: 굵은 크림슨 '주주총회 안건' + 작은 글씨 까닭 (사용자 지시 2026-11-17, 정관 칸에는 태그만)
-      const why = r.tag === "확인필요" ? altWhy(r, "주주총회 안건으로 정함") : '<span class="evwhy">(사업보고서 첨부 정관이 주주총회를 통해 변경됨)</span>';
-      return `<b class="evt evagm">주주총회 안건</b>${why}<b class="evt">${esc(a.art || "")}</b><span class="evq"><i class="small">변경 후</i> ${esc(a.after.replace(/ \/ /g, " "))}</span>`;
+      const why = r.tag === "확인필요" ? altWhy(r, "주주총회 안건으로 정함")
+        : r.basis_unconfirmed ? '<span class="evwhy">(사업보고서 첨부 정관이 주주총회를 통해 변경된 것으로 봄 · <b class="bad">KIND 주총 결과로 가결은 확인하지 못함</b>)</span>'
+        : '<span class="evwhy">(사업보고서 첨부 정관이 주주총회를 통해 변경됨)</span>';
+      return `<b class="evt evagm">주주총회 안건</b>${why}<b class="evt">${esc(a.art || "")}</b><span class="evq">${a.after ? `<i class="small">변경 후</i> ${esc(a.after.replace(/ \/ /g, " "))}`
+        : `<i class="small">대비표 원문 (칸 구분 없음)</i> ${esc(String(ev.notices[0].rows[0].l || "").replace(/ \/ /g, " "))}`}</span>`;
     }
     const arts = ev.arts || [];
     if (!arts.length) return ev.report ? `<b class="evt${r.tag === "확인필요" ? " evalt" : ""}">사업보고서 본문</b>${r.tag === "확인필요" ? altWhy(r) : ""}<span class="evq">${esc(ev.report.slice(0, 200))}</span>` : NA;

@@ -5,13 +5,38 @@
   "notice_rcept_no": "20260413003041",
   "notice_dt": "20260413",
   "from": "s09d",
-  "fetched_at": "2026-11-16T23:17:11",
+  "fetched_at": "2026-11-17T17:25:33",
   "result_acptno": "20260428000657",
   "result_title": "임시주주총회결과",
   "result_time": "2026-04-28 16:41",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260428000657",
   "n_results_in_window": 3,
-  "agm_date": null,
+  "results_in_window": [
+   {
+    "acptno": "20260428000657",
+    "title": "임시주주총회결과",
+    "time": "2026-04-28 16:41",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260617000464",
+    "title": "임시주주총회결과",
+    "time": "2026-06-17 16:26",
+    "charter_rows": 1,
+    "related_to_notice": false
+   },
+   {
+    "acptno": "20260617000678",
+    "title": "임시주주총회결과",
+    "time": "2026-06-17 18:12",
+    "charter_rows": 1,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
+  "agm_date": "2026-04-28",
   "vote_record_date": "2026-04-06",
   "rows": [
    {
@@ -961,13 +986,31 @@
   "notice_rcept_no": "20260527000604",
   "notice_dt": "20260527",
   "from": "s09d",
-  "fetched_at": "2026-11-16T23:17:42",
+  "fetched_at": "2026-11-17T17:25:35",
   "result_acptno": "20260612000547",
   "result_title": "임시주주총회결과",
   "result_time": "2026-06-12 14:44",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260612000547",
   "n_results_in_window": 2,
-  "agm_date": null,
+  "results_in_window": [
+   {
+    "acptno": "20260612000547",
+    "title": "임시주주총회결과",
+    "time": "2026-06-12 14:44",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260807000408",
+    "title": "임시주주총회결과",
+    "time": "2026-08-07 14:44",
+    "charter_rows": 1,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
+  "agm_date": "2026-06-12",
   "vote_record_date": "2026-05-15",
   "rows": [
    {
@@ -1286,7 +1329,7 @@
   "notice_rcept_no": "20261103000169",
   "notice_dt": "20261103",
   "from": "s09d",
-  "fetched_at": "2026-11-17T01:14:36",
+  "fetched_at": "2026-11-17T17:25:38",
   "result_acptno": null,
   "passed": null,
   "note": "공고 뒤 80일 안에 KIND 주주총회결과 공시 없음"
@@ -1634,11 +1677,43 @@
   "n_results_in_window": 1,
   "agm_date": "2025-12-26",
   "vote_record_date": null,
-  "rows": [],
-  "charter_rows": [],
+  "rows": [
+   {
+    "no": "제1호",
+    "kind": "",
+    "item": "제27기(2024.10.01.~2025.09.30.) 재무제표 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "제2호",
+    "kind": "",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   },
+   {
+    "no": "제5호",
+    "kind": "",
+    "item": "이사보수 한도 승인의 건-총20억원",
+    "result": "가결"
+   },
+   {
+    "no": "제6호",
+    "kind": "",
+    "item": "감사보수 한도 승인의 건-총1억원",
+    "result": "가결"
+   }
+  ],
+  "charter_rows": [
+   {
+    "no": "제2호",
+    "kind": "",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   }
+  ],
   "by_dividend_row": false,
-  "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
+  "passed": true,
+  "note": "정관 안건 모두 가결",
   "basis_box": "정관상 기준일 설정 및 변경 세부내역' 관련, 당사는 이번 주주총회에서 '정관 일부 변경의 건'을 통해 이익배당 기준일을 이사회 결의로 정하고자 하여 '-'로 표기하였습니다."
  },
  "20260227002074": {
@@ -1842,12 +1917,30 @@
   "notice_rcept_no": "20260303002856",
   "notice_dt": "20260303",
   "from": "s09i",
-  "fetched_at": "2026-11-17T00:56:14",
+  "fetched_at": "2026-11-17T17:25:40",
   "result_acptno": "20260318000804",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-18 15:32",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260318000804",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260318000804",
+    "title": "정기주주총회결과",
+    "time": "2026-03-18 15:32",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260319000185",
+    "title": "정기주주총회결과",
+    "time": "2026-03-19 10:37",
+    "charter_rows": 1,
+    "related_to_notice": true
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-18",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -2144,12 +2237,30 @@
   "notice_rcept_no": "20260309001166",
   "notice_dt": "20260309",
   "from": "s09i",
-  "fetched_at": "2026-11-17T00:56:31",
+  "fetched_at": "2026-11-17T17:25:42",
   "result_acptno": "20260324000636",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-24 15:11",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260324000636",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260324000636",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 15:11",
+    "charter_rows": 1,
+    "related_to_notice": false
+   },
+   {
+    "acptno": "20260324000952",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 16:07",
+    "charter_rows": 1,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": false,
+  "ambiguous": true,
   "agm_date": "2026-03-24",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -3010,12 +3121,30 @@
   "notice_rcept_no": "20260306000378",
   "notice_dt": "20260306",
   "from": "s09i",
-  "fetched_at": "2026-11-17T00:57:12",
+  "fetched_at": "2026-11-17T17:25:44",
   "result_acptno": "20260323000629",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-23 14:32",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260323000629",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260323000629",
+    "title": "정기주주총회결과",
+    "time": "2026-03-23 14:32",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260508000459",
+    "title": "임시주주총회결과",
+    "time": "2026-05-08 14:32",
+    "charter_rows": 0,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
   "agm_date": "2026-03-23",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -4098,12 +4227,30 @@
   "notice_rcept_no": "20260213000509",
   "notice_dt": "20260213",
   "from": "s09i",
-  "fetched_at": "2026-11-17T00:58:18",
+  "fetched_at": "2026-11-17T17:25:46",
   "result_acptno": "20260324001473",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-24 17:42",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260324001473",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260324001473",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 17:42",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260324001776",
+    "title": "정기주주총회결과",
+    "time": "2026-03-24 18:59",
+    "charter_rows": 1,
+    "related_to_notice": true
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-24",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -4465,12 +4612,30 @@
   "notice_rcept_no": "20260312000905",
   "notice_dt": "20260312",
   "from": "s09i",
-  "fetched_at": "2026-11-17T00:58:38",
+  "fetched_at": "2026-11-17T17:25:48",
   "result_acptno": "20260327002172",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-27 16:33",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327002172",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260327002172",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:33",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260526000278",
+    "title": "임시주주총회결과",
+    "time": "2026-05-26 13:37",
+    "charter_rows": 0,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
   "agm_date": "2026-03-27",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -7539,12 +7704,30 @@
   "notice_rcept_no": "20260310002775",
   "notice_dt": "20260310",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:01:22",
+  "fetched_at": "2026-11-17T17:25:51",
   "result_acptno": "20260326000973",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-26 14:57",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326000973",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260326000973",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 14:57",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260330000736",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 14:10",
+    "charter_rows": 1,
+    "related_to_notice": true
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-26",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -7705,12 +7888,30 @@
   "notice_rcept_no": "20260311004311",
   "notice_dt": "20260311",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:01:30",
+  "fetched_at": "2026-11-17T17:25:53",
   "result_acptno": "20260326001599",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-26 15:50",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326001599",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260326001599",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:50",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260527000446",
+    "title": "임시주주총회결과",
+    "time": "2026-05-27 15:12",
+    "charter_rows": 0,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
   "agm_date": "2026-03-26",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -8060,12 +8261,30 @@
   "notice_rcept_no": "20260311004525",
   "notice_dt": "20260311",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:01:51",
+  "fetched_at": "2026-11-17T17:25:55",
   "result_acptno": "20260326003505",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-26 18:41",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326003505",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260326003505",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 18:41",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260526000648",
+    "title": "임시주주총회결과",
+    "time": "2026-05-26 16:54",
+    "charter_rows": 1,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
   "agm_date": "2026-03-26",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -8213,10 +8432,25 @@
     "result": "가결"
    }
   ],
-  "charter_rows": [],
+  "charter_rows": [
+   {
+    "no": "2-1",
+    "kind": "특별결의",
+    "item": "제2-1호 의안 : 사업목적 추가의 건",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "2-2",
+    "kind": "특별결의",
+    "item": "제2-2호 의안 : 주식병합에 따른 액면가액 변경",
+    "result": "가결",
+    "via": "notice_no"
+   }
+  ],
   "by_dividend_row": false,
-  "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
+  "passed": true,
+  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 2-1, 2-2) 모두 가결",
   "basis_box": null
  },
  "20260311003326": {
@@ -8935,10 +9169,39 @@
     "result": "가결"
    }
   ],
-  "charter_rows": [],
+  "charter_rows": [
+   {
+    "no": "6-1",
+    "kind": "특별결의",
+    "item": "사업목적 추가",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "6-2",
+    "kind": "특별결의",
+    "item": "사채 액면총액 증액",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "6-3",
+    "kind": "특별결의",
+    "item": "기타 상법 개정으로 인한 내용 반영",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "6-4",
+    "kind": "특별결의",
+    "item": "액면가 100원에서 500원으로 변경",
+    "result": "가결",
+    "via": "notice_no"
+   }
+  ],
   "by_dividend_row": false,
-  "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
+  "passed": true,
+  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 6-1, 6-2, 6-3, 6-4) 모두 가결",
   "basis_box": null
  },
  "20260311004421": {
@@ -10133,10 +10396,60 @@
   "notice_rcept_no": "20260316000768",
   "notice_dt": "20260316",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:14:38",
-  "result_acptno": null,
-  "passed": null,
-  "note": "공고 뒤 80일 안에 KIND 주주총회결과 공시 없음"
+  "fetched_at": "2026-11-17T17:22:24",
+  "result_acptno": "20260330000348",
+  "result_title": "정기주주총회결과",
+  "result_time": "2026-03-30 11:23",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330000348",
+  "n_results_in_window": 1,
+  "results_in_window": null,
+  "ambiguous": false,
+  "agm_date": "2026-03-30",
+  "vote_record_date": "2025-12-31",
+  "rows": [
+   {
+    "no": "1",
+    "kind": "보통결의",
+    "item": "제7기(2025.01.01~2025.12.31) 재무제표 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "2",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   },
+   {
+    "no": "3",
+    "kind": "보통결의",
+    "item": "기타 비상무이사 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "4",
+    "kind": "보통결의",
+    "item": "이사 보수한도 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "5",
+    "kind": "보통결의",
+    "item": "감사 보수한도 승인의 건",
+    "result": "가결"
+   }
+  ],
+  "charter_rows": [
+   {
+    "no": "2",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   }
+  ],
+  "by_dividend_row": false,
+  "passed": true,
+  "note": "정관 안건 모두 가결",
+  "basis_box": null
  },
  "20260311004259": {
   "stock_code": "478340",
@@ -10345,12 +10658,30 @@
   "notice_rcept_no": "20260304001428",
   "notice_dt": "20260304",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:03:48",
+  "fetched_at": "2026-11-17T17:25:57",
   "result_acptno": "20260327003021",
   "result_title": "정기주주총회결과(제50기 정기주주총회)",
   "result_time": "2026-03-27 18:09",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327003021",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260327003021",
+    "title": "정기주주총회결과(제50기 정기주주총회)",
+    "time": "2026-03-27 18:09",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260330000428",
+    "title": "정기주주총회결과(제50기 정기주주총회)",
+    "time": "2026-03-30 11:40",
+    "charter_rows": 1,
+    "related_to_notice": true
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-27",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -10576,13 +10907,31 @@
   "notice_rcept_no": "20260213002006",
   "notice_dt": "20260213",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:04:01",
+  "fetched_at": "2026-11-17T17:25:59",
   "result_acptno": "20260303000397",
   "result_title": "임시주주총회결과",
   "result_time": "2026-03-03 14:25",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260303000397",
   "n_results_in_window": 2,
-  "agm_date": null,
+  "results_in_window": [
+   {
+    "acptno": "20260303000397",
+    "title": "임시주주총회결과",
+    "time": "2026-03-03 14:25",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260327003214",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 18:14",
+    "charter_rows": 1,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
+  "agm_date": "2026-03-03",
   "vote_record_date": "2026-01-28",
   "rows": [
    {
@@ -11697,12 +12046,37 @@
   "notice_rcept_no": "20260312000271",
   "notice_dt": "20260312",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:04:56",
+  "fetched_at": "2026-11-17T17:26:02",
   "result_acptno": "20260327000878",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-27 14:01",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327000878",
   "n_results_in_window": 3,
+  "results_in_window": [
+   {
+    "acptno": "20260327000878",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 14:01",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260529000456",
+    "title": "임시주주총회결과",
+    "time": "2026-05-29 11:20",
+    "charter_rows": 1,
+    "related_to_notice": false
+   },
+   {
+    "acptno": "20260529000694",
+    "title": "임시주주총회결과",
+    "time": "2026-05-29 13:27",
+    "charter_rows": 1,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
   "agm_date": "2026-03-27",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -11808,10 +12182,25 @@
     "result": "가결"
    }
   ],
-  "charter_rows": [],
+  "charter_rows": [
+   {
+    "no": "2-1",
+    "kind": "특별결의",
+    "item": "상법 개정 반영의 건",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "2-2",
+    "kind": "특별결의",
+    "item": "기타 조문 정비의 건",
+    "result": "가결",
+    "via": "notice_no"
+   }
+  ],
   "by_dividend_row": false,
-  "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
+  "passed": true,
+  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 2-1, 2-2) 모두 가결",
   "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-"
  },
  "20260312000573": {
@@ -11820,12 +12209,30 @@
   "notice_rcept_no": "20260312000573",
   "notice_dt": "20260312",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:05:04",
+  "fetched_at": "2026-11-17T17:26:04",
   "result_acptno": "20260327002714",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-27 17:59",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327002714",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260327002714",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 17:59",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260515001864",
+    "title": "임시주주총회결과",
+    "time": "2026-05-15 16:15",
+    "charter_rows": 0,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
   "agm_date": "2026-03-27",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -12139,10 +12546,32 @@
     "result": "가결"
    }
   ],
-  "charter_rows": [],
+  "charter_rows": [
+   {
+    "no": "제2-1호",
+    "kind": "특별결의",
+    "item": "사업목적 추가의 건",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제2-2호",
+    "kind": "특별결의",
+    "item": "주식 병합의 건",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제2-3호",
+    "kind": "특별결의",
+    "item": "기타 조문 정비의 건",
+    "result": "가결",
+    "via": "notice_no"
+   }
+  ],
   "by_dividend_row": false,
-  "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
+  "passed": true,
+  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 제2-1호, 제2-2호, 제2-3호) 모두 가결",
   "basis_box": null
  },
  "20260312000622": {
@@ -12246,12 +12675,30 @@
   "notice_rcept_no": "20260312000396",
   "notice_dt": "20260312",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:05:26",
+  "fetched_at": "2026-11-17T17:26:06",
   "result_acptno": "20260327001404",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-27 15:22",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327001404",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260327001404",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 15:22",
+    "charter_rows": 3,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260513000536",
+    "title": "임시주주총회결과",
+    "time": "2026-05-13 14:52",
+    "charter_rows": 1,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
   "agm_date": "2026-03-27",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -12423,10 +12870,39 @@
     "result": "가결"
    }
   ],
-  "charter_rows": [],
+  "charter_rows": [
+   {
+    "no": "2-1",
+    "kind": "특별결의",
+    "item": "사업목적 추가",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "2-2",
+    "kind": "특별결의",
+    "item": "이사의 보수한도",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "2-3",
+    "kind": "특별결의",
+    "item": "감사의 보수한도",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "2-4",
+    "kind": "특별결의",
+    "item": "관련 법령 반영 및 조문 정비",
+    "result": "가결",
+    "via": "notice_no"
+   }
+  ],
   "by_dividend_row": false,
-  "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
+  "passed": true,
+  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 2-1, 2-2, 2-3, 2-4) 모두 가결",
   "basis_box": null
  },
  "20260313000357": {
@@ -13039,12 +13515,30 @@
   "notice_rcept_no": "20260313000684",
   "notice_dt": "20260313",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:06:07",
+  "fetched_at": "2026-11-17T17:26:08",
   "result_acptno": "20260330002264",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-30 17:53",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330002264",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260330002264",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 17:53",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260330002430",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 19:42",
+    "charter_rows": 1,
+    "related_to_notice": true
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-30",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -13524,19 +14018,75 @@
   "notice_rcept_no": "20260209000735",
   "notice_dt": "20260210",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:06:36",
+  "fetched_at": "2026-11-17T17:26:10",
   "result_acptno": "20260224001015",
   "result_title": "임시주주총회결과",
   "result_time": "2026-02-24 17:06",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224001015",
   "n_results_in_window": 2,
-  "agm_date": null,
+  "results_in_window": [
+   {
+    "acptno": "20260224001015",
+    "title": "임시주주총회결과",
+    "time": "2026-02-24 17:06",
+    "charter_rows": 0,
+    "related_to_notice": false
+   },
+   {
+    "acptno": "20260330001343",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:06",
+    "charter_rows": 0,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": false,
+  "ambiguous": false,
+  "agm_date": "2026-02-24",
   "vote_record_date": null,
-  "rows": [],
-  "charter_rows": [],
+  "rows": [
+   {
+    "no": "제1-1호",
+    "kind": "",
+    "item": "사내이사 신범용 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "제1-2호",
+    "kind": "",
+    "item": "사외이사 윤기태 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "제1-3호",
+    "kind": "",
+    "item": "사외이사 박성광 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "제2호",
+    "kind": "",
+    "item": "상근감사 이영창 선임의 건",
+    "result": "부결"
+   },
+   {
+    "no": "제3호",
+    "kind": "",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   }
+  ],
+  "charter_rows": [
+   {
+    "no": "제3호",
+    "kind": "",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   }
+  ],
   "by_dividend_row": false,
-  "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
+  "passed": true,
+  "note": "정관 안건 모두 가결",
   "basis_box": null
  },
  "20260313001146": {
@@ -13842,13 +14392,31 @@
   "notice_rcept_no": "20260120000305",
   "notice_dt": "20260120",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:06:52",
+  "fetched_at": "2026-11-17T17:26:12",
   "result_acptno": "20260204000503",
   "result_title": "임시주주총회결과",
   "result_time": "2026-02-04 14:51",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260204000503",
   "n_results_in_window": 2,
-  "agm_date": null,
+  "results_in_window": [
+   {
+    "acptno": "20260204000503",
+    "title": "임시주주총회결과",
+    "time": "2026-02-04 14:51",
+    "charter_rows": 0,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260330001444",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:46",
+    "charter_rows": 1,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
+  "agm_date": "2026-02-04",
   "vote_record_date": null,
   "rows": [],
   "charter_rows": [],
@@ -13928,12 +14496,37 @@
   "notice_rcept_no": "20260313001027",
   "notice_dt": "20260313",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:07:00",
+  "fetched_at": "2026-11-17T17:26:15",
   "result_acptno": "20260330002272",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-30 17:48",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330002272",
   "n_results_in_window": 3,
+  "results_in_window": [
+   {
+    "acptno": "20260330002272",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 17:48",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260413000510",
+    "title": "정기주주총회결과",
+    "time": "2026-04-13 15:52",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260529001930",
+    "title": "임시주주총회결과",
+    "time": "2026-05-29 17:26",
+    "charter_rows": 0,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-30",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -14461,12 +15054,30 @@
   "notice_rcept_no": "20260316000766",
   "notice_dt": "20260316",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:07:29",
+  "fetched_at": "2026-11-17T17:26:17",
   "result_acptno": "20260331002209",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-31 15:30",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331002209",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260331002209",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:30",
+    "charter_rows": 3,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260514000565",
+    "title": "임시주주총회결과",
+    "time": "2026-05-14 14:47",
+    "charter_rows": 0,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
   "agm_date": "2026-03-31",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -15122,11 +15733,192 @@
   "n_results_in_window": 1,
   "agm_date": null,
   "vote_record_date": null,
-  "rows": [],
-  "charter_rows": [],
+  "rows": [
+   {
+    "no": "제1-1호",
+    "kind": "",
+    "item": "제17조(주주명부의 폐쇄)",
+    "result": "부결"
+   },
+   {
+    "no": "제1-2호",
+    "kind": "",
+    "item": "제26조(소집지)",
+    "result": "가결"
+   },
+   {
+    "no": "제1-3호",
+    "kind": "",
+    "item": "제33조(의결권의 대리행사)",
+    "result": "가결"
+   },
+   {
+    "no": "제1-4호",
+    "kind": "",
+    "item": "제35조(이사의 수 및 선임)",
+    "result": "가결"
+   },
+   {
+    "no": "제1-5호",
+    "kind": "",
+    "item": "제40조 (이사의 의무)",
+    "result": "가결"
+   },
+   {
+    "no": "제1-6호",
+    "kind": "",
+    "item": "제47조의2(이사의 책임감경)",
+    "result": "가결"
+   },
+   {
+    "no": "제1-7호",
+    "kind": "",
+    "item": "제48조(감사위원회의 구성)",
+    "result": "가결"
+   },
+   {
+    "no": "제1-8호",
+    "kind": "",
+    "item": "제48조의2 (감사위원의 분리선임·해임)",
+    "result": "가결"
+   },
+   {
+    "no": "제1-9호",
+    "kind": "",
+    "item": "제49조(감사위원회 대표의 선임)",
+    "result": "가결"
+   },
+   {
+    "no": "제1-10호",
+    "kind": "",
+    "item": "제54조(사업연도)",
+    "result": "부결"
+   },
+   {
+    "no": "제1-11호",
+    "kind": "",
+    "item": "부 칙",
+    "result": "가결"
+   },
+   {
+    "no": "제2-1호",
+    "kind": "",
+    "item": "사내이사 김병준 선임의 건",
+    "result": "부결"
+   },
+   {
+    "no": "제2-2호",
+    "kind": "",
+    "item": "사내이사 인태경 선임의 건",
+    "result": "부결"
+   },
+   {
+    "no": "제2-3호",
+    "kind": "",
+    "item": "사외이사 왕현철 선임의 건",
+    "result": "부결"
+   },
+   {
+    "no": "제2-4호",
+    "kind": "",
+    "item": "사외이사 최호석 선임의 건",
+    "result": "부결"
+   },
+   {
+    "no": "제3호",
+    "kind": "",
+    "item": "분리선출에 따라 감사위원이 되는 사외이사 김한민 선임의 건",
+    "result": "부결"
+   },
+   {
+    "no": "제4호",
+    "kind": "",
+    "item": "자본 감소의 건(10:1)",
+    "result": "가결"
+   }
+  ],
+  "charter_rows": [
+   {
+    "no": "제1-1호",
+    "kind": "",
+    "item": "제17조(주주명부의 폐쇄)",
+    "result": "부결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제1-2호",
+    "kind": "",
+    "item": "제26조(소집지)",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제1-3호",
+    "kind": "",
+    "item": "제33조(의결권의 대리행사)",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제1-4호",
+    "kind": "",
+    "item": "제35조(이사의 수 및 선임)",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제1-5호",
+    "kind": "",
+    "item": "제40조 (이사의 의무)",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제1-6호",
+    "kind": "",
+    "item": "제47조의2(이사의 책임감경)",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제1-7호",
+    "kind": "",
+    "item": "제48조(감사위원회의 구성)",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제1-8호",
+    "kind": "",
+    "item": "제48조의2 (감사위원의 분리선임·해임)",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제1-9호",
+    "kind": "",
+    "item": "제49조(감사위원회 대표의 선임)",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제1-10호",
+    "kind": "",
+    "item": "제54조(사업연도)",
+    "result": "부결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제1-11호",
+    "kind": "",
+    "item": "부 칙",
+    "result": "가결",
+    "via": "notice_no"
+   }
+  ],
   "by_dividend_row": false,
   "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
+  "note": "판정 안건 중 가결 아닌 것 있음 — 세부 안건 확인 필요",
   "basis_box": null
  },
  "20260316000650": {
@@ -15425,10 +16217,25 @@
     "result": "가결"
    }
   ],
-  "charter_rows": [],
+  "charter_rows": [
+   {
+    "no": "2-1",
+    "kind": "특별결의",
+    "item": "[제2-1호 의안] 상법 개정에 따른 변경의 건",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "2-2",
+    "kind": "특별결의",
+    "item": "[제2-2호 의안] 이사의 보수 관련 조항 변경의 건",
+    "result": "가결",
+    "via": "notice_no"
+   }
+  ],
   "by_dividend_row": false,
-  "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
+  "passed": true,
+  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 2-1, 2-2) 모두 가결",
   "basis_box": null
  },
  "20260312000311": {
@@ -15591,12 +16398,30 @@
   "notice_rcept_no": "20260311004425",
   "notice_dt": "20260311",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:08:23",
+  "fetched_at": "2026-11-17T17:26:19",
   "result_acptno": "20260331003482",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-31 17:23",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331003482",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260331003482",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 17:23",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260518000701",
+    "title": "임시주주총회결과",
+    "time": "2026-05-18 16:28",
+    "charter_rows": 1,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
   "agm_date": "2026-03-31",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -15638,12 +16463,30 @@
   "notice_rcept_no": "20260316001294",
   "notice_dt": "20260316",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:08:27",
+  "fetched_at": "2026-11-17T17:26:21",
   "result_acptno": "20260331002499",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-31 16:49",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331002499",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260331002499",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 16:49",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260430000834",
+    "title": "임시주주총회결과",
+    "time": "2026-04-30 15:22",
+    "charter_rows": 1,
+    "related_to_notice": false
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": false,
   "agm_date": "2026-03-31",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -15833,12 +16676,30 @@
   "notice_rcept_no": "20260317000300",
   "notice_dt": "20260317",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:08:39",
+  "fetched_at": "2026-11-17T17:26:23",
   "result_acptno": "20260331001316",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-31 14:26",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331001316",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260331001316",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 14:26",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260331004712",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 18:45",
+    "charter_rows": 1,
+    "related_to_notice": true
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-31",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -16709,12 +17570,30 @@
   "notice_rcept_no": "20260305000402",
   "notice_dt": "20260305",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:09:29",
+  "fetched_at": "2026-11-17T17:26:25",
   "result_acptno": "20260331004459",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-31 18:03",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331004459",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260331004459",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 18:03",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260401000174",
+    "title": "정기주주총회결과",
+    "time": "2026-04-01 09:33",
+    "charter_rows": 1,
+    "related_to_notice": true
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-31",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -17729,10 +18608,46 @@
     "result": "가결"
    }
   ],
-  "charter_rows": [],
+  "charter_rows": [
+   {
+    "no": "2-1호 의안",
+    "kind": "특별결의",
+    "item": "주식등의 전자등록 관련 조문 정비의 건",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "2-2호 의안",
+    "kind": "특별결의",
+    "item": "자기주식 소각 및 관리 근거 마련의 건",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "2-3호 의안",
+    "kind": "특별결의",
+    "item": "사채 발행 한도 변경의 건",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "2-4호 의안",
+    "kind": "특별결의",
+    "item": "상법 개정 내용 반영의 건",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "2-5호 의안",
+    "kind": "특별결의",
+    "item": "이사의 책임감경 조문 신설의 건",
+    "result": "가결",
+    "via": "notice_no"
+   }
+  ],
   "by_dividend_row": false,
-  "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
+  "passed": true,
+  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 2-1호 의안, 2-2호 의안, 2-3호 의안, 2-4호 의안, 2-5호 의안) 모두 가결",
   "basis_box": null
  },
  "20260316001692": {
@@ -18161,12 +19076,30 @@
   "notice_rcept_no": "20260311004419",
   "notice_dt": "20260311",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:10:37",
+  "fetched_at": "2026-11-17T17:26:27",
   "result_acptno": "20260326002424",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-26 16:59",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326002424",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260326002424",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 16:59",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260408000841",
+    "title": "정기주주총회결과",
+    "time": "2026-04-08 15:01",
+    "charter_rows": 1,
+    "related_to_notice": true
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-26",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -18220,12 +19153,30 @@
   "notice_rcept_no": "20260311003393",
   "notice_dt": "20260311",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:10:41",
+  "fetched_at": "2026-11-17T17:26:30",
   "result_acptno": "20260327002284",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-27 16:53",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327002284",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260327002284",
+    "title": "정기주주총회결과",
+    "time": "2026-03-27 16:53",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260330000211",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 10:52",
+    "charter_rows": 1,
+    "related_to_notice": true
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-27",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -18717,12 +19668,30 @@
   "notice_rcept_no": "20260311003951",
   "notice_dt": "20260311",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:11:10",
+  "fetched_at": "2026-11-17T17:26:32",
   "result_acptno": "20260326000325",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-26 11:07",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326000325",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260326000325",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 11:07",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260331003365",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 16:38",
+    "charter_rows": 1,
+    "related_to_notice": true
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-26",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -18817,12 +19786,30 @@
   "notice_rcept_no": "20260313000924",
   "notice_dt": "20260313",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:11:18",
+  "fetched_at": "2026-11-17T17:26:34",
   "result_acptno": "20260330001606",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-30 16:46",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330001606",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260330001606",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 16:46",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260330002204",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 17:54",
+    "charter_rows": 1,
+    "related_to_notice": true
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-30",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -19326,12 +20313,30 @@
   "notice_rcept_no": "20260316001147",
   "notice_dt": "20260316",
   "from": "s09i",
-  "fetched_at": "2026-11-17T01:11:48",
+  "fetched_at": "2026-11-17T17:26:37",
   "result_acptno": "20260331001921",
   "result_title": "정기주주총회결과",
   "result_time": "2026-03-31 15:28",
   "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331001921",
   "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260331001921",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 15:28",
+    "charter_rows": 1,
+    "related_to_notice": true
+   },
+   {
+    "acptno": "20260414000372",
+    "title": "정기주주총회결과",
+    "time": "2026-04-14 14:20",
+    "charter_rows": 1,
+    "related_to_notice": true
+   }
+  ],
+  "matched_by_related": true,
+  "ambiguous": true,
   "agm_date": "2026-03-31",
   "vote_record_date": "2025-12-31",
   "rows": [
@@ -19687,10 +20692,39 @@
     "result": "가결"
    }
   ],
-  "charter_rows": [],
+  "charter_rows": [
+   {
+    "no": "제2-1호",
+    "kind": "특별결의",
+    "item": "사업목적 추가 및 변경",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제2-2호",
+    "kind": "특별결의",
+    "item": "개정 상법 반영",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제2-3호",
+    "kind": "특별결의",
+    "item": "감사 제도 변경",
+    "result": "가결",
+    "via": "notice_no"
+   },
+   {
+    "no": "제2-4호",
+    "kind": "특별결의",
+    "item": "조문 일부 정비",
+    "result": "가결",
+    "via": "notice_no"
+   }
+  ],
   "by_dividend_row": false,
-  "passed": null,
-  "note": "안건 표에서 정관 안건을 찾지 못함",
+  "passed": true,
+  "note": "정관 안건(소집공고 번호로 짝지은 세부 안건 제2-1호, 제2-2호, 제2-3호, 제2-4호) 모두 가결",
   "basis_box": null
  }
 }

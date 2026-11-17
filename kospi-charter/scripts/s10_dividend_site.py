@@ -301,6 +301,7 @@ def market_rows(sfx: str, market: str | None) -> dict:
             "basis_result_title": r["basis_result_title"], "basis_agm_date": r["basis_agm_date"],
             "basis_result_rows": [[x["no"], x["item"], x["result"]] for x in res.get("charter_rows") or []],
             "basis_note": r["basis_note"],
+            "basis_unconfirmed": bool(r.get("basis_unconfirmed")),   # 소집공고 안건대로 바뀐 것으로 보되 KIND 결과로 가결은 확인 못함 (s09c)
             "basis_notice_when": when,       # pre = 사업보고서보다 먼저 접수된 소집공고(그해 정기주총) · post = 제출 뒤
             "ev_url": ev_url, "ev_label": ev_label,
             "basis_article": article, "quotes": r["quotes"] if not (pv and pv.get("output")) else (pv["output"].get("quotes") or []),
