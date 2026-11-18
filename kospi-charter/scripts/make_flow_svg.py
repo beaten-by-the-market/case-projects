@@ -250,8 +250,8 @@ DATA = {
         dict(src="KIND · 주주총회결과", title="안건 세부내역 가결여부",
              body=["기준일 조항을 바꾸는 안건마다"],
              tag="확인", purpose="안건이 실제로 통과됐나"),
-        dict(src="공시부 제출 · 상장공시시스템 (엑셀)", title="회사가 낸 배당기준일 조건",
-             body=["Y 특정일 · N 이사회 결의 (코스피 829)", "부정확한 경우가 많아 시장운영팀이", "정관과 눈으로 다시 검증해 왔다"],
+        dict(src="공시부 제출 · 상장공시시스템 엑셀 2개", title="회사가 낸 배당기준일 조건",
+             body=["Y 특정일 · N 이사회 결의", "코스피 829 · 코스닥 1,840종목", "부정확한 경우가 많아 시장운영팀이", "정관과 눈으로 다시 검증해 왔다"],
              tag="대조", purpose="신고가 정관과 맞나"),
         dict(src="상장협·코스닥협 · KIND 상장법인목록", title="참고 자료",
              body=["2026.3 말 정관 정비 55.3% 집계", "지금 결산월 (제출 뒤 바뀐 3사)"],
@@ -266,7 +266,7 @@ TASKS = {
           ("s04c", "PDF 글자층 뽑기"), ("s04e", "증권신고서 등에서 정관"), ("s09f", "전년도 정관 · 대체 자료")],
     "C": [("s05", "소집공고 목록 · 회사별 셈 기간"), ("s06", "XML → '정관의 변경' 절 txt"),
           ("s09i", "앞서 제출된 공고도 같은 절 뽑기")],
-    "D": [("s09e", "KIND 결과 본문 → 안건별 가결"), ("s02e", "제출 엑셀 읽기 (이름 칸 빼고)"),
+    "D": [("s09e", "KIND 결과 본문 → 안건별 가결"), ("s02e", "제출 엑셀 2개 읽기 (이름·연락처 칸 빼고)"),
           ("s10", "정관 태그와 신고 대조"), ("s02d", "KIND 지금 결산월")],
 }
 
@@ -286,12 +286,11 @@ def kind_llm_count() -> int:
     return n
 
 
-def filed_counts():
-    """웹페이지 데이터(site/dividend.js)의 상장공시시스템 신고 대조 결과(filed_cmp) — 코스피만."""
+def filed_counts() -> dict:
+    """웹페이지 데이터(site/dividend.js) stats_by_market 의 상장공시시스템 신고 대조(filed_cmp) — 시장별."""
     txt = (ROOT / "site" / "dividend.js").read_text("utf-8")
-    t = json.loads(txt[txt.index("{"):txt.rindex("}") + 1])["tables"]["dividend"]
-    i = t["cols"].index("filed_cmp")
-    return Counter(r[i] for r in t["rows"] if r[i])
+    sbm = json.loads(txt[txt.index("{"):txt.rindex("}") + 1])["stats_by_market"]
+    return {m: Counter(sbm[m].get("filed_cmp") or {}) for m in ("코스피", "코스닥")}
 
 
 def tag_counts():
@@ -463,7 +462,8 @@ def build() -> tuple[str, int]:
         ("B", "독립 규칙 판별", ["정규식으로 따로 판별해 맞대 봄", "코스피 불일치 10건 = 규칙 쪽 오류"]),
         ("C", "재검토 · 서식 판정", ["확신도 낮음 · 규칙 불일치 · 갈린 서식", "Claude 세션이 원문과 다시 대조", "코스피 41건 → 3건 고침", "코스닥 서식 259건 → 39건 고침"]),
         ("D", "가결 확인 · 신고 대조", ["KIND 에서 가결된 안건만 반영", f"안건 {AGM_PASS}",
-                                   f"신고 일치 {filed['일치']:,} · 불일치 {filed['불일치']:,} · 미입력 {filed['미입력']:,}"]),
+                                   "신고 대조 — 일치 · 불일치 · 미입력",
+                                   *[f"{m} {filed[m]['일치']:,} · {filed[m]['불일치']:,} · {filed[m]['미입력']:,}" for m in ("코스피", "코스닥")]]),
     ]
     t4 = S4 + 40
     chk = {k: note_box(t, ls, COLX[k] + PAD, BOXW, llm=False, tsize=13.5) for k, t, ls in CHECKS}
@@ -514,7 +514,7 @@ def build() -> tuple[str, int]:
           ("charter_dividend_record_date", "태그 · 근거 조·항 · 인용 · 근거 문서 URL"),
           ("data/charter* · data/agm*", "정관 · 소집공고 원문, 회사·문서별 폴더")]
     R3 = [("근거문서 표", "회사 1행 — 정관 원문 · 소집공고 '정관의 변경' 미리보기"),
-          ("배당기준일", f"{n_all:,}행 — 태그 · 신고 대조(코스피, 불일치 빨강) · 근거 문구 · 근거 그림"),
+          ("배당기준일", f"{n_all:,}행 — 태그 · 신고 대조(불일치 빨강) · 근거 문구 · 근거 그림"),
           ("배당기준일 취합", "시장별 태그 구성 · 신고 × 정관 교차표 · 분기·중간배당 교차"),
           ("배당 특이사항", "대체 자료 · 오기재 · 주총으로 바뀐 회사 등 286건")]
     HEADR = 32
