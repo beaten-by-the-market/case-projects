@@ -336,7 +336,7 @@
     확인필요: "원문 없음·결손" };
   const dtag = (t) => (t ? `<span class="dtag ${DTAG[t] || "chk"}" title="${esc(TAG_YN[t] ? `${TL(t)}: ${DTAG_TIP[t]}` : DTAG_TIP[t] || "")}"><i></i>${esc(TL(t))}</span>` : NA);
   const DORD_OPT = { 정관no: "N (이사회가 정함)", 정관yesorno: "YorN (결산일, 이사회도 가능)", 정관yes: "Y (결산일 고정)" };
-  // 상장공시시스템 신고 (s02e 엑셀 → s10 filed*, 코스피만): 정관 태그와 같은 색. 정관과 불일치면 칸 바탕 빨강, 미입력은 회색
+  // 상장공시시스템 신고 (s02e 엑셀 → s10 filed*, 코스피 · 코스닥): 정관 태그와 같은 색. 정관과 불일치면 칸 바탕 빨강, 미입력은 회색
   const FORD = ["Y", "N", "YorN", "미입력"];
   const FTAG = { N: "no", Y: "yes", YorN: "yesorno", 미입력: "chk" };
   const FTIP = { N: "신고 N: 이사회 결의로 정한 날", Y: "신고 Y: 특정일", YorN: "신고 YorN: 특정일 또는 이사회 결의로 정한 날", 미입력: "상장공시시스템에 배당기준일 신고가 없다" };
@@ -614,7 +614,7 @@
       ${xt("근거가 온 자리 × 첨부 정관 태그", s.x_route, { rows: ["배당조항", "배당조항→기준일조항 참조", "기준일조항(배당 명시)", "기준일조항(배당 명시 없음)", "없음"],
         note: "참조형('제1항의 배당은 제13조 제1항에서 정한 날 현재…')은 2021~2023 표준정관 판이다. 참조된 조가 '이사회의 결의로 정한 날'뿐이면 정관 N(HD현대 계열 등)." })}
       ${xt("정관 원문 종류 × 결산배당", s.x_ctype, { fmt: (v) => CT[v] || v })}
-      ${(s.x_filed || []).length ? xt("상장공시시스템 신고 × 정관 (코스피)", s.x_filed, { rows: FORD.filter((v) => s.x_filed.some((d) => d[1] === v)), fmt: (v) => `신고 ${v}`,
+      ${(s.x_filed || []).length ? xt("상장공시시스템 신고 × 정관", s.x_filed, { rows: FORD.filter((v) => s.x_filed.some((d) => d[1] === v)), fmt: (v) => `신고 ${v}`,
         note: `정관 N 은 신고 N, 정관 Y 는 신고 Y 면 맞다(신고 Y 는 신고 기준일도 정관 날짜와 대조). 정관 YorN 은 상장공시시스템에 YorN 이 없어 어느 쪽으로 신고했든 불일치로 센다.
           <b class="hl">불일치 ${fmtN((s.filed_cmp || {}).불일치 || 0)}사 · 미입력 ${fmtN((s.filed_cmp || {}).미입력 || 0)}사</b> (<a href="#div" data-go="div:fcmp=@diff${esc(mq)}">배당기준일 탭에서 보기</a>).` }) : ""}
       <div class="xtbox"><h4 class="sec">정관 N 근거 조항의 개정 표시 연도</h4><div class="grid static"><table class="xt"><thead><tr><th></th><th>회사 수</th></tr></thead><tbody>${ay}</tbody></table></div>
@@ -641,13 +641,13 @@
       id: "div", label: "배당기준일", table: "dividend", title: "배당기준일 (정관의 결산배당 기준일)",
       tip: `정관 (${AOI}) 의 결산배당을 받을 주주를 정하는 기준일 조항 분류`,
       desc: `${esc(Object.keys(DVS.markets || { 코스피: 1 }).join("·"))} 회사마다 정관(${AOI})에서 결산배당을 받을 주주를 정하는 기준일 조항을 읽어 분류했다. '정관' 칸: N = 이사회로 정하는 때 · Y = 정관상 결산일(정관이 박은 날) · YorN = 정관상 결산일, 단 이사회로 정하는 때에도 할 수 있음. ` +
-        "코스피는 회사가 상장공시시스템에 신고한 배당기준일('신고' · '신고 기준일')을 나란히 두었다. 정관과 다르면 빨간 바탕, 미입력은 회색 바탕이고 '신고 대조' 필터로 골라 본다. " +
+        "코스피 · 코스닥은 회사가 상장공시시스템에 신고한 배당기준일('신고' · '신고 기준일')을 나란히 두었다. 정관과 다르면 빨간 바탕, 미입력은 회색 바탕이고 '신고 대조' 필터로 골라 본다. " +
         "근거는 사업보고서 첨부 정관이고, 제출 뒤 주주총회에서 기준일 조항을 바꾼 회사는 그 소집공고와 KIND 주주총회결과(가결)로, 첨부 정관을 읽을 수 없던 회사는 전년도 정관·소집공고로 정했다. 근거 문구는 조항 단위이고 스캔 정관은 그 쪽의 해당 부분을 잘라 보인다. " +
         "판별은 코스피는 Claude API(Opus 5.5), 코스닥은 같은 지침·발췌로 Claude Code 서브에이전트(Opus 5.5)가 했다. 행을 누르면 조항 전문과 근거 링크가 열린다.",
       filters: [
         [Q("회사명·종목코드"), SEL("market", "시장", "market", { order: MKT }), SEL("tag_current", "정관", "tag_current", { order: DORD, fmt: (v) => DORD_OPT[v] || v }),
-          SEL("filed", "신고", "filed", { order: FORD, empty: "- (코스피 아님)" }),
-          SEL("fcmp", "신고 대조", "filed_cmp", { order: ["일치", "불일치", "미입력"], empty: "- (코스피 아님)",
+          SEL("filed", "신고", "filed", { order: FORD, empty: "- (신고 자료 없음)" }),
+          SEL("fcmp", "신고 대조", "filed_cmp", { order: ["일치", "불일치", "미입력"], empty: "- (신고 자료 없음)",
             extra: [{ v: "@diff", label: "불일치 + 미입력", test: (r) => r.filed_cmp === "불일치" || r.filed_cmp === "미입력" }] })],
         [F_MONTH, SEL("quarterly", "분기배당", "quarterly", { order: ["고정", "이사회결정", "혼합", "없음", "확인필요"] }),
           SEL("interim", "중간배당", "interim", { order: ["고정", "이사회결정", "혼합", "없음", "확인필요"] }), F_CG],
@@ -665,7 +665,7 @@
           h: (r) => dtag(r.tag_current) },
         { k: "filed", t: "신고", c: "c", td: (r) => FCMP_TD[r.filed_cmp] || "",
           v: (r) => (r.filed ? `${["불일치", "미입력", "일치"].indexOf(r.filed_cmp)}${FORD.indexOf(r.filed)}` : null),
-          title: "회사가 상장공시시스템에 신고한 배당기준일 조건 (Y = 특정일 · N = 이사회 결의로 정한 날) · 빨간 바탕 = 정관과 불일치 · 회색 바탕 = 미입력 · 코스피만",
+          title: "회사가 상장공시시스템에 신고한 배당기준일 조건 (Y = 특정일 · N = 이사회 결의로 정한 날) · 빨간 바탕 = 정관과 불일치 · 회색 바탕 = 미입력",
           h: (r) => (!r.filed ? NA : `${ftag(r.filed)}${r.filed_cmp === "불일치" ? `<br><span class="bad small" title="${esc(r.filed_why || "")}">불일치</span>`
             : r.filed_cmp === "일치" && r.filed_why ? `<br><span class="small na" title="${esc(r.filed_why)}">참고</span>` : ""}`) },
         { k: "filed_date", t: "신고 기준일", c: "c mono", td: (r) => (r.filed_cmp === "불일치" && /^신고 기준일/.test(r.filed_why || "") ? "fmis" : ""),

@@ -532,9 +532,10 @@ def main():
     for x in out_rows:
         for c in ("note", "attached_note", "reviewed_why", "agm_note"):
             x[c] = ocr_word(x[c])
-    fm = (_opt(FILED_SRC, {}) or {}).get("filed") or {}          # 상장공시시스템 신고 (s02e, 코스피만)
+    fm = (_opt(FILED_SRC, {}) or {}).get("filed") or {}          # 상장공시시스템 신고 (s02e, 코스피 · 코스닥 — 2026-11-17 코스닥 추가)
     for x in out_rows:
-        x.update(filed_cmp(x, fm.get(x["stock_code"]) if x["market"] == "코스피" else None))
+        f = fm.get(x["stock_code"])
+        x.update(filed_cmp(x, f if f and f.get("market", "코스피") == x["market"] else None))
     stats = stats_of(out_rows, rows, klca=True)
     # 시장별 — 묶음이 아니라 행의 시장으로 (absent 묶음은 두 시장에 걸친다)
     mk_names = [m for m in ("코스피", "코스닥") if any(x["market"] == m for x in out_rows)]

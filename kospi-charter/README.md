@@ -30,6 +30,7 @@ OpenDART 에서 **최근 1년(2025-11-16 ~ 2026-11-16) 사업보고서 최종본
 | 결산배당 기준일 태그 (지금) | **정관no 511 · 정관yes 306 · 정관yesorno 8** (825사) — 사업보고서보다 먼저 제출된 소집공고 안건 65사 · 제출 뒤 소집공고 안건 9사(모두 KIND 주주총회결과 가결 확인) · 확인필요 3사는 전년도 정관·소집공고로 |
 | 코스닥 결산배당 기준일 태그 (지금) | **정관no 826 · 정관yes 766 · 정관yesorno 192** (1,784사) — 서브에이전트 판별(API 비용 0) · 서식 판정 259건 중 39건 태그 조정 · 사업보고서보다 먼저 제출된 소집공고 안건 83사 · 제출 뒤 소집공고 안건 16사 · 확인필요 4사는 전년도 정관·사업보고서 본문으로 |
 | 상장공시시스템 신고 대조 (코스피 829사) | **일치 807 · 불일치 16 · 미입력 6** — 상장법인이 공시부에 낸 배당기준일 조건(Y 특정일 · N 이사회 결의)과 지금 태그 비교 (docs/04) |
+| 상장공시시스템 신고 대조 (코스닥 1,832사) | **일치 1,613 · 불일치 216 · 미입력 3** — 불일치 중 203사는 정관 YorN(상장공시시스템에 YorN 이 없음, 택일형 정관 다수) |
 
 자세한 건수와 확인한 사실은 [docs/03-검증기록.md](docs/03-검증기록.md), `data/final/manifest.json`(코스닥은 `kosdaq_manifest.json`).
 
@@ -128,7 +129,7 @@ cp .env.example .env                     # DART_API_KEY 넣기
 | 8 | `scripts/s08_site.py` | 웹페이지 데이터 `site/data.js` (코스피·코스닥 결과물 함께) | — |
 | 2c | `scripts/s02c_kosdaq_absent.py` | **코스닥** — KIND 코스닥 상장회사 중 목록에 없는 회사와 근거 (s02b 복사본) | OpenDART · KIND |
 | 2d | `scripts/s02d_kind_settle_month.py` | 지금 결산월 (KIND 상장법인목록, 코스피·코스닥) → 배당기준일 탭 결산월 비교 | KIND |
-| 2e | `scripts/s02e_check_group.py` | 확인그룹 · 상장공시시스템 신고 — 사용자가 준 코스피 종목별 엑셀(확인자 이름을 뺀 사본 `source/유가증권시장_확인그룹v2_이름제외.xlsx`)의 그룹 번호와 신고(Y·N·미입력)·신고 배당기준일 → 웹페이지 '확인그룹' 필터, 배당기준일 탭 '신고' 칸·'신고 대조' 필터 | 엑셀 |
+| 2e | `scripts/s02e_check_group.py` | 확인그룹 · 상장공시시스템 신고 — 사용자가 준 코스피 종목별 엑셀(확인자 이름을 뺀 사본 `source/유가증권시장_확인그룹v2_이름제외.xlsx`)의 그룹 번호와 신고(Y·N·미입력)·신고 배당기준일, 코스닥은 상장공시시스템 배당기준일 현황(회사 담당자 칸을 뺀 사본 `source/코스닥_배당기준일_2026_담당자제외.xlsx`)의 '배당기준일조건' · '배당기준일' → 웹페이지 '확인그룹' 필터, 배당기준일 탭 '신고' 칸·'신고 대조' 필터 | 엑셀 |
 | 3k·4k | `scripts/s03k_kosdaq_main.py` · `s04k_kosdaq_charter.py` | 코스닥 — 첨부문서 목록 · 정관 원문 | DART 웹 |
 | 4ck·4bk·4dk | `scripts/s04ck_kosdaq_pdf.py` · `s04bk_kosdaq_ocr.py` · `s04dk_kosdaq_llm.py` | 코스닥 — PDF 정관 · Windows OCR · Opus 전사(비용 발생) | DART 웹 · Windows OCR · Anthropic API |
 | 5k·6k | `scripts/s05k_kosdaq_agm_list.py` · `s06k_kosdaq_agm_xml.py` | 코스닥 — 소집공고 목록 · XML·정관의 변경 절 | OpenDART |
@@ -168,6 +169,7 @@ cp .env.example .env                     # DART_API_KEY 넣기
 | `.claude/skills/charter-dividend-record-date/` | 배당기준일 태깅 스킬 (SKILL.md · 판별 지침 · 규제 연혁) | ✅ |
 | `source/regulation/` | 배당기준일 규제 원문 사본 (금융위·상장협 보도자료 등 10건) | ✅ |
 | `source/유가증권시장_확인그룹v2_이름제외.xlsx` | 확인그룹 · 상장공시시스템 신고 엑셀 (사용자 제공, 확인자 이름 K~N열을 뺀 사본) | ✅ |
+| `source/코스닥_배당기준일_2026_담당자제외.xlsx` | 코스닥 상장공시시스템 배당기준일 현황 (사용자 제공 1,840종목, 회사 담당자 이름·직위·전화·휴대폰·이메일 L·M·V~Z열을 뺀 사본) | ✅ |
 | `data/final/` | 결과물 | ✅ |
 | `data/interim/` | 단계별 중간 파일 | ✅ |
 | `data/charter/` | 정관 원문 (원문 HTML·텍스트·글자 인식·PDF·meta) | ✅ (`img/` 제외) |
