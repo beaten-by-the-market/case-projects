@@ -164,17 +164,20 @@
   const srcB = (v) => (v ? `<span class="srcd${v === SRC_REP ? "" : " alt"}">${esc(v)}</span>` : NA);
 
   /* ---------- 머리말 ---------- */
+  // 데이터 시각: 정관(data.js) · 소집공고(수집 · KIND 결과) · 배당기준일(dividend.js) — 사용자 지시 2026-11-20 (근거문서 시각만 보여 11-17 뒤 갱신이 없는 것처럼 읽혔다)
+  const DVJ = window.DATA_DIV || {};
+  const STAMPS = [["정관 데이터", D.built], ["소집공고 데이터", DVJ.agm_data_at], ["배당기준일 데이터", DVJ.built]].filter(([, t]) => t);
+  const LATEST = STAMPS.map(([, t]) => String(t)).sort().pop() || "";
   $("#hinfo").innerHTML = [
     M.as_of ? `<span class="asof">기준일 <b>${esc(M.as_of)}</b></span>` : "",
-    `<span>페이지 데이터 ${esc(D.built || "")}</span>`,
+    `<span>페이지 데이터 ${esc(LATEST)}</span>`,
   ].join("");
   $("#hbar").innerHTML = [
     // 사업보고서와 주주총회 소집공고의 조회기간이 다르다 (사용자 지시 2026-11-20 — 한 줄이면 소집공고도 1년치로 오해)
     WIN.length === 2 ? `사업보고서 조회기간 <b>${esc(WIN[0])} ~ ${esc(WIN[1])}</b>` : "",
     Array.isArray((window.DATA_DIV || {}).agm_window) ? `주주총회 소집공고 조회기간 <b>${esc(window.DATA_DIV.agm_window[0])} ~ ${esc(window.DATA_DIV.agm_window[1])}</b>` : "",
     M.as_of ? `소속시장 = KIND ${esc(M.as_of)} 현재` : "",
-    M.generated_at ? `결과 파일 생성 ${esc(String(M.generated_at).replace("T", " ").slice(0, 16))}` : "",
-    `data.js 생성 ${esc(D.built || "")}`,
+    ...STAMPS.map(([k, t]) => `${k} ${esc(t)}`),
   ].filter(Boolean).map((s) => `<span>${s}</span>`).join("");
 
   const notes = [];
@@ -435,7 +438,9 @@
         : stale ? `<span class="evwhy">${stale}${r.basis_unconfirmed ? ' · <b class="bad">KIND 주총 결과로 가결은 확인하지 못함</b>' : ""})</span>`
         : r.basis_unconfirmed ? '<span class="evwhy">(사업보고서 첨부 정관이 이후 주주총회를 통해 변경된 것으로 봄 · <b class="bad">KIND 주총 결과로 가결은 확인하지 못함</b>)</span>'
         : '<span class="evwhy">(사업보고서 첨부 정관이 이후 주주총회를 통해 변경됨)</span>';
-      return `<b class="evt evagm">주주총회 안건</b>${why}<b class="evt">${esc(a.art || "")}</b><span class="evq">${a.after ? `<i class="small">변경 후</i> ${esc(a.after.replace(/ \/ /g, " "))}`
+      // 근거 안건 부칙의 효력 조건 (삼성FN리츠: 국토교통부 변경인가일부터 효력, 사용자 지시 2026-11-20)
+      const cond = r.basis_effect_cond ? `<span class="evwhy"><b class="bad">주의: 부칙 '${esc(r.basis_effect_cond)}' · 기준일까지 인가 여부는 확인하지 않음</b></span>` : "";
+      return `<b class="evt evagm">주주총회 안건</b>${why}${cond}<b class="evt">${esc(a.art || "")}</b><span class="evq">${a.after ? `<i class="small">변경 후</i> ${esc(a.after.replace(/ \/ /g, " "))}`
         : `<i class="small">대비표 원문 (칸 구분 없음)</i> ${esc(String(ev.notices[0].rows[0].l || "").replace(/ \/ /g, " "))}`}</span>`;
     }
     const arts = ev.arts || [];

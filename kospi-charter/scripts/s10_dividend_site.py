@@ -260,6 +260,7 @@ def market_rows(sfx: str, market: str | None) -> dict:
         if r["basis_notice_rcept_no"]:
             src = (e.get("prev") or {}).get("notice") if pv else e.get("notice")
             notices = notice_out(src, r["basis_notice_rcept_no"])
+        effect_cond = effect_condition(notices)
         report = ((e.get("prev") or {}).get("report_section") or {}).get("text") if pv else None
         if r["basis_notice_rcept_no"]:
             ev_url, ev_label = r["basis_notice_url"], "정관의 변경 안건 (DART 소집공고)"
@@ -315,6 +316,7 @@ def market_rows(sfx: str, market: str | None) -> dict:
             "basis_failed": r.get("basis_failed") or [],      # 반영하지 않은 기준일 변경 안건 (부결·미결·기준일 뒤 주총)   # 소집공고 안건대로 바뀐 것으로 보되 KIND 결과로 가결은 확인 못함 (s09c)
             "basis_notice_when": when,       # pre = 사업보고서보다 먼저 접수된 소집공고(그해 정기주총) · post = 제출 뒤 · early = 1~2년 앞선 주총(첨부 정관이 옛 판)
             "basis_stale_charter": bool(r.get("basis_stale_charter")),
+            "basis_effect_cond": effect_cond,          # 근거 안건 부칙의 효력 조건(인가일부터 효력 등) — 기준일까지 충족됐는지는 확인하지 않음
             "ev_url": ev_url, "ev_label": ev_label,
             "basis_article": article, "quotes": r["quotes"] if not (pv and pv.get("output")) else (pv["output"].get("quotes") or []),
             "route": r["route"], "fixed_point": fp,
@@ -336,6 +338,28 @@ def market_rows(sfx: str, market: str | None) -> dict:
             x[c] = nodash(x[c])
     return {"market": market, "sfx": sfx, "rows": rows, "out": out_rows, "absent": absent, "review": review, "agm": agm, "prev": prev,
             "kc": kc, "tg": tg, "skip": set(), "pre": pre}
+
+
+EFFECT_RX = re.compile(r"[^.\n|/]{0,80}인\s*가\s*(?:일|를\s*받\s*은\s*날)\s*(?:로\s*)?부\s*터\s*(?:그\s*)?(?:효\s*력|시\s*행)[^.\n|/]{0,30}")
+
+
+def effect_condition(notices: list[dict]) -> str | None:
+    """근거 소집공고 '정관의 변경' 절의 부칙에 '…인가일부터 효력/시행'이 있으면 그 문장 (삼성FN리츠 제54조 — 국토교통부 변경인가,
+    사용자 지시 2026-11-20 '주의 문구를 붙여 달라'). 기준일까지 인가가 났는지는 확인하지 않으므로 화면에 주의로 보인다."""
+    for n in notices or []:
+        f = ROOT / n["txt"]
+        if f.exists():
+            m = EFFECT_RX.search(f.read_text(encoding="utf-8"))
+            if m:
+                return re.sub(r"\s+", " ", m.group(0)).strip()
+    return None
+
+
+def agm_data_at() -> str:
+    fs = [INTERIM / n for n in ("s06_agm_docs.json", "s09i_targets.json", "s09i_targets_kosdaq.json", "s09j_targets.json",
+                                "s09j_targets_kosdaq.json", "s09e_agm_results.json", "s09e_agm_results_kosdaq.json")]
+    ts = [f.stat().st_mtime for f in fs if f.exists()]
+    return datetime.fromtimestamp(max(ts)).strftime("%Y-%m-%d %H:%M") if ts else ""
 
 
 CHG_COLS = ["date", "label", "base", "market", "stock_code", "corp_name", "tag_before", "tag_after", "basis_before", "basis_after",
@@ -589,6 +613,8 @@ def main():
         "stats": stats, "stats_by_market": by_market,
         # 주주총회 소집공고 조회기간 — 사업보고서 조회기간과 다르다(1~2년 앞선 공고 s09j 부터, 사용자 지시 2026-11-20 '분리해서 기재')
         "agm_window": [f"{EARLY_FROM[:4]}-{EARLY_FROM[4:6]}-{EARLY_FROM[6:]}", AS_OF.isoformat()],
+        # 소집공고 데이터 시각 = 소집공고 수집 · '정관의 변경' 절 · KIND 결과 파일 중 가장 최근 갱신 (사용자 지시 2026-11-20 — 상단 '소집공고 데이터')
+        "agm_data_at": agm_data_at(),
         "links": {"doc": "docs/04-배당기준일태깅.md", "history": ".claude/skills/charter-dividend-record-date/references/regulation-history.md",
                   "guide": ".claude/skills/charter-dividend-record-date/references/tagging-guide.md",
                   "csv": "data/final/charter_dividend_record_date.csv", "csv_kosdaq": "data/final/charter_dividend_record_date_kosdaq.csv",
