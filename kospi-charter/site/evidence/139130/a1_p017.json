@@ -1,15 +1,17 @@
 {
  "box": [
   0,
-  2809,
+  2781,
   2480,
-  3109
+  3149
  ],
  "size": [
   2480,
   3507
  ],
  "how": "lines",
- "n_lines": 35,
- "n_hit": 5
+ "n_lines": 34,
+ "n_hit": 4,
+ "scope": "art",
+ "own_head": true
 }

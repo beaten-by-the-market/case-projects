@@ -3,7 +3,7 @@
   0,
   497,
   1121,
-  557
+  552
  ],
  "size": [
   1121,
@@ -11,5 +11,7 @@
  ],
  "how": "lines",
  "n_lines": 23,
- "n_hit": 1
+ "n_hit": 1,
+ "scope": "art",
+ "own_head": true
 }

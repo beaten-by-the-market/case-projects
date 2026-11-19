@@ -177,7 +177,31 @@ def grams(s: str) -> set[str]:
     return {s[i:i + 3] for i in range(len(s) - 2)}
 
 
-def crop_page(img_path: Path, page_text: str, out: Path, quote_text: str = "") -> dict:
+# 비교에서 뺄 것: 개정·신설 표시와 날짜 — '<개정 2009.07.21.>' 가 앞 조 목록 줄마다 붙어 그 줄이 인용과 맞는 줄로 잡혔고(114090),
+# 쪽 머리표의 '2025.03.31' 이 인용 속 '(2025.03.31 개정)' 과 맞았다(0155E0).
+ANNOT = re.compile(r"[<(\[〈《【〔]\s*[^<>()\[\]〈〉《》【】〔〕]{0,30}?\d{2,4}\s*[.\-]\s*\d{1,2}[^<>()\[\]〈〉《》【】〔〕]{0,40}[>)\]〉》】〕]")
+DATE = re.compile(r"\d{2,4}\s*[.\-]\s*\d{1,2}\s*[.\-]\s*\d{1,2}\.?|개\s*정|신\s*설|삭\s*제|본\s*조")
+ROW_HEAD = re.compile(r"^\W{0,3}(?:제|第|재)\s*(\d{1,3})\s*(?:조|條)(?:\s*의\s*(\d{1,2}))?")
+# 항 · 호 머리: ①~⑳(OCR 이 ㉠~㉭ 등으로 읽기도 한다) · '2.' · '(3)' · '가.' · '제2항'
+PARA = re.compile(r"^\W{0,2}(?:[①-⑳㉠-㉭㉮-㉻]|\(?\d{1,2}\s*[.)]|[가-하]\s*\.|제\s*\d{1,2}\s*항)")
+
+
+def norm_grams(x: str) -> set[str]:
+    return grams(DATE.sub("", ANNOT.sub("", x or "")))
+
+
+def art_no(title: str) -> str:
+    m = HEAD.search(title or "")
+    return f"{m.group(1)}-{m.group(2)}" if m and m.group(2) else (m.group(1) if m else "")
+
+
+def crop_page(img_path: Path, page_text: str, out: Path, quote_text: str = "", own: str = "") -> dict:
+    """쪽 그림에서 잘라 낼 줄 구간.
+    · 비교 대상: 그 쪽에 든 인용 글(없으면 그 쪽의 조 글). 개정·신설 표시와 날짜는 빼고 3글자 조각으로 비교, 줄의 절반 이상이 맞으면 '맞는 줄'.
+    · 범위: 그 조의 머리 줄(own, 예 '45' · '43-2')이 이 쪽에 있으면 거기부터 다음 조 머리 전까지, 없으면(앞 쪽에서 이어짐) 쪽 맨 위부터
+      첫 조 머리 전까지. 그 범위에 맞는 줄이 없으면 쪽 전체에서.
+    · 고르기: 맞는 줄이 이어진 구간(사이에 안 맞는 줄 1개까지) 가운데 비교 글을 가장 많이 덮는 구간 — 줄 수가 아니라.
+      (예전엔 조 전체 글과 맞는 줄 중 가장 길게 이어진 구간이라, 같은 조의 항끼리 경쟁해 넥센 제13조 ①을 두고 ②를 잘랐다.)"""
     from PIL import Image
     import s04b_charter_ocr as O
     g = O.preprocess(img_path)
@@ -185,41 +209,76 @@ def crop_page(img_path: Path, page_text: str, out: Path, quote_text: str = "") -
         W, H = im.size
         scale = g.width / W
         lines = O.recognize(g)
-        # 인용이 이 쪽에 있으면 인용 글과 맞는 줄로(판별에 쓴 항만 — 넥센 제13조 ①을 두고 ②를 자르던 것), 없으면 조 글로
-        target = grams(quote_text) if quote_text.strip() else grams(page_text)
-        gap = 2 if quote_text.strip() else 3
+        quote = bool(quote_text.strip())
+        target = norm_grams(quote_text if quote else page_text)
+        # OCR 줄 조각 → 화면 줄: 높이가 겹치는 조각(왼쪽에 따로 떨어진 항 번호 '2.' 와 본문 등)은 왼쪽부터 이어 한 줄로
+        raw = sorted(((min(w[2] for w in ws) / scale, max(w[2] + w[4] for w in ws) / scale, min(w[1] for w in ws),
+                       "".join(w[0] for w in ws)) for ws in lines), key=lambda r: r[0])
+        hs0 = sorted(r[1] - r[0] for r in raw if r[1] > r[0])
+        med = hs0[len(hs0) // 2] if hs0 else 20
+        vis = []
+        for y0, y1, x0, txt in raw:
+            if vis and abs((y0 + y1) / 2 - (vis[-1][0] + vis[-1][1]) / 2) < 0.5 * med:
+                v = vis[-1]
+                vis[-1] = [min(v[0], y0), max(v[1], y1), v[2] + [(x0, txt)]]
+            else:
+                vis.append([y0, y1, [(x0, txt)]])
         rows = []
-        for ws in lines:
-            txt = "".join(w[0] for w in ws)
-            y0 = min(w[2] for w in ws) / scale
-            y1 = max(w[2] + w[4] for w in ws) / scale
-            gs = grams(txt)
-            hit = len(gs) >= 2 and len(gs & target) / len(gs) >= 0.5
-            rows.append((y0, y1, hit, txt))
-        rows.sort()
-        hits = [i for i, r in enumerate(rows) if r[2]]
-        how = "quote" if quote_text.strip() else "lines"
+        for y0, y1, parts in vis:
+            txt = "".join(t for _, t in sorted(parts))
+            gs = norm_grams(txt)
+            hit = len(gs) >= 3 and len(gs & target) / len(gs) >= 0.5
+            rows.append((y0, y1, hit, txt, gs))
+        heads = []
+        for k, r in enumerate(rows):
+            m = ROW_HEAD.match(r[3])
+            if m:
+                heads.append((k, f"{m.group(1)}-{m.group(2)}" if m.group(2) else m.group(1)))
+        own_k = next((k for k, n in heads if own and n == own), None)
+        if own_k is not None:
+            lo, hi = own_k, next((k for k, _ in heads if k > own_k), len(rows))
+        else:
+            lo, hi = 0, (heads[0][0] if heads and heads[0][0] > 0 else len(rows))
+        art_g = norm_grams(page_text)                    # 이 쪽에 든 조 글 — 항을 넓힐 때 조 밖 줄(쪽 번호 · 얼룩)에서 멈추려고
+        in_art = [len(r[4]) >= 2 and len(r[4] & art_g) / len(r[4]) >= 0.4 for r in rows]
+        hits = [k for k in range(lo, hi) if rows[k][2]]
+        scope = "art"
+        if not hits:
+            hits, scope = [k for k, r in enumerate(rows) if r[2]], "page"
+        how = "quote" if quote else "lines"
         if not hits:
             y0, y1, how = 0, H, "page"
+            n_hit = 0
         else:
-            # 맞는 줄이 가장 많이 이어진 구간 (사이에 안 맞는 줄 2개까지 허용)
-            best, cur = (hits[0], hits[0]), [hits[0], hits[0]]
-            n_best, n_cur = 1, 1
-            for i in hits[1:]:
-                if i - cur[1] <= gap:
-                    cur[1] = i
-                    n_cur += 1
+            runs, cur = [], [hits[0], hits[0]]
+            for k in hits[1:]:
+                if k - cur[1] <= 2:
+                    cur[1] = k
                 else:
-                    cur, n_cur = [i, i], 1
-                if n_cur > n_best:
-                    best, n_best = (cur[0], cur[1]), n_cur
-            if quote_text.strip():               # 인용 구간 안에서 다음 조 머리가 나오면 거기서 끊는다 (대상: 第50조 ②와 같은 문장인 제51조 ②까지 붙던 것)
-                for j in range(best[0] + 1, best[1] + 1):
-                    if re.match(r"(?:제|第)\d{1,3}(?:조|條)", rows[j][3]):
-                        best = (best[0], max(best[0], j - 1))
-                        break
-            y0 = max(0, rows[best[0]][0] - 18)
-            y1 = min(H, rows[best[1]][1] + 18)
+                    runs.append(tuple(cur))
+                    cur = [k, k]
+            runs.append(tuple(cur))
+
+            def cover(rn):
+                u = set()
+                for k in range(rn[0], rn[1] + 1):
+                    if rows[k][2]:
+                        u |= rows[k][4] & target
+                return len(u)
+            best = max(runs, key=lambda rn: (cover(rn), -rn[0]))
+            a, b = best
+            if scope == "art":
+                # 인용 줄 구간을 그 항 전체로: 위로는 항 머리(①·2.) 또는 조 머리까지, 아래로는 다음 항 · 조 머리 전까지(조 밖 줄에서 멈춤)
+                lo_b = lo
+                while a > lo_b and not PARA.match(rows[a][3]) and not ROW_HEAD.match(rows[a][3]) and in_art[a - 1]:
+                    a -= 1
+                while b + 1 < hi and in_art[b + 1] and not PARA.match(rows[b + 1][3]) and not ROW_HEAD.match(rows[b + 1][3]):
+                    b += 1
+            # 자르는 경계: 위 · 아래 줄과의 사이 한가운데 (고정 여백이면 이웃 줄이 반쯤 걸리거나 글자가 잘렸다)
+            y0 = (rows[a - 1][1] + rows[a][0]) / 2 if a > 0 else max(0, rows[a][0] - med)
+            y1 = (rows[b][1] + rows[b + 1][0]) / 2 if b + 1 < len(rows) else min(H, rows[b][1] + med)
+            y0, y1 = max(0, min(y0, rows[a][0] - 2)), min(H, max(y1, rows[b][1] + 2))
+            n_hit = len(hits)
         box = (0, int(y0), W, int(y1))
         c = im.crop(box).convert("RGB")
         if max(c.size) > 1000:
@@ -227,7 +286,8 @@ def crop_page(img_path: Path, page_text: str, out: Path, quote_text: str = "") -
             c = c.resize((max(1, round(c.width * r)), max(1, round(c.height * r))), Image.LANCZOS)
         out.parent.mkdir(parents=True, exist_ok=True)
         c.save(out, "JPEG", quality=75, optimize=True)
-    return {"box": list(box), "size": [W, H], "how": how, "n_lines": len(rows), "n_hit": len(hits)}
+    return {"box": list(box), "size": [W, H], "how": how, "n_lines": len(rows), "n_hit": n_hit, "scope": scope,
+            "own_head": own_k is not None}
 
 
 # ── 한 회사 ─────────────────────────────────────────────────────────────────
@@ -282,7 +342,7 @@ def charter_evidence(code: str, src: str, quotes: list[str], meta: dict | None, 
                 side = out.with_suffix(".json")          # 자르기 정보(줄 단위/쪽 전체·상자) — 다시 돌릴 때 그림과 함께 재사용
                 if not out.exists():
                     try:
-                        cm = crop_page(base / pg["file"], pg["text"], out, qtext)
+                        cm = crop_page(base / pg["file"], pg["text"], out, qtext, art_no(art["title"]))
                         item.update(cm)
                         write_json(side, cm)
                     except Exception as ex:      # OCR 실패 — 쪽 전체 원본 주소만 남긴다

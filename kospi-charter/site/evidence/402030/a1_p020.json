@@ -3,7 +3,7 @@
   0,
   1099,
   1190,
-  1195
+  1304
  ],
  "size": [
   1190,
@@ -11,5 +11,7 @@
  ],
  "how": "quote",
  "n_lines": 24,
- "n_hit": 2
+ "n_hit": 2,
+ "scope": "art",
+ "own_head": true
 }

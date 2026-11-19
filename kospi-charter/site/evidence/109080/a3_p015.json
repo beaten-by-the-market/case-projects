@@ -1,15 +1,17 @@
 {
  "box": [
   0,
-  1536,
+  1542,
   1654,
-  1650
+  1645
  ],
  "size": [
   1654,
   2339
  ],
  "how": "quote",
- "n_lines": 43,
- "n_hit": 3
+ "n_lines": 36,
+ "n_hit": 2,
+ "scope": "art",
+ "own_head": true
 }

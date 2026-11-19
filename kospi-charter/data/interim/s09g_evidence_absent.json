@@ -26,17 +26,19 @@
        "quote": true,
        "box": [
         0,
-        137,
+        150,
         992,
-        218
+        206
        ],
        "size": [
         992,
         1403
        ],
        "how": "quote",
-       "n_lines": 42,
+       "n_lines": 34,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0220W0/a1_p007.jpg"
       }
      ],
@@ -65,17 +67,19 @@
        "quote": true,
        "box": [
         0,
-        627,
+        639,
         992,
-        708
+        711
        ],
        "size": [
         992,
         1403
        ],
        "how": "quote",
-       "n_lines": 44,
-       "n_hit": 4,
+       "n_lines": 33,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0220W0/a2_p014.jpg"
       }
      ],
@@ -264,17 +268,19 @@
        "quote": true,
        "box": [
         0,
-        1130,
+        1095,
         1240,
-        1291
+        1339
        ],
        "size": [
         1240,
         1753
        ],
        "how": "quote",
-       "n_lines": 38,
+       "n_lines": 36,
        "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/345290/a1_p007.jpg"
       }
      ],
@@ -303,17 +309,19 @@
        "quote": true,
        "box": [
         0,
-        369,
+        381,
         1240,
-        459
+        446
        ],
        "size": [
         1240,
         1753
        ],
        "how": "quote",
-       "n_lines": 39,
-       "n_hit": 4,
+       "n_lines": 35,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/345290/a2_p016.jpg"
       }
      ],
@@ -349,17 +357,19 @@
        "quote": true,
        "box": [
         0,
-        1476,
+        1489,
         1191,
-        1569
+        1571
        ],
        "size": [
         1191,
         1684
        ],
        "how": "quote",
-       "n_lines": 39,
+       "n_lines": 37,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/493410/a1_p007.jpg"
       },
       {
@@ -369,17 +379,19 @@
        "quote": false,
        "box": [
         0,
-        166,
+        162,
         1191,
-        575
+        387
        ],
        "size": [
         1191,
         1684
        ],
        "how": "lines",
-       "n_lines": 41,
-       "n_hit": 7,
+       "n_lines": 35,
+       "n_hit": 5,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/493410/a1_p008.jpg"
       }
      ],
@@ -408,9 +420,9 @@
        "quote": true,
        "box": [
         0,
-        270,
+        283,
         1191,
-        365
+        353
        ],
        "size": [
         1191,
@@ -419,6 +431,8 @@
        "how": "quote",
        "n_lines": 29,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/493410/a2_p016.jpg"
       }
      ],
@@ -558,9 +572,9 @@
        "quote": true,
        "box": [
         0,
-        615,
+        622,
         1192,
-        713
+        723
        ],
        "size": [
         1192,
@@ -569,6 +583,8 @@
        "how": "quote",
        "n_lines": 29,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/495910/a1_p008.jpg"
       }
      ],
@@ -597,9 +613,9 @@
        "quote": true,
        "box": [
         0,
-        1424,
+        1431,
         1192,
-        1523
+        1515
        ],
        "size": [
         1192,
@@ -607,7 +623,9 @@
        ],
        "how": "quote",
        "n_lines": 32,
-       "n_hit": 3,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/495910/a2_p016.jpg"
       }
      ],
@@ -643,17 +661,19 @@
        "quote": true,
        "box": [
         0,
-        848,
+        863,
         876,
-        934
+        920
        ],
        "size": [
         876,
         1236
        ],
        "how": "quote",
-       "n_lines": 33,
+       "n_lines": 31,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0147B0/a1_p007.jpg"
       }
      ],
@@ -682,9 +702,9 @@
        "quote": true,
        "box": [
         0,
-        444,
+        459,
         882,
-        530
+        542
        ],
        "size": [
         882,
@@ -693,6 +713,8 @@
        "how": "quote",
        "n_lines": 26,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0147B0/a2_p016.jpg"
       }
      ],
@@ -841,8 +863,10 @@
         3507
        ],
        "how": "page",
-       "n_lines": 4,
+       "n_lines": 2,
        "n_hit": 0,
+       "scope": "page",
+       "own_head": false,
        "crop": "site/evidence/439270/a1_p001.jpg"
       }
      ],
@@ -880,8 +904,10 @@
         3507
        ],
        "how": "page",
-       "n_lines": 4,
+       "n_lines": 2,
        "n_hit": 0,
+       "scope": "page",
+       "own_head": false,
        "crop": "site/evidence/439270/a2_p001.jpg"
       }
      ],
@@ -978,17 +1004,19 @@
        "quote": true,
        "box": [
         0,
-        2456,
+        2448,
         2479,
-        2537
+        2828
        ],
        "size": [
         2479,
         3504
        ],
        "how": "quote",
-       "n_lines": 27,
+       "n_lines": 26,
        "n_hit": 1,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0015M0/a1_p024.jpg"
       }
      ],
@@ -1017,9 +1045,9 @@
        "quote": true,
        "box": [
         0,
-        942,
+        936,
         2479,
-        1121
+        1128
        ],
        "size": [
         2479,
@@ -1028,6 +1056,8 @@
        "how": "quote",
        "n_lines": 25,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0015M0/a2_p026.jpg"
       }
      ],
@@ -1050,17 +1080,19 @@
        "quote": false,
        "box": [
         0,
-        1285,
+        1172,
         2479,
-        1551
+        1467
        ],
        "size": [
         2479,
         3504
        ],
        "how": "lines",
-       "n_lines": 25,
-       "n_hit": 3,
+       "n_lines": 23,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0015M0/a3_p023.jpg"
       }
      ],
@@ -1260,9 +1292,9 @@
        "quote": true,
        "box": [
         0,
-        495,
+        508,
         1190,
-        714
+        770
        ],
        "size": [
         1190,
@@ -1271,6 +1303,8 @@
        "how": "quote",
        "n_lines": 32,
        "n_hit": 6,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/468670/a1_p007.jpg"
       }
      ],
@@ -1299,9 +1333,9 @@
        "quote": true,
        "box": [
         0,
-        451,
+        335,
         1190,
-        534
+        563
        ],
        "size": [
         1190,
@@ -1310,6 +1344,8 @@
        "how": "quote",
        "n_lines": 29,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/468670/a2_p016.jpg"
       }
      ],
@@ -1345,17 +1381,19 @@
        "quote": true,
        "box": [
         0,
-        1452,
+        1344,
         1240,
-        1510
+        1611
        ],
        "size": [
         1240,
         1755
        ],
        "how": "quote",
-       "n_lines": 44,
+       "n_lines": 39,
        "n_hit": 1,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/486510/a1_p010.jpg"
       },
       {
@@ -1365,17 +1403,19 @@
        "quote": false,
        "box": [
         0,
-        90,
+        86,
         1240,
-        378
+        381
        ],
        "size": [
         1240,
         1755
        ],
        "how": "lines",
-       "n_lines": 43,
-       "n_hit": 8,
+       "n_lines": 40,
+       "n_hit": 6,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/486510/a1_p011.jpg"
       }
      ],
@@ -1404,17 +1444,19 @@
        "quote": true,
        "box": [
         0,
-        844,
+        856,
         1240,
-        933
+        934
        ],
        "size": [
         1240,
         1755
        ],
        "how": "quote",
-       "n_lines": 40,
-       "n_hit": 5,
+       "n_lines": 38,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/486510/a2_p017.jpg"
       }
      ],
@@ -1511,9 +1553,9 @@
        "quote": true,
        "box": [
         0,
-        1185,
+        816,
         2370,
-        1551
+        1549
        ],
        "size": [
         2370,
@@ -1522,6 +1564,8 @@
        "how": "quote",
        "n_lines": 27,
        "n_hit": 4,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0010S0/a1_p010.jpg"
       }
      ],
@@ -1550,9 +1594,9 @@
        "quote": true,
        "box": [
         0,
-        1099,
+        1096,
         2634,
-        1281
+        1429
        ],
        "size": [
         2634,
@@ -1560,7 +1604,9 @@
        ],
        "how": "quote",
        "n_lines": 21,
-       "n_hit": 3,
+       "n_hit": 1,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0010S0/a2_p021.jpg"
       }
      ],
@@ -1596,9 +1642,9 @@
        "quote": true,
        "box": [
         0,
-        271,
+        285,
         793,
-        392
+        406
        ],
        "size": [
         793,
@@ -1607,6 +1653,8 @@
        "how": "quote",
        "n_lines": 21,
        "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0161M0/a1_p007.jpg"
       }
      ],
@@ -1635,9 +1683,9 @@
        "quote": true,
        "box": [
         0,
-        798,
+        811,
         793,
-        916
+        926
        ],
        "size": [
         793,
@@ -1646,6 +1694,8 @@
        "how": "quote",
        "n_lines": 35,
        "n_hit": 4,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0161M0/a2_p016.jpg"
       }
      ],
@@ -1674,9 +1724,9 @@
        "quote": true,
        "box": [
         0,
-        123,
+        137,
         793,
-        174
+        206
        ],
        "size": [
         793,
@@ -1685,6 +1735,8 @@
        "how": "quote",
        "n_lines": 30,
        "n_hit": 1,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0161M0/a3_p017.jpg"
       }
      ],
@@ -1720,9 +1772,9 @@
        "quote": true,
        "box": [
         0,
-        487,
+        377,
         604,
-        561
+        687
        ],
        "size": [
         604,
@@ -1731,6 +1783,8 @@
        "how": "quote",
        "n_lines": 27,
        "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/386380/a1_p005.jpg"
       }
      ],
@@ -1759,9 +1813,9 @@
        "quote": true,
        "box": [
         0,
-        666,
+        545,
         618,
-        740
+        776
        ],
        "size": [
         618,
@@ -1770,6 +1824,8 @@
        "how": "quote",
        "n_lines": 26,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/386380/a2_p020.jpg"
       }
      ],
@@ -1891,9 +1947,9 @@
        "quote": true,
        "box": [
         0,
-        919,
+        916,
         1190,
-        977
+        1221
        ],
        "size": [
         1190,
@@ -1902,6 +1958,8 @@
        "how": "quote",
        "n_lines": 34,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/487400/a1_p006.jpg"
       }
      ],
@@ -1935,9 +1993,9 @@
        "quote": true,
        "box": [
         0,
-        887,
+        900,
         1190,
-        1042
+        1030
        ],
        "size": [
         1190,
@@ -1946,6 +2004,8 @@
        "how": "quote",
        "n_lines": 37,
        "n_hit": 6,
+       "scope": "page",
+       "own_head": false,
        "crop": "site/evidence/487400/a2_p013.jpg"
       }
      ],
@@ -1981,17 +2041,19 @@
        "quote": true,
        "box": [
         0,
-        872,
+        879,
         1241,
-        968
+        961
        ],
        "size": [
         1241,
         1755
        ],
        "how": "quote",
-       "n_lines": 49,
-       "n_hit": 2,
+       "n_lines": 34,
+       "n_hit": 1,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/483350/a1_p017.jpg"
       }
      ],
@@ -2014,17 +2076,19 @@
        "quote": false,
        "box": [
         0,
-        859,
+        838,
         1241,
-        960
+        973
        ],
        "size": [
         1241,
         1755
        ],
        "how": "lines",
-       "n_lines": 51,
+       "n_lines": 30,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/483350/a2_p016.jpg"
       }
      ],
@@ -2060,9 +2124,9 @@
        "quote": false,
        "box": [
         0,
-        694,
+        708,
         565,
-        784
+        778
        ],
        "size": [
         565,
@@ -2071,6 +2135,8 @@
        "how": "lines",
        "n_lines": 34,
        "n_hit": 3,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/0218L0/a1_p013.jpg"
       },
       {
@@ -2080,9 +2146,9 @@
        "quote": true,
        "box": [
         0,
-        0,
+        6,
         607,
-        47
+        33
        ],
        "size": [
         607,
@@ -2091,6 +2157,8 @@
        "how": "quote",
        "n_lines": 8,
        "n_hit": 1,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/0218L0/a1_p014.jpg"
       }
      ],
@@ -2113,9 +2181,9 @@
        "quote": false,
        "box": [
         0,
-        653,
+        659,
         589,
-        722
+        719
        ],
        "size": [
         589,
@@ -2124,6 +2192,8 @@
        "how": "lines",
        "n_lines": 28,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0218L0/a2_p012.jpg"
       }
      ],
@@ -2252,17 +2322,19 @@
        "quote": true,
        "box": [
         0,
-        528,
+        423,
         793,
-        607
+        659
        ],
        "size": [
         793,
         1122
        ],
        "how": "quote",
-       "n_lines": 30,
-       "n_hit": 4,
+       "n_lines": 29,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0039P0/a1_p018.jpg"
       }
      ],
@@ -2301,9 +2373,9 @@
        "quote": true,
        "box": [
         0,
-        1407,
+        1335,
         1242,
-        1497
+        1600
        ],
        "size": [
         1242,
@@ -2312,6 +2384,8 @@
        "how": "quote",
        "n_lines": 38,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/153890/a1_p006.jpg"
       },
       {
@@ -2321,9 +2395,9 @@
        "quote": false,
        "box": [
         0,
-        105,
+        102,
         1242,
-        262
+        284
        ],
        "size": [
         1242,
@@ -2331,7 +2405,9 @@
        ],
        "how": "lines",
        "n_lines": 38,
-       "n_hit": 5,
+       "n_hit": 4,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/153890/a1_p007.jpg"
       }
      ],
@@ -2360,9 +2436,9 @@
        "quote": true,
        "box": [
         0,
-        706,
+        717,
         1242,
-        763
+        751
        ],
        "size": [
         1242,
@@ -2371,6 +2447,8 @@
        "how": "quote",
        "n_lines": 32,
        "n_hit": 1,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/153890/a2_p013.jpg"
       }
      ],
@@ -2466,9 +2544,9 @@
        "quote": true,
        "box": [
         0,
-        323,
+        336,
         793,
-        396
+        384
        ],
        "size": [
         793,
@@ -2477,6 +2555,8 @@
        "how": "quote",
        "n_lines": 28,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/477850/a1_p016.jpg"
       }
      ],
@@ -2537,17 +2617,19 @@
        "quote": true,
        "box": [
         0,
-        975,
+        976,
         2480,
-        1140
+        1198
        ],
        "size": [
         2480,
         3507
        ],
        "how": "quote",
-       "n_lines": 36,
+       "n_lines": 28,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0011T0/a1_p020.jpg"
       }
      ],
@@ -2583,17 +2665,19 @@
        "quote": true,
        "box": [
         0,
-        452,
+        390,
         651,
-        503
+        662
        ],
        "size": [
         651,
         922
        ],
        "how": "quote",
-       "n_lines": 30,
+       "n_lines": 27,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0222E0/a1_p004.jpg"
       }
      ],
@@ -2622,7 +2706,7 @@
        "quote": true,
        "box": [
         0,
-        367,
+        379,
         648,
         465
        ],
@@ -2632,7 +2716,9 @@
        ],
        "how": "quote",
        "n_lines": 27,
-       "n_hit": 3,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0222E0/a2_p014.jpg"
       }
      ],
@@ -2668,17 +2754,19 @@
        "quote": true,
        "box": [
         0,
-        215,
+        226,
         793,
-        300
+        305
        ],
        "size": [
         793,
         1121
        ],
        "how": "quote",
-       "n_lines": 25,
-       "n_hit": 4,
+       "n_lines": 24,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0127E0/a1_p015.jpg"
       }
      ],
@@ -2707,17 +2795,19 @@
        "quote": true,
        "box": [
         0,
-        215,
+        383,
         793,
-        300
+        460
        ],
        "size": [
         793,
         1121
        ],
        "how": "quote",
-       "n_lines": 25,
-       "n_hit": 4,
+       "n_lines": 24,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0127E0/a2_p015.jpg"
       }
      ],
@@ -2740,9 +2830,9 @@
        "quote": false,
        "box": [
         0,
-        841,
+        836,
         793,
-        957
+        961
        ],
        "size": [
         793,
@@ -2751,6 +2841,8 @@
        "how": "lines",
        "n_lines": 23,
        "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0127E0/a3_p013.jpg"
       }
      ],
@@ -2786,9 +2878,9 @@
        "quote": true,
        "box": [
         0,
-        519,
+        454,
         632,
-        597
+        770
        ],
        "size": [
         632,
@@ -2797,6 +2889,8 @@
        "how": "quote",
        "n_lines": 27,
        "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0205H0/a1_p004.jpg"
       },
       {
@@ -2806,9 +2900,9 @@
        "quote": false,
        "box": [
         0,
-        0,
+        3,
         622,
-        77
+        78
        ],
        "size": [
         622,
@@ -2817,6 +2911,8 @@
        "how": "lines",
        "n_lines": 26,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/0205H0/a1_p005.jpg"
       }
      ],
@@ -2845,7 +2941,7 @@
        "quote": true,
        "box": [
         0,
-        465,
+        478,
         627,
         569
        ],
@@ -2855,7 +2951,9 @@
        ],
        "how": "quote",
        "n_lines": 25,
-       "n_hit": 5,
+       "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0205H0/a2_p015.jpg"
       }
      ],
@@ -2884,7 +2982,7 @@
        "quote": true,
        "box": [
         0,
-        623,
+        569,
         627,
         700
        ],
@@ -2894,7 +2992,9 @@
        ],
        "how": "quote",
        "n_lines": 25,
-       "n_hit": 3,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0205H0/a3_p015.jpg"
       }
      ],
@@ -2930,9 +3030,9 @@
        "quote": true,
        "box": [
         0,
-        1337,
+        1344,
         1190,
-        1444
+        1461
        ],
        "size": [
         1190,
@@ -2941,6 +3041,8 @@
        "how": "quote",
        "n_lines": 25,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0209J0/a1_p014.jpg"
       }
      ],
@@ -2969,9 +3071,9 @@
        "quote": false,
        "box": [
         0,
-        964,
+        1461,
         1190,
-        1024
+        1545
        ],
        "size": [
         1190,
@@ -2979,7 +3081,9 @@
        ],
        "how": "lines",
        "n_lines": 25,
-       "n_hit": 2,
+       "n_hit": 1,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0209J0/a2_p014.jpg"
       },
       {
@@ -2989,9 +3093,9 @@
        "quote": true,
        "box": [
         0,
-        215,
+        222,
         1190,
-        322
+        349
        ],
        "size": [
         1190,
@@ -3000,6 +3104,8 @@
        "how": "quote",
        "n_lines": 26,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/0209J0/a2_p015.jpg"
       }
      ],
@@ -3022,17 +3128,19 @@
        "quote": false,
        "box": [
         0,
-        871,
+        855,
         1190,
-        1025
+        1042
        ],
        "size": [
         1190,
         1682
        ],
        "how": "lines",
-       "n_lines": 26,
+       "n_lines": 24,
        "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0209J0/a3_p013.jpg"
       }
      ],
@@ -3068,17 +3176,19 @@
        "quote": false,
        "box": [
         0,
-        1310,
+        1295,
         1191,
-        1466
+        1459
        ],
        "size": [
         1191,
         1684
        ],
        "how": "lines",
-       "n_lines": 26,
-       "n_hit": 5,
+       "n_lines": 25,
+       "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0200G0/a1_p004.jpg"
       },
       {
@@ -3088,9 +3198,9 @@
        "quote": true,
        "box": [
         0,
-        197,
+        140,
         1191,
-        309
+        300
        ],
        "size": [
         1191,
@@ -3099,6 +3209,8 @@
        "how": "quote",
        "n_lines": 25,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/0200G0/a1_p005.jpg"
       }
      ],
@@ -3127,9 +3239,9 @@
        "quote": true,
        "box": [
         0,
-        527,
+        535,
         1191,
-        683
+        698
        ],
        "size": [
         1191,
@@ -3137,7 +3249,9 @@
        ],
        "how": "quote",
        "n_lines": 24,
-       "n_hit": 5,
+       "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0200G0/a2_p016.jpg"
       }
      ],
@@ -3166,9 +3280,9 @@
        "quote": true,
        "box": [
         0,
-        574,
+        815,
         1191,
-        683
+        932
        ],
        "size": [
         1191,
@@ -3176,7 +3290,9 @@
        ],
        "how": "quote",
        "n_lines": 24,
-       "n_hit": 4,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0200G0/a3_p016.jpg"
       }
      ],
@@ -3212,7 +3328,7 @@
        "quote": true,
        "box": [
         0,
-        219,
+        121,
         634,
         298
        ],
@@ -3221,8 +3337,10 @@
         880
        ],
        "how": "quote",
-       "n_lines": 27,
-       "n_hit": 4,
+       "n_lines": 26,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0197V0/a1_p015.jpg"
       }
      ],
@@ -3251,17 +3369,19 @@
        "quote": true,
        "box": [
         0,
-        346,
+        360,
         634,
-        424
+        423
        ],
        "size": [
         634,
         880
        ],
        "how": "quote",
-       "n_lines": 27,
-       "n_hit": 3,
+       "n_lines": 26,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0197V0/a2_p015.jpg"
       }
      ],
@@ -3284,9 +3404,9 @@
        "quote": false,
        "box": [
         0,
-        701,
+        700,
         637,
-        802
+        800
        ],
        "size": [
         637,
@@ -3295,6 +3415,8 @@
        "how": "lines",
        "n_lines": 23,
        "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0197V0/a3_p013.jpg"
       }
      ],
@@ -3330,9 +3452,9 @@
        "quote": false,
        "box": [
         0,
-        1311,
+        1295,
         1191,
-        1466
+        1459
        ],
        "size": [
         1191,
@@ -3340,7 +3462,9 @@
        ],
        "how": "lines",
        "n_lines": 25,
-       "n_hit": 5,
+       "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0164H0/a1_p004.jpg"
       },
       {
@@ -3350,9 +3474,9 @@
        "quote": true,
        "box": [
         0,
-        198,
+        144,
         1191,
-        305
+        602
        ],
        "size": [
         1191,
@@ -3361,6 +3485,8 @@
        "how": "quote",
        "n_lines": 25,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/0164H0/a1_p005.jpg"
       }
      ],
@@ -3389,9 +3515,9 @@
        "quote": true,
        "box": [
         0,
-        526,
+        533,
         1191,
-        679
+        696
        ],
        "size": [
         1191,
@@ -3399,7 +3525,9 @@
        ],
        "how": "quote",
        "n_lines": 24,
-       "n_hit": 5,
+       "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0164H0/a2_p016.jpg"
       }
      ],
@@ -3428,9 +3556,9 @@
        "quote": true,
        "box": [
         0,
-        573,
+        814,
         1191,
-        679
+        931
        ],
        "size": [
         1191,
@@ -3438,7 +3566,9 @@
        ],
        "how": "quote",
        "n_lines": 24,
-       "n_hit": 4,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0164H0/a3_p016.jpg"
       }
      ],
@@ -3474,9 +3604,9 @@
        "quote": true,
        "box": [
         0,
-        1069,
+        1073,
         1654,
-        1206
+        1236
        ],
        "size": [
         1654,
@@ -3484,7 +3614,9 @@
        ],
        "how": "quote",
        "n_lines": 24,
-       "n_hit": 4,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0165X0/a1_p016.jpg"
       }
      ],
@@ -3513,9 +3645,9 @@
        "quote": true,
        "box": [
         0,
-        1069,
+        1409,
         1654,
-        1206
+        1559
        ],
        "size": [
         1654,
@@ -3523,7 +3655,9 @@
        ],
        "how": "quote",
        "n_lines": 24,
-       "n_hit": 4,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0165X0/a2_p016.jpg"
       }
      ],
@@ -3546,9 +3680,9 @@
        "quote": false,
        "box": [
         0,
-        225,
+        206,
         1654,
-        425
+        455
        ],
        "size": [
         1654,
@@ -3557,6 +3691,8 @@
        "how": "lines",
        "n_lines": 26,
        "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0165X0/a3_p015.jpg"
       }
      ],
@@ -3617,17 +3753,19 @@
        "quote": true,
        "box": [
         0,
-        1423,
+        1284,
         1241,
-        1486
+        1499
        ],
        "size": [
         1241,
         1755
        ],
        "how": "quote",
-       "n_lines": 28,
+       "n_lines": 25,
        "n_hit": 1,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0129K0/a1_p004.jpg"
       },
       {
@@ -3637,9 +3775,9 @@
        "quote": false,
        "box": [
         0,
-        157,
+        149,
         1241,
-        656
+        674
        ],
        "size": [
         1241,
@@ -3648,6 +3786,8 @@
        "how": "lines",
        "n_lines": 26,
        "n_hit": 10,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/0129K0/a1_p005.jpg"
       }
      ],
@@ -3676,9 +3816,9 @@
        "quote": false,
        "box": [
         0,
-        1424,
+        1407,
         1241,
-        1486
+        1500
        ],
        "size": [
         1241,
@@ -3687,6 +3827,8 @@
        "how": "lines",
        "n_lines": 25,
        "n_hit": 1,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0129K0/a2_p015.jpg"
       },
       {
@@ -3696,9 +3838,9 @@
        "quote": true,
        "box": [
         0,
-        304,
+        311,
         1241,
-        463
+        480
        ],
        "size": [
         1241,
@@ -3706,7 +3848,9 @@
        ],
        "how": "quote",
        "n_lines": 25,
-       "n_hit": 5,
+       "n_hit": 3,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/0129K0/a2_p016.jpg"
       }
      ],
@@ -3735,9 +3879,9 @@
        "quote": true,
        "box": [
         0,
-        352,
+        604,
         1241,
-        463
+        724
        ],
        "size": [
         1241,
@@ -3745,7 +3889,9 @@
        ],
        "how": "quote",
        "n_lines": 25,
-       "n_hit": 4,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0129K0/a3_p016.jpg"
       }
      ],
@@ -3781,17 +3927,19 @@
        "quote": true,
        "box": [
         0,
-        772,
+        605,
         1046,
-        869
+        1113
        ],
        "size": [
         1046,
         1468
        ],
        "how": "quote",
-       "n_lines": 30,
+       "n_lines": 26,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0131D0/a1_p005.jpg"
       }
      ],
@@ -3827,9 +3975,9 @@
        "quote": true,
        "box": [
         0,
-        910,
+        918,
         1012,
-        1007
+        1292
        ],
        "size": [
         1012,
@@ -3838,6 +3986,8 @@
        "how": "quote",
        "n_lines": 26,
        "n_hit": 3,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0130D0/a1_p004.jpg"
       },
       {
@@ -3847,17 +3997,19 @@
        "quote": false,
        "box": [
         0,
-        108,
+        104,
         1004,
-        207
+        218
        ],
        "size": [
         1004,
         1426
        ],
        "how": "lines",
-       "n_lines": 26,
+       "n_lines": 25,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/0130D0/a1_p005.jpg"
       }
      ],
@@ -3886,9 +4038,9 @@
        "quote": false,
        "box": [
         0,
-        1192,
+        1181,
         1012,
-        1291
+        1295
        ],
        "size": [
         1012,
@@ -3897,6 +4049,8 @@
        "how": "lines",
        "n_lines": 26,
        "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0130D0/a2_p014.jpg"
       },
       {
@@ -3906,17 +4060,19 @@
        "quote": true,
        "box": [
         0,
-        180,
+        95,
         998,
-        318
+        329
        ],
        "size": [
         998,
         1414
        ],
        "how": "quote",
-       "n_lines": 26,
-       "n_hit": 5,
+       "n_lines": 25,
+       "n_hit": 3,
+       "scope": "art",
+       "own_head": false,
        "crop": "site/evidence/0130D0/a2_p015.jpg"
       }
      ],
@@ -3945,17 +4101,19 @@
        "quote": true,
        "box": [
         0,
-        220,
+        430,
         998,
-        318
+        530
        ],
        "size": [
         998,
         1414
        ],
        "how": "quote",
-       "n_lines": 26,
-       "n_hit": 4,
+       "n_lines": 25,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
        "crop": "site/evidence/0130D0/a3_p015.jpg"
       }
      ],
