@@ -277,6 +277,10 @@ def market_rows(sfx: str, market: str | None) -> dict:
                 if n["rcept_no"] == r["basis_notice_rcept_no"] and no:
                     note = no.get("note") or note
                     interim, quarterly = no.get("interim_after") or interim, no.get("quarterly_after") or quarterly
+        elif r.get("basis_stale_charter"):                     # s09j — 첨부 정관이 1~2년 앞선 주총 개정 전 옛 판
+            note = r.get("early_agm_note") or note
+            interim = r.get("early_agm_interim_after") or interim
+            quarterly = r.get("early_agm_quarterly_after") or quarterly
         elif r["basis_notice_rcept_no"] and r["basis_notice_rcept_no"] in ((pre.get(code) or {}).get("rcept_nos") or []):
             po2 = pre[code]["output"]
             note = po2.get("note") or note
@@ -293,7 +297,7 @@ def market_rows(sfx: str, market: str | None) -> dict:
         st = settle_of(code, r["sec_group"], r["settle_month"], now)
         fp = (pv["output"].get("fixed_point") if pv and pv.get("output") else r["fixed_point"] if r["tag_current"] == r["tag"] else None)
         base_m = st["settle_month_now"] if st["settle_changed"] else (int(r["settle_month"]) if r["settle_month"] else None)
-        when = (None if not r["basis_notice_rcept_no"] else
+        when = (None if not r["basis_notice_rcept_no"] else "early" if r.get("basis_stale_charter") else
                 "pre" if r["basis_notice_rcept_no"] in ((pre.get(code) or {}).get("rcept_nos") or []) else "post")
         out_rows.append({
             "market": market or r.get("market"),
@@ -308,7 +312,8 @@ def market_rows(sfx: str, market: str | None) -> dict:
             "basis_note": r["basis_note"],
             "basis_unconfirmed": bool(r.get("basis_unconfirmed")),
             "basis_failed": r.get("basis_failed") or [],      # 반영하지 않은 기준일 변경 안건 (부결·미결·기준일 뒤 주총)   # 소집공고 안건대로 바뀐 것으로 보되 KIND 결과로 가결은 확인 못함 (s09c)
-            "basis_notice_when": when,       # pre = 사업보고서보다 먼저 접수된 소집공고(그해 정기주총) · post = 제출 뒤
+            "basis_notice_when": when,       # pre = 사업보고서보다 먼저 접수된 소집공고(그해 정기주총) · post = 제출 뒤 · early = 1~2년 앞선 주총(첨부 정관이 옛 판)
+            "basis_stale_charter": bool(r.get("basis_stale_charter")),
             "ev_url": ev_url, "ev_label": ev_label,
             "basis_article": article, "quotes": r["quotes"] if not (pv and pv.get("output")) else (pv["output"].get("quotes") or []),
             "route": r["route"], "fixed_point": fp,
@@ -332,10 +337,30 @@ def market_rows(sfx: str, market: str | None) -> dict:
             "kc": kc, "tg": tg, "skip": set(), "pre": pre}
 
 
+CHG_COLS = ["date", "label", "base", "market", "stock_code", "corp_name", "tag_before", "tag_after", "basis_before", "basis_after",
+            "filed", "filed_cmp_before", "filed_cmp_after", "kind", "text", "notice_url", "notice_rcept_no", "result_url", "result_acptno", "agm_date"]
+
+
+def changes_table() -> dict:
+    """data/final/dividend_changes.json (s10c) → 표. 기록이 없으면 빈 표."""
+    f = FINAL / "dividend_changes.json"
+    log = read_json(f) if f.exists() else []
+    for e in log:
+        e["text"] = ocr_word(nodash(e.get("text") or ""))
+    log = sorted(sorted(log, key=lambda e: (e["market"] != "코스피", e["stock_code"])), key=lambda e: e["date"], reverse=True)  # 최근 반영 먼저
+    return {"cols": CHG_COLS, "rows": [[e.get(c) for c in CHG_COLS] for e in log],
+            "file": "dividend_changes.json", "updated": max((e["date"] for e in log), default="")}
+
+
 def agm_changed_note(add, x: dict) -> None:
     """소집공고 안건으로 지금 태그가 바뀐 회사 — 사업보고서보다 먼저 접수된 공고(그해 정기주총)인지 제출 뒤인지 나눈다."""
-    res = f"KIND {x['basis_result_title']}({x['basis_agm_date'] or '날짜 없음'})에서 가결됐다 → {x['tag_current']}."
-    if x.get("basis_notice_when") == "pre":
+    res = (f"KIND {x['basis_result_title']}({x['basis_agm_date'] or '날짜 없음'})에서 가결됐다 → {x['tag_current']}."
+           if not x.get("basis_unconfirmed") else f"KIND 주주총회결과로 가결은 확인하지 못했지만 안건대로 바뀐 것으로 본다 → {x['tag_current']}.")
+    if x.get("basis_notice_when") == "early":
+        add("첨부 정관이 옛 판 (1~2년 앞선 주총에서 이미 바뀜)", x["stock_code"],
+            f"사업보고서에 붙은 정관은 {x['basis_agm_date'] or ''} 주총 개정 전 옛 판이라 {x['tag']}. 그 주총 소집공고 {x['basis_notice_rcept_no']} 의 "
+            f"'정관의 변경' 안건이 결산배당 기준일을 바꿨고 {res}", 2)
+    elif x.get("basis_notice_when") == "pre":
         add("정기주총에서 바뀜 (사업보고서보다 먼저 접수된 소집공고)", x["stock_code"],
             f"사업보고서 첨부 정관은 주총 전 판이라 {x['tag']}. 사업보고서보다 먼저 접수된 소집공고 {x['basis_notice_rcept_no']} 의 '정관의 변경' 안건이 "
             f"결산배당 기준일을 바꿨고 {res}", 2)
@@ -557,6 +582,8 @@ def main():
                          "file": "charter_dividend_record_date.json", "updated": datetime.now().strftime("%Y-%m-%d %H:%M")},
             "dividend_notes": {"cols": ncols, "rows": [[x[c] for c in ncols] for x in sorted(notes, key=lambda n: (n["market"] != "코스피", n["order"], n["stock_code"] or ""))],
                                "file": "s10 특이사항", "updated": datetime.now().strftime("%Y-%m-%d %H:%M")},
+            # 배포한 판 대비 판정이 바뀐 회사 (s10c, 사용자 지시 2026-11-19 — 배포 뒤 변화 관리). 웹페이지 '변경 이력' 탭
+            "dividend_changes": changes_table(),
         },
         "stats": stats, "stats_by_market": by_market,
         "links": {"doc": "docs/04-배당기준일태깅.md", "history": ".claude/skills/charter-dividend-record-date/references/regulation-history.md",

@@ -479,6 +479,7 @@ def main():
     tg = {t["stock_code"]: t for t in read_json(paths(a.sfx)["targets"])}     # agm_charter_amend_txt 는 대상 표에
     after = {r["stock_code"]: r for r in read_results(interim_of(a.sfx, "s09d_after_agm.jsonl")).values() if r.get("output")}
     pre = {r["stock_code"]: r for r in read_results(interim_of(a.sfx, "s09i_pre_agm.jsonl")).values() if r.get("output")}
+    early = {r["stock_code"]: r for r in read_results(interim_of(a.sfx, "s09j_early_agm.jsonl")).values() if r.get("output")}
     pf = interim_of(a.sfx, "s09f_prev.json")
     prev = read_json(pf) if pf.exists() else {}
     old = read_json(OUT_F) if OUT_F.exists() else {}
@@ -502,6 +503,12 @@ def main():
                     if p.parent.name.split("_", 1)[-1] in pre[code]["rcept_nos"]]
             nv = notice_evidence({"agm_charter_amend_txt": [p.relative_to(ROOT).as_posix() for p in txts]},
                                  pre[code]["output"].get("quotes_after") or [])
+            ev["notice"] = {"tables": ((ev.get("notice") or {}).get("tables") or []) + nv["tables"]}
+        eo = (early.get(code) or {}).get("output") or {}
+        if eo.get("changes_record_date") and eo.get("applied_rcept_no"):   # s09j — 첨부 정관이 1~2년 앞선 주총 개정 전 옛 판
+            txts = [p for p in (ROOT / "data").glob(f"agm{'_' + a.sfx if a.sfx else ''}_early/{code}_*/*/정관의변경.txt")
+                    if p.parent.name.split("_", 1)[-1] == eo["applied_rcept_no"]]
+            nv = notice_evidence({"agm_charter_amend_txt": [p.relative_to(ROOT).as_posix() for p in txts]}, eo.get("quotes_after") or [])
             ev["notice"] = {"tables": ((ev.get("notice") or {}).get("tables") or []) + nv["tables"]}
         if code in prev and prev[code].get("quotes"):
             pv = prev[code]

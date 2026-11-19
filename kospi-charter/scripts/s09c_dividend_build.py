@@ -148,7 +148,8 @@ def by_quote(rcs: list[str], quotes: list[str]) -> list[str]:
     return sorted(rcs, key=lambda rc: (not has(rc), rc))
 
 
-def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict | None, pre: dict | None = None) -> dict:
+def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict | None, pre: dict | None = None,
+                  early: dict | None = None) -> dict:
     """지금 유효한 태그와 그 근거 (사용자 지시 2026-11-16 — 웹페이지 '분류근거의 종류').
 
     · 기본: 사업보고서 첨부 정관 (`tag`)
@@ -161,6 +162,7 @@ def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict 
            "basis_notice_rcept_no": None, "basis_notice_url": None, "basis_result_acptno": None, "basis_result_url": None,
            "basis_result_title": None, "basis_agm_date": None, "basis_prev_report_nm": None, "basis_note": None,
            "basis_unconfirmed": False,       # True = 소집공고 안건대로 바뀐 것으로 보되 KIND 결과로 가결은 확인하지 못함
+           "basis_stale_charter": False,     # True = 첨부 정관이 1~2년 앞선 주총 개정 전 옛 판이라 그 주총 안건(s09j)이 근거
            "basis_failed": []}               # 기준일을 바꾸는 안건인데 부결·미결이거나 주총이 기준일 뒤라 반영하지 않은 소집공고 (웹페이지 라벨)
 
     def failed(rc: str, res: dict, word: str, day: str | None) -> None:
@@ -187,7 +189,9 @@ def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict 
             if "가결 아닌 것" in note:
                 out["basis_note"] = f"소집공고 {rc} 안건은 기준일을 바꾸지만 KIND 결과에 가결이 아닌 정관 안건이 있어 반영하지 않음 ({note})"
                 rs = {r.get("result") or "" for r in (res.get("dividend_rows") or res.get("charter_rows") or [])}
-                failed(rc, res, "부결" if any("부결" in x for x in rs) else "미결" if any("미결" in x for x in rs) else "가결 아님", day)
+                # 결과 글에서 판별한 건(표 없음)은 행에 결과 글자가 없다 — 판별 메모의 '부결' · '미결'을 쓴다 (푸른로보틱스 · 웨이브일렉트로 2026-11-19)
+                failed(rc, res, "부결" if any("부결" in x for x in rs) or "부결" in note else
+                       "미결" if any("미결" in x for x in rs) or "미결" in note else "가결 아님", day)
                 return False
             if not day or day > AS_OF.isoformat():
                 out["basis_note"] = (f"소집공고 {rc} 안건은 기준일을 바꾸지만 주총({day or '날짜 모름'})이 기준일({AS_OF}) 뒤라 반영하지 않음")
@@ -228,9 +232,19 @@ def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict 
                 out.update(tag_current=po.get("tag"), basis_kind="사업보고서 본문",
                            basis_note="사업보고서 본문 '배당관련 예측가능성' 표로 판별")
         return out
+    # s09j — 사업보고서보다 1~2년 앞선 소집공고 안건인데 첨부 정관이 그 개정 전 옛 판(한세엠케이 · 한국쉘석유 · 아주스틸 — 2026-11-19).
+    # 시간 순서대로 첨부 정관 → 이 안건 → s09i(그해 정기주총) → s09d(제출 뒤) 로 덮는다
+    eo = (early or {}).get("output") or {}
+    if eo.get("changes_record_date") and eo.get("tag_after") and eo.get("applied_rcept_no") and eo["tag_after"] != out["tag_current"]:
+        for assume in (False, True):
+            if use_notice(eo["applied_rcept_no"], eo["tag_after"],
+                          "사업보고서 첨부 정관이 1~2년 앞선 주총 개정 전 옛 판 — 그 주총 소집공고 안건", assume):
+                out["basis_stale_charter"] = True
+                break
     # 사업보고서보다 먼저 접수된 소집공고(s09i — 그해 정기주총) 안건: 첨부 정관은 주총 전 판이라 가결되면 그 뒤 태그
+    # (s09j 가 태그를 바꿨으면 그 뒤 태그와 견준다)
     po = (pre or {}).get("output") or {}
-    if po.get("changes_record_date") and po.get("tag_after") and po.get("tag_after") != tag:
+    if po.get("changes_record_date") and po.get("tag_after") and po.get("tag_after") != out["tag_current"]:
         rcs = by_quote(sorted((pre or {}).get("rcept_nos") or []), po.get("quotes_after") or [])
         for assume in (False, True):
             if any(use_notice(rc, po["tag_after"], "사업보고서보다 먼저 접수된 소집공고 안건(첨부 정관은 주총 전 판)", assume) for rc in rcs):
@@ -242,6 +256,8 @@ def current_basis(t: dict, tag: str, o: dict, ag: dict, agm_res: dict, pv: dict 
                 break
     if out["basis_notice_rcept_no"]:          # 다른 공고 안건이 반영됐으면 그것이 근거 — 반영 못 한 공고 라벨은 달지 않는다
         out["basis_failed"] = []
+    if out["basis_stale_charter"] and eo.get("applied_rcept_no") != out["basis_notice_rcept_no"]:
+        out["basis_stale_charter"] = False    # 그 뒤 공고(s09i · s09d)가 근거가 됐다
     return out
 
 
@@ -263,6 +279,7 @@ def main():
     after_f = P["results"].with_name(P["results"].name.replace("s09b_results", "s09d_after_agm"))
     after = {r["stock_code"]: r for r in read_results(after_f).values() if r.get("output")}
     pre_m = {r["stock_code"]: r for r in read_results(INTERIM_OF(P, "s09i_pre_agm.jsonl")).values() if r.get("output")}
+    early_m = {r["stock_code"]: r for r in read_results(INTERIM_OF(P, "s09j_early_agm.jsonl")).values() if r.get("output")}
     agm_f, prev_f = INTERIM_OF(P, "s09e_agm_results.json"), INTERIM_OF(P, "s09f_prev.json")
     agm_res = read_json(agm_f) if agm_f.exists() else {}
     prev = read_json(prev_f) if prev_f.exists() else {}
@@ -307,7 +324,9 @@ def main():
                 why.append("안건 인용 불일치")
         final_tag = (rv or {}).get("tag") or llm_tag
         pre = pre_m.get(code)
-        cur = current_basis(t, final_tag, o, ag, agm_res, prev.get(code), pre)
+        early = early_m.get(code)
+        eo = (early or {}).get("output") or {}
+        cur = current_basis(t, final_tag, o, ag, agm_res, prev.get(code), pre, early)
         rows.append({
             "stock_code": code, "corp_name": t["corp_name"], "corp_code": t["corp_code"], "market": t["market"],
             "sec_group": t["sec_group"], "settle_month": t["settle_month"], "fiscal_year": t["fiscal_year"],
@@ -337,6 +356,15 @@ def main():
             "pre_agm_tag_after": ((pre or {}).get("output") or {}).get("tag_after") if pre else None,
             "pre_agm_quotes_after": ((pre or {}).get("output") or {}).get("quotes_after") or [] if pre else [],
             "pre_agm_note": ((pre or {}).get("output") or {}).get("note") if pre else None,
+            # s09j — 1~2년 앞선 소집공고의 '정관의 변경' 안건 (첨부 정관이 그 개정 전 옛 판인가)
+            "early_agm_rcept_nos": (early or {}).get("rcept_nos") or [],
+            "early_agm_amends_record_date": eo.get("changes_record_date") if early else None,
+            "early_agm_tag_after": eo.get("tag_after") if early else None,
+            "early_agm_applied_rcept_no": eo.get("applied_rcept_no") or None,
+            "early_agm_quotes_after": eo.get("quotes_after") or [],
+            "early_agm_interim_after": eo.get("interim_after") if early else None,
+            "early_agm_quarterly_after": eo.get("quarterly_after") if early else None,
+            "early_agm_note": eo.get("note") if early else None,
             **cur,
             "excerpt_chars": e["excerpt_chars"], "full_chars": e["full_chars"],
             "llm_model": (r or {}).get("model"), "prompt_sha256": (r or {}).get("prompt_sha256"),

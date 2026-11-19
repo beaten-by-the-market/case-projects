@@ -33,6 +33,23 @@
   "model": "claude-opus-5-5",
   "at": "2026-11-17T17:53:33"
  },
+ "20250225002171": {
+  "charter_rows": [
+   "제3호 의안"
+  ],
+  "dividend_rows": [
+   "제3호 의안"
+  ],
+  "passed": true,
+  "confidence": "높음",
+  "why": "소집공고 제3호 의안 '정관 일부 변경의 건'(대비표 제51조 ② 이익배당 기준일 · 제52조 분기배당 기준일)이 결과 글의 '③ 제3호 의안 : 정관 일부 변경의 건 ▶원안대로 가결'에 해당한다(세부 안건 없음). 가결.",
+  "result_acptno": "20250326001865",
+  "stock_code": "136480",
+  "corp_name": "하림",
+  "runner": "claude-code-subagent",
+  "model": "claude-opus-5-5",
+  "at": "2026-11-19T19:11:23"
+ },
  "20250307000772": {
   "charter_rows": [
    "제6호 의안",
@@ -52,6 +69,59 @@
   "runner": "claude-code-subagent",
   "model": "claude-opus-5-5",
   "at": "2026-11-17T17:53:33"
+ },
+ "20250312000095": {
+  "charter_rows": [
+   "제6호 의안"
+  ],
+  "dividend_rows": [
+   "제6호 의안"
+  ],
+  "passed": false,
+  "confidence": "높음",
+  "why": "소집공고 제6호 의안 '정관 변경의 건'(대비표 제55조 ③ 이사회 결의 배당기준일 등)이 결과 글의 '제6호 의안: 정관변경의 건 (의결정족수 미달로 부결)'에 해당한다. 부결.",
+  "result_acptno": "20250327001870",
+  "stock_code": "094940",
+  "corp_name": "푸른로보틱스",
+  "runner": "claude-code-subagent",
+  "model": "claude-opus-5-5",
+  "at": "2026-11-19T19:11:23"
+ },
+ "20250312000576": {
+  "charter_rows": [
+   "제2호 의안"
+  ],
+  "dividend_rows": [
+   "제2호 의안"
+  ],
+  "passed": false,
+  "confidence": "높음",
+  "why": "소집공고 제2호 의안 '정관 일부 변경의 건'(대비표 제50조 ③ 이사회결의 배당기준일 신설)이 결과 글의 '제2호 의안: 정관 일부 변경의 건 ->의결정족수 부족으로 부결'에 해당한다. 부결.",
+  "result_acptno": "20250327000488",
+  "stock_code": "095270",
+  "corp_name": "웨이브일렉트로",
+  "runner": "claude-code-subagent",
+  "model": "claude-opus-5-5",
+  "at": "2026-11-19T19:11:23"
+ },
+ "20250313000762": {
+  "charter_rows": [
+   "제2호",
+   "제2-1호",
+   "제2-2호"
+  ],
+  "dividend_rows": [
+   "제2-1호"
+  ],
+  "passed": true,
+  "confidence": "높음",
+  "why": "소집공고 '정관 일부 개정의 건' 중 제54조 ③ 결산배당 기준일 변경은 결과 글의 '제2-1호 이익배당(결산배당) 기준일 조항 변경 →원안대로 가결'이다(제2-2호 분기배당도 가결). 가결.",
+  "result_acptno": "20250328000083",
+  "stock_code": "440320",
+  "corp_name": "오픈놀",
+  "runner": "claude-code-subagent",
+  "model": "claude-opus-5-5",
+  "at": "2026-11-19T19:11:23"
  },
  "20260105000376": {
   "charter_rows": [

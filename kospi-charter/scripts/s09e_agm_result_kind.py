@@ -72,7 +72,7 @@ def notice_text(rc: str) -> str | None:
     import zipfile
     from _common import ROOT
     raw = None
-    for d in ("opendart_doc_pre", "opendart_doc_prev"):
+    for d in ("opendart_doc_pre", "opendart_doc_prev", "opendart_doc_early"):     # early = s09j (1~2년 앞선 공고)
         z = RAW / d / f"{rc}.zip"
         if z.exists():
             try:
@@ -266,6 +266,13 @@ def targets(sfx: str = "") -> list[dict]:
             for rc in r["rcept_nos"]:
                 out.setdefault(rc, {"stock_code": r["stock_code"], "corp_name": r["corp_name"], "notice_rcept_no": rc,
                                     "notice_dt": rc[:8], "from": "s09i"})
+    # s09j — 1~2년 앞선 소집공고 중 첨부 정관이 반영하지 못한 기준일 개정의 공고(applied_rcept_no)만 (2026-11-19)
+    for r in read_results(interim_of(sfx, "s09j_early_agm.jsonl")).values():
+        o = r.get("output") or {}
+        rc = o.get("applied_rcept_no")
+        if o.get("changes_record_date") and rc:
+            out.setdefault(rc, {"stock_code": r["stock_code"], "corp_name": r["corp_name"], "notice_rcept_no": rc,
+                                "notice_dt": rc[:8], "from": "s09j"})
     pf = interim_of(sfx, "s09f_prev.json")
     prev = read_json(pf) if pf.exists() else {}
     for code, rec in prev.items():

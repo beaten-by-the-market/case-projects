@@ -73,7 +73,7 @@
   const TAG_YN = { 정관no: "N", 정관yes: "Y", 정관yesorno: "YorN" };
   const TL = (t) => TAG_YN[t] || t || "";
   const tagWords = (x) => (typeof x === "string" ? x.replace(/정관(yesorno|yes|no)/g, (w) => `정관 ${TAG_YN[w]}`) : x);
-  for (const [name, keys] of [["dividend", ["note", "attached_note", "reviewed_why", "agm_note", "basis_note"]], ["dividend_notes", ["text", "kind"]]])
+  for (const [name, keys] of [["dividend", ["note", "attached_note", "reviewed_why", "agm_note", "basis_note"]], ["dividend_notes", ["text", "kind"]], ["dividend_changes", ["text"]]])
     for (const r of rowsOf(name)) for (const k of keys) r[k] = tagWords(r[k]);
   const has = (n, col) => !!T[n] && T[n].cols.includes(col);
   const M = D.manifest || {};
@@ -427,7 +427,10 @@
     if (ev.notices && ev.notices.length && ev.notices[0].rows.length) {
       const a = amendRow(ev.notices[0].rows[0]);
       // 주총 안건으로 정한 행: 굵은 크림슨 '주주총회 안건' + 작은 글씨 까닭 (사용자 지시 2026-11-17, 정관 칸에는 태그만)
+      // 첨부 정관이 1~2년 앞선 주총 개정 전 옛 판(s09j, 2026-11-19 — 한세엠케이 · 한국쉘석유)
+      const stale = r.basis_stale_charter ? `(사업보고서 첨부 정관은 ${esc((r.basis_agm_date || "").slice(0, 7).replace("-", "."))} 주주총회 개정 전 옛 판 · 그 주주총회 안건으로 이미 변경됨` : "";
       const why = r.tag === "확인필요" ? altWhy(r, "주주총회 안건으로 정함")
+        : stale ? `<span class="evwhy">${stale}${r.basis_unconfirmed ? ' · <b class="bad">KIND 주총 결과로 가결은 확인하지 못함</b>' : ""})</span>`
         : r.basis_unconfirmed ? '<span class="evwhy">(사업보고서 첨부 정관이 이후 주주총회를 통해 변경된 것으로 봄 · <b class="bad">KIND 주총 결과로 가결은 확인하지 못함</b>)</span>'
         : '<span class="evwhy">(사업보고서 첨부 정관이 이후 주주총회를 통해 변경됨)</span>';
       return `<b class="evt evagm">주주총회 안건</b>${why}<b class="evt">${esc(a.art || "")}</b><span class="evq">${a.after ? `<i class="small">변경 후</i> ${esc(a.after.replace(/ \/ /g, " "))}`
@@ -639,6 +642,8 @@
   }
   const F_CG = SEL("cg", "확인그룹", "_cg", { order: ["1", "2", "3", "4", "5", CG_NONE], fmt: (v) => (v === CG_NONE ? "- (코스피 아님)" : `${v}그룹`) });
 
+  const CHG_KEYS = new Set(rowsOf("dividend_changes").map((n) => `${n.market}|${n.stock_code}`));   // 배포 뒤 판정이 바뀐 회사 (s10c)
+
   /* ---------- 탭 ---------- */
   const TABS = [
     {
@@ -657,7 +662,8 @@
           SEL("interim", "중간배당", "interim", { order: ["고정", "이사회결정", "혼합", "없음", "확인필요"] }), F_CG],
         [SEL("basis_kind", "근거 종류", "basis_kind", { order: Object.keys(BKC) }), SEL("sec_group", "증권구분", "sec_group"),
           CHK("changed", "첨부 정관 대비", "지금 태그가 다른 회사", (r) => !!r.changed, ["changed"], "제출 뒤 주총에서 바뀌었거나 대체 자료로 정한 회사"),
-          CHK("qfix", "분기배당", "결산 N · 분기 고정", (r) => r.tag_current === "정관no" && r.quarterly === "고정", ["quarterly"], "결산배당은 이사회가 정하는데 분기배당은 고정")],
+          CHK("qfix", "분기배당", "결산 N · 분기 고정", (r) => r.tag_current === "정관no" && r.quarterly === "고정", ["quarterly"], "결산배당은 이사회가 정하는데 분기배당은 고정"),
+          CHK("chg", "변경 이력", "배포 뒤 바뀐 회사", (r) => CHG_KEYS.has(`${r.market}|${r.stock_code}`), ["stock_code"], "이미 배포한 판과 견주어 판정이 바뀐 회사 ('변경 이력' 탭)")],
       ],
       sort: ["market", 1],
       cols: [
@@ -704,6 +710,31 @@
         { k: "text", t: "내용", c: "wrap" },
       ],
       detail: (n) => { const r = rowsOf("dividend").find((x) => x.stock_code === n.stock_code && (!n.market || x.market === n.market)); return r ? detailDiv(r) : { title: n.corp_name || "", sub: n.kind, html: `<p>${esc(n.text)}</p>` }; },
+    },
+    {
+      // 배포한 판 대비 판정이 바뀐 회사 (s10c → dividend_changes, 사용자 지시 2026-11-19 — 배포 뒤 변화 관리)
+      id: "divchg", label: "변경 이력", table: "dividend_changes", title: "배당기준일 변경 이력 (배포 뒤 판정이 바뀐 회사)",
+      badge: rowsOf("dividend_changes").length ? `${fmtN(rowsOf("dividend_changes").length)}건` : "",
+      tip: "이미 배포한 판과 견주어 정관 태그 · 근거 · 신고 대조가 바뀐 회사",
+      desc: "이미 배포한 페이지와 견주어 판정이 바뀐 회사를 반영일마다 모았다. '이전'은 바로 앞 배포본의 값, '지금'은 이 페이지의 값이다. " +
+        "2026-11-19 반영: 2024 · 2025년 주주총회 소집공고와 KIND 주주총회결과를 더 모아, 사업보고서(2025 결산)에 그 주총 개정 전의 옛 정관을 붙여 둔 회사를 찾아 바로잡았다. " +
+        "1~2년 앞선 안건은 대개 첨부 정관에 이미 반영돼 있어서, 안건의 '변경 전' · '변경 후' 문구를 첨부 정관과 대조해 옛 판일 때만 바꿨다. 행을 누르면 그 회사의 근거가 열린다.",
+      filters: [[Q("회사명·종목코드"), SEL("market", "시장", "market", { order: MKT }), SEL("date", "반영일", "date"), SEL("kind", "까닭", "kind")]],
+      sort: ["date", -1],
+      cols: [
+        C_NO, { k: "date", t: "반영일", c: "c mono", raw: true },
+        { k: "market", t: "시장", c: "c", h: (n) => mk(n.market) },
+        C_CODE, { k: "corp_name", t: "회사명", c: "nm" },
+        { k: "tag_before", t: "이전", c: "c", title: "바로 앞 배포본의 정관 태그", h: (n) => (n.tag_before ? dtag(n.tag_before) : NA) },
+        { k: "tag_after", t: "지금", c: "c", title: "이 페이지의 정관 태그", h: (n) => (n.tag_after ? dtag(n.tag_after) : NA) },
+        { k: "filed_cmp_after", t: "신고 대조", c: "c", title: "상장공시시스템 신고와의 대조: 이전 → 지금",
+          h: (n) => (n.filed ? `${ftag(n.filed)}<br><span class="small">${esc(n.filed_cmp_before || "-")} → ${n.filed_cmp_after === "불일치" ? `<b class="bad">불일치</b>` : esc(n.filed_cmp_after || "-")}</span>` : NA) },
+        { k: "kind", t: "까닭", c: "nm" },
+        { k: "text", t: "내용", c: "wrap" },
+        { k: "notice_url", t: "근거 공시", title: "그 주총의 소집공고 (DART) · 주주총회결과 (KIND)",
+          h: (n) => [n.notice_url ? ext(n.notice_url, `소집공고 ${ymd(dateOfRno(n.notice_rcept_no))}`, "DART 주주총회소집공고") : "", n.result_url ? ext(n.result_url, `결과공시 ${esc(n.agm_date || "")}`) : ""].filter(Boolean).join("<br>") || NA },
+      ],
+      detail: (n) => { const r = rowsOf("dividend").find((x) => x.stock_code === n.stock_code && x.market === n.market); return r ? detailDiv(r) : { title: n.corp_name || "", sub: n.kind, html: `<p>${esc(n.text)}</p>` }; },
     },
     {
       id: "list", label: "근거문서", table: "reports", csv: "charter_sources", title: "근거문서 · 정관",

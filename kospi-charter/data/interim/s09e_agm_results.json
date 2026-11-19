@@ -13127,7 +13127,7 @@
   "notice_rcept_no": "20260311003507",
   "notice_dt": "20260311",
   "from": "s09i",
-  "fetched_at": "2026-11-17T18:47:46",
+  "fetched_at": "2026-11-19T18:14:11",
   "result_acptno": null,
   "passed": null,
   "note": "공고 뒤 80일 안에 KIND 주주총회결과 공시 없음"
@@ -18983,5 +18983,115 @@
   "ambiguous": false,
   "basis_box": null,
   "judged_by": "제목"
+ },
+ "20250311000547": {
+  "stock_code": "069640",
+  "corp_name": "한세엠케이",
+  "notice_rcept_no": "20250311000547",
+  "notice_dt": "20250311",
+  "from": "s09j",
+  "fetched_at": "2026-11-19T18:14:13",
+  "meeting_day": "2025-03-26",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20250326002130",
+    "title": "정기주주총회결과",
+    "time": "2025-03-26 16:57",
+    "meeting_day": "2025-03-26",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20250326002130",
+  "result_title": "정기주주총회결과",
+  "result_time": "2025-03-26 16:57",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250326002130",
+  "agm_date": "2025-03-26",
+  "vote_record_date": null,
+  "rows": [],
+  "charter_rows": [
+   {
+    "no": "제2호 의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "dividend_rows": [
+   {
+    "no": "제2호 의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "by_dividend_row": true,
+  "passed": true,
+  "note": "서브에이전트 판별: 배당기준일 안건 제2호 의안 가결 — 소집공고 제2호 의안 '정관 일부 변경의 건'(세부 안건 없음, 대비표 제52조 ② 이사회 결의 배당기준일 신설)이 결과 글의 '제2호 의안 : 정관 일부 변경의 건 => 원안대로 승인'에 해당한다. 가결.",
+  "ambiguous": false,
+  "basis_box": null,
+  "judged_by": "서브에이전트"
+ },
+ "20250313000571": {
+  "stock_code": "002960",
+  "corp_name": "한국쉘석유",
+  "notice_rcept_no": "20250313000571",
+  "notice_dt": "20250313",
+  "from": "s09j",
+  "fetched_at": "2026-11-19T18:14:19",
+  "meeting_day": "2025-03-28",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20250328001311",
+    "title": "정기주주총회결과",
+    "time": "2025-03-28 14:09",
+    "meeting_day": "2025-03-28",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20250328001311",
+  "result_title": "정기주주총회결과",
+  "result_time": "2025-03-28 14:09",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250328001311",
+  "agm_date": "2025-03-28",
+  "vote_record_date": null,
+  "rows": [],
+  "charter_rows": [
+   {
+    "no": "제5호의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   },
+   {
+    "no": "제5-1호의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   },
+   {
+    "no": "제5-2호의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "dividend_rows": [
+   {
+    "no": "제5-2호의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "by_dividend_row": true,
+  "passed": true,
+  "note": "서브에이전트 판별: 배당기준일 안건 제5-2호의안 가결 — 소집공고 제5호 의안 '정관 일부 변경의 건' 중 기준일 조항(제40조 ② 이사회 결의 배당기준일)은 제5-2호 의안 '제40조(이익배당금) 및 제40조의2(중간배당) 변경의 건'에 들었고, 결과 글에서 제5-2호의안이 '원안대로 승인'이다. 가결.",
+  "ambiguous": false,
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n이익배당(결산배당) 기준일\n12-31\n-",
+  "judged_by": "서브에이전트"
  }
 }

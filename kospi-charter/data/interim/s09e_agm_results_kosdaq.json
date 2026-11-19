@@ -1615,10 +1615,60 @@
   "notice_rcept_no": "20261103000169",
   "notice_dt": "20261103",
   "from": "s09d",
-  "fetched_at": "2026-11-17T18:52:32",
-  "result_acptno": null,
-  "passed": null,
-  "note": "공고 뒤 80일 안에 KIND 주주총회결과 공시 없음"
+  "fetched_at": "2026-11-19T19:09:11",
+  "meeting_day": "2026-11-18",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20261118000130",
+    "title": "임시주주총회결과",
+    "time": "2026-11-18 13:26",
+    "meeting_day": "2026-11-18",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20261118000130",
+  "result_title": "임시주주총회결과",
+  "result_time": "2026-11-18 13:26",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20261118000130",
+  "agm_date": "2026-11-18",
+  "vote_record_date": "2026-10-15",
+  "rows": [
+   {
+    "no": "1",
+    "kind": "특별결의",
+    "item": "정관일부변경의 건",
+    "result": "가결"
+   },
+   {
+    "no": "2",
+    "kind": "보통결의",
+    "item": "사내이사 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "3",
+    "kind": "보통결의",
+    "item": "독립이사(사외이사) 선임의 건",
+    "result": "가결"
+   }
+  ],
+  "charter_rows": [
+   {
+    "no": "1",
+    "kind": "특별결의",
+    "item": "정관일부변경의 건",
+    "result": "가결"
+   }
+  ],
+  "dividend_rows": [],
+  "by_dividend_row": false,
+  "passed": true,
+  "note": "정관 안건 모두 가결",
+  "ambiguous": false,
+  "basis_box": null,
+  "judged_by": "제목"
  },
  "20260318001710": {
   "stock_code": "011560",
@@ -40456,5 +40506,213 @@
   "ambiguous": false,
   "basis_box": null,
   "judged_by": "제목"
+ },
+ "20250225002171": {
+  "stock_code": "136480",
+  "corp_name": "하림",
+  "notice_rcept_no": "20250225002171",
+  "notice_dt": "20250225",
+  "from": "s09j",
+  "fetched_at": "2026-11-19T19:09:17",
+  "meeting_day": "2025-03-26",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20250326001865",
+    "title": "정기주주총회결과",
+    "time": "2025-03-26 16:52",
+    "meeting_day": "2025-03-26",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20250326001865",
+  "result_title": "정기주주총회결과",
+  "result_time": "2025-03-26 16:52",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250326001865",
+  "agm_date": "2025-03-26",
+  "vote_record_date": null,
+  "rows": [],
+  "charter_rows": [
+   {
+    "no": "제3호 의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "dividend_rows": [
+   {
+    "no": "제3호 의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "by_dividend_row": true,
+  "passed": true,
+  "note": "서브에이전트 판별: 배당기준일 안건 제3호 의안 가결 — 소집공고 제3호 의안 '정관 일부 변경의 건'(대비표 제51조 ② 이익배당 기준일 · 제52조 분기배당 기준일)이 결과 글의 '③ 제3호 의안 : 정관 일부 변경의 건 ▶원안대로 가결'에 해당한다(세부 안건 없음). 가결.",
+  "ambiguous": false,
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역\n정기주주총회 소집을 위한 권리주주 확정 기준일\n이익배당(결산배당) 기준일\n12-31\n-",
+  "judged_by": "서브에이전트"
+ },
+ "20250312000095": {
+  "stock_code": "094940",
+  "corp_name": "푸른로보틱스",
+  "notice_rcept_no": "20250312000095",
+  "notice_dt": "20250312",
+  "from": "s09j",
+  "fetched_at": "2026-11-19T19:09:23",
+  "meeting_day": "2025-03-27",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20250327001870",
+    "title": "정기주주총회결과",
+    "time": "2025-03-27 17:59",
+    "meeting_day": "2025-03-27",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20250327001870",
+  "result_title": "정기주주총회결과",
+  "result_time": "2025-03-27 17:59",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250327001870",
+  "agm_date": "2025-03-27",
+  "vote_record_date": null,
+  "rows": [],
+  "charter_rows": [
+   {
+    "no": "제6호 의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "dividend_rows": [
+   {
+    "no": "제6호 의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "by_dividend_row": true,
+  "passed": null,
+  "note": "판정 안건 중 가결 아닌 것 있음 — 서브에이전트 판별: 소집공고 제6호 의안 '정관 변경의 건'(대비표 제55조 ③ 이사회 결의 배당기준일 등)이 결과 글의 '제6호 의안: 정관변경의 건 (의결정족수 미달로 부결)'에 해당한다. 부결.",
+  "ambiguous": false,
+  "basis_box": null,
+  "judged_by": "서브에이전트"
+ },
+ "20250313000762": {
+  "stock_code": "440320",
+  "corp_name": "오픈놀",
+  "notice_rcept_no": "20250313000762",
+  "notice_dt": "20250313",
+  "from": "s09j",
+  "fetched_at": "2026-11-19T19:09:29",
+  "meeting_day": "2025-03-28",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20250328000083",
+    "title": "정기주주총회결과",
+    "time": "2025-03-28 09:33",
+    "meeting_day": "2025-03-28",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20250328000083",
+  "result_title": "정기주주총회결과",
+  "result_time": "2025-03-28 09:33",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250328000083",
+  "agm_date": "2025-03-28",
+  "vote_record_date": null,
+  "rows": [],
+  "charter_rows": [
+   {
+    "no": "제2호",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   },
+   {
+    "no": "제2-1호",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   },
+   {
+    "no": "제2-2호",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "dividend_rows": [
+   {
+    "no": "제2-1호",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "by_dividend_row": true,
+  "passed": true,
+  "note": "서브에이전트 판별: 배당기준일 안건 제2-1호 가결 — 소집공고 '정관 일부 개정의 건' 중 제54조 ③ 결산배당 기준일 변경은 결과 글의 '제2-1호 이익배당(결산배당) 기준일 조항 변경 →원안대로 가결'이다(제2-2호 분기배당도 가결). 가결.",
+  "ambiguous": false,
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역\n정기주주총회 소집을 위한 권리주주 확정 기준일\n이익배당(결산배당) 기준일\n12-31\n-",
+  "judged_by": "서브에이전트"
+ },
+ "20250312000576": {
+  "stock_code": "095270",
+  "corp_name": "웨이브일렉트로",
+  "notice_rcept_no": "20250312000576",
+  "notice_dt": "20250312",
+  "from": "s09j",
+  "fetched_at": "2026-11-19T19:09:34",
+  "meeting_day": "2025-03-27",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20250327000488",
+    "title": "정기주주총회결과",
+    "time": "2025-03-27 13:32",
+    "meeting_day": "2025-03-27",
+    "charter_rows": 0
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20250327000488",
+  "result_title": "정기주주총회결과",
+  "result_time": "2025-03-27 13:32",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250327000488",
+  "agm_date": "2025-03-27",
+  "vote_record_date": null,
+  "rows": [],
+  "charter_rows": [
+   {
+    "no": "제2호 의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "dividend_rows": [
+   {
+    "no": "제2호 의안",
+    "kind": "",
+    "item": "(결과 글에서 읽음)",
+    "result": ""
+   }
+  ],
+  "by_dividend_row": true,
+  "passed": null,
+  "note": "판정 안건 중 가결 아닌 것 있음 — 서브에이전트 판별: 소집공고 제2호 의안 '정관 일부 변경의 건'(대비표 제50조 ③ 이사회결의 배당기준일 신설)이 결과 글의 '제2호 의안: 정관 일부 변경의 건 ->의결정족수 부족으로 부결'에 해당한다. 부결.",
+  "ambiguous": false,
+  "basis_box": null,
+  "judged_by": "서브에이전트"
  }
 }
