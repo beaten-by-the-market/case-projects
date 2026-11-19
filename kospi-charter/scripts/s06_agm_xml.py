@@ -160,6 +160,10 @@ def text_fallback(root):
     if not FB_HEAD.search(" ".join(tx[start:end])):
         return None
     sec = etree.Element("SECTION-FALLBACK")
+    # 대비표가 들어 있던 서식 항목 = 시작 블록 앞의 가장 가까운 제목 (변경 이력 '까닭' — 회사가 어느 항목에 적었나, 2026-11-20)
+    prev = next((b for b in reversed(bl[:start + 1]) if b.tag.upper() == "TITLE"), None)
+    sec.set("WHERE_CODE", (prev.get("AASSOCNOTE") or "") if prev is not None else "")
+    sec.set("WHERE_TITLE", el_text(prev).replace("\n", " ").strip() if prev is not None else "")
     for b in bl[start:end]:
         sec.append(copy.deepcopy(b))
     return sec

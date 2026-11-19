@@ -32,6 +32,32 @@ KIND = {"early": "첨부 정관이 옛 판 (1~2년 앞선 주총에서 이미 �
         "post": "사업보고서 제출 뒤 주총 안건"}
 
 
+def filing_fault(rc: str | None) -> str | None:
+    """근거 공고의 '정관의 변경' 절을 서식 코드 · 제목이 아니라 글로 찾았으면(s06 text_fallback) 회사가 어디에 적었는지.
+    사용자 지시(2026-11-20): 이 페이지를 쓰는 사람이 Claude 판단을 믿지 않으니, 회사 공시가 서식과 다르게 적힌 사실을 노골적으로 적는다."""
+    if not rc:
+        return None
+    import zipfile
+    import s06_agm_xml as A
+    fs = [p for d in ("opendart_doc_pre", "opendart_doc_early", "opendart_doc_prev") for p in [ROOT / "data/raw" / d / f"{rc}.zip"] if p.exists()]
+    fs += sorted((ROOT / "data").glob(f"agm*/*/*_{rc}/{rc}.xml"))
+    if not fs:
+        return None
+    f = fs[0]
+    if f.suffix == ".zip":
+        with zipfile.ZipFile(f) as z:
+            raw = z.read(sorted(z.namelist(), key=len)[0])
+    else:
+        raw = f.read_bytes()
+    secs, how = A.find_sections(A.parse(raw)[0])
+    if how != "text" or not secs:
+        return None
+    code, title = secs[0].get("WHERE_CODE") or "", (secs[0].get("WHERE_TITLE") or "").lstrip("□■ ").strip()
+    if code.startswith("L0-0-2-") and title:
+        return f"회사 공시 오류: 정관 변경을 '{title}' 항목에 기재"
+    return "회사 공시 오류: 정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재"
+
+
 def rows_of(js: str) -> dict[tuple[str, str], dict]:
     d = json.loads(js[js.index("{"):js.rindex("}") + 1])
     t = d["tables"]["dividend"]
@@ -59,7 +85,8 @@ def main() -> None:
                     "corp_name": x["corp_name"], "tag_before": o["tag_current"], "tag_after": x["tag_current"],
                     "basis_before": o["basis_kind"], "basis_after": x["basis_kind"], "filed": x.get("filed"),
                     "filed_cmp_before": o.get("filed_cmp"), "filed_cmp_after": x.get("filed_cmp"),
-                    "kind": KIND.get(x.get("basis_notice_when") or "", "근거 바뀜") if o["tag_current"] != x["tag_current"] else "근거만 바뀜",
+                    "kind": (filing_fault(x.get("basis_notice_rcept_no")) or KIND.get(x.get("basis_notice_when") or "", "근거 바뀜"))
+                            if o["tag_current"] != x["tag_current"] else "근거만 바뀜",
                     "text": x.get("note") or x.get("basis_note") or "",
                     "notice_url": x.get("basis_notice_url"), "notice_rcept_no": x.get("basis_notice_rcept_no"),
                     "result_url": x.get("basis_result_url"), "result_acptno": x.get("basis_result_acptno"), "agm_date": x.get("basis_agm_date")})
