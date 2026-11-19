@@ -27,8 +27,9 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _common import FINAL, INTERIM, ROOT, read_json  # noqa: E402
+from _common import AS_OF, FINAL, INTERIM, ROOT, read_json  # noqa: E402
 from s09a_dividend_excerpt import interim_of, paths  # noqa: E402
+from s09j_early_agm import EARLY_FROM  # noqa: E402
 
 OUT = ROOT / "site" / "dividend.js"
 TAGS = ["정관no", "정관yesorno", "정관yes", "확인필요"]
@@ -586,6 +587,8 @@ def main():
             "dividend_changes": changes_table(),
         },
         "stats": stats, "stats_by_market": by_market,
+        # 주주총회 소집공고 조회기간 — 사업보고서 조회기간과 다르다(1~2년 앞선 공고 s09j 부터, 사용자 지시 2026-11-20 '분리해서 기재')
+        "agm_window": [f"{EARLY_FROM[:4]}-{EARLY_FROM[4:6]}-{EARLY_FROM[6:]}", AS_OF.isoformat()],
         "links": {"doc": "docs/04-배당기준일태깅.md", "history": ".claude/skills/charter-dividend-record-date/references/regulation-history.md",
                   "guide": ".claude/skills/charter-dividend-record-date/references/tagging-guide.md",
                   "csv": "data/final/charter_dividend_record_date.csv", "csv_kosdaq": "data/final/charter_dividend_record_date_kosdaq.csv",

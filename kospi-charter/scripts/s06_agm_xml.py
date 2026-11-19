@@ -6,6 +6,7 @@
      ① 코드: TITLE@AASSOCNOTE="L0-0-2-2-0" (증권발행공시규정 제3-15조③ 2호 — agm-comparison/docs/01-DART코드정리.md)
      ② 코드가 없으면: '목적사항별 기재사항' 제목 뒤에 나오는 TITLE 중 글자가 '정관의 변경'(□·띄어쓰기·'일부' 허용)인 것
      절 = 그 TITLE 의 부모 SECTION 요소 전체
+     ③ 둘 다 없으면 글로 — '정관의 변경' 제목을 일반 글로 적어 다른 절 안에 들어간 경우 · 본문 끝 별첨 대비표 (text_fallback, 2026-11-19)
 3) 저장 — 같은 폴더에
      정관의변경.txt   절 텍스트 (문단 한 줄, 표는 행마다 ' | ', DART 줄바꿈 &cr; → 줄바꿈)
      meta.json        출처·파일 목록(sha256)·주총 구분(정기/임시)·정관변경 절 유무·찾은 방법·글자 수
@@ -104,7 +105,64 @@ def find_sections(root) -> tuple[list, str]:
             continue
         if after and TITLE_RX.match(txt):
             hits.append(t.getparent())
-    return hits, ("title" if hits else "")
+    if hits:
+        return hits, "title"
+    fb = text_fallback(root)
+    return ([fb], "text") if fb is not None else ([], "")
+
+
+# ③ 코드 · 제목이 없으면 글로 (2026-11-19, 사용자 질문 "정관 변경을 다른 태그 · 기타에 넣은 곳은 없나") — '□ 정관의 변경' 제목을 TITLE 이
+#    아닌 글로 적어 '재무제표의 승인' 절 안에 들어가 있거나(대동금속 · 나인앤컴퍼니 · 모티브링크 · 팜스빌 · LB세미콘), 공고 본문 끝에 별첨 대비표로
+#    붙인 경우(이오테크닉스). 시작: DART 표준 문구 '가. 집중투표 배제를 위한 정관의 변경' · '그 외의 정관변경에 관한 건', 또는 '정관 (일부) 변경의 건'
+#    바로 뒤(블록 3개 안)에 대비표 머리(현행 · 변경전). 끝: 다음 안건 머리(□ … · 다른 L0-0-2-* 제목 · 의안 : …) · 'IV. 사업보고서' · '※ 참고사항'.
+#    그 사이 원문 블록(문단 · 표)을 모은 가짜 절을 돌려줘 section_text 가 표를 ' | ' 로 펴게 한다. 조 머리(제N조)가 없으면 버린다.
+FB_START1 = re.compile(r"집\s*중\s*투\s*표\s*배\s*제\s*를\s*위\s*한\s*정\s*관|그\s*외\s*의\s*정\s*관\s*변\s*경\s*에\s*관\s*한\s*건")
+FB_START2 = re.compile(r"정\s*관\s*(?:의\s*)?(?:일\s*부\s*)?(?:변\s*경|개\s*정)\s*(?:의\s*)?(?:건|안)")
+FB_TABLE = re.compile(r"현\s*행|변\s*경\s*전")
+FB_END = re.compile(r"^\s*[□■]\s*(?!\s*(?:제\s*\d+\s*호\s*의\s*안\s*[:：]?\s*)?정\s*관)|^\s*(?:IV|Ⅳ)\s*\.\s*사\s*업\s*보\s*고\s*서|^\s*※\s*참\s*고\s*사\s*항|"
+                    r"^\s*(?:제\s*\d+\s*(?:-\s*\d+\s*)?호\s*)?의\s*안\s*[:：](?!\s*정\s*관)|^\s*\[\s*제\s*\d+\s*호\s*의\s*안\s*\](?!\s*정\s*관)")
+FB_HEAD = re.compile(r"(?:제|第)\s*\d{1,3}\s*(?:조|條)")
+
+
+def _blocks(root) -> list:
+    """원문 블록(문단 · 표 · 제목) — 표나 문단 안에 든 것은 빼고 문서 순서대로."""
+    out = []
+    for el in root.iter():
+        if not isinstance(el.tag, str) or el.tag.upper() not in ("P", "TABLE", "TITLE"):
+            continue
+        if any(isinstance(a.tag, str) and a.tag.upper() in ("TABLE", "P") for a in el.iterancestors()):
+            continue
+        out.append(el)
+    return out
+
+
+def text_fallback(root):
+    import copy
+    bl = _blocks(root)
+    tx = [el_text(b).replace("\n", " ") for b in bl]
+    i0 = next((k for k, t in enumerate(tx) if "목적사항별" in t and "기재사항" in t), 0)
+    start = None
+    for lo in (i0, 0):                       # 목적사항 뒤 먼저, 없으면(본문 끝 별첨) 처음부터
+        for k in range(lo, len(bl)):
+            if FB_START1.search(tx[k]) or (FB_START2.search(tx[k]) and FB_TABLE.search(" ".join(tx[k:k + 4]))):
+                start = k
+                break
+        if start is not None:
+            break
+    if start is None:
+        return None
+    end = len(bl)
+    for k in range(start + 1, min(len(bl), start + 600)):
+        code = bl[k].get("AASSOCNOTE") or "" if bl[k].tag.upper() == "TITLE" else ""
+        if FB_END.search(tx[k]) or (code.startswith("L0-0-2-") and code != CODE) or code.startswith("D-4"):
+            end = k
+            break
+    if not FB_HEAD.search(" ".join(tx[start:end])):
+        return None
+    sec = etree.Element("SECTION-FALLBACK")
+    for b in bl[start:end]:
+        sec.append(copy.deepcopy(b))
+    return sec
 
 
 _KIND_TITLE = re.compile(r"소집\s*공고\s*\(([^)]{0,30}?)(정기|임시|종류)")   # 주주총회 소집공고 (제10기 임시주주총회)·(임시)

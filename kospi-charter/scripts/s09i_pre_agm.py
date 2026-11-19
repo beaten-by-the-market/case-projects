@@ -83,7 +83,7 @@ def targets(sfx: str) -> list[dict]:
     return out
 
 
-def fetch(sfx: str) -> None:
+def fetch(sfx: str, reparse: bool = False) -> None:
     import s06_agm_xml as A
     A.AGM = agm_root(sfx)
     tf = X.interim_of(sfx, "s09i_targets.json")
@@ -100,7 +100,7 @@ def fetch(sfx: str) -> None:
             if not raw_f.exists():
                 raw_f.write_bytes(od.get(DOC_URL, params=dict(crtfc_key=key, rcept_no=n["rcept_no"])).content)
                 n_req += 1
-            if not txt_f.exists() and not n.get("no_section"):
+            if not txt_f.exists() and (reparse or not n.get("no_section")):   # reparse: 절 찾기 규칙을 고친 뒤 다시 읽기(원문은 캐시)
                 try:
                     with zipfile.ZipFile(io.BytesIO(raw_f.read_bytes())) as z:
                         name = sorted(z.namelist(), key=len)[0]
@@ -154,13 +154,18 @@ def pack(sfx: str, chars: int) -> None:
     items = []
     for t in hit_targets(sfx):
         code = t["stock_code"]
-        if done.get(f"b_{code}", {}).get("output"):
-            continue
+        rcs = [Path(p).parent.name.split("_", 1)[-1] for p in t["amend_hits"]]
+        dj = done.get(f"b_{code}") or {}
+        if dj.get("output") and sorted(dj.get("rcept_nos") or []) == sorted(rcs):
+            continue                                     # 걸린 공고가 달라졌으면(절 찾기 규칙 보완 등) 다시 판별
         base = dict(D.base_of(res, code))
         if code in review:                               # 서식 판정·사람 검토로 바꾼 태그를 첨부 정관 태그로 보인다
             base["tag"] = review[code]["tag"]
         u = D.user_text(t, ex[code], base).replace("<정관의 변경 안건 · 소집공고", "<정관의 변경 안건 (사업보고서보다 먼저 접수) · 소집공고")
-        (d / "in" / f"{code}.txt").write_text(L.wrap_long(u), encoding="utf-8")
+        fi, w = d / "in" / f"{code}.txt", L.wrap_long(u)
+        if fi.exists() and fi.read_text(encoding="utf-8") != w:
+            (d / "out" / f"{code}.json").unlink(missing_ok=True)       # 입력이 바뀌었다 — 다시 판별
+        fi.write_text(w, encoding="utf-8")
         items.append({"code": code, "name": t["corp_name"], "chars": len(u), "base_tag": base.get("tag"),
                       "rcept_nos": [Path(p).parent.name.split("_", 1)[-1] for p in t["amend_hits"]]})
     packets, cur, n = [], [], 0
@@ -189,7 +194,8 @@ def ingest(sfx: str) -> None:
     for pid, pk in man["packets"].items():
         for it in pk:
             code = it["code"]
-            if done.get(f"b_{code}", {}).get("output"):
+            dj = done.get(f"b_{code}") or {}
+            if dj.get("output") and sorted(dj.get("rcept_nos") or []) == sorted(it["rcept_nos"]):
                 continue
             f = d / "out" / f"{code}.json"
             if not f.exists():
@@ -217,11 +223,12 @@ if __name__ == "__main__":
     ap.add_argument("cmd", choices=["targets", "fetch", "pack", "ingest"])
     ap.add_argument("--sfx", default="")
     ap.add_argument("--chars", type=int, default=100_000)
+    ap.add_argument("--reparse", action="store_true", help="fetch: '정관의 변경' 절 없음으로 표시한 공고도 캐시 원문으로 다시 읽기")
     a = ap.parse_args()
     if a.cmd == "targets":
         targets(a.sfx)
     elif a.cmd == "fetch":
-        fetch(a.sfx)
+        fetch(a.sfx, a.reparse)
     elif a.cmd == "pack":
         pack(a.sfx, a.chars)
     else:

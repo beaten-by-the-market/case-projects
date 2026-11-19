@@ -90,7 +90,7 @@ def targets(sfx: str) -> list[dict]:
     return out
 
 
-def fetch(sfx: str) -> None:
+def fetch(sfx: str, reparse: bool = False) -> None:
     import s06_agm_xml as A
     A.AGM = agm_root(sfx)
     tf = tfile(sfx)
@@ -121,7 +121,7 @@ def fetch(sfx: str) -> None:
                     n.pop("no_section", None)
                     continue
                 raw_f.write_bytes(body)
-            if not txt_f.exists() and not n.get("no_section"):
+            if not txt_f.exists() and (reparse or not n.get("no_section")):   # reparse: 절 찾기 규칙을 고친 뒤 다시 읽기(원문은 캐시)
                 try:
                     with zipfile.ZipFile(io.BytesIO(raw_f.read_bytes())) as z:
                         name = sorted(z.namelist(), key=len)[0]
@@ -359,7 +359,8 @@ if __name__ == "__main__":
     ap.add_argument("--codes", default="", help="pack 에서 이 회사만 (표본 시험)")
     ap.add_argument("--complete", action="store_true", help="pack 에서 공고 원문을 다 받은 회사만 (수집 중 먼저 판별)")
     ap.add_argument("--no-rule", action="store_true", help="pack 에서 규칙 거르기 없이 모두 서브에이전트로")
+    ap.add_argument("--reparse", action="store_true", help="fetch: '정관의 변경' 절 없음으로 표시한 공고도 캐시 원문으로 다시 읽기")
     a = ap.parse_args()
     only = {c.strip() for c in a.codes.split(",") if c.strip()}
-    {"list": lambda: cmd_list(), "targets": lambda: targets(a.sfx), "fetch": lambda: fetch(a.sfx),
+    {"list": lambda: cmd_list(), "targets": lambda: targets(a.sfx), "fetch": lambda: fetch(a.sfx, a.reparse),
      "pack": lambda: pack(a.sfx, a.chars, only, a.complete, not a.no_rule), "ingest": lambda: ingest(a.sfx)}[a.cmd]()

@@ -169,7 +169,9 @@
     `<span>페이지 데이터 ${esc(D.built || "")}</span>`,
   ].join("");
   $("#hbar").innerHTML = [
-    WIN.length === 2 ? `조회기간 <b>${esc(WIN[0])} ~ ${esc(WIN[1])}</b>` : "",
+    // 사업보고서와 주주총회 소집공고의 조회기간이 다르다 (사용자 지시 2026-11-20 — 한 줄이면 소집공고도 1년치로 오해)
+    WIN.length === 2 ? `사업보고서 조회기간 <b>${esc(WIN[0])} ~ ${esc(WIN[1])}</b>` : "",
+    Array.isArray((window.DATA_DIV || {}).agm_window) ? `주주총회 소집공고 조회기간 <b>${esc(window.DATA_DIV.agm_window[0])} ~ ${esc(window.DATA_DIV.agm_window[1])}</b>` : "",
     M.as_of ? `소속시장 = KIND ${esc(M.as_of)} 현재` : "",
     M.generated_at ? `결과 파일 생성 ${esc(String(M.generated_at).replace("T", " ").slice(0, 16))}` : "",
     `data.js 생성 ${esc(D.built || "")}`,
@@ -718,11 +720,13 @@
       tip: "이미 배포한 판과 견주어 정관 태그 · 근거 · 신고 대조가 바뀐 회사",
       desc: "이미 배포한 페이지와 견주어 판정이 바뀐 회사를 반영일마다 모았다. '이전'은 바로 앞 배포본의 값, '지금'은 이 페이지의 값이다. " +
         "2026-11-19 반영: 2024 · 2025년 주주총회 소집공고와 KIND 주주총회결과를 더 모아, 사업보고서(2025 결산)에 그 주총 개정 전의 옛 정관을 붙여 둔 회사를 찾아 바로잡았다. " +
-        "1~2년 앞선 안건은 대개 첨부 정관에 이미 반영돼 있어서, 안건의 '변경 전' · '변경 후' 문구를 첨부 정관과 대조해 옛 판일 때만 바꿨다. 행을 누르면 그 회사의 근거가 열린다.",
+        "1~2년 앞선 안건은 대개 첨부 정관에 이미 반영돼 있어서, 안건의 '변경 전' · '변경 후' 문구를 첨부 정관과 대조해 옛 판일 때만 바꿨다. " +
+        "2026-11-20 반영: 소집공고에 '정관의 변경'을 서식 절이 아닌 다른 절 안 글이나 본문 끝 별첨으로 적은 경우를 찾도록 절 추출을 보완해, 놓쳤던 2026년 정기주총 안건(KIND 가결)을 반영했다. 행을 누르면 그 회사의 근거가 열린다.",
       filters: [[Q("회사명·종목코드"), SEL("market", "시장", "market", { order: MKT }), SEL("date", "반영일", "date"), SEL("kind", "까닭", "kind")]],
       sort: ["date", -1],
       cols: [
-        C_NO, { k: "date", t: "반영일", c: "c mono", raw: true },
+        C_NO, { k: "date", t: "반영일", c: "c", raw: true, title: "반영일과 이번 반영의 이름",
+          h: (n) => `<span class="mono">${esc(n.date)}</span>${n.label ? `<br><span class="small">${esc(n.label)}</span>` : ""}` },
         { k: "market", t: "시장", c: "c", h: (n) => mk(n.market) },
         C_CODE, { k: "corp_name", t: "회사명", c: "nm" },
         { k: "tag_before", t: "이전", c: "c", title: "바로 앞 배포본의 정관 태그", h: (n) => (n.tag_before ? dtag(n.tag_before) : NA) },

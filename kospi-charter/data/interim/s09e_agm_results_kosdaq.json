@@ -40714,5 +40714,607 @@
   "ambiguous": false,
   "basis_box": null,
   "judged_by": "서브에이전트"
+ },
+ "20260306000843": {
+  "stock_code": "024950",
+  "corp_name": "삼천리자전거",
+  "notice_rcept_no": "20260306000843",
+  "notice_dt": "20260306",
+  "from": "s09i",
+  "fetched_at": "2026-11-20T03:03:33",
+  "meeting_day": "2026-03-20",
+  "n_results_in_window": 2,
+  "results_in_window": [
+   {
+    "acptno": "20260320001414",
+    "title": "정기주주총회결과",
+    "time": "2026-03-20 17:07",
+    "meeting_day": "2026-03-20",
+    "charter_rows": 1
+   },
+   {
+    "acptno": "20260323000856",
+    "title": "정기주주총회결과",
+    "time": "2026-03-23 15:38",
+    "meeting_day": "2026-03-20",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20260320001414",
+  "result_title": "정기주주총회결과",
+  "result_time": "2026-03-20 17:07",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260320001414",
+  "agm_date": "2026-03-20",
+  "vote_record_date": "2025-12-31",
+  "rows": [
+   {
+    "no": "1호 의안",
+    "kind": "보통결의",
+    "item": "제47기(2025년 01월 01일∼2025년 12월 31일) 재무제표(이익잉여금처분계산서 포함) 및 연결재무제표 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "2호의안",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   },
+   {
+    "no": "3호 의안",
+    "kind": "특별결의",
+    "item": "주식매수선택권 부여 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "4호의안",
+    "kind": "특별결의",
+    "item": "자기주식 소각(자본감소_감자)의 건",
+    "result": "가결"
+   },
+   {
+    "no": "5-1호 의안",
+    "kind": "보통결의",
+    "item": "사내이사 김환욱 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "5-2호 의안",
+    "kind": "보통결의",
+    "item": "사내이사 노성호 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "5-3호 의안",
+    "kind": "보통결의",
+    "item": "사외이사 김태윤 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "5-4호 의안",
+    "kind": "보통결의",
+    "item": "사외이사 이우수 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "6호 의안",
+    "kind": "보통결의",
+    "item": "이사 보수한도 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "7호 의안",
+    "kind": "보통결의",
+    "item": "감사 보수한도 승인의 건",
+    "result": "가결"
+   }
+  ],
+  "charter_rows": [
+   {
+    "no": "2호의안",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   }
+  ],
+  "dividend_rows": [],
+  "by_dividend_row": false,
+  "passed": true,
+  "note": "정관 안건 모두 가결",
+  "ambiguous": true,
+  "basis_box": null,
+  "judged_by": "제목"
+ },
+ "20260311003473": {
+  "stock_code": "020400",
+  "corp_name": "대동금속",
+  "notice_rcept_no": "20260311003473",
+  "notice_dt": "20260311",
+  "from": "s09i",
+  "fetched_at": "2026-11-20T03:03:40",
+  "meeting_day": "2026-03-26",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20260326001396",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 16:01",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20260326001396",
+  "result_title": "정기주주총회결과",
+  "result_time": "2026-03-26 16:01",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326001396",
+  "agm_date": "2026-03-26",
+  "vote_record_date": "2025-12-31",
+  "rows": [
+   {
+    "no": "1",
+    "kind": "보통결의",
+    "item": "제38기 재무제표 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "2",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   },
+   {
+    "no": "3",
+    "kind": "보통결의",
+    "item": "이사 선임의 건(사내이사 1인)",
+    "result": "가결"
+   },
+   {
+    "no": "3-1",
+    "kind": "보통결의",
+    "item": "사내이사 이풍우 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "4",
+    "kind": "보통결의",
+    "item": "감사위원회 위원이 되는 사외이사 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "4-1",
+    "kind": "보통결의",
+    "item": "현수룡(감사위원)",
+    "result": "가결"
+   },
+   {
+    "no": "4-2",
+    "kind": "보통결의",
+    "item": "김주남(감사위원)",
+    "result": "가결"
+   },
+   {
+    "no": "5",
+    "kind": "보통결의",
+    "item": "이사보수 한도 승인의 건",
+    "result": "가결"
+   }
+  ],
+  "charter_rows": [
+   {
+    "no": "2",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   }
+  ],
+  "dividend_rows": [],
+  "by_dividend_row": false,
+  "passed": true,
+  "note": "정관 안건 모두 가결",
+  "ambiguous": false,
+  "basis_box": null,
+  "judged_by": "제목"
+ },
+ "20260311003911": {
+  "stock_code": "318010",
+  "corp_name": "팜스빌",
+  "notice_rcept_no": "20260311003911",
+  "notice_dt": "20260311",
+  "from": "s09i",
+  "fetched_at": "2026-11-20T03:03:44",
+  "meeting_day": "2026-03-26",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20260326001663",
+    "title": "정기주주총회결과",
+    "time": "2026-03-26 15:50",
+    "meeting_day": "2026-03-26",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20260326001663",
+  "result_title": "정기주주총회결과",
+  "result_time": "2026-03-26 15:50",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326001663",
+  "agm_date": "2026-03-26",
+  "vote_record_date": "2025-12-31",
+  "rows": [
+   {
+    "no": "제1호",
+    "kind": "보통결의",
+    "item": "제26기 별도 및 연결 재무제표 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "제2호",
+    "kind": "특별결의",
+    "item": "정관 변경의 건",
+    "result": "가결"
+   },
+   {
+    "no": "제3호",
+    "kind": "보통결의",
+    "item": "이사 보수한도 승인의 건 (한도금액: 30억원)",
+    "result": "가결"
+   }
+  ],
+  "charter_rows": [
+   {
+    "no": "제2호",
+    "kind": "특별결의",
+    "item": "정관 변경의 건",
+    "result": "가결"
+   }
+  ],
+  "dividend_rows": [],
+  "by_dividend_row": false,
+  "passed": true,
+  "note": "정관 안건 모두 가결",
+  "ambiguous": false,
+  "basis_box": null,
+  "judged_by": "제목"
+ },
+ "20260313000564": {
+  "stock_code": "061970",
+  "corp_name": "LB세미콘",
+  "notice_rcept_no": "20260313000564",
+  "notice_dt": "20260313",
+  "from": "s09i",
+  "fetched_at": "2026-11-20T03:03:48",
+  "meeting_day": "2026-03-30",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20260330000881",
+    "title": "정기주주총회결과",
+    "time": "2026-03-30 14:52",
+    "meeting_day": "2026-03-30",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20260330000881",
+  "result_title": "정기주주총회결과",
+  "result_time": "2026-03-30 14:52",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330000881",
+  "agm_date": "2026-03-30",
+  "vote_record_date": "2025-12-31",
+  "rows": [
+   {
+    "no": "1",
+    "kind": "보통결의",
+    "item": "제26기(2025년 1월 1일 ~ 2025년 12월 31일) 연결재무제표 및 별도재무제표 (이익잉여금처분계산서 포함)승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "2-1",
+    "kind": "보통결의",
+    "item": "사내이사 이대교 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "2-2",
+    "kind": "보통결의",
+    "item": "사외이사 백인균 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "3",
+    "kind": "특별결의",
+    "item": "정관 변경의 건",
+    "result": "가결"
+   },
+   {
+    "no": "4",
+    "kind": "보통결의",
+    "item": "이사 보수한도 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "5",
+    "kind": "보통결의",
+    "item": "감사 보수한도 승인의 건",
+    "result": "가결"
+   }
+  ],
+  "charter_rows": [
+   {
+    "no": "3",
+    "kind": "특별결의",
+    "item": "정관 변경의 건",
+    "result": "가결"
+   }
+  ],
+  "dividend_rows": [],
+  "by_dividend_row": false,
+  "passed": true,
+  "note": "정관 안건 모두 가결",
+  "ambiguous": false,
+  "basis_box": null,
+  "judged_by": "제목"
+ },
+ "20260312000822": {
+  "stock_code": "463480",
+  "corp_name": "모티브링크",
+  "notice_rcept_no": "20260312000822",
+  "notice_dt": "20260312",
+  "from": "s09i",
+  "fetched_at": "2026-11-20T03:03:52",
+  "meeting_day": "2026-03-31",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20260331003210",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 17:09",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20260331003210",
+  "result_title": "정기주주총회결과",
+  "result_time": "2026-03-31 17:09",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331003210",
+  "agm_date": "2026-03-31",
+  "vote_record_date": "2025-12-31",
+  "rows": [
+   {
+    "no": "1",
+    "kind": "보통결의",
+    "item": "제49기 재무제표(별도 및 연결) 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "2",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   },
+   {
+    "no": "3-1",
+    "kind": "보통결의",
+    "item": "사내이사 김태하 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "3-2",
+    "kind": "보통결의",
+    "item": "사내이사 김기연 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "3-3",
+    "kind": "보통결의",
+    "item": "사외이사 홍 준 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "4-1",
+    "kind": "보통결의",
+    "item": "감사 나종윤 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "5",
+    "kind": "보통결의",
+    "item": "이사 보수 한도 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "6",
+    "kind": "보통결의",
+    "item": "감사 보수 한도 승인의 건",
+    "result": "가결"
+   }
+  ],
+  "charter_rows": [
+   {
+    "no": "2",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   }
+  ],
+  "dividend_rows": [],
+  "by_dividend_row": false,
+  "passed": true,
+  "note": "정관 안건 모두 가결",
+  "ambiguous": false,
+  "basis_box": null,
+  "judged_by": "제목"
+ },
+ "20260313000049": {
+  "stock_code": "366030",
+  "corp_name": "나인앤컴퍼니",
+  "notice_rcept_no": "20260313000049",
+  "notice_dt": "20260313",
+  "from": "s09i",
+  "fetched_at": "2026-11-20T03:03:57",
+  "meeting_day": "2026-03-31",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20260331001427",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 14:42",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20260331001427",
+  "result_title": "정기주주총회결과",
+  "result_time": "2026-03-31 14:42",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331001427",
+  "agm_date": "2026-03-31",
+  "vote_record_date": "2025-12-31",
+  "rows": [
+   {
+    "no": "1",
+    "kind": "보통결의",
+    "item": "제 20기(2025년) 별도 및 연결 재무제표 [이익잉여금 처분 계산서 (案) 포함]승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "2",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   },
+   {
+    "no": "3",
+    "kind": "보통결의",
+    "item": "이사 선임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "3-1",
+    "kind": "보통결의",
+    "item": "사내이사(대표이사) 김주영 중임의 건",
+    "result": "가결"
+   },
+   {
+    "no": "4",
+    "kind": "보통결의",
+    "item": "이사 보수한도 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "5",
+    "kind": "보통결의",
+    "item": "감사 보수한도 승인의 건",
+    "result": "가결"
+   }
+  ],
+  "charter_rows": [
+   {
+    "no": "2",
+    "kind": "특별결의",
+    "item": "정관 일부 변경의 건",
+    "result": "가결"
+   }
+  ],
+  "dividend_rows": [],
+  "by_dividend_row": false,
+  "passed": true,
+  "note": "정관 안건 모두 가결",
+  "ambiguous": false,
+  "basis_box": "정관상 기준일 설정 및 변경 세부내역 】\n정기주주총회 소집을 위한 권리주주 확정 기준일\n12-31\n이익배당 기준일\n결산배당\n-\n중간배당\n-\n분기배당\n1분기\n-\n2분기\n-\n3분기\n-",
+  "judged_by": "제목"
+ },
+ "20260316001091": {
+  "stock_code": "039030",
+  "corp_name": "이오테크닉스",
+  "notice_rcept_no": "20260316001091",
+  "notice_dt": "20260316",
+  "from": "s09i",
+  "fetched_at": "2026-11-20T03:04:01",
+  "meeting_day": "2026-03-31",
+  "n_results_in_window": 1,
+  "results_in_window": [
+   {
+    "acptno": "20260331003747",
+    "title": "정기주주총회결과",
+    "time": "2026-03-31 17:24",
+    "meeting_day": "2026-03-31",
+    "charter_rows": 1
+   }
+  ],
+  "match_by": "주총일",
+  "result_acptno": "20260331003747",
+  "result_title": "정기주주총회결과",
+  "result_time": "2026-03-31 17:24",
+  "result_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331003747",
+  "agm_date": "2026-03-31",
+  "vote_record_date": "2025-12-31",
+  "rows": [
+   {
+    "no": "1",
+    "kind": "보통결의",
+    "item": "제32기 재무제표 및 연결 재무제표 승인의 건",
+    "result": "가결"
+   },
+   {
+    "no": "2",
+    "kind": "보통결의",
+    "item": "이익잉여금처분계산서 승인의 건(현금배당 : 주당1,200원)",
+    "result": "가결"
+   },
+   {
+    "no": "3",
+    "kind": "특별결의",
+    "item": "정관 변경의 건",
+    "result": "가결"
+   },
+   {
+    "no": "4-1",
+    "kind": "보통결의",
+    "item": "사내이사 후보자 성규동",
+    "result": "가결"
+   },
+   {
+    "no": "4-2",
+    "kind": "보통결의",
+    "item": "사내이사 후보자 손민우",
+    "result": "가결"
+   },
+   {
+    "no": "4-3",
+    "kind": "보통결의",
+    "item": "사외이사 후보자 정정주",
+    "result": "가결"
+   },
+   {
+    "no": "5",
+    "kind": "보통결의",
+    "item": "이사의 보수한도 승인의 건(75억)",
+    "result": "가결"
+   },
+   {
+    "no": "6",
+    "kind": "보통결의",
+    "item": "감사의 보수한도 승인의 건(2억)",
+    "result": "가결"
+   }
+  ],
+  "charter_rows": [
+   {
+    "no": "3",
+    "kind": "특별결의",
+    "item": "정관 변경의 건",
+    "result": "가결"
+   }
+  ],
+  "dividend_rows": [],
+  "by_dividend_row": false,
+  "passed": true,
+  "note": "정관 안건 모두 가결",
+  "ambiguous": false,
+  "basis_box": null,
+  "judged_by": "제목"
  }
 }
