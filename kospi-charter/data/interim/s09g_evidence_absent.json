@@ -23,19 +23,20 @@
        "page": 7,
        "file": "img/007.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page30.jpg",
+       "quote": true,
        "box": [
         0,
-        108,
+        137,
         992,
-        305
+        218
        ],
        "size": [
         992,
         1403
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 42,
-       "n_hit": 6,
+       "n_hit": 2,
        "crop": "site/evidence/0220W0/a1_p007.jpg"
       }
      ],
@@ -61,19 +62,20 @@
        "page": 14,
        "file": "img/014.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11377947&flNm=%282026.05.14+%EC%88%98%EC%A0%95%29_%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C_page37.jpg",
+       "quote": true,
        "box": [
         0,
-        512,
+        627,
         992,
-        852
+        708
        ],
        "size": [
         992,
         1403
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 44,
-       "n_hit": 8,
+       "n_hit": 4,
        "crop": "site/evidence/0220W0/a2_p014.jpg"
       }
      ],
@@ -176,6 +178,18 @@
      ],
      "images": [],
      "pdf_pages": []
+    },
+    {
+     "start": 23413,
+     "end": 23584,
+     "how": "fiscal",
+     "quotes": [],
+     "fiscal": true,
+     "text": "제61조(사업년도) 회사의 최초 사업년도는 회사 설립일로부터 동년 12월 31일까지로 하며, 이후 사업년도는 매년 1월 1일부터 12월 31일까지로 한다. 다만, 2025년 12월 31일 이후 사업연도는 매년 1월 1일 개시하여 6월 30일에 종료하고, 7월 1일에 개시하여 다음 12월 31일 종료한다.",
+     "title": "제61조(사업년도)",
+     "marks": [],
+     "images": [],
+     "pdf_pages": []
     }
    ]
   }
@@ -247,19 +261,20 @@
        "page": 7,
        "file": "img/007.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0007.jpg",
+       "quote": true,
        "box": [
         0,
-        1098,
+        1130,
         1240,
-        1321
+        1291
        ],
        "size": [
         1240,
         1753
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 38,
-       "n_hit": 7,
+       "n_hit": 3,
        "crop": "site/evidence/345290/a1_p007.jpg"
       }
      ],
@@ -285,19 +300,20 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11608721&flNm=%EC%98%81%EA%B4%91ykmc+%EC%A0%95%EA%B4%80%282026.07.29%29_page-0016.jpg",
+       "quote": true,
        "box": [
         0,
-        240,
+        369,
         1240,
-        746
+        459
        ],
        "size": [
         1240,
         1753
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 39,
-       "n_hit": 10,
+       "n_hit": 4,
        "crop": "site/evidence/345290/a2_p016.jpg"
       }
      ],
@@ -330,9 +346,10 @@
        "page": 7,
        "file": "img/007.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11592359&flNm=%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29_20250929_7.jpg",
+       "quote": true,
        "box": [
         0,
-        1339,
+        1476,
         1191,
         1569
        ],
@@ -340,15 +357,16 @@
         1191,
         1684
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 39,
-       "n_hit": 10,
+       "n_hit": 2,
        "crop": "site/evidence/493410/a1_p007.jpg"
       },
       {
        "page": 8,
        "file": "img/008.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11592359&flNm=%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29_20250929_8.jpg",
+       "quote": false,
        "box": [
         0,
         166,
@@ -387,19 +405,20 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11592359&flNm=%EC%A0%95%EA%B4%80%28%EA%B0%9C%EC%A0%95%29_20250929_16.jpg",
+       "quote": true,
        "box": [
         0,
-        203,
+        270,
         1191,
-        469
+        365
        ],
        "size": [
         1191,
         1684
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 29,
-       "n_hit": 7,
+       "n_hit": 2,
        "crop": "site/evidence/493410/a2_p016.jpg"
       }
      ],
@@ -536,9 +555,10 @@
        "page": 8,
        "file": "img/008.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_8.jpg",
+       "quote": true,
        "box": [
         0,
-        568,
+        615,
         1192,
         713
        ],
@@ -546,9 +566,9 @@
         1192,
         1686
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 29,
-       "n_hit": 3,
+       "n_hit": 2,
        "crop": "site/evidence/495910/a1_p008.jpg"
       }
      ],
@@ -574,19 +594,20 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11586781&flNm=%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0+%EC%A0%95%EA%B4%80_16.jpg",
+       "quote": true,
        "box": [
         0,
-        1249,
+        1424,
         1192,
-        1567
+        1523
        ],
        "size": [
         1192,
         1686
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 32,
-       "n_hit": 8,
+       "n_hit": 3,
        "crop": "site/evidence/495910/a2_p016.jpg"
       }
      ],
@@ -619,19 +640,20 @@
        "page": 7,
        "file": "img/007.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11549738&flNm=%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7+2026-08-24+165421.jpg",
+       "quote": true,
        "box": [
         0,
-        737,
+        848,
         876,
-        1020
+        934
        ],
        "size": [
         876,
         1236
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 33,
-       "n_hit": 10,
+       "n_hit": 2,
        "crop": "site/evidence/0147B0/a1_p007.jpg"
       }
      ],
@@ -657,9 +679,10 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11549738&flNm=%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7+2026-08-24+170647.jpg",
+       "quote": true,
        "box": [
         0,
-        334,
+        444,
         882,
         530
        ],
@@ -667,9 +690,9 @@
         882,
         1246
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 26,
-       "n_hit": 6,
+       "n_hit": 2,
        "crop": "site/evidence/0147B0/a2_p016.jpg"
       }
      ],
@@ -806,6 +829,7 @@
        "page": 1,
        "file": "img/001.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11567395&flNm=%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4%EC%B8%A0+%EC%A0%95%EA%B4%80_26.03.27_%EB%82%A0%EC%9D%B8_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+       "quote": true,
        "box": [
         0,
         0,
@@ -844,6 +868,7 @@
        "page": 1,
        "file": "img/001.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11567395&flNm=%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4%EC%B8%A0+%EC%A0%95%EA%B4%80_26.03.27_%EB%82%A0%EC%9D%B8_%ED%8E%98%EC%9D%B4%EC%A7%80_01.jpg",
+       "quote": true,
        "box": [
         0,
         0,
@@ -950,19 +975,20 @@
        "page": 24,
        "file": "img/024.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11576464&flNm=%EB%94%94%ED%8B%B0%EC%97%90%EC%8A%A4+%EC%A0%95%EA%B4%80_24.jpg",
+       "quote": true,
        "box": [
         0,
-        2265,
+        2456,
         2479,
-        2914
+        2537
        ],
        "size": [
         2479,
         3504
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 27,
-       "n_hit": 8,
+       "n_hit": 1,
        "crop": "site/evidence/0015M0/a1_p024.jpg"
       }
      ],
@@ -988,11 +1014,45 @@
        "page": 26,
        "file": "img/026.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11576464&flNm=%EB%94%94%ED%8B%B0%EC%97%90%EC%8A%A4+%EC%A0%95%EA%B4%80_26.jpg",
+       "quote": true,
        "box": [
         0,
-        466,
+        942,
         2479,
-        2357
+        1121
+       ],
+       "size": [
+        2479,
+        3504
+       ],
+       "how": "quote",
+       "n_lines": 25,
+       "n_hit": 2,
+       "crop": "site/evidence/0015M0/a2_p026.jpg"
+      }
+     ],
+     "pdf_pages": []
+    },
+    {
+     "start": 16129,
+     "end": 16203,
+     "how": "fiscal",
+     "quotes": [],
+     "fiscal": true,
+     "text": "제56조 (사업연도)\n본 회사의 사업년도는 매년 1월 1일부터 동년 12월 31일까지로 한다.\n( 정관개정:2025.02.12 )",
+     "title": "제56조 (사업연도)",
+     "marks": [],
+     "images": [
+      {
+       "page": 23,
+       "file": "img/023.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11576464&flNm=%EB%94%94%ED%8B%B0%EC%97%90%EC%8A%A4+%EC%A0%95%EA%B4%80_23.jpg",
+       "quote": false,
+       "box": [
+        0,
+        1285,
+        2479,
+        1551
        ],
        "size": [
         2479,
@@ -1000,8 +1060,8 @@
        ],
        "how": "lines",
        "n_lines": 25,
-       "n_hit": 17,
-       "crop": "site/evidence/0015M0/a2_p026.jpg"
+       "n_hit": 3,
+       "crop": "site/evidence/0015M0/a3_p023.jpg"
       }
      ],
      "pdf_pages": []
@@ -1157,6 +1217,18 @@
      ],
      "images": [],
      "pdf_pages": []
+    },
+    {
+     "start": 18117,
+     "end": 18168,
+     "how": "fiscal",
+     "quotes": [],
+     "fiscal": true,
+     "text": "제 57 조【사업년도】\n당 회사의 사업년도는 매년 1월 1일부터 12월 31일까지로 한다.",
+     "title": "제 57 조【사업년도】",
+     "marks": [],
+     "images": [],
+     "pdf_pages": []
     }
    ]
   }
@@ -1185,19 +1257,20 @@
        "page": 7,
        "file": "img/007.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_7.jpg",
+       "quote": true,
        "box": [
         0,
-        467,
+        495,
         1190,
-        743
+        714
        ],
        "size": [
         1190,
         1684
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 32,
-       "n_hit": 9,
+       "n_hit": 6,
        "crop": "site/evidence/468670/a1_p007.jpg"
       }
      ],
@@ -1223,19 +1296,20 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11474494&flNm=03.%EC%A0%95%EA%B4%80_%EB%B8%8C%EB%A6%B4%EC%8A%A4_16.jpg",
+       "quote": true,
        "box": [
         0,
-        343,
+        451,
         1190,
-        561
+        534
        ],
        "size": [
         1190,
         1684
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 29,
-       "n_hit": 7,
+       "n_hit": 2,
        "crop": "site/evidence/468670/a2_p016.jpg"
       }
      ],
@@ -1268,25 +1342,27 @@
        "page": 10,
        "file": "img/010.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11498445&flNm=03+%EA%B8%80%EB%A1%9C%EB%B2%8C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%A0%95%EA%B4%80+10.jpg",
+       "quote": true,
        "box": [
         0,
-        1345,
+        1452,
         1240,
-        1585
+        1510
        ],
        "size": [
         1240,
         1755
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 44,
-       "n_hit": 7,
+       "n_hit": 1,
        "crop": "site/evidence/486510/a1_p010.jpg"
       },
       {
        "page": 11,
        "file": "img/011.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11498445&flNm=03+%EA%B8%80%EB%A1%9C%EB%B2%8C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%A0%95%EA%B4%80+11.jpg",
+       "quote": false,
        "box": [
         0,
         90,
@@ -1325,9 +1401,10 @@
        "page": 17,
        "file": "img/017.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11498445&flNm=03+%EA%B8%80%EB%A1%9C%EB%B2%8C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%A0%95%EA%B4%80+17.jpg",
+       "quote": true,
        "box": [
         0,
-        714,
+        844,
         1240,
         933
        ],
@@ -1335,9 +1412,9 @@
         1240,
         1755
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 40,
-       "n_hit": 8,
+       "n_hit": 5,
        "crop": "site/evidence/486510/a2_p017.jpg"
       }
      ],
@@ -1431,19 +1508,20 @@
        "page": 10,
        "file": "img/010.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11499800&flNm=8.+%EC%A0%95%EA%B4%80_10.jpg",
+       "quote": true,
        "box": [
         0,
-        729,
+        1185,
         2370,
-        1811
+        1551
        ],
        "size": [
         2370,
         3348
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 27,
-       "n_hit": 12,
+       "n_hit": 4,
        "crop": "site/evidence/0010S0/a1_p010.jpg"
       }
      ],
@@ -1469,19 +1547,20 @@
        "page": 21,
        "file": "img/021.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11499800&flNm=8.+%EC%A0%95%EA%B4%80_21.jpg",
+       "quote": true,
        "box": [
         0,
-        339,
+        1099,
         2634,
-        1380
+        1281
        ],
        "size": [
         2634,
         3722
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 21,
-       "n_hit": 9,
+       "n_hit": 3,
        "crop": "site/evidence/0010S0/a2_p021.jpg"
       }
      ],
@@ -1514,19 +1593,20 @@
        "page": 7,
        "file": "img/007.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11492968&flNm=%EB%84%A4%EC%98%A4%EC%82%AC%ED%94%BC%EC%97%94%EC%8A%A4%28%EC%A3%BC%29+%EC%A0%95%EA%B4%80_26.03.31+%EA%B0%9C%EC%A0%95_7.jpg",
+       "quote": true,
        "box": [
         0,
-        249,
+        271,
         793,
-        414
+        392
        ],
        "size": [
         793,
         1122
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 21,
-       "n_hit": 7,
+       "n_hit": 3,
        "crop": "site/evidence/0161M0/a1_p007.jpg"
       }
      ],
@@ -1552,19 +1632,20 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11492968&flNm=%EB%84%A4%EC%98%A4%EC%82%AC%ED%94%BC%EC%97%94%EC%8A%A4%28%EC%A3%BC%29+%EC%A0%95%EA%B4%80_26.03.31+%EA%B0%9C%EC%A0%95_16.jpg",
+       "quote": true,
        "box": [
         0,
-        751,
+        798,
         793,
-        986
+        916
        ],
        "size": [
         793,
         1122
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 35,
-       "n_hit": 9,
+       "n_hit": 4,
        "crop": "site/evidence/0161M0/a2_p016.jpg"
       }
      ],
@@ -1590,19 +1671,20 @@
        "page": 17,
        "file": "img/017.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11492968&flNm=%EB%84%A4%EC%98%A4%EC%82%AC%ED%94%BC%EC%97%94%EC%8A%A4%28%EC%A3%BC%29+%EC%A0%95%EA%B4%80_26.03.31+%EA%B0%9C%EC%A0%95_17.jpg",
+       "quote": true,
        "box": [
         0,
-        100,
+        123,
         793,
-        542
+        174
        ],
        "size": [
         793,
         1122
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 30,
-       "n_hit": 18,
+       "n_hit": 1,
        "crop": "site/evidence/0161M0/a3_p017.jpg"
       }
      ],
@@ -1635,19 +1717,20 @@
        "page": 5,
        "file": "img/005.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_05.jpg",
+       "quote": true,
        "box": [
         0,
-        380,
+        487,
         604,
-        789
+        561
        ],
        "size": [
         604,
         845
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 27,
-       "n_hit": 13,
+       "n_hit": 3,
        "crop": "site/evidence/386380/a1_p005.jpg"
       }
      ],
@@ -1673,19 +1756,20 @@
        "page": 20,
        "file": "img/020.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11466619&flNm=%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9E%A9%EC%8A%A4_%EC%A0%95%EA%B4%80_20.jpg",
+       "quote": true,
        "box": [
         0,
-        548,
+        666,
         618,
-        773
+        740
        ],
        "size": [
         618,
         846
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 26,
-       "n_hit": 7,
+       "n_hit": 2,
        "crop": "site/evidence/386380/a2_p020.jpg"
       }
      ],
@@ -1804,19 +1888,20 @@
        "page": 6,
        "file": "img/006.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11431560&flNm=%EC%A0%95%EA%B4%80_06.jpg",
+       "quote": true,
        "box": [
         0,
         919,
         1190,
-        1234
+        977
        ],
        "size": [
         1190,
         1683
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 34,
-       "n_hit": 9,
+       "n_hit": 2,
        "crop": "site/evidence/487400/a1_p006.jpg"
       }
      ],
@@ -1847,19 +1932,20 @@
        "page": 13,
        "file": "img/013.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11431560&flNm=%EC%A0%95%EA%B4%80_13.jpg",
+       "quote": true,
        "box": [
         0,
-        793,
+        887,
         1190,
-        1268
+        1042
        ],
        "size": [
         1190,
         1683
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 37,
-       "n_hit": 10,
+       "n_hit": 6,
        "crop": "site/evidence/487400/a2_p013.jpg"
       }
      ],
@@ -1892,20 +1978,54 @@
        "page": 17,
        "file": "img/017.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-17.jpg",
+       "quote": true,
        "box": [
         0,
-        704,
+        872,
         1241,
-        1010
+        968
+       ],
+       "size": [
+        1241,
+        1755
+       ],
+       "how": "quote",
+       "n_lines": 49,
+       "n_hit": 2,
+       "crop": "site/evidence/483350/a1_p017.jpg"
+      }
+     ],
+     "pdf_pages": []
+    },
+    {
+     "start": 23276,
+     "end": 23325,
+     "how": "fiscal",
+     "quotes": [],
+     "fiscal": true,
+     "text": "제52조 [사업년도]\n회사의 사업년도는 매년 1월 1일부터 12월 31일까지로 한다.",
+     "title": "제52조 [사업년도]",
+     "marks": [],
+     "images": [
+      {
+       "page": 16,
+       "file": "img/016.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11476788&flNm=%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84+%EB%94%9C%EB%A6%AC%EC%85%94%EC%8A%A4_%EC%A0%95%EA%B4%80_20260708-16.jpg",
+       "quote": false,
+       "box": [
+        0,
+        859,
+        1241,
+        960
        ],
        "size": [
         1241,
         1755
        ],
        "how": "lines",
-       "n_lines": 49,
-       "n_hit": 7,
-       "crop": "site/evidence/483350/a1_p017.jpg"
+       "n_lines": 51,
+       "n_hit": 2,
+       "crop": "site/evidence/483350/a2_p016.jpg"
       }
      ],
      "pdf_pages": []
@@ -1937,6 +2057,7 @@
        "page": 13,
        "file": "img/013.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+31.jpg",
+       "quote": false,
        "box": [
         0,
         694,
@@ -1956,20 +2077,54 @@
        "page": 14,
        "file": "img/014.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+32.jpg",
+       "quote": true,
        "box": [
         0,
         0,
         607,
-        109
+        47
        ],
        "size": [
         607,
         806
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 8,
-       "n_hit": 3,
+       "n_hit": 1,
        "crop": "site/evidence/0218L0/a1_p014.jpg"
+      }
+     ],
+     "pdf_pages": []
+    },
+    {
+     "start": 12938,
+     "end": 12993,
+     "how": "fiscal",
+     "quotes": [],
+     "fiscal": true,
+     "text": "제 52 조 (사업년도)\n회사의 사업년도는 매년 1 월 1 일부터 12 월 31 일까지로 한다.",
+     "title": "제 52 조 (사업년도)",
+     "marks": [],
+     "images": [
+      {
+       "page": 12,
+       "file": "img/012.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11350108&flNm=%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D%EC%84%9C+30.jpg",
+       "quote": false,
+       "box": [
+        0,
+        653,
+        589,
+        722
+       ],
+       "size": [
+        589,
+        836
+       ],
+       "how": "lines",
+       "n_lines": 28,
+       "n_hit": 2,
+       "crop": "site/evidence/0218L0/a2_p012.jpg"
       }
      ],
      "pdf_pages": []
@@ -2094,19 +2249,20 @@
        "page": 18,
        "file": "img/018.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11358652&flNm=%EC%A0%95%EA%B4%80_20260428_18.jpg",
+       "quote": true,
        "box": [
         0,
-        424,
+        528,
         793,
-        659
+        607
        ],
        "size": [
         793,
         1122
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 30,
-       "n_hit": 11,
+       "n_hit": 4,
        "crop": "site/evidence/0039P0/a1_p018.jpg"
       }
      ],
@@ -2142,25 +2298,27 @@
        "page": 6,
        "file": "img/006.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11332474&flNm=4.+%EC%A0%95%EA%B4%80_250331_page-0006.jpg",
+       "quote": true,
        "box": [
         0,
-        1340,
+        1407,
         1242,
-        1597
+        1497
        ],
        "size": [
         1242,
         1757
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 38,
-       "n_hit": 7,
+       "n_hit": 2,
        "crop": "site/evidence/153890/a1_p006.jpg"
       },
       {
        "page": 7,
        "file": "img/007.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11332474&flNm=4.+%EC%A0%95%EA%B4%80_250331_page-0007.jpg",
+       "quote": false,
        "box": [
         0,
         105,
@@ -2199,9 +2357,10 @@
        "page": 13,
        "file": "img/013.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11332474&flNm=4.+%EC%A0%95%EA%B4%80_250331_page-0013.jpg",
+       "quote": true,
        "box": [
         0,
-        572,
+        706,
         1242,
         763
        ],
@@ -2209,9 +2368,9 @@
         1242,
         1757
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 32,
-       "n_hit": 5,
+       "n_hit": 1,
        "crop": "site/evidence/153890/a2_p013.jpg"
       }
      ],
@@ -2264,6 +2423,18 @@
      ],
      "images": [],
      "pdf_pages": []
+    },
+    {
+     "start": 14565,
+     "end": 14614,
+     "how": "fiscal",
+     "quotes": [],
+     "fiscal": true,
+     "text": "제 52 조 (사업연도)\n회사의 사업연도는 매년 1월 1일부터 12월31일까지로 한다.",
+     "title": "제 52 조 (사업연도)",
+     "marks": [],
+     "images": [],
+     "pdf_pages": []
     }
    ]
   }
@@ -2292,19 +2463,20 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11178292&flNm=03.+%EC%A0%95%EA%B4%80_%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4_16.jpg",
+       "quote": true,
        "box": [
         0,
-        275,
+        323,
         793,
-        444
+        396
        ],
        "size": [
         793,
         1121
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 28,
-       "n_hit": 6,
+       "n_hit": 2,
        "crop": "site/evidence/477850/a1_p016.jpg"
       }
      ],
@@ -2362,9 +2534,10 @@
        "page": 20,
        "file": "img/020.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11089949&flNm=%EC%A0%95%EA%B4%80_%EC%9B%90%EB%B3%B8%EB%8C%80%EC%A1%B0%ED%95%84_020.jpg",
+       "quote": true,
        "box": [
         0,
-        618,
+        975,
         2480,
         1140
        ],
@@ -2372,9 +2545,9 @@
         2480,
         3507
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 36,
-       "n_hit": 6,
+       "n_hit": 2,
        "crop": "site/evidence/0011T0/a1_p020.jpg"
       }
      ],
@@ -2407,19 +2580,20 @@
        "page": 4,
        "file": "img/004.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%804.jpg",
+       "quote": true,
        "box": [
         0,
-        352,
+        452,
         651,
-        724
+        503
        ],
        "size": [
         651,
         922
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 30,
-       "n_hit": 16,
+       "n_hit": 2,
        "crop": "site/evidence/0222E0/a1_p004.jpg"
       }
      ],
@@ -2445,9 +2619,10 @@
        "page": 14,
        "file": "img/014.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11583329&flNm=%EC%A0%95%EA%B4%8014.jpg",
+       "quote": true,
        "box": [
         0,
-        268,
+        367,
         648,
         465
        ],
@@ -2455,9 +2630,9 @@
         648,
         924
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 27,
-       "n_hit": 7,
+       "n_hit": 3,
        "crop": "site/evidence/0222E0/a2_p014.jpg"
       }
      ],
@@ -2490,19 +2665,20 @@
        "page": 15,
        "file": "img/015.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11584070&flNm=%ED%95%9C%ED%99%94%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%A0%9C6%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_15.jpg",
+       "quote": true,
        "box": [
         0,
-        91,
+        215,
         793,
-        456
+        300
        ],
        "size": [
         793,
         1121
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 25,
-       "n_hit": 8,
+       "n_hit": 4,
        "crop": "site/evidence/0127E0/a1_p015.jpg"
       }
      ],
@@ -2528,20 +2704,54 @@
        "page": 15,
        "file": "img/015.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11584070&flNm=%ED%95%9C%ED%99%94%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%A0%9C6%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_15.jpg",
+       "quote": true,
        "box": [
         0,
         215,
         793,
-        456
+        300
+       ],
+       "size": [
+        793,
+        1121
+       ],
+       "how": "quote",
+       "n_lines": 25,
+       "n_hit": 4,
+       "crop": "site/evidence/0127E0/a2_p015.jpg"
+      }
+     ],
+     "pdf_pages": []
+    },
+    {
+     "start": 10073,
+     "end": 10173,
+     "how": "fiscal",
+     "quotes": [],
+     "fiscal": true,
+     "text": "제50조(사업년도)\n이 회사의 사업년도는 매년 1월 1일부터 12월 31일까지로 한다. 다만 이 회사의 최초 사업년도는 회사의 설립일로부터 2025년 12월 31일까지로 한다.",
+     "title": "제50조(사업년도)",
+     "marks": [],
+     "images": [
+      {
+       "page": 13,
+       "file": "img/013.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11584070&flNm=%ED%95%9C%ED%99%94%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%A0%9C6%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_13.jpg",
+       "quote": false,
+       "box": [
+        0,
+        841,
+        793,
+        957
        ],
        "size": [
         793,
         1121
        ],
        "how": "lines",
-       "n_lines": 25,
-       "n_hit": 6,
-       "crop": "site/evidence/0127E0/a2_p015.jpg"
+       "n_lines": 23,
+       "n_hit": 3,
+       "crop": "site/evidence/0127E0/a3_p013.jpg"
       }
      ],
      "pdf_pages": []
@@ -2573,25 +2783,27 @@
        "page": 4,
        "file": "img/004.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11551969&flNm=sks14_%EC%A0%95%EA%B4%80%284%29.jpg",
+       "quote": true,
        "box": [
         0,
-        416,
+        519,
         632,
-        781
+        597
        ],
        "size": [
         632,
         840
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 27,
-       "n_hit": 14,
+       "n_hit": 3,
        "crop": "site/evidence/0205H0/a1_p004.jpg"
       },
       {
        "page": 5,
        "file": "img/005.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11551969&flNm=sks14_%EC%A0%95%EA%B4%80%285%29.jpg",
+       "quote": false,
        "box": [
         0,
         0,
@@ -2630,19 +2842,20 @@
        "page": 15,
        "file": "img/015.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11551969&flNm=sks14_%EC%A0%95%EA%B4%80%2815%29.jpg",
+       "quote": true,
        "box": [
         0,
-        362,
+        465,
         627,
-        700
+        569
        ],
        "size": [
         627,
         847
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 25,
-       "n_hit": 9,
+       "n_hit": 5,
        "crop": "site/evidence/0205H0/a2_p015.jpg"
       }
      ],
@@ -2668,9 +2881,10 @@
        "page": 15,
        "file": "img/015.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11551969&flNm=sks14_%EC%A0%95%EA%B4%80%2815%29.jpg",
+       "quote": true,
        "box": [
         0,
-        518,
+        623,
         627,
         700
        ],
@@ -2678,9 +2892,9 @@
         627,
         847
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 25,
-       "n_hit": 6,
+       "n_hit": 3,
        "crop": "site/evidence/0205H0/a3_p015.jpg"
       }
      ],
@@ -2713,9 +2927,10 @@
        "page": 14,
        "file": "img/014.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11524103&flNm=%EC%A0%95%EA%B4%80_kb%EC%A0%9C34%ED%98%B8%EC%8A%A4%ED%8C%A9-14.jpg",
+       "quote": true,
        "box": [
         0,
-        1151,
+        1337,
         1190,
         1444
        ],
@@ -2723,9 +2938,9 @@
         1190,
         1682
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 25,
-       "n_hit": 6,
+       "n_hit": 2,
        "crop": "site/evidence/0209J0/a1_p014.jpg"
       }
      ],
@@ -2751,6 +2966,7 @@
        "page": 14,
        "file": "img/014.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11524103&flNm=%EC%A0%95%EA%B4%80_kb%EC%A0%9C34%ED%98%B8%EC%8A%A4%ED%8C%A9-14.jpg",
+       "quote": false,
        "box": [
         0,
         964,
@@ -2770,11 +2986,45 @@
        "page": 15,
        "file": "img/015.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11524103&flNm=%EC%A0%95%EA%B4%80_kb%EC%A0%9C34%ED%98%B8%EC%8A%A4%ED%8C%A9-15.jpg",
+       "quote": true,
        "box": [
         0,
-        168,
+        215,
         1190,
         322
+       ],
+       "size": [
+        1190,
+        1682
+       ],
+       "how": "quote",
+       "n_lines": 26,
+       "n_hit": 2,
+       "crop": "site/evidence/0209J0/a2_p015.jpg"
+      }
+     ],
+     "pdf_pages": []
+    },
+    {
+     "start": 9791,
+     "end": 9891,
+     "how": "fiscal",
+     "quotes": [],
+     "fiscal": true,
+     "text": "제51조(사업년도)\n이 회사의 사업년도는 매년 1월 1일부터 12월 31일까지로 한다. 다만 이 회사의 최초 사업년도는 회사의 설립일로부터 2026년 12월 31일까지로 한다.",
+     "title": "제51조(사업년도)",
+     "marks": [],
+     "images": [
+      {
+       "page": 13,
+       "file": "img/013.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11524103&flNm=%EC%A0%95%EA%B4%80_kb%EC%A0%9C34%ED%98%B8%EC%8A%A4%ED%8C%A9-13.jpg",
+       "quote": false,
+       "box": [
+        0,
+        871,
+        1190,
+        1025
        ],
        "size": [
         1190,
@@ -2783,7 +3033,7 @@
        "how": "lines",
        "n_lines": 26,
        "n_hit": 3,
-       "crop": "site/evidence/0209J0/a2_p015.jpg"
+       "crop": "site/evidence/0209J0/a3_p013.jpg"
       }
      ],
      "pdf_pages": []
@@ -2815,6 +3065,7 @@
        "page": 4,
        "file": "img/004.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11539718&flNm=%EC%A0%95%EA%B4%80_4.jpg",
+       "quote": false,
        "box": [
         0,
         1310,
@@ -2834,19 +3085,20 @@
        "page": 5,
        "file": "img/005.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11539718&flNm=%EC%A0%95%EA%B4%80_5.jpg",
+       "quote": true,
        "box": [
         0,
-        150,
+        197,
         1191,
-        591
+        309
        ],
        "size": [
         1191,
         1684
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 25,
-       "n_hit": 10,
+       "n_hit": 2,
        "crop": "site/evidence/0200G0/a1_p005.jpg"
       }
      ],
@@ -2872,19 +3124,20 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11539718&flNm=%EC%A0%95%EA%B4%80_16.jpg",
+       "quote": true,
        "box": [
         0,
-        341,
+        527,
         1191,
-        917
+        683
        ],
        "size": [
         1191,
         1684
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 24,
-       "n_hit": 9,
+       "n_hit": 5,
        "crop": "site/evidence/0200G0/a2_p016.jpg"
       }
      ],
@@ -2910,19 +3163,20 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11539718&flNm=%EC%A0%95%EA%B4%80_16.jpg",
+       "quote": true,
        "box": [
         0,
         574,
         1191,
-        917
+        683
        ],
        "size": [
         1191,
         1684
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 24,
-       "n_hit": 7,
+       "n_hit": 4,
        "crop": "site/evidence/0200G0/a3_p016.jpg"
       }
      ],
@@ -2955,19 +3209,20 @@
        "page": 15,
        "file": "img/015.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11499551&flNm=%EC%A0%95%EA%B4%80_nh%EC%8A%A4%ED%8C%A934%ED%98%B8+%281%EC%B0%A8%EA%B0%9C%EC%A0%95+2026_07_07%29_15.jpg",
+       "quote": true,
        "box": [
         0,
-        122,
+        219,
         634,
-        424
+        298
        ],
        "size": [
         634,
         880
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 27,
-       "n_hit": 8,
+       "n_hit": 4,
        "crop": "site/evidence/0197V0/a1_p015.jpg"
       }
      ],
@@ -2993,9 +3248,10 @@
        "page": 15,
        "file": "img/015.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11499551&flNm=%EC%A0%95%EA%B4%80_nh%EC%8A%A4%ED%8C%A934%ED%98%B8+%281%EC%B0%A8%EA%B0%9C%EC%A0%95+2026_07_07%29_15.jpg",
+       "quote": true,
        "box": [
         0,
-        247,
+        346,
         634,
         424
        ],
@@ -3003,10 +3259,43 @@
         634,
         880
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 27,
-       "n_hit": 5,
+       "n_hit": 3,
        "crop": "site/evidence/0197V0/a2_p015.jpg"
+      }
+     ],
+     "pdf_pages": []
+    },
+    {
+     "start": 10391,
+     "end": 10547,
+     "how": "fiscal",
+     "quotes": [],
+     "fiscal": true,
+     "text": "제50조(사업년도)\n이 회사의 사업년도는 매년 1월 1일부터 12월 31일까지로 한다. 다만 이 회사의 최초 사업년도는 회사의 설립일로부터 2025년 12월 31일까지로 한다.",
+     "title": "제50조(사업년도)",
+     "marks": [],
+     "images": [
+      {
+       "page": 13,
+       "file": "img/013.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11499551&flNm=%EC%A0%95%EA%B4%80_nh%EC%8A%A4%ED%8C%A934%ED%98%B8+%281%EC%B0%A8%EA%B0%9C%EC%A0%95+2026_07_07%29_13.jpg",
+       "quote": false,
+       "box": [
+        0,
+        701,
+        637,
+        802
+       ],
+       "size": [
+        637,
+        881
+       ],
+       "how": "lines",
+       "n_lines": 23,
+       "n_hit": 3,
+       "crop": "site/evidence/0197V0/a3_p013.jpg"
       }
      ],
      "pdf_pages": []
@@ -3038,6 +3327,7 @@
        "page": 4,
        "file": "img/004.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11400103&flNm=%EC%A0%95%EA%B4%80_260512%28%EA%B0%9C%EC%A0%95%ED%9B%84%29_4.jpg",
+       "quote": false,
        "box": [
         0,
         1311,
@@ -3057,19 +3347,20 @@
        "page": 5,
        "file": "img/005.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11400103&flNm=%EC%A0%95%EA%B4%80_260512%28%EA%B0%9C%EC%A0%95%ED%9B%84%29_5.jpg",
+       "quote": true,
        "box": [
         0,
-        151,
+        198,
         1191,
-        586
+        305
        ],
        "size": [
         1191,
         1684
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 25,
-       "n_hit": 10,
+       "n_hit": 2,
        "crop": "site/evidence/0164H0/a1_p005.jpg"
       }
      ],
@@ -3095,19 +3386,20 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11400103&flNm=%EC%A0%95%EA%B4%80_260512%28%EA%B0%9C%EC%A0%95%ED%9B%84%29_16.jpg",
+       "quote": true,
        "box": [
         0,
-        339,
+        526,
         1191,
-        914
+        679
        ],
        "size": [
         1191,
         1684
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 24,
-       "n_hit": 9,
+       "n_hit": 5,
        "crop": "site/evidence/0164H0/a2_p016.jpg"
       }
      ],
@@ -3133,19 +3425,20 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11400103&flNm=%EC%A0%95%EA%B4%80_260512%28%EA%B0%9C%EC%A0%95%ED%9B%84%29_16.jpg",
+       "quote": true,
        "box": [
         0,
         573,
         1191,
-        914
+        679
        ],
        "size": [
         1191,
         1684
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 24,
-       "n_hit": 7,
+       "n_hit": 4,
        "crop": "site/evidence/0164H0/a3_p016.jpg"
       }
      ],
@@ -3178,9 +3471,10 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11366087&flNm=%EB%A9%94%EB%A6%AC%EC%B8%A0%EC%A0%9C2%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_260227_16.jpg",
+       "quote": true,
        "box": [
         0,
-        812,
+        1069,
         1654,
         1206
        ],
@@ -3188,9 +3482,9 @@
         1654,
         2338
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 24,
-       "n_hit": 8,
+       "n_hit": 4,
        "crop": "site/evidence/0165X0/a1_p016.jpg"
       }
      ],
@@ -3216,20 +3510,54 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11366087&flNm=%EB%A9%94%EB%A6%AC%EC%B8%A0%EC%A0%9C2%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_260227_16.jpg",
+       "quote": true,
        "box": [
         0,
         1069,
         1654,
-        1530
+        1206
+       ],
+       "size": [
+        1654,
+        2338
+       ],
+       "how": "quote",
+       "n_lines": 24,
+       "n_hit": 4,
+       "crop": "site/evidence/0165X0/a2_p016.jpg"
+      }
+     ],
+     "pdf_pages": []
+    },
+    {
+     "start": 10613,
+     "end": 10713,
+     "how": "fiscal",
+     "quotes": [],
+     "fiscal": true,
+     "text": "제51조(사업년도)\n이 회사의 사업년도는 매년 1월 1일부터 12월 31일까지로 한다. 다만 이 회사의 최초 사업년도는 회사의 설립일로부터 2026년 12월 31일까지로 한다.",
+     "title": "제51조(사업년도)",
+     "marks": [],
+     "images": [
+      {
+       "page": 15,
+       "file": "img/015.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11366087&flNm=%EB%A9%94%EB%A6%AC%EC%B8%A0%EC%A0%9C2%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_260227_15.jpg",
+       "quote": false,
+       "box": [
+        0,
+        225,
+        1654,
+        425
        ],
        "size": [
         1654,
         2338
        ],
        "how": "lines",
-       "n_lines": 24,
-       "n_hit": 7,
-       "crop": "site/evidence/0165X0/a2_p016.jpg"
+       "n_lines": 26,
+       "n_hit": 3,
+       "crop": "site/evidence/0165X0/a3_p015.jpg"
       }
      ],
      "pdf_pages": []
@@ -3286,9 +3614,10 @@
        "page": 4,
        "file": "img/004.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162999&flNm=9.%EC%8B%A0%ED%95%9C%EC%A0%9C18%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_page-0004.jpg",
+       "quote": true,
        "box": [
         0,
-        1228,
+        1423,
         1241,
         1486
        ],
@@ -3296,15 +3625,16 @@
         1241,
         1755
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 28,
-       "n_hit": 8,
+       "n_hit": 1,
        "crop": "site/evidence/0129K0/a1_p004.jpg"
       },
       {
        "page": 5,
        "file": "img/005.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162999&flNm=9.%EC%8B%A0%ED%95%9C%EC%A0%9C18%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_page-0005.jpg",
+       "quote": false,
        "box": [
         0,
         157,
@@ -3343,6 +3673,7 @@
        "page": 15,
        "file": "img/015.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162999&flNm=9.%EC%8B%A0%ED%95%9C%EC%A0%9C18%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_page-0015.jpg",
+       "quote": false,
        "box": [
         0,
         1424,
@@ -3362,19 +3693,20 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162999&flNm=9.%EC%8B%A0%ED%95%9C%EC%A0%9C18%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_page-0016.jpg",
+       "quote": true,
        "box": [
         0,
-        157,
+        304,
         1241,
-        706
+        463
        ],
        "size": [
         1241,
         1755
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 25,
-       "n_hit": 8,
+       "n_hit": 5,
        "crop": "site/evidence/0129K0/a2_p016.jpg"
       }
      ],
@@ -3400,19 +3732,20 @@
        "page": 16,
        "file": "img/016.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11162999&flNm=9.%EC%8B%A0%ED%95%9C%EC%A0%9C18%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80_page-0016.jpg",
+       "quote": true,
        "box": [
         0,
         352,
         1241,
-        706
+        463
        ],
        "size": [
         1241,
         1755
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 25,
-       "n_hit": 6,
+       "n_hit": 4,
        "crop": "site/evidence/0129K0/a3_p016.jpg"
       }
      ],
@@ -3445,19 +3778,20 @@
        "page": 5,
        "file": "img/005.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11103331&flNm=%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7+2026-02-26+100126.jpg",
+       "quote": true,
        "box": [
         0,
-        420,
+        772,
         1046,
-        1104
+        869
        ],
        "size": [
         1046,
         1468
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 30,
-       "n_hit": 15,
+       "n_hit": 2,
        "crop": "site/evidence/0131D0/a1_p005.jpg"
       }
      ],
@@ -3490,25 +3824,27 @@
        "page": 4,
        "file": "img/004.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+4.jpg",
+       "quote": true,
        "box": [
         0,
-        748,
+        910,
         1012,
-        1288
+        1007
        ],
        "size": [
         1012,
         1424
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 26,
-       "n_hit": 15,
+       "n_hit": 3,
        "crop": "site/evidence/0130D0/a1_p004.jpg"
       },
       {
        "page": 5,
        "file": "img/005.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+5.jpg",
+       "quote": false,
        "box": [
         0,
         108,
@@ -3547,6 +3883,7 @@
        "page": 14,
        "file": "img/014.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+14.jpg",
+       "quote": false,
        "box": [
         0,
         1192,
@@ -3566,19 +3903,20 @@
        "page": 15,
        "file": "img/015.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+15.jpg",
+       "quote": true,
        "box": [
         0,
-        99,
+        180,
         998,
-        519
+        318
        ],
        "size": [
         998,
         1414
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 26,
-       "n_hit": 7,
+       "n_hit": 5,
        "crop": "site/evidence/0130D0/a2_p015.jpg"
       }
      ],
@@ -3604,19 +3942,20 @@
        "page": 15,
        "file": "img/015.jpg",
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11024921&flNm=%EC%8B%A0%ED%95%9C%EC%A0%9C17%ED%98%B8%EC%8A%A4%ED%8C%A9_%EC%A0%95%EA%B4%80+15.jpg",
+       "quote": true,
        "box": [
         0,
         220,
         998,
-        519
+        318
        ],
        "size": [
         998,
         1414
        ],
-       "how": "lines",
+       "how": "quote",
        "n_lines": 26,
-       "n_hit": 6,
+       "n_hit": 4,
        "crop": "site/evidence/0130D0/a3_p015.jpg"
       }
      ],
@@ -3662,6 +4001,18 @@
      "marks": [
       "② 제1항의 배당은 매결산기말 현재의 주주명부에 기재된 주주 또는 등록된 질권자에게 지급한다."
      ],
+     "images": [],
+     "pdf_pages": []
+    },
+    {
+     "start": 9436,
+     "end": 9535,
+     "how": "fiscal",
+     "quotes": [],
+     "fiscal": true,
+     "text": "제50조(사업년도)\n이 회사의 사업년도는 매년 1월 1일부터 12월 31일까지로 한다. 다만 이 회사의 최초 사업년도는 회사의 설립일로부터 2025년 12월 31일까지로 한다.",
+     "title": "제50조(사업년도)",
+     "marks": [],
      "images": [],
      "pdf_pages": []
     }

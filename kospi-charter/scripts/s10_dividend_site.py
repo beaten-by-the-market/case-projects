@@ -95,8 +95,9 @@ def articles_out(arts: list[dict], folder: str | None) -> list[dict]:
     for a in arts or []:
         out.append({
             "title": a.get("title"), "text": CTRL.sub(" ", a.get("text") or ""), "marks": a.get("marks") or [], "how": a.get("how"),
+            "fiscal": bool(a.get("fiscal")),          # 결산기말 인용의 참고 조(사업연도)
             "imgs": [{"page": i["page"], "crop": i.get("crop"), "src": i.get("src_url"), "file": i.get("file"),
-                      "how": i.get("how"), "src_page": sp.get(i.get("file"))} for i in a.get("images") or []],
+                      "how": i.get("how"), "src_page": sp.get(i.get("file")), "quote": bool(i.get("quote"))} for i in a.get("images") or []],
             "pdf": [{"file": p["pdf"], "page": p["page"], "scanned": p.get("scanned"), "src": pm.get(p["pdf"])}
                     for p in a.get("pdf_pages") or []],
         })
@@ -113,10 +114,14 @@ def notice_out(nv: dict | None, keep: str | None = None) -> list[dict]:
     return out
 
 
-def first_url(ev_arts: list[dict], viewer: str | None, charter_url: str | None) -> tuple[str | None, str]:
-    """해당 문구 URL — 스캔이면 그 쪽 DART 원본 그림, PDF 면 DART PDF(#page), 텍스트면 정관 원문 viewer."""
-    for a in ev_arts:
-        for im in a["imgs"]:
+def first_url(ev_arts: list[dict], viewer: str | None, charter_url: str | None, q0: str = "") -> tuple[str | None, str]:
+    """해당 문구 URL — 스캔이면 그 쪽 DART 원본 그림, PDF 면 DART PDF(#page), 텍스트면 정관 원문 viewer.
+    첫 인용(판별 결정 문장)이 든 조의, 인용이 든 쪽을 앞세운다 (넥센: 참조된 제13조 쪽이 먼저 걸리던 것 — 2026-11-19)."""
+    sq = re.sub(r"\s+", "", q0 or "")[:30]
+    main = [a for a in ev_arts if not a.get("fiscal") and sq and any(sq in re.sub(r"\s+", "", m) for m in a.get("marks") or [])]
+    order = main + [a for a in ev_arts if a not in main and not a.get("fiscal")] + [a for a in ev_arts if a.get("fiscal")]
+    for a in order:
+        for im in sorted(a["imgs"], key=lambda i: not i.get("quote")):
             if im.get("src"):
                 if im.get("src_page"):                       # 분할계획서에서 잘라 낸 신설회사 정관(안): 계획서 원문 쪽
                     return im["src"], f"분할계획서 {im['src_page']}쪽 그림 (DART)"
@@ -260,7 +265,7 @@ def market_rows(sfx: str, market: str | None) -> dict:
         elif not arts and report:
             ev_url, ev_label = r["basis_doc_url"], "사업보고서 본문 (DART)"
         else:
-            ev_url, ev_label = first_url(arts, viewer, charter_url)
+            ev_url, ev_label = first_url(arts, viewer, charter_url, (r["quotes"] or [""])[0])
         res = agm.get(r["basis_notice_rcept_no"] or "", {})
         # 지금 태그를 정한 자료의 판단 — 소집공고·대체 자료가 근거면 그쪽 판단과 중간·분기배당을 쓴다
         note, article, interim, quarterly = r["note"], r["basis_article"], r["interim"], r["quarterly"]

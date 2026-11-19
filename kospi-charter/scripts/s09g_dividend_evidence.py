@@ -45,11 +45,12 @@ MAX_ART = 4000
 WIN = 600
 
 # 조 머리: 앞이 줄 머리·문장 끝이고, 뒤가 본문 속 참조('제1항', '에서', '의 규정' …)가 아닌 '제N조(의M)'
-HEAD = re.compile(r"(?:제\s*(\d{1,3})\s*조|第\s*(\d{1,3})\s*條)(?:\s*의\s*(\d{1,2}))?")
+# '제N조' · '第N條' 에 더해 섞인 '第N조' · '제N條' (스캔 정관 전사 — 대상 '第50조(이익배당)', 고려제강 '第36조 (사업년도)'. 2026-11-19)
+HEAD = re.compile(r"(?:제|第)\s*(\d{1,3})\s*(?:조|條)(?:\s*의\s*(\d{1,2}))?")
 NOT_HEAD_NEXT = re.compile(r"\s*(?:제\s*\d|第\s*\d|에|의\s*규정|의\s*\d|및|또는|부터|까지|와|과|를|을|은|는|이\s|가\s|로|으로|,|·|내지|"
                            r"\d|각\s*호|단서|본문|전단|후단|중|에\s*의|에\s*따)")
 PREV_OK = set("\n.>])」다|*")
-END_MARK = re.compile(r"(?:^|\n)\s*(?:제\s*\d+\s*장|第\s*\d+\s*章|<?\s*부\s*칙|附\s*則)")
+END_MARK = re.compile(r"(?:^|\n)\s*(?:(?:제|第)\s*\d+\s*(?:장|章)|<?\s*부\s*칙|附\s*則)")
 IMG_MARK = re.compile(r"^\[이미지 (\d+)[^\n]*?\] → (img/\S+?)\s*$", re.M)
 PDF_MARK = re.compile(r"^\[PDF (\d{3}): [^\n]*\] → (pdf/\S+)\s*$", re.M)
 PDF_PAGE = re.compile(r"^\[쪽 (\d+)( · (?:OCR|Opus))?\]\s*$", re.M)
@@ -101,7 +102,7 @@ def loose_heads(t: str, lo: int, hi: int) -> list[int]:
     return [m.start() for m in HEAD.finditer(t, lo, hi) if not NOT_HEAD_NEXT.match(t, m.end())]
 
 
-TITLE_RX = re.compile(r"\s*(?:제\s*\d{1,3}\s*조|第\s*\d{1,3}\s*條)(?:\s*의\s*\d{1,2})?\s*[|]?\s*"
+TITLE_RX = re.compile(r"\s*(?:제|第)\s*\d{1,3}\s*(?:조|條)(?:\s*의\s*\d{1,2})?\s*[|]?\s*"
                       r"(?:[(（【\[〔<][^)）】\]〕>\n]{1,25}[)）】\]〕>])?")
 
 
@@ -149,7 +150,7 @@ def pages_of(t: str, s: int, e: int) -> list[dict]:
         nxt = marks[i + 1][0] if i + 1 < len(marks) else len(t)
         lo, hi = max(s, me), min(e, nxt)
         if lo < hi and t[lo:hi].strip():
-            out.append({"page": no, "file": f, "text": t[lo:hi]})
+            out.append({"page": no, "file": f, "text": t[lo:hi], "lo": lo, "hi": hi})
     return out
 
 
@@ -176,7 +177,7 @@ def grams(s: str) -> set[str]:
     return {s[i:i + 3] for i in range(len(s) - 2)}
 
 
-def crop_page(img_path: Path, page_text: str, out: Path) -> dict:
+def crop_page(img_path: Path, page_text: str, out: Path, quote_text: str = "") -> dict:
     from PIL import Image
     import s04b_charter_ocr as O
     g = O.preprocess(img_path)
@@ -184,7 +185,9 @@ def crop_page(img_path: Path, page_text: str, out: Path) -> dict:
         W, H = im.size
         scale = g.width / W
         lines = O.recognize(g)
-        target = grams(page_text)
+        # 인용이 이 쪽에 있으면 인용 글과 맞는 줄로(판별에 쓴 항만 — 넥센 제13조 ①을 두고 ②를 자르던 것), 없으면 조 글로
+        target = grams(quote_text) if quote_text.strip() else grams(page_text)
+        gap = 2 if quote_text.strip() else 3
         rows = []
         for ws in lines:
             txt = "".join(w[0] for w in ws)
@@ -192,10 +195,10 @@ def crop_page(img_path: Path, page_text: str, out: Path) -> dict:
             y1 = max(w[2] + w[4] for w in ws) / scale
             gs = grams(txt)
             hit = len(gs) >= 2 and len(gs & target) / len(gs) >= 0.5
-            rows.append((y0, y1, hit))
+            rows.append((y0, y1, hit, txt))
         rows.sort()
         hits = [i for i, r in enumerate(rows) if r[2]]
-        how = "lines"
+        how = "quote" if quote_text.strip() else "lines"
         if not hits:
             y0, y1, how = 0, H, "page"
         else:
@@ -203,13 +206,18 @@ def crop_page(img_path: Path, page_text: str, out: Path) -> dict:
             best, cur = (hits[0], hits[0]), [hits[0], hits[0]]
             n_best, n_cur = 1, 1
             for i in hits[1:]:
-                if i - cur[1] <= 3:
+                if i - cur[1] <= gap:
                     cur[1] = i
                     n_cur += 1
                 else:
                     cur, n_cur = [i, i], 1
                 if n_cur > n_best:
                     best, n_best = (cur[0], cur[1]), n_cur
+            if quote_text.strip():               # 인용 구간 안에서 다음 조 머리가 나오면 거기서 끊는다 (대상: 第50조 ②와 같은 문장인 제51조 ②까지 붙던 것)
+                for j in range(best[0] + 1, best[1] + 1):
+                    if re.match(r"(?:제|第)\d{1,3}(?:조|條)", rows[j][3]):
+                        best = (best[0], max(best[0], j - 1))
+                        break
             y0 = max(0, rows[best[0]][0] - 18)
             y1 = min(H, rows[best[1]][1] + 18)
         box = (0, int(y0), W, int(y1))
@@ -246,6 +254,16 @@ def charter_evidence(code: str, src: str, quotes: list[str], meta: dict | None, 
             arts[-1]["quotes"].append([a, b])
             continue
         arts.append({"start": st, "end": en, "how": how, "quotes": [[a, b]]})
+    # 인용이 '결산기말'만 말하고 날짜가 없으면 사업연도 조(결산기 = 사업연도 끝)를 참고 조로 더한다 (2026-11-19 피드백)
+    if any(re.search(r"결\s*산\s*기", q) for q in quotes) and not any(re.search(r"\d{1,2}\s*월\s*\d{1,2}\s*일|말\s*일", q) for q in quotes):
+        for h in hs:
+            m = re.match(r"(?:제|第)\s*\d{1,3}\s*(?:조|條)\s*[(（【\[〔<]?\s*사\s*업\s*[연년]\s*도", t[h:h + 30])
+            if m and not any(x["start"] <= h < x["end"] for x in arts):
+                nxt = [x for x in hs if x > h]
+                e2 = min(nxt[0] if nxt else len(t), h + 600)
+                m2 = END_MARK.search(t, h + 1, e2)
+                arts.append({"start": h, "end": m2.start() if m2 else e2, "how": "fiscal", "quotes": [], "fiscal": True})
+                break
     src_by_file = {im["file"]: im.get("src_url") for im in (meta or {}).get("images", [])}
     base = p.parent
     for k, art in enumerate(arts, 1):
@@ -257,13 +275,14 @@ def charter_evidence(code: str, src: str, quotes: list[str], meta: dict | None, 
         pgs = pages_of(t, art["start"], art["end"])
         art["images"] = []
         for i, pg in enumerate(pgs, 1):
-            item = {"page": pg["page"], "file": pg["file"], "src_url": src_by_file.get(pg["file"])}
+            qtext = " ".join(t[max(a, pg["lo"]):min(b, pg["hi"])] for a, b in art["quotes"] if max(a, pg["lo"]) < min(b, pg["hi"]))
+            item = {"page": pg["page"], "file": pg["file"], "src_url": src_by_file.get(pg["file"]), "quote": bool(qtext.strip())}
             out = EVI_DIR / f"{code}{tag_key}" / f"a{k}_p{pg['page']:03d}.jpg"
             if ocr and (base / pg["file"]).exists():
                 side = out.with_suffix(".json")          # 자르기 정보(줄 단위/쪽 전체·상자) — 다시 돌릴 때 그림과 함께 재사용
                 if not out.exists():
                     try:
-                        cm = crop_page(base / pg["file"], pg["text"], out)
+                        cm = crop_page(base / pg["file"], pg["text"], out, qtext)
                         item.update(cm)
                         write_json(side, cm)
                     except Exception as ex:      # OCR 실패 — 쪽 전체 원본 주소만 남긴다

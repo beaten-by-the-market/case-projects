@@ -372,13 +372,14 @@
   const slash = (s) => esc(s).replace(/ \/ /g, "<br>");
   // 인용이 가리키는 다른 조항 (예: '제17조 제2항에서 정한 날'), 근거 글(ev.arts)에 그 조가 있으면 해당 항을 함께 보인다. 법령 조문(상법 제462조 등)은 뺀다.
   const CIRC = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳";
-  const artNo = (t) => { const m = String(t || "").match(/(?:제\s*(\d+)\s*조|第\s*(\d+)\s*條)(?:\s*의\s*(\d+))?/); return m ? `${m[1] || m[2]}${m[3] ? `-${m[3]}` : ""}` : ""; };
+  // 조 번호: '제N조' · '第N條' 에 섞인 '第N조' · '제N條'(스캔 정관 전사)도 (2026-11-19)
+  const artNo = (t) => { const m = String(t || "").match(/(?:제|第)\s*(\d+)\s*(?:조|條)(?:\s*의\s*(\d+))?/); return m ? `${m[1]}${m[2] ? `-${m[2]}` : ""}` : ""; };
   const refsIn = (s) => {
-    const out = [], re = /(?:제\s*(\d+)\s*조|第\s*(\d+)\s*條)(?:\s*의\s*(\d+))?(?:\s*(?:제\s*(\d+)\s*항|第\s*(\d+)\s*項|([①-⑳])))?/g;
+    const out = [], re = /(?:제|第)\s*(\d+)\s*(?:조|條)(?:\s*의\s*(\d+))?(?:\s*(?:(?:제|第)\s*(\d+)\s*(?:항|項)|([①-⑳])))?/g;
     let m;
     while ((m = re.exec(s))) {
       if (/(법|령|규정|법률|시행령)\s*$/.test(s.slice(Math.max(0, m.index - 12), m.index))) continue;
-      out.push({ no: `${m[1] || m[2]}${m[3] ? `-${m[3]}` : ""}`, hang: m[4] || m[5] ? Number(m[4] || m[5]) : m[6] ? CIRC.indexOf(m[6]) + 1 : 0, label: m[0].replace(/\s+/g, " ").trim() });
+      out.push({ no: `${m[1]}${m[2] ? `-${m[2]}` : ""}`, hang: m[3] ? Number(m[3]) : m[4] ? CIRC.indexOf(m[4]) + 1 : 0, label: m[0].replace(/\s+/g, " ").trim() });
     }
     return out;
   };
@@ -437,10 +438,13 @@
     // 첫 인용(LLM 이 결정 문장부터 낸다)이 든 조를 보인다, 참조형이면 배당 조와 기준일 조가 둘 다 있다
     const sq = (s) => String(s || "").replace(/\s+/g, "");
     const q0 = sq((r.quotes || [])[0]).slice(0, 30);
-    const art = (q0 && arts.find((a) => (a.marks || []).some((m) => sq(m).includes(q0)) || sq(a.text).includes(q0))) || arts[0];
+    const body = arts.filter((a) => !a.fiscal);
+    const art = (q0 && body.find((a) => (a.marks || []).some((m) => sq(m).includes(q0)) || sq(a.text).includes(q0))) || body[0] || arts[0];
     const q = (r.quotes || [])[0] || (art.marks || [])[0] || art.text.slice(0, 140);
-    const im = (art.imgs || []).find((x) => x.crop);
-    const refs = refArts(q, art, arts, r.quotes).map((x) => `<span class="evref"><b class="evt">→ ${esc(x.label)}${x.name ? ` (${esc(x.name)})` : ""}</b><span class="evq">${esc(x.text)}</span></span>`).join("");
+    const im = (art.imgs || []).find((x) => x.crop && x.quote) || (art.imgs || []).find((x) => x.crop);     // 인용이 든 쪽의 그림을 앞세운다
+    const refs = refArts(q, art, arts, r.quotes).map((x) => `<span class="evref"><b class="evt">→ ${esc(x.label)}${x.name ? ` (${esc(x.name)})` : ""}</b><span class="evq">${esc(x.text)}</span></span>`).join("")
+      // 결산기말 인용이면 사업연도 조(결산기 = 사업연도 끝)를 참고로 (2026-11-19 피드백)
+      + arts.filter((a) => a.fiscal).map((a) => `<span class="evref"><b class="evt">→ ${esc(a.title || "사업연도")} <span class="small">(결산기)</span></b><span class="evq">${esc(String(a.text || "").replace(/^\s*\S+\s*[(（【\[]?[^)）】\]]*[)）】\]]?\s*/, "").replace(/\s+/g, " ").slice(0, 120))}</span></span>`).join("");
     const alt = r.basis_kind === "전년도 사업보고서" ? `<b class="evt evalt">전년도 정관</b>${altWhy(r)}` : "";
     return `${alt}<b class="evt">${esc(art.title || "")}</b><span class="evq">${esc(q)}</span>${refs}${im ? `<img class="evthumb" src="${esc(href(im.crop))}" alt="${esc(`${art.title || ""} 스캔 ${im.page}쪽 해당 부분`)}" loading="lazy">` : ""}`;
   };
