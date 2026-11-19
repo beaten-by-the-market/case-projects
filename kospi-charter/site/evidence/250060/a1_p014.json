@@ -1,17 +1,18 @@
 {
  "box": [
   0,
-  0,
+  674,
   595,
-  842
+  807
  ],
  "size": [
   595,
   842
  ],
- "how": "page",
+ "how": "region",
  "n_lines": 37,
  "n_hit": 0,
  "scope": "page",
- "own_head": true
+ "own_head": true,
+ "two_col": false
 }

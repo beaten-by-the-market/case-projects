@@ -251,6 +251,7 @@
        "n_hit": 0,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/070590/a1_p014.jpg"
       }
      ],
@@ -354,6 +355,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0041B0/a1_p014.jpg"
       }
      ],
@@ -395,6 +397,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0041B0/a2_p014.jpg"
       }
      ],
@@ -430,6 +433,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0041B0/a3_p012.jpg"
       },
       {
@@ -452,6 +456,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/0041B0/a3_p013.jpg"
       }
      ],
@@ -500,6 +505,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/466690/a1_p004.jpg"
       }
      ],
@@ -541,6 +547,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/466690/a2_p014.jpg"
       }
      ],
@@ -589,6 +596,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/482520/a1_p013.jpg"
       }
      ],
@@ -630,6 +638,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/482520/a2_p013.jpg"
       },
       {
@@ -652,6 +661,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/482520/a2_p014.jpg"
       }
      ],
@@ -687,6 +697,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/482520/a3_p012.jpg"
       }
      ],
@@ -735,6 +746,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/489210/a1_p013.jpg"
       }
      ],
@@ -776,6 +788,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/489210/a2_p013.jpg"
       },
       {
@@ -798,6 +811,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/489210/a2_p014.jpg"
       }
      ],
@@ -833,6 +847,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/489210/a3_p012.jpg"
       }
      ],
@@ -881,6 +896,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0098T0/a1_p013.jpg"
       }
      ],
@@ -922,6 +938,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0098T0/a2_p013.jpg"
       },
       {
@@ -931,19 +948,20 @@
        "quote": false,
        "box": [
         0,
-        0,
+        333,
         2480,
-        3508
+        493
        ],
        "size": [
         2480,
         3508
        ],
-       "how": "page",
+       "how": "region",
        "n_lines": 28,
        "n_hit": 0,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/0098T0/a2_p014.jpg"
       }
      ],
@@ -979,6 +997,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0098T0/a3_p012.jpg"
       }
      ],
@@ -1155,6 +1174,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/017480/a1_p011.jpg"
       },
       {
@@ -1177,6 +1197,7 @@
        "n_hit": 7,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/017480/a1_p012.jpg"
       }
      ],
@@ -1225,6 +1246,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/477380/a1_p015.jpg"
       }
      ],
@@ -1260,6 +1282,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/477380/a2_p014.jpg"
       }
      ],
@@ -1406,6 +1429,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/001000/a1_p015.jpg"
       }
      ],
@@ -1447,6 +1471,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/001000/a2_p015.jpg"
       },
       {
@@ -1469,6 +1494,7 @@
        "n_hit": 14,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/001000/a2_p016.jpg"
       }
      ],
@@ -1504,6 +1530,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/001000/a3_p014.jpg"
       }
      ],
@@ -1552,6 +1579,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0096D0/a1_p016.jpg"
       }
      ],
@@ -1587,6 +1615,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0096D0/a2_p015.jpg"
       }
      ],
@@ -1635,6 +1664,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0099W0/a1_p016.jpg"
       }
      ],
@@ -1670,6 +1700,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0099W0/a2_p015.jpg"
       }
      ],
@@ -1953,6 +1984,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/188260/a1_p009.jpg"
       },
       {
@@ -1975,6 +2007,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/188260/a1_p010.jpg"
       }
      ],
@@ -2016,6 +2049,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/188260/a2_p020.jpg"
       }
      ],
@@ -2051,6 +2085,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/188260/a3_p019.jpg"
       }
      ],
@@ -2114,6 +2149,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/469480/a1_p012.jpg"
       },
       {
@@ -2136,6 +2172,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/469480/a1_p013.jpg"
       }
      ],
@@ -2441,6 +2478,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0091W0/a1_p004.jpg"
       }
      ],
@@ -2482,6 +2520,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0091W0/a2_p014.jpg"
       }
      ],
@@ -2523,6 +2562,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0091W0/a3_p015.jpg"
       }
      ],
@@ -2608,6 +2648,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0044K0/a1_p013.jpg"
       }
      ],
@@ -2649,6 +2690,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0044K0/a2_p013.jpg"
       }
      ],
@@ -2684,6 +2726,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0044K0/a3_p012.jpg"
       }
      ],
@@ -2833,6 +2876,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0072Z0/a1_p014.jpg"
       }
      ],
@@ -2874,6 +2918,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0072Z0/a2_p014.jpg"
       },
       {
@@ -2896,6 +2941,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/0072Z0/a2_p015.jpg"
       }
      ],
@@ -2931,6 +2977,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0072Z0/a3_p013.jpg"
       }
      ],
@@ -3062,6 +3109,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/482690/a1_p015.jpg"
       }
      ],
@@ -3153,6 +3201,7 @@
        "n_hit": 6,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/042500/a1_p005.jpg"
       }
      ],
@@ -3194,6 +3243,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/042500/a2_p011.jpg"
       }
      ],
@@ -3242,6 +3292,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/478390/a1_p014.jpg"
       }
      ],
@@ -3283,6 +3334,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/478390/a2_p014.jpg"
       },
       {
@@ -3305,6 +3357,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/478390/a2_p015.jpg"
       }
      ],
@@ -3340,6 +3393,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/478390/a3_p013.jpg"
       }
      ],
@@ -3507,6 +3561,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/095700/a1_p019.jpg"
       }
      ],
@@ -3548,6 +3603,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/095700/a2_p019.jpg"
       },
       {
@@ -3570,6 +3626,7 @@
        "n_hit": 6,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/095700/a2_p020.jpg"
       }
      ],
@@ -3704,6 +3761,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/492220/a1_p014.jpg"
       }
      ],
@@ -3750,6 +3808,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/492220/a2_p014.jpg"
       },
       {
@@ -3772,6 +3831,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/492220/a2_p015.jpg"
       }
      ],
@@ -3807,6 +3867,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/492220/a3_p013.jpg"
       }
      ],
@@ -4045,6 +4106,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/486630/a1_p014.jpg"
       }
      ],
@@ -4091,6 +4153,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/486630/a2_p014.jpg"
       },
       {
@@ -4113,6 +4176,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/486630/a2_p015.jpg"
       }
      ],
@@ -4148,6 +4212,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/486630/a3_p013.jpg"
       }
      ],
@@ -4388,6 +4453,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0037T0/a1_p014.jpg"
       }
      ],
@@ -4434,6 +4500,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0037T0/a2_p014.jpg"
       },
       {
@@ -4456,6 +4523,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/0037T0/a2_p015.jpg"
       }
      ],
@@ -4491,6 +4559,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0037T0/a3_p013.jpg"
       }
      ],
@@ -4665,6 +4734,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/496070/a1_p004.jpg"
       },
       {
@@ -4687,6 +4757,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/496070/a1_p005.jpg"
       }
      ],
@@ -4728,6 +4799,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/496070/a2_p014.jpg"
       },
       {
@@ -4750,6 +4822,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/496070/a2_p015.jpg"
       }
      ],
@@ -4791,6 +4864,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/496070/a3_p015.jpg"
       }
      ],
@@ -4965,6 +5039,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/474490/a1_p004.jpg"
       },
       {
@@ -4987,6 +5062,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/474490/a1_p005.jpg"
       }
      ],
@@ -5028,6 +5104,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/474490/a2_p015.jpg"
       }
      ],
@@ -5069,6 +5146,7 @@
        "n_hit": 4,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/474490/a3_p015.jpg"
       }
      ],
@@ -5117,6 +5195,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/096240/a1_p008.jpg"
       }
      ],
@@ -5158,6 +5237,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/096240/a2_p019.jpg"
       }
      ],
@@ -5256,6 +5336,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/478440/a1_p015.jpg"
       }
      ],
@@ -5297,6 +5378,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/478440/a2_p015.jpg"
       }
      ],
@@ -5332,6 +5414,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/478440/a3_p014.jpg"
       }
      ],
@@ -5460,6 +5543,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0097F0/a1_p016.jpg"
       }
      ],
@@ -5495,6 +5579,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0097F0/a2_p015.jpg"
       }
      ],
@@ -5543,6 +5628,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/382800/a1_p018.jpg"
       }
      ],
@@ -5584,6 +5670,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/382800/a2_p018.jpg"
       }
      ],
@@ -5672,6 +5759,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0099X0/a1_p012.jpg"
       },
       {
@@ -5694,6 +5782,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/0099X0/a1_p013.jpg"
       }
      ],
@@ -5742,6 +5831,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/052260/a1_p018.jpg"
       },
       {
@@ -5764,6 +5854,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/052260/a1_p019.jpg"
       }
      ],
@@ -5968,6 +6059,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/019770/a1_p005.jpg"
       },
       {
@@ -5990,6 +6082,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/019770/a1_p006.jpg"
       }
      ],
@@ -6031,6 +6124,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/019770/a2_p014.jpg"
       }
      ],
@@ -6058,30 +6152,7 @@
      "marks": [
       "① 회사는 의결권을 행사하거나 배당을 받을 자 기타 주주 또는 질권자로서 권리를 행사할 자를 정하기 위하여 이사회 결의로 일정한 기간을 정하여 주주명부의 기재변경을 정지하거나 일정한 날에 주주명부에 기재된 주주 또는 질권자를 그 권리를 행사할 주주 또는 질권자로 볼 수 있다."
      ],
-     "images": [
-      {
-       "page": 1,
-       "file": "img/001.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114266&flNm=%EC%A0%95%EA%B4%80.jpg",
-       "quote": true,
-       "box": [
-        0,
-        0,
-        643,
-        810
-       ],
-       "size": [
-        643,
-        810
-       ],
-       "how": "page",
-       "n_lines": 5,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/298380/a1_p001.jpg"
-      }
-     ],
+     "images": [],
      "pdf_pages": []
     },
     {
@@ -6099,30 +6170,7 @@
      "marks": [
       "③ 제1항의 배당은 제16조 제1항에 따라 정한 날 현재의 주주명부에 기재된 주주 또는 등록된 질권자에게 지급한다."
      ],
-     "images": [
-      {
-       "page": 1,
-       "file": "img/001.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11114266&flNm=%EC%A0%95%EA%B4%80.jpg",
-       "quote": true,
-       "box": [
-        0,
-        0,
-        643,
-        810
-       ],
-       "size": [
-        643,
-        810
-       ],
-       "how": "page",
-       "n_lines": 5,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/298380/a2_p001.jpg"
-      }
-     ],
+     "images": [],
      "pdf_pages": []
     }
    ]
@@ -6257,6 +6305,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/062970/a1_p006.jpg"
       }
      ],
@@ -6292,6 +6341,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/062970/a2_p005.jpg"
       }
      ],
@@ -6520,42 +6570,21 @@
        "quote": true,
        "box": [
         0,
-        0,
+        674,
         595,
-        842
+        807
        ],
        "size": [
         595,
         842
        ],
-       "how": "page",
+       "how": "region",
        "n_lines": 37,
        "n_hit": 0,
        "scope": "page",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/250060/a1_p014.jpg"
-      },
-      {
-       "page": 15,
-       "file": "img/015.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11115225&flNm=%EB%AA%A8%EB%B9%84%EC%8A%A4+%EC%A0%95%EA%B4%80_15.jpg",
-       "quote": false,
-       "box": [
-        0,
-        56,
-        595,
-        114
-       ],
-       "size": [
-        595,
-        842
-       ],
-       "how": "lines",
-       "n_lines": 36,
-       "n_hit": 2,
-       "scope": "art",
-       "own_head": false,
-       "crop": "site/evidence/250060/a1_p015.jpg"
       }
      ],
      "pdf_pages": []
@@ -6590,6 +6619,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/250060/a2_p013.jpg"
       }
      ],
@@ -6638,6 +6668,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/482680/a1_p015.jpg"
       }
      ],
@@ -6673,6 +6704,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/482680/a2_p014.jpg"
       }
      ],
@@ -6721,6 +6753,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/263690/a1_p014.jpg"
       },
       {
@@ -6743,6 +6776,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/263690/a1_p015.jpg"
       }
      ],
@@ -6778,6 +6812,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/263690/a2_p013.jpg"
       }
      ],
@@ -6956,6 +6991,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/291230/a1_p009.jpg"
       }
      ],
@@ -6997,6 +7033,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/291230/a2_p017.jpg"
       }
      ],
@@ -7770,6 +7807,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/489480/a1_p004.jpg"
       }
      ],
@@ -7811,6 +7849,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/489480/a2_p014.jpg"
       }
      ],
@@ -7935,6 +7974,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/303810/a1_p021.jpg"
       }
      ],
@@ -7963,19 +8003,20 @@
        "quote": true,
        "box": [
         0,
-        0,
+        263,
         609,
-        803
+        751
        ],
        "size": [
         609,
         803
        ],
-       "how": "page",
+       "how": "region",
        "n_lines": 29,
        "n_hit": 0,
        "scope": "page",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/303810/a2_p021.jpg"
       }
      ],
@@ -8011,6 +8052,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/303810/a3_p019.jpg"
       }
      ],
@@ -8059,6 +8101,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/457550/a1_p007.jpg"
       }
      ],
@@ -8100,6 +8143,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/457550/a2_p015.jpg"
       }
      ],
@@ -8191,6 +8235,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/397030/a1_p014.jpg"
       }
      ],
@@ -8226,6 +8271,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/397030/a2_p013.jpg"
       }
      ],
@@ -9138,6 +9184,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/045300/a1_p012.jpg"
       }
      ],
@@ -9173,6 +9220,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/045300/a2_p012.jpg"
       }
      ],
@@ -9691,6 +9739,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/479880/a1_p014.jpg"
       },
       {
@@ -9713,6 +9762,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/479880/a1_p015.jpg"
       }
      ],
@@ -9754,6 +9804,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/479880/a2_p015.jpg"
       }
      ],
@@ -9789,6 +9840,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/479880/a3_p013.jpg"
       }
      ],
@@ -9880,6 +9932,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/293580/a1_p017.jpg"
       }
      ],
@@ -9915,6 +9968,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/293580/a2_p016.jpg"
       }
      ],
@@ -9968,6 +10022,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/459100/a1_p017.jpg"
       },
       {
@@ -9990,6 +10045,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/459100/a1_p018.jpg"
       }
      ],
@@ -10080,6 +10136,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/001810/a1_p016.jpg"
       }
      ],
@@ -10128,6 +10185,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/041910/a1_p016.jpg"
       }
      ],
@@ -10163,6 +10221,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/041910/a2_p015.jpg"
       }
      ],
@@ -10490,6 +10549,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/477470/a1_p015.jpg"
       }
      ],
@@ -10525,6 +10585,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/477470/a2_p014.jpg"
       }
      ],
@@ -10616,6 +10677,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/468760/a1_p014.jpg"
       },
       {
@@ -10638,6 +10700,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/468760/a1_p015.jpg"
       }
      ],
@@ -10679,6 +10742,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/468760/a2_p015.jpg"
       }
      ],
@@ -10714,6 +10778,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/468760/a3_p013.jpg"
       }
      ],
@@ -10845,6 +10910,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/014940/a1_p017.jpg"
       }
      ],
@@ -10880,6 +10946,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/014940/a2_p016.jpg"
       }
      ],
@@ -11845,6 +11912,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/036010/a1_p016.jpg"
       },
       {
@@ -11867,6 +11935,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/036010/a1_p017.jpg"
       }
      ],
@@ -12016,6 +12085,7 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0071M0/a1_p004.jpg"
       },
       {
@@ -12038,6 +12108,7 @@
        "n_hit": 7,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/0071M0/a1_p005.jpg"
       }
      ],
@@ -12079,6 +12150,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0071M0/a2_p016.jpg"
       }
      ],
@@ -12120,6 +12192,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0071M0/a3_p016.jpg"
       }
      ],
@@ -12155,6 +12228,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0071M0/a4_p014.jpg"
       }
      ],
@@ -12289,6 +12363,7 @@
        "n_hit": 3,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/146320/a1_p007.jpg"
       }
      ],
@@ -12330,6 +12405,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/146320/a2_p016.jpg"
       }
      ],
@@ -12435,6 +12511,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/078020/a1_p011.jpg"
       }
      ],
@@ -12476,6 +12553,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/078020/a2_p021.jpg"
       },
       {
@@ -12498,6 +12576,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/078020/a2_p022.jpg"
       }
      ],
@@ -12683,6 +12762,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/117670/a1_p015.jpg"
       }
      ],
@@ -12724,6 +12804,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/117670/a2_p015.jpg"
       }
      ],
@@ -13435,6 +13516,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/376300/a1_p006.jpg"
       }
      ],
@@ -13476,6 +13558,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/376300/a2_p013.jpg"
       }
      ],
@@ -13719,6 +13802,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/054780/a1_p016.jpg"
       }
      ],
@@ -13760,6 +13844,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/054780/a2_p016.jpg"
       },
       {
@@ -13782,6 +13867,7 @@
        "n_hit": 14,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/054780/a2_p017.jpg"
       }
      ],
@@ -13977,30 +14063,7 @@
       "③제1항의 배당은 이사회 결의로 정하는 배당기준일 현재의 주주명부에 기재된 주주 또는 등록된 질권자에게 지급한다. <개정 2021.03.23>",
       "※제17조 2항에 따라 정한 정기주주총회의 기준일과 다른 날로 배당기준일을 정할 수 있음. <주석 신설 2021.03.23>"
      ],
-     "images": [
-      {
-       "page": 1,
-       "file": "img/001.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11126278&flNm=%EC%A0%95%EA%B4%80_%EB%82%A0%EC%9D%B8.jpg",
-       "quote": true,
-       "box": [
-        0,
-        0,
-        2480,
-        3507
-       ],
-       "size": [
-        2480,
-        3507
-       ],
-       "how": "page",
-       "n_lines": 1,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/263860/a1_p001.jpg"
-      }
-     ],
+     "images": [],
      "pdf_pages": []
     }
    ]
@@ -14171,6 +14234,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/053270/a1_p015.jpg"
       }
      ],
@@ -14206,6 +14270,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/053270/a2_p014.jpg"
       }
      ],
@@ -14328,6 +14393,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/159010/a1_p008.jpg"
       }
      ],
@@ -14369,6 +14435,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/159010/a2_p019.jpg"
       }
      ],
@@ -14417,6 +14484,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/006140/a1_p005.jpg"
       }
      ],
@@ -14465,6 +14533,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/197140/a1_p015.jpg"
       },
       {
@@ -14474,19 +14543,20 @@
        "quote": false,
        "box": [
         0,
-        0,
+        418,
         2480,
-        3508
+        555
        ],
        "size": [
         2480,
         3508
        ],
-       "how": "page",
+       "how": "region",
        "n_lines": 27,
        "n_hit": 0,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/197140/a1_p016.jpg"
       }
      ],
@@ -14522,6 +14592,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/197140/a2_p015.jpg"
       }
      ],
@@ -14595,6 +14666,7 @@
        "n_hit": 7,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/214370/a1_p017.jpg"
       },
       {
@@ -14617,6 +14689,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/214370/a1_p018.jpg"
       }
      ],
@@ -14727,6 +14800,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/323990/a1_p009.jpg"
       }
      ],
@@ -14929,6 +15003,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/357780/a1_p016.jpg"
       }
      ],
@@ -14970,29 +15045,8 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/357780/a2_p016.jpg"
-      },
-      {
-       "page": 17,
-       "file": "img/017.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129509&flNm=%EC%A0%95%EA%B4%8017.jpg",
-       "quote": false,
-       "box": [
-        0,
-        0,
-        644,
-        822
-       ],
-       "size": [
-        644,
-        822
-       ],
-       "how": "page",
-       "n_lines": 13,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/357780/a2_p017.jpg"
       }
      ],
      "pdf_pages": []
@@ -15086,42 +15140,44 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/114630/a1_p016.jpg"
       }
      ],
      "pdf_pages": []
     },
     {
-     "start": 1165,
-     "end": 1176,
+     "start": 15753,
+     "end": 15808,
      "how": "fiscal",
      "quotes": [],
      "fiscal": true,
-     "text": "제51조(사업연도)",
+     "text": "제51조(사업연도) 회사의 사업연도는 매년 01월 01일부터 같은 해 12월 31일까지로 한다.",
      "title": "제51조(사업연도)",
      "marks": [],
      "images": [
       {
-       "page": 3,
-       "file": "img/003.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129677&flNm=%EC%A0%95%EA%B4%80-3.jpg",
+       "page": 15,
+       "file": "img/015.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11129677&flNm=%EC%A0%95%EA%B4%80-15.jpg",
        "quote": false,
        "box": [
         0,
-        1809,
+        1915,
         1653,
-        1857
+        2015
        ],
        "size": [
         1653,
         2338
        ],
        "how": "lines",
-       "n_lines": 38,
+       "n_lines": 32,
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
-       "crop": "site/evidence/114630/a2_p003.jpg"
+       "two_col": false,
+       "crop": "site/evidence/114630/a2_p015.jpg"
       }
      ],
      "pdf_pages": []
@@ -15553,6 +15609,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/255220/a1_p017.jpg"
       }
      ],
@@ -15594,6 +15651,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/255220/a2_p017.jpg"
       },
       {
@@ -15616,6 +15674,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/255220/a2_p018.jpg"
       }
      ],
@@ -16375,6 +16434,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0105P0/a1_p015.jpg"
       }
      ],
@@ -16416,6 +16476,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0105P0/a2_p015.jpg"
       }
      ],
@@ -16451,6 +16512,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0105P0/a3_p013.jpg"
       }
      ],
@@ -16499,6 +16561,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/339950/a1_p018.jpg"
       }
      ],
@@ -16814,6 +16877,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/290660/a1_p020.jpg"
       }
      ],
@@ -16985,6 +17049,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/289930/a1_p018.jpg"
       }
      ],
@@ -17020,6 +17085,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/289930/a2_p018.jpg"
       }
      ],
@@ -17225,6 +17291,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/027580/a1_p014.jpg"
       }
      ],
@@ -17260,6 +17327,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/027580/a2_p013.jpg"
       }
      ],
@@ -18195,6 +18263,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0088D0/a1_p016.jpg"
       }
      ],
@@ -18236,6 +18305,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0088D0/a2_p016.jpg"
       }
      ],
@@ -18271,6 +18341,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0088D0/a3_p014.jpg"
       }
      ],
@@ -18431,6 +18502,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/038680/a1_p013.jpg"
       }
      ],
@@ -18578,6 +18650,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/298540/a1_p007.jpg"
       }
      ],
@@ -18619,6 +18692,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/298540/a2_p014.jpg"
       }
      ],
@@ -18794,6 +18868,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/078890/a1_p014.jpg"
       }
      ],
@@ -18829,6 +18904,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/078890/a2_p013.jpg"
       }
      ],
@@ -18929,6 +19005,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/263720/a1_p011.jpg"
       }
      ],
@@ -19206,6 +19283,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/095340/a1_p012.jpg"
       }
      ],
@@ -19241,6 +19319,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/095340/a2_p011.jpg"
       }
      ],
@@ -19366,6 +19445,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/488060/a1_p014.jpg"
       },
       {
@@ -19388,6 +19468,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/488060/a1_p015.jpg"
       }
      ],
@@ -19429,6 +19510,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/488060/a2_p015.jpg"
       }
      ],
@@ -19464,6 +19546,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/488060/a3_p013.jpg"
       }
      ],
@@ -19555,6 +19638,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/452400/a1_p009.jpg"
       }
      ],
@@ -19596,6 +19680,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/452400/a2_p018.jpg"
       }
      ],
@@ -19644,6 +19729,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/489730/a1_p015.jpg"
       }
      ],
@@ -19685,6 +19771,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/489730/a2_p015.jpg"
       }
      ],
@@ -19720,6 +19807,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/489730/a3_p013.jpg"
       }
      ],
@@ -19793,6 +19881,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/023770/a1_p008.jpg"
       }
      ],
@@ -19834,6 +19923,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/023770/a2_p017.jpg"
       }
      ],
@@ -20116,6 +20206,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/368770/a1_p015.jpg"
       }
      ],
@@ -20151,6 +20242,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/368770/a2_p014.jpg"
       }
      ],
@@ -20346,6 +20438,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/163280/a1_p010.jpg"
       },
       {
@@ -20368,6 +20461,7 @@
        "n_hit": 7,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/163280/a1_p011.jpg"
       }
      ],
@@ -20409,6 +20503,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/163280/a2_p022.jpg"
       }
      ],
@@ -20552,6 +20647,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0004Y0/a1_p015.jpg"
       }
      ],
@@ -20593,6 +20689,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0004Y0/a2_p015.jpg"
       }
      ],
@@ -20628,6 +20725,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0004Y0/a3_p013.jpg"
       }
      ],
@@ -20775,6 +20873,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/357550/a1_p016.jpg"
       }
      ],
@@ -20810,6 +20909,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/357550/a2_p015.jpg"
       }
      ],
@@ -21139,6 +21239,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/012860/a1_p017.jpg"
       },
       {
@@ -21161,42 +21262,44 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/012860/a1_p018.jpg"
       }
      ],
      "pdf_pages": []
     },
     {
-     "start": 4541,
-     "end": 4645,
+     "start": 18878,
+     "end": 18931,
      "how": "fiscal",
      "quotes": [],
      "fiscal": true,
-     "text": "제 42 조 (사업연도)........................................................................................13",
+     "text": "제 42 조 (사업연도)\n본 회사의 사업연도는 매년 1월 1일부터 12월 31일까지로 한다.",
      "title": "제 42 조 (사업연도)",
      "marks": [],
      "images": [
       {
-       "page": 4,
-       "file": "img/004.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135952&flNm=%EC%A0%95%EA%B4%80_2025.03.26_%EC%A0%9C27%EC%B0%A8_4.jpg",
+       "page": 17,
+       "file": "img/017.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11135952&flNm=%EC%A0%95%EA%B4%80_2025.03.26_%EC%A0%9C27%EC%B0%A8_17.jpg",
        "quote": false,
        "box": [
         0,
-        389,
+        223,
         1032,
-        435
+        307
        ],
        "size": [
         1032,
         1457
        ],
        "how": "lines",
-       "n_lines": 15,
-       "n_hit": 1,
+       "n_lines": 38,
+       "n_hit": 2,
        "scope": "art",
        "own_head": true,
-       "crop": "site/evidence/012860/a2_p004.jpg"
+       "two_col": false,
+       "crop": "site/evidence/012860/a2_p017.jpg"
       }
      ],
      "pdf_pages": []
@@ -21729,6 +21832,7 @@
        "n_hit": 8,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/340440/a1_p007.jpg"
       }
      ],
@@ -21770,6 +21874,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/340440/a2_p015.jpg"
       }
      ],
@@ -21811,6 +21916,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/340440/a3_p015.jpg"
       }
      ],
@@ -21957,30 +22063,7 @@
      "marks": [
       "③ 제1항의 배당은 매결산기말 현재의 주주명부에 기재된 주주 또는 등록된"
      ],
-     "images": [
-      {
-       "page": 2,
-       "file": "img/002.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136423&flNm=%EC%A0%95%EA%B4%80%EC%82%AC%EB%B3%B82.jpg",
-       "quote": true,
-       "box": [
-        0,
-        0,
-        2480,
-        3507
-       ],
-       "size": [
-        2480,
-        3507
-       ],
-       "how": "page",
-       "n_lines": 6,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/101240/a1_p002.jpg"
-      }
-     ],
+     "images": [],
      "pdf_pages": []
     },
     {
@@ -21998,30 +22081,7 @@
      "marks": [
       "① 회사는 이사회의 결의로 사업연도 개시일부터 3월6월 및 9월의 말일(이"
      ],
-     "images": [
-      {
-       "page": 2,
-       "file": "img/002.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11136423&flNm=%EC%A0%95%EA%B4%80%EC%82%AC%EB%B3%B82.jpg",
-       "quote": true,
-       "box": [
-        0,
-        0,
-        2480,
-        3507
-       ],
-       "size": [
-        2480,
-        3507
-       ],
-       "how": "page",
-       "n_lines": 6,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/101240/a2_p002.jpg"
-      }
-     ],
+     "images": [],
      "pdf_pages": []
     }
    ]
@@ -22067,6 +22127,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/336060/a1_p018.jpg"
       }
      ],
@@ -22227,6 +22288,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/477760/a1_p015.jpg"
       }
      ],
@@ -22268,6 +22330,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/477760/a2_p015.jpg"
       }
      ],
@@ -22303,6 +22366,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/477760/a3_p013.jpg"
       }
      ],
@@ -22661,6 +22725,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/440290/a1_p024.jpg"
       }
      ],
@@ -22696,6 +22761,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/440290/a2_p023.jpg"
       }
      ],
@@ -23062,6 +23128,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/262840/a1_p017.jpg"
       }
      ],
@@ -23211,6 +23278,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/463020/a1_p017.jpg"
       }
      ],
@@ -23531,6 +23599,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/464580/a1_p006.jpg"
       }
      ],
@@ -23572,6 +23641,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/464580/a2_p013.jpg"
       }
      ],
@@ -23738,6 +23808,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/330350/a1_p007.jpg"
       }
      ],
@@ -23779,6 +23850,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/330350/a2_p014.jpg"
       },
       {
@@ -23801,6 +23873,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/330350/a2_p015.jpg"
       }
      ],
@@ -23842,6 +23915,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/330350/a3_p015.jpg"
       }
      ],
@@ -24127,6 +24201,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/190510/a1_p013.jpg"
       }
      ],
@@ -24168,6 +24243,7 @@
        "n_hit": 1,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/190510/a2_p021.jpg"
       }
      ],
@@ -24372,6 +24448,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/361390/a1_p016.jpg"
       }
      ],
@@ -24420,6 +24497,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/424760/a1_p005.jpg"
       },
       {
@@ -24442,6 +24520,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/424760/a1_p006.jpg"
       }
      ],
@@ -24483,6 +24562,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/424760/a2_p011.jpg"
       }
      ],
@@ -24518,6 +24598,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/424760/a3_p010.jpg"
       }
      ],
@@ -24624,6 +24705,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/162300/a1_p010.jpg"
       }
      ],
@@ -24665,6 +24747,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/162300/a2_p021.jpg"
       }
      ],
@@ -24713,6 +24796,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/009520/a1_p014.jpg"
       }
      ],
@@ -24967,6 +25051,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/355150/a1_p014.jpg"
       }
      ],
@@ -25221,6 +25306,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0115H0/a1_p013.jpg"
       }
      ],
@@ -25262,6 +25348,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0115H0/a2_p013.jpg"
       }
      ],
@@ -25297,6 +25384,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0115H0/a3_p012.jpg"
       }
      ],
@@ -25345,6 +25433,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/226950/a1_p015.jpg"
       }
      ],
@@ -25386,6 +25475,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/226950/a2_p015.jpg"
       },
       {
@@ -25408,6 +25498,7 @@
        "n_hit": 7,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/226950/a2_p016.jpg"
       }
      ],
@@ -25514,6 +25605,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/306040/a1_p018.jpg"
       }
      ],
@@ -25555,6 +25647,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/306040/a2_p018.jpg"
       }
      ],
@@ -25764,6 +25857,7 @@
        "n_hit": 3,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/089010/a1_p014.jpg"
       },
       {
@@ -25786,6 +25880,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/089010/a1_p015.jpg"
       }
      ],
@@ -26316,6 +26411,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/235980/a1_p024.jpg"
       }
      ],
@@ -26401,6 +26497,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/289010/a1_p015.jpg"
       }
      ],
@@ -26436,6 +26533,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/289010/a2_p014.jpg"
       }
      ],
@@ -26719,6 +26817,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/391710/a1_p021.jpg"
       }
      ],
@@ -26754,6 +26853,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/391710/a2_p020.jpg"
       }
      ],
@@ -26932,6 +27032,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/092070/a1_p011.jpg"
       }
      ],
@@ -27118,6 +27219,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/037230/a1_p021.jpg"
       }
      ],
@@ -27153,6 +27255,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/037230/a2_p019.jpg"
       }
      ],
@@ -27256,6 +27359,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/038880/a1_p018.jpg"
       }
      ],
@@ -27291,6 +27395,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/038880/a2_p017.jpg"
       }
      ],
@@ -27407,6 +27512,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/126600/a1_p013.jpg"
       }
      ],
@@ -27663,6 +27769,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/113810/a1_p010.jpg"
       }
      ],
@@ -27698,6 +27805,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/113810/a2_p010.jpg"
       }
      ],
@@ -27746,6 +27854,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/096250/a1_p017.jpg"
       }
      ],
@@ -27781,6 +27890,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/096250/a2_p016.jpg"
       }
      ],
@@ -27844,6 +27954,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/281740/a1_p011.jpg"
       },
       {
@@ -27866,6 +27977,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/281740/a1_p012.jpg"
       }
      ],
@@ -27901,6 +28013,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/281740/a2_p011.jpg"
       }
      ],
@@ -28231,6 +28344,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/196450/a1_p012.jpg"
       }
      ],
@@ -28279,6 +28393,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/036830/a1_p017.jpg"
       }
      ],
@@ -28367,6 +28482,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/057540/a1_p013.jpg"
       }
      ],
@@ -28912,6 +29028,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/253840/a1_p018.jpg"
       }
      ],
@@ -28947,6 +29064,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/253840/a2_p017.jpg"
       }
      ],
@@ -29563,6 +29681,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/355690/a1_p006.jpg"
       },
       {
@@ -29585,6 +29704,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/355690/a1_p007.jpg"
       }
      ],
@@ -29626,6 +29746,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/355690/a2_p014.jpg"
       }
      ],
@@ -30519,30 +30640,7 @@
      "marks": [
       "③ 회사는 제1항의 배당을 위하여 이사회결의로 배당을 받을 주주를 확정하기 위한 기준일을 정하여야 하며, 그 경우 기준일의 2주 전에 이를 공고하여야 한다."
      ],
-     "images": [
-      {
-       "page": 1,
-       "file": "img/001.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11143553&flNm=s2w_%EC%A0%95%EA%B4%80.jpg",
-       "quote": true,
-       "box": [
-        0,
-        0,
-        599,
-        851
-       ],
-       "size": [
-        599,
-        851
-       ],
-       "how": "page",
-       "n_lines": 4,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/488280/a1_p001.jpg"
-      }
-     ],
+     "images": [],
      "pdf_pages": []
     }
    ]
@@ -30798,6 +30896,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/234100/a1_p024.jpg"
       }
      ],
@@ -30833,6 +30932,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/234100/a2_p023.jpg"
       }
      ],
@@ -31490,29 +31590,8 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/053300/a1_p018.jpg"
-      },
-      {
-       "page": 19,
-       "file": "img/019.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144279&flNm=%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C19.jpg",
-       "quote": false,
-       "box": [
-        0,
-        0,
-        793,
-        1121
-       ],
-       "size": [
-        793,
-        1121
-       ],
-       "how": "page",
-       "n_lines": 18,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/053300/a1_p019.jpg"
       }
      ],
      "pdf_pages": []
@@ -31547,6 +31626,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/053300/a2_p017.jpg"
       }
      ],
@@ -32216,6 +32296,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/099190/a1_p014.jpg"
       }
      ],
@@ -32251,6 +32332,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/099190/a2_p013.jpg"
       }
      ],
@@ -32385,6 +32467,7 @@
        "n_hit": 7,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/476040/a1_p006.jpg"
       }
      ],
@@ -32426,6 +32509,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/476040/a2_p014.jpg"
       }
      ],
@@ -32835,6 +32919,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/188040/a1_p007.jpg"
       }
      ],
@@ -32876,6 +32961,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/188040/a2_p015.jpg"
       },
       {
@@ -32898,6 +32984,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/188040/a2_p016.jpg"
       }
      ],
@@ -32933,6 +33020,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/188040/a3_p014.jpg"
       }
      ],
@@ -33657,6 +33745,7 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/241840/a1_p008.jpg"
       }
      ],
@@ -33698,6 +33787,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/241840/a2_p015.jpg"
       }
      ],
@@ -33912,6 +34002,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/006730/a1_p004.jpg"
       }
      ],
@@ -33953,6 +34044,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/006730/a2_p010.jpg"
       },
       {
@@ -33975,6 +34067,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/006730/a2_p011.jpg"
       }
      ],
@@ -34474,6 +34567,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/079190/a1_p019.jpg"
       }
      ],
@@ -34655,6 +34749,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/109080/a1_p007.jpg"
       },
       {
@@ -34677,6 +34772,7 @@
        "n_hit": 6,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/109080/a1_p008.jpg"
       }
      ],
@@ -34718,6 +34814,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/109080/a2_p015.jpg"
       }
      ],
@@ -34759,6 +34856,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/109080/a3_p015.jpg"
       },
       {
@@ -34781,6 +34879,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/109080/a3_p016.jpg"
       }
      ],
@@ -34872,6 +34971,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/425040/a1_p010.jpg"
       }
      ],
@@ -34918,6 +35018,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/425040/a2_p019.jpg"
       },
       {
@@ -34940,6 +35041,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/425040/a2_p020.jpg"
       }
      ],
@@ -34988,6 +35090,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/300080/a1_p006.jpg"
       }
      ],
@@ -35029,6 +35132,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/300080/a2_p013.jpg"
       },
       {
@@ -35051,6 +35155,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/300080/a2_p014.jpg"
       }
      ],
@@ -35099,6 +35204,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/464500/a1_p007.jpg"
       }
      ],
@@ -35140,6 +35246,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/464500/a2_p015.jpg"
       }
      ],
@@ -35188,6 +35295,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/025320/a1_p022.jpg"
       },
       {
@@ -35210,6 +35318,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/025320/a1_p023.jpg"
       }
      ],
@@ -35251,51 +35360,8 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/025320/a2_p023.jpg"
-      },
-      {
-       "page": 24,
-       "file": "img/024.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144044&flNm=%EC%A0%95%EA%B4%80%2824%29.jpg",
-       "quote": false,
-       "box": [
-        0,
-        166,
-        1240,
-        1596
-       ],
-       "size": [
-        1240,
-        1755
-       ],
-       "how": "lines",
-       "n_lines": 35,
-       "n_hit": 35,
-       "scope": "art",
-       "own_head": false,
-       "crop": "site/evidence/025320/a2_p024.jpg"
-      },
-      {
-       "page": 25,
-       "file": "img/025.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11144044&flNm=%EC%A0%95%EA%B4%80%2825%29.jpg",
-       "quote": false,
-       "box": [
-        0,
-        165,
-        1240,
-        380
-       ],
-       "size": [
-        1240,
-        1755
-       ],
-       "how": "lines",
-       "n_lines": 9,
-       "n_hit": 4,
-       "scope": "art",
-       "own_head": false,
-       "crop": "site/evidence/025320/a2_p025.jpg"
       }
      ],
      "pdf_pages": []
@@ -35343,6 +35409,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/311320/a1_p007.jpg"
       }
      ],
@@ -35384,6 +35451,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/311320/a2_p016.jpg"
       }
      ],
@@ -35425,6 +35493,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/311320/a3_p017.jpg"
       }
      ],
@@ -36232,6 +36301,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/424980/a1_p004.jpg"
       },
       {
@@ -36254,6 +36324,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/424980/a1_p005.jpg"
       }
      ],
@@ -36295,6 +36366,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/424980/a2_p009.jpg"
       }
      ],
@@ -36437,6 +36509,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/420570/a1_p007.jpg"
       }
      ],
@@ -36478,6 +36551,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/420570/a2_p014.jpg"
       }
      ],
@@ -36531,6 +36605,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/333050/a1_p005.jpg"
       },
       {
@@ -36553,6 +36628,7 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/333050/a1_p006.jpg"
       }
      ],
@@ -36594,6 +36670,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/333050/a2_p014.jpg"
       },
       {
@@ -36616,6 +36693,7 @@
        "n_hit": 2,
        "scope": "page",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/333050/a2_p015.jpg"
       }
      ],
@@ -37480,6 +37558,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/069140/a1_p007.jpg"
       }
      ],
@@ -37521,6 +37600,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/069140/a2_p015.jpg"
       },
       {
@@ -37543,6 +37623,7 @@
        "n_hit": 3,
        "scope": "page",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/069140/a2_p016.jpg"
       }
      ],
@@ -37584,6 +37665,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/069140/a3_p016.jpg"
       }
      ],
@@ -37702,6 +37784,7 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/131760/a1_p007.jpg"
       }
      ],
@@ -37743,6 +37826,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/131760/a2_p015.jpg"
       }
      ],
@@ -37819,6 +37903,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/185490/a1_p015.jpg"
       }
      ],
@@ -37941,6 +38026,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/033170/a1_p011.jpg"
       }
      ],
@@ -37976,6 +38062,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/033170/a2_p010.jpg"
       }
      ],
@@ -38270,6 +38357,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/203400/a1_p007.jpg"
       }
      ],
@@ -38311,29 +38399,8 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/203400/a2_p015.jpg"
-      },
-      {
-       "page": 16,
-       "file": "img/016.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11148606&flNm=%EC%97%90%EC%9D%B4%EB%B9%84%EC%98%A8+%EC%A0%95%EA%B4%80_16.jpg",
-       "quote": false,
-       "box": [
-        0,
-        0,
-        2635,
-        3725
-       ],
-       "size": [
-        2635,
-        3725
-       ],
-       "how": "page",
-       "n_lines": 28,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/203400/a2_p016.jpg"
       }
      ],
      "pdf_pages": []
@@ -38364,13 +38431,13 @@
      "pdf_pages": []
     },
     {
-     "start": 5342,
-     "end": 5446,
+     "start": 20844,
+     "end": 20894,
      "how": "fiscal",
      "quotes": [],
      "fiscal": true,
-     "text": "제49 조 (사업연도) ........................................................................................15",
-     "title": "제49 조 (사업연도)",
+     "text": "제49조(사업연도) 본 회사의 영업 연도는 매년 1월 1일부터 12월 31일까지로 한다.",
+     "title": "제49조(사업연도)",
      "marks": [],
      "images": [],
      "pdf_pages": []
@@ -38492,6 +38559,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/086040/a1_p019.jpg"
       },
       {
@@ -38514,6 +38582,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/086040/a1_p020.jpg"
       }
      ],
@@ -38549,6 +38618,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/086040/a2_p018.jpg"
       }
      ],
@@ -39213,6 +39283,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/403870/a1_p016.jpg"
       }
      ],
@@ -39248,6 +39319,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/403870/a2_p015.jpg"
       }
      ],
@@ -39741,6 +39813,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/372800/a1_p009.jpg"
       }
      ],
@@ -39787,6 +39860,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/372800/a2_p020.jpg"
       }
      ],
@@ -39897,6 +39971,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/112040/a1_p014.jpg"
       }
      ],
@@ -40032,6 +40107,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/378800/a1_p006.jpg"
       }
      ],
@@ -40073,6 +40149,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/378800/a2_p013.jpg"
       }
      ],
@@ -40762,6 +40839,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/458650/a1_p005.jpg"
       },
       {
@@ -40784,6 +40862,7 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/458650/a1_p006.jpg"
       }
      ],
@@ -40825,6 +40904,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/458650/a2_p013.jpg"
       }
      ],
@@ -41466,6 +41546,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/018290/a1_p015.jpg"
       }
      ],
@@ -41732,6 +41813,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/021320/a1_p015.jpg"
       }
      ],
@@ -41767,6 +41849,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/021320/a2_p013.jpg"
       }
      ],
@@ -41834,6 +41917,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/377330/a1_p007.jpg"
       }
      ],
@@ -41875,6 +41959,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/377330/a2_p015.jpg"
       }
      ],
@@ -41951,6 +42036,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/199800/a1_p007.jpg"
       }
      ],
@@ -41992,6 +42078,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/199800/a2_p016.jpg"
       },
       {
@@ -42014,6 +42101,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/199800/a2_p017.jpg"
       }
      ],
@@ -42287,6 +42375,7 @@
        "n_hit": 0,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/445090/a1_p005.jpg"
       },
       {
@@ -42309,6 +42398,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/445090/a1_p006.jpg"
       }
      ],
@@ -42350,6 +42440,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/445090/a2_p012.jpg"
       }
      ],
@@ -42571,6 +42662,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/005990/a1_p016.jpg"
       }
      ],
@@ -42745,12 +42837,12 @@
      "pdf_pages": []
     },
     {
-     "start": 1767,
-     "end": 1780,
+     "start": 18080,
+     "end": 18129,
      "how": "fiscal",
      "quotes": [],
      "fiscal": true,
-     "text": "제 49 조【사업연도】",
+     "text": "제 49 조【사업연도】 회사의 사업연도는 매년 1월 1일부터 12월 31일까지로 한다.",
      "title": "제 49 조【사업연도】",
      "marks": [],
      "images": [],
@@ -42975,6 +43067,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/182360/a1_p020.jpg"
       }
      ],
@@ -43016,6 +43109,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/182360/a2_p020.jpg"
       },
       {
@@ -43038,6 +43132,7 @@
        "n_hit": 7,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/182360/a2_p021.jpg"
       }
      ],
@@ -43111,6 +43206,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/078590/a1_p021.jpg"
       }
      ],
@@ -43159,6 +43255,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/049470/a1_p017.jpg"
       }
      ],
@@ -43800,6 +43897,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/054930/a1_p012.jpg"
       }
      ],
@@ -43835,29 +43933,8 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/054930/a2_p011.jpg"
-      },
-      {
-       "page": 12,
-       "file": "img/012.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152210&flNm=%EC%A0%95%EA%B4%80012.jpg",
-       "quote": false,
-       "box": [
-        0,
-        60,
-        992,
-        175
-       ],
-       "size": [
-        992,
-        1403
-       ],
-       "how": "lines",
-       "n_lines": 39,
-       "n_hit": 3,
-       "scope": "art",
-       "own_head": false,
-       "crop": "site/evidence/054930/a2_p012.jpg"
       }
      ],
      "pdf_pages": []
@@ -43985,6 +44062,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/038460/a1_p015.jpg"
       }
      ],
@@ -44222,6 +44300,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/036030/a1_p019.jpg"
       }
      ],
@@ -44307,6 +44386,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/025550/a1_p031.jpg"
       },
       {
@@ -44329,42 +44409,44 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/025550/a1_p032.jpg"
       }
      ],
      "pdf_pages": []
     },
     {
-     "start": 2406,
-     "end": 2426,
+     "start": 18758,
+     "end": 18815,
      "how": "fiscal",
      "quotes": [],
      "fiscal": true,
-     "text": "제 50 조 (사업연도) / 30",
-     "title": "제 50 조 (사업연도)",
+     "text": "제 50 조 사업연도\n이 회사의 사업연도는 매년 01 월 01 일부터 12 월 31 일까지로 한다.",
+     "title": "제 50 조",
      "marks": [],
      "images": [
       {
-       "page": 6,
-       "file": "img/006.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152568&flNm=%EC%A0%95%EA%B4%80_6.jpg",
+       "page": 30,
+       "file": "img/030.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152568&flNm=%EC%A0%95%EA%B4%80_30.jpg",
        "quote": false,
        "box": [
         0,
         1187,
         2481,
-        1339
+        1488
        ],
        "size": [
         2481,
         3508
        ],
        "how": "lines",
-       "n_lines": 18,
-       "n_hit": 1,
+       "n_lines": 24,
+       "n_hit": 2,
        "scope": "art",
        "own_head": true,
-       "crop": "site/evidence/025550/a2_p006.jpg"
+       "two_col": false,
+       "crop": "site/evidence/025550/a2_p030.jpg"
       }
      ],
      "pdf_pages": []
@@ -44412,6 +44494,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/078160/a1_p017.jpg"
       },
       {
@@ -44434,6 +44517,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/078160/a1_p018.jpg"
       }
      ],
@@ -44469,6 +44553,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/078160/a2_p016.jpg"
       }
      ],
@@ -44958,6 +45043,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/095660/a1_p008.jpg"
       }
      ],
@@ -44999,29 +45085,8 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/095660/a2_p016.jpg"
-      },
-      {
-       "page": 17,
-       "file": "img/017.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11152918&flNm=nwz+%EC%A0%95%EA%B4%80_240328_page-0017.jpg",
-       "quote": false,
-       "box": [
-        0,
-        97,
-        1242,
-        179
-       ],
-       "size": [
-        1242,
-        1755
-       ],
-       "how": "lines",
-       "n_lines": 29,
-       "n_hit": 1,
-       "scope": "art",
-       "own_head": false,
-       "crop": "site/evidence/095660/a2_p017.jpg"
       }
      ],
      "pdf_pages": []
@@ -45139,6 +45204,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/215600/a1_p023.jpg"
       }
      ],
@@ -45180,6 +45246,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/215600/a2_p023.jpg"
       },
       {
@@ -45202,6 +45269,7 @@
        "n_hit": 10,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/215600/a2_p024.jpg"
       }
      ],
@@ -45336,6 +45404,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/369370/a1_p007.jpg"
       }
      ],
@@ -45377,6 +45446,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/369370/a2_p016.jpg"
       }
      ],
@@ -45613,6 +45683,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/388870/a1_p008.jpg"
       }
      ],
@@ -45654,6 +45725,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/388870/a2_p016.jpg"
       }
      ],
@@ -45739,6 +45811,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/475830/a1_p005.jpg"
       }
      ],
@@ -45780,6 +45853,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/475830/a2_p012.jpg"
       }
      ],
@@ -45828,6 +45902,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0093G0/a1_p015.jpg"
       }
      ],
@@ -45869,6 +45944,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0093G0/a2_p015.jpg"
       }
      ],
@@ -45904,6 +45980,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0093G0/a3_p013.jpg"
       }
      ],
@@ -46021,6 +46098,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/089790/a1_p012.jpg"
       }
      ],
@@ -46056,6 +46134,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/089790/a2_p011.jpg"
       }
      ],
@@ -46215,6 +46294,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/258830/a1_p007.jpg"
       }
      ],
@@ -46256,6 +46336,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/258830/a2_p014.jpg"
       }
      ],
@@ -46715,6 +46796,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/098120/a1_p017.jpg"
       },
       {
@@ -46737,6 +46819,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/098120/a1_p018.jpg"
       }
      ],
@@ -46772,6 +46855,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/098120/a2_p016.jpg"
       }
      ],
@@ -46804,30 +46888,7 @@
       "(1) 이사회는 회사가 주주총회 또는 그 연기 통지를 수령하거나 회의 없이 회사 조치에 대한 동의 여부를 서면으로 표명하거나 배당금이나 기타 분배금 혹은 권리 배분을 받거나 주식 변경, 전환이나 교환 또는 기타 법적 행위의 목적상 권리를 행사할 권한을 가진 주주를 정하기 위한 목적으로 기준일을 정할 수 있으며, 기준일은 이사회에서 그러한 기준일에 대한 결의가 이루어진 날보다 앞선 날이어서는 안 된다.",
       "(iii) 기타 목적을 위한 주주를 정하기 위한 기준일은 이사회가 그에 대한 결의를 채택한 날의 영업종료 시로 한다."
      ],
-     "images": [
-      {
-       "page": 1,
-       "file": "img/001.jpeg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11153667&flNm=nit_fourth+ar+coi_mar+29+2024.jpeg",
-       "quote": true,
-       "box": [
-        0,
-        0,
-        2542,
-        3289
-       ],
-       "size": [
-        2542,
-        3289
-       ],
-       "how": "page",
-       "n_lines": 6,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/950220/a1_p001.jpg"
-      }
-     ],
+     "images": [],
      "pdf_pages": []
     }
    ]
@@ -46992,6 +47053,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/042420/a1_p010.jpg"
       }
      ],
@@ -47033,6 +47095,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/042420/a2_p022.jpg"
       }
      ],
@@ -47081,6 +47144,7 @@
        "n_hit": 6,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/037350/a1_p007.jpg"
       },
       {
@@ -47090,19 +47154,20 @@
        "quote": false,
        "box": [
         0,
-        0,
+        383,
         2480,
-        3507
+        523
        ],
        "size": [
         2480,
         3507
        ],
-       "how": "page",
+       "how": "region",
        "n_lines": 32,
        "n_hit": 0,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/037350/a1_p008.jpg"
       }
      ],
@@ -47144,6 +47209,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/037350/a2_p015.jpg"
       }
      ],
@@ -47256,6 +47322,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/394280/a1_p007.jpg"
       },
       {
@@ -47278,6 +47345,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/394280/a1_p008.jpg"
       }
      ],
@@ -47319,6 +47387,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/394280/a2_p015.jpg"
       },
       {
@@ -47341,6 +47410,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/394280/a2_p016.jpg"
       }
      ],
@@ -47987,6 +48057,7 @@
        "n_hit": 7,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/452430/a1_p006.jpg"
       }
      ],
@@ -48028,6 +48099,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/452430/a2_p012.jpg"
       }
      ],
@@ -48122,6 +48194,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/493330/a1_p018.jpg"
       }
      ],
@@ -48157,6 +48230,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/493330/a2_p017.jpg"
       }
      ],
@@ -48501,6 +48575,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/173130/a1_p011.jpg"
       }
      ],
@@ -48553,6 +48628,7 @@
        "n_hit": 6,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/228670_prev/a1_p006.jpg"
       }
      ],
@@ -48599,6 +48675,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/228670_prev/a2_p014.jpg"
       }
      ],
@@ -48978,6 +49055,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/140670/a1_p013.jpg"
       }
      ],
@@ -49026,6 +49104,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/065370/a1_p017.jpg"
       }
      ],
@@ -49061,6 +49140,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/065370/a2_p015.jpg"
       }
      ],
@@ -49109,6 +49189,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/389650/a1_p006.jpg"
       }
      ],
@@ -49150,6 +49231,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/389650/a2_p014.jpg"
       }
      ],
@@ -49601,6 +49683,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/373170/a1_p011.jpg"
       }
      ],
@@ -49642,6 +49725,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/373170/a2_p018.jpg"
       }
      ],
@@ -49915,6 +49999,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/407400/a1_p007.jpg"
       }
      ],
@@ -49956,6 +50041,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/407400/a2_p016.jpg"
       }
      ],
@@ -50425,6 +50511,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/277810/a1_p016.jpg"
       }
      ],
@@ -50466,6 +50553,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/277810/a2_p016.jpg"
       }
      ],
@@ -51022,13 +51110,13 @@
      "pdf_pages": []
     },
     {
-     "start": 1264,
-     "end": 1276,
+     "start": 13654,
+     "end": 13706,
      "how": "fiscal",
      "quotes": [],
      "fiscal": true,
-     "text": "제49조 (사업년도)",
-     "title": "제49조 (사업년도)",
+     "text": "제49조(사업년도)\n이 회사의 사업년도는 매년 1월 1일부터 동년 12월 31일까지로 한다.",
+     "title": "제49조(사업년도)",
      "marks": [],
      "images": [],
      "pdf_pages": []
@@ -51192,6 +51280,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/139670/a1_p019.jpg"
       }
      ],
@@ -51240,6 +51329,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/310210/a1_p013.jpg"
       }
      ],
@@ -51281,6 +51371,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/310210/a2_p013.jpg"
       },
       {
@@ -51303,6 +51394,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/310210/a2_p014.jpg"
       }
      ],
@@ -51437,6 +51529,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/033340/a1_p012.jpg"
       }
      ],
@@ -51472,6 +51565,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/033340/a2_p011.jpg"
       }
      ],
@@ -51710,6 +51804,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/352910/a1_p023.jpg"
       },
       {
@@ -51732,6 +51827,7 @@
        "n_hit": 0,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/352910/a1_p024.jpg"
       }
      ],
@@ -52050,6 +52146,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/033540/a1_p018.jpg"
       }
      ],
@@ -52085,6 +52182,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/033540/a2_p017.jpg"
       }
      ],
@@ -52618,6 +52716,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/192440/a1_p016.jpg"
       }
      ],
@@ -52691,6 +52790,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/069540/a1_p016.jpg"
       },
       {
@@ -52713,6 +52813,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/069540/a1_p017.jpg"
       }
      ],
@@ -52802,6 +52903,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/360350/a1_p012.jpg"
       }
      ],
@@ -52837,6 +52939,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/360350/a2_p011.jpg"
       }
      ],
@@ -53023,6 +53126,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0096B0/a1_p016.jpg"
       }
      ],
@@ -53064,6 +53168,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0096B0/a2_p016.jpg"
       }
      ],
@@ -53099,6 +53204,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0096B0/a3_p014.jpg"
       }
      ],
@@ -53147,6 +53253,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/082270/a1_p014.jpg"
       }
      ],
@@ -53275,6 +53382,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/383930/a1_p017.jpg"
       }
      ],
@@ -53310,6 +53418,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/383930/a2_p016.jpg"
       }
      ],
@@ -53927,6 +54036,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/468530/a1_p016.jpg"
       },
       {
@@ -53949,6 +54059,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/468530/a1_p017.jpg"
       }
      ],
@@ -53997,6 +54108,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/011040/a1_p017.jpg"
       }
      ],
@@ -54038,6 +54150,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/011040/a2_p017.jpg"
       },
       {
@@ -54060,6 +54173,7 @@
        "n_hit": 10,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/011040/a2_p018.jpg"
       }
      ],
@@ -54313,6 +54427,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/140410/a1_p005.jpg"
       },
       {
@@ -54335,6 +54450,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/140410/a1_p006.jpg"
       }
      ],
@@ -54376,6 +54492,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/140410/a2_p012.jpg"
       },
       {
@@ -54398,6 +54515,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/140410/a2_p013.jpg"
       }
      ],
@@ -54446,29 +54564,8 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/032190/a1_p015.jpg"
-      },
-      {
-       "page": 16,
-       "file": "img/016.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159560&flNm=%EC%A0%95%EA%B4%80%28%EC%A0%9C24%EC%B0%A8%EA%B0%9C%EC%A0%95_250328%29_16.jpg",
-       "quote": false,
-       "box": [
-        0,
-        32,
-        595,
-        87
-       ],
-       "size": [
-        595,
-        842
-       ],
-       "how": "lines",
-       "n_lines": 27,
-       "n_hit": 1,
-       "scope": "art",
-       "own_head": false,
-       "crop": "site/evidence/032190/a1_p016.jpg"
       }
      ],
      "pdf_pages": []
@@ -54516,6 +54613,7 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/123840/a1_p007.jpg"
       }
      ],
@@ -54557,6 +54655,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/123840/a2_p016.jpg"
       }
      ],
@@ -54630,6 +54729,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/054620/a1_p020.jpg"
       },
       {
@@ -54652,6 +54752,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/054620/a1_p021.jpg"
       }
      ],
@@ -54781,6 +54882,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/347890/a1_p012.jpg"
       }
      ],
@@ -54816,6 +54918,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/347890/a2_p011.jpg"
       }
      ],
@@ -55588,6 +55691,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/043260/a1_p005.jpg"
       }
      ],
@@ -55629,6 +55733,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/043260/a2_p011.jpg"
       }
      ],
@@ -55738,6 +55843,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/071200/a1_p006.jpg"
       }
      ],
@@ -55779,6 +55885,7 @@
        "n_hit": 4,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/071200/a2_p013.jpg"
       }
      ],
@@ -55820,6 +55927,7 @@
        "n_hit": 4,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/071200/a3_p013.jpg"
       }
      ],
@@ -56389,6 +56497,7 @@
        "n_hit": 7,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/234030/a1_p010.jpg"
       }
      ],
@@ -56430,6 +56539,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/234030/a2_p019.jpg"
       },
       {
@@ -56452,6 +56562,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/234030/a2_p020.jpg"
       }
      ],
@@ -56603,6 +56714,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/035610/a1_p021.jpg"
       }
      ],
@@ -57021,6 +57133,7 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/333620/a1_p010.jpg"
       },
       {
@@ -57043,6 +57156,7 @@
        "n_hit": 6,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/333620/a1_p011.jpg"
       }
      ],
@@ -57084,6 +57198,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/333620/a2_p024.jpg"
       },
       {
@@ -57106,6 +57221,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/333620/a2_p025.jpg"
       }
      ],
@@ -57191,6 +57307,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/432430/a1_p016.jpg"
       },
       {
@@ -57213,6 +57330,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/432430/a1_p017.jpg"
       }
      ],
@@ -57298,6 +57416,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/040350/a1_p007.jpg"
       }
      ],
@@ -57339,6 +57458,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/040350/a2_p013.jpg"
       }
      ],
@@ -57869,6 +57989,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/474170/a1_p016.jpg"
       },
       {
@@ -57891,6 +58012,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/474170/a1_p017.jpg"
       }
      ],
@@ -57926,6 +58048,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/474170/a2_p016.jpg"
       }
      ],
@@ -58158,6 +58281,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/179530/a1_p016.jpg"
       }
      ],
@@ -58199,6 +58323,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/179530/a2_p016.jpg"
       },
       {
@@ -58221,6 +58346,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/179530/a2_p017.jpg"
       }
      ],
@@ -58304,6 +58430,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/413630/a1_p007.jpg"
       }
      ],
@@ -58345,6 +58472,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/413630/a2_p016.jpg"
       }
      ],
@@ -58386,6 +58514,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/413630/a3_p017.jpg"
       }
      ],
@@ -58747,6 +58876,7 @@
        "n_hit": 6,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/388790/a1_p007.jpg"
       }
      ],
@@ -58788,6 +58918,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/388790/a2_p011.jpg"
       }
      ],
@@ -58823,6 +58954,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/388790/a3_p010.jpg"
       }
      ],
@@ -59298,6 +59430,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/402030/a1_p020.jpg"
       }
      ],
@@ -59761,6 +59894,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/036540/a1_p019.jpg"
       }
      ],
@@ -59796,6 +59930,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/036540/a2_p018.jpg"
       }
      ],
@@ -59869,6 +60004,7 @@
        "n_hit": 1,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/146060/a1_p012.jpg"
       },
       {
@@ -59891,6 +60027,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/146060/a1_p013.jpg"
       }
      ],
@@ -60591,6 +60728,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/215380/a1_p019.jpg"
       }
      ],
@@ -60722,6 +60860,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/397810/a1_p010.jpg"
       }
      ],
@@ -60763,6 +60902,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/397810/a2_p022.jpg"
       }
      ],
@@ -60854,6 +60994,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/067080/a1_p006.jpg"
       },
       {
@@ -60876,6 +61017,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/067080/a1_p007.jpg"
       }
      ],
@@ -60917,6 +61059,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/067080/a2_p020.jpg"
       }
      ],
@@ -61008,6 +61151,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/452450/a1_p009.jpg"
       },
       {
@@ -61030,6 +61174,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/452450/a1_p010.jpg"
       }
      ],
@@ -61071,6 +61216,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/452450/a2_p015.jpg"
       }
      ],
@@ -61106,6 +61252,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/452450/a3_p014.jpg"
       }
      ],
@@ -61154,6 +61301,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/430690/a1_p008.jpg"
       },
       {
@@ -61176,6 +61324,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/430690/a1_p009.jpg"
       }
      ],
@@ -61217,6 +61366,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/430690/a2_p018.jpg"
       }
      ],
@@ -62238,6 +62388,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/094480/a1_p019.jpg"
       }
      ],
@@ -62273,6 +62424,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/094480/a2_p017.jpg"
       },
       {
@@ -62295,6 +62447,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/094480/a2_p018.jpg"
       }
      ],
@@ -62764,6 +62917,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/372170/a1_p006.jpg"
       }
      ],
@@ -62805,6 +62959,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/372170/a2_p014.jpg"
       }
      ],
@@ -63068,6 +63223,7 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/227610/a1_p010.jpg"
       }
      ],
@@ -63109,6 +63265,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/227610/a2_p021.jpg"
       },
       {
@@ -63131,42 +63288,44 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/227610/a2_p022.jpg"
       }
      ],
      "pdf_pages": []
     },
     {
-     "start": 4257,
-     "end": 4389,
+     "start": 15970,
+     "end": 16019,
      "how": "fiscal",
      "quotes": [],
      "fiscal": true,
-     "text": "제51조(사업연도) ....................................................................................................................-20-",
-     "title": "제51조(사업연도)",
+     "text": "제 51 조(사업연도)\n당 회사의 사업연도는 1월 1일부터 12월 31일까지로 한다.",
+     "title": "제 51 조(사업연도)",
      "marks": [],
      "images": [
       {
-       "page": 4,
-       "file": "img/004.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166016&flNm=%EC%A0%95%EA%B4%80_04.jpg",
+       "page": 20,
+       "file": "img/020.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166016&flNm=%EC%A0%95%EA%B4%80_20.jpg",
        "quote": false,
        "box": [
         0,
-        941,
+        1591,
         2480,
-        1057
+        1992
        ],
        "size": [
         2480,
         3507
        ],
        "how": "lines",
-       "n_lines": 8,
-       "n_hit": 1,
+       "n_lines": 20,
+       "n_hit": 2,
        "scope": "art",
        "own_head": true,
-       "crop": "site/evidence/227610/a3_p004.jpg"
+       "two_col": false,
+       "crop": "site/evidence/227610/a3_p020.jpg"
       }
      ],
      "pdf_pages": []
@@ -63269,6 +63428,7 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/351320/a1_p009.jpg"
       }
      ],
@@ -63310,6 +63470,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/351320/a2_p017.jpg"
       },
       {
@@ -63332,6 +63493,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/351320/a2_p018.jpg"
       }
      ],
@@ -63367,6 +63529,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/351320/a3_p017.jpg"
       }
      ],
@@ -63515,6 +63678,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/119830/a1_p016.jpg"
       }
      ],
@@ -63631,6 +63795,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/300120/a1_p011.jpg"
       }
      ],
@@ -63666,6 +63831,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/300120/a2_p010.jpg"
       }
      ],
@@ -63813,6 +63979,7 @@
        "n_hit": 3,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/290090/a1_p007.jpg"
       }
      ],
@@ -63886,6 +64053,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/080010/a1_p018.jpg"
       }
      ],
@@ -63921,6 +64089,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/080010/a2_p017.jpg"
       }
      ],
@@ -64177,20 +64346,21 @@
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166519&flNm=%EC%96%BC%EB%9D%BC%EC%9D%B8%EB%93%9C%EC%A0%9C%EB%84%A4%ED%8B%B1%EC%8A%A4_%EC%A0%95%EA%B4%80+%2811%29.jpg",
        "quote": true,
        "box": [
-        0,
+        88,
         860,
-        1241,
-        886
+        604,
+        962
        ],
        "size": [
         1241,
         1755
        ],
        "how": "quote",
-       "n_lines": 59,
-       "n_hit": 1,
+       "n_lines": 39,
+       "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": true,
        "crop": "site/evidence/238120/a1_p011.jpg"
       }
      ],
@@ -64212,20 +64382,21 @@
        "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11166519&flNm=%EC%96%BC%EB%9D%BC%EC%9D%B8%EB%93%9C%EC%A0%9C%EB%84%A4%ED%8B%B1%EC%8A%A4_%EC%A0%95%EA%B4%80+%2810%29.jpg",
        "quote": false,
        "box": [
-        0,
-        734,
-        1241,
-        784
+        678,
+        716,
+        1152,
+        788
        ],
        "size": [
         1241,
         1755
        ],
        "how": "lines",
-       "n_lines": 70,
+       "n_lines": 44,
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": true,
        "crop": "site/evidence/238120/a2_p010.jpg"
       }
      ],
@@ -64553,6 +64724,7 @@
        "n_hit": 1,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/408920/a1_p014.jpg"
       }
      ],
@@ -64588,6 +64760,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/408920/a2_p013.jpg"
       }
      ],
@@ -64686,6 +64859,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/080530/a1_p014.jpg"
       }
      ],
@@ -64721,6 +64895,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/080530/a2_p013.jpg"
       }
      ],
@@ -64937,6 +65112,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/109740/a1_p018.jpg"
       }
      ],
@@ -64972,6 +65148,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/109740/a2_p017.jpg"
       }
      ],
@@ -65020,6 +65197,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/184230/a1_p013.jpg"
       }
      ],
@@ -65247,6 +65425,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0068Y0/a1_p013.jpg"
       }
      ],
@@ -65535,6 +65714,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/034810/a1_p015.jpg"
       },
       {
@@ -65557,6 +65737,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/034810/a1_p016.jpg"
       }
      ],
@@ -65592,6 +65773,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/034810/a2_p014.jpg"
       }
      ],
@@ -65640,6 +65822,7 @@
        "n_hit": 2,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/389470/a1_p015.jpg"
       }
      ],
@@ -65997,6 +66180,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/241690/a1_p015.jpg"
       },
       {
@@ -66019,6 +66203,7 @@
        "n_hit": 7,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/241690/a1_p016.jpg"
       }
      ],
@@ -66187,6 +66372,7 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/089850/a1_p005.jpg"
       }
      ],
@@ -66228,6 +66414,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/089850/a2_p012.jpg"
       }
      ],
@@ -66263,29 +66450,8 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/089850/a3_p011.jpg"
-      },
-      {
-       "page": 12,
-       "file": "img/012.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11167881&flNm=%EC%A0%95%EA%B4%80+12-14.jpg",
-       "quote": false,
-       "box": [
-        0,
-        0,
-        2480,
-        3507
-       ],
-       "size": [
-        2480,
-        3507
-       ],
-       "how": "page",
-       "n_lines": 38,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/089850/a3_p012.jpg"
       }
      ],
      "pdf_pages": []
@@ -66555,29 +66721,8 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/250930/a1_p008.jpg"
-      },
-      {
-       "page": 9,
-       "file": "img/009.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168027&flNm=%5B%EC%98%88%EC%84%A0%ED%85%8C%ED%81%AC%5D%EC%A0%95%EA%B4%80_%EA%B0%9C%EC%A0%95%EB%B3%B8_2022_rev.3_9.jpg",
-       "quote": false,
-       "box": [
-        0,
-        46,
-        793,
-        97
-       ],
-       "size": [
-        793,
-        1123
-       ],
-       "how": "lines",
-       "n_lines": 40,
-       "n_hit": 1,
-       "scope": "art",
-       "own_head": false,
-       "crop": "site/evidence/250930/a1_p009.jpg"
       }
      ],
      "pdf_pages": []
@@ -66618,42 +66763,44 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/250930/a2_p015.jpg"
       }
      ],
      "pdf_pages": []
     },
     {
-     "start": 1324,
-     "end": 1339,
+     "start": 15996,
+     "end": 16115,
      "how": "fiscal",
      "quotes": [],
      "fiscal": true,
-     "text": "제51조 (사업연도) 11",
+     "text": "제51조 (사업연도)\n당회사의 사업연도는 매년 1월 1일부터 동년 12월 31일까지로 한다.\n\n11\n\n주식회사 에선테크",
      "title": "제51조 (사업연도)",
      "marks": [],
      "images": [
       {
-       "page": 3,
-       "file": "img/003.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168027&flNm=%5B%EC%98%88%EC%84%A0%ED%85%8C%ED%81%AC%5D%EC%A0%95%EA%B4%80_%EA%B0%9C%EC%A0%95%EB%B3%B8_2022_rev.3_3.jpg",
+       "page": 14,
+       "file": "img/014.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11168027&flNm=%5B%EC%98%88%EC%84%A0%ED%85%8C%ED%81%AC%5D%EC%A0%95%EA%B4%80_%EA%B0%9C%EC%A0%95%EB%B3%B8_2022_rev.3_14.jpg",
        "quote": false,
        "box": [
         0,
-        769,
+        925,
         793,
-        790
+        986
        ],
        "size": [
         793,
         1123
        ],
        "how": "lines",
-       "n_lines": 39,
-       "n_hit": 1,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/250930/a3_p003.jpg"
+       "n_lines": 36,
+       "n_hit": 2,
+       "scope": "art",
+       "own_head": true,
+       "two_col": false,
+       "crop": "site/evidence/250930/a3_p014.jpg"
       }
      ],
      "pdf_pages": []
@@ -66884,6 +67031,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/093640/a1_p014.jpg"
       }
      ],
@@ -66919,6 +67067,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/093640/a2_p013.jpg"
       }
      ],
@@ -67308,6 +67457,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/003380/a1_p017.jpg"
       }
      ],
@@ -67349,6 +67499,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/003380/a2_p017.jpg"
       },
       {
@@ -67371,6 +67522,7 @@
        "n_hit": 6,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/003380/a2_p018.jpg"
       }
      ],
@@ -67412,6 +67564,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/003380/a3_p018.jpg"
       }
      ],
@@ -67560,6 +67713,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/274090/a1_p016.jpg"
       }
      ],
@@ -67601,6 +67755,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/274090/a2_p016.jpg"
       }
      ],
@@ -67636,6 +67791,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/274090/a3_p015.jpg"
       }
      ],
@@ -67741,6 +67897,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/214150/a1_p018.jpg"
       }
      ],
@@ -67782,6 +67939,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/214150/a2_p018.jpg"
       },
       {
@@ -67804,6 +67962,7 @@
        "n_hit": 12,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/214150/a2_p019.jpg"
       }
      ],
@@ -69209,6 +69368,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/418620/a1_p016.jpg"
       },
       {
@@ -69231,6 +69391,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/418620/a1_p017.jpg"
       }
      ],
@@ -69347,6 +69508,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/078140/a1_p013.jpg"
       }
      ],
@@ -69382,6 +69544,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/078140/a2_p012.jpg"
       }
      ],
@@ -69660,6 +69823,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/089230/a1_p018.jpg"
       }
      ],
@@ -70018,6 +70182,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/100120/a1_p012.jpg"
       }
      ],
@@ -70053,6 +70218,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/100120/a2_p012.jpg"
       }
      ],
@@ -70573,6 +70739,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/039310/a1_p014.jpg"
       }
      ],
@@ -70614,6 +70781,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/039310/a2_p014.jpg"
       },
       {
@@ -70636,6 +70804,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/039310/a2_p015.jpg"
       }
      ],
@@ -71137,6 +71306,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/318060/a1_p007.jpg"
       }
      ],
@@ -71178,6 +71348,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/318060/a2_p017.jpg"
       }
      ],
@@ -71683,6 +71854,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/016790/a1_p020.jpg"
       },
       {
@@ -71705,6 +71877,7 @@
        "n_hit": 1,
        "scope": "page",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/016790/a1_p021.jpg"
       }
      ],
@@ -71740,6 +71913,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/016790/a2_p019.jpg"
       }
      ],
@@ -72001,6 +72175,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/060230/a1_p017.jpg"
       }
      ],
@@ -72456,6 +72631,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/045510/a1_p008.jpg"
       },
       {
@@ -72478,6 +72654,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/045510/a1_p009.jpg"
       }
      ],
@@ -72519,6 +72696,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/045510/a2_p017.jpg"
       }
      ],
@@ -72632,6 +72810,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0013V0/a1_p008.jpg"
       }
      ],
@@ -72673,6 +72852,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0013V0/a2_p019.jpg"
       }
      ],
@@ -72985,6 +73165,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/473980/a1_p011.jpg"
       }
      ],
@@ -73026,6 +73207,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/473980/a2_p020.jpg"
       }
      ],
@@ -73074,6 +73256,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/064550/a1_p010.jpg"
       }
      ],
@@ -73115,6 +73298,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/064550/a2_p010.jpg"
       },
       {
@@ -73137,6 +73321,7 @@
        "n_hit": 7,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/064550/a2_p011.jpg"
       }
      ],
@@ -73631,6 +73816,7 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/348370/a1_p006.jpg"
       }
      ],
@@ -73672,6 +73858,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/348370/a2_p011.jpg"
       }
      ],
@@ -73812,6 +73999,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/450950/a1_p005.jpg"
       },
       {
@@ -73834,6 +74022,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/450950/a1_p006.jpg"
       }
      ],
@@ -73875,6 +74064,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/450950/a2_p015.jpg"
       }
      ],
@@ -74318,6 +74508,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/294090/a1_p012.jpg"
       }
      ],
@@ -74353,6 +74544,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/294090/a2_p012.jpg"
       }
      ],
@@ -74513,6 +74705,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/368600/a1_p007.jpg"
       }
      ],
@@ -74554,6 +74747,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/368600/a2_p015.jpg"
       }
      ],
@@ -74654,6 +74848,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0132G0/a1_p014.jpg"
       }
      ],
@@ -74695,6 +74890,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0132G0/a2_p014.jpg"
       }
      ],
@@ -74730,6 +74926,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0132G0/a3_p012.jpg"
       },
       {
@@ -74752,6 +74949,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/0132G0/a3_p013.jpg"
       }
      ],
@@ -75022,6 +75220,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/068790/a1_p012.jpg"
       }
      ],
@@ -75488,6 +75687,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/121800/a1_p019.jpg"
       }
      ],
@@ -75576,6 +75776,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/066410/a1_p022.jpg"
       }
      ],
@@ -76480,6 +76681,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/304840/a1_p016.jpg"
       }
      ],
@@ -76528,6 +76730,7 @@
        "n_hit": 6,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/288330/a1_p014.jpg"
       },
       {
@@ -76550,6 +76753,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/288330/a1_p015.jpg"
       }
      ],
@@ -76591,6 +76795,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/288330/a2_p027.jpg"
       }
      ],
@@ -76863,6 +77068,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/081150/a1_p014.jpg"
       }
      ],
@@ -76898,6 +77104,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/081150/a2_p013.jpg"
       }
      ],
@@ -77332,6 +77539,7 @@
        "n_hit": 7,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/900270/a1_p043.jpg"
       },
       {
@@ -77354,6 +77562,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/900270/a1_p044.jpg"
       },
       {
@@ -77376,6 +77585,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/900270/a1_p045.jpg"
       },
       {
@@ -77398,6 +77608,7 @@
        "n_hit": 11,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/900270/a1_p046.jpg"
       }
      ],
@@ -79467,6 +79678,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/099750/a1_p007.jpg"
       }
      ],
@@ -79508,6 +79720,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/099750/a2_p015.jpg"
       }
      ],
@@ -79666,6 +79879,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/289080/a1_p016.jpg"
       }
      ],
@@ -79707,6 +79921,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/289080/a2_p016.jpg"
       }
      ],
@@ -80423,6 +80638,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/238490/a1_p012.jpg"
       }
      ],
@@ -80549,30 +80765,7 @@
      "marks": [
       "③ 제1항의 배당은 매결산기말 현재의 주주명부에 기재된 주주 또는 등록된 질권자에게 지급한다."
      ],
-     "images": [
-      {
-       "page": 1,
-       "file": "img/001.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11157724&flNm=%EB%A1%9C%EA%B3%A0.jpg",
-       "quote": true,
-       "box": [
-        0,
-        0,
-        246,
-        97
-       ],
-       "size": [
-        246,
-        97
-       ],
-       "how": "page",
-       "n_lines": 1,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/043590/a1_p001.jpg"
-      }
-     ],
+     "images": [],
      "pdf_pages": []
     },
     {
@@ -80584,30 +80777,7 @@
      "text": "제46조【사업년도】 이 회사의 사업년도는 매년 1월 1일부터 12월 31일까지로 한다.",
      "title": "제46조【사업년도】",
      "marks": [],
-     "images": [
-      {
-       "page": 1,
-       "file": "img/001.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11157724&flNm=%EB%A1%9C%EA%B3%A0.jpg",
-       "quote": false,
-       "box": [
-        0,
-        0,
-        246,
-        97
-       ],
-       "size": [
-        246,
-        97
-       ],
-       "how": "page",
-       "n_lines": 1,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/043590/a2_p001.jpg"
-      }
-     ],
+     "images": [],
      "pdf_pages": []
     }
    ]
@@ -80756,6 +80926,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/226400/a1_p018.jpg"
       },
       {
@@ -80778,6 +80949,7 @@
        "n_hit": 8,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/226400/a1_p019.jpg"
       }
      ],
@@ -80826,6 +80998,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/190650/a1_p014.jpg"
       },
       {
@@ -80848,6 +81021,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/190650/a1_p015.jpg"
       }
      ],
@@ -80921,6 +81095,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/361670/a1_p015.jpg"
       }
      ],
@@ -81476,6 +81651,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/332570/a1_p013.jpg"
       }
      ],
@@ -81881,6 +82057,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/150900/a1_p021.jpg"
       },
       {
@@ -81903,6 +82080,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/150900/a1_p022.jpg"
       }
      ],
@@ -81938,6 +82116,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/150900/a2_p020.jpg"
       }
      ],
@@ -82123,6 +82302,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/178780/a1_p020.jpg"
       }
      ],
@@ -82158,6 +82338,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/178780/a2_p019.jpg"
       }
      ],
@@ -82397,6 +82578,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/127710/a1_p017.jpg"
       },
       {
@@ -82419,6 +82601,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/127710/a1_p018.jpg"
       }
      ],
@@ -82669,6 +82852,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/058970/a1_p015.jpg"
       },
       {
@@ -82691,6 +82875,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/058970/a1_p016.jpg"
       }
      ],
@@ -83398,6 +83583,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/388050/a1_p014.jpg"
       }
      ],
@@ -83439,6 +83625,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/388050/a2_p014.jpg"
       }
      ],
@@ -83474,6 +83661,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/388050/a3_p013.jpg"
       }
      ],
@@ -83522,6 +83710,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/054040/a1_p019.jpg"
       },
       {
@@ -83544,42 +83733,44 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/054040/a1_p020.jpg"
       }
      ],
      "pdf_pages": []
     },
     {
-     "start": 5585,
-     "end": 5689,
+     "start": 18276,
+     "end": 18358,
      "how": "fiscal",
      "quotes": [],
      "fiscal": true,
-     "text": "第52조 (사업연도) ---------------------------------------------------------------------------------------- 17",
+     "text": "第52조 (사업연도) 회사의 사업연도는 매년 1월 1일부터 12월 31일까지로 한다.\n\n17",
      "title": "第52조 (사업연도)",
      "marks": [],
      "images": [
       {
-       "page": 6,
-       "file": "img/006.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125762&flNm=%EC%A0%95%EA%B4%805.jpg",
+       "page": 18,
+       "file": "img/018.jpg",
+       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11125762&flNm=%EC%A0%95%EA%B4%8017.jpg",
        "quote": false,
        "box": [
         0,
-        0,
+        3055,
         2480,
-        3507
+        3214
        ],
        "size": [
         2480,
         3507
        ],
-       "how": "page",
-       "n_lines": 6,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/054040/a2_p006.jpg"
+       "how": "lines",
+       "n_lines": 27,
+       "n_hit": 1,
+       "scope": "art",
+       "own_head": true,
+       "two_col": false,
+       "crop": "site/evidence/054040/a2_p018.jpg"
       }
      ],
      "pdf_pages": []
@@ -83652,6 +83843,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/037440/a1_p013.jpg"
       },
       {
@@ -83674,6 +83866,7 @@
        "n_hit": 16,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/037440/a1_p014.jpg"
       }
      ],
@@ -83709,6 +83902,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/037440/a2_p012.jpg"
       }
      ],
@@ -83807,6 +84001,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/376900/a1_p016.jpg"
       },
       {
@@ -83829,6 +84024,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/376900/a1_p017.jpg"
       }
      ],
@@ -83902,6 +84098,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/259630/a1_p017.jpg"
       },
       {
@@ -83924,6 +84121,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/259630/a1_p018.jpg"
       }
      ],
@@ -84282,6 +84480,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/170920/a1_p007.jpg"
       }
      ],
@@ -84323,6 +84522,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/170920/a2_p015.jpg"
       }
      ],
@@ -84371,29 +84571,8 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/013990/a1_p016.jpg"
-      },
-      {
-       "page": 17,
-       "file": "img/017.jpeg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11159961&flNm=%EC%A0%95%EA%B4%80_17.jpeg",
-       "quote": false,
-       "box": [
-        0,
-        126,
-        1654,
-        195
-       ],
-       "size": [
-        1654,
-        2339
-       ],
-       "how": "lines",
-       "n_lines": 29,
-       "n_hit": 1,
-       "scope": "art",
-       "own_head": false,
-       "crop": "site/evidence/013990/a1_p017.jpg"
       }
      ],
      "pdf_pages": []
@@ -84434,6 +84613,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/013990/a2_p017.jpg"
       }
      ],
@@ -85417,6 +85597,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/115530/a1_p015.jpg"
       }
      ],
@@ -85452,6 +85633,7 @@
        "n_hit": 1,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/115530/a2_p014.jpg"
       }
      ],
@@ -85545,6 +85727,7 @@
        "n_hit": 5,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0155E0/a1_p008.jpg"
       }
      ],
@@ -85586,6 +85769,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/0155E0/a2_p015.jpg"
       },
       {
@@ -85608,6 +85792,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": false,
+       "two_col": false,
        "crop": "site/evidence/0155E0/a2_p016.jpg"
       }
      ],
@@ -85746,6 +85931,7 @@
        "n_hit": 4,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/030960/a1_p010.jpg"
       }
      ],
@@ -86098,6 +86284,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/334970/a1_p021.jpg"
       }
      ],
@@ -86139,6 +86326,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/334970/a2_p021.jpg"
       }
      ],
@@ -86187,6 +86375,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/417860/a1_p009.jpg"
       }
      ],
@@ -86228,6 +86417,7 @@
        "n_hit": 3,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/417860/a2_p016.jpg"
       }
      ],
@@ -86376,6 +86566,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/261520/a1_p012.jpg"
       }
      ],
@@ -86558,30 +86749,7 @@
      "marks": [
       "128. 본 정관에서 달리 정하지 아니하고 특정 주식에 부여된 권리를 해하지 아니하는 한도 내에서, 회사 또는 이사회는, 배당을 선언하고 이를 지급할 경우 또는 기타 주주에게 여하한 분배, 배정 또는 발행이 이루어지게 되는 경우에 있어서, 특정한 날을 기준일로 정할 수 있다."
      ],
-     "images": [
-      {
-       "page": 1,
-       "file": "img/001.jpg",
-       "src_url": "https://dart.fss.or.kr/report/download.do?dcmNo=11341645&flNm=%EC%A0%95%EA%B4%80_%EC%B2%AB%ED%8E%98%EC%9D%B4%EC%A7%80.jpg",
-       "quote": true,
-       "box": [
-        0,
-        0,
-        2481,
-        3510
-       ],
-       "size": [
-        2481,
-        3510
-       ],
-       "how": "page",
-       "n_lines": 30,
-       "n_hit": 0,
-       "scope": "page",
-       "own_head": false,
-       "crop": "site/evidence/900310/a1_p001.jpg"
-      }
-     ],
+     "images": [],
      "pdf_pages": []
     }
    ]
@@ -86632,6 +86800,7 @@
        "n_hit": 2,
        "scope": "art",
        "own_head": true,
+       "two_col": false,
        "crop": "site/evidence/060590/a1_p014.jpg"
       }
      ],

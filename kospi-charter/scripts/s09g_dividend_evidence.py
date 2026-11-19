@@ -32,6 +32,7 @@ import argparse
 import json
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -182,6 +183,7 @@ def grams(s: str) -> set[str]:
 ANNOT = re.compile(r"[<(\[〈《【〔]\s*[^<>()\[\]〈〉《》【】〔〕]{0,30}?\d{2,4}\s*[.\-]\s*\d{1,2}[^<>()\[\]〈〉《》【】〔〕]{0,40}[>)\]〉》】〕]")
 DATE = re.compile(r"\d{2,4}\s*[.\-]\s*\d{1,2}\s*[.\-]\s*\d{1,2}\.?|개\s*정|신\s*설|삭\s*제|본\s*조")
 ROW_HEAD = re.compile(r"^\W{0,3}(?:제|第|재)\s*(\d{1,3})\s*(?:조|條)(?:\s*의\s*(\d{1,2}))?")
+CHAP_HEAD = re.compile(r"^\W{0,3}(?:제|第)\s*\d{1,2}\s*(?:장|章)|^\W{0,3}부\s*칙")
 # 항 · 호 머리: ①~⑳(OCR 이 ㉠~㉭ 등으로 읽기도 한다) · '2.' · '(3)' · '가.' · '제2항'
 PARA = re.compile(r"^\W{0,2}(?:[①-⑳㉠-㉭㉮-㉻]|\(?\d{1,2}\s*[.)]|[가-하]\s*\.|제\s*\d{1,2}\s*항)")
 
@@ -195,11 +197,12 @@ def art_no(title: str) -> str:
     return f"{m.group(1)}-{m.group(2)}" if m and m.group(2) else (m.group(1) if m else "")
 
 
-def crop_page(img_path: Path, page_text: str, out: Path, quote_text: str = "", own: str = "") -> dict:
+def crop_page(img_path: Path, page_text: str, out: Path, quote_text: str = "", own: str = "", cont: bool = False) -> dict:
     """쪽 그림에서 잘라 낼 줄 구간.
     · 비교 대상: 그 쪽에 든 인용 글(없으면 그 쪽의 조 글). 개정·신설 표시와 날짜는 빼고 3글자 조각으로 비교, 줄의 절반 이상이 맞으면 '맞는 줄'.
     · 범위: 그 조의 머리 줄(own, 예 '45' · '43-2')이 이 쪽에 있으면 거기부터 다음 조 머리 전까지, 없으면(앞 쪽에서 이어짐) 쪽 맨 위부터
-      첫 조 머리 전까지. 그 범위에 맞는 줄이 없으면 쪽 전체에서.
+      첫 조 머리 전까지. 그 범위에 맞는 줄이 없으면 쪽 전체에서. 쪽 전체에도 없으면 그 범위 자체(how 'region' — 조 머리를
+      읽었거나 cont: 앞 쪽에서 이어진 조일 때만), 그것도 아니면 쪽 전체(how 'page').
     · 고르기: 맞는 줄이 이어진 구간(사이에 안 맞는 줄 1개까지) 가운데 비교 글을 가장 많이 덮는 구간 — 줄 수가 아니라.
       (예전엔 조 전체 글과 맞는 줄 중 가장 길게 이어진 구간이라, 같은 조의 항끼리 경쟁해 넥센 제13조 ①을 두고 ②를 잘랐다.)"""
     from PIL import Image
@@ -212,8 +215,33 @@ def crop_page(img_path: Path, page_text: str, out: Path, quote_text: str = "", o
         quote = bool(quote_text.strip())
         target = norm_grams(quote_text if quote else page_text)
         # OCR 줄 조각 → 화면 줄: 높이가 겹치는 조각(왼쪽에 따로 떨어진 항 번호 '2.' 와 본문 등)은 왼쪽부터 이어 한 줄로
-        raw = sorted(((min(w[2] for w in ws) / scale, max(w[2] + w[4] for w in ws) / scale, min(w[1] for w in ws),
-                       "".join(w[0] for w in ws)) for ws in lines), key=lambda r: r[0])
+        raw = sorted(((min(w[2] for w in ws) / scale, max(w[2] + w[4] for w in ws) / scale, min(w[1] for w in ws) / scale,
+                       "".join(w[0] for w in ws), max(w[1] + w[3] for w in ws) / scale) for ws in lines), key=lambda r: r[0])
+        # 두 단으로 짠 쪽: 오른쪽 단 조각(왼 끝이 가운데 넘음)이 많고 가운데를 가로지르는 조각이 적으면, 인용을 더 많이 덮는 단만 쓴다
+        xs0, xs1 = (0, W)
+        if raw:
+            right = [r for r in raw if r[2] > 0.48 * W]
+            cross = [r for r in raw if r[2] < 0.45 * W and r[4] > 0.55 * W]
+            # 가로지르는 줄 허용은 5%(최소 2개)까지: 진짜 두 단 쪽(얼라인드 · 한전KPS · 한전산업)은 0개, 한 단 본문 아래 두 줄 연혁 날짜표가 있는
+            # 동국실업(001620)은 9개였다 — 15% 로 두면 그 쪽을 두 단으로 잘라 본문 오른쪽이 잘렸다
+            if len(right) >= 0.2 * len(raw) and len(cross) <= max(2, 0.05 * len(raw)) and len(raw) >= 10:
+                cols = [[r for r in raw if r[4] <= 0.55 * W], right]
+
+                def ccover(col):
+                    u = set()
+                    for r in col:
+                        u |= norm_grams(r[3]) & target
+                    return len(u)
+                col = max(cols, key=ccover)
+                other = cols[1] if col is cols[0] else cols[0]
+                raw = col
+                xs0 = max(0, min(r[2] for r in col) - 0.02 * W)
+                xs1 = min(W, max(r[4] for r in col) + 0.02 * W)
+                if col is cols[0] and other:                 # 왼쪽 단이면 오른쪽 단이 시작하기 전에서 끊는다
+                    xs1 = min(xs1, min(r[2] for r in other) - 4)
+                elif other:                                  # 오른쪽 단이면 왼쪽 단이 끝난 뒤부터
+                    xs0 = max(xs0, max(r[4] for r in other) + 4)
+        raw = [r[:4] for r in raw]
         hs0 = sorted(r[1] - r[0] for r in raw if r[1] > r[0])
         med = hs0[len(hs0) // 2] if hs0 else 20
         vis = []
@@ -234,6 +262,8 @@ def crop_page(img_path: Path, page_text: str, out: Path, quote_text: str = "", o
             m = ROW_HEAD.match(r[3])
             if m:
                 heads.append((k, f"{m.group(1)}-{m.group(2)}" if m.group(2) else m.group(1)))
+            elif CHAP_HEAD.match(r[3]):                    # '제8장 …' 장 제목도 조의 끝 (조 번호는 없음)
+                heads.append((k, "장"))
         own_k = next((k for k, n in heads if own and n == own), None)
         if own_k is not None:
             lo, hi = own_k, next((k for k, _ in heads if k > own_k), len(rows))
@@ -246,8 +276,16 @@ def crop_page(img_path: Path, page_text: str, out: Path, quote_text: str = "", o
         if not hits:
             hits, scope = [k for k, r in enumerate(rows) if r[2]], "page"
         how = "quote" if quote else "lines"
-        if not hits:
+        if not hits and rows and hi - lo < len(rows) and (own_k is not None or cont):
+            # 맞는 줄은 없어도 그 조의 자리는 안다: 그 조 머리 줄부터 다음 조 머리 전까지, 또는 (앞 쪽에서 이어진 꼬리 '지급한다.' 처럼
+            # 3글자 조각이 모자란 짧은 줄) 쪽 맨 위부터 첫 조 머리 전까지 — 쪽 전체보다 낫다 (2026-11-19)
+            a, b, how, n_hit = lo, hi - 1, "region", 0
+            y0 = (rows[a - 1][1] + rows[a][0]) / 2 if a > 0 else max(0, rows[a][0] - med)
+            y1 = (rows[b][1] + rows[b + 1][0]) / 2 if b + 1 < len(rows) else min(H, rows[b][1] + med)
+            y0, y1 = max(0, min(y0, rows[a][0] - 2)), min(H, max(y1, rows[b][1] + 2))
+        elif not hits:
             y0, y1, how = 0, H, "page"
+            xs0, xs1 = 0, W
             n_hit = 0
         else:
             runs, cur = [], [hits[0], hits[0]]
@@ -279,7 +317,7 @@ def crop_page(img_path: Path, page_text: str, out: Path, quote_text: str = "", o
             y1 = (rows[b][1] + rows[b + 1][0]) / 2 if b + 1 < len(rows) else min(H, rows[b][1] + med)
             y0, y1 = max(0, min(y0, rows[a][0] - 2)), min(H, max(y1, rows[b][1] + 2))
             n_hit = len(hits)
-        box = (0, int(y0), W, int(y1))
+        box = (int(xs0), int(y0), int(xs1), int(y1))
         c = im.crop(box).convert("RGB")
         if max(c.size) > 1000:
             r = 1000 / max(c.size)
@@ -287,11 +325,36 @@ def crop_page(img_path: Path, page_text: str, out: Path, quote_text: str = "", o
         out.parent.mkdir(parents=True, exist_ok=True)
         c.save(out, "JPEG", quality=75, optimize=True)
     return {"box": list(box), "size": [W, H], "how": how, "n_lines": len(rows), "n_hit": n_hit, "scope": scope,
-            "own_head": own_k is not None}
+            "own_head": own_k is not None, "two_col": (xs0, xs1) != (0, W)}
 
 
 # ── 한 회사 ─────────────────────────────────────────────────────────────────
-def charter_evidence(code: str, src: str, quotes: list[str], meta: dict | None, ocr: bool, tag_key: str = "") -> dict:
+def _furn_key(line: str) -> str:
+    return re.sub(r"\d+", "#", re.sub(r"\s+", "", line))
+
+
+def page_furniture(t: str) -> set[str]:
+    """쪽마다 되풀이되는 머리글 · 꼬리글 줄(숫자는 같게 보고, 세 번 이상)."""
+    c = Counter(_furn_key(ln) for ln in t.splitlines() if ln.strip() and not IMG_MARK.search(ln))
+    return {k for k, n in c.items() if n >= 3}
+
+
+def has_body(text: str, furn: set[str]) -> bool:
+    """본문 줄이 하나라도 있나: '다.' 로 끝나는 줄 · 조 · 항 머리 줄, 또는 되풀이 줄이 아니면서 한글 12자 이상인 줄.
+    (머리글은 OCR 이 쪽마다 달리 읽어 — '주식회사 에선테크' / '예선테크' — 되풀이로만은 다 못 잡는다)"""
+    for ln in text.splitlines():
+        s = ln.strip()
+        if not s:
+            continue
+        if re.search(r"다\s*\.?$", s) or ROW_HEAD.match(s) or PARA.match(s):
+            return True
+        if _furn_key(s) not in furn and len(re.findall(r"[가-힣]", s)) >= 12:
+            return True
+    return False
+
+
+def charter_evidence(code: str, src: str, quotes: list[str], meta: dict | None, ocr: bool, tag_key: str = "",
+                     ctype: str | None = None) -> dict:
     p = ROOT / src
     if not p.exists() or not quotes:
         return {"articles": [], "note": "원문 또는 인용 없음"}
@@ -320,12 +383,18 @@ def charter_evidence(code: str, src: str, quotes: list[str], meta: dict | None, 
             m = re.match(r"(?:제|第)\s*\d{1,3}\s*(?:조|條)\s*[(（【\[〔<]?\s*사\s*업\s*[연년]\s*도", t[h:h + 30])
             if m and not any(x["start"] <= h < x["end"] for x in arts):
                 nxt = [x for x in hs if x > h]
+                # 목차 줄은 건너뛴다: 점선 · 쪽 번호만 있거나 다음 조 머리까지 본문이 없는 줄
+                # (휴비스 '제 50조 (사업년도) ....24' · 퍼시스 목차 '제42조 사업년도' 를 참고 조로 잘랐던 것 — 2026-11-19)
+                body = t[h + m.end():nxt[0] if nxt else len(t)]
+                if re.match(r"[^\n]*[.·…‥\-―─_]{4,}", body) or len(re.findall(r"[가-힣]", body)) < 8:
+                    continue
                 e2 = min(nxt[0] if nxt else len(t), h + 600)
                 m2 = END_MARK.search(t, h + 1, e2)
                 arts.append({"start": h, "end": m2.start() if m2 else e2, "how": "fiscal", "quotes": [], "fiscal": True})
                 break
     src_by_file = {im["file"]: im.get("src_url") for im in (meta or {}).get("images", [])}
     base = p.parent
+    furn = page_furniture(t)
     for k, art in enumerate(arts, 1):
         raw = t[art["start"]:art["end"]]
         art["text"] = clean(raw)
@@ -336,13 +405,18 @@ def charter_evidence(code: str, src: str, quotes: list[str], meta: dict | None, 
         art["images"] = []
         for i, pg in enumerate(pgs, 1):
             qtext = " ".join(t[max(a, pg["lo"]):min(b, pg["hi"])] for a, b in art["quotes"] if max(a, pg["lo"]) < min(b, pg["hi"]))
+            # 인용이 없는 쪽에 걸친 그 조 글이 머리글 · 꼬리글(쪽마다 되풀이되는 줄)과 쪽 번호뿐이면 그 조의 쪽이 아니다
+            # (조가 앞 쪽에서 끝났는데 다음 조 머리 전에 '정관' · '주식회사 에선테크' 머리글이 끼어 다음 쪽 전체가 붙던 것 — 2026-11-19)
+            if not qtext.strip() and not has_body(pg["text"], furn):
+                continue
             item = {"page": pg["page"], "file": pg["file"], "src_url": src_by_file.get(pg["file"]), "quote": bool(qtext.strip())}
             out = EVI_DIR / f"{code}{tag_key}" / f"a{k}_p{pg['page']:03d}.jpg"
             if ocr and (base / pg["file"]).exists():
                 side = out.with_suffix(".json")          # 자르기 정보(줄 단위/쪽 전체·상자) — 다시 돌릴 때 그림과 함께 재사용
                 if not out.exists():
                     try:
-                        cm = crop_page(base / pg["file"], pg["text"], out, qtext, art_no(art["title"]))
+                        cm = crop_page(base / pg["file"], pg["text"], out, qtext, art_no(art["title"]),
+                                       cont=art["start"] < pg["lo"])          # 그 조가 앞 쪽에서 시작해 이 쪽으로 이어짐
                         item.update(cm)
                         write_json(side, cm)
                     except Exception as ex:      # OCR 실패 — 쪽 전체 원본 주소만 남긴다
@@ -351,6 +425,15 @@ def charter_evidence(code: str, src: str, quotes: list[str], meta: dict | None, 
                     item.update(read_json(side))
                 if out.exists():
                     item["crop"] = out.relative_to(ROOT).as_posix()
+            # 글자 원문 정관에 끼인 표지 · 로고 그림: 그 그림에서 조항 줄을 하나도 못 찾았으면 근거 그림이 아니다
+            # (그림 표시 뒤 글을 그 그림의 글로 보는 쪽 나누기 때문에 동일고무벨트 '정관' 표지 · 웰킵스하이텍 로고가 붙던 것 — 2026-11-19)
+            if ctype and ctype != "image" and item.get("how") == "page":
+                if out.exists():
+                    out.unlink()
+                side = out.with_suffix(".json")
+                if side.exists():
+                    side.unlink()
+                continue
             art["images"].append(item)
         art["pdf_pages"] = [{k2: v for k2, v in x.items() if k2 != "text"} for x in pdf_pages_of(t, art["start"], art["end"])]
     return {"src": src, "articles": arts}
@@ -408,7 +491,8 @@ def main():
         if r["charter_fulltext_txt"]:
             meta_p = ROOT / Path(r["charter_fulltext_txt"]).parent / "meta.json"
             meta = read_json(meta_p) if meta_p.exists() else None
-            ev = {"charter": charter_evidence(code, r["charter_fulltext_txt"], r["quotes"], meta, not a.no_ocr)}
+            ev = {"charter": charter_evidence(code, r["charter_fulltext_txt"], r["quotes"], meta, not a.no_ocr,
+                                              ctype=r.get("charter_content_type"))}
         else:                                   # 정관 원문 없음 (코스닥 PDF 미판독 4사 등)
             ev = {"charter": {"articles": [], "missing": "정관 원문 없음"}}
         if code in after:
