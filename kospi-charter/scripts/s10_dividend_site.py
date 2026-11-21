@@ -406,7 +406,7 @@ CHG_COLS = ["date", "label", "base", "market", "stock_code", "corp_name", "tag_b
 
 
 def cases_table() -> dict:
-    """data/final/dividend_cases.json (s10d) → 표 + 유형 정의. 웹페이지 '공시 유형' 탭 (사용자 지시 2026-11-21)."""
+    """data/final/dividend_cases.json (s10d) → 표 + 유형 정의. 웹페이지 '회사 공시 오류' 탭 (사용자 지시 2026-11-21)."""
     f = FINAL / "dividend_cases.json"
     if not f.exists():
         return {"cols": [], "rows": [], "types": []}
@@ -607,7 +607,7 @@ def notes_base(M: dict) -> list[dict]:
 
 
 # 배당 특이사항 유형 (사용자 지시 2026-11-22) — 분류(kind)를 몇 가지 유형으로 묶어 탭 위에서 골라 보게 한다.
-#   공시 문서 문제(DOC_KINDS)는 '공시 유형' 탭(s10d)으로 옮기고 여기서는 뺀다(data/interim/s10_doc_notes.json 으로 넘김).
+#   공시 문서 문제(DOC_KINDS)는 '회사 공시 오류' 탭(s10d)으로 옮기고 여기서는 뺀다(data/interim/s10_doc_notes.json 으로 넘김).
 #   근거 경로(정기주총 · 제출 뒤 주총에서 바뀜)는 배당기준일 탭 '근거 종류' 필터로 보므로 뺀다.
 NOTE_GROUPS = [
     {"id": "no_doc", "name": "사업보고서 · 소집공고가 없음",
@@ -639,7 +639,7 @@ def note_group(kind: str) -> str | None:
 
 
 def agm_caution_notes(M: dict, add) -> None:
-    """부결 · 미결 안건(s09e) · 부칙 효력 조건 · 상장 전 주총 — 2026-11-22 공시 유형 탭에서 옮겨 옴(회사 공시 문서 잘못이 아님)."""
+    """부결 · 미결 안건(s09e) · 부칙 효력 조건 · 상장 전 주총 — 2026-11-22 공시 유형(지금 회사 공시 오류) 탭에서 옮겨 옴(회사 공시 문서 잘못이 아님)."""
     for rc, v in sorted(M["agm"].items()):
         note = v.get("note") or ""
         if v.get("passed") is not None or not note.startswith("판정 안건 중 가결 아닌 것"):
@@ -707,7 +707,7 @@ def main():
     unread = {(n["market"], n["stock_code"]): n["kind"] for n in notes if n["kind"] in (UNREAD_ENC, UNREAD_NOSVC, UNREAD_CUT)}
     for x in out_rows:                                # 첨부 정관을 읽지 못한 까닭 (화면 라벨 — 특이사항 표에서 빠져 행에 싣는다)
         x["unread_kind"] = unread.get((x["market"], x["stock_code"]))
-    write_json(DOC_NOTES, [n for n in notes if n["kind"].startswith(DOC_KINDS)])     # → s10d '공시 유형'
+    write_json(DOC_NOTES, [n for n in notes if n["kind"].startswith(DOC_KINDS)])     # → s10d '회사 공시 오류'
     left = [n["kind"] for n in notes if not n["kind"].startswith(DOC_KINDS + ROUTE_KINDS) and not note_group(n["kind"])]
     if left:
         raise SystemExit(f"특이사항 분류에 유형이 없다: {sorted(set(left))} — NOTE_GROUP_OF 에 더한다")
@@ -740,7 +740,7 @@ def main():
                                "groups": note_groups, "file": "s10 특이사항", "updated": datetime.now().strftime("%Y-%m-%d %H:%M")},
             # 배포한 판 대비 판정이 바뀐 회사 (s10c, 사용자 지시 2026-11-19 — 배포 뒤 변화 관리). 웹페이지 '판정 변경 이력' 탭
             "dividend_changes": changes_table(),
-            # 회사 공시 실수 · 빈틈 유형별 회사 (s10d, 사용자 지시 2026-11-21). 웹페이지 '공시 유형' 탭
+            # 회사 공시 실수 · 빈틈 유형별 회사 (s10d, 사용자 지시 2026-11-21). 웹페이지 '회사 공시 오류' 탭
             "dividend_cases": cases_table(),
         },
         "stats": stats, "stats_by_market": by_market,

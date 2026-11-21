@@ -411,7 +411,7 @@
   };
   // 첨부 정관을 읽을 수 없어 다른 자료로 정한 행(첨부 태그 확인필요): 쓴 자료 이름을 짙은 보라 라벨로(주총 안건은 크림슨), 이유는 작은 글씨 (사용자 결정 2026-11-17)
   const unreadWhy = (r) => {
-    const k = r.unread_kind || "";      // s10 이 특이사항 분류에서 행에 싣는다 (2026-11-22 특이사항 표에서 공시 유형 탭으로 옮김)
+    const k = r.unread_kind || "";      // s10 이 특이사항 분류에서 행에 싣는다 (2026-11-22 특이사항 표에서 회사 공시 오류 탭으로 옮김)
     return /암호화/.test(k) ? "암호화된 PDF" : /서비스하지/.test(k) ? "DART 가 PDF 를 제공하지 않음" : /끊겨/.test(k) ? "정관 이미지가 중간에 끊겨 배당 조항이 없음" : "";
   };
   const altWhy = (r, tail) => {
@@ -659,7 +659,7 @@
   }
   const F_CG = SEL("cg", "확인그룹", "_cg", { order: ["1", "2", "3", "4", "5", CG_NONE], fmt: (v) => (v === CG_NONE ? "- (코스피 아님)" : `${v}그룹`) });
 
-  // 공시 유형 (s10d → dividend_cases, 사용자 지시 2026-11-21 — 회사 공시 실수 · 빈틈 유형과 해당 회사 전체)
+  // 회사 공시 오류 (s10d → dividend_cases, 2026-11-22 '공시 유형'에서 이름 바꿈, 사용자 지시 2026-11-21 — 회사 공시 실수 · 빈틈 유형과 해당 회사 전체)
   const CASE_T = (((window.DATA_DIV || {}).tables || {}).dividend_cases || {}).types || [];
   const CASE_I = Object.fromEntries(CASE_T.map((t, i) => [t.id, i]));
   const CASE_N = Object.fromEntries(CASE_T.map((t) => [t.id, t.name]));
@@ -678,7 +678,7 @@
       <td class="c">${i + 1}</td><td class="nm"><a href="#divnote" data-go="divnote:ngrp=${esc(g.id)}">${esc(g.name)}</a></td>
       <td class="wrap">${esc(g.desc)}</td><td class="wrap small">${(g.kinds || []).map(esc).join("<br>")}</td>
       <td class="num">${fmtN(g.n)}</td></tr>`).join("")}</tbody></table></div>
-      <p class="small">유형 이름을 누르면 아래 표가 그 유형 회사만 보인다. 회사 공시 문서의 잘못은 '공시 유형' 탭에, 주총 안건으로 태그가 바뀐 회사는 배당기준일 탭 '근거 종류' 필터에 있다.</p></div>`);
+      <p class="small">유형 이름을 누르면 아래 표가 그 유형 회사만 보인다. 회사 공시 문서의 잘못은 '회사 공시 오류' 탭에, 주총 안건으로 태그가 바뀐 회사는 배당기준일 탭 '근거 종류' 필터에 있다.</p></div>`);
   const CHG_KEYS = new Set(rowsOf("dividend_changes").map((n) => `${n.market}|${n.stock_code}`));   // 배포 뒤 판정이 바뀐 회사 (s10c)
 
   /* ---------- 탭 ---------- */
@@ -785,9 +785,9 @@
     },
     {
       // 회사 공시 실수 · 빈틈 유형별 회사 (s10d → dividend_cases, 사용자 지시 2026-11-21)
-      id: "divcase", label: "공시 유형", table: "dividend_cases", title: "배당기준일 공시 유형 (회사 공시 실수 · 빈틈과 해당 회사)",
+      id: "divcase", label: "회사 공시 오류", table: "dividend_cases", title: "배당기준일 회사 공시 오류 (유형과 해당 회사)",
       badge: CASE_T.length ? `${fmtN(CASE_T.length)}유형` : "",
-      tip: "사업보고서 첨부 정관과 주총 안건만으로는 정할 수 없던 회사 공시 실수 · 빈틈의 유형과 해당 회사 전체",
+      tip: "회사가 공시 문서를 잘못 냈거나 빠뜨려 사업보고서 첨부 정관과 주총 안건만으로는 정할 수 없던 경우의 유형과 해당 회사 전체",
       desc: "기본은 2025 결산 사업보고서에 첨부된 정관을 읽고, 그 정관이 지난 것일 수 있어 2026 정기주총과 그 뒤 주총의 정관 변경 안건과 KIND 가결 여부를 확인하는 것이다. " +
         "이 탭은 그 기본만으로는 정할 수 없던 경우를 유형별로 모았다. 모두 회사가 공시 문서를 잘못 냈거나 빠뜨린 경우다(옛 판 정관 첨부, 대비표를 다른 항목에 적거나 싣지 않음, 주총 없이 바뀐 정관 첨부, 읽을 수 없는 정관 첨부, 정관 문구의 오류). 공시가 없거나 부결 · 부칙 조건처럼 공시 잘못이 아닌 경우는 '배당 특이사항' 탭에 있다. " +
         "회사 목록은 손으로 고르지 않고 판정 데이터와 점검 기록에서 규칙으로 뽑았다. '판정 그대로'인 회사는 같은 유형의 공시였지만 결산배당 기준일과 무관했거나 이미 반영돼 있던 경우다. 행을 누르면 그 회사의 근거가 열린다.",

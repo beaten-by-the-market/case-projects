@@ -1,4 +1,4 @@
-"""s10d 배당기준일 공시 유형 — 회사 공시 실수 · 빈틈 유형별로 해당 회사를 모두 모은다
+"""s10d 배당기준일 회사 공시 오류 (웹페이지 탭 이름, 2026-11-22 '공시 유형'에서 바꿈) — 회사 공시 실수 · 빈틈 유형별로 해당 회사를 모두 모은다
 
 왜: 사용자 지시(2026-11-21) — 기본(2025 결산 사업보고서 첨부 정관 + 2026 정기주총 이후 안건 · 가결)을 넘어,
     회사 공시 실수와 빈틈을 수습한 유형을 정리하고 유형마다 해당 종목 전체를 웹페이지 탭에 보인다.
@@ -9,7 +9,7 @@
 
 입력  site/dividend.js(s10 이 만든 판정)
       data/interim/s09m_other_basis.json · s09k_blank.json · s09k_text_sections.json · s10_doc_notes.json(s10 이 씀)
-출력  data/final/dividend_cases.json  {types: [...], rows: [...]} → s10 이 dividend.js 'dividend_cases' 표로 싣는다 ('공시 유형' 탭)
+출력  data/final/dividend_cases.json  {types: [...], rows: [...]} → s10 이 dividend.js 'dividend_cases' 표로 싣는다 ('회사 공시 오류' 탭)
 
     python -X utf8 scripts/s10_dividend_site.py
     python -X utf8 scripts/s09k_aoi_history.py blank      # 공고 쪽 규칙 (로컬)
@@ -149,7 +149,7 @@ def main() -> None:
         t["n"] = len({(e["market"], e["stock_code"]) for e in ms})
         t["n_changed"] = len({(e["market"], e["stock_code"]) for e in ms if e["effect"] == "판정 바뀜"})
     write_json(OUT, {"types": TYPES, "cols": COLS, "rows": out})
-    print(f"공시 유형 {len(TYPES)} · 행 {len(out)} → {OUT.relative_to(ROOT)}")
+    print(f"회사 공시 오류 {len(TYPES)}유형 · 행 {len(out)} → {OUT.relative_to(ROOT)}")
     for t in TYPES:
         print(f"  {t['name']}: {t['n']}사 (판정 바뀜 {t['n_changed']})")
 
