@@ -1,0 +1,2157 @@
+{
+ "types": [
+  {
+   "id": "stale",
+   "name": "사업보고서 첨부 정관이 옛 판",
+   "problem": "1~2년 앞선 주주총회에서 이미 바꾼 기준일 조항이 2025 결산 사업보고서 첨부 정관에는 개정 전 문구로 남아 있다.",
+   "fix": "2024-01-01부터의 주주총회 소집공고 '정관의 변경' 대비표를 모두 판별하고, 변경 전 · 변경 후 문구를 첨부 정관과 대조해 옛 판일 때만 KIND 주주총회결과(가결)로 바꿨다.",
+   "rule": "판정 데이터 basis_stale_charter (s09j)",
+   "n": 4,
+   "n_changed": 4
+  },
+  {
+   "id": "other_item",
+   "name": "정관 변경을 다른 안건 항목에 기재",
+   "problem": "소집공고의 '정관의 변경' 서식 항목이 아니라 '재무제표의 승인' 같은 다른 안건 항목 안이나 본문 끝 별첨에 대비표를 적어, 서식 코드로는 찾을 수 없다.",
+   "fix": "서식 코드 · 제목이 없으면 DART 표준 문구('그 외의 정관변경에 관한 건' 등)와 대비표 머리로 글에서 절을 찾는 대체 경로를 넣었다.",
+   "rule": "s09k blank 이 모든 공고 원문에서 기록한 글로 찾은 절 (s06 text_fallback)",
+   "n": 47,
+   "n_changed": 3
+  },
+  {
+   "id": "no_table",
+   "name": "대비표를 글로 싣지 않음",
+   "problem": "'정관의 변경' 항목에 조문이 없다. '첨부된 대비표 참고'라고 적고 첨부가 없거나, '하단 참조'로 대비표를 그림으로 넣거나, 안건 이름만 적었다.",
+   "fix": "그림은 DART 에서 받아 읽었다. 조문이 공시되지 않은 회사는 반기보고서 '정관 변경 이력' · KIND 주주총회결과 · 상장공시시스템 신고로 판정하고 조문 미공시 주의를 붙였다.",
+   "rule": "s09k blank (조 머리 없음 + 첨부 · 참조 문구, 대비표 그림) · s09m 회사 공시 오류",
+   "n": 11,
+   "n_changed": 2
+  },
+  {
+   "id": "pre_listing",
+   "name": "상장 전 주주총회 (소집공고 없음)",
+   "problem": "상장 전에 소집한 정기주총이라 DART 주주총회소집공고가 없고, 사업보고서 첨부 정관은 그 주총 전 판이다.",
+   "fix": "반기보고서 '정관 변경 이력'과 KIND 주주총회결과(가결) · 상장공시시스템 신고로 판정했다.",
+   "rule": "s09m '소집공고 없음'",
+   "n": 1,
+   "n_changed": 1
+  },
+  {
+   "id": "no_agm_change",
+   "name": "주주총회 없이 바뀐 정관을 첨부",
+   "problem": "주주총회에서 고친 적 없는 기준일 조항이 사업보고서 첨부 정관에서 바뀌어 있다.",
+   "fix": "전년도 사업보고서 첨부 정관과 정관 변경 이력으로 확인해 전년도 정관을 근거로 했다. 앞으로는 '첨부 정관 N · 신고 Y' 불일치만 확인한다.",
+   "rule": "s09m '주주총회 개정 없이'",
+   "n": 1,
+   "n_changed": 1
+  },
+  {
+   "id": "failed",
+   "name": "기준일 조항 개정 안건 부결 · 미결",
+   "problem": "대비표에는 기준일 조항 개정이 있지만 의결정족수 미달 등으로 가결되지 않았다(회사 실수 아님).",
+   "fix": "KIND 주주총회결과로 가결 여부를 확인해 반영하지 않았고, 근거 칸에 부결 · 미결 라벨을 붙였다.",
+   "rule": "s09e 결과 '판정 안건 중 가결 아닌 것'",
+   "n": 13,
+   "n_changed": 0
+  },
+  {
+   "id": "effect_cond",
+   "name": "부칙으로 효력에 조건이 붙음",
+   "problem": "기준일 조항은 바뀌었지만 부칙이 효력 발생에 조건(인가일 등)을 달았다.",
+   "fix": "판정은 개정 문구로 하고 근거 칸에 부칙 조건을 주의로 적었다.",
+   "rule": "판정 데이터 basis_effect_cond",
+   "n": 1,
+   "n_changed": 0
+  },
+  {
+   "id": "filed_opposite",
+   "name": "상장공시시스템 신고가 정관과 반대 (Y↔N)",
+   "problem": "정관은 N 인데 신고는 Y(또는 그 반대)다. 주총 개정 뒤 신고를 고치지 않았거나, 정관 문구가 불완전하거나(스팩의 결산배당 지급 조 없음 등) 해석이 갈린다.",
+   "fix": "판정은 정관대로 하고 '신고 대조 불일치'로 보인다. 정관 N · 신고 Y 는 주총 없이 바뀐 정관 첨부(위 유형)인지 정관 변경 이력으로 확인했다.",
+   "rule": "판정 데이터 filed_cmp = 불일치 이고 정관no ↔ 신고 Y 또는 정관yes ↔ 신고 N",
+   "n": 13,
+   "n_changed": 0
+  }
+ ],
+ "cols": [
+  "type",
+  "market",
+  "stock_code",
+  "corp_name",
+  "sub",
+  "tag",
+  "tag_current",
+  "filed",
+  "filed_cmp",
+  "effect",
+  "text",
+  "links"
+ ],
+ "rows": [
+  {
+   "type": "stale",
+   "market": "코스피",
+   "stock_code": "002960",
+   "corp_name": "한국쉘석유",
+   "sub": "2025-03-28",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 바뀜",
+   "text": "사업보고서 첨부 정관이 1~2년 앞선 주총 개정 전 옛 판, 그 주총 소집공고 안건 · KIND 정기주주총회결과 서브에이전트 판별: 배당기준일 안건 제5-2호의안 가결, 소집공고 제5호 의안 '정관 일부 변경의 건' 중 기준일 조항(제40조 ② 이사회 결의 배당기준일)은 제5-2호 의안 '제40조(이익배당금) 및 제40조의2(중간배당) 변경의 건'에 들었고, 결과 글에서 제5-2호의안이 '원안대로 승인'이다. 가결.",
+   "links": [
+    {
+     "label": "소집공고 20250313",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250313000571",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2025-03-28",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250328001311",
+     "title": "KIND 주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "stale",
+   "market": "코스피",
+   "stock_code": "069640",
+   "corp_name": "한세엠케이",
+   "sub": "2025-03-26",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 바뀜",
+   "text": "사업보고서 첨부 정관이 1~2년 앞선 주총 개정 전 옛 판, 그 주총 소집공고 안건 · KIND 정기주주총회결과 서브에이전트 판별: 배당기준일 안건 제2호 의안 가결, 소집공고 제2호 의안 '정관 일부 변경의 건'(세부 안건 없음, 대비표 제52조 ② 이사회 결의 배당기준일 신설)이 결과 글의 '제2호 의안 : 정관 일부 변경의 건 => 원안대로 승인'에 해당한다. 가결.",
+   "links": [
+    {
+     "label": "소집공고 20250311",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250311000547",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2025-03-26",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250326002130",
+     "title": "KIND 주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "stale",
+   "market": "코스닥",
+   "stock_code": "136480",
+   "corp_name": "하림",
+   "sub": "2025-03-26",
+   "tag": "정관yesorno",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 바뀜",
+   "text": "사업보고서 첨부 정관이 1~2년 앞선 주총 개정 전 옛 판, 그 주총 소집공고 안건 · KIND 정기주주총회결과 서브에이전트 판별: 배당기준일 안건 제3호 의안 가결, 소집공고 제3호 의안 '정관 일부 변경의 건'(대비표 제51조 ② 이익배당 기준일 · 제52조 분기배당 기준일)이 결과 글의 '③ 제3호 의안 : 정관 일부 변경의 건 ▶원안대로 가결'에 해당한다(세부 안건 없음). 가결.",
+   "links": [
+    {
+     "label": "소집공고 20250225",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250225002171",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2025-03-26",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250326001865",
+     "title": "KIND 주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "stale",
+   "market": "코스닥",
+   "stock_code": "440320",
+   "corp_name": "오픈놀",
+   "sub": "2025-03-28",
+   "tag": "정관yesorno",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 바뀜",
+   "text": "사업보고서 첨부 정관이 1~2년 앞선 주총 개정 전 옛 판, 그 주총 소집공고 안건 · KIND 정기주주총회결과 서브에이전트 판별: 배당기준일 안건 제2-1호 가결, 소집공고 '정관 일부 개정의 건' 중 제54조 ③ 결산배당 기준일 변경은 결과 글의 '제2-1호 이익배당(결산배당) 기준일 조항 변경 →원안대로 가결'이다(제2-2호 분기배당도 가결). 가결.",
+   "links": [
+    {
+     "label": "소집공고 20250313",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250313000762",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2025-03-28",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250328000083",
+     "title": "KIND 주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "000540",
+   "corp_name": "흥국화재",
+   "sub": "2025-03-13 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20250313",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250313000413",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "000970",
+   "corp_name": "한국주철관공업",
+   "sub": "2026-03-12 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260312",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000040",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "001550",
+   "corp_name": "조비",
+   "sub": "2026-03-11 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260311",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003289",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "002840",
+   "corp_name": "미원상사",
+   "sub": "2025-03-07 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20250307",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250307000850",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "002840",
+   "corp_name": "미원상사",
+   "sub": "2026-03-06 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260306",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260306000265",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "006570",
+   "corp_name": "대림통상",
+   "sub": "2025-03-13 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20250313",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250313001053",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "008770",
+   "corp_name": "호텔신라",
+   "sub": "2026-03-03 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20260303",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260303002845",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "014680",
+   "corp_name": "한솔케미칼",
+   "sub": "2026-03-10 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "미입력",
+   "filed_cmp": "미입력",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20260310",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310003035",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "024110",
+   "corp_name": "기업은행",
+   "sub": "2026-03-11 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260311",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004141",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "071050",
+   "corp_name": "한국금융지주",
+   "sub": "2024-03-14 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20240314",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240314000893",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "071050",
+   "corp_name": "한국금융지주",
+   "sub": "2025-03-13 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20250313",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250313000915",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "071050",
+   "corp_name": "한국금융지주",
+   "sub": "2026-03-12 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20260312",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000993",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "085620",
+   "corp_name": "미래에셋생명",
+   "sub": "2025-03-04 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20250304",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250304000716",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "093050",
+   "corp_name": "LF",
+   "sub": "2025-02-25 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20250225",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250225004554",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스피",
+   "stock_code": "329180",
+   "corp_name": "HD현대중공업",
+   "sub": "2025-10-02 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20251002",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251002000263",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "007680",
+   "corp_name": "대원",
+   "sub": "2024-03-21 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20240321",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240321001804",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "007680",
+   "corp_name": "대원",
+   "sub": "2025-03-21 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20250321",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250321000531",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "007680",
+   "corp_name": "대원",
+   "sub": "2026-03-19 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260319",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001156",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "020400",
+   "corp_name": "대동금속",
+   "sub": "2024-03-12 공고",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20240312",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240312000200",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "020400",
+   "corp_name": "대동금속",
+   "sub": "2026-03-11 공고",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 바뀜",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260311",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003473",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "024950",
+   "corp_name": "삼천리자전거",
+   "sub": "2026-03-06 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260306",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260306000843",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "025980",
+   "corp_name": "아난티",
+   "sub": "2026-03-11 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260311",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003510",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "030960",
+   "corp_name": "양지사",
+   "sub": "2026-09-03 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260903",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000055",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "033290",
+   "corp_name": "로젠",
+   "sub": "2026-09-30 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '회사의 합병' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260930",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000372",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "036930",
+   "corp_name": "주성엔지니어링",
+   "sub": "2024-09-23 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20240923",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240923000186",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "039030",
+   "corp_name": "이오테크닉스",
+   "sub": "2026-03-16 공고",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 바뀜",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20260316",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001091",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "058400",
+   "corp_name": "KNN",
+   "sub": "2026-03-09 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260309",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001646",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "060230",
+   "corp_name": "제이케이시냅스",
+   "sub": "2024-09-26 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20240926",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240926000475",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "061970",
+   "corp_name": "LB세미콘",
+   "sub": "2026-03-13 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260313",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000564",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "063570",
+   "corp_name": "NICE인프라",
+   "sub": "2024-03-13 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20240313",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240313001486",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "080420",
+   "corp_name": "모다이노칩",
+   "sub": "2026-09-30 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '회사의 합병' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260930",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000261",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "090360",
+   "corp_name": "로보스타",
+   "sub": "2024-03-07 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '기타 주주총회의 목적사항' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20240307",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240307000581",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "101680",
+   "corp_name": "한국정밀기계",
+   "sub": "2025-03-19 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20250319",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250319000389",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "109610",
+   "corp_name": "에스와이",
+   "sub": "2026-03-12 공고",
+   "tag": "정관yesorno",
+   "tag_current": "정관yesorno",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260312",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000901",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "115160",
+   "corp_name": "휴맥스",
+   "sub": "2026-08-11 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yesorno",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20260811",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000493",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "115610",
+   "corp_name": "이미지스",
+   "sub": "2026-03-12 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260312",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000386",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "131100",
+   "corp_name": "티엔엔터테인먼트",
+   "sub": "2024-11-14 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20241114",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114000913",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "149980",
+   "corp_name": "하이로닉",
+   "sub": "2026-05-29 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재",
+   "links": [
+    {
+     "label": "소집공고 20260529",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001516",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "222420",
+   "corp_name": "쎄노텍",
+   "sub": "2026-03-09 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260309",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001806",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "226330",
+   "corp_name": "신테카바이오",
+   "sub": "2026-03-12 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260312",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001353",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "270660",
+   "corp_name": "에브리봇",
+   "sub": "2026-03-09 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260309",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001087",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "290120",
+   "corp_name": "DH오토리드",
+   "sub": "2026-03-31 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '기타 주주총회의 목적사항' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260331",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331004982",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "291230",
+   "corp_name": "컴투스엔",
+   "sub": "2026-05-29 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '회사의 합병' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260529",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001110",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "303030",
+   "corp_name": "지니틱스",
+   "sub": "2026-07-24 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '기타 주주총회의 목적사항' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260724",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000417",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "317850",
+   "corp_name": "대모",
+   "sub": "2026-03-12 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '확인서' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260312",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001123",
+     "title": "[기재정정]주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "318010",
+   "corp_name": "팜스빌",
+   "sub": "2026-03-11 공고",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260311",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003911",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "366030",
+   "corp_name": "나인앤컴퍼니",
+   "sub": "2026-03-13 공고",
+   "tag": "정관yesorno",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 바뀜",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260313",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000049",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "413630",
+   "corp_name": "씨피시스템",
+   "sub": "2024-04-23 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '회사의 합병' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20240423",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240423000244",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "413640",
+   "corp_name": "비아이매트릭스",
+   "sub": "2026-03-13 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260313",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000845",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "425040",
+   "corp_name": "티이엠씨",
+   "sub": "2025-03-11 공고",
+   "tag": "정관yesorno",
+   "tag_current": "정관yesorno",
+   "filed": "N",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20250311",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250311000704",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "451220",
+   "corp_name": "아이엠티",
+   "sub": "2024-03-06 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20240306",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240306000397",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "463480",
+   "corp_name": "모티브링크",
+   "sub": "2026-03-12 공고",
+   "tag": "정관yesorno",
+   "tag_current": "정관yesorno",
+   "filed": "N",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260312",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000822",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "other_item",
+   "market": "코스닥",
+   "stock_code": "479960",
+   "corp_name": "위너스일렉",
+   "sub": "2026-03-16 공고",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "정관 변경을 '재무제표의 승인' 항목에 기재",
+   "links": [
+    {
+     "label": "소집공고 20260316",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000713",
+     "title": "주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "no_table",
+   "market": "코스닥",
+   "stock_code": "021040",
+   "corp_name": "대호특수강",
+   "sub": "그림",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "대호특수강 스캔 그림 대비표: 제2조(목적) · 부칙과 임원퇴직금 지급규정뿐 → 결산배당 기준일 무관",
+   "links": [
+    {
+     "label": "소집공고 20240312",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240312000519",
+     "title": "DART 주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "no_table",
+   "market": "코스닥",
+   "stock_code": "032750",
+   "corp_name": "삼진",
+   "sub": "첨부 없음",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 바뀜",
+   "text": "정관 변경 대비표를 '첨부'한다고 적고 DART 에 첨부하지 않음. 2026 반기보고서 '정관 변경 이력': 2026.03.27 제50기 정기주주총회 · 제43조(이익배당) · 이사회결의로 배당기준일을 결산기준일과 달리 정할 수 있도록 함. KIND 정기주주총회결과(2026-03-27) 제2호 '정관 일부 변경 승인의 건' 가결.",
+   "links": [
+    {
+     "label": "반기보고서 2026.08.14",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001437",
+     "title": "DART 반기보고서 (정관 변경 이력)"
+    },
+    {
+     "label": "소집공고 2026.03.13",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000072",
+     "title": "DART 주주총회소집공고 (대비표 첨부 없음)"
+    },
+    {
+     "label": "결과공시 2026-03-27",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327001120",
+     "title": "KIND 정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "no_table",
+   "market": "코스닥",
+   "stock_code": "036830",
+   "corp_name": "솔브레인홀딩스",
+   "sub": "그림",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "솔브레인홀딩스: 그림 대비표. 제59조 ③을 '이사회결의로 … 기준일을 정하여야' 로 개정(2024-03-26) → 2026 첨부 정관 정관no 와 같음",
+   "links": [
+    {
+     "label": "소집공고 20240318",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240318000841",
+     "title": "DART 주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "no_table",
+   "market": "코스닥",
+   "stock_code": "043710",
+   "corp_name": "코스리거글로벌",
+   "sub": "그림",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "코스리거글로벌: 그림 대비표는 제2조(목적)뿐 → 결산배당 기준일 무관",
+   "links": [
+    {
+     "label": "소집공고 20260312",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000056",
+     "title": "DART 주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "no_table",
+   "market": "코스닥",
+   "stock_code": "127980",
+   "corp_name": "화인써키트",
+   "sub": "그림",
+   "tag": "정관yesorno",
+   "tag_current": "정관yesorno",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로",
+   "text": "화인써키트 그림 대비표: 제9조의2 종류주식 · 제17조 전환사채 · 제18조 신주인수권부사채 → 결산배당 기준일 무관",
+   "links": [
+    {
+     "label": "소집공고 20250311",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250311000641",
+     "title": "DART 주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "no_table",
+   "market": "코스닥",
+   "stock_code": "185490",
+   "corp_name": "아이진",
+   "sub": "그림",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "아이진: 그림 대비표 6장. 제36조 ③을 '이사회 결의로 … 기준일을 정하여야' 로 개정(2024-03-26, '현행 코스닥 상장기업 표준정관 적용') → 2026 첨부 정관 정관no 와 같음",
+   "links": [
+    {
+     "label": "소집공고 20240311",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240311000890",
+     "title": "DART 주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "no_table",
+   "market": "코스닥",
+   "stock_code": "217480",
+   "corp_name": "에스디생명공학",
+   "sub": "그림",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "에스디생명공학: 그림 대비표는 제49조(감사의 선임) → 결산배당 기준일 무관",
+   "links": [
+    {
+     "label": "소집공고 20240314",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240314001705",
+     "title": "DART 주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "no_table",
+   "market": "코스닥",
+   "stock_code": "270870",
+   "corp_name": "뉴트리",
+   "sub": "그림",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "뉴트리: 그림 대비표 2쪽. 제49조(이익배당) ③을 '제15조 2항에서 정한 날 현재 주주'로 순번 정비(기준일 방식 그대로) → 2026 첨부 정관 정관yes, 2026 정기주총 안건으로 지금 정관no",
+   "links": [
+    {
+     "label": "소집공고 20240314",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240314000599",
+     "title": "DART 주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "no_table",
+   "market": "코스닥",
+   "stock_code": "318410",
+   "corp_name": "비비씨",
+   "sub": "첨부 · 참조 문구",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로",
+   "text": "비비씨: 사업목적 · '전체적인 정관 변경'(전체 정관 하단 첨부). 2024 개정은 2026 첨부 정관(정관no)에 들어 있음",
+   "links": [
+    {
+     "label": "소집공고 20240313",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240313001134",
+     "title": "DART 주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "no_table",
+   "market": "코스닥",
+   "stock_code": "371950",
+   "corp_name": "풍원정밀",
+   "sub": "그림",
+   "tag": "정관yesorno",
+   "tag_current": "정관yesorno",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로",
+   "text": "풍원정밀 대비표가 그림 8장(정관_20260331_세로_1~8.jpg). 제16조(기준일)만 바뀌고 근거 조 제57조(이익배당)는 대비표에 없음 → 정관yesorno 그대로",
+   "links": [
+    {
+     "label": "소집공고 20260316",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000757",
+     "title": "DART 주주총회소집공고"
+    }
+   ]
+  },
+  {
+   "type": "no_table",
+   "market": "코스닥",
+   "stock_code": "452160",
+   "corp_name": "제이엔비",
+   "sub": "항목 없음",
+   "tag": "정관yesorno",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 바뀜",
+   "text": "소집공고에 정관 변경 안건만 적고 '정관의 변경' 항목 · 대비표를 기재하지 않음. 2026 반기보고서 '정관 변경 이력': 2026.03.26 제21기 정기주주총회 · 주주명부의 폐쇄 및 기준일 · 이익 배당 등 변경 · 사유 '상장사 표준정관 내용반영'. KIND 정기주주총회결과(2026-03-26) 제3호 '정관 일부 개정의 건' 가결. 상장회사협의회 표준정관 제45조(이익배당) ②(법무법인 세종 뉴스레터 2025.03.13 인용): '이 회사는 이사회결의로 제1항의 배당을 받을 주주를 확정하기 위한 기준일을 정할 수 있으며, 기준일을 정한 경우 그 기준일의 2주 전에 이를 공고하여야 한다.'",
+   "links": [
+    {
+     "label": "반기보고서 2026.08.14",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000389",
+     "title": "DART 반기보고서 (정관 변경 이력)"
+    },
+    {
+     "label": "소집공고 2026.03.09",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001326",
+     "title": "DART 주주총회소집공고 ('정관의 변경' 항목 없음)"
+    },
+    {
+     "label": "결과공시 2026-03-26",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326000378",
+     "title": "KIND 정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "pre_listing",
+   "market": "코스닥",
+   "stock_code": "493280",
+   "corp_name": "아이엠바이오로직스",
+   "sub": "2026-03-31",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 바뀜",
+   "text": "2026 반기보고서 '정관 변경 이력': 2026.03.31 제6기 정기주주총회 · 제61조 이익배당 · 결산이사회 주요안건에 대한 조문 추가. KIND 정기주주총회결과(2026-03-31) 제2호 '정관변경의 건' 가결. 주의: 조문 원문은 공시되지 않았고, 이력의 변경 사유만으로는 기준일 조항인지 확정되지 않는다. KIND 결과 · 상장공시시스템 신고(N) · 코스닥시장 담당자 확인으로 정함. 사업보고서(2026.03.25) 첨부 정관은 이 주총 전 판.",
+   "links": [
+    {
+     "label": "반기보고서 2026.08.12",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000685",
+     "title": "DART 반기보고서 (정관 변경 이력)"
+    },
+    {
+     "label": "결과공시 2026-03-31",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331003831",
+     "title": "KIND 정기주주총회결과"
+    },
+    {
+     "label": "사업보고서 2026.03.25",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260325001160",
+     "title": "DART 사업보고서 (주총 전 정관 첨부)"
+    }
+   ]
+  },
+  {
+   "type": "no_agm_change",
+   "market": "코스닥",
+   "stock_code": "235980",
+   "corp_name": "메드팩토",
+   "sub": "",
+   "tag": "정관no",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "판정 바뀜",
+   "text": "2025.03.20 사업보고서 첨부 정관 제60조 ③: 제1항의 배당은 매 결산기말 현재의 주주명부에 기재된 주주 또는 등록된 질권자에게 지급한다. 주의: 2026.03.18 사업보고서 첨부 정관의 제60조 ③(이사회결의로 기준일)은 주주총회를 거치지 않았다: 2025.03 · 2026.03 정기주총 정관 변경 안건과 반기보고서 정관 변경 이력(2022~2026)에 이익배당 조 개정이 없다. 코스닥시장 담당자 · 회사 확인으로 정함(기준일 현재 정정 사업보고서 없음).",
+   "links": [
+    {
+     "label": "2025 사업보고서 정관",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250320000990&dcmNo=10436617",
+     "title": "DART 2025.03 사업보고서 첨부 정관 (24쪽 제60조)"
+    },
+    {
+     "label": "반기보고서 2026.08.13",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001636",
+     "title": "DART 반기보고서 (정관 변경 이력)"
+    },
+    {
+     "label": "2026 사업보고서 정관",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001008&dcmNo=11139470",
+     "title": "DART 2026.03 사업보고서 첨부 정관 (잘못 첨부)"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스피",
+   "stock_code": "000670",
+   "corp_name": "영풍",
+   "sub": "부결 2026-03-25",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "반영 안 함",
+   "text": "소집공고 제2호 정관 일부 변경의 2-1~2-7 세부 안건이 결과 표의 제2-1호~제2-7호에 제목 그대로 대응한다. 결산배당 기준일이 든 제42조(이익배당) 제1항을 고치는 것은 제2-6호(현물배당 도입, 주주제안)뿐이며 '매 결산기말 현재' 기준일 문구는 그대로 두고 배당 재산만 넓히는 안이고, 제2-7호는 중간배당→분기배당이라 결산배당 기준일과 무관하다. 제2-6호는 부결.",
+   "links": [
+    {
+     "label": "소집공고 20260310",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310003081",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2026-03-25",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260325001399",
+     "title": "정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스닥",
+   "stock_code": "035620",
+   "corp_name": "바른손이앤에이",
+   "sub": "부결 2026-03-30",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "반영 안 함",
+   "text": "소집공고 제1호 의안 '정관 일부 변경의 건'(세부 안건 없음)이 결과 표 1호 '정관 일부 변경의 건'이고 결과는 부결이다(행사 주식 기준 찬성 88.2%이나 발행주식 기준 31.2%로 특별결의 미달). 대비표 파일이 없어 기준일 조항 내용은 확인하지 못했으나 정관 안건이 하나뿐이라 그 행으로 정했다.",
+   "links": [
+    {
+     "label": "소집공고 20260313",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000684",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2026-03-30",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330002264",
+     "title": "정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스닥",
+   "stock_code": "058110",
+   "corp_name": "멕아이씨에스",
+   "sub": "미결 2026-05-18",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "반영 안 함",
+   "text": "임시주총 소집공고 제1호 의안 '정관 일부 개정 승인의 건'(세부 안건 없음, 제55조 ③ 이사회가 배당기준일을 정하도록 변경 포함)이 결과 표 제1호 의안이며, 결과는 미결(정족수 미달)이라 가결되지 않았다.",
+   "links": [
+    {
+     "label": "소집공고 20260506",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000541",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2026-05-18",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260518000475",
+     "title": "임시주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스닥",
+   "stock_code": "066790",
+   "corp_name": "씨씨에스",
+   "sub": "미결 2026-03-31",
+   "tag": "정관yesorno",
+   "tag_current": "정관yesorno",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "반영 안 함",
+   "text": "소집공고 발췌에는 제3·4호 의안만 보이지만 결과 표의 정관 안건은 2번 '정관 일부 변경의 건' 하나뿐(세부 안건 없음)이라 이 행으로 정했고, 결과는 미결(의결정족수 부족으로 불성립)이다. 대비표 발췌는 감자 기준일 표뿐이라 기준일 조항 내용은 확인하지 못했다.",
+   "links": [
+    {
+     "label": "소집공고 20260316",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001244",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2026-03-31",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260401000002",
+     "title": "정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스닥",
+   "stock_code": "094940",
+   "corp_name": "푸른로보틱스",
+   "sub": "부결 2025-03-27",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "반영 안 함",
+   "text": "소집공고 제6호 의안 '정관 변경의 건'(대비표 제55조 ③ 이사회 결의 배당기준일 등)이 결과 글의 '제6호 의안: 정관변경의 건 (의결정족수 미달로 부결)'에 해당한다. 부결.",
+   "links": [
+    {
+     "label": "소집공고 20250312",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250312000095",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2025-03-27",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250327001870",
+     "title": "정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스닥",
+   "stock_code": "095270",
+   "corp_name": "웨이브일렉트로",
+   "sub": "부결 2025-03-27",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "반영 안 함",
+   "text": "소집공고 제2호 의안 '정관 일부 변경의 건'(대비표 제50조 ③ 이사회결의 배당기준일 신설)이 결과 글의 '제2호 의안: 정관 일부 변경의 건 ->의결정족수 부족으로 부결'에 해당한다. 부결.",
+   "links": [
+    {
+     "label": "소집공고 20250312",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250312000576",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2025-03-27",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250327000488",
+     "title": "정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스닥",
+   "stock_code": "121890",
+   "corp_name": "에스디시스템",
+   "sub": "부결 2026-03-26",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "반영 안 함",
+   "text": "소집공고 제3호 의안 정관변경의 건(제51조 이익배당 ②항을 이사회 결의로 배당기준일을 정하고 2주 전 공고하도록 개정)이 세부 안건 없이 결과 표 '3호 의안 정관 변경의 건' 한 행이며, 이 안건이 부결(찬성률 10.3%)됐다.",
+   "links": [
+    {
+     "label": "소집공고 20260309",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001642",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2026-03-26",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326001368",
+     "title": "정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스닥",
+   "stock_code": "140860",
+   "corp_name": "파크시스템스",
+   "sub": "부결 2026-03-26",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "반영 안 함",
+   "text": "소집공고 제6호 의안 '정관일부 개정의 건'(세부 안건 없음)이 결과 표 6 '정관 일부 개정의 건'에 대응하며, 세부 안건으로 나뉘지 않아 배당 관련 조항(제8조의2 종류주식 배당 등)도 이 행에 들었고 결과는 부결(행사 주식 기준 찬성 57.7%)이다.",
+   "links": [
+    {
+     "label": "소집공고 20260310",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002964",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2026-03-26",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326001243",
+     "title": "정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스닥",
+   "stock_code": "195990",
+   "corp_name": "루트K",
+   "sub": "부결 2026-01-23",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "반영 안 함",
+   "text": "정정 소집공고 제1호 의안 '정관 일부 변경의 건'이 결과 표의 조문별 행 제1-1호~제1-11호에 대응하고, 기준일 조항(제17조 주주명부의 폐쇄: 12월 31일 → 3월 31일 기준일, 폐쇄 조항 삭제)은 제1-1호에 들었는데 부결됐다(관련 제54조 사업연도 변경 제1-10호도 부결).",
+   "links": [
+    {
+     "label": "소집공고 20260105",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260105000376",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2026-01-23",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260123000326",
+     "title": "임시주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스닥",
+   "stock_code": "203650",
+   "corp_name": "드림시큐리티",
+   "sub": "미결 2026-03-26",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "반영 안 함",
+   "text": "소집공고 제2호 의안 정관 일부 변경의 건(제13조 주주명부의 폐쇄 및 기준일을 이사회결의 기준일 조항으로 바꾸는 표준정관 반영 포함)이 세부 안건 없이 결과 표 제2호 의안 한 행이며, 결과는 미결(비고 '철회')이다.",
+   "links": [
+    {
+     "label": "소집공고 20260311",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004325",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2026-03-26",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326002092",
+     "title": "정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스닥",
+   "stock_code": "228670",
+   "corp_name": "레이",
+   "sub": "부결 2024-03-29",
+   "tag": "확인필요",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "반영 안 함",
+   "text": "소집공고 제5호 의안 '정관변경의 건'(세부 안건 없음, 대비표의 배당 관련 행은 제18조 전환사채 배당 조항)이 결과 글의 '제5호 의안: 정관변경의 건'에 대응하며, '의결 정족수 미달로 부결'로 적혀 있다.",
+   "links": [
+    {
+     "label": "소집공고 20240315",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240315000219",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2024-03-29",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240329001837",
+     "title": "정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스닥",
+   "stock_code": "242040",
+   "corp_name": "나무AX",
+   "sub": "미결 2026-03-27",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "Y",
+   "filed_cmp": "일치",
+   "effect": "반영 안 함",
+   "text": "소집공고 제2호 의안 '정관일부변경의 건'(세부 안건 없음, 제17조 주주명부 폐쇄 및 기준일 조항 변경 포함)이 결과 표 제2호의안 '정관 변경의 건'이며, 결과가 '미결'(비고: 의결정족수 미달로 부결)이라 가결되지 않았다. 다만 대비표상 변경은 주주명부 폐쇄 규정 삭제이고 12월 31일 기준일은 그대로다.",
+   "links": [
+    {
+     "label": "소집공고 20260311",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311004179",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2026-03-27",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327001823",
+     "title": "정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "failed",
+   "market": "코스닥",
+   "stock_code": "274090",
+   "corp_name": "켄코아에어로스페이스",
+   "sub": "부결 2026-03-31",
+   "tag": "정관yesorno",
+   "tag_current": "정관yesorno",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "반영 안 함",
+   "text": "소집공고 제2호 의안 '정관 일부 변경의 건'과 세부 안건 제2-1호(개정 상법 반영)·2-2호(전환사채 발행한도)·2-3호(기타 정관 변경)가 결과 표 2·2-1·2-2·2-3 행이다. 대비표에서 제16조(주주명부의 기준일)·제54조(이익배당) 변경은 '제2-3호: 기타 정관 변경' 아래 '표준정관 반영'으로 들어 있고, 2-3은 의결정족수 미달로 부결됐다(정관 안건 전부 부결).",
+   "links": [
+    {
+     "label": "소집공고 20260317",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000399",
+     "title": "DART 주주총회소집공고"
+    },
+    {
+     "label": "결과공시 2026-03-31",
+     "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331004145",
+     "title": "정기주주총회결과"
+    }
+   ]
+  },
+  {
+   "type": "effect_cond",
+   "market": "코스피",
+   "stock_code": "448730",
+   "corp_name": "삼성FN리츠",
+   "sub": "",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "N",
+   "filed_cmp": "일치",
+   "effect": "판정 그대로 (주의)",
+   "text": "단, 제54조 단서는 국토교통부의 변경인가일로부터 효력이 발생한다",
+   "links": [
+    {
+     "label": "근거 문서",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000131",
+     "title": "근거 문서"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스피",
+   "stock_code": "003960",
+   "corp_name": "사조대림",
+   "sub": "정관 no · 신고 Y",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "결산배당 조(제44조)는 이사회가 기준일을 정하도록 하고 결산기말 고정 문구가 없습니다. 제13조 ①의 12월 31일은 정기주총 권리행사 기준일이므로 결산배당 판단에 영향을 주지 않습니다. 분기배당(제44조의2)은 3월·6월·9월 말일 현재 주주로 고정되어 있습니다.",
+   "links": [
+    {
+     "label": "정관 원문 (DART viewer)",
+     "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001283&dcmNo=11141495&eleId=1&offset=595&length=20235&dtd=dart4.xsd",
+     "title": "정관 원문 (DART viewer)"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스피",
+   "stock_code": "006490",
+   "corp_name": "프리티",
+   "sub": "정관 no · 신고 Y",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "제46조 ②의 '매 결산기말 현재의 주주명부에 기재된 주주…에게 지급'이 삭제됩니다. 그 자리에 이사회가 배당기준일을 정하고 2주 전에 공고한다는 표준정관 문구가 들어가므로 결산배당 기준일은 정관no가 됩니다. 신설되는 제14조의1 ①은 정기주총 의결권 기준일일 뿐 배당을 명시하지 않아 태그에 영향이 없습니다. 중간·분기배당 조는 발췌에 보이지 않아 원래 값(확인필요)을 유지했습니다.",
+   "links": [
+    {
+     "label": "정관의 변경 안건 (DART 소집공고)",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511000721",
+     "title": "정관의 변경 안건 (DART 소집공고)"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스피",
+   "stock_code": "011330",
+   "corp_name": "유니켐",
+   "sub": "정관 no · 신고 Y",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "첨부 정관은 옛 문구(제46조 2가 제14조 제1항의 12월 31일을 참조해 고정)이고, 안건이 제46조 2를 이사회결의로 기준일을 정하는 문구로 바꾼다. 분기배당 조(제46조의2)도 3월·6월·9월 말일 현재 고정에서 이사회가 기준일을 정하는 방식으로 바뀐다.",
+   "links": [
+    {
+     "label": "정관의 변경 안건 (DART 소집공고)",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227008901",
+     "title": "정관의 변경 안건 (DART 소집공고)"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스피",
+   "stock_code": "082740",
+   "corp_name": "한화엔진",
+   "sub": "정관 no · 신고 Y",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "첨부 정관 제42조③은 '매 결산기말 현재' 고정의 옛 문구이고, 제2-6호 의안(배당절차 개선)이 이를 이사회 기준일 결정 문구로 바꿔 정관no가 된다. 제12조①(매년 12월 31일)은 정기주총 권리행사 기준일로만 남고, 제43조(분기배당)도 말일 현재 주주에서 이사회 기준일 결정형으로 바뀐다.",
+   "links": [
+    {
+     "label": "정관의 변경 안건 (DART 소집공고)",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001804",
+     "title": "정관의 변경 안건 (DART 소집공고)"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스피",
+   "stock_code": "139990",
+   "corp_name": "아주스틸",
+   "sub": "정관 no · 신고 Y",
+   "tag": "정관no",
+   "tag_current": "정관no",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "이익배당 조 ③은 결산배당 기준일을 정할 수 있다는 재량 문구만 두고 결산기말 고정 문구는 없어 정관no로 본다. 다만 표준정관에 있는 '이사회 결의로'라는 주체가 빠져 있어(누락 또는 인식 오류) 확신도는 보통이다. 제15조 ①은 정기주총 권리행사 주주를 정한 의결권 기준일로 배당을 명시하지 않았다. 중간배당 조(제52조의2)에는 고정 날짜가 없어 상법상 이사회결정으로 분류했다. 분기배당 조는 발췌에 없다.",
+   "links": [
+    {
+     "label": "정관 11쪽 그림 (DART)",
+     "url": "https://dart.fss.or.kr/report/download.do?dcmNo=11141580&flNm=%EC%A0%95%EA%B4%80+11.jpg",
+     "title": "정관 11쪽 그림 (DART)"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스피",
+   "stock_code": "403550",
+   "corp_name": "쏘카",
+   "sub": "정관 yes · 신고 N",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "N",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "제49조 ③은 제13조 제2항에서 정한 날을 가리키고, 제13조 ②는 이사회 결의로 정한 특정일이므로 글자 그대로 읽으면 이사회 결정(정관no)입니다. 다만 제17조 ②도 정기주총 기준일을 '제13조 제2항'으로 적고 있어, 실제로는 결산기 최종일인 제13조 ①을 뜻한 항 번호 오기일 수 있습니다. 그렇다면 정관yes가 되므로 원문 확인이 필요합니다.",
+   "links": [
+    {
+     "label": "정관 15쪽 그림 (DART)",
+     "url": "https://dart.fss.or.kr/report/download.do?dcmNo=11138040&flNm=%EC%8F%98%EC%B9%B4_%EC%A0%95%EA%B4%80_20250326_%EA%B0%9C%EC%A0%95_page-0015.jpg",
+     "title": "정관 15쪽 그림 (DART)"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스닥",
+   "stock_code": "0131D0",
+   "corp_name": "키움히어로제2호스팩",
+   "sub": "정관 yes · 신고 N",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "N",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "발췌에 이익배당 조(결산배당 지급 대상 규정)가 보이지 않아 기준일 조의 매년 12월 31일 정기주총 권리행사 주주 규정으로 판단했다. 제15조 ③의 이사회 기준일은 임시주총 소집 기타 필요한 경우에 관한 것이라 결산배당 규정으로 보지 않았다.",
+   "links": [
+    {
+     "label": "정관 5쪽 그림 (DART)",
+     "url": "https://dart.fss.or.kr/report/download.do?dcmNo=11103331&flNm=%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7+2026-02-26+100126.jpg",
+     "title": "정관 5쪽 그림 (DART)"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스닥",
+   "stock_code": "033340",
+   "corp_name": "좋은사람들",
+   "sub": "정관 no · 신고 Y",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "옛 제46조 ③의 매결산기말 고정을 없애고, 새 이익배당 조 ③이 제13조 기준일을 따르게 하며 제13조 ①이 이사회가 기준일을 정하도록 해 정관no로 본다. 제13조 ②의 '정기주주총회 기준일 원칙 12월 31일'은 의결권 기준일로 보았으나 배당에까지 미친다고 읽으면 정관yesorno가 될 여지가 있고, 중간배당 조(6월 30일 기준일)가 새로 생긴다.",
+   "links": [
+    {
+     "label": "정관의 변경 안건 (DART 소집공고)",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001228",
+     "title": "정관의 변경 안건 (DART 소집공고)"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스닥",
+   "stock_code": "060310",
+   "corp_name": "3S",
+   "sub": "정관 yes · 신고 N",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "N",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "이익배당 조(제57조)에 지급 대상 주주 규정이 없고, 기준일 조가 결산일(3월 31일) 현재 주주를 그 결산기에 관한 권리 행사 주주로 정할 뿐이라 정관yes로 둔다. 중간배당 조는 9월 30일 현재 주주로 고정(자본시장법 제165조의12 인용).",
+   "links": [
+    {
+     "label": "정관 원문 (DART viewer)",
+     "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260617000470&dcmNo=11436701&eleId=1&offset=597&length=21292&dtd=dart4.xsd",
+     "title": "정관 원문 (DART viewer)"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스닥",
+   "stock_code": "403870",
+   "corp_name": "HPSP",
+   "sub": "정관 no · 신고 Y",
+   "tag": "정관yes",
+   "tag_current": "정관no",
+   "filed": "Y",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "제57조 ③의 '매결산기말 현재의 주주명부에 기재된 주주' 지급 문구를 표준정관식 이사회 기준일 결정 문구로 바꿔 결산배당이 정관no가 된다. 제58조의2 분기배당도 3·6·9월 말일 고정에서 이사회가 기준일을 정하는 방식으로 바뀐다.",
+   "links": [
+    {
+     "label": "정관의 변경 안건 (DART 소집공고)",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000264",
+     "title": "정관의 변경 안건 (DART 소집공고)"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스닥",
+   "stock_code": "466690",
+   "corp_name": "키움히어로제1호스팩",
+   "sub": "정관 yes · 신고 N",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "N",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "정관 전문 어디에도 이익배당·배당금 지급 조(결산배당 지급 대상 규정)가 없고 제54조(이익금의 처분)만 있으며, 제12조 동등배당의 '배당기준일' 낱말은 판단 근거가 아니다. 제15조 ②가 배당을 명시하지 않은 채 매년 12월 31일 주주를 그 결산기에 관한 권리 행사 주주로 정하므로 판별 순서 4 셋째 항목에 따라 정관yes로 두며, 제15조 ③의 이사회 기준일은 임시주주총회 소집 기타 필요한 경우에 관한 것이라 결산배당 규정이 아니다.",
+   "links": [
+    {
+     "label": "정관 4쪽 그림 (DART)",
+     "url": "https://dart.fss.or.kr/report/download.do?dcmNo=11087660&flNm=%EC%A0%95%EA%B4%80_%ED%82%A4%EC%9B%80%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A0%9C1%ED%98%B8%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%81%28%EC%A3%BC%29_250428_%ED%8E%98%EC%9D%B4%EC%A7%80_04.jpg",
+     "title": "정관 4쪽 그림 (DART)"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스닥",
+   "stock_code": "487720",
+   "corp_name": "키움제10호스팩",
+   "sub": "정관 yes · 신고 N",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "N",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "정관 전문 어디에도 이익배당·배당금 지급 조(결산배당 지급 대상 규정)가 없고 제54조(이익금의 처분)만 있으며, 제12조 동등배당의 '배당기준일' 낱말은 판단 근거가 아니다. 제15조 ②가 배당을 명시하지 않은 채 매년 12월 31일 주주를 그 결산기에 관한 권리 행사 주주로 정하므로 판별 순서 4 셋째 항목에 따라 정관yes로 두며, 제15조 ③의 이사회 기준일은 임시주주총회 소집 기타 필요한 경우에 관한 것이라 결산배당 규정이 아니다.",
+   "links": [
+    {
+     "label": "정관 원문 (DART viewer)",
+     "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260311003154&dcmNo=11106129&eleId=1&offset=603&length=24570&dtd=dart4.xsd",
+     "title": "정관 원문 (DART viewer)"
+    }
+   ]
+  },
+  {
+   "type": "filed_opposite",
+   "market": "코스닥",
+   "stock_code": "489480",
+   "corp_name": "키움제11호스팩",
+   "sub": "정관 yes · 신고 N",
+   "tag": "정관yes",
+   "tag_current": "정관yes",
+   "filed": "N",
+   "filed_cmp": "불일치",
+   "effect": "판정 그대로 (신고와 다름)",
+   "text": "정관 전문 어디에도 이익배당·배당금 지급 조(결산배당 지급 대상 규정)가 없고 제54조(이익금의 처분)만 있으며, 제12조 동등배당의 '배당기준일' 낱말은 판단 근거가 아니다. 제15조 ②가 배당을 명시하지 않은 채 매년 12월 31일 주주를 그 결산기에 관한 권리 행사 주주로 정하므로 판별 순서 4 셋째 항목에 따라 정관yes로 두며, 제15조 ③의 이사회 기준일은 임시주주총회 소집 기타 필요한 경우에 관한 것이라 결산배당 규정이 아니다.",
+   "links": [
+    {
+     "label": "정관 4쪽 그림 (DART)",
+     "url": "https://dart.fss.or.kr/report/download.do?dcmNo=11117986&flNm=%EC%A0%95%EA%B4%804.jpg",
+     "title": "정관 4쪽 그림 (DART)"
+    }
+   ]
+  }
+ ]
+}

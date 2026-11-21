@@ -24,6 +24,7 @@
 from __future__ import annotations
 
 import argparse
+import html
 import io
 import json
 import re
@@ -79,7 +80,8 @@ def fetch_pdf_text(http: Http, d: Path) -> tuple[str, int, list[dict]]:
     parts, n, pdfs = [], 0, []
     for v in sorted(d.glob("viewer_*.html")):
         for m in PDF_LINK.finditer(v.read_text(encoding="utf-8")):
-            url = m.group(1) if m.group(1).startswith("http") else DART_WEB + m.group(1)
+            href = html.unescape(m.group(1))            # viewer html 의 '&amp;' 를 풀어야 한다 — 안 풀면 DART 가 599B '서비스 하지 않습니다' 화면 (2026-11-21)
+            url = href if href.startswith("http") else DART_WEB + (href if href.startswith("/") else "/report/" + href)
             n += 1
             p = d / "pdf" / f"{n:03d}.pdf"
             if not p.exists():

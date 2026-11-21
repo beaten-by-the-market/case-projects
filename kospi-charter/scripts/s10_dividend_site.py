@@ -373,6 +373,21 @@ CHG_COLS = ["date", "label", "base", "market", "stock_code", "corp_name", "tag_b
             "links"]
 
 
+def cases_table() -> dict:
+    """data/final/dividend_cases.json (s10d) → 표 + 유형 정의. 웹페이지 '공시 유형' 탭 (사용자 지시 2026-11-21)."""
+    f = FINAL / "dividend_cases.json"
+    if not f.exists():
+        return {"cols": [], "rows": [], "types": []}
+    d = read_json(f)
+    for e in d["rows"]:
+        e["text"] = ocr_word(nodash(e.get("text") or ""))
+    for t in d["types"]:
+        for k in ("problem", "fix", "rule"):
+            t[k] = nodash(t.get(k) or "")
+    return {"cols": d["cols"], "rows": [[e.get(c) for c in d["cols"]] for e in d["rows"]], "types": d["types"],
+            "file": "dividend_cases.json", "updated": datetime.fromtimestamp(f.stat().st_mtime).strftime("%Y-%m-%d %H:%M")}
+
+
 def changes_table() -> dict:
     """data/final/dividend_changes.json (s10c) → 표. 기록이 없으면 빈 표."""
     f = FINAL / "dividend_changes.json"
@@ -620,6 +635,8 @@ def main():
                                "file": "s10 특이사항", "updated": datetime.now().strftime("%Y-%m-%d %H:%M")},
             # 배포한 판 대비 판정이 바뀐 회사 (s10c, 사용자 지시 2026-11-19 — 배포 뒤 변화 관리). 웹페이지 '변경 이력' 탭
             "dividend_changes": changes_table(),
+            # 회사 공시 실수 · 빈틈 유형별 회사 (s10d, 사용자 지시 2026-11-21). 웹페이지 '공시 유형' 탭
+            "dividend_cases": cases_table(),
         },
         "stats": stats, "stats_by_market": by_market,
         # 주주총회 소집공고 조회기간 — 사업보고서 조회기간과 다르다(1~2년 앞선 공고 s09j 부터, 사용자 지시 2026-11-20 '분리해서 기재')

@@ -73,7 +73,7 @@
   const TAG_YN = { 정관no: "N", 정관yes: "Y", 정관yesorno: "YorN" };
   const TL = (t) => TAG_YN[t] || t || "";
   const tagWords = (x) => (typeof x === "string" ? x.replace(/정관(yesorno|yes|no)/g, (w) => `정관 ${TAG_YN[w]}`) : x);
-  for (const [name, keys] of [["dividend", ["note", "attached_note", "reviewed_why", "agm_note", "basis_note"]], ["dividend_notes", ["text", "kind"]], ["dividend_changes", ["text"]]])
+  for (const [name, keys] of [["dividend", ["note", "attached_note", "reviewed_why", "agm_note", "basis_note"]], ["dividend_notes", ["text", "kind"]], ["dividend_changes", ["text"]], ["dividend_cases", ["text"]]])
     for (const r of rowsOf(name)) for (const k of keys) r[k] = tagWords(r[k]);
   const has = (n, col) => !!T[n] && T[n].cols.includes(col);
   const M = D.manifest || {};
@@ -659,6 +659,16 @@
   }
   const F_CG = SEL("cg", "확인그룹", "_cg", { order: ["1", "2", "3", "4", "5", CG_NONE], fmt: (v) => (v === CG_NONE ? "- (코스피 아님)" : `${v}그룹`) });
 
+  // 공시 유형 (s10d → dividend_cases, 사용자 지시 2026-11-21 — 회사 공시 실수 · 빈틈 유형과 해당 회사 전체)
+  const CASE_T = (((window.DATA_DIV || {}).tables || {}).dividend_cases || {}).types || [];
+  const CASE_I = Object.fromEntries(CASE_T.map((t, i) => [t.id, i]));
+  const CASE_N = Object.fromEntries(CASE_T.map((t) => [t.id, t.name]));
+  const caseBox = () => (!CASE_T.length ? "" : `<div class="xtbox wide"><h4 class="sec">유형 정리</h4><div class="grid static"><table class="xt"><thead><tr>
+      <th>#</th><th>유형</th><th>무엇이 문제였나</th><th>어떻게 풀었나</th><th>회사 수</th><th>판정 바뀜</th></tr></thead><tbody>${CASE_T.map((t, i) => `<tr>
+      <td class="c">${i + 1}</td><td class="nm"><a href="#divcase" data-go="divcase:ctype=${esc(t.id)}">${esc(t.name)}</a></td>
+      <td class="wrap">${esc(t.problem)}</td><td class="wrap">${esc(t.fix)}<br><span class="small na">뽑은 규칙: ${esc(t.rule)}</span></td>
+      <td class="num">${fmtN(t.n)}</td><td class="num">${t.n_changed ? `<b class="hl">${fmtN(t.n_changed)}</b>` : "0"}</td></tr>`).join("")}</tbody></table></div>
+      <p class="small">유형 이름을 누르면 아래 표가 그 유형 회사만 보인다. 한 회사가 여러 유형에 들 수 있다(회사 수는 유형마다 센다).</p></div>`);
   const CHG_KEYS = new Set(rowsOf("dividend_changes").map((n) => `${n.market}|${n.stock_code}`));   // 배포 뒤 판정이 바뀐 회사 (s10c)
 
   /* ---------- 탭 ---------- */
@@ -756,6 +766,33 @@
             : [n.notice_url ? ext(n.notice_url, `소집공고 ${ymd(dateOfRno(n.notice_rcept_no))}`, "DART 주주총회소집공고") : "", n.result_url ? ext(n.result_url, `결과공시 ${esc(n.agm_date || "")}`) : ""].filter(Boolean).join("<br>")) || NA },
       ],
       detail: (n) => { const r = rowsOf("dividend").find((x) => x.stock_code === n.stock_code && x.market === n.market); return r ? detailDiv(r) : { title: n.corp_name || "", sub: n.kind, html: `<p>${esc(n.text)}</p>` }; },
+    },
+    {
+      // 회사 공시 실수 · 빈틈 유형별 회사 (s10d → dividend_cases, 사용자 지시 2026-11-21)
+      id: "divcase", label: "공시 유형", table: "dividend_cases", title: "배당기준일 공시 유형 (회사 공시 실수 · 빈틈과 해당 회사)",
+      badge: CASE_T.length ? `${fmtN(CASE_T.length)}유형` : "",
+      tip: "사업보고서 첨부 정관과 주총 안건만으로는 정할 수 없던 회사 공시 실수 · 빈틈의 유형과 해당 회사 전체",
+      desc: "기본은 2025 결산 사업보고서에 첨부된 정관을 읽고, 그 정관이 지난 것일 수 있어 2026 정기주총과 그 뒤 주총의 정관 변경 안건과 KIND 가결 여부를 확인하는 것이다. " +
+        "이 탭은 그 기본만으로는 정할 수 없던 경우를 유형별로 모았다. 대부분 회사의 공시 실수(옛 판 정관 첨부, 대비표를 다른 항목에 적거나 싣지 않음, 주총 없이 바뀐 정관 첨부)이고, 상장 전 주총 · 부결 · 부칙 조건처럼 실수는 아니지만 따로 확인해야 하는 경우도 넣었다. " +
+        "회사 목록은 손으로 고르지 않고 판정 데이터와 점검 기록에서 규칙으로 뽑았다(유형마다 '뽑은 규칙'). '판정 그대로'인 회사는 같은 유형의 공시였지만 결산배당 기준일과 무관했거나 이미 반영돼 있던 경우다. 행을 누르면 그 회사의 근거가 열린다.",
+      extra: caseBox,
+      filters: [[Q("회사명·종목코드"), SEL("ctype", "유형", "type", { order: CASE_T.map((t) => t.id), fmt: (v) => CASE_N[v] || v }),
+        SEL("market", "시장", "market", { order: MKT }), SEL("effect", "판정 영향", "effect")]],
+      sort: ["type", 1],
+      cols: [
+        C_NO, { k: "type", t: "유형", c: "nm", v: (n) => (CASE_I[n.type] ?? 9) * 1e7 + (MKT.indexOf(n.market) + 1) * 1e6 + Number(String(n.stock_code).replace(/\D/g, "") || 0),
+          h: (n) => `<span class="small">${(CASE_I[n.type] ?? 0) + 1}.</span> ${esc(CASE_N[n.type] || n.type)}` },
+        { k: "market", t: "시장", c: "c", h: (n) => mk(n.market) },
+        C_CODE, { k: "corp_name", t: "회사명", c: "nm" },
+        { k: "sub", t: "세부", c: "c", title: "유형 안의 세부 (공고일 · 주총일 · 부결/미결 · 첨부 없음/그림 등)" },
+        { k: "tag", t: "첨부 정관", c: "c", title: "사업보고서 등 첨부 정관의 태그", h: (n) => (n.tag ? dtag(n.tag) : NA) },
+        { k: "tag_current", t: "지금", c: "c", title: "이 페이지의 정관 태그", h: (n) => (n.tag_current ? dtag(n.tag_current) : NA) },
+        { k: "filed", t: "신고", c: "c", td: (n) => FCMP_TD[n.filed_cmp] || "", title: "상장공시시스템 신고 · 빨간 바탕 = 정관과 불일치", h: (n) => (n.filed ? ftag(n.filed) : NA) },
+        { k: "effect", t: "판정 영향", c: "c", h: (n) => (n.effect === "판정 바뀜" ? `<b class="hl">${esc(n.effect)}</b>` : esc(n.effect || "")) },
+        { k: "text", t: "내용", c: "wrap" },
+        { k: "links", t: "근거 공시", title: "해당 공시 (DART · KIND)", h: (n) => ((n.links || []).map((l) => ext(l.url, esc(l.label), l.title)).join("<br>") || NA) },
+      ],
+      detail: (n) => { const r = rowsOf("dividend").find((x) => x.stock_code === n.stock_code && x.market === n.market); return r ? detailDiv(r) : { title: n.corp_name || "", sub: CASE_N[n.type] || "", html: `<p>${esc(n.text)}</p>` }; },
     },
     {
       id: "list", label: "근거문서", table: "reports", csv: "charter_sources", title: "근거문서 · 정관",
