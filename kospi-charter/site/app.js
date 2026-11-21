@@ -348,7 +348,7 @@
   const ftag = (v) => (v ? `<span class="dtag ${FTAG[v] || "chk"}" title="${esc(FTIP[v] || "")}"><i></i>${esc(v)}</span>` : NA);
   const FCMP_TD = { 불일치: "fmis", 미입력: "fnone" };
   const fcmpB = (r) => (r.filed_cmp === "불일치" ? `<b class="bad">불일치</b>` : r.filed_cmp === "미입력" ? '<span class="small">미입력</span>' : r.filed_cmp ? '<span class="ok small">일치</span>' : "");
-  const BKC = { 사업보고서: "rep", "전년도 사업보고서": "prev", 주총소집공고: "agm", "주총소집공고+사업보고서 본문": "agm", "사업보고서 본문": "rep" };
+  const BKC = { 사업보고서: "rep", "전년도 사업보고서": "prev", "정관 변경 이력(반기보고서)": "prev", 주총소집공고: "agm", "주총소집공고+사업보고서 본문": "agm", "사업보고서 본문": "rep" };
   const bkB = (k) => (k ? `<span class="bk ${BKC[k] || ""}">${esc(k)}</span>` : NA);
   const reRx = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   // 근거 글에서 인용(marks)을 <mark> 로, 띄어쓰기 차이는 \s* 로 느슨하게
@@ -429,6 +429,12 @@
   const evSnippet = (r) => failLabel(r) + evSnippetCore(r);
   const evSnippetCore = (r) => {
     const ev = r.ev || {};
+    // 다른 공시로 판정한 회사 (s09m — 대비표 미첨부 · 소집공고 없음 · 잘못 첨부한 정관, 코스닥 담당자 메일 2026-11-21)
+    if (r.basis_other) {
+      const o = r.basis_other;
+      return `<b class="evt evalt">${esc(r.basis_kind)}</b><span class="evwhy">(${esc(o.label)})</span><span class="evq">${esc(o.evidence)}</span>` +
+        `<span class="evwhy"><b class="bad">주의: ${esc(o.caution)}</b></span>`;
+    }
     if (ev.notices && ev.notices.length && ev.notices[0].rows.length) {
       const a = amendRow(ev.notices[0].rows[0]);
       // 주총 안건으로 정한 행: 굵은 크림슨 '주주총회 안건' + 작은 글씨 까닭 (사용자 지시 2026-11-17, 정관 칸에는 태그만)
@@ -475,6 +481,10 @@
     const sep = short ? "<br>" : " · ";
     const nd = r.basis_notice_rcept_no ? ymd(dateOfRno(r.basis_notice_rcept_no)) : "";
     const parts = [];
+    if (r.basis_other) {
+      for (const l of r.basis_other.links || []) parts.push(ext(l.url, esc(l.label), l.title));
+      return parts.join(sep);
+    }
     if (r.basis_notice_url) {
       parts.push(ext(r.basis_notice_url, short ? `소집공고 ${nd}` : `주주총회소집공고 ${nd} · ${esc(r.basis_notice_rcept_no)}`, "DART 주주총회소집공고"));
       parts.push(ext(r.basis_result_url, short ? `결과공시 ${esc(r.basis_agm_date || "")}` : `${esc(r.basis_result_title || "주주총회결과")} ${esc(r.basis_agm_date || "")} · ${esc(r.basis_result_acptno || "")}`, "KIND 주주총회결과 공시"));
@@ -726,6 +736,7 @@
       desc: "이미 배포한 페이지와 견주어 판정이 바뀐 회사를 반영일마다 모았다. '이전'은 바로 앞 배포본의 값, '지금'은 이 페이지의 값이다. " +
         "2026-11-19 반영: 2024 · 2025년 주주총회 소집공고와 KIND 주주총회결과를 더 모아, 사업보고서(2025 결산)에 그 주총 개정 전의 옛 정관을 붙여 둔 회사를 찾아 바로잡았다. " +
         "1~2년 앞선 안건은 대개 첨부 정관에 이미 반영돼 있어서, 안건의 '변경 전' · '변경 후' 문구를 첨부 정관과 대조해 옛 판일 때만 바꿨다. " +
+        "2026-11-21 반영: 코스닥시장 담당자가 알려 온 3사를 공시로 다시 확인해 반영했다(대비표를 첨부한다고 적고 첨부하지 않은 회사 · 상장 전 소집이라 소집공고가 없는 회사 · 주총 개정 없이 다른 정관을 첨부한 회사). 같은 유형을 2026 반기보고서 '정관 변경 이력'으로 전 종목 대조해 1사(소집공고에 '정관의 변경' 항목 없이 안건 이름만 적은 회사)를 더 찾았다. " +
         "2026-11-20 반영: 소집공고에 '정관의 변경'을 서식 절이 아닌 다른 절 안 글이나 본문 끝 별첨으로 적은 경우를 찾도록 절 추출을 보완해, 놓쳤던 2026년 정기주총 안건(KIND 가결)을 반영했다. 행을 누르면 그 회사의 근거가 열린다.",
       filters: [[Q("회사명·종목코드"), SEL("market", "시장", "market", { order: MKT }), SEL("date", "반영일", "date"), SEL("kind", "까닭", "kind")]],
       sort: ["date", -1],
@@ -741,7 +752,8 @@
         { k: "kind", t: "까닭", c: "nm" },
         { k: "text", t: "내용", c: "wrap" },
         { k: "notice_url", t: "근거 공시", title: "그 주총의 소집공고 (DART) · 주주총회결과 (KIND)",
-          h: (n) => [n.notice_url ? ext(n.notice_url, `소집공고 ${ymd(dateOfRno(n.notice_rcept_no))}`, "DART 주주총회소집공고") : "", n.result_url ? ext(n.result_url, `결과공시 ${esc(n.agm_date || "")}`) : ""].filter(Boolean).join("<br>") || NA },
+          h: (n) => ((n.links || []).length ? n.links.map((l) => ext(l.url, esc(l.label), l.title)).join("<br>")
+            : [n.notice_url ? ext(n.notice_url, `소집공고 ${ymd(dateOfRno(n.notice_rcept_no))}`, "DART 주주총회소집공고") : "", n.result_url ? ext(n.result_url, `결과공시 ${esc(n.agm_date || "")}`) : ""].filter(Boolean).join("<br>")) || NA },
       ],
       detail: (n) => { const r = rowsOf("dividend").find((x) => x.stock_code === n.stock_code && x.market === n.market); return r ? detailDiv(r) : { title: n.corp_name || "", sub: n.kind, html: `<p>${esc(n.text)}</p>` }; },
     },

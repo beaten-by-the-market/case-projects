@@ -280,6 +280,8 @@ def main():
     after = {r["stock_code"]: r for r in read_results(after_f).values() if r.get("output")}
     pre_m = {r["stock_code"]: r for r in read_results(INTERIM_OF(P, "s09i_pre_agm.jsonl")).values() if r.get("output")}
     early_m = {r["stock_code"]: r for r in read_results(INTERIM_OF(P, "s09j_early_agm.jsonl")).values() if r.get("output")}
+    of = ROOT / "data" / "interim" / "s09m_other_basis.json"   # 시장 공통 파일 (회사마다 market 으로 가린다)
+    other = {k: v for k, v in (read_json(of) if of.exists() else {}).items() if not k.startswith("_")}
     agm_f, prev_f = INTERIM_OF(P, "s09e_agm_results.json"), INTERIM_OF(P, "s09f_prev.json")
     agm_res = read_json(agm_f) if agm_f.exists() else {}
     prev = read_json(prev_f) if prev_f.exists() else {}
@@ -327,6 +329,14 @@ def main():
         early = early_m.get(code)
         eo = (early or {}).get("output") or {}
         cur = current_basis(t, final_tag, o, ag, agm_res, prev.get(code), pre, early)
+        cur["basis_other"] = None
+        ob = other.get(code)
+        if ob and ob.get("market") == t.get("market"):
+            # 첨부 정관 · 소집공고 대비표로 정할 수 없어 다른 공시로 판정 (s09m_other_basis.json — 코스닥 담당자 메일 2026-11-21)
+            cur.update(tag_current=ob["tag_current"], basis_kind=ob["basis_kind"], basis_note=ob["evidence"], basis_agm_date=ob.get("agm_date"),
+                       basis_notice_rcept_no=None, basis_notice_url=None, basis_result_acptno=None, basis_result_url=None,
+                       basis_result_title=None, basis_unconfirmed=False, basis_stale_charter=False, basis_failed=[],
+                       basis_other={k: ob[k] for k in ("label", "evidence", "caution", "links")})
         rows.append({
             "stock_code": code, "corp_name": t["corp_name"], "corp_code": t["corp_code"], "market": t["market"],
             "sec_group": t["sec_group"], "settle_month": t["settle_month"], "fiscal_year": t["fiscal_year"],
@@ -375,7 +385,7 @@ def main():
         w = csv.DictWriter(f, fieldnames=cols)
         w.writeheader()
         for r in rows:
-            w.writerow({k: (json.dumps(v, ensure_ascii=False) if isinstance(v, list) and any(isinstance(x, dict) for x in v)
+            w.writerow({k: (json.dumps(v, ensure_ascii=False) if isinstance(v, dict) or (isinstance(v, list) and any(isinstance(x, dict) for x in v))
                             else ";".join(map(str, v)) if isinstance(v, list) else v) for k, v in r.items()})   # basis_failed 는 JSON 글
     sm = {
         "built_at": now_iso(), "n": len(rows),

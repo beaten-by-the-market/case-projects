@@ -85,9 +85,12 @@ def main() -> None:
                     "corp_name": x["corp_name"], "tag_before": o["tag_current"], "tag_after": x["tag_current"],
                     "basis_before": o["basis_kind"], "basis_after": x["basis_kind"], "filed": x.get("filed"),
                     "filed_cmp_before": o.get("filed_cmp"), "filed_cmp_after": x.get("filed_cmp"),
-                    "kind": (filing_fault(x.get("basis_notice_rcept_no")) or KIND.get(x.get("basis_notice_when") or "", "근거 바뀜"))
+                    "kind": ((x.get("basis_other") or {}).get("label") or filing_fault(x.get("basis_notice_rcept_no"))
+                             or KIND.get(x.get("basis_notice_when") or "", "근거 바뀜"))
                             if o["tag_current"] != x["tag_current"] else "근거만 바뀜",
-                    "text": x.get("note") or x.get("basis_note") or "",
+                    "text": (f"{x['basis_other']['evidence']} 주의: {x['basis_other']['caution']}" if x.get("basis_other")
+                             else x.get("note") or x.get("basis_note") or ""),
+                    "links": (x.get("basis_other") or {}).get("links") or [],
                     "notice_url": x.get("basis_notice_url"), "notice_rcept_no": x.get("basis_notice_rcept_no"),
                     "result_url": x.get("basis_result_url"), "result_acptno": x.get("basis_result_acptno"), "agm_date": x.get("basis_agm_date")})
     gone = [k for k in old if k not in new]

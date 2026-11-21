@@ -296,6 +296,11 @@ def market_rows(sfx: str, market: str | None) -> dict:
                      for m in [re.match(r"\s*((?:제\s*\d+\s*조|第\s*\d+\s*條)(?:\s*의\s*\d+)?\s*[(（【\[]?[^)）】\]\n|/]{0,25}[)）】\]]?)", c)] if m]
             if heads:
                 article = f"{re.sub(r'\s+', ' ', heads[0]).strip()} (정관의 변경 안건)"
+        ob = r.get("basis_other")
+        if ob:          # 다른 공시로 판정한 회사(s09m) — 첨부 정관 · 대비표 인용을 보이지 않고 그 공시 근거를 보인다
+            arts, notices, report = [], [], None
+            ev_url, ev_label = ob["links"][0]["url"], ob["links"][0]["title"]
+            note, article = ob["evidence"], ""
         st = settle_of(code, r["sec_group"], r["settle_month"], now)
         fp = (pv["output"].get("fixed_point") if pv and pv.get("output") else r["fixed_point"] if r["tag_current"] == r["tag"] else None)
         base_m = st["settle_month_now"] if st["settle_changed"] else (int(r["settle_month"]) if r["settle_month"] else None)
@@ -317,8 +322,9 @@ def market_rows(sfx: str, market: str | None) -> dict:
             "basis_notice_when": when,       # pre = 사업보고서보다 먼저 접수된 소집공고(그해 정기주총) · post = 제출 뒤 · early = 1~2년 앞선 주총(첨부 정관이 옛 판)
             "basis_stale_charter": bool(r.get("basis_stale_charter")),
             "basis_effect_cond": effect_cond,          # 근거 안건 부칙의 효력 조건(인가일부터 효력 등) — 기준일까지 충족됐는지는 확인하지 않음
+            "basis_other": ob,                         # 다른 공시로 판정 (label · evidence · caution · links)
             "ev_url": ev_url, "ev_label": ev_label,
-            "basis_article": article, "quotes": r["quotes"] if not (pv and pv.get("output")) else (pv["output"].get("quotes") or []),
+            "basis_article": article, "quotes": [] if ob else r["quotes"] if not (pv and pv.get("output")) else (pv["output"].get("quotes") or []),
             "route": r["route"], "fixed_point": fp,
             "final_record": record_date(code, r["tag_current"], fp, base_m, st["settle_months"]), **st,
             "interim": interim, "quarterly": quarterly,
@@ -363,7 +369,8 @@ def agm_data_at() -> str:
 
 
 CHG_COLS = ["date", "label", "base", "market", "stock_code", "corp_name", "tag_before", "tag_after", "basis_before", "basis_after",
-            "filed", "filed_cmp_before", "filed_cmp_after", "kind", "text", "notice_url", "notice_rcept_no", "result_url", "result_acptno", "agm_date"]
+            "filed", "filed_cmp_before", "filed_cmp_after", "kind", "text", "notice_url", "notice_rcept_no", "result_url", "result_acptno", "agm_date",
+            "links"]
 
 
 def changes_table() -> dict:
@@ -473,6 +480,10 @@ def notes_of(M: dict) -> list[dict]:
                       "tag": x.get("tag"), "tag_current": x.get("tag_current"), "basis_kind": x.get("basis_kind"),
                       "text": text})
 
+    for x in out_rows:                     # 다른 공시로 판정한 회사 (s09m, 코스닥 담당자 메일 2026-11-21)
+        if x.get("basis_other"):
+            o = x["basis_other"]
+            add("다른 공시로 판정 (회사 공시 문제)", x["stock_code"], f"{o['label']}. {o['evidence']} 주의: {o['caution']}", 2)
     if M["sfx"] == "absent":
         absent_notes(M, add)
         return notes
