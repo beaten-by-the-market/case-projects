@@ -3,9 +3,12 @@
 왜: 사용자 지시(2026-11-21) — 기본(2025 결산 사업보고서 첨부 정관 + 2026 정기주총 이후 안건 · 가결)을 넘어,
     회사 공시 실수와 빈틈을 수습한 유형을 정리하고 유형마다 해당 종목 전체를 웹페이지 탭에 보인다.
     회사 목록은 손으로 적지 않고 판정 데이터 · 점검 기록에서 규칙으로 뽑는다(어느 칸으로 뽑았는지 유형마다 'rule').
+    공시 문서의 유형만 담는다(2026-11-22: 부결 · 미결 · 부칙 효력 조건 · 상장 전 주총은 회사 공시 잘못이 아니라 '배당 특이사항' 탭으로 옮기고,
+    특이사항에 있던 첨부 정관 읽기 실패 · 정관 문구 오류를 여기로 옮김) — 상장공시시스템 신고가 정관과 다른 것(신고 대조 불일치)은 판정의 결과라 넣지 않는다
+    (사용자 지시 2026-11-22, 옛 8번 '신고가 정관과 반대' 뺌. 배당기준일 탭 '신고 대조' 필터로 본다).
 
 입력  site/dividend.js(s10 이 만든 판정)
-      data/interim/s09m_other_basis.json · s09k_blank.json · s09k_text_sections.json · s09e_agm_results*.json
+      data/interim/s09m_other_basis.json · s09k_blank.json · s09k_text_sections.json · s10_doc_notes.json(s10 이 씀)
 출력  data/final/dividend_cases.json  {types: [...], rows: [...]} → s10 이 dividend.js 'dividend_cases' 표로 싣는다 ('공시 유형' 탭)
 
     python -X utf8 scripts/s10_dividend_site.py
@@ -39,26 +42,18 @@ TYPES = [
      "problem": "'정관의 변경' 항목에 조문이 없다. '첨부된 대비표 참고'라고 적고 첨부가 없거나, '하단 참조'로 대비표를 그림으로 넣거나, 안건 이름만 적었다.",
      "fix": "그림은 DART 에서 받아 읽었다. 조문이 공시되지 않은 회사는 반기보고서 '정관 변경 이력' · KIND 주주총회결과 · 상장공시시스템 신고로 판정하고 조문 미공시 주의를 붙였다.",
      "rule": "s09k blank (조 머리 없음 + 첨부 · 참조 문구, 대비표 그림) · s09m 회사 공시 오류"},
-    {"id": "pre_listing", "name": "상장 전 주주총회 (소집공고 없음)",
-     "problem": "상장 전에 소집한 정기주총이라 DART 주주총회소집공고가 없고, 사업보고서 첨부 정관은 그 주총 전 판이다.",
-     "fix": "반기보고서 '정관 변경 이력'과 KIND 주주총회결과(가결) · 상장공시시스템 신고로 판정했다.",
-     "rule": "s09m '소집공고 없음'"},
     {"id": "no_agm_change", "name": "주주총회 없이 바뀐 정관을 첨부",
      "problem": "주주총회에서 고친 적 없는 기준일 조항이 사업보고서 첨부 정관에서 바뀌어 있다.",
      "fix": "전년도 사업보고서 첨부 정관과 정관 변경 이력으로 확인해 전년도 정관을 근거로 했다. 앞으로는 '첨부 정관 N · 신고 Y' 불일치만 확인한다.",
      "rule": "s09m '주주총회 개정 없이'"},
-    {"id": "failed", "name": "기준일 조항 개정 안건 부결 · 미결",
-     "problem": "대비표에는 기준일 조항 개정이 있지만 의결정족수 미달 등으로 가결되지 않았다(회사 실수 아님).",
-     "fix": "KIND 주주총회결과로 가결 여부를 확인해 반영하지 않았고, 근거 칸에 부결 · 미결 라벨을 붙였다.",
-     "rule": "s09e 결과 '판정 안건 중 가결 아닌 것'"},
-    {"id": "effect_cond", "name": "부칙으로 효력에 조건이 붙음",
-     "problem": "기준일 조항은 바뀌었지만 부칙이 효력 발생에 조건(인가일 등)을 달았다.",
-     "fix": "판정은 개정 문구로 하고 근거 칸에 부칙 조건을 주의로 적었다.",
-     "rule": "판정 데이터 basis_effect_cond"},
-    {"id": "filed_opposite", "name": "상장공시시스템 신고가 정관과 반대 (Y↔N)",
-     "problem": "정관은 N 인데 신고는 Y(또는 그 반대)다. 주총 개정 뒤 신고를 고치지 않았거나, 정관 문구가 불완전하거나(스팩의 결산배당 지급 조 없음 등) 해석이 갈린다.",
-     "fix": "판정은 정관대로 하고 '신고 대조 불일치'로 보인다. 정관 N · 신고 Y 는 주총 없이 바뀐 정관 첨부(위 유형)인지 정관 변경 이력으로 확인했다.",
-     "rule": "판정 데이터 filed_cmp = 불일치 이고 정관no ↔ 신고 Y 또는 정관yes ↔ 신고 N"},
+    {"id": "unreadable", "name": "사업보고서 첨부 정관을 읽을 수 없음",
+     "problem": "사업보고서에 붙은 정관을 읽을 수 없다. 보안정책상 암호화된 PDF 를 그대로 첨부했거나, DART 가 첨부 PDF 를 서비스하지 않거나, 정관 이미지가 중간에서 끊겨 배당 조가 없다.",
+     "fix": "전년도 사업보고서 첨부 정관이나 사업보고서 본문 '배당관련 예측가능성' 표로 판별하고, 그 뒤 주주총회 안건과 KIND 가결로 지금 태그를 정했다.",
+     "rule": "s10 특이사항의 첨부 정관 읽기 실패 분류 (s10_doc_notes.json)"},
+    {"id": "charter_error", "name": "정관 문구 자체의 오류",
+     "problem": "정관 조문에 잘못이 있다. 배당 조가 엉뚱한 항(임시주총 기준일 항 등)을 가리키거나, 개정한 항에 옛 문구가 남았거나, 부칙의 변경 내역이 본문에 반영되지 않았다.",
+     "fix": "정관 문맥 · 표준정관 · 같은 유형 선례로 회사가 뜻한 조항을 정해 판정하고, 문구의 잘못을 회사마다 적었다.",
+     "rule": "s10 특이사항의 정관 오기재 · 부칙 · 본문 불일치 · 임시주총 조항 참조 (s10_doc_notes.json)"},
 ]
 COLS = ["type", "market", "stock_code", "corp_name", "sub", "tag", "tag_current", "filed", "filed_cmp", "effect", "text", "links"]
 
@@ -130,37 +125,22 @@ def main() -> None:
         add("no_table", b["stock_code"], "그림" if b["kind"] == "대비표 그림" or re.search(r"\.jpe?g", b.get("tail") or "") else "첨부 · 참조 문구",
             "판정 그대로", b.get("reviewed") or "확인 전", [link(f"소집공고 {rc[:8]}", DART + rc, "DART 주주총회소집공고")])
 
-    # 4 · 5. 상장 전 주총 · 주총 없이 바뀐 정관 (s09m)
+    # 4. 주총 없이 바뀐 정관 (s09m)
     for code, o in other.items():
-        tid = "pre_listing" if o["label"].startswith("소집공고 없음") else "no_agm_change" if "주주총회 개정 없이" in o["label"] else None
+        tid = "no_agm_change" if "주주총회 개정 없이" in o["label"] else None     # 상장 전 주총(소집공고 없음)은 특이사항 탭으로 (2026-11-22)
         if tid:
             add(tid, code, o.get("agm_date") or "", "판정 바뀜" if changed(by.get(code, {})) else "판정 그대로",
                 o["evidence"] + " 주의: " + o["caution"], o.get("links") or [])
 
-    # 6. 부결 · 미결 (s09e)
-    for f in ("s09e_agm_results.json", "s09e_agm_results_kosdaq.json"):
-        for v in read_json(INTERIM / f).values():
-            note = v.get("note") or ""
-            if v.get("passed") is not None or not note.startswith("판정 안건 중 가결 아닌 것"):
-                continue
-            res = "미결" if "미결" in note else "부결"
-            rc = v["notice_rcept_no"]
-            add("failed", v["stock_code"], f"{res} {v.get('agm_date') or v.get('meeting_day') or ''}", "반영 안 함",
-                note.split("서브에이전트 판별: ", 1)[-1],
-                [link(f"소집공고 {rc[:8]}", DART + rc, "DART 주주총회소집공고"),
-                 link(f"결과공시 {v.get('agm_date') or ''}", v.get("result_url"), v.get("result_title") or "KIND 주주총회결과")], name=v.get("corp_name"))
-
-    # 7. 부칙 효력 조건
-    for r in R:
-        if r.get("basis_effect_cond"):
-            add("effect_cond", r["stock_code"], "", "판정 그대로 (주의)", r["basis_effect_cond"],
-                [link("근거 문서", r.get("basis_notice_url") or r.get("basis_doc_url") or r.get("ev_url"))])
-
-    # 8. 신고가 정관과 반대
-    for r in R:
-        if r.get("filed_cmp") == "불일치" and ((r["tag_current"] == "정관no" and r.get("filed") == "Y") or (r["tag_current"] == "정관yes" and r.get("filed") == "N")):
-            add("filed_opposite", r["stock_code"], f"정관 {r['tag_current'][2:]} · 신고 {r['filed']}", "판정 그대로 (신고와 다름)",
-                r.get("note") or "", [link(r.get("ev_label") or "근거", r.get("ev_url"))])
+    # 5 · 6. 첨부 정관을 읽을 수 없음 · 정관 문구 오류 (s10 특이사항에서 옮김, 2026-11-22)
+    for n in read_json(INTERIM / "s10_doc_notes.json"):
+        r = by.get(n["stock_code"], {})
+        tid = "unreadable" if any(w in n["kind"] for w in ("암호화", "서비스하지", "끊겨")) else "charter_error"
+        sub = {"보안정책상 암호화된 PDF 가 그대로 첨부돼 읽을 수 없음": "암호화 PDF", "DART 가 첨부 정관 PDF 를 서비스하지 않음": "PDF 미제공",
+               "첨부 정관 이미지가 중간에서 끊겨 배당 조가 없음": "이미지 끊김", "임시주총 조항 참조": "조항 참조 오류 (임시주총 항)",
+               "정관의 오기재 (조항 참조 오류)": "조항 참조 오류", "정관의 오기재 (개정 전 문구 잔존)": "개정 전 문구 잔존"}.get(n["kind"], n["kind"])
+        add(tid, n["stock_code"], sub, "판정 바뀜" if changed(r) else "판정 그대로", n["text"],
+            [link(r.get("ev_label") or "근거", r.get("ev_url"))], name=n.get("corp_name"), market=n.get("market"))
 
     order = {t["id"]: i for i, t in enumerate(TYPES)}
     out.sort(key=lambda e: (order[e["type"]], e["market"] != "코스피", e["stock_code"], e["sub"]))

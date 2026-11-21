@@ -27,7 +27,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _common import AS_OF, FINAL, INTERIM, ROOT, read_json  # noqa: E402
+from _common import AS_OF, FINAL, INTERIM, ROOT, read_json, write_json  # noqa: E402
 from s09a_dividend_excerpt import interim_of, paths  # noqa: E402
 from s09j_early_agm import EARLY_FROM  # noqa: E402
 
@@ -152,16 +152,48 @@ def month_end(m: int) -> str:
     return "2월 말일" if m == 2 else f"{m}월 {calendar.monthrange(2025, m)[1]}일"
 
 
-def settle_of(code: str, sec_group: str | None, sm, now: dict) -> dict:
-    """사업보고서 결산월(sm)과 지금 결산월(KIND) — 다르면 결산월 변경, 단 리츠가 3·6개월 간격이면 결산기가 여럿인 것."""
+_FY_END = re.compile(r"(\d{1,2})\s*월\s*(\d{1,2}\s*일|말일)(?:\s*[(（][^)）]*[)）])?\s*까지")
+_FY_YEAR = re.compile(r"\d{4}\s*년\s*\d{1,2}\s*월\s*(?:\d{1,2}\s*일|말일)")
+
+
+def fiscal_months(arts: list | None) -> tuple[list | None, str | None]:
+    """정관 사업연도(결산기) 조에서 결산기마다 끝나는 달 — 리츠 결산기가 여럿일 때 결산월 차이로 짐작하지 않으려고 (2026-11-22,
+    코람코더원리츠: 8월 · 2월 차이 6개월을 6개월 결산기로 짐작했으나 정관 제53조 ① 은 3개월 결산기 넷).
+    첫 항(①)만 읽고, 연도가 붙은 날짜(최초 사업연도 · 경과 규정)는 뺀다. 끝나는 날이 그 달 말일인 것만 센다."""
+    for a in arts or []:
+        if not a.get("fiscal"):
+            continue
+        t = re.split(r"[②⑵]|\n\s*2\s*[.)]", a.get("text") or "")[0]
+        t = _FY_YEAR.sub("", t)
+        ms = set()
+        for m, d in _FY_END.findall(t):
+            m = int(m)
+            if not 1 <= m <= 12:
+                continue
+            d = "말일" if "말일" in d else int(d.replace("일", "").strip())
+            if d == "말일" or d == calendar.monthrange(2025, m)[1] or (m == 2 and d in (28, 29)):
+                ms.add(m)
+        if len(ms) >= 2:
+            return sorted(ms), re.sub(r"\s+", " ", a.get("title") or "").strip() or "사업연도 조"
+    return None, None
+
+
+def settle_of(code: str, sec_group: str | None, sm, now: dict, arts: list | None = None) -> dict:
+    """사업보고서 결산월(sm)과 지금 결산월(KIND) — 다르면 결산월 변경, 단 리츠가 3·6개월 간격이면 결산기가 여럿인 것.
+    리츠는 정관 사업연도 조에 결산기가 여럿 적혀 있고 sm · 지금 결산월이 그 안에 들면 그 달들을 쓴다 (settle_basis = 그 조)."""
     cur = now.get(code)
     sm = int(sm) if sm else None
-    multi = bool(cur and sm and cur != sm and sec_group == "부동산투자회사" and (cur - sm) % 3 == 0)
-    months = None
-    if multi:
+    months, basis = None, None
+    if sec_group == "부동산투자회사":
+        fm, ft = fiscal_months(arts)
+        if fm and (not sm or sm in fm) and (not cur or cur in fm):
+            months, basis = fm, ft
+    multi = bool(months) or bool(cur and sm and cur != sm and sec_group == "부동산투자회사" and (cur - sm) % 3 == 0)
+    if multi and not months:
         step = 6 if (cur - sm) % 6 == 0 else 3
         months = sorted({(sm - 1 + step * i) % 12 + 1 for i in range(12 // step)})
-    return {"settle_month_now": cur, "settle_changed": bool(cur and sm and cur != sm and not multi), "settle_months": months}
+    return {"settle_month_now": cur, "settle_changed": bool(cur and sm and cur != sm and not multi), "settle_months": months,
+            "settle_basis": basis}
 
 
 def record_date(code: str, tag: str | None, fixed_point: str | None, month: int | None, months: list | None) -> str | None:
@@ -301,7 +333,7 @@ def market_rows(sfx: str, market: str | None) -> dict:
             arts, notices, report = [], [], None
             ev_url, ev_label = ob["links"][0]["url"], ob["links"][0]["title"]
             note, article = ob["evidence"], ""
-        st = settle_of(code, r["sec_group"], r["settle_month"], now)
+        st = settle_of(code, r["sec_group"], r["settle_month"], now, arts)
         fp = (pv["output"].get("fixed_point") if pv and pv.get("output") else r["fixed_point"] if r["tag_current"] == r["tag"] else None)
         base_m = st["settle_month_now"] if st["settle_changed"] else (int(r["settle_month"]) if r["settle_month"] else None)
         when = (None if not r["basis_notice_rcept_no"] else "early" if r.get("basis_stale_charter") else
@@ -485,13 +517,26 @@ def kosdaq_notes(M: dict, add) -> None:
 
 
 def notes_of(M: dict) -> list[dict]:
+    notes = notes_base(M)
+    by = {x["stock_code"]: x for x in M["out"]}
+
+    def add(kind, code, text, order, name=None):
+        x = by.get(code, {})
+        notes.append({"market": M["market"] or x.get("market"), "kind": kind, "order": order, "stock_code": code,
+                      "corp_name": x.get("corp_name") or name, "tag": x.get("tag"), "tag_current": x.get("tag_current"),
+                      "basis_kind": x.get("basis_kind"), "text": text})
+    agm_caution_notes(M, add)
+    return notes
+
+
+def notes_base(M: dict) -> list[dict]:
     out_rows, absent, market = M["out"], M["absent"], M["market"]
     by = {x["stock_code"]: x for x in out_rows}
     notes = []
 
-    def add(kind, code, text, order):
+    def add(kind, code, text, order, name=None):
         x = by.get(code, {})
-        notes.append({"market": market or x.get("market"), "kind": kind, "order": order, "stock_code": code, "corp_name": x.get("corp_name"),
+        notes.append({"market": market or x.get("market"), "kind": kind, "order": order, "stock_code": code, "corp_name": x.get("corp_name") or name,
                       "tag": x.get("tag"), "tag_current": x.get("tag_current"), "basis_kind": x.get("basis_kind"),
                       "text": text})
 
@@ -561,6 +606,55 @@ def notes_of(M: dict) -> list[dict]:
     return notes
 
 
+# 배당 특이사항 유형 (사용자 지시 2026-11-22) — 분류(kind)를 몇 가지 유형으로 묶어 탭 위에서 골라 보게 한다.
+#   공시 문서 문제(DOC_KINDS)는 '공시 유형' 탭(s10d)으로 옮기고 여기서는 뺀다(data/interim/s10_doc_notes.json 으로 넘김).
+#   근거 경로(정기주총 · 제출 뒤 주총에서 바뀜)는 배당기준일 탭 '근거 종류' 필터로 보므로 뺀다.
+NOTE_GROUPS = [
+    {"id": "no_doc", "name": "사업보고서 · 소집공고가 없음",
+     "desc": "판정에 쓰는 기본 공시가 없다. 사업보고서가 없는 회사(분할 신설 · 신규 상장 등)는 증권신고서 · 분할계획서 · 기타신고사항의 정관으로, "
+             "상장 전에 소집한 정기주총은 반기보고서 '정관 변경 이력'과 KIND 주주총회결과로 정했다."},
+    {"id": "form", "name": "표준 서식 문구로 판정",
+     "desc": "같은 서식을 쓰는 회사들에 공통으로 남은 문구(스팩 정관의 소멸시효 조 문구, 기준일 조의 상법 제354조식 단서)를 서식 규칙으로 판정했다."},
+    {"id": "interp", "name": "정관 구조가 남달라 해석해 정함",
+     "desc": "결산일이 아닌 날짜로 고정, 의결권 기준일과 같은 날, 금전 · 주식배당 분리, 이익배당 조 없이 기준일 조만 있음 등 표준정관과 구조가 달라 조문을 읽고 정했다."},
+    {"id": "agm", "name": "주총 안건 반영 주의",
+     "desc": "기준일 조항을 바꾸는 안건이 부결 · 미결됐거나 가결을 확인하지 못해 반영하지 않았고, 부칙이 효력에 조건을 달았거나 첨부 정관이 안건을 미리 반영한 경우다."},
+]
+NOTE_GROUP_OF = {
+    "사업보고서 없음 →": "no_doc", "상장 전 주주총회 (소집공고 없음)": "no_doc", "상장됐지만 대상 밖": "no_doc",
+    "서식 판정:": "form",
+    "결산일이 아닌 고정일": "interp", "의결권 기준일과 같은 날": "interp", "금전·주식배당 분리": "interp",
+    "배당 조항 없이 주주명부 조가 겸함": "interp", "기준일 조의 기본값": "interp", "정관에 결산배당 조가 없음": "interp",
+    "영문 정관 전문으로 판별": "interp",
+    "기준일 조항 개정 안건 부결 · 미결": "agm", "주총 안건 가결 확인 못 함": "agm", "부칙으로 효력에 조건": "agm",
+    "첨부 정관이 이미 안건 반영본": "agm",
+}
+DOC_KINDS = (UNREAD_ENC, UNREAD_NOSVC, UNREAD_CUT, "정관의 오기재", "부칙·본문 불일치", "임시주총 조항 참조")
+ROUTE_KINDS = ("정기주총에서 바뀜", "사업보고서 제출 뒤 주총에서 바뀜", "첨부 정관이 옛 판", "다른 공시로 판정")
+DOC_NOTES = INTERIM / "s10_doc_notes.json"
+
+
+def note_group(kind: str) -> str | None:
+    return next((g for k, g in NOTE_GROUP_OF.items() if kind.startswith(k)), None)
+
+
+def agm_caution_notes(M: dict, add) -> None:
+    """부결 · 미결 안건(s09e) · 부칙 효력 조건 · 상장 전 주총 — 2026-11-22 공시 유형 탭에서 옮겨 옴(회사 공시 문서 잘못이 아님)."""
+    for rc, v in sorted(M["agm"].items()):
+        note = v.get("note") or ""
+        if v.get("passed") is not None or not note.startswith("판정 안건 중 가결 아닌 것"):
+            continue
+        res = "미결" if "미결" in note else "부결"
+        add("기준일 조항 개정 안건 부결 · 미결", v["stock_code"], f"{res} ({v.get('agm_date') or v.get('meeting_day') or ''} 주총, 소집공고 {rc}). "
+            + note.split("서브에이전트 판별: ", 1)[-1], 3, name=v.get("corp_name"))
+    for x in M["out"]:
+        if x.get("basis_effect_cond"):
+            add("부칙으로 효력에 조건", x["stock_code"], f"판정은 개정 문구로 했다. 주의: {x['basis_effect_cond']}", 3)
+        o = x.get("basis_other") or {}
+        if (o.get("label") or "").startswith("소집공고 없음"):
+            add("상장 전 주주총회 (소집공고 없음)", x["stock_code"], f"{o['label']}. {o['evidence']} 주의: {o['caution']}", 1)
+
+
 def stats_of(out_rows: list[dict], rows: list[dict], klca: bool) -> dict:
     def ct(key_a, key_b, src=out_rows):
         c = Counter((x[key_a], x[key_b]) for x in src)
@@ -610,6 +704,17 @@ def main():
     notes = [n for M in Ms for n in notes_of(M)]
     for n in notes:                                   # em dash 빼기 · '전사' 대신 'OCR' (사용자 지시 2026-11-16)
         n["kind"], n["text"] = nodash(n["kind"]), ocr_word(nodash(n["text"]))
+    unread = {(n["market"], n["stock_code"]): n["kind"] for n in notes if n["kind"] in (UNREAD_ENC, UNREAD_NOSVC, UNREAD_CUT)}
+    for x in out_rows:                                # 첨부 정관을 읽지 못한 까닭 (화면 라벨 — 특이사항 표에서 빠져 행에 싣는다)
+        x["unread_kind"] = unread.get((x["market"], x["stock_code"]))
+    write_json(DOC_NOTES, [n for n in notes if n["kind"].startswith(DOC_KINDS)])     # → s10d '공시 유형'
+    left = [n["kind"] for n in notes if not n["kind"].startswith(DOC_KINDS + ROUTE_KINDS) and not note_group(n["kind"])]
+    if left:
+        raise SystemExit(f"특이사항 분류에 유형이 없다: {sorted(set(left))} — NOTE_GROUP_OF 에 더한다")
+    notes = [dict(n, group=note_group(n["kind"])) for n in notes if note_group(n["kind"])]
+    gi = {g["id"]: i for i, g in enumerate(NOTE_GROUPS)}
+    note_groups = [dict(g, n=len({(n["market"], n["stock_code"]) for n in notes if n["group"] == g["id"]}),
+                        kinds=sorted({n["kind"] for n in notes if n["group"] == g["id"]})) for g in NOTE_GROUPS]
     for x in out_rows:
         for c in ("note", "attached_note", "reviewed_why", "agm_note"):
             x[c] = ocr_word(x[c])
@@ -631,9 +736,9 @@ def main():
         "tables": {
             "dividend": {"cols": cols, "rows": [[x[c] for c in cols] for x in out_rows],
                          "file": "charter_dividend_record_date.json", "updated": datetime.now().strftime("%Y-%m-%d %H:%M")},
-            "dividend_notes": {"cols": ncols, "rows": [[x[c] for c in ncols] for x in sorted(notes, key=lambda n: (n["market"] != "코스피", n["order"], n["stock_code"] or ""))],
-                               "file": "s10 특이사항", "updated": datetime.now().strftime("%Y-%m-%d %H:%M")},
-            # 배포한 판 대비 판정이 바뀐 회사 (s10c, 사용자 지시 2026-11-19 — 배포 뒤 변화 관리). 웹페이지 '변경 이력' 탭
+            "dividend_notes": {"cols": ncols, "rows": [[x[c] for c in ncols] for x in sorted(notes, key=lambda n: (gi[n["group"]], n["market"] != "코스피", n["order"], n["kind"], n["stock_code"] or ""))],
+                               "groups": note_groups, "file": "s10 특이사항", "updated": datetime.now().strftime("%Y-%m-%d %H:%M")},
+            # 배포한 판 대비 판정이 바뀐 회사 (s10c, 사용자 지시 2026-11-19 — 배포 뒤 변화 관리). 웹페이지 '판정 변경 이력' 탭
             "dividend_changes": changes_table(),
             # 회사 공시 실수 · 빈틈 유형별 회사 (s10d, 사용자 지시 2026-11-21). 웹페이지 '공시 유형' 탭
             "dividend_cases": cases_table(),

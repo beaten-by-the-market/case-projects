@@ -315,7 +315,7 @@
         ${misc}
         <p class="small">근거: OpenDART <code>list.json</code> 에 회사 고유번호를 넣어 ① 사업보고서(A001) 전체 이력(1999-01-01 ~ 기준일), ② 조회기간의 모든 공시(최종본)를 조회했고, 결산월은 <code>company.json</code> 으로 확인했다.
           KIND 는 ③ 공시 상세검색(회사·조회기간·최종본), ④ 제목이 '기타신고사항'인 공시는 본문의 '제목' 칸을 읽어 영업보고서·자산운용보고서·결산·감사·정관 변경·투자설명서 갱신·그 밖으로 묶었다.
-          사업보고서 기한은 사업연도 경과 후 90일(자본시장법 제159조). 표: ${ABS.map((x) => loc(`data/final/${x.absent}.csv`, `${x.absent}.csv`)).join(" · ")} · 만드는 단계 ${ABS.map((x) => `<code>scripts/${x.step}</code>`).join(" · ")}</p>
+          사업보고서 기한은 사업연도 경과 후 90일(자본시장법 제159조). 표: ${ABS.map((x) => loc(`data/final/${x.absent}.csv`, `${x.absent}.csv`)).join(" · ")}</p>
       </details>` : ""}
       ${ABS.map((x) => `<p class="small">${cnt(x)}</p>`).join("")}
     </div>`;
@@ -411,7 +411,7 @@
   };
   // 첨부 정관을 읽을 수 없어 다른 자료로 정한 행(첨부 태그 확인필요): 쓴 자료 이름을 짙은 보라 라벨로(주총 안건은 크림슨), 이유는 작은 글씨 (사용자 결정 2026-11-17)
   const unreadWhy = (r) => {
-    const k = (rowsOf("dividend_notes").find((n) => n.stock_code === r.stock_code && (!n.market || n.market === r.market) && /암호화|서비스하지|끊겨/.test(n.kind || "")) || {}).kind || "";
+    const k = r.unread_kind || "";      // s10 이 특이사항 분류에서 행에 싣는다 (2026-11-22 특이사항 표에서 공시 유형 탭으로 옮김)
     return /암호화/.test(k) ? "암호화된 PDF" : /서비스하지/.test(k) ? "DART 가 PDF 를 제공하지 않음" : /끊겨/.test(k) ? "정관 이미지가 중간에 끊겨 배당 조항이 없음" : "";
   };
   const altWhy = (r, tail) => {
@@ -512,7 +512,7 @@
     if (!r.settle_month) return NA;
     const now = r.settle_month_now;
     if (r.settle_changed) return `${esc(r.settle_month)}월<br><span class="bad small chg" title="KIND 상장법인목록 지금 결산월 ${esc(now)}월">(사업보고서 제출 이후 결산월 변경)</span>`;
-    if (Array.isArray(r.settle_months) && r.settle_months.length > 1) return `${esc(r.settle_month)}월<br><span class="small" title="리츠: 결산기가 ${12 / r.settle_months.length}개월이라 결산월이 여럿 (KIND 상장법인목록에는 ${esc(now)}월)">결산기 ${r.settle_months.join("·")}월</span>`;
+    if (Array.isArray(r.settle_months) && r.settle_months.length > 1) return `${esc(r.settle_month)}월<br><span class="small" title="리츠: 결산기가 ${12 / r.settle_months.length}개월이라 결산월이 여럿 (${r.settle_basis ? `정관 ${esc(r.settle_basis)} · ` : ""}KIND 상장법인목록에는 ${esc(now)}월)">결산기 ${r.settle_months.join("·")}월</span>`;
     return `${esc(r.settle_month)}월`;
   };
 
@@ -666,9 +666,19 @@
   const caseBox = () => (!CASE_T.length ? "" : `<div class="xtbox wide"><h4 class="sec">유형 정리</h4><div class="grid static"><table class="xt"><thead><tr>
       <th>#</th><th>유형</th><th>무엇이 문제였나</th><th>어떻게 풀었나</th><th>회사 수</th><th>판정 바뀜</th></tr></thead><tbody>${CASE_T.map((t, i) => `<tr>
       <td class="c">${i + 1}</td><td class="nm"><a href="#divcase" data-go="divcase:ctype=${esc(t.id)}">${esc(t.name)}</a></td>
-      <td class="wrap">${esc(t.problem)}</td><td class="wrap">${esc(t.fix)}<br><span class="small na">뽑은 규칙: ${esc(t.rule)}</span></td>
+      <td class="wrap">${esc(t.problem)}</td><td class="wrap">${esc(t.fix)}</td>
       <td class="num">${fmtN(t.n)}</td><td class="num">${t.n_changed ? `<b class="hl">${fmtN(t.n_changed)}</b>` : "0"}</td></tr>`).join("")}</tbody></table></div>
       <p class="small">유형 이름을 누르면 아래 표가 그 유형 회사만 보인다. 한 회사가 여러 유형에 들 수 있다(회사 수는 유형마다 센다).</p></div>`);
+  // 배당 특이사항 유형 (s10 NOTE_GROUPS, 사용자 지시 2026-11-22 — 분류를 유형으로 묶어 위에서 골라 보기)
+  const NOTE_G = (((window.DATA_DIV || {}).tables || {}).dividend_notes || {}).groups || [];
+  const NOTE_GI = Object.fromEntries(NOTE_G.map((g, i) => [g.id, i]));
+  const NOTE_GN = Object.fromEntries(NOTE_G.map((g) => [g.id, g.name]));
+  const noteBox = () => (!NOTE_G.length ? "" : `<div class="xtbox wide"><h4 class="sec">유형 정리</h4><div class="grid static"><table class="xt"><thead><tr>
+      <th>#</th><th>유형</th><th>무엇을 따로 판단했나</th><th>세부 분류</th><th>회사 수</th></tr></thead><tbody>${NOTE_G.map((g, i) => `<tr>
+      <td class="c">${i + 1}</td><td class="nm"><a href="#divnote" data-go="divnote:ngrp=${esc(g.id)}">${esc(g.name)}</a></td>
+      <td class="wrap">${esc(g.desc)}</td><td class="wrap small">${(g.kinds || []).map(esc).join("<br>")}</td>
+      <td class="num">${fmtN(g.n)}</td></tr>`).join("")}</tbody></table></div>
+      <p class="small">유형 이름을 누르면 아래 표가 그 유형 회사만 보인다. 회사 공시 문서의 잘못은 '공시 유형' 탭에, 주총 안건으로 태그가 바뀐 회사는 배당기준일 탭 '근거 종류' 필터에 있다.</p></div>`);
   const CHG_KEYS = new Set(rowsOf("dividend_changes").map((n) => `${n.market}|${n.stock_code}`));   // 배포 뒤 판정이 바뀐 회사 (s10c)
 
   /* ---------- 탭 ---------- */
@@ -690,7 +700,7 @@
         [SEL("basis_kind", "근거 종류", "basis_kind", { order: Object.keys(BKC) }), SEL("sec_group", "증권구분", "sec_group"),
           CHK("changed", "첨부 정관 대비", "지금 태그가 다른 회사", (r) => !!r.changed, ["changed"], "제출 뒤 주총에서 바뀌었거나 대체 자료로 정한 회사"),
           CHK("qfix", "분기배당", "결산 N · 분기 고정", (r) => r.tag_current === "정관no" && r.quarterly === "고정", ["quarterly"], "결산배당은 이사회가 정하는데 분기배당은 고정"),
-          CHK("chg", "변경 이력", "배포 뒤 바뀐 회사", (r) => CHG_KEYS.has(`${r.market}|${r.stock_code}`), ["stock_code"], "이미 배포한 판과 견주어 판정이 바뀐 회사 ('변경 이력' 탭)")],
+          CHK("chg", "판정 변경 이력", "배포 뒤 바뀐 회사", (r) => CHG_KEYS.has(`${r.market}|${r.stock_code}`), ["stock_code"], "이미 배포한 판과 견주어 판정이 바뀐 회사 ('판정 변경 이력' 탭)")],
       ],
       sort: ["market", 1],
       cols: [
@@ -725,12 +735,17 @@
     },
     {
       id: "divnote", label: "배당 특이사항", table: "dividend_notes", title: "배당기준일 특이사항",
-      desc: "분류하면서 따로 적어 둘 회사들. 확인필요였던 회사는 전년도 사업보고서 정관·그 사이 소집공고·사업보고서 본문으로 데이터를 채웠고, 제출 뒤 주총에서 기준일 조항을 바꾼 회사는 KIND 주주총회결과로 가결을 확인했다. 행을 누르면 그 회사의 근거가 열린다.",
-      filters: [[Q("회사명·종목코드"), SEL("market", "시장", "market", { order: MKT }), SEL("kind", "분류", "kind"), F_CG]],
-      sort: ["kind", 1],
+      badge: NOTE_G.length ? `${fmtN(NOTE_G.length)}유형` : "",
+      desc: "판정하면서 기본 방법(사업보고서 첨부 정관 + 그 뒤 주총 안건 · KIND 가결) 밖에서 따로 판단한 회사들을 유형별로 모았다. 회사의 공시 잘못이 아니라 공시가 없거나, 정관 문구 · 구조가 남다르거나, 주총 안건을 반영하지 않은 경우다. 행을 누르면 그 회사의 근거가 열린다.",
+      extra: noteBox,
+      filters: [[Q("회사명·종목코드"), SEL("ngrp", "유형", "group", { order: NOTE_G.map((g) => g.id), fmt: (v) => NOTE_GN[v] || v }),
+        SEL("market", "시장", "market", { order: MKT }), SEL("kind", "세부 분류", "kind"), F_CG]],
+      sort: ["group", 1],
       cols: [
-        C_NO, { k: "market", t: "시장", c: "c", h: (n) => mk(n.market) },
-        { k: "kind", t: "분류", c: "nm", v: (n) => (MKT.indexOf(n.market) + 1) * 1e5 + n.order * 1000 },
+        C_NO, { k: "group", t: "유형", c: "nm", v: (n) => (NOTE_GI[n.group] ?? 9) * 1e7 + (MKT.indexOf(n.market) + 1) * 1e5 + n.order * 1000,
+          h: (n) => `<span class="small">${(NOTE_GI[n.group] ?? 0) + 1}.</span> ${esc(NOTE_GN[n.group] || n.group || "")}` },
+        { k: "market", t: "시장", c: "c", h: (n) => mk(n.market) },
+        { k: "kind", t: "세부 분류", c: "nm", v: (n) => (NOTE_GI[n.group] ?? 9) * 1e7 + (MKT.indexOf(n.market) + 1) * 1e5 + n.order * 1000 },
         C_CODE, { k: "corp_name", t: "회사명", c: "nm" },
         { k: "tag", t: "첨부 정관", c: "c", h: (n) => (n.tag ? dtag(n.tag) : NA) },
         { k: "tag_current", t: "지금", c: "c", h: (n) => (n.tag_current ? dtag(n.tag_current) : NA) },
@@ -740,13 +755,14 @@
     },
     {
       // 배포한 판 대비 판정이 바뀐 회사 (s10c → dividend_changes, 사용자 지시 2026-11-19 — 배포 뒤 변화 관리)
-      id: "divchg", label: "변경 이력", table: "dividend_changes", title: "배당기준일 변경 이력 (배포 뒤 판정이 바뀐 회사)",
+      id: "divchg", label: "판정 변경 이력", table: "dividend_changes", title: "배당기준일 판정 변경 이력 (배포 뒤 판정이 바뀐 회사)",
       badge: rowsOf("dividend_changes").length ? `${fmtN(rowsOf("dividend_changes").length)}건` : "",
       tip: "이미 배포한 판과 견주어 정관 태그 · 근거 · 신고 대조가 바뀐 회사",
       desc: "이미 배포한 페이지와 견주어 판정이 바뀐 회사를 반영일마다 모았다. '이전'은 바로 앞 배포본의 값, '지금'은 이 페이지의 값이다. " +
         "2026-11-19 반영: 2024 · 2025년 주주총회 소집공고와 KIND 주주총회결과를 더 모아, 사업보고서(2025 결산)에 그 주총 개정 전의 옛 정관을 붙여 둔 회사를 찾아 바로잡았다. " +
         "1~2년 앞선 안건은 대개 첨부 정관에 이미 반영돼 있어서, 안건의 '변경 전' · '변경 후' 문구를 첨부 정관과 대조해 옛 판일 때만 바꿨다. " +
         "2026-11-21 반영: 코스닥시장 담당자가 알려 온 3사를 공시로 다시 확인해 반영했다(대비표를 첨부한다고 적고 첨부하지 않은 회사 · 상장 전 소집이라 소집공고가 없는 회사 · 주총 개정 없이 다른 정관을 첨부한 회사). 같은 유형을 2026 반기보고서 '정관 변경 이력'으로 전 종목 대조해 1사(소집공고에 '정관의 변경' 항목 없이 안건 이름만 적은 회사)를 더 찾았다. " +
+        "2026-11-22 반영: 우리 쪽 계산을 바로잡았다(회사 공시 문제 아님). 결산기가 여럿인 리츠의 결산월을 사업보고서 · KIND 결산월 차이로 짐작하던 것을 정관 사업연도 조에서 읽도록 고쳐, 3개월 결산기인 코람코더원리츠의 '결산' 날짜에 5월 31일 · 11월 30일이 더해지고 신고 대조가 일치로 바뀌었다. " +
         "2026-11-20 반영: 소집공고에 '정관의 변경'을 서식 절이 아닌 다른 절 안 글이나 본문 끝 별첨으로 적은 경우를 찾도록 절 추출을 보완해, 놓쳤던 2026년 정기주총 안건(KIND 가결)을 반영했다. 행을 누르면 그 회사의 근거가 열린다.",
       filters: [[Q("회사명·종목코드"), SEL("market", "시장", "market", { order: MKT }), SEL("date", "반영일", "date"), SEL("kind", "까닭", "kind")]],
       sort: ["date", -1],
@@ -773,8 +789,8 @@
       badge: CASE_T.length ? `${fmtN(CASE_T.length)}유형` : "",
       tip: "사업보고서 첨부 정관과 주총 안건만으로는 정할 수 없던 회사 공시 실수 · 빈틈의 유형과 해당 회사 전체",
       desc: "기본은 2025 결산 사업보고서에 첨부된 정관을 읽고, 그 정관이 지난 것일 수 있어 2026 정기주총과 그 뒤 주총의 정관 변경 안건과 KIND 가결 여부를 확인하는 것이다. " +
-        "이 탭은 그 기본만으로는 정할 수 없던 경우를 유형별로 모았다. 대부분 회사의 공시 실수(옛 판 정관 첨부, 대비표를 다른 항목에 적거나 싣지 않음, 주총 없이 바뀐 정관 첨부)이고, 상장 전 주총 · 부결 · 부칙 조건처럼 실수는 아니지만 따로 확인해야 하는 경우도 넣었다. " +
-        "회사 목록은 손으로 고르지 않고 판정 데이터와 점검 기록에서 규칙으로 뽑았다(유형마다 '뽑은 규칙'). '판정 그대로'인 회사는 같은 유형의 공시였지만 결산배당 기준일과 무관했거나 이미 반영돼 있던 경우다. 행을 누르면 그 회사의 근거가 열린다.",
+        "이 탭은 그 기본만으로는 정할 수 없던 경우를 유형별로 모았다. 모두 회사가 공시 문서를 잘못 냈거나 빠뜨린 경우다(옛 판 정관 첨부, 대비표를 다른 항목에 적거나 싣지 않음, 주총 없이 바뀐 정관 첨부, 읽을 수 없는 정관 첨부, 정관 문구의 오류). 공시가 없거나 부결 · 부칙 조건처럼 공시 잘못이 아닌 경우는 '배당 특이사항' 탭에 있다. " +
+        "회사 목록은 손으로 고르지 않고 판정 데이터와 점검 기록에서 규칙으로 뽑았다. '판정 그대로'인 회사는 같은 유형의 공시였지만 결산배당 기준일과 무관했거나 이미 반영돼 있던 경우다. 행을 누르면 그 회사의 근거가 열린다.",
       extra: caseBox,
       filters: [[Q("회사명·종목코드"), SEL("ctype", "유형", "type", { order: CASE_T.map((t) => t.id), fmt: (v) => CASE_N[v] || v }),
         SEL("market", "시장", "market", { order: MKT }), SEL("effect", "판정 영향", "effect")]],

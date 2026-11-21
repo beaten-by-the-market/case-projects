@@ -9,7 +9,7 @@
       같은 반영일 · 같은 회사 건은 다시 돌리면 덮어쓴다(기록이 겹치지 않게). 앞선 반영일 기록은 그대로 둔다.
 출력  data/final/dividend_changes.json  [{date, label, base, market, stock_code, corp_name, tag_before, tag_after,
       basis_before, basis_after, filed, filed_cmp_before, filed_cmp_after, kind, text, notice_url, notice_rcept_no,
-      result_url, result_acptno, agm_date}]  → s10 이 dividend.js 'dividend_changes' 표로 싣는다 (웹페이지 '변경 이력' 탭)
+      result_url, result_acptno, agm_date}]  → s10 이 dividend.js 'dividend_changes' 표로 싣는다 (웹페이지 '판정 변경 이력' 탭, 2026-11-22 '변경 이력'에서 이름 바꿈)
 
     python -X utf8 scripts/s10_dividend_site.py            # 새 판 만들기
     python -X utf8 scripts/s10c_change_log.py --date 2026-11-19 --label "2024·2025년 소집공고 추가 반영"
@@ -58,6 +58,19 @@ def filing_fault(rc: str | None) -> str | None:
     return "회사 공시 오류: 정관 변경을 '정관의 변경' 항목 없이 본문 별첨으로만 기재"
 
 
+def fr_fix(o: dict, x: dict) -> bool:
+    """태그 · 근거는 그대로이고 '결산' 날짜(final_record)만 우리 계산을 고쳐 신고 대조가 바뀐 경우 (2026-11-22, 코람코더원리츠)."""
+    return o["basis_kind"] == x["basis_kind"] and o.get("final_record") != x.get("final_record")
+
+
+def fr_text(o: dict, x: dict) -> str:
+    src = f"정관 {x['settle_basis']}의 결산기" if x.get("settle_basis") else "결산월"
+    t = f"회사 공시 문제 아님. 우리가 만든 '결산' 날짜가 틀렸다: {o.get('final_record')} → {x.get('final_record')} ({src}대로 고침)."
+    if x.get("filed_date"):
+        t += f" 신고 기준일 {x['filed_date']} 은 그중 하나라 신고 대조 {o.get('filed_cmp')} → {x.get('filed_cmp')}."
+    return t
+
+
 def rows_of(js: str) -> dict[tuple[str, str], dict]:
     d = json.loads(js[js.index("{"):js.rindex("}") + 1])
     t = d["tables"]["dividend"]
@@ -87,10 +100,14 @@ def main() -> None:
                     "filed_cmp_before": o.get("filed_cmp"), "filed_cmp_after": x.get("filed_cmp"),
                     "kind": ((x.get("basis_other") or {}).get("label") or filing_fault(x.get("basis_notice_rcept_no"))
                              or KIND.get(x.get("basis_notice_when") or "", "근거 바뀜"))
-                            if o["tag_current"] != x["tag_current"] else "근거만 바뀜",
+                            if o["tag_current"] != x["tag_current"]
+                            else "우리 쪽 '결산' 날짜 바로잡음" if fr_fix(o, x) else "근거만 바뀜",
                     "text": (f"{x['basis_other']['evidence']} 주의: {x['basis_other']['caution']}" if x.get("basis_other")
+                             else fr_text(o, x) if o["tag_current"] == x["tag_current"] and fr_fix(o, x)
                              else x.get("note") or x.get("basis_note") or ""),
-                    "links": (x.get("basis_other") or {}).get("links") or [],
+                    "links": (x.get("basis_other") or {}).get("links")
+                             or ([{"url": x.get("basis_charter_url") or x.get("ev_url"), "label": "첨부 정관", "title": "DART 첨부 정관 (결산기 조)"}]
+                                 if o["tag_current"] == x["tag_current"] and fr_fix(o, x) else []),
                     "notice_url": x.get("basis_notice_url"), "notice_rcept_no": x.get("basis_notice_rcept_no"),
                     "result_url": x.get("basis_result_url"), "result_acptno": x.get("basis_result_acptno"), "agm_date": x.get("basis_agm_date")})
     gone = [k for k in old if k not in new]

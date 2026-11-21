@@ -308,5 +308,34 @@
   "result_url": null,
   "result_acptno": null,
   "agm_date": "2026-03-31"
+ },
+ {
+  "date": "2026-11-22",
+  "label": "리츠 결산기를 정관 사업연도 조로",
+  "base": "82c5b386",
+  "market": "코스피",
+  "stock_code": "417310",
+  "corp_name": "코람코더원리츠",
+  "tag_before": "정관yes",
+  "tag_after": "정관yes",
+  "basis_before": "사업보고서",
+  "basis_after": "사업보고서",
+  "filed": "Y",
+  "filed_cmp_before": "불일치",
+  "filed_cmp_after": "일치",
+  "kind": "우리 쪽 '결산' 날짜 바로잡음",
+  "text": "회사 공시 문제 아님. 우리가 만든 '결산' 날짜가 틀렸다: 2월 말일 · 8월 31일 → 2월 말일 · 5월 31일 · 8월 31일 · 11월 30일 (정관 제53조(사업연도)의 결산기대로 고침). 신고 기준일 2026-11-30 은 그중 하나라 신고 대조 불일치 → 일치.",
+  "links": [
+   {
+    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000393&dcmNo=11633359",
+    "label": "첨부 정관",
+    "title": "DART 첨부 정관 (결산기 조)"
+   }
+  ],
+  "notice_url": null,
+  "notice_rcept_no": null,
+  "result_url": null,
+  "result_acptno": null,
+  "agm_date": null
  }
 ]
